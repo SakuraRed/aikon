@@ -2,6 +2,12 @@
 
 GitHub Issues 为 canonical tracker，地图采用 `wayfinder:map`，研究、访谈和原型分别使用相应类型标签。子任务用 GitHub sub-issues 关联，阻塞使用原生 issue dependencies。
 
+地图：[Aikon：明确可移植 Grok bot SVG 技能的创作与验收路线](https://github.com/SakuraRed/aikon/issues/1)。
+
+当前调查入口：[网页概念、完整提示词及视觉样例](https://github.com/SakuraRed/aikon/issues/2)、[标准技能移植、原生问答与 SVG 一致性验证](https://github.com/SakuraRed/aikon/issues/3)。访谈：[风格、交互深度与一致性验收目标](https://github.com/SakuraRed/aikon/issues/4)。实时状态以 GitHub 为准。
+
+调查与两轮访谈已完成；当前前沿为[首版技能与原创 SVG 原型验收](https://github.com/SakuraRed/aikon/issues/5)，尚需实际视觉反馈。
+
 ## 目的地
 
 明确可移植 SVG 图标技能的视觉规则、交互行为、产物管理和验收方式，形成可进入 skill-creator 创建与迭代循环的证据及规范。

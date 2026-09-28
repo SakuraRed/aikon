@@ -1,0 +1,92 @@
+[
+  {
+    "file": "site/short-pink.png",
+    "url": "https://grokbot-icon-studio.serio-ai.chatgpt.site/images/pink.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "bytes": 1022834,
+    "sha256": "1e2a26423a6d573c476245fc46a88e4a88db4f9d30a7fe173cb232ae5978ac39",
+    "retrieved_date": "2026-09-28",
+    "role": "primary",
+    "selection_reason": "Large cropped round face, two visible capsule eyes, large pink hair masses, upper-right negative space. Raster still contains subtle shading; not a strict flat-fill gold standard.",
+    "visual_review": "Viewed by primary agent; qualitative, not pixel-calibrated.",
+    "rights": "Site examples are excluded from the prompt CC BY-NC license. Private research reference only; redistribution permission not verified."
+  },
+  {
+    "file": "site/short-blonde.jpg",
+    "url": "https://grokbot-icon-studio.serio-ai.chatgpt.site/images/blonde.jpg",
+    "size": [
+      1254,
+      1254
+    ],
+    "bytes": 94864,
+    "sha256": "52049a1fe0fd9b693bd7a44ff6209dd61cd115a370dd14798ecea44167e2298e",
+    "retrieved_date": "2026-09-28",
+    "role": "counterexample",
+    "selection_reason": "Eyes/head lean in opposite direction from written clockwise convention; retain to test drift, not as canonical geometry.",
+    "visual_review": "Viewed by primary agent; qualitative, not pixel-calibrated.",
+    "rights": "Site examples are excluded from the prompt CC BY-NC license. Private research reference only; redistribution permission not verified."
+  },
+  {
+    "file": "site/short-black.png",
+    "url": "https://grokbot-icon-studio.serio-ai.chatgpt.site/images/black.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "bytes": 1791599,
+    "sha256": "dcd45a7f10b7e3fe1eff31e37ca231b6fd6f443d1716c19b227a0236c4d1469e",
+    "retrieved_date": "2026-09-28",
+    "role": "primary",
+    "selection_reason": "Straight fringe identity with round faceless bot geometry and diagonal eye line; useful contrast to side-parted hairstyles.",
+    "visual_review": "Viewed by primary agent; qualitative, not pixel-calibrated.",
+    "rights": "Site examples are excluded from the prompt CC BY-NC license. Private research reference only; redistribution permission not verified."
+  },
+  {
+    "file": "site/short-blue.png",
+    "url": "https://grokbot-icon-studio.serio-ai.chatgpt.site/images/blue.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "bytes": 1795910,
+    "sha256": "13b24bb1e340758bb95258a867772939b387ba05903ecc6bfe336198d78ee8d8",
+    "retrieved_date": "2026-09-28",
+    "role": "primary",
+    "selection_reason": "Blue palette and silhouette with tuft/bundle; useful for separation of identity from fixed eye grammar.",
+    "visual_review": "Viewed by primary agent; qualitative, not pixel-calibrated.",
+    "rights": "Site examples are excluded from the prompt CC BY-NC license. Private research reference only; redistribution permission not verified."
+  },
+  {
+    "file": "site/full-teal.png",
+    "url": "https://grokbot-icon-studio.serio-ai.chatgpt.site/images/full/teal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "bytes": 1873238,
+    "sha256": "061cd1c38dfc1876af9be87a94d01bd2ae3494671d1d72af253ad579732525be",
+    "retrieved_date": "2026-09-28",
+    "role": "secondary",
+    "selection_reason": "Strong original hue and large hair mass highlights; more neck/collar and complete chin than strict close crop. Do not copy all composition details.",
+    "visual_review": "Viewed by primary agent; qualitative, not pixel-calibrated.",
+    "rights": "Site examples are excluded from the prompt CC BY-NC license. Private research reference only; redistribution permission not verified."
+  },
+  {
+    "file": "site/full-black.png",
+    "url": "https://grokbot-icon-studio.serio-ai.chatgpt.site/images/full/black.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "bytes": 1896309,
+    "sha256": "3d31131cafa00accd3fcce06c7ec37c98f227960cfb1d545415c7cb4f27cd433",
+    "retrieved_date": "2026-09-28",
+    "role": "counterexample",
+    "selection_reason": "Visible hand and wrist plus more body contradict no-hands/face-close-up rules; useful to show image examples are not automatically gold standards.",
+    "visual_review": "Viewed by primary agent; qualitative, not pixel-calibrated.",
+    "rights": "Site examples are excluded from the prompt CC BY-NC license. Private research reference only; redistribution permission not verified."
+  }
+]

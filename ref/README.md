@@ -4,4 +4,12 @@
 
 网页来源：https://grokbot-icon-studio.serio-ai.chatgpt.site/zh-hans
 
-尚未完成样例筛选。引用网页样例不自动意味着拥有再分发授权；研究参考与分发技能资产必须区分。
+已查看首页全部 10 张原图的总览，并放大核对粉发及完整版青发图；筛选 6 张保存到 `site/`。详见 [来源、哈希与筛选理由](sources.json) 及 [对照图](selection.jpg)。
+
+- 主参考：short-pink、short-black、short-blue，观察脸部裁切、胶囊眼和发型辨识。
+- 辅助参考：full-teal，观察原色、发型大色块，但不把更多衣领和完整下巴设为严格标准。
+- 反例：short-blonde 的倾斜方向、full-black 的手和更多身体，用于说明展示图未必遵守文字规则。
+
+所有分类是当前 Agent 的研究判断，尚未经过用户视觉验收；主参考也存在细微渐变，不是每项规则都完美满足。
+
+作者/站点：[@multi_serio_ai (APG)](https://x.com/Multi_Serio_Ai)。[站点许可页](https://grokbot-icon-studio.serio-ai.chatgpt.site/zh-hans/license) 明确示例图片不随提示词获得 CC BY-NC 授权。这里仅作为私有研究参考，不纳入未来分发技能包，除非另有可核验的授权。来源原图保持不变，selection.jpg 是为研究编排的缩略对照图。
