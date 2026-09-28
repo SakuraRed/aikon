@@ -31,3 +31,5 @@
 75项测试在本地Windows/Python3.13.3上通过，用时12.063秒；skill-creator quick_validate通过。独立消费者[报告](../../../outputs/agent-paint-e2e/report.md)保留实际prompt、两轮产物、失败、像素mask和视觉反证。其试用暴露Windows stdout编码差异；编译器随后改用ASCII兼容JSON stdout、UTF-8报告文件，并以中文reason在ASCII控制台下的真实CLI测试验证。
 
 GitHub CI 状态以本次实际run为准；本地通过不代替远端运行。高光自然性及最终艺术质量从未由这些绿灯宣布通过。
+
+独立试用的视觉反证已回写Skill：paint-only冻结前先核对发束分组；缺失分组的geometry不能借删除高光获得整体通过。后续只在新几何版本内重建必要材料边界，保留已有构图。远端首次验证已完成但Artifact配额失败，处理见[CI记录](renderer-ci.md#实际远端失败与证据保存修正)。

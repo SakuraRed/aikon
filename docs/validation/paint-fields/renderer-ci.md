@@ -62,7 +62,7 @@ Pillow、numpy 和 scipy 沿用本轮诊断使用的固定版本。SciPy 1.17.1 
 - `test_render_svg.py` 的 9 个测试通过，耗时约 0.33 秒；真实像素检查包括线性/径向渐变、本地继承、clipPath、透明与约 50% alpha、保持纵横比、同机同输入 PNG bytes 一致，以及 CLI 路径含空格。
 - 恶意或不支持的资源输入在渲染前失败；失败 CLI 保留原来存在的输出文件，不以空输出覆盖。
 - 安装前读取现有 Python/Node/Chrome 进程的 PID、父 PID、命令和开始时间；操作系统查询未提供其工作目录，不编造。安装与测试均为限时一次性进程，没有启动新服务或终止现有进程。
-- Linux 运行、GitHub workflow 实际成功和跨平台像素一致性尚待主线程在一次正式推送后监控。本文件编写时未 push 或 dispatch。固定后端降低环境差异，不能证明任意模型会生成同一几何或保证艺术验收。
+- 第一轮实际GitHub运行已完成，Linux与Windows上的75项测试和E2E均通过；整条run因账号Artifact存储配额用尽而失败。实际记录及修正见下节；不能把这个失败run写成全绿。固定后端不能证明任意模型会生成同一几何或保证艺术验收。
 
 ## 离线 paint E2E 实现与首轮结果
 
@@ -79,3 +79,9 @@ Pillow、numpy 和 scipy 沿用本轮诊断使用的固定版本。SciPy 1.17.1 
 ## 本地最终集成
 
 最终75项测试全部通过（12.063秒），包含11项renderer测试、13项paint compiler测试、14项paint诊断测试及其他scene/E2E合同检查。CLI中文输出已用ASCII兼容JSON修复，报告文件保持UTF-8。最终E2E见 [e2e-final.json](e2e-final.json)，16.695秒：双版及10项注入控制、8张真实参考/缺陷观察均符合预期。真实坏例依然被拒绝，short纹理局限仍保留。超时清理失败时单独报告cleanup_failed，不再声称已回收进程。
+
+## 实际远端失败与证据保存修正
+
+[首次CI运行](https://github.com/SakuraRed/aikon/actions/runs/36458650079)测试的是 `278677ed8017347da58445431f5777a5c87d86da`。Linux75tests 12.661秒，E2E18.795秒；Windows75tests 17.592秒，E2E27.552秒。两端都仅在upload-artifact阶段因账号Artifact存储配额用尽失败。没有删除账号其他产物，也没有把失败隐藏成上传成功。
+
+修正后的workflow继续尝试上传并记录其outcome；独立的 `write_ci_evidence.py` 同时把真实SVG字节哈希、四尺寸PNG文件及decoded RGBA哈希、检查状态与控制计数写到日志和job summary。上传配额不足不再抹去已完成的质量证据；测试或E2E失败仍会使job失败，成功报告却缺少/损坏图像也会失败。此日志不是远端PNG下载链接，不能冒充上传成功；本地同哈希预览和代码重放仍可供查看。最新实际运行见[workflow](https://github.com/SakuraRed/aikon/actions/workflows/visual-quality.yml)，两端像素一致性需比较这些实际哈希后才能声明。

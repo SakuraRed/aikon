@@ -78,8 +78,12 @@ jobs:
         # without a competing outer subprocess timeout killing its supervisor.
         run: python -B tools/run_visual_e2e.py --output .local/e2e
       - name: Keep visual evidence even after failure
+        id: evidence_artifact
         timeout-minutes: 2
         if: always()
+        # Account-level artifact quota must not hide otherwise completed checks.
+        # The following summary/log step still records actual pixel hashes.
+        continue-on-error: true
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: svg-evidence-${{ matrix.os }}
@@ -88,3 +92,8 @@ jobs:
           if-no-files-found: warn
           retention-days: 7
           compression-level: 6
+      - name: Publish durable audit summary and pixel hashes
+        if: ${{ !cancelled() && steps.dependencies.outcome == 'success' }}
+        timeout-minutes: 1
+        run: >-
+          python -B tools/write_ci_evidence.py --input .local/e2e --artifact-upload-outcome ${{ steps.evidence_artifact.outcome }}

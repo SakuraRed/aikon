@@ -12,6 +12,8 @@ python scripts/paint_svg.py --geometry geometry.svg --plan full.paint.json --out
 
 已有输出不覆盖。geometry由当前任务决定，不能用统一头像替代主体。输入SHA-256必须与plan匹配。只有plan选择的绘制元素保留；其path、尺寸与transform保持不变。形体修改应另建geometry版本。
 
+冻结前先检查这份SVG是否保留了参考中的主要发束/材料分组。若前轮重建把数束头发合成一个大面，删除坏高光可能暴露出整块平涂；几何未变化的检查不能证明分组完好。此时把paint清理记录为局部进展，将丢失的分组列为geometry不足。后续新建几何修正版，用实际发流/遮挡边界重建必要主面，同时保留获肯定的外轮廓、眼位和配件连接；不能靠换更多颜色、加回悬浮亮片或放宽阈值掩盖。
+
 ```json
 {
   "schema": "aikon.paint-plan.v1",
@@ -46,6 +48,8 @@ python scripts/paint_svg.py --geometry geometry.svg --plan full.paint.json --out
 - 默认没有任意独立highlight primitive。此案例不需要高光时不添加。若另一主体确有一两块顺形受光面，应先明确其形体依据、建立相应规则与测试，不能把它伪装成shadow绕过合同。此子集不是禁止所有合法SVG高光。
 
 compiler移除旧的全局opacity、透明叠色与未选的paint layers，保留透明画布；抗锯齿由renderer产生。主体内部的非预期alpha不会被作为“质感”复用。合法平滑gradient与位图云纹是不同来源，不能混为一谈。
+
+CLI stdout是ASCII兼容JSON（Unicode使用转义），报告文件是UTF-8。调用方按JSON解码，不依据Windows当前控制台代码页猜测中文字节；stdout故障与已写出的SVG状态要分别核实。
 
 ## 检查与局限
 
