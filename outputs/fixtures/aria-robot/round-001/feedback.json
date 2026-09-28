@@ -1,0 +1,89 @@
+{
+  "revision": "r002",
+  "parent": "r001",
+  "profile": "full",
+  "origin": "parent_agent_visual_feedback",
+  "user_acceptance": "pending",
+  "reviewed_input": "outputs/fixtures/review-3.png",
+  "feedback": "Four small pink forehead nodes read as screws/dense decoration and become noise at 24px.",
+  "change": "Remove only guard-attachment-nodes (four shapes).",
+  "removed_layer": {
+    "id": "guard-attachment-nodes",
+    "shapes": [
+      {
+        "attrs": {
+          "cx": 36,
+          "cy": 213,
+          "fill": "#C5648D",
+          "rx": 9,
+          "ry": 11
+        },
+        "tag": "ellipse"
+      },
+      {
+        "attrs": {
+          "cx": 95,
+          "cy": 264,
+          "fill": "#C5648D",
+          "rx": 9,
+          "ry": 11
+        },
+        "tag": "ellipse"
+      },
+      {
+        "attrs": {
+          "cx": 249,
+          "cy": 205,
+          "fill": "#C5648D",
+          "rx": 9,
+          "ry": 11
+        },
+        "tag": "ellipse"
+      },
+      {
+        "attrs": {
+          "cx": 307,
+          "cy": 253,
+          "fill": "#C5648D",
+          "rx": 9,
+          "ry": 11
+        },
+        "tag": "ellipse"
+      }
+    ]
+  },
+  "preserved": {
+    "head_sha256_before": "fd7c38809cb98700cb23350a609b77387b12bbdc39a7b4df4f477277e6924fc8",
+    "head_sha256_after": "fd7c38809cb98700cb23350a609b77387b12bbdc39a7b4df4f477277e6924fc8",
+    "eyes_sha256_before": "0a97344338b838e18d3a3e126c182863fe996fee50e6ef39e0d9ce0913132fd3",
+    "eyes_sha256_after": "0a97344338b838e18d3a3e126c182863fe996fee50e6ef39e0d9ce0913132fd3",
+    "remaining_layers_sha256_before": "dbc868908e1eb5a401e99347d99af06cbff1dcfb36b2dd01ecfe7a8309a1cf4c",
+    "remaining_layers_sha256_after": "dbc868908e1eb5a401e99347d99af06cbff1dcfb36b2dd01ecfe7a8309a1cf4c",
+    "other_scene_fields_equal": true,
+    "other_three_variants_untouched": true
+  },
+  "checks": {
+    "structural": "passed by snapshot",
+    "visual_after_change": "unverified; parent will re-render"
+  },
+  "process": {
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "E:\\GH\\aikon\\skills\\aikon\\scripts\\aikon.py",
+      "snapshot",
+      "--scene",
+      "E:\\GH\\aikon\\.local\\fixtures\\drafts\\aria-robot\\full-r002.scene.json",
+      "--root",
+      "E:\\GH\\aikon\\outputs\\fixtures\\aria-robot\\round-001\\full",
+      "--revision",
+      "r002",
+      "--parent",
+      "r001",
+      "--note",
+      "Parent-agent visual feedback: remove four tiny forehead attachment nodes only; not user acceptance."
+    ],
+    "timeout_seconds": 20,
+    "exit_code": 0,
+    "completed_utc": "2026-09-28T14:41:44.960003+00:00"
+  }
+}

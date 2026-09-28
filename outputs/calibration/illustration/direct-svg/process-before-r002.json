@@ -1,0 +1,23 @@
+[
+  {
+    "ProcessId": 31900,
+    "ParentProcessId": 13112,
+    "Name": "node.exe",
+    "CreationDate": "2026-09-28T08:34:10.887113+08:00",
+    "CommandLine": "\"C:\\Program Files\\Adobe\\Adobe Creative Cloud Experience\\libs\\node.exe\" \"C:\\Program Files\\Adobe\\Adobe Creative Cloud Experience\\js\\main.js\""
+  },
+  {
+    "ProcessId": 20248,
+    "ParentProcessId": 21968,
+    "Name": "node.exe",
+    "CreationDate": "2026-09-28T21:01:58.114832+08:00",
+    "CommandLine": "\"C:\\Users\\Administrator\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\b63ee7ee40c23b77\\bin\\node.exe\" --eval \"// Node's emulated realpath walks every ancestor. Windows may allow the target\n// while denying metadata on an ancestor (notably AppData). Keep normal Node\n// resolution, including symlink identity, and retry that failure using a handle\n// to the target. This grants no access and does not bypass reads or trust checks.\nconst fs = require(\\\"node:fs\\\");\nconst originalRealpathSync = fs.realpathSync;\nfs.realpathSync = Object.assign(\n  function realpathSync(path, options) {\n    try {\n      return originalRealpathSync(path, options);\n    } catch (error) {\n      if (\n        error?.syscall !== \\\"lstat\\\" ||\n        (error.code !== \\\"EPERM\\\" && error.code !== \\\"EACCES\\\")\n      ) {\n        throw error;\n      }\n      try {\n        return originalRealpathSync.native(path, options);\n      } catch {\n        throw error;\n      }\n    }\n  },\n  { native: originalRealpathSync.native },\n);\n\n// --eval leaves the script at argv[1]. Use Node's ordinary main-module loader\n// so argv, require.main, and relative imports keep their normal meaning.\nrequire(\\\"node:module\\\").runMain();\n\" --experimental-vm-modules C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\.tmp6rsuBe\\kernel.js --session-id 8f3b01bb47f144c29cc0b5e6c1fbba29 --working-dir E:\\GH\\pwr-actn"
+  },
+  {
+    "ProcessId": 49836,
+    "ParentProcessId": 21968,
+    "Name": "node.exe",
+    "CreationDate": "2026-09-28T21:01:58.138638+08:00",
+    "CommandLine": "\"C:\\Users\\Administrator\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\b63ee7ee40c23b77\\bin\\node.exe\" --eval \"// Node's emulated realpath walks every ancestor. Windows may allow the target\n// while denying metadata on an ancestor (notably AppData). Keep normal Node\n// resolution, including symlink identity, and retry that failure using a handle\n// to the target. This grants no access and does not bypass reads or trust checks.\nconst fs = require(\\\"node:fs\\\");\nconst originalRealpathSync = fs.realpathSync;\nfs.realpathSync = Object.assign(\n  function realpathSync(path, options) {\n    try {\n      return originalRealpathSync(path, options);\n    } catch (error) {\n      if (\n        error?.syscall !== \\\"lstat\\\" ||\n        (error.code !== \\\"EPERM\\\" && error.code !== \\\"EACCES\\\")\n      ) {\n        throw error;\n      }\n      try {\n        return originalRealpathSync.native(path, options);\n      } catch {\n        throw error;\n      }\n    }\n  },\n  { native: originalRealpathSync.native },\n);\n\n// --eval leaves the script at argv[1]. Use Node's ordinary main-module loader\n// so argv, require.main, and relative imports keep their normal meaning.\nrequire(\\\"node:module\\\").runMain();\n\" C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\.tmp6rsuBe\\trusted-worker.js E:\\GH\\pwr-actn"
+  }
+]

@@ -1,0 +1,1 @@
+{"output": "outputs\\calibration\\illustration\\vector-study\\semantic-study-v3.svg", "metadata": "outputs\\calibration\\illustration\\vector-study\\semantic-study-v3.json", "paths": 19, "bytes": 247013, "seconds": 1.725, "visual": "unverified"}

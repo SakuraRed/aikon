@@ -1,0 +1,20 @@
+{
+  "background": {
+    "canvas_rects": [],
+    "raster_alpha": "unverified",
+    "structural_status": "no_painted_canvas_rect_detected"
+  },
+  "checks": {
+    "structural": "passed",
+    "visual": "unverified"
+  },
+  "helper_version": "0.1.1",
+  "note": "Visual correction: include dorsal crest in the blue crown; preserve all other geometry and colors.",
+  "parent": "r001",
+  "profile": "short",
+  "revision": "r002",
+  "round_id": "deepseek-001",
+  "scene_sha256": "2989e221edbd23111b245c96f0a6208a2936e26122bf727e629e112f455c9bec",
+  "schema": "aikon.revision.v1",
+  "svg_sha256": "d6244dd9603be5419dca32f886e990688c8e80f1f07b5ce4fed9c075ee43e2ad"
+}

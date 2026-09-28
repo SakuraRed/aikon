@@ -1,0 +1,360 @@
+{
+  "helper_version": "0.1.1",
+  "current_svg_count": 14,
+  "all_revision_count": 21,
+  "records": [
+    {
+      "subject": "aria-human",
+      "profile": "short",
+      "revision": "r001",
+      "svg": "outputs/fixtures/aria-human/round-001/short/revisions/r001/icon.svg",
+      "svg_sha256": "9a60aac7eeace705dce5579a6480c5c8f26d6f981ba89cf6d7225aae99aa5c8a",
+      "profile_geometry": "passed",
+      "eye_bounds_512": [
+        [
+          45.60270116574921,
+          272.33645129857774,
+          108.3284877832279,
+          385.97392616148784
+        ],
+        [
+          221.40120155035962,
+          319.4415175072365,
+          284.12698816783836,
+          433.0789923701466
+        ]
+      ],
+      "structural": "passed",
+      "replay_byte_match": true,
+      "history_hashes": "passed"
+    },
+    {
+      "subject": "aria-human",
+      "profile": "full",
+      "revision": "r001",
+      "svg": "outputs/fixtures/aria-human/round-001/full/revisions/r001/icon.svg",
+      "svg_sha256": "81c9281e8ede4d1c7b3eadd1fa17df1e16ee3940d2a9196bff7b15642202455b",
+      "profile_geometry": "passed",
+      "eye_bounds_512": [
+        [
+          39.24335063157234,
+          264.3587335323191,
+          107.5212656657827,
+          375.01125701326305
+        ],
+        [
+          212.33563659729026,
+          320.5998265085595,
+          280.6135516315006,
+          431.25234998950344
+        ]
+      ],
+      "structural": "passed",
+      "replay_byte_match": true,
+      "history_hashes": "passed"
+    },
+    {
+      "subject": "aria-robot",
+      "profile": "short",
+      "revision": "r001",
+      "svg": "outputs/fixtures/aria-robot/round-001/short/revisions/r001/icon.svg",
+      "svg_sha256": "376e24442ef7bccd4d9fb012691492b4053236724cf06d70a206b4b33ff0026f",
+      "profile_geometry": "passed",
+      "eye_bounds_512": [
+        [
+          45.60270116574921,
+          272.33645129857774,
+          108.3284877832279,
+          385.97392616148784
+        ],
+        [
+          221.40120155035962,
+          319.4415175072365,
+          284.12698816783836,
+          433.0789923701466
+        ]
+      ],
+      "structural": "passed",
+      "replay_byte_match": true,
+      "history_hashes": "passed"
+    },
+    {
+      "subject": "aria-robot",
+      "profile": "full",
+      "revision": "r002",
+      "svg": "outputs/fixtures/aria-robot/round-001/full/revisions/r002/icon.svg",
+      "svg_sha256": "3da2784fbaa94155d60fa9c851830a2bc198c35afa232d98397dfbba62ac1582",
+      "profile_geometry": "passed",
+      "eye_bounds_512": [
+        [
+          39.24335063157234,
+          264.3587335323191,
+          107.5212656657827,
+          375.01125701326305
+        ],
+        [
+          212.33563659729026,
+          320.5998265085595,
+          280.6135516315006,
+          431.25234998950344
+        ]
+      ],
+      "structural": "passed",
+      "replay_byte_match": true,
+      "history_hashes": "passed"
+    },
+    {
+      "subject": "deepseek",
+      "profile": "short",
+      "revision": "r002",
+      "svg": "outputs/fixtures/deepseek/round-001/short/revisions/r002/icon.svg",
+      "svg_sha256": "d6244dd9603be5419dca32f886e990688c8e80f1f07b5ce4fed9c075ee43e2ad",
+      "profile_geometry": "passed",
+      "eye_bounds_512": [
+        [
+          67.59734086805832,
+          259.79799792820137,
+          123.35359563915048,
+          360.8090866952326
+        ],
+        [
+          229.8728796846218,
+          303.2795975054249,
+          285.629134455714,
+          404.2906862724561
+        ]
+      ],
+      "structural": "passed",
+      "replay_byte_match": true,
+      "history_hashes": "passed"
+    },
+    {
+      "subject": "deepseek",
+      "profile": "full",
+      "revision": "r002",
+      "svg": "outputs/fixtures/deepseek/round-001/full/revisions/r002/icon.svg",
+      "svg_sha256": "ddf601482717a81aa0a90029e69d667a0b96d00d50c9fdf00ac5ef8f4f283a29",
+      "profile_geometry": "passed",
+      "eye_bounds_512": [
+        [
+          65.51285806206576,
+          257.9128801566821,
+          121.84332026848374,
+          351.4235932325568
+        ],
+        [
+          226.1720570638557,
+          307.0313265501019,
+          282.5025192702737,
+          400.5420396259766
+        ]
+      ],
+      "structural": "passed",
+      "replay_byte_match": true,
+      "history_hashes": "passed"
+    },
+    {
+      "subject": "endministrator-female",
+      "profile": "short",
+      "revision": "r002",
+      "svg": "outputs/fixtures/endministrator-female/round-001/short/revisions/r002/icon.svg",
+      "svg_sha256": "cd82c596218a25f4a70e8470c80627cf413f7663f65b1a821acc8df91bdbf978",
+      "profile_geometry": "passed",
+      "eye_bounds_512": [
+        [
+          69.71866121161796,
+          269.26778750011056,
+          121.99015005951689,
+          363.96568321920233
+        ],
+        [
+          225.23271924415798,
+          310.9376537616164,
+          277.5042080920569,
+          405.63554948070816
+        ]
+      ],
+      "structural": "passed",
+      "replay_byte_match": true,
+      "history_hashes": "passed"
+    },
+    {
+      "subject": "endministrator-female",
+      "profile": "full",
+      "revision": "r002",
+      "svg": "outputs/fixtures/endministrator-female/round-001/full/revisions/r002/icon.svg",
+      "svg_sha256": "09977b83f5f5d9fdd5d1c8db31e7f505f6eacf5679fd7b458cfdd58158d6ddc1",
+      "profile_geometry": "passed",
+      "eye_bounds_512": [
+        [
+          67.21228551106391,
+          266.4404333185546,
+          120.46065138666488,
+          355.54118396113165
+        ],
+        [
+          221.17735122111264,
+          313.5122777789152,
+          274.4257170967136,
+          402.61302842149223
+        ]
+      ],
+      "structural": "passed",
+      "replay_byte_match": true,
+      "history_hashes": "passed"
+    },
+    {
+      "subject": "endministrator-male",
+      "profile": "short",
+      "revision": "r002",
+      "svg": "outputs/fixtures/endministrator-male/round-001/short/revisions/r002/icon.svg",
+      "svg_sha256": "52fd6a3bb6bebb2524df6d6b69581ffb57028cd85f1c7fc6309bbe4321372442",
+      "profile_geometry": "passed",
+      "eye_bounds_512": [
+        [
+          69.71866121161796,
+          269.26778750011056,
+          121.99015005951689,
+          363.96568321920233
+        ],
+        [
+          225.23271924415798,
+          310.9376537616164,
+          277.5042080920569,
+          405.63554948070816
+        ]
+      ],
+      "structural": "passed",
+      "replay_byte_match": true,
+      "history_hashes": "passed"
+    },
+    {
+      "subject": "endministrator-male",
+      "profile": "full",
+      "revision": "r002",
+      "svg": "outputs/fixtures/endministrator-male/round-001/full/revisions/r002/icon.svg",
+      "svg_sha256": "62c24623e4abd1520a42848d85ee30bee5db7da43a109680dfa3b57c487edba9",
+      "profile_geometry": "passed",
+      "eye_bounds_512": [
+        [
+          67.21228551106391,
+          266.4404333185546,
+          120.46065138666488,
+          355.54118396113165
+        ],
+        [
+          221.17735122111264,
+          313.5122777789152,
+          274.4257170967136,
+          402.61302842149223
+        ]
+      ],
+      "structural": "passed",
+      "replay_byte_match": true,
+      "history_hashes": "passed"
+    },
+    {
+      "subject": "illustration",
+      "profile": "short",
+      "revision": "r001",
+      "svg": "outputs/fixtures/illustration/round-001/short/revisions/r001/icon.svg",
+      "svg_sha256": "94c3cf9cfecb4435ee850f6e7cb2ec1b49751b2b3ec431700b3dc13ac580ce98",
+      "profile_geometry": "passed",
+      "eye_bounds_512": [
+        [
+          44.96494473868368,
+          278.58029399239615,
+          100.72119950977583,
+          379.5913827594274
+        ],
+        [
+          211.10418686040342,
+          323.0971697500297,
+          266.8604416314956,
+          424.10825851706096
+        ]
+      ],
+      "structural": "passed",
+      "replay_byte_match": true,
+      "history_hashes": "passed"
+    },
+    {
+      "subject": "illustration",
+      "profile": "full",
+      "revision": "r001",
+      "svg": "outputs/fixtures/illustration/round-001/full/revisions/r001/icon.svg",
+      "svg_sha256": "36e95c3388035df698c985a673b8a529de39bd95fd91ef24582613b084c6d9e0",
+      "profile_geometry": "passed",
+      "eye_bounds_512": [
+        [
+          41.32204636228285,
+          274.3132323332025,
+          99.48592843883206,
+          370.985231381689
+        ],
+        [
+          205.80646438792496,
+          324.60116554551325,
+          263.9703464644742,
+          421.27316459399975
+        ]
+      ],
+      "structural": "passed",
+      "replay_byte_match": true,
+      "history_hashes": "passed"
+    },
+    {
+      "subject": "sunna",
+      "profile": "short",
+      "revision": "r001",
+      "svg": "outputs/fixtures/sunna/round-001/short/revisions/r001/icon.svg",
+      "svg_sha256": "62ccde51f2d336e400ed672c428631929351782760e6b5618edbf8339372796b",
+      "profile_geometry": "passed",
+      "eye_bounds_512": [
+        [
+          54.365383956471845,
+          282.13441026971043,
+          110.121638727564,
+          383.1454990367417
+        ],
+        [
+          218.57277442561343,
+          326.133647937139,
+          274.3290291967056,
+          427.1447367041702
+        ]
+      ],
+      "structural": "passed",
+      "replay_byte_match": true,
+      "history_hashes": "passed"
+    },
+    {
+      "subject": "sunna",
+      "profile": "full",
+      "revision": "r001",
+      "svg": "outputs/fixtures/sunna/round-001/full/revisions/r001/icon.svg",
+      "svg_sha256": "3b6f018b7ad4bc343ce9b28ee2cdbbc5456513adc147923439e883f06d037aa2",
+      "profile_geometry": "passed",
+      "eye_bounds_512": [
+        [
+          47.77885374505841,
+          273.48826510138474,
+          109.16237277033869,
+          373.3941554418774
+        ],
+        [
+          209.4584615152345,
+          326.0211541451258,
+          270.8419805405147,
+          425.92704448561847
+        ]
+      ],
+      "structural": "passed",
+      "replay_byte_match": true,
+      "history_hashes": "passed"
+    }
+  ],
+  "limitations": [
+    "This source audit does not prove visual quality, identity recognition, or cross-model compatibility."
+  ]
+}

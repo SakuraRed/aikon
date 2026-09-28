@@ -1,0 +1,35 @@
+{
+  "schema": "aikon.feedback.v1",
+  "reviewer": "agent_review",
+  "feedback_source": "Main Agent visual review, corroborated by authoring Agent viewing outputs/fixtures/review-2.png.",
+  "base_revision": "r001",
+  "revision": "r002",
+  "base_svg_sha256": "b0a3722bbe8c6e710dd1e298b3d058eee7a836f0eaa4ef82218ae14022d26a18",
+  "observations": [
+    "Regular triangular outer tufts looked like a sawtooth gear instead of directional layered short hair.",
+    "The black/yellow accessory appeared as a jagged brow line too close to the eyes."
+  ],
+  "changes": [
+    "hair-back path replaced with a few irregular directional cubic curves.",
+    "visor-forehead and any visor-panels translated up 64 local coordinate units."
+  ],
+  "changed_layer_ids": [
+    "hair-back",
+    "visor-forehead"
+  ],
+  "preserved": [
+    "all fill/stroke colors",
+    "eye dimensions/centers/fill",
+    "face geometry",
+    "head angle/pivot",
+    "all unrelated layers",
+    "background null",
+    "round/profile"
+  ],
+  "checks": {
+    "svg_structural": "passed",
+    "preservation": "passed",
+    "visual": "unverified",
+    "user_acceptance": "unverified"
+  }
+}

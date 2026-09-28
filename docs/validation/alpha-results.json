@@ -1,0 +1,302 @@
+[
+  {
+    "file": "outputs/fixtures/aria-human/round-001/short/revisions/r001/icon.svg",
+    "svg_sha256": "9a60aac7eeace705dce5579a6480c5c8f26d6f981ba89cf6d7225aae99aa5c8a",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 64403,
+    "alpha_opaque": 196422,
+    "alpha_partial": 1319,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "outputs/fixtures/aria-human/round-001/full/revisions/r001/icon.svg",
+    "svg_sha256": "81c9281e8ede4d1c7b3eadd1fa17df1e16ee3940d2a9196bff7b15642202455b",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 64055,
+    "alpha_opaque": 196776,
+    "alpha_partial": 1313,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "outputs/fixtures/aria-robot/round-001/short/revisions/r001/icon.svg",
+    "svg_sha256": "376e24442ef7bccd4d9fb012691492b4053236724cf06d70a206b4b33ff0026f",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 76164,
+    "alpha_opaque": 184535,
+    "alpha_partial": 1445,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "outputs/fixtures/aria-robot/round-001/full/revisions/r002/icon.svg",
+    "svg_sha256": "3da2784fbaa94155d60fa9c851830a2bc198c35afa232d98397dfbba62ac1582",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 76388,
+    "alpha_opaque": 184351,
+    "alpha_partial": 1405,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "outputs/fixtures/deepseek/round-001/short/revisions/r002/icon.svg",
+    "svg_sha256": "d6244dd9603be5419dca32f886e990688c8e80f1f07b5ce4fed9c075ee43e2ad",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 99372,
+    "alpha_opaque": 161336,
+    "alpha_partial": 1436,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "outputs/fixtures/deepseek/round-001/full/revisions/r002/icon.svg",
+    "svg_sha256": "ddf601482717a81aa0a90029e69d667a0b96d00d50c9fdf00ac5ef8f4f283a29",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 99141,
+    "alpha_opaque": 161549,
+    "alpha_partial": 1454,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "outputs/fixtures/endministrator-female/round-001/short/revisions/r002/icon.svg",
+    "svg_sha256": "cd82c596218a25f4a70e8470c80627cf413f7663f65b1a821acc8df91bdbf978",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 63410,
+    "alpha_opaque": 198075,
+    "alpha_partial": 659,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "outputs/fixtures/endministrator-female/round-001/full/revisions/r002/icon.svg",
+    "svg_sha256": "09977b83f5f5d9fdd5d1c8db31e7f505f6eacf5679fd7b458cfdd58158d6ddc1",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 63665,
+    "alpha_opaque": 197822,
+    "alpha_partial": 657,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "outputs/fixtures/endministrator-male/round-001/short/revisions/r002/icon.svg",
+    "svg_sha256": "52fd6a3bb6bebb2524df6d6b69581ffb57028cd85f1c7fc6309bbe4321372442",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 98003,
+    "alpha_opaque": 163013,
+    "alpha_partial": 1128,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "outputs/fixtures/endministrator-male/round-001/full/revisions/r002/icon.svg",
+    "svg_sha256": "62c24623e4abd1520a42848d85ee30bee5db7da43a109680dfa3b57c487edba9",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 96243,
+    "alpha_opaque": 164785,
+    "alpha_partial": 1116,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "outputs/fixtures/illustration/round-001/short/revisions/r001/icon.svg",
+    "svg_sha256": "94c3cf9cfecb4435ee850f6e7cb2ec1b49751b2b3ec431700b3dc13ac580ce98",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 59506,
+    "alpha_opaque": 200223,
+    "alpha_partial": 2415,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "outputs/fixtures/illustration/round-001/full/revisions/r001/icon.svg",
+    "svg_sha256": "36e95c3388035df698c985a673b8a529de39bd95fd91ef24582613b084c6d9e0",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 58961,
+    "alpha_opaque": 200765,
+    "alpha_partial": 2418,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "outputs/fixtures/sunna/round-001/short/revisions/r001/icon.svg",
+    "svg_sha256": "62ccde51f2d336e400ed672c428631929351782760e6b5618edbf8339372796b",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 53469,
+    "alpha_opaque": 207141,
+    "alpha_partial": 1534,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "outputs/fixtures/sunna/round-001/full/revisions/r001/icon.svg",
+    "svg_sha256": "3b6f018b7ad4bc343ce9b28ee2cdbbc5456513adc147923439e883f06d037aa2",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 52242,
+    "alpha_opaque": 208350,
+    "alpha_partial": 1552,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "skills/aikon/assets/examples/lantern-full.svg",
+    "svg_sha256": "938daa6543495171782fc8e33914e85a4776d1679c7912f1003c0f594ee15ae7",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 105909,
+    "alpha_opaque": 154966,
+    "alpha_partial": 1269,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "skills/aikon/assets/examples/lantern-short.svg",
+    "svg_sha256": "4e4f9873b295cca20dbf89858de37a4a711405a20ecbc312806cb5b689b297c7",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 106075,
+    "alpha_opaque": 154802,
+    "alpha_partial": 1267,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "skills/aikon/assets/examples/moss-full.svg",
+    "svg_sha256": "e398703e9ef575921b8943b970531772c88f8c97aa38e65ea0e2ba554381c87a",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 92734,
+    "alpha_opaque": 168419,
+    "alpha_partial": 991,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "skills/aikon/assets/examples/moss-short.svg",
+    "svg_sha256": "efe5b65a32813942fc97634fa2c7576b76a80e90c1212037b86770c25fbe9315",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 93307,
+    "alpha_opaque": 167860,
+    "alpha_partial": 977,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "skills/aikon/assets/examples/relay-full.svg",
+    "svg_sha256": "09afc08bd264ef0f2480750c57b9d31df3f080447b4a2bf8a1b1c5f9e480177f",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 96509,
+    "alpha_opaque": 164688,
+    "alpha_partial": 947,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  },
+  {
+    "file": "skills/aikon/assets/examples/relay-short.svg",
+    "svg_sha256": "a09f1ed84f4b6c96445ea19b20647760ef381168cdf43ab8b140eb4315910c6d",
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_zero": 96752,
+    "alpha_opaque": 164457,
+    "alpha_partial": 935,
+    "top_right_alpha": 0,
+    "has_transparency": true,
+    "has_artwork": true
+  }
+]

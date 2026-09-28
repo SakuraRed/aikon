@@ -1,0 +1,423 @@
+{
+  "schema": "aikon.vector-study.v1",
+  "algorithm_version": "0.1.0",
+  "input": "outputs\\calibration\\illustration\\short-imagegen-v1.png",
+  "input_sha256": "1980caf7a44e71f01316cc4db54e1cb72add25cb315bd09a117c2231b7a78126",
+  "svg_sha256": "b3a8d747bd7e3ce435b05c5f4e13b49b8f600d97f977489fa9bb5d63594ef9ac",
+  "parameters": {
+    "input": "outputs/calibration/illustration/short-imagegen-v1.png",
+    "output": "outputs\\calibration\\illustration\\vector-study\\vector-simple-24.svg",
+    "colors": 24,
+    "min_area": 24,
+    "alpha_threshold": 128,
+    "alpha_min_area": 8,
+    "rgb_blur": 0.65,
+    "tolerance": 0.85,
+    "smooth": 0.8,
+    "stroke_width": 0.55,
+    "max_seconds": 50.0
+  },
+  "image_size": [
+    1254,
+    1254
+  ],
+  "algorithm": [
+    "alpha-weighted Gaussian RGB denoise",
+    "Pillow RGB median-cut quantization without dithering",
+    "small 4-connected color-region merge into nearest retained opaque palette region",
+    "directed pixel-cell boundary loops with exact signed-area verification",
+    "circular Gaussian contour smoothing and closed Ramer-Douglas-Peucker simplification",
+    "corner-aware cubic interpolation",
+    "vector alpha silhouette clip with even-odd holes"
+  ],
+  "quantization": {
+    "palette_requested": 24,
+    "palette_used": 24,
+    "merged_small_region_pixels": 65716,
+    "merged_small_components": 33802,
+    "merge_rule": "4-connected color regions below min-area are reassigned to the nearest retained opaque color pixel; foreground alpha shape unchanged."
+  },
+  "alpha": {
+    "threshold": 128,
+    "source_nonzero_pixels": 1206135,
+    "source_partial_alpha_pixels": 1204327,
+    "threshold_foreground_pixels": 1189864,
+    "retained_foreground_pixels": 1189864,
+    "removed_small_component_pixels": 0,
+    "contour": {
+      "loops": 3,
+      "raw_boundary_edges": 9088,
+      "curve_vertices": 1123,
+      "grid_area_preserved_before_simplification": true
+    },
+    "raster_alpha_fidelity": "unverified_until_rerender"
+  },
+  "palette_paths": [
+    {
+      "id": "palette-10",
+      "semantic_group": "coral",
+      "fill": "#f3737d",
+      "pixels": 90778,
+      "loops": 41,
+      "raw_boundary_edges": 9542,
+      "curve_vertices": 679,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-08",
+      "semantic_group": "halo",
+      "fill": "#67b5b1",
+      "pixels": 74602,
+      "loops": 14,
+      "raw_boundary_edges": 8196,
+      "curve_vertices": 338,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-16",
+      "semantic_group": "hair",
+      "fill": "#57515b",
+      "pixels": 71399,
+      "loops": 94,
+      "raw_boundary_edges": 14820,
+      "curve_vertices": 1731,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-03",
+      "semantic_group": "face",
+      "fill": "#fcf1e7",
+      "pixels": 71282,
+      "loops": 146,
+      "raw_boundary_edges": 17342,
+      "curve_vertices": 3118,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-13",
+      "semantic_group": "hair",
+      "fill": "#6b616c",
+      "pixels": 63765,
+      "loops": 37,
+      "raw_boundary_edges": 9754,
+      "curve_vertices": 701,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-09",
+      "semantic_group": "coral",
+      "fill": "#f77e87",
+      "pixels": 62587,
+      "loops": 42,
+      "raw_boundary_edges": 10122,
+      "curve_vertices": 813,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-18",
+      "semantic_group": "hair",
+      "fill": "#48434e",
+      "pixels": 60435,
+      "loops": 83,
+      "raw_boundary_edges": 11518,
+      "curve_vertices": 1457,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-05",
+      "semantic_group": "face",
+      "fill": "#fceee5",
+      "pixels": 58841,
+      "loops": 29,
+      "raw_boundary_edges": 6974,
+      "curve_vertices": 848,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-02",
+      "semantic_group": "face",
+      "fill": "#fcf2e8",
+      "pixels": 55985,
+      "loops": 104,
+      "raw_boundary_edges": 15968,
+      "curve_vertices": 2780,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-22",
+      "semantic_group": "hair",
+      "fill": "#3e3943",
+      "pixels": 54494,
+      "loops": 68,
+      "raw_boundary_edges": 14650,
+      "curve_vertices": 1271,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-01",
+      "semantic_group": "face",
+      "fill": "#fcf4eb",
+      "pixels": 51843,
+      "loops": 41,
+      "raw_boundary_edges": 6890,
+      "curve_vertices": 1051,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-20",
+      "semantic_group": "hair",
+      "fill": "#453f4a",
+      "pixels": 48479,
+      "loops": 102,
+      "raw_boundary_edges": 12986,
+      "curve_vertices": 2016,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-23",
+      "semantic_group": "hair",
+      "fill": "#2a2832",
+      "pixels": 47315,
+      "loops": 289,
+      "raw_boundary_edges": 15084,
+      "curve_vertices": 1827,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-15",
+      "semantic_group": "hair",
+      "fill": "#5b535e",
+      "pixels": 45221,
+      "loops": 71,
+      "raw_boundary_edges": 11138,
+      "curve_vertices": 1528,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-14",
+      "semantic_group": "hair",
+      "fill": "#605963",
+      "pixels": 41904,
+      "loops": 69,
+      "raw_boundary_edges": 11962,
+      "curve_vertices": 1181,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-17",
+      "semantic_group": "hair",
+      "fill": "#4f4954",
+      "pixels": 41182,
+      "loops": 62,
+      "raw_boundary_edges": 10542,
+      "curve_vertices": 1067,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-00",
+      "semantic_group": "face",
+      "fill": "#fcf9f4",
+      "pixels": 40343,
+      "loops": 7,
+      "raw_boundary_edges": 1764,
+      "curve_vertices": 278,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-19",
+      "semantic_group": "hair",
+      "fill": "#46414c",
+      "pixels": 40154,
+      "loops": 121,
+      "raw_boundary_edges": 13918,
+      "curve_vertices": 2230,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-21",
+      "semantic_group": "hair",
+      "fill": "#433e48",
+      "pixels": 39574,
+      "loops": 83,
+      "raw_boundary_edges": 10640,
+      "curve_vertices": 1453,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-12",
+      "semantic_group": "coral",
+      "fill": "#cf586b",
+      "pixels": 37376,
+      "loops": 25,
+      "raw_boundary_edges": 9234,
+      "curve_vertices": 579,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-04",
+      "semantic_group": "face",
+      "fill": "#fcf0e6",
+      "pixels": 32504,
+      "loops": 95,
+      "raw_boundary_edges": 10128,
+      "curve_vertices": 1778,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-07",
+      "semantic_group": "face",
+      "fill": "#fcacaf",
+      "pixels": 19717,
+      "loops": 37,
+      "raw_boundary_edges": 5066,
+      "curve_vertices": 458,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-06",
+      "semantic_group": "halo",
+      "fill": "#adf1da",
+      "pixels": 12566,
+      "loops": 6,
+      "raw_boundary_edges": 2776,
+      "curve_vertices": 78,
+      "grid_area_preserved_before_simplification": true
+    },
+    {
+      "id": "palette-11",
+      "semantic_group": "coral",
+      "fill": "#a9707b",
+      "pixels": 1774,
+      "loops": 5,
+      "raw_boundary_edges": 546,
+      "curve_vertices": 42,
+      "grid_area_preserved_before_simplification": true
+    }
+  ],
+  "eye_detection": {
+    "status": "heuristically_identified",
+    "candidates": [
+      {
+        "component": 943,
+        "area": 13298,
+        "center": [
+          323.500827192059,
+          810.7513911866446
+        ],
+        "ratio": 2.2963897407127223,
+        "light_surround_fraction": 0.913594470046083,
+        "bbox": [
+          265,
+          722,
+          383,
+          900
+        ]
+      },
+      {
+        "component": 1382,
+        "area": 12446,
+        "center": [
+          709.0878193797204,
+          988.9017354973486
+        ],
+        "ratio": 2.311193269357957,
+        "light_surround_fraction": 0.913895486935867,
+        "bbox": [
+          652,
+          903,
+          766,
+          1075
+        ]
+      }
+    ],
+    "selected": [
+      {
+        "id": "eye-left",
+        "component": 943,
+        "area": 13298,
+        "center": [
+          323.500827192059,
+          810.7513911866446
+        ],
+        "ratio": 2.2963897407127223,
+        "light_surround_fraction": 0.913594470046083,
+        "bbox": [
+          265,
+          722,
+          383,
+          900
+        ]
+      },
+      {
+        "id": "eye-right",
+        "component": 1382,
+        "area": 12446,
+        "center": [
+          709.0878193797204,
+          988.9017354973486
+        ],
+        "ratio": 2.311193269357957,
+        "light_surround_fraction": 0.913895486935867,
+        "bbox": [
+          652,
+          903,
+          766,
+          1075
+        ]
+      }
+    ],
+    "limitation": "Dark isolated components surrounded by pale color are inferred eyes, not guaranteed semantic segmentation; inspect both IDs after rendering.",
+    "vector_paths": [
+      {
+        "id": "eye-left",
+        "fill": "#25242d",
+        "loops": 1,
+        "raw_boundary_edges": 592,
+        "curve_vertices": 184,
+        "grid_area_preserved_before_simplification": true
+      },
+      {
+        "id": "eye-right",
+        "fill": "#25242d",
+        "loops": 1,
+        "raw_boundary_edges": 572,
+        "curve_vertices": 165,
+        "grid_area_preserved_before_simplification": true
+      }
+    ]
+  },
+  "semantic_rule": {
+    "face": "RGB high-light warm colors; includes blush and may include pale highlights elsewhere",
+    "halo": "green/blue greater than red; also groups turquoise hair-tie accents",
+    "coral": "red significantly greater than green/blue",
+    "hair": "dark or mid near-neutral colors, excluding inferred eye masks",
+    "other": "remaining palette colors",
+    "limitation": "Color grouping is a heuristic, not automatic object segmentation. Each palette path can contain disconnected subpaths; moving a whole semantic group can affect unrelated equal-colored accents."
+  },
+  "path_count": 28,
+  "curve_vertices": 31897,
+  "svg_bytes": 955015,
+  "runtime_seconds": 1.668,
+  "runtime": {
+    "python": "3.13.3",
+    "numpy": "2.4.3",
+    "scipy": "1.17.1",
+    "Pillow": "12.1.1",
+    "thread_limits": 1
+  },
+  "validation": {
+    "xml_and_vector_only": "passed",
+    "raw_contour_signed_area": "passed",
+    "rendered_pixel_comparison": "not_run",
+    "visual_acceptance": "not_run",
+    "user_acceptance": "pending"
+  },
+  "limitations": [
+    "This is a raster-to-vector approximation of a diagnostic image, not an authoritative character reference or user-approved gold image.",
+    "Palette count/contour tolerance are approximation levels, not Aikon short/full profiles.",
+    "Partial edge alpha is reconstructed by vector antialiasing around a threshold silhouette; exact source alpha values are not encoded.",
+    "Color quantization and small-region merging can remove fine strands or subtle shading; compare actual rerenders.",
+    "Coverage underpaint and tiny same-color strokes limit seams, but can slightly change color-boundary pixels.",
+    "No artistic, model-consistency, watermark-detection or semantic-editability guarantee."
+  ]
+}

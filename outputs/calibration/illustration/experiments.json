@@ -1,0 +1,47 @@
+[
+  {
+    "file": "short-imagegen-v1.png",
+    "image_sha256": "1980caf7a44e71f01316cc4db54e1cb72add25cb315bd09a117c2231b7a78126",
+    "prompt": "short-calibration.prompt.txt",
+    "prompt_sha256": "df05bbf897d152bc280cf0d4670d4817a465c68f3da93a47f6e8c4b89d279cd1",
+    "tool": "built-in imagegen",
+    "transparent_background": true,
+    "seed": "not exposed",
+    "status": "diagnostic; user not accepted",
+    "reference_roles": [
+      "img_1.png: subject",
+      "模式参考/r1.png: style",
+      "模式参考/r2.png: style"
+    ]
+  },
+  {
+    "file": "short-faithful-v1.png",
+    "image_sha256": "6891ef6be86421ff1907b68d888d855b6ca09a3b87b2261cfe7b264674b5290e",
+    "prompt": "short-faithful.prompt.txt",
+    "prompt_sha256": "fb4035fce55f4e694550b2b9b5f16efd379a0e720baedba181f8b6787360249d",
+    "tool": "built-in imagegen",
+    "transparent_background": true,
+    "seed": "not exposed",
+    "status": "diagnostic; user not accepted",
+    "reference_roles": [
+      "img_1.png: subject",
+      "模式参考/r1.png: style",
+      "模式参考/r2.png: style"
+    ]
+  },
+  {
+    "file": "full-imagegen-v1.png",
+    "image_sha256": "a1fb6a12a85140bdea4697a43c98dbd5ce7d1a118d6eacc51c1bc6763f4dd1c1",
+    "prompt": "full-calibration.prompt.txt",
+    "prompt_sha256": "f43cd625063eb27b6c12409c2c58ebe7adb22dd425fd3dc2f354a283c6dcee10",
+    "tool": "built-in imagegen",
+    "transparent_background": true,
+    "seed": "not exposed",
+    "status": "diagnostic; user not accepted",
+    "reference_roles": [
+      "img_1.png: subject",
+      "模式参考/r1.png: style",
+      "模式参考/r2.png: style"
+    ]
+  }
+]

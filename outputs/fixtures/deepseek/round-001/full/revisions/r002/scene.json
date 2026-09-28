@@ -1,0 +1,113 @@
+{
+  "background": null,
+  "eyes": {
+    "centers": [
+      [
+        115,
+        350
+      ],
+      [
+        283,
+        350
+      ]
+    ],
+    "fill": "#171C35",
+    "height": 88,
+    "width": 32
+  },
+  "head": {
+    "angle": 17,
+    "pivot": [
+      256,
+      256
+    ]
+  },
+  "layers": [
+    {
+      "id": "identity-fluke",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M 302 173 C 330 142 352 119 350 87 C 323 73 302 47 307 14 C 322 43 346 40 370 68 C 394 35 420 45 438 16 C 450 58 424 93 387 103 C 386 145 366 181 339 211 Z",
+            "fill": "#5267E8"
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "face",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M -62 373 C -72 246 -25 148 75 123 C 102 92 127 77 164 85 C 144 97 144 112 161 119 C 273 106 365 161 400 265 C 440 380 415 497 323 560 C 218 630 81 624 -13 557 C -66 514 -80 455 -62 373 Z",
+            "fill": "#5267E8"
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "whale-belly",
+      "shapes": []
+    },
+    {
+      "id": "identity-fin",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M 360 311 C 398 321 430 349 444 377 C 416 378 389 369 366 352 C 360 338 358 325 360 311 Z",
+            "fill": "#3D52CB"
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "crown-light",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M -23 242 C 17 166 86 137 162 139 C 87 158 46 181 8 238 Z",
+            "fill": "#8396FA"
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "cheeks",
+      "shapes": [
+        {
+          "attrs": {
+            "cx": 67,
+            "cy": 408,
+            "fill": "#8794EB",
+            "rx": 29,
+            "ry": 15
+          },
+          "tag": "ellipse"
+        },
+        {
+          "attrs": {
+            "cx": 322,
+            "cy": 408,
+            "fill": "#8794EB",
+            "rx": 29,
+            "ry": 15
+          },
+          "tag": "ellipse"
+        }
+      ]
+    },
+    {
+      "id": "eyes"
+    }
+  ],
+  "schema": "aikon.scene.v1",
+  "title": "DeepSeek blue-whale motif reinterpreted as a bot — unofficial study — full",
+  "variant": {
+    "profile": "full",
+    "round_id": "deepseek-001"
+  }
+}

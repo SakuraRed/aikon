@@ -5,5 +5,9 @@
 __pycache__/
 *.pyc
 node_modules/
+dist/
+docs/validation/calibration/pixels/
+docs/validation/calibration/pixels-complete/
+outputs/**/process-baseline.json
 .DS_Store
 Thumbs.db

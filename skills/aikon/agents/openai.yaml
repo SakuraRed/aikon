@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aikon"
+  short_description: "Create and refine reference-driven SVG bot icons"
+  default_prompt: "Use $aikon to create a Grok bot style SVG icon from my references and refine it with me."

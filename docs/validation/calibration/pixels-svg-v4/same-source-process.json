@@ -1,0 +1,23 @@
+{
+  "pid": 20076,
+  "parent_pid": 59684,
+  "cwd": "E:\\GH\\aikon",
+  "command": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\GH\\aikon\\docs\\validation\\calibration\\pixels-svg-v4\\compare_same_source.py",
+    "--png",
+    "outputs/calibration/illustration/short-imagegen-v1.png",
+    "--svg-render",
+    "outputs/calibration/illustration/vector-study/semantic-study-v4-render.png",
+    "--output",
+    "docs/validation/calibration/pixels-svg-v4",
+    "--_worker"
+  ],
+  "hard_timeout_s": 60,
+  "started_utc": "2026-09-28T15:50:58.040124+00:00",
+  "exit_code": 0,
+  "elapsed_s": 1.4595547999997507
+}

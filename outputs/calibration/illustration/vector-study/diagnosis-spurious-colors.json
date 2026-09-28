@@ -1,0 +1,37 @@
+[
+  {
+    "variant": "detail-48",
+    "component_pixels": 1673,
+    "probe_xy": [
+      801,
+      567
+    ],
+    "source_rgba": [
+      139,
+      123,
+      134,
+      253
+    ],
+    "gaussian_rgb": [
+      139,
+      122,
+      134
+    ],
+    "raw_median_cut_rgb": [
+      102,
+      116,
+      126
+    ],
+    "final_quantized_rgb": [
+      102,
+      116,
+      126
+    ],
+    "nearest_existing_palette_rgb": [
+      102,
+      116,
+      126
+    ],
+    "meaning": "If raw and final unexpected hue agree, it preceded mode cleanup and all SVG geometry."
+  }
+]

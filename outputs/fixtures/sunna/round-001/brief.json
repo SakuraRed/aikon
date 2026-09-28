@@ -1,0 +1,150 @@
+{
+  "schema": "aikon.draft-brief.v1",
+  "round_id": "fixture-sunna",
+  "profiles": [
+    "short",
+    "full"
+  ],
+  "user_input": "绝区零的千夏",
+  "identity": {
+    "name_zh": "千夏",
+    "name_en": "Sunna",
+    "work": "绝区零 / Zenless Zone Zero",
+    "form": "official reveal image baseline",
+    "identity_mapping_evidence": "官网页面对应关系由研究Agent核对并由主Agent转达；本Agent亲自查看带SUNNA名牌的官方图"
+  },
+  "sources": [
+    {
+      "role": "subject_reference",
+      "path": "E:\\GH\\aikon\\.local\\fixtures\\research\\sunna-official.jpg",
+      "source_page": "https://zenless.hoyoverse.com/fr-fr/news/162458",
+      "image_url": "https://fastcdn.hoyoverse.com/content-v2/nap/162458/602ac606a731adcf956138553d842a82_4195420698196405542.jpg",
+      "retrieved_utc": "2026-09-28T14:21:32.967693+00:00",
+      "sha256": "d9be9671919e0431833e2279ff20501eda0dbb0385655063dbfc5459800ba992",
+      "actually_viewed": true,
+      "uploaded": false,
+      "copied_to_output": false
+    },
+    {
+      "role": "strong_style_reference",
+      "path": "D:\\Downloads\\aikon ref\\模式参考\\r1.png",
+      "actually_viewed": true,
+      "uploaded": false
+    },
+    {
+      "role": "strong_style_reference",
+      "path": "D:\\Downloads\\aikon ref\\模式参考\\r2.png",
+      "actually_viewed": true,
+      "uploaded": false
+    }
+  ],
+  "observations": [
+    {
+      "origin": "reference_observation",
+      "fact": "官方图头顶是浅鼠尾草绿色，头发下层转深青绿，卷曲发梢有淡紫色。"
+    },
+    {
+      "origin": "reference_observation",
+      "fact": "右侧高马尾有明显粗体积和弯曲尾端，根部是一组高而尖的薄荷绿色几何蝴蝶结。"
+    },
+    {
+      "origin": "reference_observation",
+      "fact": "额前有黑/粉色发夹、交叉色条和另一侧的小深色三角夹。"
+    },
+    {
+      "origin": "reference_observation",
+      "fact": "原图有人类眼、嘴、武器、身体和广告卡面文字；不属于目标机器人头像五官或背景。"
+    }
+  ],
+  "interpretations": [
+    {
+      "origin": "agent_default",
+      "interpretation": "把颜色过渡处理为sage/青绿/淡紫的少量flat color，不使用渐变；HEX为目视设计值而非官方色表。"
+    },
+    {
+      "origin": "agent_default",
+      "interpretation": "将发夹组整体留在刘海上方，避免与胶囊眼接近形成眉毛错觉；省略无法可靠辨认的小符号。"
+    },
+    {
+      "origin": "agent_default",
+      "interpretation": "为保持超近景将高马尾和蝴蝶结的大轮廓移向右上，允许边缘裁切；不添加帽子。"
+    }
+  ],
+  "identity_groups": [
+    "sage-hair-high-side-ponytail-and-lavender-tips",
+    "mint-angular-bow",
+    "asymmetric-hair-clip-cluster"
+  ],
+  "style_reference_exclusions": [
+    "dark background replaced by alpha transparency",
+    "watermark omitted"
+  ],
+  "nontransferable_reference_identities": [
+    "blue hair",
+    "maid headband",
+    "hat"
+  ],
+  "storage": {
+    "user_selected_final_storage": true,
+    "location": "outputs/fixtures/sunna/round-001",
+    "strategy": "repository_structured_profile_revisions",
+    "evidence": "真实用户选择outputs/fixtures，由主Agent转达"
+  },
+  "decisions": [
+    {
+      "question_id": "fixture-storage",
+      "option_id": "repository-outputs-fixtures",
+      "origin": "user",
+      "state": "answered",
+      "evidence": "主Agent转达的实际用户选择"
+    }
+  ],
+  "pending_questions": [
+    "用户对实际两版预览的接受或局部修改反馈"
+  ],
+  "strict_output": {
+    "background": null,
+    "watermark": false,
+    "visible_text": false,
+    "both_profiles_required": true
+  },
+  "palette": {
+    "short": {
+      "skin": "#FFF0E0",
+      "hair": "#DEE1C7",
+      "hair_mid": "#B6CBB5",
+      "hair_dark": "#83A6A1",
+      "hair_light": "#F0F0DA",
+      "tip": "#C1ABBF",
+      "bow": "#7FD5BF",
+      "bow_dark": "#588F94",
+      "bow_light": "#C3F1DB",
+      "clip": "#41494A",
+      "pink": "#DDA6B6",
+      "blush": "#F1B8B4"
+    },
+    "full": {
+      "skin": "#F8E4DB",
+      "hair": "#D5D9BD",
+      "hair_mid": "#99B2A1",
+      "hair_dark": "#638C88",
+      "hair_light": "#EEF0D6",
+      "tip": "#9E8DA6",
+      "bow": "#52C8AD",
+      "bow_dark": "#326E79",
+      "bow_light": "#9BE7CD",
+      "clip": "#333F42",
+      "pink": "#D78FA8",
+      "blush": "#E8A7A4"
+    }
+  },
+  "source_prompt_license": "CC BY-NC 4.0",
+  "reference_redistribution": "permission not verified; no source image copied into output",
+  "helper_version_observed": "0.1.1",
+  "checks": {
+    "structural": "passed",
+    "visual": "unverified",
+    "raster_alpha": "unverified",
+    "user_acceptance": "pending"
+  }
+}

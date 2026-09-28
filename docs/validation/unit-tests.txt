@@ -1,0 +1,32 @@
+Command: python -B -X utf8 -m unittest discover -s tests -v
+test_cli_render_check_snapshot_and_required_root (test_aikon.FileTests.test_cli_render_check_snapshot_and_required_root) ... ok
+test_duplicate_json_keys_and_nonfinite_json_fail (test_aikon.FileTests.test_duplicate_json_keys_and_nonfinite_json_fail) ... ok
+test_failed_snapshot_commit_cleans_only_its_own_partial_files (test_aikon.FileTests.test_failed_snapshot_commit_cleans_only_its_own_partial_files) ... ok
+test_failed_staging_write_leaves_no_revision_or_temp_directory (test_aikon.FileTests.test_failed_staging_write_leaves_no_revision_or_temp_directory) ... ok
+test_modified_parent_is_rejected (test_aikon.FileTests.test_modified_parent_is_rejected) ... ok
+test_render_refuses_overwrite_and_explicit_draft_replace_works (test_aikon.FileTests.test_render_refuses_overwrite_and_explicit_draft_replace_works) ... ok
+test_revision_overwrite_missing_parent_and_traversal_fail (test_aikon.FileTests.test_revision_overwrite_missing_parent_and_traversal_fail) ... ok
+test_snapshot_hashes_parent_and_history_are_preserved (test_aikon.FileTests.test_snapshot_hashes_parent_and_history_are_preserved) ... ok
+test_snapshot_records_the_exact_round_and_profile_without_visual_claims (test_aikon.FileTests.test_snapshot_records_the_exact_round_and_profile_without_visual_claims) ... ok
+test_symlink_directory_escape_is_rejected (test_aikon.FileTests.test_symlink_directory_escape_is_rejected) ... ok
+test_symlink_revision_directory_and_output_file_are_rejected (test_aikon.FileTests.test_symlink_revision_directory_and_output_file_are_rejected) ... ok
+test_background_alpha_is_only_a_structural_fact (test_aikon.SVGCheckerTests.test_background_alpha_is_only_a_structural_fact) ... ok
+test_bitmap_external_resources_active_content_and_arbitrary_transforms_fail (test_aikon.SVGCheckerTests.test_bitmap_external_resources_active_content_and_arbitrary_transforms_fail) ... ok
+test_head_transform_must_be_on_a_direct_root_child (test_aikon.SVGCheckerTests.test_head_transform_must_be_on_a_direct_root_child) ... ok
+test_legacy_opaque_background_is_valid_but_reported_as_opaque (test_aikon.SVGCheckerTests.test_legacy_opaque_background_is_valid_but_reported_as_opaque) ... ok
+test_xml_declaration_allowed_but_bad_xml_and_duplicate_ids_fail (test_aikon.SVGCheckerTests.test_xml_declaration_allowed_but_bad_xml_and_duplicate_ids_fail) ... ok
+test_background_is_outside_rotation_and_layer_order_is_preserved (test_aikon.SceneTests.test_background_is_outside_rotation_and_layer_order_is_preserved) ... ok
+test_deterministic_and_title_is_text_not_markup (test_aikon.SceneTests.test_deterministic_and_title_is_text_not_markup) ... ok
+test_eye_spacing_edit_preserves_every_other_attribute_and_element (test_aikon.SceneTests.test_eye_spacing_edit_preserves_every_other_attribute_and_element) ... ok
+test_free_paths_and_all_supported_shapes_survive_export (test_aikon.SceneTests.test_free_paths_and_all_supported_shapes_survive_export) ... ok
+test_geometry_negative_controls (test_aikon.SceneTests.test_geometry_negative_controls) ... ok
+test_invalid_variant_and_claimed_validation_metadata_are_rejected (test_aikon.SceneTests.test_invalid_variant_and_claimed_validation_metadata_are_rejected) ... ok
+test_overrides_are_explicit_scoped_and_do_not_allow_nonfinite_values (test_aikon.SceneTests.test_overrides_are_explicit_scoped_and_do_not_allow_nonfinite_values) ... ok
+test_shape_and_attribute_injection_negative_controls (test_aikon.SceneTests.test_shape_and_attribute_injection_negative_controls) ... ok
+test_transparent_scene_has_no_background_or_fake_transparency_shape (test_aikon.SceneTests.test_transparent_scene_has_no_background_or_fake_transparency_shape) ... ok
+test_variant_metadata_does_not_silently_change_geometry (test_aikon.SceneTests.test_variant_metadata_does_not_silently_change_geometry) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.890s
+
+OK

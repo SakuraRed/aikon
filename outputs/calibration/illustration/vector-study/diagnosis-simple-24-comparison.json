@@ -1,0 +1,464 @@
+{
+  "schema": "aikon.vector-loss-decomposition.v1",
+  "source": "outputs\\calibration\\illustration\\short-imagegen-v1.png",
+  "source_sha256": "1980caf7a44e71f01316cc4db54e1cb72add25cb315bd09a117c2231b7a78126",
+  "previous_vector_log": "outputs\\calibration\\illustration\\vector-study\\vector-simple-24-v2.json",
+  "actual_svg_render": "outputs\\calibration\\illustration\\vector-study\\vector-simple-24-v2-render.png",
+  "settings_replayed": {
+    "input": "outputs/calibration/illustration/short-imagegen-v1.png",
+    "output": "outputs\\calibration\\illustration\\vector-study\\vector-simple-24-v2.svg",
+    "colors": 24,
+    "min_area": 64,
+    "mode_filter": 3,
+    "alpha_threshold": 128,
+    "alpha_min_area": 8,
+    "rgb_blur": 0.95,
+    "tolerance": 0.85,
+    "smooth": 0.8,
+    "stroke_width": 0.55,
+    "max_seconds": 50.0
+  },
+  "quantization_replay": {
+    "palette_requested": 24,
+    "palette_used": 24,
+    "mode_filter_size": 3,
+    "mode_filter_changed_pixels": 47401,
+    "merged_small_region_pixels": 63747,
+    "merged_small_components": 16374,
+    "merge_rule": "Optional local mode filter regularizes label boundaries; 4-connected color regions below min-area are reassigned to the nearest retained opaque color pixel; foreground alpha shape unchanged."
+  },
+  "eye_replay": {
+    "status": "heuristically_identified",
+    "candidates": [
+      {
+        "component": 943,
+        "area": 13298,
+        "center": [
+          323.500827192059,
+          810.7513911866446
+        ],
+        "ratio": 2.2963897407127223,
+        "light_surround_fraction": 0.913594470046083,
+        "bbox": [
+          265,
+          722,
+          383,
+          900
+        ]
+      },
+      {
+        "component": 1382,
+        "area": 12446,
+        "center": [
+          709.0878193797204,
+          988.9017354973486
+        ],
+        "ratio": 2.311193269357957,
+        "light_surround_fraction": 0.913895486935867,
+        "bbox": [
+          652,
+          903,
+          766,
+          1075
+        ]
+      }
+    ],
+    "selected": [
+      {
+        "id": "eye-left",
+        "component": 943,
+        "area": 13298,
+        "center": [
+          323.500827192059,
+          810.7513911866446
+        ],
+        "ratio": 2.2963897407127223,
+        "light_surround_fraction": 0.913594470046083,
+        "bbox": [
+          265,
+          722,
+          383,
+          900
+        ]
+      },
+      {
+        "id": "eye-right",
+        "component": 1382,
+        "area": 12446,
+        "center": [
+          709.0878193797204,
+          988.9017354973486
+        ],
+        "ratio": 2.311193269357957,
+        "light_surround_fraction": 0.913895486935867,
+        "bbox": [
+          652,
+          903,
+          766,
+          1075
+        ]
+      }
+    ],
+    "limitation": "Dark isolated components surrounded by pale color are inferred eyes, not guaranteed semantic segmentation; inspect both IDs after rendering."
+  },
+  "quantized_rgba": "outputs\\calibration\\illustration\\vector-study\\diagnosis-simple-24-quantized-rgba.png",
+  "vector_input_rgba": "outputs\\calibration\\illustration\\vector-study\\diagnosis-simple-24-vector-input-rgba.png",
+  "definitions": {
+    "quantized_rgba": "Replayed labels/palette inside alpha>=threshold; original alpha retained and low-alpha fringe colors untouched, isolating quantization color loss.",
+    "vector_input_rgba": "Same replayed labels/palette plus the exact median-color eye substitution and threshold silhouette with median interior alpha used before vector paths.",
+    "source_to_quantization": "Color quantization / smoothing / mode cleanup loss, before any paths.",
+    "quantization_to_vector_input": "Eye fill simplification and alpha threshold / group opacity preparation.",
+    "vector_input_to_svg_render": "Additional contour simplification / cubic fit / regrouping / overlap stroke / raster antialiasing effects.",
+    "metrics": "Same-source sRGB numeric approximation diagnostics only; MAE/RMSE are not artistic scores and are not algebraically additive."
+  },
+  "comparisons": {
+    "whole_image": {
+      "source_to_quantization": {
+        "support_pixels": 1206135,
+        "premultiplied_rgb_mae_0_255": 5.76132869720459,
+        "premultiplied_rgb_rmse_0_255": 14.03869342803955,
+        "white_composite_mae_0_255": 5.76132869720459,
+        "alpha_mae_0_255": 0.0,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 141850
+      },
+      "quantization_to_vector_input": {
+        "support_pixels": 1206135,
+        "premultiplied_rgb_mae_0_255": 0.5654559135437012,
+        "premultiplied_rgb_rmse_0_255": 3.3273069858551025,
+        "white_composite_mae_0_255": 0.5264468789100647,
+        "alpha_mae_0_255": 0.8625601530075073,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 5754
+      },
+      "vector_input_to_svg_render": {
+        "support_pixels": 1191426,
+        "premultiplied_rgb_mae_0_255": 0.7918896079063416,
+        "premultiplied_rgb_rmse_0_255": 6.778586387634277,
+        "white_composite_mae_0_255": 0.7894188165664673,
+        "alpha_mae_0_255": 0.26150262355804443,
+        "alpha_iou_at_128": 0.9993277028446573,
+        "pixels_rgb_max_error_over_20": 18235
+      },
+      "source_to_svg_render": {
+        "support_pixels": 1206144,
+        "premultiplied_rgb_mae_0_255": 5.881450653076172,
+        "premultiplied_rgb_rmse_0_255": 14.163225173950195,
+        "white_composite_mae_0_255": 5.921788215637207,
+        "alpha_mae_0_255": 0.849607527256012,
+        "alpha_iou_at_128": 0.9993277028446573,
+        "pixels_rgb_max_error_over_20": 147581
+      }
+    },
+    "face_center": {
+      "source_to_quantization": {
+        "support_pixels": 57500,
+        "premultiplied_rgb_mae_0_255": 2.3113508224487305,
+        "premultiplied_rgb_rmse_0_255": 7.4856085777282715,
+        "white_composite_mae_0_255": 2.3113508224487305,
+        "alpha_mae_0_255": 0.0,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 269
+      },
+      "quantization_to_vector_input": {
+        "support_pixels": 57500,
+        "premultiplied_rgb_mae_0_255": 0.828446090221405,
+        "premultiplied_rgb_rmse_0_255": 0.9274516701698303,
+        "white_composite_mae_0_255": 0.041484326124191284,
+        "alpha_mae_0_255": 0.8699303865432739,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 0
+      },
+      "vector_input_to_svg_render": {
+        "support_pixels": 57500,
+        "premultiplied_rgb_mae_0_255": 0.16316810250282288,
+        "premultiplied_rgb_rmse_0_255": 3.1740758419036865,
+        "white_composite_mae_0_255": 0.16316810250282288,
+        "alpha_mae_0_255": 0.0,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 117
+      },
+      "source_to_svg_render": {
+        "support_pixels": 57500,
+        "premultiplied_rgb_mae_0_255": 2.114663600921631,
+        "premultiplied_rgb_rmse_0_255": 7.345008850097656,
+        "white_composite_mae_0_255": 2.321833372116089,
+        "alpha_mae_0_255": 0.8699303865432739,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 310
+      }
+    },
+    "left_blush": {
+      "source_to_quantization": {
+        "support_pixels": 20625,
+        "premultiplied_rgb_mae_0_255": 9.963913917541504,
+        "premultiplied_rgb_rmse_0_255": 17.939620971679688,
+        "white_composite_mae_0_255": 9.963913917541504,
+        "alpha_mae_0_255": 0.0,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 9841
+      },
+      "quantization_to_vector_input": {
+        "support_pixels": 20625,
+        "premultiplied_rgb_mae_0_255": 0.3698063790798187,
+        "premultiplied_rgb_rmse_0_255": 0.5854213833808899,
+        "white_composite_mae_0_255": 0.04052085801959038,
+        "alpha_mae_0_255": 0.4103272557258606,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 0
+      },
+      "vector_input_to_svg_render": {
+        "support_pixels": 20625,
+        "premultiplied_rgb_mae_0_255": 0.5662710070610046,
+        "premultiplied_rgb_rmse_0_255": 6.930892467498779,
+        "white_composite_mae_0_255": 0.5662710070610046,
+        "alpha_mae_0_255": 0.0,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 175
+      },
+      "source_to_svg_render": {
+        "support_pixels": 20625,
+        "premultiplied_rgb_mae_0_255": 10.118444442749023,
+        "premultiplied_rgb_rmse_0_255": 17.708646774291992,
+        "white_composite_mae_0_255": 10.070615768432617,
+        "alpha_mae_0_255": 0.4103272557258606,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 9906
+      }
+    },
+    "hair_anomalous_patch": {
+      "source_to_quantization": {
+        "support_pixels": 23400,
+        "premultiplied_rgb_mae_0_255": 5.941214561462402,
+        "premultiplied_rgb_rmse_0_255": 9.084044456481934,
+        "white_composite_mae_0_255": 5.941214561462402,
+        "alpha_mae_0_255": 0.0,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 1984
+      },
+      "quantization_to_vector_input": {
+        "support_pixels": 23400,
+        "premultiplied_rgb_mae_0_255": 0.09337908774614334,
+        "premultiplied_rgb_rmse_0_255": 0.21225416660308838,
+        "white_composite_mae_0_255": 0.18153545260429382,
+        "alpha_mae_0_255": 0.2749145030975342,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 0
+      },
+      "vector_input_to_svg_render": {
+        "support_pixels": 23400,
+        "premultiplied_rgb_mae_0_255": 0.4079855978488922,
+        "premultiplied_rgb_rmse_0_255": 3.0011415481567383,
+        "white_composite_mae_0_255": 0.4079855978488922,
+        "alpha_mae_0_255": 0.0,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 199
+      },
+      "source_to_svg_render": {
+        "support_pixels": 23400,
+        "premultiplied_rgb_mae_0_255": 5.83441686630249,
+        "premultiplied_rgb_rmse_0_255": 8.948153495788574,
+        "white_composite_mae_0_255": 5.987536430358887,
+        "alpha_mae_0_255": 0.2749145030975342,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 1932
+      }
+    },
+    "hair_main": {
+      "source_to_quantization": {
+        "support_pixels": 89600,
+        "premultiplied_rgb_mae_0_255": 2.015033483505249,
+        "premultiplied_rgb_rmse_0_255": 3.75571608543396,
+        "white_composite_mae_0_255": 2.015033721923828,
+        "alpha_mae_0_255": 0.0,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 683
+      },
+      "quantization_to_vector_input": {
+        "support_pixels": 89600,
+        "premultiplied_rgb_mae_0_255": 0.16030798852443695,
+        "premultiplied_rgb_rmse_0_255": 0.24081729352474213,
+        "white_composite_mae_0_255": 0.4045357406139374,
+        "alpha_mae_0_255": 0.5648437142372131,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 0
+      },
+      "vector_input_to_svg_render": {
+        "support_pixels": 89600,
+        "premultiplied_rgb_mae_0_255": 0.1868598908185959,
+        "premultiplied_rgb_rmse_0_255": 1.7630516290664673,
+        "white_composite_mae_0_255": 0.1868598908185959,
+        "alpha_mae_0_255": 0.0,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 169
+      },
+      "source_to_svg_render": {
+        "support_pixels": 89600,
+        "premultiplied_rgb_mae_0_255": 1.989961862564087,
+        "premultiplied_rgb_rmse_0_255": 3.8060290813446045,
+        "white_composite_mae_0_255": 2.329658269882202,
+        "alpha_mae_0_255": 0.5648437142372131,
+        "alpha_iou_at_128": 1.0,
+        "pixels_rgb_max_error_over_20": 683
+      }
+    }
+  },
+  "pixel_probes": [
+    {
+      "xy": [
+        784,
+        566
+      ],
+      "source": [
+        114,
+        101,
+        112,
+        253
+      ],
+      "quantized": [
+        106,
+        96,
+        107,
+        253
+      ],
+      "vector_input": [
+        106,
+        96,
+        107,
+        253
+      ],
+      "svg_render": [
+        106,
+        96,
+        107,
+        253
+      ],
+      "palette_index": 13
+    },
+    {
+      "xy": [
+        476,
+        936
+      ],
+      "source": [
+        252,
+        253,
+        249,
+        252
+      ],
+      "quantized": [
+        252,
+        249,
+        244,
+        252
+      ],
+      "vector_input": [
+        252,
+        249,
+        244,
+        253
+      ],
+      "svg_render": [
+        252,
+        249,
+        244,
+        253
+      ],
+      "palette_index": 0
+    },
+    {
+      "xy": [
+        164,
+        930
+      ],
+      "source": [
+        253,
+        212,
+        205,
+        254
+      ],
+      "quantized": [
+        252,
+        238,
+        229,
+        254
+      ],
+      "vector_input": [
+        252,
+        238,
+        229,
+        253
+      ],
+      "svg_render": [
+        252,
+        238,
+        229,
+        253
+      ],
+      "palette_index": 5
+    },
+    {
+      "xy": [
+        727,
+        1125
+      ],
+      "source": [
+        253,
+        212,
+        206,
+        254
+      ],
+      "quantized": [
+        252,
+        238,
+        229,
+        254
+      ],
+      "vector_input": [
+        252,
+        238,
+        229,
+        253
+      ],
+      "svg_render": [
+        252,
+        238,
+        229,
+        253
+      ],
+      "palette_index": 5
+    },
+    {
+      "xy": [
+        552,
+        462
+      ],
+      "source": [
+        74,
+        69,
+        79,
+        252
+      ],
+      "quantized": [
+        71,
+        67,
+        78,
+        252
+      ],
+      "vector_input": [
+        71,
+        67,
+        78,
+        253
+      ],
+      "svg_render": [
+        71,
+        67,
+        78,
+        253
+      ],
+      "palette_index": 19
+    }
+  ],
+  "runtime_seconds": 2.958
+}

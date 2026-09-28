@@ -1,0 +1,46 @@
+{
+  "schema": "aikon.fixture-brief.v1",
+  "round_id": "fixture-aria-human",
+  "subject": "Aria / 爱芮",
+  "form": "human",
+  "profiles": [
+    "short",
+    "full"
+  ],
+  "user_decisions": {
+    "forms": "both human projection and robot body",
+    "output_root": "outputs/fixtures",
+    "background": "transparent",
+    "watermark": false,
+    "origin": "user choices relayed by parent agent"
+  },
+  "sources": [
+    {
+      "role": "subject_reference",
+      "url": "https://zenless.hoyoverse.com/th-th/news/161813",
+      "image": "https://fastcdn.hoyoverse.com/content-v2/nap/161813/e2b54a9cc44d5d4c0af1b105696c8b0a_4372999720764701032.jpg",
+      "actually_viewed": true,
+      "redistribution": "not verified; source image excluded from output"
+    },
+    {
+      "role": "strong_style_reference",
+      "files": [
+        "r1.png",
+        "r2.png"
+      ],
+      "actually_viewed": true,
+      "uploaded": false
+    }
+  ],
+  "interpretations": [
+    "Subject-specific flat paths drawn for this fixture, not bitmap tracing.",
+    "Head accessories repositioned to preserve two fully visible capsule eyes.",
+    "Exact palette and crop are agent design values, not official measurements."
+  ],
+  "checks": {
+    "structural": "passed by snapshot",
+    "visual": "unverified",
+    "raster_alpha": "unverified",
+    "user_acceptance": "pending"
+  }
+}

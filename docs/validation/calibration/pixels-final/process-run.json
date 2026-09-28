@@ -1,0 +1,26 @@
+{
+  "worker_pid": 62904,
+  "parent_pid": 59208,
+  "cwd": "E:\\GH\\aikon",
+  "command": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\GH\\aikon\\tools\\analyze_style_pixels.py",
+    "--manifest",
+    "docs/validation/calibration/pixel-inputs.json",
+    "--output",
+    "docs/validation/calibration/pixels-final",
+    "--size",
+    "512",
+    "--timeout",
+    "60",
+    "--_worker"
+  ],
+  "timeout_s": 60.0,
+  "started_utc": "2026-09-28T15:09:09.136810+00:00",
+  "exit_code": 0,
+  "elapsed_s": 7.389037900000403,
+  "finished_utc": "2026-09-28T15:09:16.520525+00:00"
+}

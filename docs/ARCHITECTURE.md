@@ -18,6 +18,8 @@
 
 新项目未提供存放方式时先原生提问，helper 只接收已选项目路径。snapshot 创建新版本，不推断用户偏好，不自动创建或推送 Git。
 
+输入研究层把概念、名称、图像、URL及可读取的其他模态归并为主体资料；再将同一round分别映射到short/full profile。每个profile保存实际生产提示词、scene、SVG和revision。`background: null`是透明导出，纯色背景仅兼容显式请求。忠实源译文与运行覆盖分开，禁止将源charcoal/单图要求重新覆盖用户透明/双版指令。
+
 `ref/` 与 `docs/research/` 是仓库研究资料；分发参考位于 `skills/aikon/assets/examples/`，由原创场景生成，两者不混包。
 
 ## 可移植性

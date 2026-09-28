@@ -1,0 +1,66 @@
+{
+  "schema": "aikon.same-source-approximation.v1",
+  "art_score": null,
+  "gold": false,
+  "user_accepted": false,
+  "source_png": "E:\\GH\\aikon\\outputs\\calibration\\illustration\\short-imagegen-v1.png",
+  "svg_render_png": "E:\\GH\\aikon\\outputs\\calibration\\illustration\\vector-study\\semantic-study-v4-render.png",
+  "source_png_sha256": "1980caf7a44e71f01316cc4db54e1cb72add25cb315bd09a117c2231b7a78126",
+  "svg_render_sha256": "008a4df7e524469cfec8079cfd65920f29caa0a7278df6eaed9a2c8f6b1da279",
+  "native_size": [
+    1254,
+    1254
+  ],
+  "resizing": "none",
+  "registration": "none",
+  "alpha_threshold_0_255": 128,
+  "binary_alpha_iou": 0.9990194076617284,
+  "binary_alpha_intersection_pixels": 1188930,
+  "binary_alpha_union_pixels": 1190097,
+  "source_only_alpha_pixels": 934,
+  "svg_only_alpha_pixels": 233,
+  "soft_alpha_iou": 0.9966095089912415,
+  "alpha_mae_0_255": 0.6495863795280457,
+  "premultiplied_rgb_mae_0_255_all_canvas": 11.695075035095215,
+  "premultiplied_rgb_mae_0_255_alpha_union": 15.372421264648438,
+  "color_math": "sRGB-encoded channel values; P=RGB*(alpha/255). No linear-light or perceptual conversion.",
+  "composites": {
+    "white": {
+      "background_rgb_0_255": [
+        255,
+        255,
+        255
+      ],
+      "formula": "C=P+(1-alpha)*background",
+      "rgb_mae_0_255_all_canvas": 11.725747108459473,
+      "rgb_mae_0_255_alpha_union": 15.406447410583496,
+      "per_channel_rgb_mae_0_255": [
+        11.448294639587402,
+        12.35146713256836,
+        11.350800514221191
+      ]
+    },
+    "dark": {
+      "background_rgb_0_255": [
+        32,
+        32,
+        32
+      ],
+      "formula": "C=P+(1-alpha)*background",
+      "rgb_mae_0_255_all_canvas": 11.6613130569458,
+      "rgb_mae_0_255_alpha_union": 15.346226692199707,
+      "per_channel_rgb_mae_0_255": [
+        11.430390357971191,
+        12.24952220916748,
+        11.297344207763672
+      ]
+    }
+  },
+  "interpretation": "The SVG intentionally simplifies and redraws colors. These are same-source approximation losses, not art quality, style conformance, IP fidelity, or user acceptance.",
+  "alpha_map_legend": {
+    "gray": "both foreground",
+    "pink": "PNG only",
+    "cyan": "SVG render only",
+    "dark": "both below alpha threshold"
+  }
+}

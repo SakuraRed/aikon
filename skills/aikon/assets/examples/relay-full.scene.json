@@ -1,0 +1,148 @@
+{
+  "schema": "aikon.scene.v1",
+  "title": "Relay — original bald ceramic automaton with a sea-glass face, slate crown and amber receiver — full transparent close-up",
+  "background": null,
+  "head": {
+    "angle": 17,
+    "pivot": [
+      256,
+      256
+    ]
+  },
+  "eyes": {
+    "centers": [
+      [
+        115,
+        352
+      ],
+      [
+        280,
+        352
+      ]
+    ],
+    "width": 30,
+    "height": 84,
+    "fill": "#18191B"
+  },
+  "layers": [
+    {
+      "id": "shell-back",
+      "shapes": [
+        {
+          "tag": "ellipse",
+          "attrs": {
+            "cx": 185,
+            "cy": 338,
+            "rx": 235,
+            "ry": 256,
+            "fill": "#385569"
+          }
+        },
+        {
+          "tag": "rect",
+          "attrs": {
+            "x": 366,
+            "y": 255,
+            "width": 69,
+            "height": 109,
+            "rx": 31,
+            "fill": "#385569"
+          }
+        },
+        {
+          "tag": "rect",
+          "attrs": {
+            "x": 393,
+            "y": 276,
+            "width": 34,
+            "height": 65,
+            "rx": 17,
+            "fill": "#D7A666"
+          }
+        }
+      ]
+    },
+    {
+      "id": "face",
+      "shapes": [
+        {
+          "tag": "ellipse",
+          "attrs": {
+            "cx": 180,
+            "cy": 351,
+            "rx": 215,
+            "ry": 237,
+            "fill": "#ACCDCA"
+          }
+        }
+      ]
+    },
+    {
+      "id": "front",
+      "shapes": [
+        {
+          "tag": "path",
+          "attrs": {
+            "d": "M -35 234 C -35 150 52 83 159 81 C 271 72 360 129 392 217 L 358 229 C 319 191 263 177 195 184 L 41 202 C 10 207 -12 219 -35 234 Z",
+            "fill": "#385569"
+          }
+        },
+        {
+          "tag": "path",
+          "attrs": {
+            "d": "M 14 161 C 66 113 137 101 204 112 C 135 114 81 137 42 174 Z",
+            "fill": "#597789"
+          }
+        }
+      ]
+    },
+    {
+      "id": "identity-status-panel",
+      "shapes": [
+        {
+          "tag": "rect",
+          "attrs": {
+            "x": 263,
+            "y": 152,
+            "width": 70,
+            "height": 24,
+            "rx": 12,
+            "fill": "#D7A666"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cheeks",
+      "shapes": [
+        {
+          "tag": "ellipse",
+          "attrs": {
+            "cx": 72,
+            "cy": 407,
+            "rx": 27,
+            "ry": 15,
+            "fill": "#83B0B0"
+          }
+        },
+        {
+          "tag": "ellipse",
+          "attrs": {
+            "cx": 309,
+            "cy": 407,
+            "rx": 27,
+            "ry": 15,
+            "fill": "#83B0B0"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eyes"
+    }
+  ],
+  "variant": {
+    "round_id": "original-relay-v1",
+    "profile": "full"
+  }
+}

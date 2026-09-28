@@ -1,0 +1,35 @@
+{
+  "schema": "aikon.round.v1",
+  "round_id": "endministrator-female-001",
+  "subject": "女管理员",
+  "profiles": {
+    "short": {
+      "prompt": "short/prompt.zh-CN.md",
+      "revision": "r002",
+      "scene": "short/revisions/r002/scene.json",
+      "svg": "short/revisions/r002/icon.svg",
+      "delivery_copy": "short.svg",
+      "feedback": "short/revisions/r002/feedback.json",
+      "history": [
+        "r001",
+        "r002"
+      ]
+    },
+    "full": {
+      "prompt": "full/prompt.zh-CN.md",
+      "revision": "r002",
+      "scene": "full/revisions/r002/scene.json",
+      "svg": "full/revisions/r002/icon.svg",
+      "delivery_copy": "full.svg",
+      "feedback": "full/revisions/r002/feedback.json",
+      "history": [
+        "r001",
+        "r002"
+      ]
+    }
+  },
+  "brief": "brief.json",
+  "status": "structurally_checked",
+  "visual": "unverified",
+  "user_acceptance": "unverified"
+}

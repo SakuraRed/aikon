@@ -1,0 +1,20 @@
+{
+  "background": {
+    "canvas_rects": [],
+    "raster_alpha": "unverified",
+    "structural_status": "no_painted_canvas_rect_detected"
+  },
+  "checks": {
+    "structural": "passed",
+    "visual": "unverified"
+  },
+  "helper_version": "0.1.1",
+  "note": "Authored from inspected official portrait and user style references. Eye-covering mask deliberately simplified above the eye pair; visual review pending.",
+  "parent": null,
+  "profile": "short",
+  "revision": "r001",
+  "round_id": "endministrator-female-001",
+  "scene_sha256": "9f29b830e190cf96c892c4bb1943b741f9636042cb86a5e2cb2ba1c8e7da4dff",
+  "schema": "aikon.revision.v1",
+  "svg_sha256": "88428a47990f075be7a18cf75895459b86a08e5202d43ebacb55de3656d646d0"
+}

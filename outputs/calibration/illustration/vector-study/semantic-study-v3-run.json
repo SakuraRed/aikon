@@ -1,0 +1,24 @@
+{
+  "pid": 61236,
+  "parent_pid": 58172,
+  "command": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "tools/vectorize_calibration.py",
+    "--input",
+    "outputs/calibration/illustration/short-imagegen-v1.png",
+    "--output",
+    "outputs\\calibration\\illustration\\vector-study\\semantic-study-v3.svg",
+    "--semantic-study",
+    "--max-seconds",
+    "50"
+  ],
+  "cwd": "E:\\GH\\aikon",
+  "started": "2026-09-28T15:34:51.843807+00:00",
+  "ended": "2026-09-28T15:34:54.195792+00:00",
+  "exit_code": 0,
+  "hard_timeout_seconds": 55,
+  "children_spawned": false
+}

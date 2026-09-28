@@ -1,0 +1,34 @@
+{
+  "schema": "aikon.feedback.v1",
+  "reviewer": "agent_review",
+  "feedback_source": "Main Agent and authoring Agent actually viewed the updated outputs/fixtures/review-2.png with female portraits in its first row.",
+  "base_revision": "r001",
+  "revision": "r002",
+  "base_svg_sha256": "5b2760ad233e5015630af25c2e7abdaa85500be5ea6a6fad082451bddcb90fef",
+  "observations": [
+    "The black/yellow accessory read as a brow line too near the capsule eyes."
+  ],
+  "changes": [
+    "Translate visor-forehead and any visor-panels up 64 local coordinate units."
+  ],
+  "changed_layer_ids": [
+    "visor-forehead",
+    "visor-panels"
+  ],
+  "preserved": [
+    "all hair geometry and colors",
+    "silver cross clip",
+    "face and cheeks",
+    "eye dimensions/centers/fill",
+    "head angle/pivot",
+    "all other layers",
+    "background null",
+    "round/profile"
+  ],
+  "checks": {
+    "svg_structural": "passed",
+    "preservation": "passed",
+    "visual": "unverified",
+    "user_acceptance": "unverified"
+  }
+}

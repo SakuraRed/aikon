@@ -16,3 +16,5 @@
 - [两轮产品决策](https://github.com/SakuraRed/aikon/issues/4#issuecomment-5871118157)：真实用户回答及独立列明的工程取舍。
 
 当前待验收：[首版技能与原创 SVG 参考](https://github.com/SakuraRed/aikon/issues/5)。
+
+- [首次视觉反馈后的双版本/全模态覆盖与测试分支](https://github.com/SakuraRed/aikon/issues/4#issuecomment-5872211140)：透明无水印、更强近景、完整中文提示词、七个主体分支和已选存放位置。

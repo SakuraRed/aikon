@@ -1,0 +1,8 @@
+{
+  "round_id": "fixture-aria-human",
+  "profiles": {
+    "short": "short/revisions/r001/icon.svg",
+    "full": "full/revisions/r001/icon.svg"
+  },
+  "user_acceptance": "pending"
+}

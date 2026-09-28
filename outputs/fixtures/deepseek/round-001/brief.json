@@ -1,0 +1,49 @@
+{
+  "round_id": "deepseek-001",
+  "input": {
+    "type": "concept",
+    "text": "DeepSeek",
+    "file": "概念1.txt"
+  },
+  "user_decisions": {
+    "interpretation": "blue-whale brand motif botification",
+    "storage": "repository outputs/fixtures",
+    "profiles": [
+      "short",
+      "full"
+    ],
+    "background": "transparent",
+    "watermarks": "none",
+    "composition": "stronger close-up"
+  },
+  "observations": {
+    "source": "https://www.deepseek.com/",
+    "image": "https://cdn.deepseek.com/images/deepseek-chat-open-graph-image.jpeg",
+    "viewed": true,
+    "features": [
+      "blue whale outline",
+      "upturned two-lobed tail",
+      "light belly/negative-space motif",
+      "wordmark separate from whale"
+    ]
+  },
+  "agent_design": {
+    "interpretation": "round bot head, tail and fin cues; not a reproduction of official logo",
+    "omitted": [
+      "wordmark",
+      "white natural eye in logo",
+      "page background",
+      "all lettering"
+    ],
+    "palette": "chosen from visual blue family, not pixel sampled official color",
+    "profile_changes": {
+      "short": "cream face, pastel crown, fewer light/shadow shapes,15deg and3:1",
+      "full": "blue surface, belly motif, tail/fin silhouette,17deg and2.75:1"
+    }
+  },
+  "rights": "Private user-requested brand-inspired study; no affiliation or redistribution permission for original source imagery asserted.",
+  "checks": {
+    "visual": "pending",
+    "user_acceptance": "pending"
+  }
+}

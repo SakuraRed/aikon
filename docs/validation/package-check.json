@@ -1,0 +1,31 @@
+{
+  "artifact": "dist/aikon-0.1.1-preview.zip",
+  "sha256": "047e241d3cfa1b423c115fcbdc67c7470848263808e3ecb9ff47b8a0528af459",
+  "files": 27,
+  "bytes": 151638,
+  "checks": {
+    "archive_content_hashes": "passed",
+    "relative_links_after_extraction": "passed",
+    "detached_stdlib_render": "passed",
+    "svg_byte_reproducibility": "passed"
+  },
+  "includes": [
+    "standard skill entry",
+    "relative references",
+    "original PNG/SVG scene examples",
+    "optional Python helper",
+    "attributed Chinese source prompt translations"
+  ],
+  "excludes": [
+    "private website/user reference images",
+    "fixture output artworks",
+    "research caches",
+    "tests",
+    "credentials"
+  ],
+  "limitations": [
+    "This is a preview package, not a signed/public release.",
+    "Source prompt translations retain CC BY-NC 4.0.",
+    "No different harness/model was run."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "background": {
+    "canvas_rects": [],
+    "raster_alpha": "unverified",
+    "structural_status": "no_painted_canvas_rect_detected"
+  },
+  "checks": {
+    "structural": "passed",
+    "visual": "unverified"
+  },
+  "helper_version": "0.1.1",
+  "note": "Parent-agent visual feedback: remove four tiny forehead attachment nodes only; not user acceptance.",
+  "parent": "r001",
+  "profile": "full",
+  "revision": "r002",
+  "round_id": "fixture-aria-robot",
+  "scene_sha256": "7daf48d0d2aeaaf48e423893b5fb92d377cea67ff528aaaacc70d44d5dab2ffd",
+  "schema": "aikon.revision.v1",
+  "svg_sha256": "3da2784fbaa94155d60fa9c851830a2bc198c35afa232d98397dfbba62ac1582"
+}

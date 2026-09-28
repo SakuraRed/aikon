@@ -1,0 +1,26 @@
+{
+  "worker_pid": 60268,
+  "parent_pid": 37064,
+  "cwd": "E:\\GH\\aikon",
+  "command": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\GH\\aikon\\tools\\analyze_style_pixels.py",
+    "--manifest",
+    "docs/validation/calibration/pixel-inputs-svg-v4.json",
+    "--output",
+    "docs/validation/calibration/pixels-svg-v4",
+    "--size",
+    "512",
+    "--timeout",
+    "60",
+    "--_worker"
+  ],
+  "timeout_s": 60.0,
+  "started_utc": "2026-09-28T15:49:16.567155+00:00",
+  "exit_code": 0,
+  "elapsed_s": 6.21017889999348,
+  "finished_utc": "2026-09-28T15:49:22.773112+00:00"
+}

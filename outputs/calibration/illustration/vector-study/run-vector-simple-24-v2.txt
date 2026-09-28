@@ -1,0 +1,1 @@
+{"output": "outputs\\calibration\\illustration\\vector-study\\vector-simple-24-v2.svg", "metadata": "outputs\\calibration\\illustration\\vector-study\\vector-simple-24-v2.json", "paths": 28, "vertices": 23834, "bytes": 796345, "seconds": 1.679, "eyes": "heuristically_identified"}

@@ -1,0 +1,266 @@
+{
+  "schema": "aikon.pixel-calibration.v1",
+  "initial_assumptions_locked_before_first_run": true,
+  "note": "ROIs are manual algorithm assumptions from actually viewed images, not gold labels. Thresholds are fixed across images; sensitivity values are not optimized toward a conclusion.",
+  "background_tolerance": 12,
+  "background_sensitivity": [
+    8,
+    12,
+    20
+  ],
+  "dark_eye_threshold": 80,
+  "eye_sensitivity": [
+    60,
+    80,
+    100
+  ],
+  "alpha_threshold": 128,
+  "warm_skin_rule": {
+    "red_min": 175,
+    "green_min": 135,
+    "blue_min": 110,
+    "red_minus_green_min": 4,
+    "green_minus_blue_min": 3
+  },
+  "post_run_diagnostic_extension": "Initial strict warm mask visibly excluded near-white skin in r1/r2. Preserve it and add the single neutral-inclusive ordering case (R>=G>=B), without replacing the primary mask or selecting a favorable art score. Compare both as segmentation sensitivity, not gold.",
+  "skin_ordering_sensitivity": [
+    [
+      0,
+      0
+    ]
+  ],
+  "color_quantization_steps": [
+    8,
+    16,
+    32
+  ],
+  "assets": [
+    {
+      "id": "mode-r1",
+      "role": "user-style-reference",
+      "path": "D:/Downloads/aikon ref/模式参考/r1.png",
+      "background_mode": "dark-flood",
+      "background_seed_roi": [
+        0.9,
+        0.025,
+        0.99,
+        0.13
+      ],
+      "watermark_exclusion_rois": [
+        [
+          0.83,
+          0.92,
+          1.0,
+          1.0
+        ]
+      ],
+      "skin_search_roi": [
+        0.0,
+        0.3,
+        0.83,
+        1.0
+      ],
+      "eye_rois": [
+        [
+          0.09,
+          0.48,
+          0.25,
+          0.72
+        ],
+        [
+          0.42,
+          0.62,
+          0.58,
+          0.85
+        ]
+      ]
+    },
+    {
+      "id": "mode-r2",
+      "role": "user-style-reference",
+      "path": "D:/Downloads/aikon ref/模式参考/r2.png",
+      "background_mode": "dark-flood",
+      "background_seed_roi": [
+        0.9,
+        0.025,
+        0.99,
+        0.13
+      ],
+      "watermark_exclusion_rois": [],
+      "skin_search_roi": [
+        0.0,
+        0.3,
+        0.83,
+        1.0
+      ],
+      "eye_rois": [
+        [
+          0.09,
+          0.47,
+          0.25,
+          0.71
+        ],
+        [
+          0.4,
+          0.61,
+          0.58,
+          0.85
+        ]
+      ]
+    },
+    {
+      "id": "site-short-pink",
+      "role": "site-style-reference",
+      "path": "../../../ref/site/short-pink.png",
+      "background_mode": "dark-flood",
+      "background_seed_roi": [
+        0.9,
+        0.025,
+        0.99,
+        0.13
+      ],
+      "watermark_exclusion_rois": [],
+      "skin_search_roi": [
+        0.0,
+        0.3,
+        0.83,
+        1.0
+      ],
+      "eye_rois": [
+        [
+          0.12,
+          0.52,
+          0.26,
+          0.73
+        ],
+        [
+          0.43,
+          0.65,
+          0.56,
+          0.85
+        ]
+      ]
+    },
+    {
+      "id": "site-short-black",
+      "role": "site-style-reference",
+      "path": "../../../ref/site/short-black.png",
+      "background_mode": "dark-flood",
+      "background_seed_roi": [
+        0.9,
+        0.025,
+        0.99,
+        0.13
+      ],
+      "watermark_exclusion_rois": [],
+      "skin_search_roi": [
+        0.0,
+        0.3,
+        0.83,
+        1.0
+      ],
+      "eye_rois": [
+        [
+          0.19,
+          0.55,
+          0.34,
+          0.75
+        ],
+        [
+          0.49,
+          0.68,
+          0.62,
+          0.87
+        ]
+      ]
+    },
+    {
+      "id": "site-short-blue",
+      "role": "site-style-reference",
+      "path": "../../../ref/site/short-blue.png",
+      "background_mode": "dark-flood",
+      "background_seed_roi": [
+        0.9,
+        0.025,
+        0.99,
+        0.13
+      ],
+      "watermark_exclusion_rois": [],
+      "skin_search_roi": [
+        0.0,
+        0.3,
+        0.83,
+        1.0
+      ],
+      "eye_rois": [
+        [
+          0.12,
+          0.55,
+          0.26,
+          0.75
+        ],
+        [
+          0.43,
+          0.66,
+          0.56,
+          0.85
+        ]
+      ]
+    },
+    {
+      "id": "draft-illustration-full-r001",
+      "role": "rejected-draft",
+      "path": "../../../.local/calibration/illustration-full.png",
+      "background_mode": "alpha-only",
+      "watermark_exclusion_rois": [],
+      "skin_search_roi": [
+        0.0,
+        0.3,
+        0.9,
+        1.0
+      ],
+      "eye_rois": [
+        [
+          0.055,
+          0.51,
+          0.22,
+          0.75
+        ],
+        [
+          0.36,
+          0.6,
+          0.56,
+          0.86
+        ]
+      ]
+    },
+    {
+      "id": "candidate-illustration-short-imagegen-v1",
+      "role": "calibration-candidate-not-gold",
+      "path": "../../../outputs/calibration/illustration/short-imagegen-v1.png",
+      "background_mode": "alpha-only",
+      "watermark_exclusion_rois": [],
+      "skin_search_roi": [
+        0.0,
+        0.3,
+        0.83,
+        1.0
+      ],
+      "eye_rois": [
+        [
+          0.19,
+          0.55,
+          0.34,
+          0.75
+        ],
+        [
+          0.49,
+          0.68,
+          0.62,
+          0.87
+        ]
+      ],
+      "note": "Actual image viewed before ROI assignment; same eye ROIs as site-short-black. New diagnostic PNG only, not SVG, not gold, not user accepted. Thresholds unchanged."
+    }
+  ]
+}

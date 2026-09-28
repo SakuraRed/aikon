@@ -1,0 +1,55 @@
+{
+  "schema": "aikon.round.v1",
+  "round_id": "fixture-sunna",
+  "folder_round": "round-001",
+  "input_type": "named_character_with_official_reference",
+  "user_input": "绝区零的千夏",
+  "subject": "Sunna / 千夏",
+  "profiles": {
+    "short": {
+      "revision": "r001",
+      "svg": "short/revisions/r001/icon.svg",
+      "scene": "short/revisions/r001/scene.json",
+      "prompt": "short/prompt.zh-CN.md",
+      "checks": {
+        "background": {
+          "canvas_rects": [],
+          "raster_alpha": "unverified",
+          "structural_status": "no_painted_canvas_rect_detected"
+        },
+        "checks": {
+          "structural": "passed",
+          "visual": "unverified"
+        },
+        "issues": [],
+        "ok": true,
+        "schema": "aikon.check.v1"
+      }
+    },
+    "full": {
+      "revision": "r001",
+      "svg": "full/revisions/r001/icon.svg",
+      "scene": "full/revisions/r001/scene.json",
+      "prompt": "full/prompt.zh-CN.md",
+      "checks": {
+        "background": {
+          "canvas_rects": [],
+          "raster_alpha": "unverified",
+          "structural_status": "no_painted_canvas_rect_detected"
+        },
+        "checks": {
+          "structural": "passed",
+          "visual": "unverified"
+        },
+        "issues": [],
+        "ok": true,
+        "schema": "aikon.check.v1"
+      }
+    }
+  },
+  "storage_origin": "actual_user_choice_relayed_by_main_agent",
+  "background": null,
+  "watermark": false,
+  "visual": "unverified",
+  "user_acceptance": "pending"
+}

@@ -1,0 +1,26 @@
+{
+  "short": {
+    "xml_parsed": true,
+    "raster_embedding": false,
+    "external_references": false,
+    "visible_text": false,
+    "background_element": false,
+    "eye_count": 2,
+    "eye_ratio": 3.0,
+    "path_count": 27,
+    "gradient_count": 0,
+    "visual_acceptance": "NOT EVALUATED BY STRUCTURE CHECK"
+  },
+  "full": {
+    "xml_parsed": true,
+    "raster_embedding": false,
+    "external_references": false,
+    "visible_text": false,
+    "background_element": false,
+    "eye_count": 2,
+    "eye_ratio": 2.75,
+    "path_count": 33,
+    "gradient_count": 5,
+    "visual_acceptance": "NOT EVALUATED BY STRUCTURE CHECK"
+  }
+}

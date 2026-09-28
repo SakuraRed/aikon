@@ -1,0 +1,87 @@
+{
+  "schema": "aikon.fixture-brief.v1",
+  "round_id": "endministrator-female-001",
+  "subject": {
+    "name": "Endministrator",
+    "variant": "female",
+    "work": "Arknights: Endfield",
+    "display_name": "女管理员"
+  },
+  "subject_sources": [
+    {
+      "role": "subject_reference",
+      "local_path": "E:\\GH\\aikon\\.local\\fixtures\\research\\endministrator-1.png",
+      "file": "endministrator-1.png",
+      "url": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/endministrator1.c391b13d.png",
+      "retrieved_utc": "2026-09-28T14:18:00.396578+00:00",
+      "bytes": 68444,
+      "sha256": "9e6b884865eeb91b18093144e271272f80befad1fc4af4781ea8c7df8b6a958d",
+      "rights": "Official public display; redistribution permission not verified.",
+      "inspection": "Image opened and visually inspected by authoring Agent in this round."
+    }
+  ],
+  "style_sources": [
+    {
+      "role": "style_reference",
+      "local_path": "D:\\Downloads\\aikon ref\\模式参考\\r1.png",
+      "sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+      "inspection": "亲自查看；提取极近景、左下脸裁切、等大纯色胶囊眼及大块刘海。排除原图人物身份、黑底和水印。",
+      "rights": "User-provided reference; redistribution rights not established; no source image copied into this fixture."
+    },
+    {
+      "role": "style_reference",
+      "local_path": "D:\\Downloads\\aikon ref\\模式参考\\r2.png",
+      "sha256": "df7c5fd4350997613a23dfdf454cf5aa350eb94f69f4557123ace241e8db25b2",
+      "inspection": "亲自查看；提取极近景、左下脸裁切、等大纯色胶囊眼及大块刘海。排除原图人物身份、黑底和水印。",
+      "rights": "User-provided reference; redistribution rights not established; no source image copied into this fixture."
+    }
+  ],
+  "reference_observations": [
+    "亲自查看官方原图：灰绿/炭灰头发、浅暖肤色、黑色角状眼部面罩与黄色镶线；原图未戴帽。",
+    "肩长的层叠 bob，画面左侧银色交叉发夹。",
+    "衣领、机能装备和肩部色块可见，但本轮 extreme close-up 不移植身体装备。"
+  ],
+  "user_choices": [
+    {
+      "value": "男女管理员都测，每位生成 short/full",
+      "origin": "user",
+      "source": "Main-thread confirmed user answer relayed in task."
+    },
+    {
+      "value": "存放到仓库 outputs/fixtures",
+      "origin": "user",
+      "source": "Main-thread confirmed user storage choice."
+    },
+    {
+      "value": "默认透明 SVG、无水印、每 round 双版本",
+      "origin": "user",
+      "source": "Current Aikon product instructions."
+    }
+  ],
+  "agent_design_adjustments": [
+    {
+      "value": "原遮眼面罩缩短为额部角状装置，黄线止于双眼上方，保留黑黄识别而让胶囊眼完整露出。",
+      "origin": "agent_default",
+      "basis": "既有冲突顺序优先双眼与无嘴机器人脸；不是用户额外选择。"
+    },
+    {
+      "value": "short 用柔和灰绿发色、奶油脸、15° 和 3:1 眼；full 用来源灰绿/暖肤色、17° 和 2.8:1 眼，增加一档宽阴影与硬件色块。",
+      "origin": "agent_default",
+      "basis": "Current short/full runtime profiles."
+    },
+    {
+      "value": "局部眼中心 y=356，脸左下放大出界；不加入帽、嘴、鼻、躯干或水印。",
+      "origin": "agent_default",
+      "basis": "强模式参考与当前 style contract；确切坐标是设计值，不是原图测量。"
+    }
+  ],
+  "unresolved": [
+    "视觉效果和主体辨识度尚待主线程实际渲染与用户反馈。"
+  ],
+  "checks": {
+    "reference_images_viewed": true,
+    "svg_structural": "passed",
+    "visual": "unverified",
+    "user_acceptance": "unverified"
+  }
+}

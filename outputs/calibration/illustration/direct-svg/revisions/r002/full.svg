@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="icon-title">
+  <title id="icon-title">img1 direct SVG calibration full candidate</title>
+  <defs>
+    <linearGradient id="hair-tone" x1="0" y1="120" x2="140" y2="580" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#69656d" />
+      <stop offset="48%" stop-color="#53525d" />
+      <stop offset="100%" stop-color="#383d47" />
+    </linearGradient>
+    <linearGradient id="sweep-tone" x1="100" y1="135" x2="50" y2="470" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#79717a" />
+      <stop offset="55%" stop-color="#615d66" />
+      <stop offset="100%" stop-color="#42454f" />
+    </linearGradient>
+    <linearGradient id="skin-tone" x1="0" y1="290" x2="300" y2="565" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fff1e7" />
+      <stop offset="65%" stop-color="#fff0e7" />
+      <stop offset="100%" stop-color="#f3d8d1" />
+    </linearGradient>
+    <linearGradient id="coral-tone" x1="-15" y1="35" x2="20" y2="273" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffa9b6" />
+      <stop offset="45%" stop-color="#f08a99" />
+      <stop offset="100%" stop-color="#db7082" />
+    </linearGradient>
+    <linearGradient id="halo-tone" x1="0" y1="-45" x2="0" y2="45" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8be4d2" />
+      <stop offset="45%" stop-color="#57c0b6" />
+      <stop offset="100%" stop-color="#3b9f9f" />
+    </linearGradient>
+    <clipPath id="face-clip">
+      <path d="M -95 320 C -40 313 5 281 67 220 C 107 260 165 282 213 278 C 252 288 284 316 303 346 C 302 391 287 426 264 448 C 246 468 216 485 189 501 C 175 513 167 526 161 542 C 57 559 -43 523 -105 468 C -153 422 -159 385 -141 355 C -127 335 -111 326 -95 320 Z" />
+    </clipPath>
+  </defs>
+  <g id="head" transform="rotate(17 140 350)">
+    <g id="halo" transform="translate(257.8817 89.1362) rotate(26)">
+      <path id="halo-left-point" d="M -110 -15 L -151 -10 L -112 10 Z" fill="#378f96" />
+      <path id="halo-upper-point" d="M -41 -39 L -29 -91 L -6 -42 Z" fill="url(#halo-tone)" />
+      <path id="halo-upper-facet" d="M -29 -91 L -23 -44 L -6 -42 Z" fill="#c2f3df" />
+      <path id="halo-right-point" d="M 107 -14 L 163 7 L 108 13 Z" fill="url(#halo-tone)" />
+      <path id="halo-right-facet" d="M 116 -3 L 163 7 L 108 13 Z" fill="#378f96" />
+      <path id="halo-ring" d="M 116 0 A 116 44 0 1 1 -116 0 A 116 44 0 1 1 116 0 Z M 108 0 A 108 35.5 0 1 0 -108 0 A 108 35.5 0 1 0 108 0 Z" fill="url(#halo-tone)" fill-rule="evenodd" />
+      <path id="halo-edge-light" d="M -111 -2 C -111 -25 -62 -41 0 -41 C 63 -41 111 -23 112 -2" fill="none" stroke="#b8efdd" stroke-width="1.8" stroke-linecap="round" />
+    </g>
+    <path id="secondary-coral" d="M 338 319 C 361 324 375 340 375 359 C 389 350 392 335 385 323 C 410 339 414 365 399 385 C 421 380 434 363 429 344 C 454 370 440 407 412 423 C 394 438 372 439 356 428 C 355 445 340 453 324 450 C 331 438 332 422 327 407 C 311 393 313 368 324 353 Z" fill="url(#coral-tone)" />
+    <path id="secondary-fold" d="M 375 359 C 387 383 383 410 367 427 C 388 426 405 412 412 398 C 398 405 383 396 375 359 Z" fill="#ce626f" />
+    <path id="bob-back" d="M -86 246 C -63 164 3 117 99 126 C 136 108 168 110 195 124 C 271 108 326 152 344 216 C 361 276 353 360 367 438 C 375 486 387 535 356 578 C 335 603 300 620 270 614 C 293 571 290 529 272 487 C 229 555 118 582 17 552 C -79 521 -127 436 -119 350 C -114 304 -101 266 -86 246 Z" fill="#343640" />
+    <path id="secondary-root" d="M 324 314 C 340 317 356 331 365 350 C 372 368 374 391 360 404 C 350 414 336 407 327 392 C 315 372 311 340 324 314 Z" fill="#343640" />
+    <path id="secondary-root-turn" d="M 329 326 C 336 349 342 370 357 389 C 348 385 335 379 330 367 C 324 353 324 338 329 326 Z" fill="#51525d" />
+    <path id="face-domain" d="M -95 320 C -40 313 5 281 67 220 C 107 260 165 282 213 278 C 252 288 284 316 303 346 C 302 391 287 426 264 448 C 246 468 216 485 189 501 C 175 513 167 526 161 542 C 57 559 -43 523 -105 468 C -153 422 -159 385 -141 355 C -127 335 -111 326 -95 320 Z" fill="url(#skin-tone)" />
+    <g id="cheeks" fill="#edb2b4" opacity="0.48" clip-path="url(#face-clip)">
+      <ellipse cx="74" cy="405" rx="21" ry="11" />
+      <ellipse cx="248" cy="406" rx="21" ry="11" />
+    </g>
+    <g id="hair-cast-shadow" clip-path="url(#face-clip)">
+      <path d="M -28 325 C 65 275 114 206 156 191 C 214 216 272 254 309 295 L 320 365 C 269 324 237 310 187 300 C 142 289 111 270 85 250 C 54 290 13 331 -28 352 Z" fill="#e9c9c0" opacity="0.65" />
+    </g>
+    <path id="crown-swept" d="M -86 279 C -87 200 -36 153 42 136 C 89 118 151 133 194 123 C 229 115 269 120 289 141 C 238 134 182 175 151 213 C 114 260 78 301 27 330 C -2 347 -25 359 -54 365 C -41 343 -38 323 -36 305 C -61 323 -84 333 -109 333 C -99 315 -89 297 -86 279 Z" fill="url(#hair-tone)" />
+    <path id="right-bob-turn" d="M 335 230 C 359 302 342 371 345 429 C 347 479 370 529 349 572 C 335 602 303 618 270 614 C 307 586 315 544 305 510 C 296 477 282 452 281 423 C 281 389 295 355 318 328 C 341 300 344 272 335 230 Z" fill="url(#hair-tone)" />
+    <path id="short-right-fringe" d="M 284 143 C 330 161 347 204 345 249 C 342 284 325 307 300 322 C 309 298 311 280 307 261 C 291 276 276 282 254 282 C 267 271 273 260 276 245 C 255 266 234 274 209 274 C 228 257 238 240 241 220 C 222 240 199 254 177 258 C 193 232 199 212 199 203 C 230 180 258 157 284 143 Z" fill="url(#hair-tone)" />
+    <path id="central-swept-forelock" d="M 282 145 C 247 153 209 176 180 207 C 148 240 131 278 137 307 C 140 322 150 333 163 338 C 152 318 157 288 172 264 C 171 299 188 326 218 340 C 207 315 213 286 236 263 C 266 235 286 190 282 145 Z" fill="url(#sweep-tone)" />
+    <path id="left-cheek-sweep" d="M 285 142 C 235 137 190 161 148 197 C 100 237 61 299 45 356 C 30 405 30 443 47 478 C 0 452 -20 400 -10 348 C 0 289 35 230 95 182 C 157 132 230 117 285 142 Z" fill="url(#sweep-tone)" />
+    <path id="right-cheek-lock" d="M 332 288 C 327 341 294 362 290 420 C 287 463 308 488 321 505 C 289 497 269 466 266 430 C 263 384 282 344 310 314 C 320 302 327 294 332 288 Z" fill="#343640" />
+    <path id="crown-soft-plane" d="M -62 233 C -29 174 32 150 97 147 C 126 140 152 133 180 133 C 121 151 54 187 10 232 C -17 256 -40 276 -70 287 C -61 270 -58 253 -62 233 Z" fill="#8b8088" opacity="0.24" />
+    <path id="sweep-wide-plane" d="M 262 143 C 211 155 164 184 127 222 C 82 270 53 324 44 374 C 41 332 65 270 103 225 C 149 171 214 139 262 143 Z" fill="#aaa0a5" opacity="0.18" />
+    <path id="fringe-volume-plane" d="M 285 151 C 308 165 325 187 331 207 C 309 198 286 198 271 209 C 269 189 275 169 285 151 Z" fill="#92838b" opacity="0.28" />
+    <path id="bob-outer-plane" d="M 341 350 C 336 403 343 468 353 507 C 358 540 341 573 317 589 C 335 553 326 514 320 487 C 312 448 319 393 341 350 Z" fill="#85818b" opacity="0.16" />
+    <g id="main-coral-bundle" transform="translate(-20 64) scale(.82)">
+      <path id="main-bundle-dark-root" d="M 23 181 C 25 138 37 108 62 86 C 84 67 115 64 132 79 C 110 74 96 87 95 110 C 91 142 69 166 54 187 Z" fill="#343640" />
+      <path id="main-bundle-rear-hook" d="M 20 176 C -25 188 -81 151 -90 113 C -98 80 -82 40 -48 17 C -65 41 -72 60 -68 80 C -63 98 -48 110 -32 115 C -38 81 -21 48 2 40 C 22 31 36 37 40 46 C 15 42 9 60 12 78 C 13 99 31 117 42 135 Z" fill="url(#coral-tone)" />
+      <path id="main-bundle-rear-rim" d="M -48 17 C -66 42 -72 61 -67 82 C -62 101 -47 111 -32 115 C -44 124 -59 119 -70 108 C -91 89 -83 49 -48 17 Z" fill="#ffb1bd" />
+      <path id="main-bundle-front-hook" d="M -6 137 C -26 106 -17 75 3 54 C 19 39 43 38 64 46 C 78 50 87 58 90 72 C 83 65 70 67 61 75 C 45 91 45 112 48 130 C 71 132 87 125 96 108 C 100 130 91 149 71 162 C 57 172 44 185 25 187 Z" fill="url(#coral-tone)" />
+      <path id="main-bundle-hanging-turn" d="M -47 130 C -42 150 -29 158 -9 161 C 16 162 30 147 38 133 C 35 160 48 178 71 178 C 90 179 103 170 110 158 C 113 182 102 203 83 215 C 66 227 45 227 29 218 C 28 239 49 250 64 247 C 50 269 19 278 -5 270 C -26 265 -32 256 -32 243 C -45 254 -63 250 -72 236 C -84 216 -77 198 -60 186 C -84 187 -100 173 -99 151 C -98 143 -95 137 -91 130 C -81 145 -60 147 -47 130 Z" fill="url(#coral-tone)" />
+      <path id="main-bundle-fold" d="M -45 131 C -34 154 -14 175 6 178 C -3 198 -2 235 18 260 C -10 243 -21 211 -19 193 C -39 204 -57 221 -64 239 C -68 216 -58 192 -43 178 C -61 181 -79 176 -89 162 C -70 166 -55 151 -45 131 Z" fill="#ce626f" opacity="0.58" />
+      <path id="main-bundle-lip" d="M 5 54 C 28 38 55 39 75 54 C 64 54 53 59 46 67 C 30 60 15 61 1 73 C -4 92 -2 111 7 126 C -13 112 -17 77 5 54 Z" fill="#ffb1bd" />
+      <path id="main-bundle-underturn" d="M 39 153 C 45 174 64 190 83 189 C 94 187 102 179 110 158 C 113 182 102 203 83 215 C 58 226 34 212 28 197 C 25 182 31 166 39 153 Z" fill="#ce626f" opacity="0.62" />
+      <path id="hanging-bundle-light" d="M -17 191 C -15 226 -2 253 18 267 C -9 262 -22 241 -25 213 Z" fill="#ffafba" opacity="0.35" />
+    </g>
+    <g id="eyes" fill="#24252b">
+      <rect id="eye-left" x="66.5" y="291.875" width="35" height="96.25" rx="17.5" />
+      <rect id="eye-right" x="230.5" y="291.875" width="35" height="96.25" rx="17.5" />
+    </g>
+  </g>
+</svg>

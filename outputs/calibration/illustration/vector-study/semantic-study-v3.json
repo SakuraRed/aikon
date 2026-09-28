@@ -1,0 +1,283 @@
+{
+  "schema": "aikon.semantic-vector-study.v3",
+  "source": "outputs\\calibration\\illustration\\short-imagegen-v1.png",
+  "source_sha256": "1980caf7a44e71f01316cc4db54e1cb72add25cb315bd09a117c2231b7a78126",
+  "svg_sha256": "82b445348b5799a91a0dd78615d838ed0b5f454e74d694f53738de43acba9840",
+  "case_scope": "Illustration diagnostic PNG only; not a general-purpose semantic segmenter",
+  "method": "Region reconstruction with analytic face gradient, PCA-fitted independent capsules and blush ellipses; class-local limited-color masks for major hair/coral/halo planes.",
+  "source_regions": {
+    "face_pixels": 337518,
+    "unknown_pixels_reassigned": 209,
+    "rule": "Largest lower warm/light region filled across eye holes; remaining pixels classified by source RGB color families then spatially completed."
+  },
+  "face": {
+    "path": {
+      "loops": 1,
+      "raw_boundary_edges": 4434,
+      "curve_vertices": 142,
+      "grid_area_preserved_before_simplification": true
+    },
+    "gradient": {
+      "light": "#fdf4ec",
+      "edge": "#fdf2e8",
+      "center": [
+        512.7727608432926,
+        921.3238888142877
+      ],
+      "radius": 790.02
+    },
+    "note": "Single visible face-region path replaces quantized skin blotches; no round-head template imposed."
+  },
+  "eyes": [
+    {
+      "id": "eye-left",
+      "fill": "#25242d",
+      "center": [
+        323.6277068349338,
+        810.6536693947867
+      ],
+      "width": 80.41765991345731,
+      "height": 183.87688260252023,
+      "angle": 22.627863968467594,
+      "trimmed_projection_percentiles": [
+        0.2,
+        99.8
+      ],
+      "source_component_pixels": 13298
+    },
+    {
+      "id": "eye-right",
+      "fill": "#25242d",
+      "center": [
+        709.3798033581313,
+        988.5126019393919
+      ],
+      "width": 77.53156715301387,
+      "height": 178.5471429693026,
+      "angle": 22.729160888908154,
+      "trimmed_projection_percentiles": [
+        0.2,
+        99.8
+      ],
+      "source_component_pixels": 12446
+    }
+  ],
+  "cheeks": [
+    {
+      "id": "cheek-left",
+      "source_roi": [
+        82,
+        853,
+        270,
+        1003
+      ],
+      "color": "#fdd5cd",
+      "center": [
+        172.96541786743515,
+        920.6149650061753
+      ],
+      "rx": 73.8028074595329,
+      "ry": 41.90635158226183,
+      "angle": -161.15349524977162,
+      "area_pixels": 9716
+    },
+    {
+      "id": "cheek-right",
+      "source_roi": [
+        640,
+        1072,
+        821,
+        1204
+      ],
+      "color": "#fdd3ce",
+      "center": [
+        729.3456653101492,
+        1125.3457886299175
+      ],
+      "rx": 66.5132712544294,
+      "ry": 38.80870989375245,
+      "angle": -163.48720127836935,
+      "area_pixels": 8109
+    }
+  ],
+  "layers": [
+    {
+      "name": "hair",
+      "raw_pixels": 545553,
+      "region_pixels": 545512,
+      "palette_size": 4,
+      "small_region_threshold": 180,
+      "base_fill": "#46414b",
+      "region_contour": {
+        "loops": 6,
+        "raw_boundary_edges": 12918,
+        "curve_vertices": 425,
+        "grid_area_preserved_before_simplification": true
+      },
+      "tones": [
+        {
+          "index": 1,
+          "fill": "#524b56",
+          "raw_pixels": 136497,
+          "retained_pixels": 128270,
+          "loops": 23,
+          "raw_boundary_edges": 15464,
+          "curve_vertices": 687,
+          "grid_area_preserved_before_simplification": true
+        },
+        {
+          "index": 0,
+          "fill": "#635b65",
+          "raw_pixels": 120910,
+          "retained_pixels": 119854,
+          "loops": 20,
+          "raw_boundary_edges": 13280,
+          "curve_vertices": 560,
+          "grid_area_preserved_before_simplification": true
+        },
+        {
+          "index": 3,
+          "fill": "#38343e",
+          "raw_pixels": 82478,
+          "retained_pixels": 80040,
+          "loops": 24,
+          "raw_boundary_edges": 15756,
+          "curve_vertices": 569,
+          "grid_area_preserved_before_simplification": true
+        }
+      ]
+    },
+    {
+      "name": "coral",
+      "raw_pixels": 209896,
+      "region_pixels": 209871,
+      "palette_size": 5,
+      "small_region_threshold": 140,
+      "base_fill": "#f0707b",
+      "region_contour": {
+        "loops": 6,
+        "raw_boundary_edges": 8720,
+        "curve_vertices": 324,
+        "grid_area_preserved_before_simplification": true
+      },
+      "tones": [
+        {
+          "index": 0,
+          "fill": "#fc919a",
+          "raw_pixels": 44410,
+          "retained_pixels": 43136,
+          "loops": 14,
+          "raw_boundary_edges": 5276,
+          "curve_vertices": 255,
+          "grid_area_preserved_before_simplification": true
+        },
+        {
+          "index": 2,
+          "fill": "#f67b85",
+          "raw_pixels": 43057,
+          "retained_pixels": 37790,
+          "loops": 25,
+          "raw_boundary_edges": 6322,
+          "curve_vertices": 394,
+          "grid_area_preserved_before_simplification": true
+        },
+        {
+          "index": 4,
+          "fill": "#d85c6f",
+          "raw_pixels": 38930,
+          "retained_pixels": 35028,
+          "loops": 13,
+          "raw_boundary_edges": 4630,
+          "curve_vertices": 215,
+          "grid_area_preserved_before_simplification": true
+        },
+        {
+          "index": 1,
+          "fill": "#f4939d",
+          "raw_pixels": 14897,
+          "retained_pixels": 13045,
+          "loops": 11,
+          "raw_boundary_edges": 3798,
+          "curve_vertices": 171,
+          "grid_area_preserved_before_simplification": true
+        }
+      ]
+    },
+    {
+      "name": "halo",
+      "raw_pixels": 96831,
+      "region_pixels": 96797,
+      "palette_size": 4,
+      "small_region_threshold": 110,
+      "base_fill": "#45a5a7",
+      "region_contour": {
+        "loops": 7,
+        "raw_boundary_edges": 5436,
+        "curve_vertices": 161,
+        "grid_area_preserved_before_simplification": true
+      },
+      "tones": [
+        {
+          "index": 1,
+          "fill": "#61d0c2",
+          "raw_pixels": 26926,
+          "retained_pixels": 25032,
+          "loops": 8,
+          "raw_boundary_edges": 3666,
+          "curve_vertices": 120,
+          "grid_area_preserved_before_simplification": true
+        },
+        {
+          "index": 0,
+          "fill": "#87eed1",
+          "raw_pixels": 21611,
+          "retained_pixels": 21452,
+          "loops": 6,
+          "raw_boundary_edges": 2874,
+          "curve_vertices": 89,
+          "grid_area_preserved_before_simplification": true
+        },
+        {
+          "index": 3,
+          "fill": "#3b8d94",
+          "raw_pixels": 15273,
+          "retained_pixels": 12851,
+          "loops": 8,
+          "raw_boundary_edges": 4218,
+          "curve_vertices": 126,
+          "grid_area_preserved_before_simplification": true
+        }
+      ]
+    }
+  ],
+  "alpha": {
+    "threshold": 128,
+    "outer_contour": {
+      "loops": 3,
+      "raw_boundary_edges": 9088,
+      "curve_vertices": 358,
+      "grid_area_preserved_before_simplification": true
+    },
+    "group_opacity": 0.9921568627450981,
+    "raster_fidelity": "pending_root_render"
+  },
+  "path_count": 19,
+  "basic_shape_count": 4,
+  "svg_bytes": 247013,
+  "runtime_seconds": 1.725,
+  "validation": {
+    "xml_vector_structure": "passed",
+    "semantic_segmentation": "heuristic_requires_visual_review",
+    "rendered_pixel_error": "not_run",
+    "artistic_acceptance": "not_claimed",
+    "user_acceptance": "pending"
+  },
+  "manual_rebuild_limits": [
+    "Face color/gradient is a deliberate smooth approximation, not a pixel-exact skin reconstruction.",
+    "Cheek windows are case-specific; automatic detection is not claimed for arbitrary images.",
+    "Hair/coral/halo masks are color-family regions. Turquoise ties and the halo share a group, and dark outlines may be grouped with hair.",
+    "PCA capsule fitting preserves separate eye IDs but does not guarantee exact agreement with non-capsule source contours.",
+    "Remaining long-range shading and individual overlapping hair locks may still need manual path redesign after viewing."
+  ],
+  "no_new_generation_model": true
+}

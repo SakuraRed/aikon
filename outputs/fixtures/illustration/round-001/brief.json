@@ -1,0 +1,184 @@
+{
+  "schema": "aikon.draft-brief.v1",
+  "round_id": "fixture-illustration",
+  "profiles": [
+    "short",
+    "full"
+  ],
+  "identity": {
+    "subject": "用户立绘中唯一女孩",
+    "name": null,
+    "ip": null,
+    "identity_verified": false,
+    "online_identification": "not_requested_and_not_run"
+  },
+  "sources": [
+    {
+      "path": "D:\\Downloads\\aikon ref\\img_1.png",
+      "role": "subject_reference",
+      "sha256": "c6ee40689db9d4689feca174d633c61b3ade21855ca65c035b7b884e535cd71c",
+      "actually_viewed": true,
+      "acquisition": "local image viewing only",
+      "uploaded": false,
+      "copied_to_draft": false
+    },
+    {
+      "path": "D:\\Downloads\\aikon ref\\模式参考\\r1.png",
+      "role": "strong_style_reference",
+      "sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+      "actually_viewed": true,
+      "acquisition": "local image viewing only",
+      "uploaded": false,
+      "copied_to_draft": false
+    },
+    {
+      "path": "D:\\Downloads\\aikon ref\\模式参考\\r2.png",
+      "role": "strong_style_reference",
+      "sha256": "df7c5fd4350997613a23dfdf454cf5aa350eb94f69f4557123ace241e8db25b2",
+      "actually_viewed": true,
+      "acquisition": "local image viewing only",
+      "uploaded": false,
+      "copied_to_draft": false
+    },
+    {
+      "path": "E:\\GH\\aikon\\.local\\fixtures\\image-head-study.png",
+      "role": "subject_observation_crop",
+      "sha256": "af72a0f46145b1d93b89ee988b0cb28998da4876b2fc566221a075988e74eb99",
+      "actually_viewed": true,
+      "acquisition": "local image viewing only",
+      "uploaded": false,
+      "copied_to_draft": false
+    }
+  ],
+  "observations": [
+    {
+      "origin": "reference_observation",
+      "fact": "主体有深灰短bob及明显的偏分刘海，主要发束围住脸颊。"
+    },
+    {
+      "origin": "reference_observation",
+      "fact": "珊瑚粉大型侧束/花瓣状形体在图中头部左上侧，另一侧有较小珊瑚粉束状形体。"
+    },
+    {
+      "origin": "reference_observation",
+      "fact": "头顶是青绿椭圆环形halo，带三处可见尖角，中心为空。"
+    },
+    {
+      "origin": "reference_observation",
+      "fact": "主体原图有动漫人类五官、身体、手、服装和大武器；这些不属于本次保留的头像身份线索。"
+    },
+    {
+      "origin": "reference_observation",
+      "fact": "强模式r1/r2展示明显近景、大块刘海、倾斜胶囊眼和被画面截断的脸；r1右下有水印。"
+    }
+  ],
+  "interpretations": [
+    {
+      "origin": "agent_default",
+      "interpretation": "珊瑚粉形体按可见的侧束/花瓣饰结轮廓画，不断言其材质或是否染发。"
+    },
+    {
+      "origin": "agent_default",
+      "interpretation": "精简版柔化为粉彩并用奶油色脸；完整版颜色为目视近似，不是官方色表或逐像素取色。"
+    },
+    {
+      "origin": "agent_default",
+      "interpretation": "为超近景和双眼完整，重排头部特征的相对尺度；不声称照搬原立绘透视。"
+    }
+  ],
+  "key_identity_groups": [
+    "charcoal-short-bob",
+    "coral-side-bundles",
+    "teal-pointed-elliptical-halo"
+  ],
+  "style_reference_exclusions": [
+    "black/dark background -> alpha transparency",
+    "watermark -> omitted"
+  ],
+  "nontransferable_reference_identities": [
+    "r1/r2的蓝色发色",
+    "r1女仆头饰",
+    "r2帽子与棒状帽饰"
+  ],
+  "request_constraints": {
+    "origin": "parent_delegation_of_active_user_task",
+    "background": null,
+    "watermark": false,
+    "visible_text": false,
+    "weapons_body_hands": false,
+    "strong_closeup": true,
+    "lower_eye_placement": true,
+    "real_face_left_bottom_crop": true
+  },
+  "storage": {
+    "draft_location": ".local/fixtures/drafts/illustration",
+    "final_location": "outputs/fixtures/illustration/round-001",
+    "final_strategy": "repository_structured_profile_revisions",
+    "user_selected_final_storage": true,
+    "decision_evidence": "用户在主线程明确选择outputs/fixtures，由主Agent转达",
+    "original_images_kept_in_place": true
+  },
+  "decisions": [
+    {
+      "question_id": "fixture-storage",
+      "option_id": "repository-outputs-fixtures",
+      "state": "answered",
+      "origin": "user",
+      "evidence": "主Agent转达的真实用户选择outputs/fixtures"
+    }
+  ],
+  "pending_questions": [
+    "用户对两版实际预览的接受或局部修改反馈"
+  ],
+  "source_prompt_documents": [
+    "skills/aikon/references/prompts/source-short.zh-CN.md",
+    "skills/aikon/references/prompts/source-full.zh-CN.md"
+  ],
+  "runtime_contract": "skills/aikon/references/profiles.md",
+  "palette_provenance": "visually estimated agent defaults; full preserves observed color families, short uses profile pastel treatment",
+  "palette": {
+    "short": {
+      "skin": "#FFF0E0",
+      "hair": "#4A474C",
+      "hair_shadow": "#3A393E",
+      "hair_light": "#656169",
+      "coral": "#E98287",
+      "coral_shadow": "#D96F78",
+      "coral_light": "#F8B9BA",
+      "halo": "#71C8BC",
+      "halo_shadow": "#479D97",
+      "halo_light": "#AEDED5",
+      "cheeks": "#F0B8B6"
+    },
+    "full": {
+      "skin": "#FAEBE3",
+      "hair": "#3E3B3F",
+      "hair_shadow": "#2C2B2F",
+      "hair_light": "#5A555B",
+      "coral": "#EF7686",
+      "coral_shadow": "#CC5669",
+      "coral_light": "#FF9DA7",
+      "halo": "#47CAB9",
+      "halo_shadow": "#246F76",
+      "halo_light": "#A0E6D9",
+      "cheeks": "#EAA3A5"
+    }
+  },
+  "helper": {
+    "path": "skills/aikon/scripts/aikon.py",
+    "audited_source": true,
+    "version_observed": "0.1.1",
+    "network_or_git_operations": false
+  },
+  "checks": {
+    "structural": "passed",
+    "visual": "unverified",
+    "raster_alpha": "unverified",
+    "user_acceptance": "pending"
+  },
+  "rights": {
+    "local_reference_rights": "user-provided; redistribution permission not verified",
+    "external_upload": false,
+    "prompt_derivative_license": "CC BY-NC 4.0"
+  }
+}

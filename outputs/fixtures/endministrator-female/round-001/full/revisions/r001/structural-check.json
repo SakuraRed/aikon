@@ -1,0 +1,14 @@
+{
+  "background": {
+    "canvas_rects": [],
+    "raster_alpha": "unverified",
+    "structural_status": "no_painted_canvas_rect_detected"
+  },
+  "checks": {
+    "structural": "passed",
+    "visual": "unverified"
+  },
+  "issues": [],
+  "ok": true,
+  "schema": "aikon.check.v1"
+}

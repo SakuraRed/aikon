@@ -1,0 +1,20 @@
+{
+  "background": {
+    "canvas_rects": [],
+    "raster_alpha": "unverified",
+    "structural_status": "no_painted_canvas_rect_detected"
+  },
+  "checks": {
+    "structural": "passed",
+    "visual": "unverified"
+  },
+  "helper_version": "0.1.1",
+  "note": "Official-reference Aria human; full profile; first transparent close-up review draft.",
+  "parent": null,
+  "profile": "full",
+  "revision": "r001",
+  "round_id": "fixture-aria-human",
+  "scene_sha256": "d6252d081731f6277ab614b0f88d2c5c53ebfb6af0fec6b3635216709e1c1b58",
+  "schema": "aikon.revision.v1",
+  "svg_sha256": "81c9281e8ede4d1c7b3eadd1fa17df1e16ee3940d2a9196bff7b15642202455b"
+}

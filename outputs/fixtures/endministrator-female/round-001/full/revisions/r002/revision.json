@@ -1,0 +1,20 @@
+{
+  "background": {
+    "canvas_rects": [],
+    "raster_alpha": "unverified",
+    "structural_status": "no_painted_canvas_rect_detected"
+  },
+  "checks": {
+    "structural": "passed",
+    "visual": "unverified"
+  },
+  "helper_version": "0.1.1",
+  "note": "Agent review of updated review-2.png: move black/yellow forehead accessory and full-profile panels up 64 local units; preserve all hair, silver clip, face, eyes, colors and head transform. New render pending.",
+  "parent": "r001",
+  "profile": "full",
+  "revision": "r002",
+  "round_id": "endministrator-female-001",
+  "scene_sha256": "bf3e4251a5fe872ef70f4a6460850e51c4aaa0b5fd11a2288b1a65bf1db51893",
+  "schema": "aikon.revision.v1",
+  "svg_sha256": "09977b83f5f5d9fdd5d1c8db31e7f505f6eacf5679fd7b458cfdd58158d6ddc1"
+}

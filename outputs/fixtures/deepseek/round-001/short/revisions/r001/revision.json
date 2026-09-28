@@ -1,0 +1,20 @@
+{
+  "background": {
+    "canvas_rects": [],
+    "raster_alpha": "unverified",
+    "structural_status": "no_painted_canvas_rect_detected"
+  },
+  "checks": {
+    "structural": "passed",
+    "visual": "unverified"
+  },
+  "helper_version": "0.1.1",
+  "note": "User confirmed DeepSeek blue-whale bot interpretation; initial short/full draft.",
+  "parent": null,
+  "profile": "short",
+  "revision": "r001",
+  "round_id": "deepseek-001",
+  "scene_sha256": "6d77155ce16d3c85b06716902e07466a1c3475b5d133acf405b822a0cae257ea",
+  "schema": "aikon.revision.v1",
+  "svg_sha256": "0d8f6260923dc9c1204298c8dfc8cbfba66e85970ecb8cf8786ef6eb5436cf27"
+}

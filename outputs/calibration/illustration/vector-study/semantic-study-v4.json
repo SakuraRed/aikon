@@ -1,0 +1,23 @@
+{
+  "source": "semantic-study-v3.svg",
+  "source_sha256": "82b445348b5799a91a0dd78615d838ed0b5f454e74d694f53738de43acba9840",
+  "svg_sha256": "bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f",
+  "method": "Preserve traced semantic outer geometry, face/eye/cheek reconstruction; replace automatic tonal islands with a few manually authored broad vector gradients and directional Bezier shading planes.",
+  "preserved": [
+    "visible face path",
+    "head/hair/coral/halo outer masks",
+    "eyes",
+    "cheeks",
+    "alpha clip"
+  ],
+  "changed": [
+    "hair tonal planes",
+    "coral tonal planes",
+    "halo tonal planes"
+  ],
+  "limitations": [
+    "Hand-authored planes are an interpretation of the diagnostic PNG, not exact IP ground truth.",
+    "Not an accepted output and not a second profile.",
+    "Requires actual rerender; no automatic art score."
+  ]
+}

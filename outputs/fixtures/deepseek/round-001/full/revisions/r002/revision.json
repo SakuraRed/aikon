@@ -1,0 +1,20 @@
+{
+  "background": {
+    "canvas_rects": [],
+    "raster_alpha": "unverified",
+    "structural_status": "no_painted_canvas_rect_detected"
+  },
+  "checks": {
+    "structural": "passed",
+    "visual": "unverified"
+  },
+  "helper_version": "0.1.1",
+  "note": "Visual correction: omit the pale belly patch because its curved edge reads as a mouth; preserve all other parts.",
+  "parent": "r001",
+  "profile": "full",
+  "revision": "r002",
+  "round_id": "deepseek-001",
+  "scene_sha256": "0899c41df4526646bd21d95294caf4996a85492862f30319496d303524b53d23",
+  "schema": "aikon.revision.v1",
+  "svg_sha256": "ddf601482717a81aa0a90029e69d667a0b96d00d50c9fdf00ac5ef8f4f283a29"
+}

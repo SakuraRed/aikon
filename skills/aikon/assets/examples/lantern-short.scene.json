@@ -1,0 +1,100 @@
+{
+  "schema": "aikon.scene.v1",
+  "title": "Lantern — original faceless paper beacon reinterpreted as a round bot with an amber surface and mulberry handle — short transparent close-up",
+  "background": null,
+  "head": {
+    "angle": 15,
+    "pivot": [
+      256,
+      256
+    ]
+  },
+  "eyes": {
+    "centers": [
+      [
+        115,
+        352
+      ],
+      [
+        280,
+        352
+      ]
+    ],
+    "width": 30,
+    "height": 90,
+    "fill": "#18191B"
+  },
+  "layers": [
+    {
+      "id": "identity-handle",
+      "shapes": [
+        {
+          "tag": "path",
+          "attrs": {
+            "d": "M 77 167 C 55 112 82 61 133 47 C 191 30 242 65 244 120 C 244 135 241 147 235 160 L 211 147 C 216 137 219 128 218 118 C 216 82 181 58 145 70 C 112 79 96 114 103 150 Z",
+            "fill": "#AE7D90"
+          }
+        }
+      ]
+    },
+    {
+      "id": "face",
+      "shapes": [
+        {
+          "tag": "ellipse",
+          "attrs": {
+            "cx": 180,
+            "cy": 347,
+            "rx": 221,
+            "ry": 244,
+            "fill": "#FFF1E5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "front",
+      "shapes": [
+        {
+          "tag": "path",
+          "attrs": {
+            "d": "M -28 240 C -14 152 63 100 164 97 C 262 93 342 131 377 202 C 316 188 252 184 186 190 C 108 195 38 212 -28 240 Z",
+            "fill": "#AE7D90"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cheeks",
+      "shapes": [
+        {
+          "tag": "ellipse",
+          "attrs": {
+            "cx": 72,
+            "cy": 407,
+            "rx": 27,
+            "ry": 15,
+            "fill": "#F6C3BE"
+          }
+        },
+        {
+          "tag": "ellipse",
+          "attrs": {
+            "cx": 309,
+            "cy": 407,
+            "rx": 27,
+            "ry": 15,
+            "fill": "#F6C3BE"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eyes"
+    }
+  ],
+  "variant": {
+    "round_id": "original-lantern-v1",
+    "profile": "short"
+  }
+}

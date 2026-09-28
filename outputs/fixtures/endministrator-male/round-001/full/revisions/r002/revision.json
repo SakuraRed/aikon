@@ -1,0 +1,20 @@
+{
+  "background": {
+    "canvas_rects": [],
+    "raster_alpha": "unverified",
+    "structural_status": "no_painted_canvas_rect_detected"
+  },
+  "checks": {
+    "structural": "passed",
+    "visual": "unverified"
+  },
+  "helper_version": "0.1.1",
+  "note": "Agent visual review of review-2.png: replace regular triangular hair-back with directional curved tufts; move black/yellow forehead attachment up 64 local units. Preserve all colors, eye geometry, face and head transform. New render pending.",
+  "parent": "r001",
+  "profile": "full",
+  "revision": "r002",
+  "round_id": "endministrator-male-001",
+  "scene_sha256": "5209a4cdcba57b1dcb34b806b2c1ff85ade3c6542b703fffe7df13dd9f57ad34",
+  "schema": "aikon.revision.v1",
+  "svg_sha256": "62c24623e4abd1520a42848d85ee30bee5db7da43a109680dfa3b57c487edba9"
+}

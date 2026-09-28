@@ -1,0 +1,161 @@
+{
+  "background": null,
+  "eyes": {
+    "centers": [
+      [
+        117,
+        356
+      ],
+      [
+        278,
+        356
+      ]
+    ],
+    "fill": "#191e1b",
+    "height": 90,
+    "width": 30
+  },
+  "head": {
+    "angle": 15,
+    "pivot": [
+      256,
+      256
+    ]
+  },
+  "layers": [
+    {
+      "id": "hair-back",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M-92 470 C-139 335 -127 145 -33 68 C47 1 158 -15 256 25 C373 70 415 160 414 270 C413 362 447 451 471 508 C420 487 408 454 396 419 C412 493 389 549 339 589 C351 535 347 492 321 456 L22 591 C-11 541 -44 505 -92 470 Z",
+            "fill": "#64756b"
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "face",
+      "shapes": [
+        {
+          "attrs": {
+            "cx": 174,
+            "cy": 351,
+            "fill": "#fff1e3",
+            "rx": 237,
+            "ry": 246
+          },
+          "tag": "ellipse"
+        }
+      ]
+    },
+    {
+      "id": "cheeks",
+      "shapes": [
+        {
+          "attrs": {
+            "cx": 72,
+            "cy": 423,
+            "fill": "#f4d1ca",
+            "rx": 29,
+            "ry": 16
+          },
+          "tag": "ellipse"
+        },
+        {
+          "attrs": {
+            "cx": 311,
+            "cy": 423,
+            "fill": "#f4d1ca",
+            "rx": 29,
+            "ry": 16
+          },
+          "tag": "ellipse"
+        }
+      ]
+    },
+    {
+      "id": "hair-front",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M-119 279 C-131 175 -74 86 14 48 C82 14 188 6 267 45 C338 81 390 150 398 238 C362 228 344 200 326 163 C343 222 334 269 310 300 C298 260 280 226 257 204 C271 251 249 287 223 299 C226 257 210 223 187 195 C165 236 136 267 99 280 C112 246 115 220 111 194 C70 244 31 280 -17 297 L-24 382 C-66 351 -89 316 -119 279 Z",
+            "fill": "#829087"
+          },
+          "tag": "path"
+        },
+        {
+          "attrs": {
+            "d": "M355 234 C401 278 419 359 425 420 C430 474 442 500 461 528 C412 517 381 472 375 430 C378 491 355 532 320 552 C344 499 341 458 331 420 C318 370 323 313 355 234 Z",
+            "fill": "#829087"
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "hair-highlight",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M-45 148 C3 58 139 21 225 56 C136 49 66 82 13 137 C-8 153 -23 171 -37 190 Z",
+            "fill": "#a3aea5"
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "visor-forehead",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M62 177 L93 188 L124 168 L161 187 L216 177 L243 162 L294 182 L313 211 L278 226 L235 211 L190 219 L144 207 L103 223 L69 205 Z",
+            "fill": "#405047"
+          },
+          "tag": "path"
+        },
+        {
+          "attrs": {
+            "d": "M71 179 L93 196 L126 177 L161 196 L217 186 L244 172 L293 191",
+            "fill": "none",
+            "stroke": "#e6d88b",
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round",
+            "stroke-width": 5
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "silver-cross-clip",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M29 131 L35 129 L78 213 L72 216 Z",
+            "fill": "#d8dfd7"
+          },
+          "tag": "path"
+        },
+        {
+          "attrs": {
+            "d": "M12 179 L90 160 L92 168 L14 187 Z",
+            "fill": "#d8dfd7"
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "eyes"
+    }
+  ],
+  "schema": "aikon.scene.v1",
+  "title": "Endministrator female — short",
+  "variant": {
+    "profile": "short",
+    "round_id": "endministrator-female-001"
+  }
+}

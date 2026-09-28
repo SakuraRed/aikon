@@ -1,0 +1,20 @@
+{
+  "background": {
+    "canvas_rects": [],
+    "raster_alpha": "unverified",
+    "structural_status": "no_painted_canvas_rect_detected"
+  },
+  "checks": {
+    "structural": "passed",
+    "visual": "unverified"
+  },
+  "helper_version": "0.1.1",
+  "note": "Official-reference Aria robot; short profile; first transparent close-up review draft.",
+  "parent": null,
+  "profile": "short",
+  "revision": "r001",
+  "round_id": "fixture-aria-robot",
+  "scene_sha256": "41a4416968f085745152038263c36d50ff47b7150b3ac73ab23a1f7d0eb8de5d",
+  "schema": "aikon.revision.v1",
+  "svg_sha256": "376e24442ef7bccd4d9fb012691492b4053236724cf06d70a206b4b33ff0026f"
+}

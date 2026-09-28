@@ -1,0 +1,20 @@
+{
+  "background": {
+    "canvas_rects": [],
+    "raster_alpha": "unverified",
+    "structural_status": "no_painted_canvas_rect_detected"
+  },
+  "checks": {
+    "structural": "passed",
+    "visual": "unverified"
+  },
+  "helper_version": "0.1.1",
+  "note": "Official Sunna image baseline; structure checked, visual unverified, user acceptance pending.",
+  "parent": null,
+  "profile": "full",
+  "revision": "r001",
+  "round_id": "fixture-sunna",
+  "scene_sha256": "6cf278fa560cc4cfc510b86b261d908cfb6a59398cfad8741793b5471f19b49b",
+  "schema": "aikon.revision.v1",
+  "svg_sha256": "3b6f018b7ad4bc343ce9b28ee2cdbbc5456513adc147923439e883f06d037aa2"
+}

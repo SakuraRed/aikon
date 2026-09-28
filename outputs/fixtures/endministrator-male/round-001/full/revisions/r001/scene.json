@@ -1,0 +1,192 @@
+{
+  "background": null,
+  "eyes": {
+    "centers": [
+      [
+        117,
+        356
+      ],
+      [
+        278,
+        356
+      ]
+    ],
+    "fill": "#191e1b",
+    "height": 84,
+    "width": 30
+  },
+  "head": {
+    "angle": 17,
+    "pivot": [
+      256,
+      256
+    ]
+  },
+  "layers": [
+    {
+      "id": "hair-back",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M-107 304 L-72 249 L-100 221 L-37 192 L-73 165 L-2 141 L-27 108 L37 104 L44 65 L102 82 L123 39 L165 67 L185 10 L222 62 L263 45 L270 89 L326 84 L320 123 L374 144 L348 170 L400 209 L374 233 L407 282 L374 296 L389 335 L353 336 L346 406 L311 366 L-6 413 L-68 434 L-72 367 Z",
+            "fill": "#2b332e"
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "face",
+      "shapes": [
+        {
+          "attrs": {
+            "cx": 171,
+            "cy": 348,
+            "fill": "#eccfba",
+            "rx": 236,
+            "ry": 249
+          },
+          "tag": "ellipse"
+        }
+      ]
+    },
+    {
+      "id": "face-shade",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M333 245 C386 291 412 360 402 429 C394 489 361 539 318 566 C351 505 362 444 356 381 C350 322 342 278 333 245 Z",
+            "fill": "#dab69e"
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "cheeks",
+      "shapes": [
+        {
+          "attrs": {
+            "cx": 74,
+            "cy": 423,
+            "fill": "#e3b7ae",
+            "rx": 28,
+            "ry": 15
+          },
+          "tag": "ellipse"
+        },
+        {
+          "attrs": {
+            "cx": 308,
+            "cy": 423,
+            "fill": "#e3b7ae",
+            "rx": 28,
+            "ry": 15
+          },
+          "tag": "ellipse"
+        }
+      ]
+    },
+    {
+      "id": "hair-front",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M-104 290 C-85 202 -30 130 59 100 C121 76 178 77 224 99 C264 97 305 112 331 147 C367 182 380 227 376 271 L347 259 C360 292 350 323 331 348 C324 303 299 270 276 247 C285 290 262 316 237 322 C242 277 226 242 205 219 C184 250 158 275 132 290 C144 256 142 231 135 209 C107 253 73 284 38 298 C50 273 53 251 49 233 C14 278 -30 305 -71 313 L-86 358 Z",
+            "fill": "#424942"
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "hair-highlights",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M-46 201 C-2 130 68 97 131 102 C73 120 20 163 -17 208 L-35 232 Z",
+            "fill": "#657269"
+          },
+          "tag": "path"
+        },
+        {
+          "attrs": {
+            "d": "M139 94 C165 77 199 73 222 83 L247 118 C227 106 207 105 188 111 C216 146 231 186 232 217 C216 165 181 127 139 94 Z",
+            "fill": "#66746a"
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "visor-forehead",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M60 257 L88 269 L127 250 L171 268 L209 257 L230 241 L285 255 L313 282 L279 298 L232 278 L188 291 L143 277 L101 294 L71 284 Z",
+            "fill": "#222a25"
+          },
+          "tag": "path"
+        },
+        {
+          "attrs": {
+            "d": "M67 258 L89 277 L128 259 L171 277 L212 266 L232 250 L283 264 L301 281",
+            "fill": "none",
+            "stroke": "#dccc52",
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round",
+            "stroke-width": 6
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "visor-panels",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M80 277 L99 286 L130 268 L147 275 L105 290 L81 285 Z",
+            "fill": "#647165"
+          },
+          "tag": "path"
+        },
+        {
+          "attrs": {
+            "d": "M243 266 L281 280 L298 281 L279 291 L237 275 Z",
+            "fill": "#5a665c"
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "temple-yellow-tabs",
+      "shapes": [
+        {
+          "attrs": {
+            "d": "M30 199 L36 197 L29 225 L23 227 Z",
+            "fill": "#dccc52"
+          },
+          "tag": "path"
+        },
+        {
+          "attrs": {
+            "d": "M40 171 L46 169 L40 191 L34 193 Z",
+            "fill": "#dccc52"
+          },
+          "tag": "path"
+        }
+      ]
+    },
+    {
+      "id": "eyes"
+    }
+  ],
+  "schema": "aikon.scene.v1",
+  "title": "Endministrator male — full",
+  "variant": {
+    "profile": "full",
+    "round_id": "endministrator-male-001"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "short": {
+    "xml_parsed": true,
+    "raster_embedding": false,
+    "external_references": false,
+    "visible_text": false,
+    "background_element": false,
+    "eye_count": 2,
+    "eye_ratio": 3.0,
+    "eye_axis_canvas_fraction": 0.1796875,
+    "eye_pair_midpoint_canvas_fraction": [
+      0.32754348034090036,
+      0.6778711658394041
+    ],
+    "path_count": 28,
+    "gradient_count": 0,
+    "visual_acceptance": "NOT EVALUATED BY STRUCTURE CHECK"
+  },
+  "full": {
+    "xml_parsed": true,
+    "raster_embedding": false,
+    "external_references": false,
+    "visible_text": false,
+    "background_element": false,
+    "eye_count": 2,
+    "eye_ratio": 2.75,
+    "eye_axis_canvas_fraction": 0.18798828125,
+    "eye_pair_midpoint_canvas_fraction": [
+      0.32771023574661384,
+      0.6797629233655484
+    ],
+    "path_count": 34,
+    "gradient_count": 5,
+    "visual_acceptance": "NOT EVALUATED BY STRUCTURE CHECK"
+  }
+}

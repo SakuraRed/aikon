@@ -1,0 +1,26 @@
+{
+  "pid": 45472,
+  "parent_pid": 47520,
+  "command": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "tools/vectorize_calibration.py",
+    "--input",
+    "outputs/calibration/illustration/short-imagegen-v1.png",
+    "--output",
+    "outputs\\calibration\\illustration\\vector-study\\diagnosis-simple-24",
+    "--diagnose-log",
+    "outputs\\calibration\\illustration\\vector-study\\vector-simple-24-v2.json",
+    "--actual-render",
+    "outputs\\calibration\\illustration\\vector-study\\vector-simple-24-v2-render.png",
+    "--max-seconds",
+    "50"
+  ],
+  "cwd": "E:\\GH\\aikon",
+  "started": "2026-09-28T15:28:33.922950+00:00",
+  "ended": "2026-09-28T15:28:37.504873+00:00",
+  "exit_code": 0,
+  "hard_timeout_seconds": 55
+}

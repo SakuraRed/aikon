@@ -1,0 +1,186 @@
+{
+  "vector-simple-24-v2": {
+    "input_sha256": "1980caf7a44e71f01316cc4db54e1cb72add25cb315bd09a117c2231b7a78126",
+    "svg_sha256": "49f5ce2d64a5950ff31bd35cc03577321ae448258a5ea9aaff1f138d1754cf81",
+    "parameters": {
+      "input": "outputs/calibration/illustration/short-imagegen-v1.png",
+      "output": "outputs\\calibration\\illustration\\vector-study\\vector-simple-24-v2.svg",
+      "colors": 24,
+      "min_area": 64,
+      "mode_filter": 3,
+      "alpha_threshold": 128,
+      "alpha_min_area": 8,
+      "rgb_blur": 0.95,
+      "tolerance": 0.85,
+      "smooth": 0.8,
+      "stroke_width": 0.55,
+      "max_seconds": 50.0
+    },
+    "paths": 28,
+    "vertices": 23834,
+    "loops": 912,
+    "quantization": {
+      "palette_requested": 24,
+      "palette_used": 24,
+      "mode_filter_size": 3,
+      "mode_filter_changed_pixels": 47401,
+      "merged_small_region_pixels": 63747,
+      "merged_small_components": 16374,
+      "merge_rule": "Optional local mode filter regularizes label boundaries; 4-connected color regions below min-area are reassigned to the nearest retained opaque color pixel; foreground alpha shape unchanged."
+    },
+    "alpha": {
+      "threshold": 128,
+      "source_nonzero_pixels": 1206135,
+      "source_partial_alpha_pixels": 1204327,
+      "threshold_foreground_pixels": 1189864,
+      "retained_foreground_pixels": 1189864,
+      "removed_small_component_pixels": 0,
+      "contour": {
+        "loops": 3,
+        "raw_boundary_edges": 9088,
+        "curve_vertices": 1123,
+        "grid_area_preserved_before_simplification": true
+      },
+      "raster_alpha_fidelity": "unverified_until_rerender",
+      "source_interior_alpha_median": 253.0,
+      "artwork_group_opacity": 0.9921568627450981
+    },
+    "eyes": [
+      {
+        "id": "eye-left",
+        "component": 943,
+        "area": 13298,
+        "center": [
+          323.500827192059,
+          810.7513911866446
+        ],
+        "ratio": 2.2963897407127223,
+        "light_surround_fraction": 0.913594470046083,
+        "bbox": [
+          265,
+          722,
+          383,
+          900
+        ]
+      },
+      {
+        "id": "eye-right",
+        "component": 1382,
+        "area": 12446,
+        "center": [
+          709.0878193797204,
+          988.9017354973486
+        ],
+        "ratio": 2.311193269357957,
+        "light_surround_fraction": 0.913895486935867,
+        "bbox": [
+          652,
+          903,
+          766,
+          1075
+        ]
+      }
+    ],
+    "runtime_seconds": 1.679
+  },
+  "vector-detail-48-v2": {
+    "input_sha256": "1980caf7a44e71f01316cc4db54e1cb72add25cb315bd09a117c2231b7a78126",
+    "svg_sha256": "e93984d99470efe78eac57dd69387436d7c5ab36ce8c130a6b85da55ec8ad2d2",
+    "parameters": {
+      "input": "outputs/calibration/illustration/short-imagegen-v1.png",
+      "output": "outputs\\calibration\\illustration\\vector-study\\vector-detail-48-v2.svg",
+      "colors": 48,
+      "min_area": 24,
+      "mode_filter": 3,
+      "alpha_threshold": 128,
+      "alpha_min_area": 4,
+      "rgb_blur": 0.7,
+      "tolerance": 0.55,
+      "smooth": 0.6,
+      "stroke_width": 0.35,
+      "max_seconds": 50.0
+    },
+    "paths": 52,
+    "vertices": 71826,
+    "loops": 2795,
+    "quantization": {
+      "palette_requested": 48,
+      "palette_used": 48,
+      "mode_filter_size": 3,
+      "mode_filter_changed_pixels": 73213,
+      "merged_small_region_pixels": 70532,
+      "merged_small_components": 28432,
+      "merge_rule": "Optional local mode filter regularizes label boundaries; 4-connected color regions below min-area are reassigned to the nearest retained opaque color pixel; foreground alpha shape unchanged."
+    },
+    "alpha": {
+      "threshold": 128,
+      "source_nonzero_pixels": 1206135,
+      "source_partial_alpha_pixels": 1204327,
+      "threshold_foreground_pixels": 1189864,
+      "retained_foreground_pixels": 1189864,
+      "removed_small_component_pixels": 0,
+      "contour": {
+        "loops": 3,
+        "raw_boundary_edges": 9088,
+        "curve_vertices": 1123,
+        "grid_area_preserved_before_simplification": true
+      },
+      "raster_alpha_fidelity": "unverified_until_rerender",
+      "source_interior_alpha_median": 253.0,
+      "artwork_group_opacity": 0.9921568627450981
+    },
+    "eyes": [
+      {
+        "id": "eye-left",
+        "component": 943,
+        "area": 13298,
+        "center": [
+          323.500827192059,
+          810.7513911866446
+        ],
+        "ratio": 2.2963897407127223,
+        "light_surround_fraction": 0.913594470046083,
+        "bbox": [
+          265,
+          722,
+          383,
+          900
+        ]
+      },
+      {
+        "id": "eye-right",
+        "component": 1382,
+        "area": 12446,
+        "center": [
+          709.0878193797204,
+          988.9017354973486
+        ],
+        "ratio": 2.311193269357957,
+        "light_surround_fraction": 0.913895486935867,
+        "bbox": [
+          652,
+          903,
+          766,
+          1075
+        ]
+      }
+    ],
+    "runtime_seconds": 3.03
+  },
+  "source_unchanged_sha256": "1980caf7a44e71f01316cc4db54e1cb72add25cb315bd09a117c2231b7a78126",
+  "tool_sha256": "298452cf531671c9471ead80d4f945ba352fbbaf861eefe765271fadb93a1a56",
+  "final_candidates": [
+    "vector-simple-24-v2.svg",
+    "vector-detail-48-v2.svg"
+  ],
+  "early_candidates": {
+    "vector-simple-24.svg": "v0.1.0 without mode regularization or interior alpha opacity",
+    "vector-detail-48.svg": "v0.1.0 retained for diagnosis; excessively fragmented"
+  },
+  "validation": {
+    "structure": "passed",
+    "actual_render": "root_pending",
+    "artistic_acceptance": "not_claimed",
+    "cross_model": "not_tested"
+  }
+}

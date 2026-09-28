@@ -1,0 +1,128 @@
+[
+  {
+    "subject": "aria-human",
+    "round": "round-001",
+    "profiles": {
+      "short": {
+        "revision": "r001",
+        "svg": "outputs/fixtures/aria-human/round-001/short.svg",
+        "canonical_svg": "outputs/fixtures/aria-human/round-001/short/revisions/r001/icon.svg",
+        "sha256": "9a60aac7eeace705dce5579a6480c5c8f26d6f981ba89cf6d7225aae99aa5c8a"
+      },
+      "full": {
+        "revision": "r001",
+        "svg": "outputs/fixtures/aria-human/round-001/full.svg",
+        "canonical_svg": "outputs/fixtures/aria-human/round-001/full/revisions/r001/icon.svg",
+        "sha256": "81c9281e8ede4d1c7b3eadd1fa17df1e16ee3940d2a9196bff7b15642202455b"
+      }
+    }
+  },
+  {
+    "subject": "aria-robot",
+    "round": "round-001",
+    "profiles": {
+      "short": {
+        "revision": "r001",
+        "svg": "outputs/fixtures/aria-robot/round-001/short.svg",
+        "canonical_svg": "outputs/fixtures/aria-robot/round-001/short/revisions/r001/icon.svg",
+        "sha256": "376e24442ef7bccd4d9fb012691492b4053236724cf06d70a206b4b33ff0026f"
+      },
+      "full": {
+        "revision": "r002",
+        "svg": "outputs/fixtures/aria-robot/round-001/full.svg",
+        "canonical_svg": "outputs/fixtures/aria-robot/round-001/full/revisions/r002/icon.svg",
+        "sha256": "3da2784fbaa94155d60fa9c851830a2bc198c35afa232d98397dfbba62ac1582"
+      }
+    }
+  },
+  {
+    "subject": "deepseek",
+    "round": "round-001",
+    "profiles": {
+      "short": {
+        "revision": "r002",
+        "svg": "outputs/fixtures/deepseek/round-001/short.svg",
+        "canonical_svg": "outputs/fixtures/deepseek/round-001/short/revisions/r002/icon.svg",
+        "sha256": "d6244dd9603be5419dca32f886e990688c8e80f1f07b5ce4fed9c075ee43e2ad"
+      },
+      "full": {
+        "revision": "r002",
+        "svg": "outputs/fixtures/deepseek/round-001/full.svg",
+        "canonical_svg": "outputs/fixtures/deepseek/round-001/full/revisions/r002/icon.svg",
+        "sha256": "ddf601482717a81aa0a90029e69d667a0b96d00d50c9fdf00ac5ef8f4f283a29"
+      }
+    }
+  },
+  {
+    "subject": "endministrator-female",
+    "round": "round-001",
+    "profiles": {
+      "short": {
+        "revision": "r002",
+        "svg": "outputs/fixtures/endministrator-female/round-001/short.svg",
+        "canonical_svg": "outputs/fixtures/endministrator-female/round-001/short/revisions/r002/icon.svg",
+        "sha256": "cd82c596218a25f4a70e8470c80627cf413f7663f65b1a821acc8df91bdbf978"
+      },
+      "full": {
+        "revision": "r002",
+        "svg": "outputs/fixtures/endministrator-female/round-001/full.svg",
+        "canonical_svg": "outputs/fixtures/endministrator-female/round-001/full/revisions/r002/icon.svg",
+        "sha256": "09977b83f5f5d9fdd5d1c8db31e7f505f6eacf5679fd7b458cfdd58158d6ddc1"
+      }
+    }
+  },
+  {
+    "subject": "endministrator-male",
+    "round": "round-001",
+    "profiles": {
+      "short": {
+        "revision": "r002",
+        "svg": "outputs/fixtures/endministrator-male/round-001/short.svg",
+        "canonical_svg": "outputs/fixtures/endministrator-male/round-001/short/revisions/r002/icon.svg",
+        "sha256": "52fd6a3bb6bebb2524df6d6b69581ffb57028cd85f1c7fc6309bbe4321372442"
+      },
+      "full": {
+        "revision": "r002",
+        "svg": "outputs/fixtures/endministrator-male/round-001/full.svg",
+        "canonical_svg": "outputs/fixtures/endministrator-male/round-001/full/revisions/r002/icon.svg",
+        "sha256": "62c24623e4abd1520a42848d85ee30bee5db7da43a109680dfa3b57c487edba9"
+      }
+    }
+  },
+  {
+    "subject": "illustration",
+    "round": "round-001",
+    "profiles": {
+      "short": {
+        "revision": "r001",
+        "svg": "outputs/fixtures/illustration/round-001/short.svg",
+        "canonical_svg": "outputs/fixtures/illustration/round-001/short/revisions/r001/icon.svg",
+        "sha256": "94c3cf9cfecb4435ee850f6e7cb2ec1b49751b2b3ec431700b3dc13ac580ce98"
+      },
+      "full": {
+        "revision": "r001",
+        "svg": "outputs/fixtures/illustration/round-001/full.svg",
+        "canonical_svg": "outputs/fixtures/illustration/round-001/full/revisions/r001/icon.svg",
+        "sha256": "36e95c3388035df698c985a673b8a529de39bd95fd91ef24582613b084c6d9e0"
+      }
+    }
+  },
+  {
+    "subject": "sunna",
+    "round": "round-001",
+    "profiles": {
+      "short": {
+        "revision": "r001",
+        "svg": "outputs/fixtures/sunna/round-001/short.svg",
+        "canonical_svg": "outputs/fixtures/sunna/round-001/short/revisions/r001/icon.svg",
+        "sha256": "62ccde51f2d336e400ed672c428631929351782760e6b5618edbf8339372796b"
+      },
+      "full": {
+        "revision": "r001",
+        "svg": "outputs/fixtures/sunna/round-001/full.svg",
+        "canonical_svg": "outputs/fixtures/sunna/round-001/full/revisions/r001/icon.svg",
+        "sha256": "3b6f018b7ad4bc343ce9b28ee2cdbbc5456513adc147923439e883f06d037aa2"
+      }
+    }
+  }
+]
