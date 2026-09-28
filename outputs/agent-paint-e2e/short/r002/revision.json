@@ -1,0 +1,9 @@
+{
+  "parent": "r001",
+  "removed_shadow_layers": [
+    "center-fold-shadow"
+  ],
+  "prompt_saved_before_plan": true,
+  "changed_geometry": false,
+  "changed_thresholds": false
+}

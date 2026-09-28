@@ -6,3 +6,4 @@
 *.png binary
 *.jpg binary
 outputs/** -text
+tests/fixtures/paint/geometry.svg -text

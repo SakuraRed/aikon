@@ -1,0 +1,32 @@
+{
+  "state": {
+    "user_request": "整体是非常好的典型案例，但奇怪的上色纹理和不自然高光是致命缺陷；需对齐官方和r1，建立反模式，注意CI，从像素根源避免缺陷，尽可能脱离绘图模型并做受监控端到端测试。DeepSeek典型参考就是r1。",
+    "observed": [
+      "Existing imagegen diagnostic PNG has user-approved overall composition, not approved paint. User marked both angular isolated light patches and subtle mottling.",
+      "Prior global palette tracing caused cheek loss, hard color bands and cross-family colors. New annotated PNG and the old diagnostic have equal alpha and only tiny RGB recompression differences.",
+      "Fixed positive-reference calibrated texture thresholds do not reliably separate the subtle human-marked mottling; highlight naturalness is not a valid single image score.",
+      "Repository has no CI. Current skill drawing core uses stdlib; isolated validation can use pinned resvg/Pillow/numpy/scipy. No live drawing model or external key is needed to compile geometry plus paint and render checks."
+    ],
+    "scope": "Implementation decisions delegated to agent; do not infer aesthetic approval or ask the user to reselect an already explicit reference."
+  },
+  "questions": {
+    "paint_backend": {
+      "type": "choice",
+      "instructions": "Which implementation approach best addresses the user's recurring unwanted texture/highlight defects while preserving accepted geometry and reducing dependence on drawing models?",
+      "criteria": {
+        "analytic_plan": "Keep curated geometry immutable; compile material colors, bounded smooth gradients and ownership-constrained shadows from a declarative plan. More upfront explicit geometry/paint work, reproducible painting without live drawing model.",
+        "model_regenerate": "Regenerate the entire raster with more negative prompt instructions and then convert to SVG. Less geometric authoring, but stochastic texture recurrence and preserved identity are uncertain.",
+        "global_quantization": "Increase palette size or filtering on prior raster-to-vector tracing. Fast conversion, but known banding/noise and semantic grouping failures remain."
+      }
+    },
+    "ci_gate": {
+      "type": "choice",
+      "instructions": "Which CI evidence design honestly prevents detectable defects without disguising artistic uncertainty as a green metric?",
+      "criteria": {
+        "layered_evidence": "Gate static paint contract, deterministic rerender, alpha/interior texture negative controls and local-change invariants; retain highlight/identity visual review as explicit non-automated status. More evidence artifacts, calibrated scope.",
+        "single_pixel_score": "Use one similarity/noise threshold for all pictures and call low score visually accepted. Simpler automation but conflates identities, valid gradients and semantic quality.",
+        "llm_judge_only": "Use a live vision model to judge every CI output. Flexible interpretation but external credentials, nondeterminism and no mechanical invariant guarantee."
+      }
+    }
+  }
+}

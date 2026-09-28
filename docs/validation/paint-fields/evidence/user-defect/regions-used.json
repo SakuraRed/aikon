@@ -1,0 +1,63 @@
+{
+  "schema": "aikon.paint-fields.v1",
+  "regions": [
+    {
+      "id": "central-hair-field",
+      "bbox": [
+        0.43,
+        0.37,
+        0.49,
+        0.48
+      ],
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "right-hair-field",
+      "bbox": [
+        0.72,
+        0.58,
+        0.77,
+        0.68
+      ],
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "lower-right-hair-field",
+      "bbox": [
+        0.72,
+        0.73,
+        0.78,
+        0.8
+      ],
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "face-field",
+      "bbox": [
+        0.29,
+        0.75,
+        0.44,
+        0.88
+      ],
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "fragmented-highlights",
+      "bbox": [
+        0.41,
+        0.27,
+        0.66,
+        0.59
+      ],
+      "expectation": "evidence_only"
+    }
+  ],
+  "rules": {
+    "grain_rms_max": 0.8276688285339487,
+    "mottle_rms_max": 0.5,
+    "interior_translucent_fraction_max": 0.001,
+    "island_contrast_min": 12.0,
+    "island_area_min": 12
+  },
+  "threshold_provenance": "max(0.50, positive_ROI_max * 1.5 + 0.15) separately for grain and mottle; alpha fraction 0.001; islands contrast 12 RGB units and area >=12 pixels. Calibration uses only r1 and official short-pink. Held-out assets never alter thresholds."
+}

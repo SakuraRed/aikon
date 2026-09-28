@@ -19,4 +19,10 @@
 
 - [首次视觉反馈后的双版本/全模态覆盖与测试分支](https://github.com/SakuraRed/aikon/issues/4#issuecomment-5872211140)：透明无水印、更强近景、完整中文提示词、七个主体分支和已选存放位置。
 
-- [用户全批否决与单例校准](https://github.com/SakuraRed/aikon/issues/5#issuecomment-5873241375)：旧14图不合格；停止扩量，做像素和身份形态诊断。新候选尚未验收，后续方向原生提问未取得答案。
+- [用户全批否决与单例校准](https://github.com/SakuraRed/aikon/issues/5#issuecomment-5873241375)：旧14图不合格；当时的方向问题未取得答案。该空答案不会变成批准，后续由2026-09-29新反馈给出继续方向。
+
+## 2026-09-29 明确反馈与工程执行
+
+用户肯定后续单例整体构图，拒绝纹理和不自然高光；DeepSeek明确改绑r1的主体/模式，旧鲸鱼解释失效。当前保留主几何、以解析paint重建色场、建立反模式及真实像素CI，停止扩量。属于用户明确反馈，无需重投票。
+
+工程取舍与Jev原始条件概率、真实失败及修正见[上色迭代](validation/paint-fields/iteration.md)。[双版本创作闭环](https://github.com/SakuraRed/aikon/issues/5)保持开放，因为单例的发束层次仍需视觉精修，未取得最终接受，也未做跨模型/跨harness实测。

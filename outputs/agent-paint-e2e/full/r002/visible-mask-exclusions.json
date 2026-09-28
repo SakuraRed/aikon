@@ -1,0 +1,128 @@
+[
+  {
+    "id": "eye-right",
+    "role": "eye",
+    "raw_mask_pixels": 8370,
+    "visible_mask_pixels": 8370,
+    "shadow_excluded_pixels": 0,
+    "all_later_layer_excluded_pixels": 0,
+    "method": "all later drawable alpha support in actual SVG order"
+  },
+  {
+    "id": "eye-left",
+    "role": "eye",
+    "raw_mask_pixels": 8933,
+    "visible_mask_pixels": 8933,
+    "shadow_excluded_pixels": 0,
+    "all_later_layer_excluded_pixels": 0,
+    "method": "all later drawable alpha support in actual SVG order"
+  },
+  {
+    "id": "cheek-right",
+    "role": "blush",
+    "raw_mask_pixels": 5402,
+    "visible_mask_pixels": 5402,
+    "shadow_excluded_pixels": 0,
+    "all_later_layer_excluded_pixels": 0,
+    "method": "all later drawable alpha support in actual SVG order"
+  },
+  {
+    "id": "cheek-left",
+    "role": "blush",
+    "raw_mask_pixels": 6474,
+    "visible_mask_pixels": 6474,
+    "shadow_excluded_pixels": 0,
+    "all_later_layer_excluded_pixels": 0,
+    "method": "all later drawable alpha support in actual SVG order"
+  },
+  {
+    "id": "halo-inner-shadow",
+    "role": "occlusion-shadow",
+    "raw_mask_pixels": 2612,
+    "visible_mask_pixels": 2612,
+    "shadow_excluded_pixels": 0,
+    "all_later_layer_excluded_pixels": 0,
+    "method": "all later drawable alpha support in actual SVG order"
+  },
+  {
+    "id": "halo-base",
+    "role": "surface",
+    "raw_mask_pixels": 63559,
+    "visible_mask_pixels": 60735,
+    "shadow_excluded_pixels": 2824,
+    "all_later_layer_excluded_pixels": 2824,
+    "method": "all later drawable alpha support in actual SVG order"
+  },
+  {
+    "id": "coral-right-fold",
+    "role": "occlusion-shadow",
+    "raw_mask_pixels": 14876,
+    "visible_mask_pixels": 14876,
+    "shadow_excluded_pixels": 0,
+    "all_later_layer_excluded_pixels": 0,
+    "method": "all later drawable alpha support in actual SVG order"
+  },
+  {
+    "id": "coral-left-fold",
+    "role": "occlusion-shadow",
+    "raw_mask_pixels": 10266,
+    "visible_mask_pixels": 10266,
+    "shadow_excluded_pixels": 0,
+    "all_later_layer_excluded_pixels": 0,
+    "method": "all later drawable alpha support in actual SVG order"
+  },
+  {
+    "id": "coral-left-return",
+    "role": "occlusion-shadow",
+    "raw_mask_pixels": 14487,
+    "visible_mask_pixels": 14487,
+    "shadow_excluded_pixels": 0,
+    "all_later_layer_excluded_pixels": 0,
+    "method": "all later drawable alpha support in actual SVG order"
+  },
+  {
+    "id": "coral-base",
+    "role": "surface",
+    "raw_mask_pixels": 138515,
+    "visible_mask_pixels": 98131,
+    "shadow_excluded_pixels": 40373,
+    "all_later_layer_excluded_pixels": 40384,
+    "method": "all later drawable alpha support in actual SVG order"
+  },
+  {
+    "id": "right-crown-shadow",
+    "role": "occlusion-shadow",
+    "raw_mask_pixels": 15884,
+    "visible_mask_pixels": 15763,
+    "shadow_excluded_pixels": 0,
+    "all_later_layer_excluded_pixels": 121,
+    "method": "all later drawable alpha support in actual SVG order"
+  },
+  {
+    "id": "left-fringe-shadow",
+    "role": "occlusion-shadow",
+    "raw_mask_pixels": 18482,
+    "visible_mask_pixels": 18332,
+    "shadow_excluded_pixels": 0,
+    "all_later_layer_excluded_pixels": 150,
+    "method": "all later drawable alpha support in actual SVG order"
+  },
+  {
+    "id": "hair-base",
+    "role": "surface",
+    "raw_mask_pixels": 362025,
+    "visible_mask_pixels": 325787,
+    "shadow_excluded_pixels": 35330,
+    "all_later_layer_excluded_pixels": 36238,
+    "method": "all later drawable alpha support in actual SVG order"
+  },
+  {
+    "id": "face-visible-region",
+    "role": "surface",
+    "raw_mask_pixels": 225213,
+    "visible_mask_pixels": 194209,
+    "shadow_excluded_pixels": 0,
+    "all_later_layer_excluded_pixels": 31004,
+    "method": "all later drawable alpha support in actual SVG order"
+  }
+]

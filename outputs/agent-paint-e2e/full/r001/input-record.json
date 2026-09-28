@@ -1,0 +1,12 @@
+{
+  "profile": "full",
+  "prompt_sha256": "59fa73a5a33ddc72969ddeef52942364d7659c86718c5674a8f4204ea32e8346",
+  "prompt_mtime_ns": 1790615725471262800,
+  "plan_written_at_ns": 1790615860978205600,
+  "geometry_sha256": "bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f",
+  "references": {
+    "ref/feedback/2026-09-29/accepted-composition-defective-paint.png": "3f2457f3dc87274d3c8bf9472e01e26c03c6ff3ce5345d31b36c4b5e4aafaec2",
+    "ref/feedback/2026-09-29/annotated-paint-defects.png": "c375f72a0b6a492338eab3e58e1bde32a9a626517e327345c6b9e5d440016462",
+    "ref/user-mode/r1.png": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e"
+  }
+}

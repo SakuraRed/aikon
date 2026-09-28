@@ -1,0 +1,83 @@
+{
+  "schema": "aikon.paint-compile.v1",
+  "compiler_version": "0.2.0",
+  "profile": "full",
+  "paint_plan_sha256": "2c916f0ff54867a8bd06369c9dd5191023fffff67a87c46509eeba7423184e0a",
+  "geometry_source_sha256": "bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f",
+  "geometry_signature": "72e4e6581be686a37d5e092d9f0f79b5b9a7cb925c61cbb9da9517e80807872c",
+  "layout_geometry_signature": "cce6b5757ae82da68950ea332f8967a7bd4c56c6d85713a55190d84ba4d83b75",
+  "selected_geometry_unchanged": true,
+  "retained_layers": [
+    "coverage-underpaint",
+    "face-visible-region",
+    "hair-base",
+    "coral-base",
+    "halo-base",
+    "cheek-left",
+    "cheek-right",
+    "eye-left",
+    "eye-right",
+    "left-fringe-shadow",
+    "right-crown-shadow",
+    "coral-left-return",
+    "coral-right-fold",
+    "halo-inner-shadow"
+  ],
+  "discarded_prior_paint": [
+    "face-tone",
+    "hair-direction",
+    "coral-direction",
+    "halo-direction",
+    "left-flow-light",
+    "center-fold-shadow",
+    "center-fringe-light",
+    "right-cheek-flow",
+    "crown-sweep",
+    "coral-left-fold",
+    "coral-top-light",
+    "coral-low-light",
+    "coral-right-highlight",
+    "halo-upper-plane",
+    "halo-bottom-edge"
+  ],
+  "gradient_count": 4,
+  "shadow_anchors": [
+    {
+      "id": "left-fringe-shadow",
+      "owner": "hair-base",
+      "anchor": "receiver-boundary",
+      "reason": "Left overlapping fringe terminates at the visible face/hair boundary."
+    },
+    {
+      "id": "right-crown-shadow",
+      "owner": "hair-base",
+      "anchor": "receiver-boundary",
+      "reason": "The outer/back hair lies behind the right cheek lock."
+    },
+    {
+      "id": "coral-left-return",
+      "owner": "coral-base",
+      "anchor": "receiver-boundary",
+      "reason": "Large returning coral strand passes behind the outer curl."
+    },
+    {
+      "id": "coral-right-fold",
+      "owner": "coral-base",
+      "anchor": "receiver-boundary",
+      "reason": "Right coral bundle has a single broad overlap fold."
+    },
+    {
+      "id": "halo-inner-shadow",
+      "owner": "halo-base",
+      "anchor": "receiver-boundary",
+      "reason": "Inner rim of the ring is an occlusion/material boundary."
+    }
+  ],
+  "svg_sha256": "fec33a6d714ac24a7dee0d5e5e709feb1d013c4a452df459e6cc724e52cb6f13",
+  "checks": {
+    "static_paint_contract": "passed",
+    "boundary_anchor_pixels": "not_run",
+    "visual": "not_run",
+    "user_acceptance": "not_claimed"
+  }
+}

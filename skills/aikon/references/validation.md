@@ -8,6 +8,16 @@ Use the helper's `check` when available, or inspect the SVG directly. Require st
 
 Check geometry relevant to the current contract: identical capsule dimensions, expected ratio, shared pose, fully visible eyes, and resolved deviations. Structural checks cannot prove that two marked objects are the only visible eyes or that a dark hair shape does not obscure them.
 
+`aikon.py check` applies to its scene/export subset. For the analytic paint path, use `paint_svg.py`'s compile report followed by an actual renderer; do not assume the older scene checker accepts every gradient/clip used by the paint compiler. A compile report alone has not run pixel or visual checks.
+
+## Paint checks
+
+Apply [paint anti-patterns](paint-antipatterns.md) and the [paint plan](paint-plan.md) before drawing. When pixel tools are available, rasterize every selected layer with its real transform and clipping, then account for draw order to identify visible material. Inspect whole surfaces, not only small easy patches; disclose any excluded boundaries and insufficient samples.
+
+Treat grain, mid-scale mottling, unexpected islands in declared smooth fields, opaque-interior alpha and boundary-connected shadows as separate checks. Keep legal gradient/antialiasing controls and known bad cases. Freeze reference-derived limits before measuring candidates. Do not lower limits just to reject one image or raise them to pass another. A shadow's owner/reason text does not prove its geometry or lighting is correct.
+
+Highlight naturalness remains a visual judgment. A narrow shadow can have enough coverage for an anchor check but too little interior for texture analysis; record that gap. A soft defect below a calibrated threshold is undetected, not accepted. No renderer or numerical dependencies are required for basic SVG authoring; if unavailable, retain these checks as not run.
+
 ## Actual visual inspection
 
 Render with an available trusted local browser or SVG renderer and view the result. Record renderer/version when obtainable, canvas size and background. Use the intended output sizes; if unspecified, inspect at 24, 48, and 128 px plus one large view. These are Aikon's default review sizes, not thresholds measured from third-party examples.

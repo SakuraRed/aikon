@@ -1,0 +1,638 @@
+{
+  "schema": "aikon.paint-fields.v1",
+  "decoded_rgba_sha256": "79d548dcb8c64ac79a156d405aa6a026b638158b8761a7b04f35295bd9396ad2",
+  "source_size": [
+    1024,
+    1024
+  ],
+  "analysis_size": [
+    1024,
+    1024
+  ],
+  "scales": {
+    "grain_gaussian_sigma_px": 1.5,
+    "mottle_gaussian_sigma_px": [
+      1.5,
+      6
+    ],
+    "edge_gradient_cutoff_rgb_per_px": 2.0,
+    "edge_exclusion_radius_px": 12,
+    "region_erosion_px": 3,
+    "alpha_opaque_min": 254
+  },
+  "rules": {
+    "grain_rms_max": 0.85,
+    "mottle_rms_max": 0.5,
+    "interior_translucent_fraction_max": 0.001,
+    "island_contrast_min": 12.0,
+    "island_area_min": 12
+  },
+  "threshold_provenance": "analyze_paint_fields.DEFAULT_RULES consumed unchanged by independent trial; no threshold tuning against this candidate",
+  "regions": [
+    {
+      "id": "eye-right",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "eye-right"
+      },
+      "texture": {
+        "sample_pixels": 3545,
+        "grain_rms_0_255": 0.0,
+        "mottle_rms_0_255": 0.3746653406958365,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.4793779580797836,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.3746653406958365
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.3746653406958365
+        }
+      },
+      "opacity": {
+        "sample_pixels": 7395,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "eye-left",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "eye-left"
+      },
+      "texture": {
+        "sample_pixels": 3937,
+        "grain_rms_0_255": 0.0,
+        "mottle_rms_0_255": 0.3660525449835145,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.4965943491422805,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.3660525449835145
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.3660525449835145
+        }
+      },
+      "opacity": {
+        "sample_pixels": 7928,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "cheek-right",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "cheek-right"
+      },
+      "texture": {
+        "sample_pixels": 2200,
+        "grain_rms_0_255": 0.0,
+        "mottle_rms_0_255": 0.0962440228168233,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.47109207708779444,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.0962440228168233
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.0962440228168233
+        }
+      },
+      "opacity": {
+        "sample_pixels": 4670,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "cheek-left",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "cheek-left"
+      },
+      "texture": {
+        "sample_pixels": 2915,
+        "grain_rms_0_255": 0.0,
+        "mottle_rms_0_255": 0.08950540689564154,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.5138374757623833,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.08950540689564154
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.08950540689564154
+        }
+      },
+      "opacity": {
+        "sample_pixels": 5673,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "halo-inner-shadow",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "halo-inner-shadow"
+      },
+      "texture": {
+        "sample_pixels": 0,
+        "grain_rms_0_255": null,
+        "mottle_rms_0_255": null,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.0,
+        "measurement_status": "insufficient_interior",
+        "composite_black": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        },
+        "composite_white": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        }
+      },
+      "opacity": {
+        "sample_pixels": 1264,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "halo-base",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "halo-base"
+      },
+      "texture": {
+        "sample_pixels": 24661,
+        "grain_rms_0_255": 0.0,
+        "mottle_rms_0_255": 0.49824488974269754,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.47234246312966865,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.6146384124324602
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.2933365460276023
+        }
+      },
+      "opacity": {
+        "sample_pixels": 52210,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "coral-right-fold",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "coral-right-fold"
+      },
+      "texture": {
+        "sample_pixels": 4362,
+        "grain_rms_0_255": 0.0,
+        "mottle_rms_0_255": 0.23652013004364433,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.3627442827442827,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.2770775885449688
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.19563314213632207
+        }
+      },
+      "opacity": {
+        "sample_pixels": 12025,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "coral-left-fold",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "coral-left-fold"
+      },
+      "texture": {
+        "sample_pixels": 4764,
+        "grain_rms_0_255": 0.0,
+        "mottle_rms_0_255": 0.053705053118058156,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.536003600360036,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.053705053118058156
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.053705053118058156
+        }
+      },
+      "opacity": {
+        "sample_pixels": 8888,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "coral-left-return",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "coral-left-return"
+      },
+      "texture": {
+        "sample_pixels": 7736,
+        "grain_rms_0_255": 0.0,
+        "mottle_rms_0_255": 0.09297654382243167,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.5978361669242659,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.09297654382243167
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.09297654382243167
+        }
+      },
+      "opacity": {
+        "sample_pixels": 12940,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "coral-base",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "coral-base"
+      },
+      "texture": {
+        "sample_pixels": 36246,
+        "grain_rms_0_255": 3.2818563180946156e-14,
+        "mottle_rms_0_255": 0.2944464528536747,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.4402740325049195,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.03112009753328337,
+          "mottle_rms_0_255": 0.36558775194330473
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.013254638228997456,
+          "mottle_rms_0_255": 0.2532550419189571
+        }
+      },
+      "opacity": {
+        "sample_pixels": 82326,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "right-crown-shadow",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "right-crown-shadow"
+      },
+      "texture": {
+        "sample_pixels": 2145,
+        "grain_rms_0_255": 0.0,
+        "mottle_rms_0_255": 0.23947125405014144,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.1747596545543425,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.23947125405014144
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.23947125405014144
+        }
+      },
+      "opacity": {
+        "sample_pixels": 12274,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "center-fold-shadow",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "center-fold-shadow"
+      },
+      "texture": {
+        "sample_pixels": 22793,
+        "grain_rms_0_255": 0.0,
+        "mottle_rms_0_255": 0.03889205043548026,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.6998587570621468,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.038889671550239195
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.038900966521286454
+        }
+      },
+      "opacity": {
+        "sample_pixels": 32568,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "left-fringe-shadow",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "left-fringe-shadow"
+      },
+      "texture": {
+        "sample_pixels": 6649,
+        "grain_rms_0_255": 0.0,
+        "mottle_rms_0_255": 0.20430700498317203,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.4443924609009491,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.20430700498317203
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.20430700498317203
+        }
+      },
+      "opacity": {
+        "sample_pixels": 14962,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "hair-base",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "hair-base"
+      },
+      "texture": {
+        "sample_pixels": 194140,
+        "grain_rms_0_255": 0.00043080891470423957,
+        "mottle_rms_0_255": 0.17932678102638358,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.7335809587866101,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.02805399091756001,
+          "mottle_rms_0_255": 0.2561745138748126
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.051354724621726015,
+          "mottle_rms_0_255": 0.39066088213054134
+        }
+      },
+      "opacity": {
+        "sample_pixels": 264647,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "face-visible-region",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "face-visible-region"
+      },
+      "texture": {
+        "sample_pixels": 145074,
+        "grain_rms_0_255": 0.0,
+        "mottle_rms_0_255": 0.19793339616222788,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.7922692122853773,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.2000788281276706
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.1936611650649699
+        }
+      },
+      "opacity": {
+        "sample_pixels": 183112,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "whole-subject",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "whole-subject"
+      },
+      "texture": {
+        "sample_pixels": 461391,
+        "grain_rms_0_255": 0.0014031072352693392,
+        "mottle_rms_0_255": 0.2234074274409451,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.594337070662311,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.02910522018970729,
+          "mottle_rms_0_255": 0.2759199740762547
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.050604024186784016,
+          "mottle_rms_0_255": 0.30488380625713324
+        }
+      },
+      "opacity": {
+        "sample_pixels": 776312,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 1,
+        "components": [
+          {
+            "area_pixels": 74,
+            "bbox_normalized": [
+              0.658203125,
+              0.029296875,
+              0.669921875,
+              0.0390625
+            ],
+            "median_contrast_0_255": 13.298866857681777,
+            "signed_luma_residual_0_255": -13.930841877436343
+          }
+        ],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    }
+  ],
+  "issues": [],
+  "global_alpha_evidence": {
+    "interior_pixels": 783662,
+    "translucent_pixels": 409,
+    "translucent_fraction": 0.0005219086800176606,
+    "suspected_fringe_pixels": 833,
+    "fringe_is_advisory": true
+  },
+  "status": "no_rule_failure",
+  "visual_acceptance": "not_assessed",
+  "limitations": [
+    "No-region mode is evidence only and cannot certify a clean painting.",
+    "Manual ROIs must avoid intended boundaries; masks and coverage are exported for audit.",
+    "Broad nonquadratic shading and legal highlights may create island evidence.",
+    "No pixel statistic determines whether a highlight follows strand geometry or lighting.",
+    "Transparent interior inferred from the alpha support is advisory unless an opaque surface is explicitly declared."
+  ]
+}

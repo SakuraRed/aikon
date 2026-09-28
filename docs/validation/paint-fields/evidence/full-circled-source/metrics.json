@@ -1,0 +1,253 @@
+{
+  "schema": "aikon.paint-fields.v1",
+  "decoded_rgba_sha256": "2205c400946f465a520eb493f9996d0be20775f0a4d19f4b05856a38583aff3c",
+  "source_size": [
+    1254,
+    1254
+  ],
+  "analysis_size": [
+    1024,
+    1024
+  ],
+  "scales": {
+    "grain_gaussian_sigma_px": 1.5,
+    "mottle_gaussian_sigma_px": [
+      1.5,
+      6
+    ],
+    "edge_gradient_cutoff_rgb_per_px": 2.0,
+    "edge_exclusion_radius_px": 12,
+    "region_erosion_px": 3,
+    "alpha_opaque_min": 254
+  },
+  "rules": {
+    "grain_rms_max": 0.8276688285339487,
+    "mottle_rms_max": 0.5,
+    "interior_translucent_fraction_max": 0.001,
+    "island_contrast_min": 12.0,
+    "island_area_min": 12
+  },
+  "threshold_provenance": "max(0.50, positive_ROI_max * 1.5 + 0.15) separately for grain and mottle; alpha fraction 0.001; islands contrast 12 RGB units and area >=12 pixels. Calibration uses only r1 and official short-pink. Held-out assets never alter thresholds.",
+  "regions": [
+    {
+      "id": "circled-upper-field",
+      "expectation": "smooth_field",
+      "geometry": {
+        "bbox": [
+          0.66,
+          0.38,
+          0.705,
+          0.42
+        ]
+      },
+      "texture": {
+        "sample_pixels": 1400,
+        "grain_rms_0_255": 0.5995196677113004,
+        "mottle_rms_0_255": 0.5765157455681131,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 1.0,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.5911282809010128,
+          "mottle_rms_0_255": 0.5495273723939073
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.6342299023645268,
+          "mottle_rms_0_255": 0.6858504709106451
+        }
+      },
+      "opacity": {
+        "sample_pixels": 1400,
+        "translucent_pixels": 1400,
+        "translucent_fraction": 1.0,
+        "min_alpha": 248
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "fail",
+      "failures": [
+        "mottle_above_reference_bound",
+        "translucent_interior"
+      ]
+    },
+    {
+      "id": "circled-lower-field",
+      "expectation": "smooth_field",
+      "geometry": {
+        "bbox": [
+          0.68,
+          0.55,
+          0.745,
+          0.59
+        ]
+      },
+      "texture": {
+        "sample_pixels": 2113,
+        "grain_rms_0_255": 0.5928855429651394,
+        "mottle_rms_0_255": 0.573946828434816,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.9896955503512881,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.5790861071059014,
+          "mottle_rms_0_255": 0.542731510796531
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.6442924468727118,
+          "mottle_rms_0_255": 0.7170506136846276
+        }
+      },
+      "opacity": {
+        "sample_pixels": 2135,
+        "translucent_pixels": 2135,
+        "translucent_fraction": 1.0,
+        "min_alpha": 247
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "fail",
+      "failures": [
+        "mottle_above_reference_bound",
+        "translucent_interior"
+      ]
+    },
+    {
+      "id": "circled-highlights",
+      "expectation": "evidence_only",
+      "geometry": {
+        "bbox": [
+          0.55,
+          0.35,
+          0.7,
+          0.54
+        ]
+      },
+      "texture": {
+        "sample_pixels": 14415,
+        "grain_rms_0_255": 0.5085247232970848,
+        "mottle_rms_0_255": 0.4512865807771063,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.5153367653367653,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.506075264576509,
+          "mottle_rms_0_255": 0.4475616590581982
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.5148546380006844,
+          "mottle_rms_0_255": 0.4783781911236739
+        }
+      },
+      "opacity": {
+        "sample_pixels": 27972,
+        "translucent_pixels": 27074,
+        "translucent_fraction": 0.9678964678964679,
+        "min_alpha": 248
+      },
+      "color_islands": {
+        "count": 5,
+        "components": [
+          {
+            "area_pixels": 1730,
+            "bbox_normalized": [
+              0.552734375,
+              0.3662109375,
+              0.6044921875,
+              0.4384765625
+            ],
+            "median_contrast_0_255": 29.51122222740141,
+            "signed_luma_residual_0_255": 27.801052569982758
+          },
+          {
+            "area_pixels": 3471,
+            "bbox_normalized": [
+              0.6083984375,
+              0.4345703125,
+              0.6806640625,
+              0.537109375
+            ],
+            "median_contrast_0_255": 31.692487302483364,
+            "signed_luma_residual_0_255": 29.815127792999352
+          },
+          {
+            "area_pixels": 87,
+            "bbox_normalized": [
+              0.58984375,
+              0.517578125,
+              0.6015625,
+              0.537109375
+            ],
+            "median_contrast_0_255": 19.474933649208516,
+            "signed_luma_residual_0_255": -19.601311981643835
+          },
+          {
+            "area_pixels": 27,
+            "bbox_normalized": [
+              0.66796875,
+              0.51953125,
+              0.67578125,
+              0.52734375
+            ],
+            "median_contrast_0_255": 12.275874538830758,
+            "signed_luma_residual_0_255": -12.59079036331772
+          },
+          {
+            "area_pixels": 36,
+            "bbox_normalized": [
+              0.6533203125,
+              0.53125,
+              0.6630859375,
+              0.537109375
+            ],
+            "median_contrast_0_255": 12.947903204283406,
+            "signed_luma_residual_0_255": -13.203530240937088
+          }
+        ],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "evidence_only",
+      "failures": []
+    }
+  ],
+  "issues": [
+    {
+      "region": "circled-upper-field",
+      "code": "mottle_above_reference_bound"
+    },
+    {
+      "region": "circled-upper-field",
+      "code": "translucent_interior"
+    },
+    {
+      "region": "circled-lower-field",
+      "code": "mottle_above_reference_bound"
+    },
+    {
+      "region": "circled-lower-field",
+      "code": "translucent_interior"
+    }
+  ],
+  "global_alpha_evidence": {
+    "interior_pixels": 835372,
+    "translucent_pixels": 693137,
+    "translucent_fraction": 0.829734537427637,
+    "suspected_fringe_pixels": 5335,
+    "fringe_is_advisory": true
+  },
+  "status": "fail",
+  "visual_acceptance": "not_assessed",
+  "limitations": [
+    "No-region mode is evidence only and cannot certify a clean painting.",
+    "Manual ROIs must avoid intended boundaries; masks and coverage are exported for audit.",
+    "Broad nonquadratic shading and legal highlights may create island evidence.",
+    "No pixel statistic determines whether a highlight follows strand geometry or lighting.",
+    "Transparent interior inferred from the alpha support is advisory unless an opaque surface is explicitly declared."
+  ],
+  "source_file": "full-imagegen-v1.png"
+}

@@ -1,0 +1,340 @@
+{
+  "schema": "aikon.visual-e2e.v1",
+  "started_utc": "2026-09-28T17:01:44.230652+00:00",
+  "runtime": {
+    "python": "3.13.3",
+    "platform": "Windows",
+    "pid": 12136,
+    "parent_pid": 34340,
+    "backend": {
+      "binding": "resvg-py",
+      "version": "0.5.0",
+      "resvg": "0.48.1"
+    },
+    "numeric_threads": 1
+  },
+  "profiles": {
+    "short": {
+      "status": "fail",
+      "deterministic_export": true,
+      "geometry_unchanged": true,
+      "compile": {
+        "schema": "aikon.paint-compile.v1",
+        "compiler_version": "0.2.0",
+        "profile": "short",
+        "paint_plan_sha256": "002141a14f17f11e2dc64066e811737c4c72c726a68ce25ac7fd5437f10cfc16",
+        "geometry_source_sha256": "bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f",
+        "geometry_signature": "18c0e318f4e4e9c5a07e3fc511799ccc4e3e865df7bd175471bf046c3bf98e1f",
+        "selected_geometry_unchanged": true,
+        "retained_layers": [
+          "coverage-underpaint",
+          "face-visible-region",
+          "hair-base",
+          "coral-base",
+          "halo-base",
+          "cheek-left",
+          "cheek-right",
+          "eye-left",
+          "eye-right",
+          "left-fringe-shadow",
+          "center-fold-shadow",
+          "right-crown-shadow",
+          "coral-left-return",
+          "coral-right-fold",
+          "halo-inner-shadow"
+        ],
+        "discarded_prior_paint": [
+          "face-tone",
+          "hair-direction",
+          "coral-direction",
+          "halo-direction",
+          "left-flow-light",
+          "center-fringe-light",
+          "right-cheek-flow",
+          "crown-sweep",
+          "coral-left-fold",
+          "coral-top-light",
+          "coral-low-light",
+          "coral-right-highlight",
+          "halo-upper-plane",
+          "halo-bottom-edge"
+        ],
+        "gradient_count": 4,
+        "shadow_anchors": [
+          {
+            "id": "left-fringe-shadow",
+            "owner": "hair-base",
+            "anchor": "receiver-boundary",
+            "reason": "Left overlapping fringe terminates at the visible face/hair boundary."
+          },
+          {
+            "id": "center-fold-shadow",
+            "owner": "hair-base",
+            "anchor": "receiver-boundary",
+            "reason": "The center fringe folds toward its lower silhouette tip."
+          },
+          {
+            "id": "right-crown-shadow",
+            "owner": "hair-base",
+            "anchor": "receiver-boundary",
+            "reason": "The outer/back hair lies behind the right cheek lock."
+          },
+          {
+            "id": "coral-left-return",
+            "owner": "coral-base",
+            "anchor": "receiver-boundary",
+            "reason": "Large returning coral strand passes behind the outer curl."
+          },
+          {
+            "id": "coral-right-fold",
+            "owner": "coral-base",
+            "anchor": "receiver-boundary",
+            "reason": "Right coral bundle has a single broad overlap fold."
+          },
+          {
+            "id": "halo-inner-shadow",
+            "owner": "halo-base",
+            "anchor": "receiver-boundary",
+            "reason": "Inner rim of the ring is an occlusion/material boundary."
+          }
+        ],
+        "svg_sha256": "25d8e72e6f5ae8612076093dd637c0d1939e0e07b2fe39e8c4f5834fb37ef829",
+        "checks": {
+          "static_paint_contract": "passed",
+          "boundary_anchor_pixels": "not_run",
+          "visual": "not_run",
+          "user_acceptance": "not_claimed"
+        }
+      },
+      "ownership_issues": [
+        {
+          "layer": "center-fold-shadow",
+          "code": "floating_shadow_component"
+        }
+      ],
+      "pixel_issues": [],
+      "pixel_status": "no_rule_failure",
+      "mask_count": 15,
+      "mask_selection": "every selected layer, adjusted for actual painter order",
+      "sizes": [
+        1024,
+        128,
+        48,
+        24
+      ]
+    },
+    "full": {
+      "status": "fail",
+      "deterministic_export": true,
+      "geometry_unchanged": true,
+      "compile": {
+        "schema": "aikon.paint-compile.v1",
+        "compiler_version": "0.2.0",
+        "profile": "full",
+        "paint_plan_sha256": "b00cc53dc08847a3815118b6658f4a1bb320ecf0407be700836f49782a86c7c6",
+        "geometry_source_sha256": "bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f",
+        "geometry_signature": "18c0e318f4e4e9c5a07e3fc511799ccc4e3e865df7bd175471bf046c3bf98e1f",
+        "selected_geometry_unchanged": true,
+        "retained_layers": [
+          "coverage-underpaint",
+          "face-visible-region",
+          "hair-base",
+          "coral-base",
+          "halo-base",
+          "cheek-left",
+          "cheek-right",
+          "eye-left",
+          "eye-right",
+          "left-fringe-shadow",
+          "center-fold-shadow",
+          "right-crown-shadow",
+          "coral-left-return",
+          "coral-right-fold",
+          "halo-inner-shadow"
+        ],
+        "discarded_prior_paint": [
+          "face-tone",
+          "hair-direction",
+          "coral-direction",
+          "halo-direction",
+          "left-flow-light",
+          "center-fringe-light",
+          "right-cheek-flow",
+          "crown-sweep",
+          "coral-left-fold",
+          "coral-top-light",
+          "coral-low-light",
+          "coral-right-highlight",
+          "halo-upper-plane",
+          "halo-bottom-edge"
+        ],
+        "gradient_count": 4,
+        "shadow_anchors": [
+          {
+            "id": "left-fringe-shadow",
+            "owner": "hair-base",
+            "anchor": "receiver-boundary",
+            "reason": "Left overlapping fringe terminates at the visible face/hair boundary."
+          },
+          {
+            "id": "center-fold-shadow",
+            "owner": "hair-base",
+            "anchor": "receiver-boundary",
+            "reason": "The center fringe folds toward its lower silhouette tip."
+          },
+          {
+            "id": "right-crown-shadow",
+            "owner": "hair-base",
+            "anchor": "receiver-boundary",
+            "reason": "The outer/back hair lies behind the right cheek lock."
+          },
+          {
+            "id": "coral-left-return",
+            "owner": "coral-base",
+            "anchor": "receiver-boundary",
+            "reason": "Large returning coral strand passes behind the outer curl."
+          },
+          {
+            "id": "coral-right-fold",
+            "owner": "coral-base",
+            "anchor": "receiver-boundary",
+            "reason": "Right coral bundle has a single broad overlap fold."
+          },
+          {
+            "id": "halo-inner-shadow",
+            "owner": "halo-base",
+            "anchor": "receiver-boundary",
+            "reason": "Inner rim of the ring is an occlusion/material boundary."
+          }
+        ],
+        "svg_sha256": "ecb2c5774de6947f7c48b0d1e9763da4d7327f0ae2dbae0f6a6e26895a948f0c",
+        "checks": {
+          "static_paint_contract": "passed",
+          "boundary_anchor_pixels": "not_run",
+          "visual": "not_run",
+          "user_acceptance": "not_claimed"
+        }
+      },
+      "ownership_issues": [
+        {
+          "layer": "center-fold-shadow",
+          "code": "floating_shadow_component"
+        }
+      ],
+      "pixel_issues": [],
+      "pixel_status": "no_rule_failure",
+      "mask_count": 15,
+      "mask_selection": "every selected layer, adjusted for actual painter order",
+      "sizes": [
+        1024,
+        128,
+        48,
+        24
+      ]
+    }
+  },
+  "status": "fail",
+  "highlight_naturalness": "not_automatically_assessed",
+  "visual_review": "not_assessed",
+  "user_acceptance": "not_claimed",
+  "reference_binding": {
+    "subject": "deepseek",
+    "reference": "ref/user-mode/r1.png",
+    "sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+    "roles": [
+      "subject",
+      "style"
+    ],
+    "status": "matched",
+    "legacy_whale_default": "not_used"
+  },
+  "profile_sha256": {
+    "short": "25d8e72e6f5ae8612076093dd637c0d1939e0e07b2fe39e8c4f5834fb37ef829",
+    "full": "ecb2c5774de6947f7c48b0d1e9763da4d7327f0ae2dbae0f6a6e26895a948f0c"
+  },
+  "controls": {
+    "cases": [
+      {
+        "name": "legal-gradient-and-AA",
+        "expected_failure": false,
+        "observed_failure": false,
+        "codes": [],
+        "expectation_met": true
+      },
+      {
+        "name": "seeded-grain",
+        "expected_failure": true,
+        "observed_failure": true,
+        "codes": [
+          "grain_above_reference_bound",
+          "mottle_above_reference_bound"
+        ],
+        "expectation_met": true
+      },
+      {
+        "name": "subtle-interior-alpha",
+        "expected_failure": true,
+        "observed_failure": true,
+        "codes": [
+          "translucent_interior"
+        ],
+        "expectation_met": true
+      },
+      {
+        "name": "small-interior-highlight",
+        "expected_failure": true,
+        "observed_failure": true,
+        "codes": [
+          "unexpected_color_islands_in_declared_smooth_field"
+        ],
+        "expectation_met": true
+      },
+      {
+        "name": "unplanned-highlight-shape",
+        "expected_failure": true,
+        "observed_failure": true,
+        "expectation_met": true,
+        "reason": "Compiled SVG contains missing, duplicate or unplanned paint shapes"
+      },
+      {
+        "name": "injected-filter",
+        "expected_failure": true,
+        "observed_failure": true,
+        "expectation_met": true,
+        "reason": "Unsupported or active SVG element: filter"
+      },
+      {
+        "name": "geometry-source-hash-tamper",
+        "expected_failure": true,
+        "observed_failure": true,
+        "expectation_met": true,
+        "reason": "Paint plan does not match this geometry"
+      },
+      {
+        "name": "frozen-canvas-tamper",
+        "expected_failure": true,
+        "observed_failure": true,
+        "expectation_met": true,
+        "reason": "Selected geometry or coordinate system changed"
+      },
+      {
+        "name": "missing-full-profile",
+        "expected_failure": true,
+        "observed_failure": true,
+        "expectation_met": true,
+        "reason": "A round requires both short and full SVG outputs"
+      },
+      {
+        "name": "duplicate-profile-bytes",
+        "expected_failure": true,
+        "observed_failure": true,
+        "expectation_met": true,
+        "reason": "Short and full are identical bytes, not two distinct profile treatments"
+      }
+    ],
+    "status": "pass",
+    "seed": 20260929,
+    "interpretation": "Detection controls, not artistic ratings"
+  },
+  "elapsed_seconds": 9.98
+}

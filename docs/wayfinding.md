@@ -6,7 +6,7 @@ GitHub Issues 为 canonical tracker，地图采用 `wayfinder:map`，研究、�
 
 当前调查入口：[网页概念、完整提示词及视觉样例](https://github.com/SakuraRed/aikon/issues/2)、[标准技能移植、原生问答与 SVG 一致性验证](https://github.com/SakuraRed/aikon/issues/3)。访谈：[风格、交互深度与一致性验收目标](https://github.com/SakuraRed/aikon/issues/4)。实时状态以 GitHub 为准。
 
-调查与两轮访谈已完成；当前前沿为[首版技能与原创 SVG 原型验收](https://github.com/SakuraRed/aikon/issues/5)，尚需实际视觉反馈。
+调查与两轮访谈已完成；当前前沿为[验证全模态输入的双版本透明 SVG 创作闭环](https://github.com/SakuraRed/aikon/issues/5)。用户已拒绝旧全批并明确给出新的单例反馈；正在基于获肯定的整体方向修正paint，视觉精修与最终验收仍开放。
 
 ## 目的地
 

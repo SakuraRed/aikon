@@ -1,0 +1,2 @@
+short r001 compiled
+{"profile": "short", "revision": "r001", "elapsed_seconds": 5.322162866592407, "ownership_status": "fail", "ownership_issues": [{"layer": "center-fold-shadow", "code": "floating_shadow_component"}], "pixel_status": "no_rule_failure", "pixel_issues": []}

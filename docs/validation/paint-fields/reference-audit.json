@@ -1,0 +1,47 @@
+{
+  "schema": "aikon.paint-reference-audit.v1",
+  "threshold_rule_frozen_before_defect_measurement": "max(0.50, positive_ROI_max * 1.5 + 0.15) separately for grain and mottle; alpha fraction 0.001; islands contrast 12 RGB units and area >=12 pixels. Calibration uses only r1 and official short-pink. Held-out assets never alter thresholds.",
+  "assets": [
+    {"id": "r1", "role": "calibration-positive", "path": "ref/user-mode/r1.png", "regions": [
+      {"id": "hair-center", "bbox": [0.32, 0.33, 0.48, 0.49], "expectation": "smooth_field"},
+      {"id": "hair-left", "bbox": [0.09, 0.23, 0.25, 0.32], "expectation": "smooth_field"},
+      {"id": "face", "bbox": [0.25, 0.72, 0.41, 0.89], "expectation": "smooth_field"}
+    ]},
+    {"id": "short-pink", "role": "calibration-positive", "path": "ref/site/short-pink.png", "regions": [
+      {"id": "hair-center", "bbox": [0.34, 0.30, 0.50, 0.42], "expectation": "smooth_field"},
+      {"id": "hair-lower", "bbox": [0.38, 0.44, 0.50, 0.56], "expectation": "smooth_field"},
+      {"id": "face", "bbox": [0.29, 0.71, 0.43, 0.89], "expectation": "smooth_field"}
+    ]},
+    {"id": "short-blue", "role": "held-out-positive", "path": "ref/site/short-blue.png", "regions": [
+      {"id": "hair-center", "bbox": [0.34, 0.30, 0.50, 0.42], "expectation": "smooth_field"},
+      {"id": "hair-lower", "bbox": [0.38, 0.44, 0.50, 0.56], "expectation": "smooth_field"},
+      {"id": "face", "bbox": [0.29, 0.71, 0.43, 0.89], "expectation": "smooth_field"}
+    ]},
+    {"id": "short-black", "role": "held-out-positive", "path": "ref/site/short-black.png", "regions": [
+      {"id": "hair-center", "bbox": [0.38, 0.27, 0.46, 0.37], "expectation": "smooth_field"},
+      {"id": "face", "bbox": [0.33, 0.72, 0.46, 0.89], "expectation": "smooth_field"}
+    ]},
+    {"id": "full-teal", "role": "held-out-positive", "path": "ref/site/full-teal.png", "regions": [
+      {"id": "hair-center", "bbox": [0.37, 0.28, 0.44, 0.39], "expectation": "smooth_field"},
+      {"id": "face", "bbox": [0.26, 0.60, 0.39, 0.76], "expectation": "smooth_field"},
+      {"id": "legal-highlight-evidence", "bbox": [0.08, 0.12, 0.32, 0.24], "expectation": "evidence_only"}
+    ]},
+    {"id": "r2", "role": "supplementary-reference", "path": "ref/user-mode/r2.png", "regions": [
+      {"id": "hat", "bbox": [0.08, 0.09, 0.24, 0.14], "expectation": "smooth_field"},
+      {"id": "hair", "bbox": [0.32, 0.29, 0.43, 0.39], "expectation": "smooth_field"},
+      {"id": "face", "bbox": [0.26, 0.64, 0.40, 0.78], "expectation": "smooth_field"}
+    ]},
+    {"id": "user-defect", "role": "user-rejected-paint", "path": "ref/feedback/2026-09-29/accepted-composition-defective-paint.png", "regions": [
+      {"id": "central-hair-field", "bbox": [0.43, 0.37, 0.49, 0.48], "expectation": "smooth_field"},
+      {"id": "right-hair-field", "bbox": [0.72, 0.58, 0.77, 0.68], "expectation": "opaque_surface"},
+      {"id": "lower-right-hair-field", "bbox": [0.72, 0.73, 0.78, 0.80], "expectation": "opaque_surface"},
+      {"id": "face-field", "bbox": [0.29, 0.75, 0.44, 0.88], "expectation": "smooth_field"},
+      {"id": "fragmented-highlights", "bbox": [0.41, 0.27, 0.66, 0.59], "expectation": "evidence_only"}
+    ]},
+    {"id": "full-circled-source", "role": "user-circled-paint-source", "path": "outputs/calibration/illustration/full-imagegen-v1.png", "regions": [
+      {"id": "circled-upper-field", "bbox": [0.66, 0.38, 0.705, 0.42], "expectation": "smooth_field"},
+      {"id": "circled-lower-field", "bbox": [0.68, 0.55, 0.745, 0.59], "expectation": "smooth_field"},
+      {"id": "circled-highlights", "bbox": [0.55, 0.35, 0.70, 0.54], "expectation": "evidence_only"}
+    ]}
+  ]
+}

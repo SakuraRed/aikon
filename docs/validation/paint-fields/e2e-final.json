@@ -1,0 +1,1603 @@
+{
+  "schema": "aikon.visual-e2e.v1",
+  "started_utc": "2026-09-28T17:25:14.745248+00:00",
+  "runtime": {
+    "python": "3.13.3",
+    "platform": "Windows",
+    "pid": 62428,
+    "parent_pid": 60432,
+    "backend": {
+      "binding": "resvg-py",
+      "version": "0.5.0",
+      "resvg": "0.48.1"
+    },
+    "numeric_threads": 1
+  },
+  "profiles": {
+    "short": {
+      "status": "no_rule_failure",
+      "deterministic_export": true,
+      "geometry_unchanged": true,
+      "compile": {
+        "schema": "aikon.paint-compile.v1",
+        "compiler_version": "0.2.0",
+        "profile": "short",
+        "paint_plan_sha256": "26d0712f65b5d2ea66015759751c59e411e2ecfe64f060ef09c82f5390382fde",
+        "geometry_source_sha256": "bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f",
+        "geometry_signature": "72e4e6581be686a37d5e092d9f0f79b5b9a7cb925c61cbb9da9517e80807872c",
+        "layout_geometry_signature": "cce6b5757ae82da68950ea332f8967a7bd4c56c6d85713a55190d84ba4d83b75",
+        "selected_geometry_unchanged": true,
+        "retained_layers": [
+          "coverage-underpaint",
+          "face-visible-region",
+          "hair-base",
+          "coral-base",
+          "halo-base",
+          "cheek-left",
+          "cheek-right",
+          "eye-left",
+          "eye-right",
+          "left-fringe-shadow",
+          "right-crown-shadow",
+          "coral-left-return",
+          "coral-right-fold",
+          "halo-inner-shadow"
+        ],
+        "discarded_prior_paint": [
+          "face-tone",
+          "hair-direction",
+          "coral-direction",
+          "halo-direction",
+          "left-flow-light",
+          "center-fold-shadow",
+          "center-fringe-light",
+          "right-cheek-flow",
+          "crown-sweep",
+          "coral-left-fold",
+          "coral-top-light",
+          "coral-low-light",
+          "coral-right-highlight",
+          "halo-upper-plane",
+          "halo-bottom-edge"
+        ],
+        "gradient_count": 4,
+        "shadow_anchors": [
+          {
+            "id": "left-fringe-shadow",
+            "owner": "hair-base",
+            "anchor": "receiver-boundary",
+            "reason": "Left overlapping fringe terminates at the visible face/hair boundary."
+          },
+          {
+            "id": "right-crown-shadow",
+            "owner": "hair-base",
+            "anchor": "receiver-boundary",
+            "reason": "The outer/back hair lies behind the right cheek lock."
+          },
+          {
+            "id": "coral-left-return",
+            "owner": "coral-base",
+            "anchor": "receiver-boundary",
+            "reason": "Large returning coral strand passes behind the outer curl."
+          },
+          {
+            "id": "coral-right-fold",
+            "owner": "coral-base",
+            "anchor": "receiver-boundary",
+            "reason": "Right coral bundle has a single broad overlap fold."
+          },
+          {
+            "id": "halo-inner-shadow",
+            "owner": "halo-base",
+            "anchor": "receiver-boundary",
+            "reason": "Inner rim of the ring is an occlusion/material boundary."
+          }
+        ],
+        "svg_sha256": "353899f3d8d20bd058a5bfef86485623c6af95078faddb30cb6e51dbcd05f95f",
+        "checks": {
+          "static_paint_contract": "passed",
+          "boundary_anchor_pixels": "not_run",
+          "visual": "not_run",
+          "user_acceptance": "not_claimed"
+        }
+      },
+      "ownership_issues": [],
+      "pixel_issues": [],
+      "pixel_status": "no_rule_failure",
+      "mask_count": 14,
+      "mask_selection": "every selected layer, adjusted for actual painter order",
+      "sizes": [
+        1024,
+        128,
+        48,
+        24
+      ]
+    },
+    "full": {
+      "status": "no_rule_failure",
+      "deterministic_export": true,
+      "geometry_unchanged": true,
+      "compile": {
+        "schema": "aikon.paint-compile.v1",
+        "compiler_version": "0.2.0",
+        "profile": "full",
+        "paint_plan_sha256": "2c916f0ff54867a8bd06369c9dd5191023fffff67a87c46509eeba7423184e0a",
+        "geometry_source_sha256": "bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f",
+        "geometry_signature": "72e4e6581be686a37d5e092d9f0f79b5b9a7cb925c61cbb9da9517e80807872c",
+        "layout_geometry_signature": "cce6b5757ae82da68950ea332f8967a7bd4c56c6d85713a55190d84ba4d83b75",
+        "selected_geometry_unchanged": true,
+        "retained_layers": [
+          "coverage-underpaint",
+          "face-visible-region",
+          "hair-base",
+          "coral-base",
+          "halo-base",
+          "cheek-left",
+          "cheek-right",
+          "eye-left",
+          "eye-right",
+          "left-fringe-shadow",
+          "right-crown-shadow",
+          "coral-left-return",
+          "coral-right-fold",
+          "halo-inner-shadow"
+        ],
+        "discarded_prior_paint": [
+          "face-tone",
+          "hair-direction",
+          "coral-direction",
+          "halo-direction",
+          "left-flow-light",
+          "center-fold-shadow",
+          "center-fringe-light",
+          "right-cheek-flow",
+          "crown-sweep",
+          "coral-left-fold",
+          "coral-top-light",
+          "coral-low-light",
+          "coral-right-highlight",
+          "halo-upper-plane",
+          "halo-bottom-edge"
+        ],
+        "gradient_count": 4,
+        "shadow_anchors": [
+          {
+            "id": "left-fringe-shadow",
+            "owner": "hair-base",
+            "anchor": "receiver-boundary",
+            "reason": "Left overlapping fringe terminates at the visible face/hair boundary."
+          },
+          {
+            "id": "right-crown-shadow",
+            "owner": "hair-base",
+            "anchor": "receiver-boundary",
+            "reason": "The outer/back hair lies behind the right cheek lock."
+          },
+          {
+            "id": "coral-left-return",
+            "owner": "coral-base",
+            "anchor": "receiver-boundary",
+            "reason": "Large returning coral strand passes behind the outer curl."
+          },
+          {
+            "id": "coral-right-fold",
+            "owner": "coral-base",
+            "anchor": "receiver-boundary",
+            "reason": "Right coral bundle has a single broad overlap fold."
+          },
+          {
+            "id": "halo-inner-shadow",
+            "owner": "halo-base",
+            "anchor": "receiver-boundary",
+            "reason": "Inner rim of the ring is an occlusion/material boundary."
+          }
+        ],
+        "svg_sha256": "fec33a6d714ac24a7dee0d5e5e709feb1d013c4a452df459e6cc724e52cb6f13",
+        "checks": {
+          "static_paint_contract": "passed",
+          "boundary_anchor_pixels": "not_run",
+          "visual": "not_run",
+          "user_acceptance": "not_claimed"
+        }
+      },
+      "ownership_issues": [],
+      "pixel_issues": [],
+      "pixel_status": "no_rule_failure",
+      "mask_count": 14,
+      "mask_selection": "every selected layer, adjusted for actual painter order",
+      "sizes": [
+        1024,
+        128,
+        48,
+        24
+      ]
+    }
+  },
+  "status": "pass",
+  "highlight_naturalness": "not_automatically_assessed",
+  "visual_review": "not_assessed",
+  "user_acceptance": "not_claimed",
+  "reference_binding": {
+    "subject": "deepseek",
+    "reference": "ref/user-mode/r1.png",
+    "sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+    "roles": [
+      "subject",
+      "style"
+    ],
+    "status": "matched",
+    "legacy_whale_default": "not_used"
+  },
+  "profile_sha256": {
+    "short": "353899f3d8d20bd058a5bfef86485623c6af95078faddb30cb6e51dbcd05f95f",
+    "full": "fec33a6d714ac24a7dee0d5e5e709feb1d013c4a452df459e6cc724e52cb6f13"
+  },
+  "controls": {
+    "cases": [
+      {
+        "name": "legal-gradient-and-AA",
+        "expected_failure": false,
+        "observed_failure": false,
+        "codes": [],
+        "expectation_met": true
+      },
+      {
+        "name": "seeded-grain",
+        "expected_failure": true,
+        "observed_failure": true,
+        "codes": [
+          "grain_above_reference_bound",
+          "mottle_above_reference_bound"
+        ],
+        "expectation_met": true
+      },
+      {
+        "name": "subtle-interior-alpha",
+        "expected_failure": true,
+        "observed_failure": true,
+        "codes": [
+          "translucent_interior"
+        ],
+        "expectation_met": true
+      },
+      {
+        "name": "small-interior-highlight",
+        "expected_failure": true,
+        "observed_failure": true,
+        "codes": [
+          "unexpected_color_islands_in_declared_smooth_field"
+        ],
+        "expectation_met": true
+      },
+      {
+        "name": "unplanned-highlight-shape",
+        "expected_failure": true,
+        "observed_failure": true,
+        "expectation_met": true,
+        "reason": "Compiled SVG contains missing, duplicate or unplanned paint shapes"
+      },
+      {
+        "name": "injected-filter",
+        "expected_failure": true,
+        "observed_failure": true,
+        "expectation_met": true,
+        "reason": "Unsupported or active SVG element: filter"
+      },
+      {
+        "name": "geometry-source-hash-tamper",
+        "expected_failure": true,
+        "observed_failure": true,
+        "expectation_met": true,
+        "reason": "Paint plan does not match this geometry"
+      },
+      {
+        "name": "frozen-canvas-tamper",
+        "expected_failure": true,
+        "observed_failure": true,
+        "expectation_met": true,
+        "reason": "Selected geometry or coordinate system changed"
+      },
+      {
+        "name": "missing-full-profile",
+        "expected_failure": true,
+        "observed_failure": true,
+        "expectation_met": true,
+        "reason": "A round requires both short and full SVG outputs"
+      },
+      {
+        "name": "duplicate-profile-bytes",
+        "expected_failure": true,
+        "observed_failure": true,
+        "expectation_met": true,
+        "reason": "Short and full are identical bytes, not two distinct profile treatments"
+      }
+    ],
+    "status": "pass",
+    "seed": 20260929,
+    "interpretation": "Detection controls, not artistic ratings"
+  },
+  "reference_regression": {
+    "schema": "aikon.real-paint-regression.v1",
+    "ok": true,
+    "status": "passed",
+    "visual_acceptance": "not_assessed",
+    "meaning_of_pass": "Known real-fixture observations reproduced; rejected paint remains rejected and short texture remains unresolved.",
+    "frozen_rules": {
+      "grain_rms_max": 0.8276688285339487,
+      "mottle_rms_max": 0.5,
+      "interior_translucent_fraction_max": 0.001,
+      "island_contrast_min": 12.0,
+      "island_area_min": 12
+    },
+    "threshold_provenance": "max(0.50, positive_ROI_max * 1.5 + 0.15) separately for grain and mottle; alpha fraction 0.001; islands contrast 12 RGB units and area >=12 pixels. Calibration uses only r1 and official short-pink. Held-out assets never alter thresholds.",
+    "input_contract_hashes": {
+      "manifest_sha256": "cd00e4a1187eafc202cf3328f182a74284a606a66c981ed8c6068e6d898160e0",
+      "frozen_rules_sha256": "d35cd3475013a7e96d956cb6b268297f0bb0c3a8780886b19899e6b57496c71d",
+      "annotation_registration_sha256": "a2808d816cbb8c831e85bf8956e5febb4a633848a74ea4f81cb0b786519063ab"
+    },
+    "cases": [
+      {
+        "id": "r1",
+        "role": "calibration-positive",
+        "source": "ref/user-mode/r1.png",
+        "source_sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+        "decoded_rgba_sha256": "39ad18daa1e80361df17bbd4ac2ba24ca239e88618c695a15f6c01270307c49e",
+        "source_size": [
+          1280,
+          1280
+        ],
+        "analysis_size": [
+          1024,
+          1024
+        ],
+        "expected_outcome": "reference_gradients_have_no_local_rule_failure",
+        "expected_codes": {
+          "all_declared_regions": []
+        },
+        "actual_codes": [],
+        "actual_detector_status": "no_rule_failure",
+        "expectation_met": true,
+        "visual_acceptance": "not_assessed",
+        "regions": [
+          {
+            "id": "hair-center",
+            "bbox": [
+              0.32,
+              0.33,
+              0.48,
+              0.49
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 24964,
+              "grain_rms_0_255": 0.19853931782418213,
+              "mottle_rms_0_255": 0.14917826106907955,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 1.0,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.19853931782418213,
+                "mottle_rms_0_255": 0.14917826106907955
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.19853931782418213,
+                "mottle_rms_0_255": 0.14917826106907955
+              }
+            },
+            "opacity": {
+              "sample_pixels": 24964,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          },
+          {
+            "id": "hair-left",
+            "bbox": [
+              0.09,
+              0.23,
+              0.25,
+              0.32
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 13389,
+              "grain_rms_0_255": 0.20414665698643844,
+              "mottle_rms_0_255": 0.22923663049511112,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 0.9853547247571387,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.20414665698643844,
+                "mottle_rms_0_255": 0.22923663049511112
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.20414665698643844,
+                "mottle_rms_0_255": 0.22923663049511112
+              }
+            },
+            "opacity": {
+              "sample_pixels": 13588,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          },
+          {
+            "id": "face",
+            "bbox": [
+              0.25,
+              0.72,
+              0.41,
+              0.89
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 26544,
+              "grain_rms_0_255": 0.15268907730560805,
+              "mottle_rms_0_255": 0.15594891746165176,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 1.0,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.15268907730560805,
+                "mottle_rms_0_255": 0.15594891746165176
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.15268907730560805,
+                "mottle_rms_0_255": 0.15594891746165176
+              }
+            },
+            "opacity": {
+              "sample_pixels": 26544,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          }
+        ],
+        "mask_files": [
+          {
+            "region_id": "hair-center",
+            "path": "r1/region-00.png",
+            "selected_pixels": 26896
+          },
+          {
+            "region_id": "hair-left",
+            "path": "r1/region-01.png",
+            "selected_pixels": 15088
+          },
+          {
+            "region_id": "face",
+            "path": "r1/region-02.png",
+            "selected_pixels": 28536
+          }
+        ],
+        "metrics_path": "r1/metrics.json",
+        "limitations": []
+      },
+      {
+        "id": "short-pink",
+        "role": "calibration-positive",
+        "source": "ref/site/short-pink.png",
+        "source_sha256": "1e2a26423a6d573c476245fc46a88e4a88db4f9d30a7fe173cb232ae5978ac39",
+        "decoded_rgba_sha256": "1657aee62f99d01ce6580159abe9f62a95c5cd858b0675afd80ba6baf53b33cb",
+        "source_size": [
+          1254,
+          1254
+        ],
+        "analysis_size": [
+          1024,
+          1024
+        ],
+        "expected_outcome": "reference_gradients_have_no_local_rule_failure",
+        "expected_codes": {
+          "all_declared_regions": []
+        },
+        "actual_codes": [],
+        "actual_detector_status": "no_rule_failure",
+        "expectation_met": true,
+        "visual_acceptance": "not_assessed",
+        "regions": [
+          {
+            "id": "hair-center",
+            "bbox": [
+              0.34,
+              0.3,
+              0.5,
+              0.42
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 18486,
+              "grain_rms_0_255": 0.4517792190226325,
+              "mottle_rms_0_255": 0.19764862299776614,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 1.0,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.4517792190226325,
+                "mottle_rms_0_255": 0.19764862299776614
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.4517792190226325,
+                "mottle_rms_0_255": 0.19764862299776614
+              }
+            },
+            "opacity": {
+              "sample_pixels": 18486,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          },
+          {
+            "id": "hair-lower",
+            "bbox": [
+              0.38,
+              0.44,
+              0.5,
+              0.56
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 13572,
+              "grain_rms_0_255": 0.44765538750479356,
+              "mottle_rms_0_255": 0.19445850669884426,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 1.0,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.44765538750479356,
+                "mottle_rms_0_255": 0.19445850669884426
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.44765538750479356,
+                "mottle_rms_0_255": 0.19445850669884426
+              }
+            },
+            "opacity": {
+              "sample_pixels": 13572,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          },
+          {
+            "id": "face",
+            "bbox": [
+              0.29,
+              0.71,
+              0.43,
+              0.89
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 24386,
+              "grain_rms_0_255": 0.40571523611770355,
+              "mottle_rms_0_255": 0.18416702324634204,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 1.0,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.40571523611770355,
+                "mottle_rms_0_255": 0.18416702324634204
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.40571523611770355,
+                "mottle_rms_0_255": 0.18416702324634204
+              }
+            },
+            "opacity": {
+              "sample_pixels": 24386,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          }
+        ],
+        "mask_files": [
+          {
+            "region_id": "hair-center",
+            "path": "short-pink/region-00.png",
+            "selected_pixels": 20172
+          },
+          {
+            "region_id": "hair-lower",
+            "path": "short-pink/region-01.png",
+            "selected_pixels": 15006
+          },
+          {
+            "region_id": "face",
+            "path": "short-pink/region-02.png",
+            "selected_pixels": 26312
+          }
+        ],
+        "metrics_path": "short-pink/metrics.json",
+        "limitations": []
+      },
+      {
+        "id": "short-blue",
+        "role": "held-out-positive",
+        "source": "ref/site/short-blue.png",
+        "source_sha256": "13b24bb1e340758bb95258a867772939b387ba05903ecc6bfe336198d78ee8d8",
+        "decoded_rgba_sha256": "31203dd8c4711dd83e4cb652cbbc48ae1e6a2f857f73b2cd99b83d889baada15",
+        "source_size": [
+          1254,
+          1254
+        ],
+        "analysis_size": [
+          1024,
+          1024
+        ],
+        "expected_outcome": "reference_gradients_have_no_local_rule_failure",
+        "expected_codes": {
+          "all_declared_regions": []
+        },
+        "actual_codes": [],
+        "actual_detector_status": "no_rule_failure",
+        "expectation_met": true,
+        "visual_acceptance": "not_assessed",
+        "regions": [
+          {
+            "id": "hair-center",
+            "bbox": [
+              0.34,
+              0.3,
+              0.5,
+              0.42
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 18486,
+              "grain_rms_0_255": 0.44625109696223975,
+              "mottle_rms_0_255": 0.20041495763981856,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 1.0,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.44625109696223975,
+                "mottle_rms_0_255": 0.20041495763981856
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.44625109696223975,
+                "mottle_rms_0_255": 0.20041495763981856
+              }
+            },
+            "opacity": {
+              "sample_pixels": 18486,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          },
+          {
+            "id": "hair-lower",
+            "bbox": [
+              0.38,
+              0.44,
+              0.5,
+              0.56
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 13572,
+              "grain_rms_0_255": 0.44733402558004526,
+              "mottle_rms_0_255": 0.20080052751864086,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 1.0,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.44733402558004526,
+                "mottle_rms_0_255": 0.20080052751864086
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.44733402558004526,
+                "mottle_rms_0_255": 0.20080052751864086
+              }
+            },
+            "opacity": {
+              "sample_pixels": 13572,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          },
+          {
+            "id": "face",
+            "bbox": [
+              0.29,
+              0.71,
+              0.43,
+              0.89
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 24386,
+              "grain_rms_0_255": 0.44094843134744677,
+              "mottle_rms_0_255": 0.19944214669561658,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 1.0,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.44094843134744677,
+                "mottle_rms_0_255": 0.19944214669561658
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.44094843134744677,
+                "mottle_rms_0_255": 0.19944214669561658
+              }
+            },
+            "opacity": {
+              "sample_pixels": 24386,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          }
+        ],
+        "mask_files": [
+          {
+            "region_id": "hair-center",
+            "path": "short-blue/region-00.png",
+            "selected_pixels": 20172
+          },
+          {
+            "region_id": "hair-lower",
+            "path": "short-blue/region-01.png",
+            "selected_pixels": 15006
+          },
+          {
+            "region_id": "face",
+            "path": "short-blue/region-02.png",
+            "selected_pixels": 26312
+          }
+        ],
+        "metrics_path": "short-blue/metrics.json",
+        "limitations": []
+      },
+      {
+        "id": "short-black",
+        "role": "held-out-positive",
+        "source": "ref/site/short-black.png",
+        "source_sha256": "dcd45a7f10b7e3fe1eff31e37ca231b6fd6f443d1716c19b227a0236c4d1469e",
+        "decoded_rgba_sha256": "a988c567d63a63b2b15d0d4f78e6d7fdbd1b7e70d9f6462128a79a7dfa797426",
+        "source_size": [
+          1254,
+          1254
+        ],
+        "analysis_size": [
+          1024,
+          1024
+        ],
+        "expected_outcome": "reference_gradients_have_no_local_rule_failure",
+        "expected_codes": {
+          "all_declared_regions": []
+        },
+        "actual_codes": [],
+        "actual_detector_status": "no_rule_failure",
+        "expectation_met": true,
+        "visual_acceptance": "not_assessed",
+        "regions": [
+          {
+            "id": "hair-center",
+            "bbox": [
+              0.38,
+              0.27,
+              0.46,
+              0.37
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 7321,
+              "grain_rms_0_255": 0.4562924364613529,
+              "mottle_rms_0_255": 0.19849121162743563,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 0.9930819316332067,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.4562924364613529,
+                "mottle_rms_0_255": 0.19849121162743563
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.4562924364613529,
+                "mottle_rms_0_255": 0.19849121162743563
+              }
+            },
+            "opacity": {
+              "sample_pixels": 7372,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          },
+          {
+            "id": "face",
+            "bbox": [
+              0.33,
+              0.72,
+              0.46,
+              0.89
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 21336,
+              "grain_rms_0_255": 0.4378533988659378,
+              "mottle_rms_0_255": 0.19947911928180884,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 1.0,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.4378533988659378,
+                "mottle_rms_0_255": 0.19947911928180884
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.4378533988659378,
+                "mottle_rms_0_255": 0.19947911928180884
+              }
+            },
+            "opacity": {
+              "sample_pixels": 21336,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          }
+        ],
+        "mask_files": [
+          {
+            "region_id": "hair-center",
+            "path": "short-black/region-00.png",
+            "selected_pixels": 8446
+          },
+          {
+            "region_id": "face",
+            "path": "short-black/region-01.png",
+            "selected_pixels": 23142
+          }
+        ],
+        "metrics_path": "short-black/metrics.json",
+        "limitations": []
+      },
+      {
+        "id": "full-teal",
+        "role": "held-out-positive",
+        "source": "ref/site/full-teal.png",
+        "source_sha256": "061cd1c38dfc1876af9be87a94d01bd2ae3494671d1d72af253ad579732525be",
+        "decoded_rgba_sha256": "f8ce7cf4952ebe945345ec568ad78e28559a2e234d878db15f8521858450120a",
+        "source_size": [
+          1254,
+          1254
+        ],
+        "analysis_size": [
+          1024,
+          1024
+        ],
+        "expected_outcome": "reference_gradients_have_no_local_rule_failure",
+        "expected_codes": {
+          "all_declared_regions": []
+        },
+        "actual_codes": [],
+        "actual_detector_status": "no_rule_failure",
+        "expectation_met": true,
+        "visual_acceptance": "not_assessed",
+        "regions": [
+          {
+            "id": "hair-center",
+            "bbox": [
+              0.37,
+              0.28,
+              0.44,
+              0.39
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 6996,
+              "grain_rms_0_255": 0.4534472923469356,
+              "mottle_rms_0_255": 0.18746122197384948,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 1.0,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.4534472923469356,
+                "mottle_rms_0_255": 0.18746122197384948
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.4534472923469356,
+                "mottle_rms_0_255": 0.18746122197384948
+              }
+            },
+            "opacity": {
+              "sample_pixels": 6996,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          },
+          {
+            "id": "face",
+            "bbox": [
+              0.26,
+              0.6,
+              0.39,
+              0.76
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 20066,
+              "grain_rms_0_255": 0.4463455350491168,
+              "mottle_rms_0_255": 0.17978978235605592,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 1.0,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.4463455350491168,
+                "mottle_rms_0_255": 0.17978978235605592
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.4463455350491168,
+                "mottle_rms_0_255": 0.17978978235605592
+              }
+            },
+            "opacity": {
+              "sample_pixels": 20066,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          },
+          {
+            "id": "legal-highlight-evidence",
+            "bbox": [
+              0.08,
+              0.12,
+              0.32,
+              0.24
+            ],
+            "expectation": "evidence_only",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 9756,
+              "grain_rms_0_255": 0.4543510291075936,
+              "mottle_rms_0_255": 0.4949297359457561,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 0.3474358974358974,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.4543510291075936,
+                "mottle_rms_0_255": 0.4949297359457561
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.4543510291075936,
+                "mottle_rms_0_255": 0.4949297359457561
+              }
+            },
+            "opacity": {
+              "sample_pixels": 28080,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 1
+          }
+        ],
+        "mask_files": [
+          {
+            "region_id": "hair-center",
+            "path": "full-teal/region-00.png",
+            "selected_pixels": 8064
+          },
+          {
+            "region_id": "face",
+            "path": "full-teal/region-01.png",
+            "selected_pixels": 21812
+          },
+          {
+            "region_id": "legal-highlight-evidence",
+            "path": "full-teal/region-02.png",
+            "selected_pixels": 30258
+          }
+        ],
+        "metrics_path": "full-teal/metrics.json",
+        "limitations": []
+      },
+      {
+        "id": "r2",
+        "role": "supplementary-reference",
+        "source": "ref/user-mode/r2.png",
+        "source_sha256": "df7c5fd4350997613a23dfdf454cf5aa350eb94f69f4557123ace241e8db25b2",
+        "decoded_rgba_sha256": "f94bf79d32e7cef31c97a10ec4d179cc69ec5caac7161a96ba5e214e51b65052",
+        "source_size": [
+          1254,
+          1254
+        ],
+        "analysis_size": [
+          1024,
+          1024
+        ],
+        "expected_outcome": "reference_gradients_have_no_local_rule_failure",
+        "expected_codes": {
+          "all_declared_regions": []
+        },
+        "actual_codes": [],
+        "actual_detector_status": "no_rule_failure",
+        "expectation_met": true,
+        "visual_acceptance": "not_assessed",
+        "regions": [
+          {
+            "id": "hat",
+            "bbox": [
+              0.08,
+              0.09,
+              0.24,
+              0.14
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 7073,
+              "grain_rms_0_255": 0.34285581368428975,
+              "mottle_rms_0_255": 0.28923194130345015,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 0.9947960618846695,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.34285581368428975,
+                "mottle_rms_0_255": 0.28923194130345015
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.34285581368428975,
+                "mottle_rms_0_255": 0.28923194130345015
+              }
+            },
+            "opacity": {
+              "sample_pixels": 7110,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          },
+          {
+            "id": "hair",
+            "bbox": [
+              0.32,
+              0.29,
+              0.43,
+              0.39
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 9850,
+              "grain_rms_0_255": 0.44605475297870767,
+              "mottle_rms_0_255": 0.3605495483741535,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 0.9679638364779874,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.44605475297870767,
+                "mottle_rms_0_255": 0.3605495483741535
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.44605475297870767,
+                "mottle_rms_0_255": 0.3605495483741535
+              }
+            },
+            "opacity": {
+              "sample_pixels": 10176,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          },
+          {
+            "id": "face",
+            "bbox": [
+              0.26,
+              0.64,
+              0.4,
+              0.78
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 19044,
+              "grain_rms_0_255": 0.40464114007828433,
+              "mottle_rms_0_255": 0.3969843383644546,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 1.0,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.40464114007828433,
+                "mottle_rms_0_255": 0.3969843383644546
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.40464114007828433,
+                "mottle_rms_0_255": 0.3969843383644546
+              }
+            },
+            "opacity": {
+              "sample_pixels": 19044,
+              "translucent_pixels": 0,
+              "translucent_fraction": 0.0,
+              "min_alpha": 255
+            },
+            "color_island_count": 0
+          }
+        ],
+        "mask_files": [
+          {
+            "region_id": "hat",
+            "path": "r2/region-00.png",
+            "selected_pixels": 8364
+          },
+          {
+            "region_id": "hair",
+            "path": "r2/region-01.png",
+            "selected_pixels": 11424
+          },
+          {
+            "region_id": "face",
+            "path": "r2/region-02.png",
+            "selected_pixels": 20736
+          }
+        ],
+        "metrics_path": "r2/metrics.json",
+        "limitations": []
+      },
+      {
+        "id": "user-defect",
+        "role": "user-rejected-paint",
+        "source": "ref/feedback/2026-09-29/accepted-composition-defective-paint.png",
+        "source_sha256": "3f2457f3dc87274d3c8bf9472e01e26c03c6ff3ce5345d31b36c4b5e4aafaec2",
+        "decoded_rgba_sha256": "84995829139fa6329a136c654423f9ad797ef5decdd98a38b8f00cd48bd4f4b4",
+        "source_size": [
+          1254,
+          1254
+        ],
+        "analysis_size": [
+          1024,
+          1024
+        ],
+        "expected_outcome": "known_short_texture_limitation_with_separate_opacity_failure",
+        "expected_codes": {
+          "at_least_one_opaque_region": [
+            "translucent_interior"
+          ],
+          "unresolved_texture_codes": []
+        },
+        "actual_codes": [
+          "translucent_interior"
+        ],
+        "actual_detector_status": "fail",
+        "expectation_met": true,
+        "visual_acceptance": "not_assessed",
+        "regions": [
+          {
+            "id": "central-hair-field",
+            "bbox": [
+              0.43,
+              0.37,
+              0.49,
+              0.48
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [
+              "translucent_interior"
+            ],
+            "texture": {
+              "sample_pixels": 5760,
+              "grain_rms_0_255": 0.5559973803128685,
+              "mottle_rms_0_255": 0.43159911007666923,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 0.9612817089452603,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.5306016818488433,
+                "mottle_rms_0_255": 0.3964299129121494
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.6098728272139387,
+                "mottle_rms_0_255": 0.5219154949302787
+              }
+            },
+            "opacity": {
+              "sample_pixels": 5992,
+              "translucent_pixels": 5992,
+              "translucent_fraction": 1.0,
+              "min_alpha": 251
+            },
+            "color_island_count": 0
+          },
+          {
+            "id": "right-hair-field",
+            "bbox": [
+              0.72,
+              0.58,
+              0.77,
+              0.68
+            ],
+            "expectation": "opaque_surface",
+            "actual_codes": [
+              "translucent_interior"
+            ],
+            "texture": {
+              "sample_pixels": 597,
+              "grain_rms_0_255": 0.6438022828803401,
+              "mottle_rms_0_255": 0.4169321233906071,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 0.13819444444444445,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.6037806897652304,
+                "mottle_rms_0_255": 0.3813501162447526
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.734764482165049,
+                "mottle_rms_0_255": 0.5061346543625364
+              }
+            },
+            "opacity": {
+              "sample_pixels": 4320,
+              "translucent_pixels": 4320,
+              "translucent_fraction": 1.0,
+              "min_alpha": 250
+            },
+            "color_island_count": 3
+          },
+          {
+            "id": "lower-right-hair-field",
+            "bbox": [
+              0.72,
+              0.73,
+              0.78,
+              0.8
+            ],
+            "expectation": "opaque_surface",
+            "actual_codes": [
+              "translucent_interior"
+            ],
+            "texture": {
+              "sample_pixels": 394,
+              "grain_rms_0_255": 0.4953858352765131,
+              "mottle_rms_0_255": 0.33613940631032596,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 0.10824175824175825,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.49063922105588054,
+                "mottle_rms_0_255": 0.340958715733518
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.4890093542580163,
+                "mottle_rms_0_255": 0.3227961235021609
+              }
+            },
+            "opacity": {
+              "sample_pixels": 3640,
+              "translucent_pixels": 3640,
+              "translucent_fraction": 1.0,
+              "min_alpha": 252
+            },
+            "color_island_count": 1
+          },
+          {
+            "id": "face-field",
+            "bbox": [
+              0.29,
+              0.75,
+              0.44,
+              0.88
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [
+              "translucent_interior"
+            ],
+            "texture": {
+              "sample_pixels": 18796,
+              "grain_rms_0_255": 0.5766749191186493,
+              "mottle_rms_0_255": 0.2716817281303701,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 1.0,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.5745771651302047,
+                "mottle_rms_0_255": 0.2977185276654105
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.5703049564812124,
+                "mottle_rms_0_255": 0.26869146929178994
+              }
+            },
+            "opacity": {
+              "sample_pixels": 18796,
+              "translucent_pixels": 18796,
+              "translucent_fraction": 1.0,
+              "min_alpha": 251
+            },
+            "color_island_count": 0
+          },
+          {
+            "id": "fragmented-highlights",
+            "bbox": [
+              0.41,
+              0.27,
+              0.66,
+              0.59
+            ],
+            "expectation": "evidence_only",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 41294,
+              "grain_rms_0_255": 0.5282493643348313,
+              "mottle_rms_0_255": 0.41466599986304076,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 0.5129689440993789,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.5145062770242612,
+                "mottle_rms_0_255": 0.39334514249748487
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.5546921506136757,
+                "mottle_rms_0_255": 0.473143463684668
+              }
+            },
+            "opacity": {
+              "sample_pixels": 79403,
+              "translucent_pixels": 79056,
+              "translucent_fraction": 0.9956298880394947,
+              "min_alpha": 3
+            },
+            "color_island_count": 12
+          }
+        ],
+        "mask_files": [
+          {
+            "region_id": "central-hair-field",
+            "path": "user-defect/region-00.png",
+            "selected_pixels": 7006
+          },
+          {
+            "region_id": "right-hair-field",
+            "path": "user-defect/region-01.png",
+            "selected_pixels": 5202
+          },
+          {
+            "region_id": "lower-right-hair-field",
+            "path": "user-defect/region-02.png",
+            "selected_pixels": 4402
+          },
+          {
+            "region_id": "face-field",
+            "path": "user-defect/region-03.png",
+            "selected_pixels": 20482
+          },
+          {
+            "region_id": "fragmented-highlights",
+            "path": "user-defect/region-04.png",
+            "selected_pixels": 83968
+          }
+        ],
+        "metrics_path": "user-defect/metrics.json",
+        "limitations": [
+          "The short image's subtle texture is not reliably separated by the frozen texture bounds. Opacity failure is a separate observation, not a successful texture rejection or visual acceptance."
+        ]
+      },
+      {
+        "id": "full-circled-source",
+        "role": "user-circled-paint-source",
+        "source": "outputs/calibration/illustration/full-imagegen-v1.png",
+        "source_sha256": "a1fb6a12a85140bdea4697a43c98dbd5ce7d1a118d6eacc51c1bc6763f4dd1c1",
+        "decoded_rgba_sha256": "2205c400946f465a520eb493f9996d0be20775f0a4d19f4b05856a38583aff3c",
+        "source_size": [
+          1254,
+          1254
+        ],
+        "analysis_size": [
+          1024,
+          1024
+        ],
+        "expected_outcome": "both_real_circled_fields_fail_frozen_mottle_bound",
+        "expected_codes": {
+          "circled-lower-field": [
+            "mottle_above_reference_bound"
+          ],
+          "circled-upper-field": [
+            "mottle_above_reference_bound"
+          ]
+        },
+        "actual_codes": [
+          "mottle_above_reference_bound",
+          "translucent_interior"
+        ],
+        "actual_detector_status": "fail",
+        "expectation_met": true,
+        "visual_acceptance": "not_assessed",
+        "regions": [
+          {
+            "id": "circled-upper-field",
+            "bbox": [
+              0.66,
+              0.38,
+              0.705,
+              0.42
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [
+              "mottle_above_reference_bound",
+              "translucent_interior"
+            ],
+            "texture": {
+              "sample_pixels": 1400,
+              "grain_rms_0_255": 0.5995196677113004,
+              "mottle_rms_0_255": 0.5765157455681131,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 1.0,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.5911282809010128,
+                "mottle_rms_0_255": 0.5495273723939073
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.6342299023645268,
+                "mottle_rms_0_255": 0.6858504709106451
+              }
+            },
+            "opacity": {
+              "sample_pixels": 1400,
+              "translucent_pixels": 1400,
+              "translucent_fraction": 1.0,
+              "min_alpha": 248
+            },
+            "color_island_count": 0
+          },
+          {
+            "id": "circled-lower-field",
+            "bbox": [
+              0.68,
+              0.55,
+              0.745,
+              0.59
+            ],
+            "expectation": "smooth_field",
+            "actual_codes": [
+              "mottle_above_reference_bound",
+              "translucent_interior"
+            ],
+            "texture": {
+              "sample_pixels": 2113,
+              "grain_rms_0_255": 0.5928855429651394,
+              "mottle_rms_0_255": 0.573946828434816,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 0.9896955503512881,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.5790861071059014,
+                "mottle_rms_0_255": 0.542731510796531
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.6442924468727118,
+                "mottle_rms_0_255": 0.7170506136846276
+              }
+            },
+            "opacity": {
+              "sample_pixels": 2135,
+              "translucent_pixels": 2135,
+              "translucent_fraction": 1.0,
+              "min_alpha": 247
+            },
+            "color_island_count": 0
+          },
+          {
+            "id": "circled-highlights",
+            "bbox": [
+              0.55,
+              0.35,
+              0.7,
+              0.54
+            ],
+            "expectation": "evidence_only",
+            "actual_codes": [],
+            "texture": {
+              "sample_pixels": 14415,
+              "grain_rms_0_255": 0.5085247232970848,
+              "mottle_rms_0_255": 0.4512865807771063,
+              "basis": "straight RGB at alpha >=16; alpha checked separately",
+              "sample_fraction_of_region_interior": 0.5153367653367653,
+              "measurement_status": "measured",
+              "composite_black": {
+                "grain_rms_0_255": 0.506075264576509,
+                "mottle_rms_0_255": 0.4475616590581982
+              },
+              "composite_white": {
+                "grain_rms_0_255": 0.5148546380006844,
+                "mottle_rms_0_255": 0.4783781911236739
+              }
+            },
+            "opacity": {
+              "sample_pixels": 27972,
+              "translucent_pixels": 27074,
+              "translucent_fraction": 0.9678964678964679,
+              "min_alpha": 248
+            },
+            "color_island_count": 5
+          }
+        ],
+        "mask_files": [
+          {
+            "region_id": "circled-upper-field",
+            "path": "full-circled-source/region-00.png",
+            "selected_pixels": 1886
+          },
+          {
+            "region_id": "circled-lower-field",
+            "path": "full-circled-source/region-01.png",
+            "selected_pixels": 2747
+          },
+          {
+            "region_id": "circled-highlights",
+            "path": "full-circled-source/region-02.png",
+            "selected_pixels": 30030
+          }
+        ],
+        "metrics_path": "full-circled-source/metrics.json",
+        "limitations": [],
+        "annotation_registration": {
+          "source": "outputs/calibration/illustration/full-imagegen-v1.png",
+          "method": "masked normalized cross correlation; annotation red strokes excluded; approximate localization",
+          "score": 0.5338173311671779,
+          "factor": 0.5,
+          "bbox": [
+            281,
+            171,
+            399,
+            323
+          ],
+          "normalized_bbox": [
+            0.548828125,
+            0.333984375,
+            0.779296875,
+            0.630859375
+          ]
+        }
+      }
+    ],
+    "failures": [],
+    "limitations": [
+      "Manual real-image ROIs provide bounded regression evidence, not whole-image acceptance.",
+      "The short fixture's subtle texture is still not separated at frozen thresholds.",
+      "Color islands alone do not distinguish legal highlights from implausible ones.",
+      "This suite does not prove generalization to arbitrary subjects, generators, scales or renderers."
+    ]
+  },
+  "elapsed_seconds": 16.695
+}

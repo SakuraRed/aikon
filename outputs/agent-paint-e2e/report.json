@@ -1,0 +1,327 @@
+{
+  "schema": "aikon.independent-paint-consumer.v1",
+  "date": "2026-09-29",
+  "round": "illustration-paint-consumer-001",
+  "scope": "Skill-guided independent paint plans on supplied geometry, same host/model family",
+  "read_fixture_paint_plan": false,
+  "imagegen_calls": 0,
+  "network_image_uploads": 0,
+  "prompt_precedes_plan": true,
+  "revision_count_per_profile": 2,
+  "bounded_corrections": 1,
+  "source": "outputs\\calibration\\illustration\\vector-study\\semantic-study-v4.svg",
+  "source_sha256": "bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f",
+  "profile_pair_check": {
+    "status": "passed",
+    "svg_sha256": {
+      "short": "f54a1b2e5991154116b8f7cdcb45f8f8ecc3ac4fde18826d44881284b1935c15",
+      "full": "06f744c08a37231268117b273a08f774cdc3d8d9c9b92eabf1b56c26df27bec3"
+    }
+  },
+  "deepseek_binding_check": {
+    "subject": "deepseek",
+    "reference": "ref/user-mode/r1.png",
+    "sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+    "roles": [
+      "subject",
+      "style"
+    ],
+    "status": "matched",
+    "legacy_whale_default": "not_used"
+  },
+  "runs": [
+    {
+      "profile": "short",
+      "revision": "r001",
+      "geometry_lock": "passed",
+      "structure": "passed",
+      "ownership": "fail",
+      "pixels": "no_rule_failure",
+      "ownership_issues": [
+        {
+          "layer": "center-fold-shadow",
+          "code": "floating_shadow_component"
+        }
+      ],
+      "pixel_issues": [],
+      "gradient_count": 0,
+      "selected_layers": 16,
+      "geometry_source_sha256": "bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f",
+      "layout_geometry_signature": "cce6b5757ae82da68950ea332f8967a7bd4c56c6d85713a55190d84ba4d83b75",
+      "svg_sha256": "b3b1fe71ce1e6aed537c7a4465f87dce5a4e5666a9e9b0157287e8939255252d",
+      "surface_metrics": [
+        {
+          "id": "halo-base",
+          "grain_rms": 0.0,
+          "mottle_rms": 0.49824488974269754,
+          "sample_pixels": 24661,
+          "sample_fraction": 0.47234246312966865,
+          "status": "no_rule_failure"
+        },
+        {
+          "id": "coral-base",
+          "grain_rms": 3.2818563180946156e-14,
+          "mottle_rms": 0.2944464528536747,
+          "sample_pixels": 36246,
+          "sample_fraction": 0.4402740325049195,
+          "status": "no_rule_failure"
+        },
+        {
+          "id": "hair-base",
+          "grain_rms": 0.00043080891470423957,
+          "mottle_rms": 0.17932678102638358,
+          "sample_pixels": 194140,
+          "sample_fraction": 0.7335809587866101,
+          "status": "no_rule_failure"
+        },
+        {
+          "id": "face-visible-region",
+          "grain_rms": 0.0,
+          "mottle_rms": 0.19793339616222788,
+          "sample_pixels": 145074,
+          "sample_fraction": 0.7922692122853773,
+          "status": "no_rule_failure"
+        }
+      ],
+      "global_alpha_evidence": {
+        "interior_pixels": 783662,
+        "translucent_pixels": 409,
+        "translucent_fraction": 0.0005219086800176606,
+        "suspected_fringe_pixels": 833,
+        "fringe_is_advisory": true
+      },
+      "run_record": "short\\r001\\run.json",
+      "elapsed_seconds": 5.322162866592407
+    },
+    {
+      "profile": "short",
+      "revision": "r002",
+      "geometry_lock": "passed",
+      "structure": "passed",
+      "ownership": "no_rule_failure",
+      "pixels": "no_rule_failure",
+      "ownership_issues": [],
+      "pixel_issues": [],
+      "gradient_count": 0,
+      "selected_layers": 15,
+      "geometry_source_sha256": "bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f",
+      "layout_geometry_signature": "cce6b5757ae82da68950ea332f8967a7bd4c56c6d85713a55190d84ba4d83b75",
+      "svg_sha256": "f54a1b2e5991154116b8f7cdcb45f8f8ecc3ac4fde18826d44881284b1935c15",
+      "surface_metrics": [
+        {
+          "id": "halo-base",
+          "grain_rms": 0.0,
+          "mottle_rms": 0.49824488974269754,
+          "sample_pixels": 24661,
+          "sample_fraction": 0.47234246312966865,
+          "status": "no_rule_failure"
+        },
+        {
+          "id": "coral-base",
+          "grain_rms": 3.2818563180946156e-14,
+          "mottle_rms": 0.2944464528536747,
+          "sample_pixels": 36246,
+          "sample_fraction": 0.4402740325049195,
+          "status": "no_rule_failure"
+        },
+        {
+          "id": "hair-base",
+          "grain_rms": 0.0003863170524172641,
+          "mottle_rms": 0.16185342484040927,
+          "sample_pixels": 241433,
+          "sample_fraction": 0.794867320734839,
+          "status": "no_rule_failure"
+        },
+        {
+          "id": "face-visible-region",
+          "grain_rms": 0.0,
+          "mottle_rms": 0.19793339616222788,
+          "sample_pixels": 145074,
+          "sample_fraction": 0.7922692122853773,
+          "status": "no_rule_failure"
+        }
+      ],
+      "global_alpha_evidence": {
+        "interior_pixels": 783662,
+        "translucent_pixels": 409,
+        "translucent_fraction": 0.0005219086800176606,
+        "suspected_fringe_pixels": 833,
+        "fringe_is_advisory": true
+      },
+      "run_record": "short\\r002\\run.json",
+      "elapsed_seconds": 4.9586193561553955
+    },
+    {
+      "profile": "full",
+      "revision": "r001",
+      "geometry_lock": "passed",
+      "structure": "passed",
+      "ownership": "fail",
+      "pixels": "no_rule_failure",
+      "ownership_issues": [
+        {
+          "layer": "center-fold-shadow",
+          "code": "floating_shadow_component"
+        }
+      ],
+      "pixel_issues": [],
+      "gradient_count": 4,
+      "selected_layers": 16,
+      "geometry_source_sha256": "bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f",
+      "layout_geometry_signature": "cce6b5757ae82da68950ea332f8967a7bd4c56c6d85713a55190d84ba4d83b75",
+      "svg_sha256": "2819215e9871c866d0c15adaee12d1bf443fe5bfd211e2102ed143f631991daf",
+      "surface_metrics": [
+        {
+          "id": "halo-base",
+          "grain_rms": 0.06727758441725842,
+          "mottle_rms": 0.4852819856117438,
+          "sample_pixels": 24648,
+          "sample_fraction": 0.47209346868416013,
+          "status": "no_rule_failure"
+        },
+        {
+          "id": "coral-base",
+          "grain_rms": 0.06836233895661568,
+          "mottle_rms": 0.2971709988638717,
+          "sample_pixels": 36235,
+          "sample_fraction": 0.44014041736510945,
+          "status": "no_rule_failure"
+        },
+        {
+          "id": "hair-base",
+          "grain_rms": 0.05080609543630979,
+          "mottle_rms": 0.19199386614382247,
+          "sample_pixels": 193293,
+          "sample_fraction": 0.7303804690776771,
+          "status": "no_rule_failure"
+        },
+        {
+          "id": "face-visible-region",
+          "grain_rms": 0.05710633771683664,
+          "mottle_rms": 0.21254801665206227,
+          "sample_pixels": 145046,
+          "sample_fraction": 0.7921163004063088,
+          "status": "no_rule_failure"
+        }
+      ],
+      "global_alpha_evidence": {
+        "interior_pixels": 783662,
+        "translucent_pixels": 409,
+        "translucent_fraction": 0.0005219086800176606,
+        "suspected_fringe_pixels": 819,
+        "fringe_is_advisory": true
+      },
+      "run_record": "full\\r001\\run.json",
+      "elapsed_seconds": 5.582556486129761
+    },
+    {
+      "profile": "full",
+      "revision": "r002",
+      "geometry_lock": "passed",
+      "structure": "passed",
+      "ownership": "no_rule_failure",
+      "pixels": "no_rule_failure",
+      "ownership_issues": [],
+      "pixel_issues": [],
+      "gradient_count": 4,
+      "selected_layers": 15,
+      "geometry_source_sha256": "bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f",
+      "layout_geometry_signature": "cce6b5757ae82da68950ea332f8967a7bd4c56c6d85713a55190d84ba4d83b75",
+      "svg_sha256": "06f744c08a37231268117b273a08f774cdc3d8d9c9b92eabf1b56c26df27bec3",
+      "surface_metrics": [
+        {
+          "id": "halo-base",
+          "grain_rms": 0.06727758441725842,
+          "mottle_rms": 0.4852819856117438,
+          "sample_pixels": 24648,
+          "sample_fraction": 0.47209346868416013,
+          "status": "no_rule_failure"
+        },
+        {
+          "id": "coral-base",
+          "grain_rms": 0.06836233895661568,
+          "mottle_rms": 0.2971709988638717,
+          "sample_pixels": 36235,
+          "sample_fraction": 0.44014041736510945,
+          "status": "no_rule_failure"
+        },
+        {
+          "id": "hair-base",
+          "grain_rms": 0.05128786591233829,
+          "mottle_rms": 0.17625463793092677,
+          "sample_pixels": 241055,
+          "sample_fraction": 0.7936228353196813,
+          "status": "no_rule_failure"
+        },
+        {
+          "id": "face-visible-region",
+          "grain_rms": 0.05710633771683664,
+          "mottle_rms": 0.21254801665206227,
+          "sample_pixels": 145046,
+          "sample_fraction": 0.7921163004063088,
+          "status": "no_rule_failure"
+        }
+      ],
+      "global_alpha_evidence": {
+        "interior_pixels": 783662,
+        "translucent_pixels": 409,
+        "translucent_fraction": 0.0005219086800176606,
+        "suspected_fringe_pixels": 819,
+        "fringe_is_advisory": true
+      },
+      "run_record": "full\\r002\\run.json",
+      "elapsed_seconds": 5.087095260620117
+    }
+  ],
+  "actual_visual_views": [
+    "short/r002/preview-dark.png",
+    "short/r002/preview-light.png",
+    "short/r002/small-sizes.png",
+    "full/r002/preview-dark.png",
+    "full/r002/preview-light.png",
+    "full/r002/small-sizes.png",
+    "full/r002/hair-detail.png",
+    "short/r001/preview-dark.png",
+    "full/r001/preview-light.png",
+    "full/r001/hair-detail.png"
+  ],
+  "visual_review": {
+    "status": "completed_refinement_needed",
+    "positive": [
+      "无用户圈注的星状高光、颗粒或斑驳观感",
+      "两眼、近景裁切与主要身份配色仍可辨识",
+      "主面连续，深浅展示底上未见明显残留黑底"
+    ],
+    "remaining": [
+      "移除中央无边界依据暗面后，中央大刘海过于整块，内部发束关系弱于用户完整图",
+      "青环少量既有短阴影仍显拼片，owner像素通过没有证明转面自然",
+      "珊瑚侧束的窄亮色残带来自大面相交/留白，仍需按曲线关系验收",
+      "已有v4几何在顶部外发缘有局部折点，轮廓与饰件结构本轮未重建",
+      "24px下主要色彩和双眼仍可辨，细部发流及环尖不能清楚辨别"
+    ]
+  },
+  "user_acceptance": "not_claimed",
+  "full_icon_accepted": false,
+  "limitations": [
+    "没有证明任意新主体geometry理解",
+    "没有执行其他harness或模型",
+    "没有测量韩文/中文语言因果",
+    "固定geometry沿用眼尺寸不一致、约2.3比例和约22.7度各自旋转，不宣称源profile几何合规",
+    "像素默认阈值只检测限定缺陷，不代表自然光照或美术评分",
+    "r1 binding检查未生成DeepSeek新图"
+  ],
+  "tooling_incident": {
+    "run": "short/r001",
+    "issue": "compiler stdout decoding failed in Windows reader thread; compile.command.json stdout is null",
+    "artifact_status": "SVG and compile.json were written and independently structurally checked, rendered and analyzed",
+    "fix": "Consumer runner sets PYTHONIOENCODING=utf-8 and PYTHONUTF8=1 before later child commands",
+    "original_evidence_preserved": true
+  },
+  "process_policy": {
+    "subprocess_timeout_seconds": 45,
+    "outer_watchdog_seconds": 180,
+    "numerical_threads": 1,
+    "persistent_processes_started": 0,
+    "cleanup": "all one-shot child processes exited; after-inventory saved separately"
+  }
+}

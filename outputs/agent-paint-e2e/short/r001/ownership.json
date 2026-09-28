@@ -1,0 +1,180 @@
+{
+  "size": 1024,
+  "significant_area_min_px": 12,
+  "boundary_distance_max_px": 2.0,
+  "layers": [
+    {
+      "id": "left-fringe-shadow",
+      "role": "occlusion-shadow",
+      "owner": "hair-base",
+      "outside_receiver_pixels": 0,
+      "components": [
+        {
+          "area_pixels": 321,
+          "min_distance_to_owner_boundary_px": 0.0,
+          "anchored": true
+        },
+        {
+          "area_pixels": 7072,
+          "min_distance_to_owner_boundary_px": 0.0,
+          "anchored": true
+        },
+        {
+          "area_pixels": 81,
+          "min_distance_to_owner_boundary_px": 0.0,
+          "anchored": true
+        },
+        {
+          "area_pixels": 33,
+          "min_distance_to_owner_boundary_px": 0.0,
+          "anchored": true
+        },
+        {
+          "area_pixels": 10972,
+          "min_distance_to_owner_boundary_px": 0.0,
+          "anchored": true
+        }
+      ],
+      "failures": [],
+      "status": "no_rule_failure"
+    },
+    {
+      "id": "center-fold-shadow",
+      "role": "occlusion-shadow",
+      "owner": "hair-base",
+      "outside_receiver_pixels": 0,
+      "components": [
+        {
+          "area_pixels": 35610,
+          "min_distance_to_owner_boundary_px": 3.0,
+          "anchored": false
+        }
+      ],
+      "failures": [
+        "floating_shadow_component"
+      ],
+      "status": "fail"
+    },
+    {
+      "id": "right-crown-shadow",
+      "role": "occlusion-shadow",
+      "owner": "hair-base",
+      "outside_receiver_pixels": 0,
+      "components": [
+        {
+          "area_pixels": 15883,
+          "min_distance_to_owner_boundary_px": 0.0,
+          "anchored": true
+        }
+      ],
+      "failures": [],
+      "status": "no_rule_failure"
+    },
+    {
+      "id": "coral-left-return",
+      "role": "occlusion-shadow",
+      "owner": "coral-base",
+      "outside_receiver_pixels": 0,
+      "components": [
+        {
+          "area_pixels": 14487,
+          "min_distance_to_owner_boundary_px": 1.0,
+          "anchored": true
+        }
+      ],
+      "failures": [],
+      "status": "no_rule_failure"
+    },
+    {
+      "id": "coral-left-fold",
+      "role": "occlusion-shadow",
+      "owner": "coral-base",
+      "outside_receiver_pixels": 0,
+      "components": [
+        {
+          "area_pixels": 10265,
+          "min_distance_to_owner_boundary_px": 0.0,
+          "anchored": true
+        }
+      ],
+      "failures": [],
+      "status": "no_rule_failure"
+    },
+    {
+      "id": "coral-right-fold",
+      "role": "occlusion-shadow",
+      "owner": "coral-base",
+      "outside_receiver_pixels": 0,
+      "components": [
+        {
+          "area_pixels": 11118,
+          "min_distance_to_owner_boundary_px": 0.0,
+          "anchored": true
+        },
+        {
+          "area_pixels": 3757,
+          "min_distance_to_owner_boundary_px": 0.0,
+          "anchored": true
+        }
+      ],
+      "failures": [],
+      "status": "no_rule_failure"
+    },
+    {
+      "id": "halo-inner-shadow",
+      "role": "occlusion-shadow",
+      "owner": "halo-base",
+      "outside_receiver_pixels": 0,
+      "components": [
+        {
+          "area_pixels": 1129,
+          "min_distance_to_owner_boundary_px": 0.0,
+          "anchored": true
+        },
+        {
+          "area_pixels": 326,
+          "min_distance_to_owner_boundary_px": 0.0,
+          "anchored": true
+        },
+        {
+          "area_pixels": 760,
+          "min_distance_to_owner_boundary_px": 0.0,
+          "anchored": true
+        },
+        {
+          "area_pixels": 394,
+          "min_distance_to_owner_boundary_px": 0.0,
+          "anchored": true
+        }
+      ],
+      "failures": [],
+      "status": "no_rule_failure"
+    },
+    {
+      "id": "cheek-left",
+      "role": "blush",
+      "owner": "face-visible-region",
+      "outside_receiver_pixels": 0,
+      "components": [],
+      "failures": [],
+      "status": "no_rule_failure"
+    },
+    {
+      "id": "cheek-right",
+      "role": "blush",
+      "owner": "face-visible-region",
+      "outside_receiver_pixels": 0,
+      "components": [],
+      "failures": [],
+      "status": "no_rule_failure"
+    }
+  ],
+  "issues": [
+    {
+      "layer": "center-fold-shadow",
+      "code": "floating_shadow_component"
+    }
+  ],
+  "status": "fail",
+  "naturalness": "not_automatically_assessed"
+}

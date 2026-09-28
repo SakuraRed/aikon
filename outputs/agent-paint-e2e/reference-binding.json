@@ -1,0 +1,12 @@
+{
+  "bindings": {
+    "deepseek": {
+      "reference": "ref/user-mode/r1.png",
+      "roles": [
+        "subject",
+        "style"
+      ],
+      "sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e"
+    }
+  }
+}

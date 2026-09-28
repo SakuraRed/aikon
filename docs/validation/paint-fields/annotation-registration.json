@@ -1,0 +1,18 @@
+{
+  "source": "outputs/calibration/illustration/full-imagegen-v1.png",
+  "method": "masked normalized cross correlation; annotation red strokes excluded; approximate localization",
+  "score": 0.5338173311671779,
+  "factor": 0.5,
+  "bbox": [
+    281,
+    171,
+    399,
+    323
+  ],
+  "normalized_bbox": [
+    0.548828125,
+    0.333984375,
+    0.779296875,
+    0.630859375
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "E:\\GH\\aikon\\.local\\ci-venv\\Scripts\\python.exe",
+    "-B",
+    "tools/render_svg.py",
+    "E:\\GH\\aikon\\outputs\\agent-paint-e2e\\full\\r002\\icon.svg",
+    "--output",
+    "E:\\GH\\aikon\\outputs\\agent-paint-e2e\\full\\r002\\preview-48.png",
+    "--size",
+    "48"
+  ],
+  "cwd": "E:\\GH\\aikon",
+  "timeout_seconds": 45,
+  "returncode": 0,
+  "stdout": "{\"ok\": true, \"backend\": {\"binding\": \"resvg-py\", \"version\": \"0.5.0\", \"resvg\": \"0.48.1\"}, \"width\": 48, \"height\": 48, \"mode\": \"RGBA\", \"source_sha256\": \"06f744c08a37231268117b273a08f774cdc3d8d9c9b92eabf1b56c26df27bec3\", \"png_sha256\": \"9aed5ae559092acd1bfd4362a08c87c45f43d3d5641dbe2ffb6a6a4018aafdf3\", \"background\": \"unpainted; source alpha preserved\", \"visual_acceptance\": \"not_evaluated\"}\n",
+  "stderr": ""
+}

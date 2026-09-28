@@ -1,0 +1,142 @@
+{
+  "profile": "full",
+  "revision": "r001",
+  "pid": 61728,
+  "parent_pid": 50036,
+  "start_time_unix": 1790615896.5842965,
+  "elapsed_seconds": 5.582556486129761,
+  "renderer": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "geometry_lock": "passed",
+  "compiled_structure": {
+    "status": "passed",
+    "layers": [
+      "coverage-underpaint",
+      "face-visible-region",
+      "hair-base",
+      "left-fringe-shadow",
+      "center-fold-shadow",
+      "right-crown-shadow",
+      "coral-base",
+      "coral-left-return",
+      "coral-left-fold",
+      "coral-right-fold",
+      "halo-base",
+      "halo-inner-shadow",
+      "cheek-left",
+      "cheek-right",
+      "eye-left",
+      "eye-right"
+    ]
+  },
+  "ownership_status": "fail",
+  "ownership_issues": [
+    {
+      "layer": "center-fold-shadow",
+      "code": "floating_shadow_component"
+    }
+  ],
+  "pixel_status": "no_rule_failure",
+  "pixel_issues": [],
+  "visual_review": "pending_actual_view",
+  "user_acceptance": "not_claimed",
+  "commands": [
+    {
+      "argv": [
+        "E:\\GH\\aikon\\.local\\ci-venv\\Scripts\\python.exe",
+        "-B",
+        "skills/aikon/scripts/paint_svg.py",
+        "--geometry",
+        "E:\\GH\\aikon\\outputs\\calibration\\illustration\\vector-study\\semantic-study-v4.svg",
+        "--plan",
+        "E:\\GH\\aikon\\outputs\\agent-paint-e2e\\full\\r001\\paint.json",
+        "--output",
+        "E:\\GH\\aikon\\outputs\\agent-paint-e2e\\full\\r001\\icon.svg",
+        "--report",
+        "E:\\GH\\aikon\\outputs\\agent-paint-e2e\\full\\r001\\compile.json"
+      ],
+      "cwd": "E:\\GH\\aikon",
+      "timeout_seconds": 45,
+      "returncode": 0,
+      "stdout": "{\"schema\": \"aikon.paint-compile.v1\", \"compiler_version\": \"0.2.0\", \"profile\": \"full\", \"paint_plan_sha256\": \"6083099bfc945bcd636b3ee9e4f73adb6b33511cea3ea7902377c7dc5c19a38d\", \"geometry_source_sha256\": \"bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f\", \"geometry_signature\": \"5d3ac872ae39bfff5093b6edf78ce184acee68fc2fed8cbf0c21273df61d7ea5\", \"layout_geometry_signature\": \"cce6b5757ae82da68950ea332f8967a7bd4c56c6d85713a55190d84ba4d83b75\", \"selected_geometry_unchanged\": true, \"retained_layers\": [\"coverage-underpaint\", \"face-visible-region\", \"hair-base\", \"left-fringe-shadow\", \"center-fold-shadow\", \"right-crown-shadow\", \"coral-base\", \"coral-left-return\", \"coral-left-fold\", \"coral-right-fold\", \"halo-base\", \"halo-inner-shadow\", \"cheek-left\", \"cheek-right\", \"eye-left\", \"eye-right\"], \"discarded_prior_paint\": [\"face-tone\", \"hair-direction\", \"coral-direction\", \"halo-direction\", \"left-flow-light\", \"center-fringe-light\", \"right-cheek-flow\", \"crown-sweep\", \"coral-top-light\", \"coral-low-light\", \"coral-right-highlight\", \"halo-upper-plane\", \"halo-bottom-edge\"], \"gradient_count\": 4, \"shadow_anchors\": [{\"id\": \"left-fringe-shadow\", \"owner\": \"hair-base\", \"anchor\": \"receiver-boundary\", \"reason\": \"左侧大刘海覆盖侧后发，暗面沿左侧发束边界向脸颊收拢。\"}, {\"id\": \"center-fold-shadow\", \"owner\": \"hair-base\", \"anchor\": \"receiver-boundary\", \"reason\": \"中央刘海向右覆盖相邻发面，暗面跟随下垂转折，不作为镜面高光。\"}, {\"id\": \"right-crown-shadow\", \"owner\": \"hair-base\", \"anchor\": \"receiver-boundary\", \"reason\": \"右侧外发束包覆内侧发层，沿右侧主弧保留单档暗面。\"}, {\"id\": \"coral-left-return\", \"owner\": \"coral-base\", \"anchor\": \"receiver-boundary\", \"reason\": \"左上珊瑚侧束的大回卷盖住根部内面，暗面落在卷内并触及回卷边。\"}, {\"id\": \"coral-left-fold\", \"owner\": \"coral-base\", \"anchor\": \"receiver-boundary\", \"reason\": \"左侧下层回卷被上层覆盖，使用同一材料的一档暗色。\"}, {\"id\": \"coral-right-fold\", \"owner\": \"coral-base\", \"anchor\": \"receiver-boundary\", \"reason\": \"右侧珊瑚回卷包围的折返内侧位于前层之后，保留有边界的内暗面。\"}, {\"id\": \"halo-inner-shadow\", \"owner\": \"halo-base\", \"anchor\": \"receiver-boundary\", \"reason\": \"青环的内缘背向主受光侧，暗面与内轮廓相接；不添加独立亮面。\"}], \"svg_sha256\": \"2819215e9871c866d0c15adaee12d1bf443fe5bfd211e2102ed143f631991daf\", \"checks\": {\"static_paint_contract\": \"passed\", \"boundary_anchor_pixels\": \"not_run\", \"visual\": \"not_run\", \"user_acceptance\": \"not_claimed\"}}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "E:\\GH\\aikon\\.local\\ci-venv\\Scripts\\python.exe",
+        "-B",
+        "tools/render_svg.py",
+        "E:\\GH\\aikon\\outputs\\agent-paint-e2e\\full\\r001\\icon.svg",
+        "--output",
+        "E:\\GH\\aikon\\outputs\\agent-paint-e2e\\full\\r001\\preview-1024.png",
+        "--size",
+        "1024"
+      ],
+      "cwd": "E:\\GH\\aikon",
+      "timeout_seconds": 45,
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"backend\": {\"binding\": \"resvg-py\", \"version\": \"0.5.0\", \"resvg\": \"0.48.1\"}, \"width\": 1024, \"height\": 1024, \"mode\": \"RGBA\", \"source_sha256\": \"2819215e9871c866d0c15adaee12d1bf443fe5bfd211e2102ed143f631991daf\", \"png_sha256\": \"1fc5ddc9cfe9553b42b83a227109233830f246647ac9ae56533d59654377159e\", \"background\": \"unpainted; source alpha preserved\", \"visual_acceptance\": \"not_evaluated\"}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "E:\\GH\\aikon\\.local\\ci-venv\\Scripts\\python.exe",
+        "-B",
+        "tools/render_svg.py",
+        "E:\\GH\\aikon\\outputs\\agent-paint-e2e\\full\\r001\\icon.svg",
+        "--output",
+        "E:\\GH\\aikon\\outputs\\agent-paint-e2e\\full\\r001\\preview-128.png",
+        "--size",
+        "128"
+      ],
+      "cwd": "E:\\GH\\aikon",
+      "timeout_seconds": 45,
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"backend\": {\"binding\": \"resvg-py\", \"version\": \"0.5.0\", \"resvg\": \"0.48.1\"}, \"width\": 128, \"height\": 128, \"mode\": \"RGBA\", \"source_sha256\": \"2819215e9871c866d0c15adaee12d1bf443fe5bfd211e2102ed143f631991daf\", \"png_sha256\": \"f09e0d374766a612293759c1db0e9027975902f9f4f0e39122f312704b75e9cc\", \"background\": \"unpainted; source alpha preserved\", \"visual_acceptance\": \"not_evaluated\"}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "E:\\GH\\aikon\\.local\\ci-venv\\Scripts\\python.exe",
+        "-B",
+        "tools/render_svg.py",
+        "E:\\GH\\aikon\\outputs\\agent-paint-e2e\\full\\r001\\icon.svg",
+        "--output",
+        "E:\\GH\\aikon\\outputs\\agent-paint-e2e\\full\\r001\\preview-48.png",
+        "--size",
+        "48"
+      ],
+      "cwd": "E:\\GH\\aikon",
+      "timeout_seconds": 45,
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"backend\": {\"binding\": \"resvg-py\", \"version\": \"0.5.0\", \"resvg\": \"0.48.1\"}, \"width\": 48, \"height\": 48, \"mode\": \"RGBA\", \"source_sha256\": \"2819215e9871c866d0c15adaee12d1bf443fe5bfd211e2102ed143f631991daf\", \"png_sha256\": \"be0e5749ae6167267ab6a2f1b3da7daf1c61a9cccf44cb19aa8a12f4d8e8a021\", \"background\": \"unpainted; source alpha preserved\", \"visual_acceptance\": \"not_evaluated\"}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "E:\\GH\\aikon\\.local\\ci-venv\\Scripts\\python.exe",
+        "-B",
+        "tools/render_svg.py",
+        "E:\\GH\\aikon\\outputs\\agent-paint-e2e\\full\\r001\\icon.svg",
+        "--output",
+        "E:\\GH\\aikon\\outputs\\agent-paint-e2e\\full\\r001\\preview-24.png",
+        "--size",
+        "24"
+      ],
+      "cwd": "E:\\GH\\aikon",
+      "timeout_seconds": 45,
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"backend\": {\"binding\": \"resvg-py\", \"version\": \"0.5.0\", \"resvg\": \"0.48.1\"}, \"width\": 24, \"height\": 24, \"mode\": \"RGBA\", \"source_sha256\": \"2819215e9871c866d0c15adaee12d1bf443fe5bfd211e2102ed143f631991daf\", \"png_sha256\": \"6dca68168ec97756e16767905d9d4bcb229d22fd07b4bef3d71e37683aa8681f\", \"background\": \"unpainted; source alpha preserved\", \"visual_acceptance\": \"not_evaluated\"}\n",
+      "stderr": ""
+    }
+  ],
+  "tools_sha256": {
+    "skills\\aikon\\scripts\\paint_svg.py": "28457528050cf47c7d67d807a529c55559ceb52f89760238974086e7dff15551",
+    "tools\\paint_checks.py": "2bcbd6494372389c0c098a1e3b8574669807dd0fbac0100551503572ed4b1450",
+    "tools\\analyze_paint_fields.py": "a6349d61b4262c8fd0fa84b2795e84857b162c754466d49712512ec2ac2abb03",
+    "tools\\render_svg.py": "57bb8660bfbce1e63fdfe6dc151f25d6485af7717758da1c62f259dd46bd6e8b"
+  }
+}

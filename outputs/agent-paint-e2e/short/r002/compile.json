@@ -1,0 +1,89 @@
+{
+  "schema": "aikon.paint-compile.v1",
+  "compiler_version": "0.2.0",
+  "profile": "short",
+  "paint_plan_sha256": "a9a437db2486240922a0c559ea70244ee366a8c65994d40630ea8efbee5cf0e7",
+  "geometry_source_sha256": "bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f",
+  "geometry_signature": "582c026f395419f4d4d0e1de62a12781cad538399575422ad22fb256dbaf2fd6",
+  "layout_geometry_signature": "cce6b5757ae82da68950ea332f8967a7bd4c56c6d85713a55190d84ba4d83b75",
+  "selected_geometry_unchanged": true,
+  "retained_layers": [
+    "coverage-underpaint",
+    "face-visible-region",
+    "hair-base",
+    "left-fringe-shadow",
+    "right-crown-shadow",
+    "coral-base",
+    "coral-left-return",
+    "coral-left-fold",
+    "coral-right-fold",
+    "halo-base",
+    "halo-inner-shadow",
+    "cheek-left",
+    "cheek-right",
+    "eye-left",
+    "eye-right"
+  ],
+  "discarded_prior_paint": [
+    "face-tone",
+    "hair-direction",
+    "coral-direction",
+    "halo-direction",
+    "left-flow-light",
+    "center-fold-shadow",
+    "center-fringe-light",
+    "right-cheek-flow",
+    "crown-sweep",
+    "coral-top-light",
+    "coral-low-light",
+    "coral-right-highlight",
+    "halo-upper-plane",
+    "halo-bottom-edge"
+  ],
+  "gradient_count": 0,
+  "shadow_anchors": [
+    {
+      "id": "left-fringe-shadow",
+      "owner": "hair-base",
+      "anchor": "receiver-boundary",
+      "reason": "左侧大刘海覆盖侧后发，暗面沿左侧发束边界向脸颊收拢。"
+    },
+    {
+      "id": "right-crown-shadow",
+      "owner": "hair-base",
+      "anchor": "receiver-boundary",
+      "reason": "右侧外发束包覆内侧发层，沿右侧主弧保留单档暗面。"
+    },
+    {
+      "id": "coral-left-return",
+      "owner": "coral-base",
+      "anchor": "receiver-boundary",
+      "reason": "左上珊瑚侧束的大回卷盖住根部内面，暗面落在卷内并触及回卷边。"
+    },
+    {
+      "id": "coral-left-fold",
+      "owner": "coral-base",
+      "anchor": "receiver-boundary",
+      "reason": "左侧下层回卷被上层覆盖，使用同一材料的一档暗色。"
+    },
+    {
+      "id": "coral-right-fold",
+      "owner": "coral-base",
+      "anchor": "receiver-boundary",
+      "reason": "右侧珊瑚回卷包围的折返内侧位于前层之后，保留有边界的内暗面。"
+    },
+    {
+      "id": "halo-inner-shadow",
+      "owner": "halo-base",
+      "anchor": "receiver-boundary",
+      "reason": "青环的内缘背向主受光侧，暗面与内轮廓相接；不添加独立亮面。"
+    }
+  ],
+  "svg_sha256": "f54a1b2e5991154116b8f7cdcb45f8f8ecc3ac4fde18826d44881284b1935c15",
+  "checks": {
+    "static_paint_contract": "passed",
+    "boundary_anchor_pixels": "not_run",
+    "visual": "not_run",
+    "user_acceptance": "not_claimed"
+  }
+}

@@ -1,0 +1,16 @@
+# Optional visual-validation environment: CPython 3.13, Windows/Linux x86_64.
+# Wheel SHA-256 values verified against versioned PyPI JSON on 2026-09-29.
+# Install with --require-hashes --only-binary=:all:; no source build is allowed.
+resvg-py==0.5.0 \
+    --hash=sha256:1f6b8956c4143dbfe107bcd35799d0dfd778a40a8cd537893c0bf489898a6c3c \
+    --hash=sha256:84f2378ecc7a8e38b03429efaefc816daec1b1970114909a6f973393b297c91b
+Pillow==12.1.1 \
+    --hash=sha256:344cf1e3dab3be4b1fa08e449323d98a2a3f819ad20f4b22e77a0ede31f0faa1 \
+    --hash=sha256:fc44ef1f3de4f45b50ccf9136999d71abb99dca7706bc75d222ed350b9fd2289 \
+    --hash=sha256:47b94983da0c642de92ced1702c5b6c292a84bd3a8e1d1702ff923f183594717
+numpy==2.4.3 \
+    --hash=sha256:0a60e17a14d640f49146cb38e3f105f571318db7826d9b6fef7e4dce758faecd \
+    --hash=sha256:d5f51900414fc9204a0e0da158ba2ac52b75656e7dce7e77fb9f84bfa343b4cc
+scipy==1.17.1 \
+    --hash=sha256:37425bc9175607b0268f493d79a292c39f9d001a357bebb6b88fdfaff13f6448 \
+    --hash=sha256:581b2264fc0aa555f3f435a5944da7504ea3a065d7029ad60e7c3d1ae09c5464

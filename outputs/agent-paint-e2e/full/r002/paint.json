@@ -1,0 +1,196 @@
+{
+  "schema": "aikon.paint-plan.v1",
+  "geometry_sha256": "bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f",
+  "profile": "full",
+  "notes": "Independent Skill consumer paint trial. Geometry locked; source numeric eye/pose compliance is not newly claimed. No fixture plan was read. Revision r002 removes mechanically unanchored shadow overlays; no geometry or threshold changes.",
+  "reference_bindings": {
+    "illustration": "ref/feedback/2026-09-29/accepted-composition-defective-paint.png",
+    "deepseek": "ref/user-mode/r1.png"
+  },
+  "layers": [
+    {
+      "id": "coverage-underpaint",
+      "role": "underpaint",
+      "paint": {
+        "type": "solid",
+        "color": "#514d59"
+      }
+    },
+    {
+      "id": "face-visible-region",
+      "role": "surface",
+      "paint": {
+        "type": "linear",
+        "from": [
+          100,
+          100
+        ],
+        "to": [
+          1100,
+          1150
+        ],
+        "colors": [
+          "#fff3e8",
+          "#f8e5db"
+        ]
+      }
+    },
+    {
+      "id": "hair-base",
+      "role": "surface",
+      "paint": {
+        "type": "linear",
+        "from": [
+          100,
+          100
+        ],
+        "to": [
+          1100,
+          1150
+        ],
+        "colors": [
+          "#595561",
+          "#4f4b57"
+        ]
+      }
+    },
+    {
+      "id": "left-fringe-shadow",
+      "role": "occlusion-shadow",
+      "paint": {
+        "type": "solid",
+        "color": "#45424c"
+      },
+      "owner": "hair-base",
+      "anchor": "receiver-boundary",
+      "reason": "左侧大刘海覆盖侧后发，暗面沿左侧发束边界向脸颊收拢。"
+    },
+    {
+      "id": "right-crown-shadow",
+      "role": "occlusion-shadow",
+      "paint": {
+        "type": "solid",
+        "color": "#45424c"
+      },
+      "owner": "hair-base",
+      "anchor": "receiver-boundary",
+      "reason": "右侧外发束包覆内侧发层，沿右侧主弧保留单档暗面。"
+    },
+    {
+      "id": "coral-base",
+      "role": "surface",
+      "paint": {
+        "type": "linear",
+        "from": [
+          100,
+          100
+        ],
+        "to": [
+          1100,
+          1150
+        ],
+        "colors": [
+          "#f58b9a",
+          "#e7778a"
+        ]
+      }
+    },
+    {
+      "id": "coral-left-return",
+      "role": "occlusion-shadow",
+      "paint": {
+        "type": "solid",
+        "color": "#d96c80"
+      },
+      "owner": "coral-base",
+      "anchor": "receiver-boundary",
+      "reason": "左上珊瑚侧束的大回卷盖住根部内面，暗面落在卷内并触及回卷边。"
+    },
+    {
+      "id": "coral-left-fold",
+      "role": "occlusion-shadow",
+      "paint": {
+        "type": "solid",
+        "color": "#d96c80"
+      },
+      "owner": "coral-base",
+      "anchor": "receiver-boundary",
+      "reason": "左侧下层回卷被上层覆盖，使用同一材料的一档暗色。"
+    },
+    {
+      "id": "coral-right-fold",
+      "role": "occlusion-shadow",
+      "paint": {
+        "type": "solid",
+        "color": "#d96c80"
+      },
+      "owner": "coral-base",
+      "anchor": "receiver-boundary",
+      "reason": "右侧珊瑚回卷包围的折返内侧位于前层之后，保留有边界的内暗面。"
+    },
+    {
+      "id": "halo-base",
+      "role": "surface",
+      "paint": {
+        "type": "linear",
+        "from": [
+          100,
+          100
+        ],
+        "to": [
+          1100,
+          1150
+        ],
+        "colors": [
+          "#70d2c5",
+          "#5bc2ba"
+        ]
+      }
+    },
+    {
+      "id": "halo-inner-shadow",
+      "role": "occlusion-shadow",
+      "paint": {
+        "type": "solid",
+        "color": "#4caeaa"
+      },
+      "owner": "halo-base",
+      "anchor": "receiver-boundary",
+      "reason": "青环的内缘背向主受光侧，暗面与内轮廓相接；不添加独立亮面。"
+    },
+    {
+      "id": "cheek-left",
+      "role": "blush",
+      "paint": {
+        "type": "solid",
+        "color": "#f9cbc8"
+      },
+      "owner": "face-visible-region"
+    },
+    {
+      "id": "cheek-right",
+      "role": "blush",
+      "paint": {
+        "type": "solid",
+        "color": "#f9cbc8"
+      },
+      "owner": "face-visible-region"
+    },
+    {
+      "id": "eye-left",
+      "role": "eye",
+      "paint": {
+        "type": "solid",
+        "color": "#26252f"
+      }
+    },
+    {
+      "id": "eye-right",
+      "role": "eye",
+      "paint": {
+        "type": "solid",
+        "color": "#26252f"
+      }
+    }
+  ]
+}

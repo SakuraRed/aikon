@@ -1,6 +1,6 @@
 # ARCHITECTURE — Aikon
 
-当前进入首版原型。产品边界见 PRD，兼容性研究与实测结果分别记录。
+当前处于单例校准与上色约束实验。产品边界见 PRD，兼容性研究与实测结果分别记录。
 
 ## 稳定边界
 
@@ -14,7 +14,11 @@
 
 ## 当前代码路径
 
-`skills/aikon/` 为自包含分发目录。可选 Python 标准库 helper 接受版本化 scene 数据；共同头部与眼部几何固定，主体由自定义路径和图层表达。相同输入经同版本导出器重建同一 SVG。没有 Python 时可直接编写 SVG，明确减少了哪些自动检查。
+`skills/aikon/` 为自包含分发目录。可选 Python 标准库 helper `aikon.py` 接受版本化 scene 数据；它是一个基础几何子集，旧示例不是审美 gold。主体由自定义路径和图层表达，不能用同一脸盘套所有主体。没有 Python 时可直接编写 SVG，明确减少了哪些自动检查。
+
+`paint_svg.py` 是另一个独立入口：已确认 geometry + 绑定源哈希的 paint plan → 静态 SVG。它保留选定物体的 path/transform，移除旧 paint，生成不透明底色、有限平滑色场及有 receiver 的阴影。对阴影/腮红在共同父坐标系施加 clip，防止旋转 overlay 连带错误旋转 receiver。编译器只依赖标准库，不联网、不调用绘图模型。相同 geometry、plan 和编译器版本应导出相同 bytes；从任意原图建立好 geometry 仍需 Agent 的观察和绘制能力。
+
+研发验证工具与分发包分离：`tools/render_svg.py` 用固定 resvg 渲染；`tools/paint_checks.py` 从全部选中图层生成真实掩膜并按遮挡次序分配可见材料；`tools/analyze_paint_fields.py` 测量材料内部 grain/mottling/alpha/色岛；`tools/run_visual_e2e.py` 重放 short/full 并记录正负控制。依赖在 `requirements-ci.txt` 锁版本和 wheel hashes，不进入核心 Skill 强依赖。
 
 新项目未提供存放方式时先原生提问，helper 只接收已选项目路径。snapshot 创建新版本，不推断用户偏好，不自动创建或推送 Git。
 
@@ -29,3 +33,5 @@
 ## 验证分层
 
 技能结构检查只能证明包的基本格式。行为测试观察是否尊重输入、问答与修改边界。视觉测试必须实际渲染并查看。跨模型或跨 harness 的声明必须基于相应实测，不能从同模型多个子 Agent 推广。
+
+像素检查排除明确材料边界并公开排除比例；窄区域无足够纹理样本时标记不足，不能冒称全覆盖通过。声明为 smooth field 的区域才禁止意外色岛；官方合法高光不能因有色岛被全局拒绝。轮廓抗锯齿与主体内部透明分开。CI 报告 `no_rule_failure`，高光自然性、身份与用户验收保持独立状态。

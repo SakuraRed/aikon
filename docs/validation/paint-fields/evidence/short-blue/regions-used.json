@@ -1,0 +1,43 @@
+{
+  "schema": "aikon.paint-fields.v1",
+  "regions": [
+    {
+      "id": "hair-center",
+      "bbox": [
+        0.34,
+        0.3,
+        0.5,
+        0.42
+      ],
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "hair-lower",
+      "bbox": [
+        0.38,
+        0.44,
+        0.5,
+        0.56
+      ],
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "face",
+      "bbox": [
+        0.29,
+        0.71,
+        0.43,
+        0.89
+      ],
+      "expectation": "smooth_field"
+    }
+  ],
+  "rules": {
+    "grain_rms_max": 0.8276688285339487,
+    "mottle_rms_max": 0.5,
+    "interior_translucent_fraction_max": 0.001,
+    "island_contrast_min": 12.0,
+    "island_area_min": 12
+  },
+  "threshold_provenance": "max(0.50, positive_ROI_max * 1.5 + 0.15) separately for grain and mottle; alpha fraction 0.001; islands contrast 12 RGB units and area >=12 pixels. Calibration uses only r1 and official short-pink. Held-out assets never alter thresholds."
+}

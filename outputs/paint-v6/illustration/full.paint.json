@@ -1,0 +1,185 @@
+{
+  "schema": "aikon.paint-plan.v1",
+  "geometry_sha256": "bc296c212317b4ecffaedadab125e135f5bf9f063bd0e6ba67e1999a48e83b6f",
+  "profile": "full",
+  "layers": [
+    {
+      "id": "coverage-underpaint",
+      "role": "underpaint",
+      "paint": {
+        "type": "solid",
+        "color": "#484450"
+      }
+    },
+    {
+      "id": "face-visible-region",
+      "role": "surface",
+      "paint": {
+        "type": "linear",
+        "from": [
+          256,
+          90
+        ],
+        "to": [
+          680,
+          1200
+        ],
+        "colors": [
+          "#FDF4EC",
+          "#F9EAE1"
+        ]
+      }
+    },
+    {
+      "id": "hair-base",
+      "role": "surface",
+      "paint": {
+        "type": "linear",
+        "from": [
+          256,
+          90
+        ],
+        "to": [
+          680,
+          1200
+        ],
+        "colors": [
+          "#514D59",
+          "#484450"
+        ]
+      }
+    },
+    {
+      "id": "coral-base",
+      "role": "surface",
+      "paint": {
+        "type": "linear",
+        "from": [
+          256,
+          90
+        ],
+        "to": [
+          680,
+          1200
+        ],
+        "colors": [
+          "#F38599",
+          "#E9778F"
+        ]
+      }
+    },
+    {
+      "id": "halo-base",
+      "role": "surface",
+      "paint": {
+        "type": "linear",
+        "from": [
+          256,
+          90
+        ],
+        "to": [
+          680,
+          1200
+        ],
+        "colors": [
+          "#64C9C0",
+          "#51BDB7"
+        ]
+      }
+    },
+    {
+      "id": "cheek-left",
+      "role": "blush",
+      "paint": {
+        "type": "solid",
+        "color": "#F8D1CA"
+      },
+      "owner": "face-visible-region"
+    },
+    {
+      "id": "cheek-right",
+      "role": "blush",
+      "paint": {
+        "type": "solid",
+        "color": "#F8D1CA"
+      },
+      "owner": "face-visible-region"
+    },
+    {
+      "id": "eye-left",
+      "role": "eye",
+      "paint": {
+        "type": "solid",
+        "color": "#25242D"
+      }
+    },
+    {
+      "id": "eye-right",
+      "role": "eye",
+      "paint": {
+        "type": "solid",
+        "color": "#25242D"
+      }
+    },
+    {
+      "id": "left-fringe-shadow",
+      "role": "occlusion-shadow",
+      "paint": {
+        "type": "solid",
+        "color": "#3E3A46"
+      },
+      "owner": "hair-base",
+      "anchor": "receiver-boundary",
+      "reason": "Left overlapping fringe terminates at the visible face/hair boundary."
+    },
+    {
+      "id": "right-crown-shadow",
+      "role": "occlusion-shadow",
+      "paint": {
+        "type": "solid",
+        "color": "#3E3A46"
+      },
+      "owner": "hair-base",
+      "anchor": "receiver-boundary",
+      "reason": "The outer/back hair lies behind the right cheek lock."
+    },
+    {
+      "id": "coral-left-return",
+      "role": "occlusion-shadow",
+      "paint": {
+        "type": "solid",
+        "color": "#DB718B"
+      },
+      "owner": "coral-base",
+      "anchor": "receiver-boundary",
+      "reason": "Large returning coral strand passes behind the outer curl."
+    },
+    {
+      "id": "coral-right-fold",
+      "role": "occlusion-shadow",
+      "paint": {
+        "type": "solid",
+        "color": "#DB718B"
+      },
+      "owner": "coral-base",
+      "anchor": "receiver-boundary",
+      "reason": "Right coral bundle has a single broad overlap fold."
+    },
+    {
+      "id": "halo-inner-shadow",
+      "role": "occlusion-shadow",
+      "paint": {
+        "type": "solid",
+        "color": "#49B1AC"
+      },
+      "owner": "halo-base",
+      "anchor": "receiver-boundary",
+      "reason": "Inner rim of the ring is an occlusion/material boundary."
+    }
+  ],
+  "reference_bindings": [
+    "User-approved overall composition only: feedback/2026-09-29/accepted-composition-defective-paint.png",
+    "Paint target: r1 and source short examples; no texture/floating specular patch"
+  ],
+  "notes": "Analytic painting experiment. Existing geometry is preserved; source imagegen/earlier trace was used in geometry research, not invoked by this compiler. No user acceptance of new paint is implied. Removed center-fold-shadow after real raster anchor check showed a disconnected interior component; no boundary threshold relaxed."
+}
