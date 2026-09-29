@@ -1,0 +1,31 @@
+{
+  "schema": "aikon.direct-svg-study.v2",
+  "subject": "endministrator-female",
+  "round": "002",
+  "source": "Official female Endministrator standing illustration; recorded in docs/research/input-fixtures.md",
+  "identity": [
+    "charcoal shoulder-length bob",
+    "left silver crossed clips",
+    "angular black visor with yellow trim"
+  ],
+  "adaptation": "Visor raised and reduced to a thin forehead accessory so both Grok-bot eyes remain fully visible. This is a style adaptation, not literal original visor placement.",
+  "short": {
+    "composition": "1.21x tight crop, no collar",
+    "hair": "five major fringe masses and two broad side locks",
+    "gloss": "continuous material gradients and dark capsule eye fields"
+  },
+  "full": {
+    "composition": "complete crown and more side contours, shallow collar at bottom",
+    "hair": "additional swept crown and lower bob locks",
+    "gloss": "continuous gradients plus two broad analytic highlights covering whole owning locks, avoiding detached ribbons"
+  },
+  "surface_policy": "Opaque material bases; no raster image, filters, random noise, dithering, or white eye glints.",
+  "user_acceptance": "pending",
+  "generator": "build.py, Python standard library",
+  "image_generation_model_used": false,
+  "geometry_reused_from_rejected_round_001": false,
+  "files": {
+    "short": "7934b2fe2e52e710bc77b18f723872ffcd4a8e802c8f154c27cf3aa27fa5d6e4",
+    "full": "9abe36701c998ae5716d4934bd992bcedc85cb7fab7cb9ea1da1853c3fe0d3de"
+  }
+}

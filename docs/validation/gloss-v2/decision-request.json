@@ -1,0 +1,34 @@
+{
+  "state": {
+    "user_request": "r1上有自然高光、渐变色与眼部头发光泽，当前版本完全扁平；short/full没有区分度，full整体以新附完整头发和少量领口图为准；生成DeepSeek及男女管理员供审计。",
+    "observations": [
+      "Actually viewed r1 and new full reference. r1 blue hair has continuous broad gradients; dark eyes have a weak dark-blue field and subtle rim rather than white catchlight dots.",
+      "Previous shader only allows solid eyes, limited linear surface contrast, no default highlight primitive; clean output lost strand hierarchy.",
+      "Current static SVG renderer already supports linear/radial gradients and clipping. Existing v1 machine tests are historical defect regression, not the new aesthetic contract."
+    ],
+    "constraints": [
+      "Retain real editable SVG, transparent background, no watermark. Code encouraged, not raster tracing.",
+      "Latest user feedback overrides old flat-eye / zero-highlight defaults. Six outputs: DeepSeek and both Endministrators, each short/full."
+    ]
+  },
+  "questions": {
+    "rendering_route": {
+      "type": "choice",
+      "instructions": "Which rendering route should be used for this authorized new reference-driven trial, considering natural gloss, editable SVG and model independence?",
+      "criteria": {
+        "direct_vector_fields": "Write subject-specific vector geometry and explicit linear/radial material fields, broad curved light shapes and dark capsule fields. Requires careful visual drafting and per-pair review; can execute without a drawing model.",
+        "raster_trace": "Generate polished raster concepts and automatically trace them to SVG. May improve immediate composition but requires a drawing model and can transfer unwanted texture/quantization.",
+        "reuse_flat_shader": "Keep the prior locked geometry and flat shader. Reproducible and cheap but unable to express the user-requested natural gloss and structural profile difference."
+      }
+    },
+    "new_validation": {
+      "type": "choice",
+      "instructions": "What validation boundary best suits the new allowed smooth gradients and differentiated profiles?",
+      "criteria": {
+        "field_and_visual": "Check static vector constructs, actual renders, reference-linked material variation, pixel artifacts, real geometry/visual difference and human review. More evidence and manual judgment; legal gradients remain allowed.",
+        "old_thresholds_only": "Apply the prior flat-paint thresholds unchanged to every new output. Cheap but may reject reference-appropriate variation and preserve flattening.",
+        "visual_only": "Only inspect rendered appearance without structural or pixel controls. Fast visual review but leaves reproducibility and noise/contamination regressions unchecked."
+      }
+    }
+  }
+}

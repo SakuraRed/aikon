@@ -1,0 +1,31 @@
+{
+  "schema": "aikon.direct-svg-study.v2",
+  "subject": "endministrator-male",
+  "round": "002",
+  "identity": [
+    "asymmetric charcoal short hair",
+    "upturned crown locks",
+    "yellow-edged angular black forehead visor"
+  ],
+  "source": "Official male Endministrator standing illustration; docs/research/input-fixtures.md",
+  "adaptation": "Original eye-covering visor raised and compressed into forehead accessory to show both bot eyes; no claim of literal placement.",
+  "short": {
+    "composition": "1.2x close crop, cropped crown, no collar",
+    "hair": "four broad frontal locks and two short temples",
+    "surface": "continuous low-frequency color fields and dark blue eye gloss"
+  },
+  "full": {
+    "composition": "full raised crown silhouette, visible ear and shallow collar",
+    "hair": "extra crown locks and short temple tips, distinct from female shoulder-length bob",
+    "surface": "two broad radial highlights cover exact owning locks, preserving smooth flow"
+  },
+  "user_acceptance": "pending",
+  "image_generation_model_used": false,
+  "geometry_reused_from_rejected_round_001": false,
+  "source_rebuild": "python build.py",
+  "surface_policy": "Opaque bases; transparent canvas; no bitmap/filter/noise/dithering/white eye glint.",
+  "files": {
+    "short": "8d041aaa718690e05f3178c85b2e643a6617c76b609f3a312d353999e3469c53",
+    "full": "e1016cb72116a594c28e0e55b65772e5c3a66d1b7f3bb2a72eba2239490a082a"
+  }
+}

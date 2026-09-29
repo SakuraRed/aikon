@@ -1,0 +1,33 @@
+{
+  "schema": "aikon.direct-svg-study.v2",
+  "subject": "endministrator-male",
+  "round": "002",
+  "identity": [
+    "asymmetric charcoal short hair",
+    "upturned crown locks",
+    "yellow-edged angular black forehead visor"
+  ],
+  "source": "Official male Endministrator standing illustration; docs/research/input-fixtures.md",
+  "adaptation": "Original eye-covering visor raised and compressed into forehead accessory to show both bot eyes; no claim of literal placement.",
+  "short": {
+    "composition": "1.2x close crop, cropped crown, no collar",
+    "hair": "four broad frontal locks and two short temples",
+    "surface": "continuous low-frequency color fields and dark blue eye gloss"
+  },
+  "full": {
+    "composition": "full raised crown silhouette, visible ear and shallow collar",
+    "hair": "four additional front layers, extra crown locks and short temple tips, distinct from female shoulder-length bob",
+    "surface": "two broad radial highlights cover exact owning locks, preserving smooth flow"
+  },
+  "user_acceptance": "pending",
+  "image_generation_model_used": false,
+  "geometry_reused_from_rejected_round_001": false,
+  "source_rebuild": "python build.py",
+  "surface_policy": "Opaque bases; transparent canvas; no bitmap/filter/noise/dithering/white eye glint.",
+  "revision_eye_clearance": "Only inner tip/curve of right-fringe-main retreats from unchanged right capsule; eyes and whole-head transform unchanged. See eye-clearance-report.json.",
+  "revision_seam_repair": "Existing face underpaint gets a tiny opaque overlap subpath beneath left temple; true viewport-bottom collar exterior AA is preserved, as shown by expanded-canvas diagnostic.",
+  "files": {
+    "short": "e0c7584f46060eb7139b2dd4fe8ce2cfb4c7c3e1c90f268fb52902c207f3d73d",
+    "full": "ef952ae6b814682224e2aa6b12f8b2b1ff47eecaa308579b4f2d65afc166bb1f"
+  }
+}

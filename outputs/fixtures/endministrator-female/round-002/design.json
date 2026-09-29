@@ -1,0 +1,33 @@
+{
+  "schema": "aikon.direct-svg-study.v2",
+  "subject": "endministrator-female",
+  "round": "002",
+  "source": "Official female Endministrator standing illustration; recorded in docs/research/input-fixtures.md",
+  "identity": [
+    "charcoal shoulder-length bob",
+    "left silver crossed clips",
+    "angular black visor with yellow trim"
+  ],
+  "adaptation": "Visor raised and reduced to a thin forehead accessory so both Grok-bot eyes remain fully visible. This is a style adaptation, not literal original visor placement.",
+  "short": {
+    "composition": "1.21x tight crop, no collar",
+    "hair": "five major fringe masses and two broad side locks",
+    "gloss": "continuous material gradients and dark capsule eye fields"
+  },
+  "full": {
+    "composition": "complete crown and more side contours, shallow collar at bottom",
+    "hair": "six separate added broad locks: forward and inner left sweeps, central short lock, right forward lock, left/right front bob; plus crown and lower bob locks",
+    "gloss": "continuous gradients plus two broad analytic highlights covering whole owning locks, avoiding detached ribbons"
+  },
+  "surface_policy": "Opaque material bases; no raster image, filters, random noise, dithering, or white eye glints.",
+  "user_acceptance": "pending",
+  "generator": "build.py, Python standard library",
+  "image_generation_model_used": false,
+  "geometry_reused_from_rejected_round_001": false,
+  "revision_eye_clearance": "Only the inner tip/curve of fringe-right retreats from the unchanged right capsule; whole-head transform and both eye paths stay unchanged. Pixel evidence is in eye-clearance-report.json.",
+  "revision_seam_repair": "Two tiny opaque overlap subpaths extend the existing bob-back at measured shared-boundary gaps. Viewport-bottom collar edge AA is preserved; diagnostic expanded-canvas report confirms genuine exterior.",
+  "files": {
+    "short": "faf27bc6f8b43e0ee636fb84150eae68ccf1aba05b174451ea74a4e0012e848c",
+    "full": "f4697c22ca1a06824c3d4691a6ccabcb095f8aeedaadc2ae9972906f90608a76"
+  }
+}

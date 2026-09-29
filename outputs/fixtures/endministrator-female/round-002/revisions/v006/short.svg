@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<title>Female Endministrator, short gloss study</title>
+<defs>
+<linearGradient id="back-paint" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#242b31"/><stop offset=".62" stop-color="#30383e"/><stop offset="1" stop-color="#1d232b"/></linearGradient>
+<linearGradient id="hair-paint" x1=".24" y1="0" x2=".62" y2="1"><stop stop-color="#424c50"/><stop offset=".42" stop-color="#333c42"/><stop offset=".75" stop-color="#3f4b54"/><stop offset="1" stop-color="#66717a"/></linearGradient>
+<linearGradient id="left-paint" x1=".35" y1=".06" x2=".68" y2="1"><stop stop-color="#566065"/><stop offset=".38" stop-color="#394248"/><stop offset=".72" stop-color="#354048"/><stop offset="1" stop-color="#56656e"/></linearGradient>
+<linearGradient id="right-paint" x1=".14" y1=".08" x2=".83" y2=".96"><stop stop-color="#394247"/><stop offset=".5" stop-color="#343e45"/><stop offset=".86" stop-color="#53616c"/><stop offset="1" stop-color="#65727b"/></linearGradient>
+<linearGradient id="fringe-paint" x1=".45" y1="0" x2=".44" y2="1"><stop stop-color="#4d585d"/><stop offset=".34" stop-color="#3a444a"/><stop offset=".69" stop-color="#46545e"/><stop offset="1" stop-color="#63717b"/></linearGradient>
+<radialGradient id="face-paint" cx=".44" cy=".46" r=".68"><stop stop-color="#fffcf5"/><stop offset=".58" stop-color="#fff3e8"/><stop offset="1" stop-color="#f6ddd2"/></radialGradient>
+<radialGradient id="eye-paint" cx=".38" cy=".2" r=".88"><stop stop-color="#333c50"/><stop offset=".48" stop-color="#242c3d"/><stop offset="1" stop-color="#151c2b"/></radialGradient>
+<linearGradient id="eye-edge" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#4c5669"/><stop offset=".32" stop-color="#1c2436"/><stop offset="1" stop-color="#101727"/></linearGradient>
+<linearGradient id="silver-paint" x1="0" y1="0" x2="1" y2=".7"><stop stop-color="#e8eeed"/><stop offset=".35" stop-color="#cbd5d5"/><stop offset=".72" stop-color="#849399"/><stop offset="1" stop-color="#c9d4d6"/></linearGradient>
+<linearGradient id="visor-paint" x1=".12" y1="0" x2=".65" y2="1"><stop stop-color="#52606a"/><stop offset=".52" stop-color="#303b44"/><stop offset="1" stop-color="#202b33"/></linearGradient>
+<linearGradient id="collar-paint" x1=".2" y1="0" x2=".8" y2="1"><stop stop-color="#f7fbfc"/><stop offset=".54" stop-color="#d9e1e7"/><stop offset="1" stop-color="#9facb9"/></linearGradient>
+<radialGradient id="strand-gloss" cx=".47" cy=".43" r=".58"><stop stop-color="#9ba5ad" stop-opacity=".23"/><stop offset=".42" stop-color="#8997a2" stop-opacity=".12"/><stop offset="1" stop-color="#74818b" stop-opacity="0"/></radialGradient>
+<linearGradient id="cheek-paint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd5d1"/><stop offset="1" stop-color="#fbc8c6"/></linearGradient>
+<linearGradient id="contact-paint" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e8c3b6"/><stop offset="1" stop-color="#fff3e8"/></linearGradient>
+</defs>
+<g id="subject" transform="translate(-105 -150) scale(1.21) rotate(14 500 520)">
+<path id="bob-back" d="M107 349 C90 204 200 92 345 87 C514 52 733 100 820 243 C900 374 913 533 918 671 C924 827 917 910 971 947 C909 959 882 938 859 902 C870 963 837 1000 792 1012 C811 967 793 936 777 916 C727 990 626 1001 579 965 L249 961 C150 974 76 920 90 823 C43 870 14 861 0 835 C57 800 54 714 68 618Z M33 781.5 H37 V785.3 H33Z M867.2 914.7 H870.5 V918.4 H867.2Z" fill="url(#back-paint)" />
+<path id="face" d="M200 319 C295 257 505 276 672 339 C813 392 857 501 847 653 C838 804 741 913 598 943 C439 976 228 918 158 802 C84 681 112 439 200 319Z" fill="url(#face-paint)" />
+<path id="eye-left" d="M254 562 C254 536 274 517 297 517 C320 517 339 536 339 562 L339 654 C339 681 320 701 296 701 C272 701 254 681 254 654Z" fill="url(#eye-paint)" stroke="url(#eye-edge)" stroke-width="2.1"/>
+<path id="eye-right" d="M613 562 C613 536 633 517 656 517 C679 517 698 536 698 562 L698 654 C698 681 679 701 655 701 C631 701 613 681 613 654Z" fill="url(#eye-paint)" stroke="url(#eye-edge)" stroke-width="2.1"/>
+<ellipse id="cheek-left" cx="212" cy="724" rx="67" ry="37" fill="url(#cheek-paint)"/>
+<ellipse id="cheek-right" cx="724" cy="724" rx="64" ry="36" fill="url(#cheek-paint)"/>
+<path id="crown" d="M73 442 C64 265 136 146 266 105 C417 36 631 66 758 174 C815 220 855 309 865 429 C780 357 728 346 634 346 C424 302 252 337 154 427 L73 478Z" fill="url(#hair-paint)" />
+<path id="fringe-left" d="M435 96 C382 145 374 222 344 282 C313 348 233 408 183 472 C143 524 134 584 148 638 C87 592 73 529 99 449 C124 359 194 327 225 265 C264 183 305 105 435 96Z" fill="url(#left-paint)" />
+<path id="fringe-center-left" d="M472 99 C450 166 491 210 480 276 C469 339 431 410 380 468 C355 497 349 522 353 546 C300 500 315 427 351 368 C386 307 425 224 422 174Z" fill="url(#fringe-paint)" />
+<path id="fringe-center-right" d="M512 104 C602 120 678 202 674 288 C672 377 624 435 558 471 C536 485 520 503 514 528 C477 483 490 418 522 367 C557 311 572 265 554 214 C544 170 526 139 512 104Z" fill="url(#hair-paint)" />
+<path id="fringe-right" d="M568 128 C706 138 807 227 836 350 C863 461 815 520 808 599 C768 572 747 518 748 465 C743 503 728 522 703 539 C717 481 688 445 678 401 C670 340 717 284 671 221 C650 188 609 149 568 128Z" fill="url(#right-paint)" />
+<path id="side-left-main" d="M137 369 C111 478 93 574 111 663 C127 747 128 823 192 877 C113 866 75 803 66 739 C31 792 18 813 -13 821 C54 710 27 648 45 552 C55 473 92 406 137 369Z" fill="url(#left-paint)" />
+<path id="side-right-main" d="M800 283 C894 380 930 553 899 710 C878 821 833 865 844 926 C792 900 771 840 790 773 C752 844 713 871 667 873 C753 800 727 715 763 647 C811 555 833 414 800 283Z" fill="url(#right-paint)" />
+<path id="raised-visor-connected" d="M294 265 L387 236 L472 267 L540 245 L619 278 L609 302 L539 273 L472 293 L386 264 L307 289Z" fill="url(#visor-paint)" />
+<path id="visor-connected-rim" d="M294 265 L387 236 L472 267 L540 245 L619 278 L617 283 L540 251 L472 273 L387 242 L296 271Z" fill="#dfcc64" />
+<path id="clip-cross-long" d="M145 278 L151 272 L224 344 L217 351Z" fill="url(#silver-paint)" />
+<path id="clip-cross-short" d="M145 335 L214 282 L219 291 L151 344Z" fill="url(#silver-paint)" />
+</g>
+</svg>

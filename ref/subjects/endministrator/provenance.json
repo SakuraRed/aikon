@@ -1,0 +1,14 @@
+[
+  {
+    "file": "female.png",
+    "sha256": "9e6b884865eeb91b18093144e271272f80befad1fc4af4781ea8c7df8b6a958d",
+    "source": "Official Endfield operator image; source URL and original acquisition in docs/research/input-fixtures.md",
+    "rights": "Private reference only; redistribution license not established"
+  },
+  {
+    "file": "male.png",
+    "sha256": "c13ec59b22c5f2c259750dceae19aa9d876119e7b44e3c5fd0ad3db4eaf771b5",
+    "source": "Official Endfield operator image; source URL and original acquisition in docs/research/input-fixtures.md",
+    "rights": "Private reference only; redistribution license not established"
+  }
+]

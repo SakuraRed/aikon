@@ -1,0 +1,21 @@
+{
+  "schema": "aikon.reference-binding.v1",
+  "date": "2026-09-29",
+  "role": "full-style-v2",
+  "canonical_file": "outputs/calibration/illustration/full-imagegen-v1.png",
+  "source_filename": "exec-048782ad-08b7-4c96-acab-3f8e94538c4b.png",
+  "sha256": "a1fb6a12a85140bdea4697a43c98dbd5ce7d1a118d6eacc51c1bc6763f4dd1c1",
+  "user_directive": "完整版整体观感以本附件为准；同时保留r1的自然高光、渐变及眼部头发光泽。",
+  "adopt": [
+    "overall framing",
+    "strand structure",
+    "accessory volume",
+    "small collar"
+  ],
+  "do_not_copy": [
+    "mottling",
+    "floating pointed specular islands",
+    "subject identity of this style example"
+  ],
+  "file_identity": "byte identical to existing full diagnostic; reuse the existing file"
+}

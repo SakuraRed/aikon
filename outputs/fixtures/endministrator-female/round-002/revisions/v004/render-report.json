@@ -1,0 +1,124 @@
+{
+  "short": {
+    "1024": {
+      "backend": {
+        "binding": "resvg-py",
+        "version": "0.5.0",
+        "resvg": "0.48.1"
+      },
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "source_sha256": "ecbeac765c903483f942f17d957f35a78d6da21824d7133bde3572c0503970c9",
+      "png_sha256": "2ca1f6bb53409fcf1a2a4d9c72a29c38d4a7984ea3ba5442c52d7de40662edd2",
+      "background": "unpainted; source alpha preserved",
+      "visual_acceptance": "not_evaluated"
+    },
+    "128": {
+      "backend": {
+        "binding": "resvg-py",
+        "version": "0.5.0",
+        "resvg": "0.48.1"
+      },
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "source_sha256": "ecbeac765c903483f942f17d957f35a78d6da21824d7133bde3572c0503970c9",
+      "png_sha256": "33a27a596b7ec2d65bb36df11d6d4531a3f9180641fc25d10c0f1c9d94584454",
+      "background": "unpainted; source alpha preserved",
+      "visual_acceptance": "not_evaluated"
+    },
+    "48": {
+      "backend": {
+        "binding": "resvg-py",
+        "version": "0.5.0",
+        "resvg": "0.48.1"
+      },
+      "width": 48,
+      "height": 48,
+      "mode": "RGBA",
+      "source_sha256": "ecbeac765c903483f942f17d957f35a78d6da21824d7133bde3572c0503970c9",
+      "png_sha256": "ecdf21ee95a73ecb03c81bdf668a46298a07870c0406304c48d5db2416e68415",
+      "background": "unpainted; source alpha preserved",
+      "visual_acceptance": "not_evaluated"
+    },
+    "24": {
+      "backend": {
+        "binding": "resvg-py",
+        "version": "0.5.0",
+        "resvg": "0.48.1"
+      },
+      "width": 24,
+      "height": 24,
+      "mode": "RGBA",
+      "source_sha256": "ecbeac765c903483f942f17d957f35a78d6da21824d7133bde3572c0503970c9",
+      "png_sha256": "c3d81ca69dcf2d4337d3c80272f28adcb52043133565e8270bbf198fe3873a1d",
+      "background": "unpainted; source alpha preserved",
+      "visual_acceptance": "not_evaluated"
+    }
+  },
+  "full": {
+    "1024": {
+      "backend": {
+        "binding": "resvg-py",
+        "version": "0.5.0",
+        "resvg": "0.48.1"
+      },
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "source_sha256": "befe21919a4319d46d72f102ebac5d75b464b9d8641f56ec96b454687b213ba0",
+      "png_sha256": "cd987244e340a06311b66951a99a15533332536ee65581142b7625e3bc0abe05",
+      "background": "unpainted; source alpha preserved",
+      "visual_acceptance": "not_evaluated"
+    },
+    "128": {
+      "backend": {
+        "binding": "resvg-py",
+        "version": "0.5.0",
+        "resvg": "0.48.1"
+      },
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "source_sha256": "befe21919a4319d46d72f102ebac5d75b464b9d8641f56ec96b454687b213ba0",
+      "png_sha256": "614aa63e087e2f21aa34cbbf310710d7412a9573492678beadbd4ff2c4d75bb1",
+      "background": "unpainted; source alpha preserved",
+      "visual_acceptance": "not_evaluated"
+    },
+    "48": {
+      "backend": {
+        "binding": "resvg-py",
+        "version": "0.5.0",
+        "resvg": "0.48.1"
+      },
+      "width": 48,
+      "height": 48,
+      "mode": "RGBA",
+      "source_sha256": "befe21919a4319d46d72f102ebac5d75b464b9d8641f56ec96b454687b213ba0",
+      "png_sha256": "1a6d92309025e3c8d4099c1ba48a74094009cc5fc507256748065f2eaaefccc9",
+      "background": "unpainted; source alpha preserved",
+      "visual_acceptance": "not_evaluated"
+    },
+    "24": {
+      "backend": {
+        "binding": "resvg-py",
+        "version": "0.5.0",
+        "resvg": "0.48.1"
+      },
+      "width": 24,
+      "height": 24,
+      "mode": "RGBA",
+      "source_sha256": "befe21919a4319d46d72f102ebac5d75b464b9d8641f56ec96b454687b213ba0",
+      "png_sha256": "c5fd1699a5c41bf671306adb5f5727338392abc130e93d972c1470344039334d",
+      "background": "unpainted; source alpha preserved",
+      "visual_acceptance": "not_evaluated"
+    }
+  },
+  "scope": {
+    "mechanical_render": "completed",
+    "artistic_acceptance": "pending user",
+    "image_generation_model_used": false,
+    "small_previews": "actual renders, not downsampled 1024 image"
+  }
+}

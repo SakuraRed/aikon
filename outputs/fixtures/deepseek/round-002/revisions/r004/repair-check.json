@@ -1,0 +1,28 @@
+{
+  "source_revision": "r003",
+  "repair_revision": "r004",
+  "changed_pixels_1024": 134,
+  "changed_bbox_1024": [
+    58,
+    632,
+    66,
+    682
+  ],
+  "reported_roi_nonopaque_before": 19,
+  "same_pixels_nonopaque_after": 0,
+  "same_pixels_alpha_after": [
+    255
+  ],
+  "short_svg_byte_equal": true,
+  "short_png_vs_archived_svg": {
+    "1024": true,
+    "128": true,
+    "48": true,
+    "24": true
+  },
+  "full_svg_sha256": "ca145845664d586e384dc5d23173656b1a81d6c00c65fab26b501d5a45ca8232",
+  "full_png_sha256": "a122429a95715e063d562983325a404e9f2e6d04060304187bf2a0a99c81fc9f",
+  "method": "Opaque left side-hair material overlap path; no filter, blur, canvas fill or threshold change.",
+  "independent_validation": "requested separately; this file reports only local repair checks",
+  "user_acceptance": "pending"
+}

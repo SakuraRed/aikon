@@ -13,6 +13,7 @@ on:
       - 'docs/validation/paint-fields/**'
       - 'ref/**'
       - 'outputs/calibration/illustration/*-imagegen-*.png'
+      - 'outputs/fixtures/**/round-002/**'
   push:
     branches: [main]
     paths:
@@ -25,6 +26,7 @@ on:
       - 'docs/validation/paint-fields/**'
       - 'ref/**'
       - 'outputs/calibration/illustration/*-imagegen-*.png'
+      - 'outputs/fixtures/**/round-002/**'
 
 permissions:
   contents: read
@@ -77,6 +79,15 @@ jobs:
         # The entrypoint itself calls run_bounded, allowing cleanup to finish
         # without a competing outer subprocess timeout killing its supervisor.
         run: python -B tools/run_visual_e2e.py --output .local/e2e
+      - name: Review natural gloss profile samples
+        if: ${{ !cancelled() && steps.dependencies.outcome == 'success' }}
+        timeout-minutes: 2
+        run: >-
+          python -B tools/review_gloss_pairs.py
+          --pair-dir outputs/fixtures/deepseek/round-002
+          --pair-dir outputs/fixtures/endministrator-female/round-002
+          --pair-dir outputs/fixtures/endministrator-male/round-002
+          --output .local/e2e/gloss-v2
       - name: Keep visual evidence even after failure
         id: evidence_artifact
         timeout-minutes: 2

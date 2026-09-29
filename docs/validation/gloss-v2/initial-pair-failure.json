@@ -1,0 +1,1909 @@
+{
+  "schema": "aikon.gloss-pairs.v1",
+  "status": "fail",
+  "backend": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "sizes": [
+    1024,
+    128,
+    48,
+    24
+  ],
+  "pairs": [
+    {
+      "pair_dir": "E:\\GH\\aikon\\outputs\\fixtures\\deepseek\\round-002",
+      "status": "fail",
+      "profiles": {
+        "short": {
+          "status": "pass",
+          "issues": [],
+          "renders": [
+            {
+              "size": 1024,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\01-deepseek-round-002\\short-1024.png",
+              "png_sha256": "79daef9dc927a85565e9956f971789ab1c2c1549650e5830cf5e5be12a17fc3b",
+              "rgba_sha256": "66ff6160641099d1a08c3d12e74c8bff7ac664cea4a2f7da64d9fbbcac164eba",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\deepseek\\round-002\\short-1024.png",
+                "png_sha256": "79daef9dc927a85565e9956f971789ab1c2c1549650e5830cf5e5be12a17fc3b",
+                "rgba_sha256": "66ff6160641099d1a08c3d12e74c8bff7ac664cea4a2f7da64d9fbbcac164eba",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 128,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\01-deepseek-round-002\\short-128.png",
+              "png_sha256": "cb0b510f53d90a5d958913eb5e378a34fac99f17b373661de87044a50e3fc99c",
+              "rgba_sha256": "cd1812b00c0db3484bf0d78dc791b42b1805c22416c9272ab6a83c6c95fbbb51",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\deepseek\\round-002\\short-128.png",
+                "png_sha256": "cb0b510f53d90a5d958913eb5e378a34fac99f17b373661de87044a50e3fc99c",
+                "rgba_sha256": "cd1812b00c0db3484bf0d78dc791b42b1805c22416c9272ab6a83c6c95fbbb51",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 48,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\01-deepseek-round-002\\short-48.png",
+              "png_sha256": "06040fc2a3e61feb7829a0ccca73cb7c402632d34d02d300ec41fbaf53594ded",
+              "rgba_sha256": "69ab9e524e985ce3bad0d8c52362864f369fa0baafd2fc928ba75689e368df44",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\deepseek\\round-002\\short-48.png",
+                "png_sha256": "06040fc2a3e61feb7829a0ccca73cb7c402632d34d02d300ec41fbaf53594ded",
+                "rgba_sha256": "69ab9e524e985ce3bad0d8c52362864f369fa0baafd2fc928ba75689e368df44",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 24,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\01-deepseek-round-002\\short-24.png",
+              "png_sha256": "93ed34ea4d319feb7086b139de1ca575862b139dea53675b401446bcebc84c8c",
+              "rgba_sha256": "42a72bc86ea1d7266b81cf8da4190767e8588415f64f97bd02fc9a2082255813",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\deepseek\\round-002\\short-24.png",
+                "png_sha256": "93ed34ea4d319feb7086b139de1ca575862b139dea53675b401446bcebc84c8c",
+                "rgba_sha256": "42a72bc86ea1d7266b81cf8da4190767e8588415f64f97bd02fc9a2082255813",
+                "mismatched_pixels": 0
+              }
+            }
+          ],
+          "source": "E:\\GH\\aikon\\outputs\\fixtures\\deepseek\\round-002\\short.svg",
+          "svg_sha256": "d18985e9edd77bc7d2b4d5f541b22e3ec2f7eb563a955139a5a859cdda3cdd73",
+          "structure": {
+            "drawable_count_including_definitions": 28,
+            "gradient_count": 16,
+            "path_coordinate_count": 698,
+            "geometry_sha256": "b0161fdf0bfa33875ffc233ee31af621a5ad0b1cdec45b02211de52446b6f8ea",
+            "gradients": [
+              {
+                "id": "skin",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "hair-field",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "front-lock",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "side-lock",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "left-lock",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "crown-light",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "hair-return",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "hair-seam",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "fabric",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "fabric-reverse",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "bow",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "bow-turn",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "eye",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "eye-edge",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "blush",
+                "type": "radialGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "collar",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              }
+            ]
+          },
+          "visible_geometry_boundary_rgba_sha256": "fbcfb2f03a42e42cff6bb86164b42b02c3b3c2576b368cedfd62169ee64e1a4d",
+          "canonical_rerender_pixels_equal": true,
+          "pixels": {
+            "alpha": {
+              "transparent_pixels": 109346,
+              "occupied_pixels": 939230,
+              "opaque_pixels": 937416,
+              "interior_pixels": 932015,
+              "interior_alpha_below_254": 0,
+              "erosion_pixels": 3,
+              "erosion_neighborhood": "square",
+              "defect_sample_xy_alpha": [],
+              "defect_bbox_xyxy": null
+            },
+            "eyes": {
+              "eye-left": {
+                "expected_opaque_pixels": 18164,
+                "visible_pixels": 18164,
+                "visible_fraction": 1.0,
+                "touches_canvas_edge": false,
+                "components": 1,
+                "method": "actual rendered depth matte; declared eye-specific overlays included"
+              },
+              "eye-right": {
+                "expected_opaque_pixels": 17002,
+                "visible_pixels": 17002,
+                "visible_fraction": 1.0,
+                "touches_canvas_edge": false,
+                "components": 1,
+                "method": "actual rendered depth matte; declared eye-specific overlays included"
+              }
+            },
+            "texture": {
+              "status": "advisory_only",
+              "luminance_highpass_rms": 3.542792689519663,
+              "sigma_pixels": 1,
+              "scope": "opaque silhouette interior; contains legal internal edges/gloss; not a noise verdict or art score"
+            },
+            "issues": []
+          }
+        },
+        "full": {
+          "status": "fail",
+          "issues": [
+            "translucent_material_interior"
+          ],
+          "renders": [
+            {
+              "size": 1024,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\01-deepseek-round-002\\full-1024.png",
+              "png_sha256": "ac33c661a36aad5f43930a8f4ca471df50bab6d9dd2029ac79e3cf2375f70198",
+              "rgba_sha256": "952cf99ec431714efd52cfa45ebfc10dbe234c5d8e2728e2fb6ae0ae38bd1ee9",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\deepseek\\round-002\\full-1024.png",
+                "png_sha256": "ac33c661a36aad5f43930a8f4ca471df50bab6d9dd2029ac79e3cf2375f70198",
+                "rgba_sha256": "952cf99ec431714efd52cfa45ebfc10dbe234c5d8e2728e2fb6ae0ae38bd1ee9",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 128,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\01-deepseek-round-002\\full-128.png",
+              "png_sha256": "179a507c350df2e89028fa2c863891d585cad3ebc01d5c1770733f6c4c0535cf",
+              "rgba_sha256": "db892a3238467f924fcba827d78f0173df39b01f1d6e87a36ce3bec399f94b78",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\deepseek\\round-002\\full-128.png",
+                "png_sha256": "179a507c350df2e89028fa2c863891d585cad3ebc01d5c1770733f6c4c0535cf",
+                "rgba_sha256": "db892a3238467f924fcba827d78f0173df39b01f1d6e87a36ce3bec399f94b78",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 48,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\01-deepseek-round-002\\full-48.png",
+              "png_sha256": "4ba607e7a347ff8b6c71807b7ae23593c62698bc47981475760fcfc9f71441cb",
+              "rgba_sha256": "b47057d805d8f8214acff14d4ea8fafc8db7468142d392c9aec89a68b57152bf",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\deepseek\\round-002\\full-48.png",
+                "png_sha256": "4ba607e7a347ff8b6c71807b7ae23593c62698bc47981475760fcfc9f71441cb",
+                "rgba_sha256": "b47057d805d8f8214acff14d4ea8fafc8db7468142d392c9aec89a68b57152bf",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 24,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\01-deepseek-round-002\\full-24.png",
+              "png_sha256": "412fdb6b890eb5c4985788f7522a072cdc86f0a4afad2724e9d154299be91ad7",
+              "rgba_sha256": "cde1f3ca3a87f8dbef4c7579c141eb0718ddbb065cb9a7a2914f1eb2052635da",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\deepseek\\round-002\\full-24.png",
+                "png_sha256": "412fdb6b890eb5c4985788f7522a072cdc86f0a4afad2724e9d154299be91ad7",
+                "rgba_sha256": "cde1f3ca3a87f8dbef4c7579c141eb0718ddbb065cb9a7a2914f1eb2052635da",
+                "mismatched_pixels": 0
+              }
+            }
+          ],
+          "source": "E:\\GH\\aikon\\outputs\\fixtures\\deepseek\\round-002\\full.svg",
+          "svg_sha256": "8e076d9becc798b4382b9dfe435dff9a553ff952e668bf53a3fbc814155459da",
+          "structure": {
+            "drawable_count_including_definitions": 46,
+            "gradient_count": 16,
+            "path_coordinate_count": 1090,
+            "geometry_sha256": "e70864f63698e94f8ea6bb6fe772bac85bd861da71341f0d49cbf6d620c0a437",
+            "gradients": [
+              {
+                "id": "skin",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "hair-field",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "front-lock",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "side-lock",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "left-lock",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "crown-light",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "hair-return",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "hair-seam",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "fabric",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "fabric-reverse",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "bow",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "bow-turn",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "eye",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "eye-edge",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "blush",
+                "type": "radialGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "collar",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              }
+            ]
+          },
+          "visible_geometry_boundary_rgba_sha256": "482e560b98bb4de43372b756b00456bf14fc6f1638c951a29a943ba64ca66655",
+          "canonical_rerender_pixels_equal": true,
+          "pixels": {
+            "alpha": {
+              "transparent_pixels": 333986,
+              "occupied_pixels": 714590,
+              "opaque_pixels": 710909,
+              "interior_pixels": 700260,
+              "interior_alpha_below_254": 19,
+              "erosion_pixels": 3,
+              "erosion_neighborhood": "square",
+              "defect_sample_xy_alpha": [
+                [
+                  62,
+                  632,
+                  224
+                ],
+                [
+                  62,
+                  634,
+                  224
+                ],
+                [
+                  62,
+                  635,
+                  240
+                ],
+                [
+                  62,
+                  636,
+                  208
+                ],
+                [
+                  62,
+                  637,
+                  208
+                ],
+                [
+                  61,
+                  638,
+                  240
+                ],
+                [
+                  62,
+                  638,
+                  207
+                ],
+                [
+                  61,
+                  639,
+                  192
+                ],
+                [
+                  61,
+                  640,
+                  144
+                ],
+                [
+                  61,
+                  641,
+                  176
+                ],
+                [
+                  61,
+                  642,
+                  128
+                ],
+                [
+                  61,
+                  643,
+                  96
+                ],
+                [
+                  61,
+                  644,
+                  64
+                ],
+                [
+                  60,
+                  645,
+                  224
+                ],
+                [
+                  61,
+                  645,
+                  96
+                ],
+                [
+                  60,
+                  646,
+                  192
+                ],
+                [
+                  61,
+                  646,
+                  128
+                ],
+                [
+                  60,
+                  647,
+                  144
+                ],
+                [
+                  61,
+                  647,
+                  128
+                ]
+              ],
+              "defect_bbox_xyxy": [
+                60,
+                632,
+                63,
+                648
+              ]
+            },
+            "eyes": {
+              "eye-left": {
+                "expected_opaque_pixels": 12054,
+                "visible_pixels": 12054,
+                "visible_fraction": 1.0,
+                "touches_canvas_edge": false,
+                "components": 1,
+                "method": "actual rendered depth matte; declared eye-specific overlays included"
+              },
+              "eye-right": {
+                "expected_opaque_pixels": 11276,
+                "visible_pixels": 11276,
+                "visible_fraction": 1.0,
+                "touches_canvas_edge": false,
+                "components": 1,
+                "method": "actual rendered depth matte; declared eye-specific overlays included"
+              }
+            },
+            "texture": {
+              "status": "advisory_only",
+              "luminance_highpass_rms": 4.446038521917579,
+              "sigma_pixels": 1,
+              "scope": "opaque silhouette interior; contains legal internal edges/gloss; not a noise verdict or art score"
+            },
+            "issues": [
+              "translucent_material_interior"
+            ]
+          }
+        }
+      },
+      "issues": [],
+      "visual_review": "not_assessed",
+      "user_acceptance": "not_claimed",
+      "geometry_boundary_difference": {
+        "size": 128,
+        "changed_pixels": 8399,
+        "meaning": "visible diagnostic geometry contours, not artistic improvement"
+      },
+      "differences": [
+        {
+          "size": 1024,
+          "changed_rgba_pixels": 906940,
+          "changed_fraction": 0.8649253845214844,
+          "alpha_iou": 0.756742725346179,
+          "premultiplied_rgb_mean_absolute_difference": 63.15681929619484,
+          "meaning": "difference magnitude, not similarity target or aesthetic score"
+        },
+        {
+          "size": 128,
+          "changed_rgba_pixels": 14291,
+          "changed_fraction": 0.87225341796875,
+          "alpha_iou": 0.7575778216742729,
+          "premultiplied_rgb_mean_absolute_difference": 62.18356255425348,
+          "meaning": "difference magnitude, not similarity target or aesthetic score"
+        },
+        {
+          "size": 48,
+          "changed_rgba_pixels": 2050,
+          "changed_fraction": 0.8897569444444444,
+          "alpha_iou": 0.756652152878568,
+          "premultiplied_rgb_mean_absolute_difference": 60.256308437726936,
+          "meaning": "difference magnitude, not similarity target or aesthetic score"
+        },
+        {
+          "size": 24,
+          "changed_rgba_pixels": 521,
+          "changed_fraction": 0.9045138888888888,
+          "alpha_iou": 0.7567567567567568,
+          "premultiplied_rgb_mean_absolute_difference": 56.944414941902686,
+          "meaning": "difference magnitude, not similarity target or aesthetic score"
+        }
+      ]
+    },
+    {
+      "pair_dir": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-female\\round-002",
+      "status": "fail",
+      "profiles": {
+        "short": {
+          "status": "pass",
+          "issues": [],
+          "renders": [
+            {
+              "size": 1024,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\02-endministrator-female-round-002\\short-1024.png",
+              "png_sha256": "2ca1f6bb53409fcf1a2a4d9c72a29c38d4a7984ea3ba5442c52d7de40662edd2",
+              "rgba_sha256": "bbcdd75d0ab78e4b830d69a031de6c07fc3708b805295f6cfe54dc633e0743f8",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-female\\round-002\\short-1024.png",
+                "png_sha256": "2ca1f6bb53409fcf1a2a4d9c72a29c38d4a7984ea3ba5442c52d7de40662edd2",
+                "rgba_sha256": "bbcdd75d0ab78e4b830d69a031de6c07fc3708b805295f6cfe54dc633e0743f8",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 128,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\02-endministrator-female-round-002\\short-128.png",
+              "png_sha256": "33a27a596b7ec2d65bb36df11d6d4531a3f9180641fc25d10c0f1c9d94584454",
+              "rgba_sha256": "69ab8f4ab2983859ba1d521af6b0fad8c980cf1e6d9185e65895730ca00a8944",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-female\\round-002\\short-128.png",
+                "png_sha256": "33a27a596b7ec2d65bb36df11d6d4531a3f9180641fc25d10c0f1c9d94584454",
+                "rgba_sha256": "69ab8f4ab2983859ba1d521af6b0fad8c980cf1e6d9185e65895730ca00a8944",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 48,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\02-endministrator-female-round-002\\short-48.png",
+              "png_sha256": "ecdf21ee95a73ecb03c81bdf668a46298a07870c0406304c48d5db2416e68415",
+              "rgba_sha256": "15d4d7f192142bbe9fbc4274ad451147815f4232ebc82c8b98bd9d79650357a1",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-female\\round-002\\short-48.png",
+                "png_sha256": "ecdf21ee95a73ecb03c81bdf668a46298a07870c0406304c48d5db2416e68415",
+                "rgba_sha256": "15d4d7f192142bbe9fbc4274ad451147815f4232ebc82c8b98bd9d79650357a1",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 24,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\02-endministrator-female-round-002\\short-24.png",
+              "png_sha256": "c3d81ca69dcf2d4337d3c80272f28adcb52043133565e8270bbf198fe3873a1d",
+              "rgba_sha256": "12f33409c44ffc87a6e707fea4d2bf25959b4547ab8640a38f9a0ae8713e867e",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-female\\round-002\\short-24.png",
+                "png_sha256": "c3d81ca69dcf2d4337d3c80272f28adcb52043133565e8270bbf198fe3873a1d",
+                "rgba_sha256": "12f33409c44ffc87a6e707fea4d2bf25959b4547ab8640a38f9a0ae8713e867e",
+                "mismatched_pixels": 0
+              }
+            }
+          ],
+          "source": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-female\\round-002\\short.svg",
+          "svg_sha256": "ecbeac765c903483f942f17d957f35a78d6da21824d7133bde3572c0503970c9",
+          "structure": {
+            "drawable_count_including_definitions": 17,
+            "gradient_count": 14,
+            "path_coordinate_count": 476,
+            "geometry_sha256": "223bb1454ace34ed981f0fde7b577552ff6ae476c41c391d2f42af65ed6abc5f",
+            "gradients": [
+              {
+                "id": "back-paint",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.62,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "hair-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.42,
+                  0.75,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "left-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.38,
+                  0.72,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "right-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  0.86,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "fringe-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.34,
+                  0.69,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "face-paint",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.58,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "eye-paint",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.48,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "eye-edge",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.32,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "silver-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.35,
+                  0.72,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "visor-paint",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.52,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "collar-paint",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.54,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "strand-gloss",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.42,
+                  1.0
+                ],
+                "has_translucent_stops": true
+              },
+              {
+                "id": "cheek-paint",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "contact-paint",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              }
+            ]
+          },
+          "visible_geometry_boundary_rgba_sha256": "d104023b425609a7618a6427705288438ec0bb7f9accef7814b566a2301521f9",
+          "canonical_rerender_pixels_equal": true,
+          "pixels": {
+            "alpha": {
+              "transparent_pixels": 134590,
+              "occupied_pixels": 913986,
+              "opaque_pixels": 912208,
+              "interior_pixels": 906795,
+              "interior_alpha_below_254": 0,
+              "erosion_pixels": 3,
+              "erosion_neighborhood": "square",
+              "defect_sample_xy_alpha": [],
+              "defect_bbox_xyxy": null
+            },
+            "eyes": {
+              "eye-left": {
+                "expected_opaque_pixels": 20967,
+                "visible_pixels": 20967,
+                "visible_fraction": 1.0,
+                "touches_canvas_edge": false,
+                "components": 1,
+                "method": "actual rendered depth matte; declared eye-specific overlays included"
+              },
+              "eye-right": {
+                "expected_opaque_pixels": 20969,
+                "visible_pixels": 20968,
+                "visible_fraction": 0.9999523105536745,
+                "touches_canvas_edge": false,
+                "components": 1,
+                "method": "actual rendered depth matte; declared eye-specific overlays included"
+              }
+            },
+            "texture": {
+              "status": "advisory_only",
+              "luminance_highpass_rms": 4.961083413024366,
+              "sigma_pixels": 1,
+              "scope": "opaque silhouette interior; contains legal internal edges/gloss; not a noise verdict or art score"
+            },
+            "issues": []
+          }
+        },
+        "full": {
+          "status": "fail",
+          "issues": [
+            "translucent_material_interior"
+          ],
+          "renders": [
+            {
+              "size": 1024,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\02-endministrator-female-round-002\\full-1024.png",
+              "png_sha256": "cd987244e340a06311b66951a99a15533332536ee65581142b7625e3bc0abe05",
+              "rgba_sha256": "bae106d0ec620d69eece2bc4f9b21ae46aadd3b98d6ecf3d6899158c032771b6",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-female\\round-002\\full-1024.png",
+                "png_sha256": "cd987244e340a06311b66951a99a15533332536ee65581142b7625e3bc0abe05",
+                "rgba_sha256": "bae106d0ec620d69eece2bc4f9b21ae46aadd3b98d6ecf3d6899158c032771b6",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 128,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\02-endministrator-female-round-002\\full-128.png",
+              "png_sha256": "614aa63e087e2f21aa34cbbf310710d7412a9573492678beadbd4ff2c4d75bb1",
+              "rgba_sha256": "7e9d94448aeaea4257514e4563afeb333c3ab7e046b9b9e08deebcc9d086ff57",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-female\\round-002\\full-128.png",
+                "png_sha256": "614aa63e087e2f21aa34cbbf310710d7412a9573492678beadbd4ff2c4d75bb1",
+                "rgba_sha256": "7e9d94448aeaea4257514e4563afeb333c3ab7e046b9b9e08deebcc9d086ff57",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 48,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\02-endministrator-female-round-002\\full-48.png",
+              "png_sha256": "1a6d92309025e3c8d4099c1ba48a74094009cc5fc507256748065f2eaaefccc9",
+              "rgba_sha256": "f9d31fee644aceeebb60fcde38d3711d961f7a25d886566ea9cc9a23c06a043b",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-female\\round-002\\full-48.png",
+                "png_sha256": "1a6d92309025e3c8d4099c1ba48a74094009cc5fc507256748065f2eaaefccc9",
+                "rgba_sha256": "f9d31fee644aceeebb60fcde38d3711d961f7a25d886566ea9cc9a23c06a043b",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 24,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\02-endministrator-female-round-002\\full-24.png",
+              "png_sha256": "c5fd1699a5c41bf671306adb5f5727338392abc130e93d972c1470344039334d",
+              "rgba_sha256": "a5e51e498e8842b06ce16556101fd39ef14b5dd8b0c9ab74b52900e3cc7d7ece",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-female\\round-002\\full-24.png",
+                "png_sha256": "c5fd1699a5c41bf671306adb5f5727338392abc130e93d972c1470344039334d",
+                "rgba_sha256": "a5e51e498e8842b06ce16556101fd39ef14b5dd8b0c9ab74b52900e3cc7d7ece",
+                "mismatched_pixels": 0
+              }
+            }
+          ],
+          "source": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-female\\round-002\\full.svg",
+          "svg_sha256": "befe21919a4319d46d72f102ebac5d75b464b9d8641f56ec96b454687b213ba0",
+          "structure": {
+            "drawable_count_including_definitions": 33,
+            "gradient_count": 14,
+            "path_coordinate_count": 844,
+            "geometry_sha256": "63f4494906abb85c53ddbc2aa29ffb3158a8f14fd9ba228b28ecb70096540fed",
+            "gradients": [
+              {
+                "id": "back-paint",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.62,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "hair-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.42,
+                  0.75,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "left-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.38,
+                  0.72,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "right-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  0.86,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "fringe-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.34,
+                  0.69,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "face-paint",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.58,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "eye-paint",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.48,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "eye-edge",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.32,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "silver-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.35,
+                  0.72,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "visor-paint",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.52,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "collar-paint",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.54,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "strand-gloss",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.42,
+                  1.0
+                ],
+                "has_translucent_stops": true
+              },
+              {
+                "id": "cheek-paint",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "contact-paint",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              }
+            ]
+          },
+          "visible_geometry_boundary_rgba_sha256": "de369f676edb550b9044bc105d34ac2dc33d9332895739962f1e16262a9625b8",
+          "canonical_rerender_pixels_equal": true,
+          "pixels": {
+            "alpha": {
+              "transparent_pixels": 314578,
+              "occupied_pixels": 733998,
+              "opaque_pixels": 731205,
+              "interior_pixels": 722967,
+              "interior_alpha_below_254": 5,
+              "erosion_pixels": 3,
+              "erosion_neighborhood": "square",
+              "defect_sample_xy_alpha": [
+                [
+                  7,
+                  652,
+                  231
+                ],
+                [
+                  784,
+                  982,
+                  253
+                ],
+                [
+                  784,
+                  983,
+                  219
+                ],
+                [
+                  485,
+                  1023,
+                  192
+                ],
+                [
+                  486,
+                  1023,
+                  229
+                ]
+              ],
+              "defect_bbox_xyxy": [
+                7,
+                652,
+                785,
+                1024
+              ]
+            },
+            "eyes": {
+              "eye-left": {
+                "expected_opaque_pixels": 14267,
+                "visible_pixels": 14267,
+                "visible_fraction": 1.0,
+                "touches_canvas_edge": false,
+                "components": 1,
+                "method": "actual rendered depth matte; declared eye-specific overlays included"
+              },
+              "eye-right": {
+                "expected_opaque_pixels": 14262,
+                "visible_pixels": 14262,
+                "visible_fraction": 1.0,
+                "touches_canvas_edge": false,
+                "components": 1,
+                "method": "actual rendered depth matte; declared eye-specific overlays included"
+              }
+            },
+            "texture": {
+              "status": "advisory_only",
+              "luminance_highpass_rms": 5.3971174664598,
+              "sigma_pixels": 1,
+              "scope": "opaque silhouette interior; contains legal internal edges/gloss; not a noise verdict or art score"
+            },
+            "issues": [
+              "translucent_material_interior"
+            ]
+          }
+        }
+      },
+      "issues": [],
+      "visual_review": "not_assessed",
+      "user_acceptance": "not_claimed",
+      "geometry_boundary_difference": {
+        "size": 128,
+        "changed_pixels": 7922,
+        "meaning": "visible diagnostic geometry contours, not artistic improvement"
+      },
+      "differences": [
+        {
+          "size": 1024,
+          "changed_rgba_pixels": 886470,
+          "changed_fraction": 0.8454036712646484,
+          "alpha_iou": 0.7959455802503623,
+          "premultiplied_rgb_mean_absolute_difference": 50.74738394170026,
+          "meaning": "difference magnitude, not similarity target or aesthetic score"
+        },
+        {
+          "size": 128,
+          "changed_rgba_pixels": 13973,
+          "changed_fraction": 0.85284423828125,
+          "alpha_iou": 0.7964101131442939,
+          "premultiplied_rgb_mean_absolute_difference": 50.14875105315564,
+          "meaning": "difference magnitude, not similarity target or aesthetic score"
+        },
+        {
+          "size": 48,
+          "changed_rgba_pixels": 2000,
+          "changed_fraction": 0.8680555555555556,
+          "alpha_iou": 0.7975186104218362,
+          "premultiplied_rgb_mean_absolute_difference": 48.72493134985475,
+          "meaning": "difference magnitude, not similarity target or aesthetic score"
+        },
+        {
+          "size": 24,
+          "changed_rgba_pixels": 509,
+          "changed_fraction": 0.8836805555555556,
+          "alpha_iou": 0.7988165680473372,
+          "premultiplied_rgb_mean_absolute_difference": 46.24881082062455,
+          "meaning": "difference magnitude, not similarity target or aesthetic score"
+        }
+      ]
+    },
+    {
+      "pair_dir": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-male\\round-002",
+      "status": "fail",
+      "profiles": {
+        "short": {
+          "status": "fail",
+          "issues": [
+            "translucent_material_interior"
+          ],
+          "renders": [
+            {
+              "size": 1024,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\03-endministrator-male-round-002\\short-1024.png",
+              "png_sha256": "ab356784ffd95e6c8f08b233e083468c630d4cca91e995d6f2ec53a5d223f815",
+              "rgba_sha256": "feecbca01b637f67f543555b9d329d2c322b9ff3c16d51914b74eabdf6a47b56",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-male\\round-002\\short-1024.png",
+                "png_sha256": "ab356784ffd95e6c8f08b233e083468c630d4cca91e995d6f2ec53a5d223f815",
+                "rgba_sha256": "feecbca01b637f67f543555b9d329d2c322b9ff3c16d51914b74eabdf6a47b56",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 128,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\03-endministrator-male-round-002\\short-128.png",
+              "png_sha256": "ec758e41c640e511349e9cddd51ce7e7ec2e81f00586fa46910534271b4332ab",
+              "rgba_sha256": "977ea66c98ddf9e3dd88ca6ed19a86ba55bf5fab75de95badfb192ffa3db1b34",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-male\\round-002\\short-128.png",
+                "png_sha256": "ec758e41c640e511349e9cddd51ce7e7ec2e81f00586fa46910534271b4332ab",
+                "rgba_sha256": "977ea66c98ddf9e3dd88ca6ed19a86ba55bf5fab75de95badfb192ffa3db1b34",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 48,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\03-endministrator-male-round-002\\short-48.png",
+              "png_sha256": "66c07d2d54105dc2327ea75b9a2ad169fdbd2b2a5dd7f49bdcecd062d82b34a2",
+              "rgba_sha256": "f98c8f5596788613667d0302225cdcbead78559cb5c0af62d31123af4494727a",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-male\\round-002\\short-48.png",
+                "png_sha256": "66c07d2d54105dc2327ea75b9a2ad169fdbd2b2a5dd7f49bdcecd062d82b34a2",
+                "rgba_sha256": "f98c8f5596788613667d0302225cdcbead78559cb5c0af62d31123af4494727a",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 24,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\03-endministrator-male-round-002\\short-24.png",
+              "png_sha256": "68fdc596569978fe64a2ab1c7fdd3e8422771c03d016fd043cb91ca39018ff47",
+              "rgba_sha256": "0e430c3a007bb7d3ad2f050794c81cd5fbf66fc9bbb42ec983d88533e89556fb",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-male\\round-002\\short-24.png",
+                "png_sha256": "68fdc596569978fe64a2ab1c7fdd3e8422771c03d016fd043cb91ca39018ff47",
+                "rgba_sha256": "0e430c3a007bb7d3ad2f050794c81cd5fbf66fc9bbb42ec983d88533e89556fb",
+                "mismatched_pixels": 0
+              }
+            }
+          ],
+          "source": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-male\\round-002\\short.svg",
+          "svg_sha256": "2b2ca28c875a37e686b081893dc71afb9c9b1936bc8f90f9322101864060ff91",
+          "structure": {
+            "drawable_count_including_definitions": 16,
+            "gradient_count": 12,
+            "path_coordinate_count": 526,
+            "geometry_sha256": "5aebf9c35706e45fa58dd40b78cc49a153c5795a4d45890aa0ee2ea944480d86",
+            "gradients": [
+              {
+                "id": "rear-paint",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.65,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "crown-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.4,
+                  0.75,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "swept-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.4,
+                  0.78,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "central-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.45,
+                  0.77,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "side-paint",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "skin-paint",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.55,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "eye-paint",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.49,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "eye-edge",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.35,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "visor-paint",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.4,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "collar-paint",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.62,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "broad-gloss",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.43,
+                  1.0
+                ],
+                "has_translucent_stops": true
+              },
+              {
+                "id": "cheek-paint",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              }
+            ]
+          },
+          "visible_geometry_boundary_rgba_sha256": "13b91d890a409ff44a316c52b98990d64b810ab1dfa5d8b7f03af7b6b5d50ce8",
+          "canonical_rerender_pixels_equal": true,
+          "pixels": {
+            "alpha": {
+              "transparent_pixels": 261323,
+              "occupied_pixels": 787253,
+              "opaque_pixels": 783947,
+              "interior_pixels": 774234,
+              "interior_alpha_below_254": 1,
+              "erosion_pixels": 3,
+              "erosion_neighborhood": "square",
+              "defect_sample_xy_alpha": [
+                [
+                  45,
+                  494,
+                  225
+                ]
+              ],
+              "defect_bbox_xyxy": [
+                45,
+                494,
+                46,
+                495
+              ]
+            },
+            "eyes": {
+              "eye-left": {
+                "expected_opaque_pixels": 19877,
+                "visible_pixels": 19877,
+                "visible_fraction": 1.0,
+                "touches_canvas_edge": false,
+                "components": 1,
+                "method": "actual rendered depth matte; declared eye-specific overlays included"
+              },
+              "eye-right": {
+                "expected_opaque_pixels": 19859,
+                "visible_pixels": 19854,
+                "visible_fraction": 0.9997482249861523,
+                "touches_canvas_edge": false,
+                "components": 1,
+                "method": "actual rendered depth matte; declared eye-specific overlays included"
+              }
+            },
+            "texture": {
+              "status": "advisory_only",
+              "luminance_highpass_rms": 4.1837643415341,
+              "sigma_pixels": 1,
+              "scope": "opaque silhouette interior; contains legal internal edges/gloss; not a noise verdict or art score"
+            },
+            "issues": [
+              "translucent_material_interior"
+            ]
+          }
+        },
+        "full": {
+          "status": "fail",
+          "issues": [
+            "translucent_material_interior"
+          ],
+          "renders": [
+            {
+              "size": 1024,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\03-endministrator-male-round-002\\full-1024.png",
+              "png_sha256": "d96e9a3f04fc7fe2c22dd5c1ce11d6dec1cfec97fbcebe8d110e241265eb91c5",
+              "rgba_sha256": "dcae2b54620cefe259332f4e0656bd0921a9be72a158ea4e3c65e7361e917811",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-male\\round-002\\full-1024.png",
+                "png_sha256": "d96e9a3f04fc7fe2c22dd5c1ce11d6dec1cfec97fbcebe8d110e241265eb91c5",
+                "rgba_sha256": "dcae2b54620cefe259332f4e0656bd0921a9be72a158ea4e3c65e7361e917811",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 128,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\03-endministrator-male-round-002\\full-128.png",
+              "png_sha256": "235bcbfb1be1b28324adec7c48aad8a593ceaff55ec530bf09f59350e872f699",
+              "rgba_sha256": "4f1bf55086e9d5fbe3d6c821136516815c3c9c8618605f648f0931689e90f170",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-male\\round-002\\full-128.png",
+                "png_sha256": "235bcbfb1be1b28324adec7c48aad8a593ceaff55ec530bf09f59350e872f699",
+                "rgba_sha256": "4f1bf55086e9d5fbe3d6c821136516815c3c9c8618605f648f0931689e90f170",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 48,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\03-endministrator-male-round-002\\full-48.png",
+              "png_sha256": "301643eb3a6c57235bc0e4c3c2b043b0fe6b6890a51e73cce954ca682be8a493",
+              "rgba_sha256": "1a83edf11f81b9d389dc1976876c3f7d72f3ad3d0be8719d92a9dd4c823ace56",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-male\\round-002\\full-48.png",
+                "png_sha256": "301643eb3a6c57235bc0e4c3c2b043b0fe6b6890a51e73cce954ca682be8a493",
+                "rgba_sha256": "1a83edf11f81b9d389dc1976876c3f7d72f3ad3d0be8719d92a9dd4c823ace56",
+                "mismatched_pixels": 0
+              }
+            },
+            {
+              "size": 24,
+              "file": "E:\\GH\\aikon\\.local\\gloss-review-all\\03-endministrator-male-round-002\\full-24.png",
+              "png_sha256": "721950a47c1835dcda2369281a3fc5717c29ff98c7942a72288ddf1f4697c8c2",
+              "rgba_sha256": "e86388b6c194fdc8670423d2aef8767055cc4103556146956e51ba5589cc7741",
+              "cached_preview": {
+                "status": "match",
+                "file": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-male\\round-002\\full-24.png",
+                "png_sha256": "721950a47c1835dcda2369281a3fc5717c29ff98c7942a72288ddf1f4697c8c2",
+                "rgba_sha256": "e86388b6c194fdc8670423d2aef8767055cc4103556146956e51ba5589cc7741",
+                "mismatched_pixels": 0
+              }
+            }
+          ],
+          "source": "E:\\GH\\aikon\\outputs\\fixtures\\endministrator-male\\round-002\\full.svg",
+          "svg_sha256": "67b8b70efba5c6565d594b7dcb44bddaa53c8c5b4ef5e9531d6c20d605d11eff",
+          "structure": {
+            "drawable_count_including_definitions": 33,
+            "gradient_count": 12,
+            "path_coordinate_count": 872,
+            "geometry_sha256": "d3b75b750e17e63b83147fa024c586a7ad01ffb085b38c98a2fe8f7a9c921242",
+            "gradients": [
+              {
+                "id": "rear-paint",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.65,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "crown-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.4,
+                  0.75,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "swept-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.4,
+                  0.78,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "central-paint",
+                "type": "linearGradient",
+                "stops": 4,
+                "offsets": [
+                  0.0,
+                  0.45,
+                  0.77,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "side-paint",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.5,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "skin-paint",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.55,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "eye-paint",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.49,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "eye-edge",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.35,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "visor-paint",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.4,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "collar-paint",
+                "type": "linearGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.62,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              },
+              {
+                "id": "broad-gloss",
+                "type": "radialGradient",
+                "stops": 3,
+                "offsets": [
+                  0.0,
+                  0.43,
+                  1.0
+                ],
+                "has_translucent_stops": true
+              },
+              {
+                "id": "cheek-paint",
+                "type": "linearGradient",
+                "stops": 2,
+                "offsets": [
+                  0.0,
+                  1.0
+                ],
+                "has_translucent_stops": false
+              }
+            ]
+          },
+          "visible_geometry_boundary_rgba_sha256": "90994742882c2a36b5442d57a052771c2f750e6fea167af69e60f25f7a9dc178",
+          "canonical_rerender_pixels_equal": true,
+          "pixels": {
+            "alpha": {
+              "transparent_pixels": 412165,
+              "occupied_pixels": 636411,
+              "opaque_pixels": 632594,
+              "interior_pixels": 621622,
+              "interior_alpha_below_254": 2,
+              "erosion_pixels": 3,
+              "erosion_neighborhood": "square",
+              "defect_sample_xy_alpha": [
+                [
+                  426,
+                  1023,
+                  176
+                ],
+                [
+                  427,
+                  1023,
+                  224
+                ]
+              ],
+              "defect_bbox_xyxy": [
+                426,
+                1023,
+                428,
+                1024
+              ]
+            },
+            "eyes": {
+              "eye-left": {
+                "expected_opaque_pixels": 13753,
+                "visible_pixels": 13753,
+                "visible_fraction": 1.0,
+                "touches_canvas_edge": false,
+                "components": 1,
+                "method": "actual rendered depth matte; declared eye-specific overlays included"
+              },
+              "eye-right": {
+                "expected_opaque_pixels": 13749,
+                "visible_pixels": 13746,
+                "visible_fraction": 0.9997818023128955,
+                "touches_canvas_edge": false,
+                "components": 1,
+                "method": "actual rendered depth matte; declared eye-specific overlays included"
+              }
+            },
+            "texture": {
+              "status": "advisory_only",
+              "luminance_highpass_rms": 4.908877290641778,
+              "sigma_pixels": 1,
+              "scope": "opaque silhouette interior; contains legal internal edges/gloss; not a noise verdict or art score"
+            },
+            "issues": [
+              "translucent_material_interior"
+            ]
+          }
+        }
+      },
+      "issues": [],
+      "visual_review": "not_assessed",
+      "user_acceptance": "not_claimed",
+      "geometry_boundary_difference": {
+        "size": 128,
+        "changed_pixels": 7734,
+        "meaning": "visible diagnostic geometry contours, not artistic improvement"
+      },
+      "differences": [
+        {
+          "size": 1024,
+          "changed_rgba_pixels": 789252,
+          "changed_fraction": 0.7526893615722656,
+          "alpha_iou": 0.7339016862574655,
+          "premultiplied_rgb_mean_absolute_difference": 47.56293198329951,
+          "meaning": "difference magnitude, not similarity target or aesthetic score"
+        },
+        {
+          "size": 128,
+          "changed_rgba_pixels": 12517,
+          "changed_fraction": 0.76397705078125,
+          "alpha_iou": 0.7316331305568554,
+          "premultiplied_rgb_mean_absolute_difference": 47.0424884472018,
+          "meaning": "difference magnitude, not similarity target or aesthetic score"
+        },
+        {
+          "size": 48,
+          "changed_rgba_pixels": 1815,
+          "changed_fraction": 0.7877604166666666,
+          "alpha_iou": 0.7310690423162584,
+          "premultiplied_rgb_mean_absolute_difference": 45.845397603485836,
+          "meaning": "difference magnitude, not similarity target or aesthetic score"
+        },
+        {
+          "size": 24,
+          "changed_rgba_pixels": 468,
+          "changed_fraction": 0.8125,
+          "alpha_iou": 0.7317073170731707,
+          "premultiplied_rgb_mean_absolute_difference": 44.428288398692814,
+          "meaning": "difference magnitude, not similarity target or aesthetic score"
+        }
+      ]
+    }
+  ],
+  "visual_review": "not_assessed",
+  "user_acceptance": "not_claimed",
+  "scope": "Static vector budgets, actual alpha/eye-depth checks, source-to-PNG provenance and pair differences. Gradients/gloss are legal. Existing paint-v1 thresholds are unchanged. No naturalness, identity, or cross-model quality claim."
+}

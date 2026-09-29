@@ -1,0 +1,95 @@
+{
+  "method": "Expanded viewBox/canvas to 1100 square without changing any subject coordinates. This reveals actual outside silhouette below original viewport.",
+  "points": [
+    {
+      "xy": [
+        426,
+        1023
+      ],
+      "alpha": 176,
+      "inside_3px_eroded_actual_silhouette": false,
+      "alpha_5x5": [
+        [
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          64,
+          128,
+          176,
+          224,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "xy": [
+        427,
+        1023
+      ],
+      "alpha": 224,
+      "inside_3px_eroded_actual_silhouette": false,
+      "alpha_5x5": [
+        [
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          128,
+          176,
+          224,
+          255,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+}

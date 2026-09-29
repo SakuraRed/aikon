@@ -26,3 +26,9 @@
 用户肯定后续单例整体构图，拒绝纹理和不自然高光；DeepSeek明确改绑r1的主体/模式，旧鲸鱼解释失效。当前保留主几何、以解析paint重建色场、建立反模式及真实像素CI，停止扩量。属于用户明确反馈，无需重投票。
 
 工程取舍与Jev原始条件概率、真实失败及修正见[上色迭代](validation/paint-fields/iteration.md)。[双版本创作闭环](https://github.com/SakuraRed/aikon/issues/5)保持开放，因为单例的发束层次仍需视觉精修，未取得最终接受，也未做跨模型/跨harness实测。
+
+## 同日新反馈：恢复自然光泽和可见profile差异
+
+用户明确认为当前版本完全扁平、双版无区分度；r1中的自然渐变、头发高光和眼缘光泽应保留，full整体采用新附件。当前运行覆盖见[natural-gloss-v2](../skills/aikon/references/natural-gloss-v2.md)，研究与像素剖面见[参考复核](research/natural-gloss-profile-v2.md)。旧窄色差/纯色眼/默认零高光不再约束这一配置，源译文未改。
+
+Jev本次实际条件判断支持 `direct_vector_fields=1.0` 与 `field_and_visual=1.0`；其他候选各为0，原始请求/响应保存在 `validation/gloss-v2/decision-*.json`。这是已委托工程选择，不是成功率、质量评分或用户投票。当前执行直接代码SVG的三个主体六份图，完整看图后交用户审计。

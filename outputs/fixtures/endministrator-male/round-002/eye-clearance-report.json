@@ -1,0 +1,22 @@
+{
+  "short": {
+    "before": {
+      "minimum_eye_to_target_fringe_pixel_distance": 0.0,
+      "eye_opaque_pixels": 20135
+    },
+    "after": {
+      "minimum_eye_to_target_fringe_pixel_distance": 10.63014581273465,
+      "eye_opaque_pixels": 20135
+    }
+  },
+  "full": {
+    "before": {
+      "minimum_eye_to_target_fringe_pixel_distance": 0.0,
+      "eye_opaque_pixels": 13969
+    },
+    "after": {
+      "minimum_eye_to_target_fringe_pixel_distance": 8.602325267042627,
+      "eye_opaque_pixels": 13969
+    }
+  }
+}

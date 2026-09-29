@@ -1,0 +1,48 @@
+{
+  "schema": "aikon.review-gallery.v1",
+  "records": [
+    {
+      "subject": "deepseek",
+      "profile": "short",
+      "svg": "outputs/fixtures/deepseek/round-002/short.svg",
+      "svg_sha256": "d18985e9edd77bc7d2b4d5f541b22e3ec2f7eb563a955139a5a859cdda3cdd73",
+      "preview_sha256": "79daef9dc927a85565e9956f971789ab1c2c1549650e5830cf5e5be12a17fc3b"
+    },
+    {
+      "subject": "deepseek",
+      "profile": "full",
+      "svg": "outputs/fixtures/deepseek/round-002/full.svg",
+      "svg_sha256": "ca145845664d586e384dc5d23173656b1a81d6c00c65fab26b501d5a45ca8232",
+      "preview_sha256": "a122429a95715e063d562983325a404e9f2e6d04060304187bf2a0a99c81fc9f"
+    },
+    {
+      "subject": "endministrator-female",
+      "profile": "short",
+      "svg": "outputs/fixtures/endministrator-female/round-002/short.svg",
+      "svg_sha256": "faf27bc6f8b43e0ee636fb84150eae68ccf1aba05b174451ea74a4e0012e848c",
+      "preview_sha256": "4d72c986041c507940c8952dad7a920aadc55394c39e6809c19df55a1a271ab7"
+    },
+    {
+      "subject": "endministrator-female",
+      "profile": "full",
+      "svg": "outputs/fixtures/endministrator-female/round-002/full.svg",
+      "svg_sha256": "f4697c22ca1a06824c3d4691a6ccabcb095f8aeedaadc2ae9972906f90608a76",
+      "preview_sha256": "9c202c7ae49972ef02f6bc86856fbceb903748f4f6006465a74922f2264400ca"
+    },
+    {
+      "subject": "endministrator-male",
+      "profile": "short",
+      "svg": "outputs/fixtures/endministrator-male/round-002/short.svg",
+      "svg_sha256": "e0c7584f46060eb7139b2dd4fe8ce2cfb4c7c3e1c90f268fb52902c207f3d73d",
+      "preview_sha256": "166aff12f5e549486952f44090444b283ff3f6bd4206f06bbc1e2de8b52991ac"
+    },
+    {
+      "subject": "endministrator-male",
+      "profile": "full",
+      "svg": "outputs/fixtures/endministrator-male/round-002/full.svg",
+      "svg_sha256": "ef952ae6b814682224e2aa6b12f8b2b1ff47eecaa308579b4f2d65afc166bb1f",
+      "preview_sha256": "e0a4edf9763ff405f61a6148f8d08d63b219d8e49e5d65502343dbcb0506a4f6"
+    }
+  ],
+  "user_acceptance": "pending"
+}

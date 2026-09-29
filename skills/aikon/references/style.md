@@ -1,4 +1,6 @@
-# Visual contract — bot portrait v0.1
+# Visual contract — bot portrait
+
+当前用户选择为 [natural-gloss-v2](natural-gloss-v2.md)。r1及新full参考中的连续渐变、头发受光和暗色眼缘光泽是目标的一部分；下文保持capsule语法，旧纯色眼默认已被显式覆盖。
 
 默认是更强的超近景（extreme close-up）：头部与脸填满主要区域，从左下裁切，眼睛完整且靠近视觉中心偏下。精简版与完整版的具体差异见 [profiles](profiles.md)。用户强模式参考的观感优先；只转移风格，不转移其中的主体身份、黑底或水印。
 
@@ -14,9 +16,9 @@ Use a square `viewBox` with a **transparent background**. The helper uses a 512-
 
 The head enters from the lower left and is large enough for the left and bottom boundaries to cut through its silhouette. The chin reaches or exceeds the lower edge. Retain connected transparent space in the upper right. Keep both eyes fully within the visible canvas. Avoid treating the full head's bounding box as proof of facial crop; inspect the face itself. 避免把双眼放得过高而留下大块无内容的下半脸；必要时共同调整脸部尺度、眼位与裁切，并保持头部坐标一致。
 
-Place exactly two solid dark vertical capsules in the head's local coordinates. They share width, height, fill, and orientation; their centers sit on one horizontal line. The default length/width ratio is 2.5–3. Rotate the entire head group, including both eyes and attachments, clockwise by 15–20 degrees. In SVG's downward y-axis, positive rotation has this visual direction; the screen-left eye should be higher. Check the rendered result when transforms are composed.
+Place exactly two dark vertical capsules in the head's local coordinates. They share width, height, material treatment, and orientation; their centers sit on one horizontal line. The source default length/width ratio is 2.5–3; a strong reference can explicitly set a shorter capsule. Rotate the head group and attachments together; the screen-left eye should be higher. Check the rendered result when transforms are composed. A subtle dark gradient and thin integrated rim may follow the current reference; no pupil, iris, separate white catchlight dot or eyelid.
 
-可见脸域应宽而柔和，颊与下颌可以具有来源支持的局部转折；它不必须是圆、椭圆或跨主体共用路径。先依据发际线、鬓发及下颌确定可见区域，再安排眼对；不画嘴或鼻。Expression comes from proportion and pose. The capsule itself is the whole eye: keep its interior solid. Use small subdued cheek ovals and clear facial space around them. Glasses and other identity features must leave the two eye silhouettes readable.
+可见脸域应宽而柔和，颊与下颌可以具有来源支持的局部转折；它不必须是圆、椭圆或跨主体共用路径。先依据发际线、鬓发及下颌确定可见区域，再安排眼对；不画嘴或鼻。Expression comes from proportion and pose. The capsule itself is the whole eye; gentle material gloss must not create another eye structure. Use small subdued cheek ovals and clear facial space around them. Glasses and other identity features must leave the two eye silhouettes readable.
 
 ## Color and shape economy
 

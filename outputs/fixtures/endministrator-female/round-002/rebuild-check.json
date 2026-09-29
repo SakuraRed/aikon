@@ -1,0 +1,21 @@
+{
+  "deterministic_rebuild": "pass",
+  "scope": {
+    "short": {
+      "svg_sha256": "faf27bc6f8b43e0ee636fb84150eae68ccf1aba05b174451ea74a4e0012e848c",
+      "changed_leaf_ids": [
+        "bob-back",
+        "fringe-right"
+      ],
+      "eye_paths_and_paint_unchanged": true
+    },
+    "full": {
+      "svg_sha256": "f4697c22ca1a06824c3d4691a6ccabcb095f8aeedaadc2ae9972906f90608a76",
+      "changed_leaf_ids": [
+        "bob-back",
+        "fringe-right"
+      ],
+      "eye_paths_and_paint_unchanged": true
+    }
+  }
+}

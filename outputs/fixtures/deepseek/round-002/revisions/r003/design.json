@@ -1,0 +1,52 @@
+{
+  "schema": "aikon.direct-svg-study.v2",
+  "round": "002",
+  "subject": "DeepSeek",
+  "reference": {
+    "file": "ref/user-mode/r1.png",
+    "role": [
+      "subject",
+      "style"
+    ],
+    "basis": "user-explicit; not an official brand character assertion"
+  },
+  "full_composition_reference": "user attachment exec-048782ad-08b7-4c96-acab-3f8e94538c4b.png",
+  "method": "manually authored cubic curves and analytic gradient definitions, deterministic standard-library generator; no raster tracing or image model",
+  "profiles": {
+    "short": {
+      "svg_sha256": "d18985e9edd77bc7d2b4d5f541b22e3ec2f7eb563a955139a5a859cdda3cdd73",
+      "main_front_hair_groups": 5,
+      "additional_rear_hair_groups": 0,
+      "secondary_hair_paths": 0,
+      "frill_segments": 7,
+      "crop": "close face, no collar",
+      "scale": 1.19,
+      "eye_finish": "opaque dark navy radial field with very narrow edge gradient; no separate highlight",
+      "paint": "smooth analytic gradients; no stochastic texture or raster data",
+      "status": "candidate_not_user_accepted"
+    },
+    "full": {
+      "svg_sha256": "8e076d9becc798b4382b9dfe435dff9a553ff952e668bf53a3fbc814155459da",
+      "main_front_hair_groups": 6,
+      "additional_rear_hair_groups": 2,
+      "secondary_hair_paths": 5,
+      "frill_segments": 11,
+      "crop": "head and minimal collar",
+      "scale": 0.97,
+      "eye_finish": "opaque dark navy radial field with very narrow edge gradient; no separate highlight",
+      "paint": "smooth analytic gradients; no stochastic texture or raster data",
+      "status": "candidate_not_user_accepted"
+    }
+  },
+  "explicit_latest_overrides": [
+    "allow natural low-frequency linear and radial gradients",
+    "allow weak dark-eye field and narrow eye edge light; still no white eye spots",
+    "full differs by composition, headwear, rear hair, secondary locks, and collar",
+    "old global luma budget and zero-highlight policy do not govern this study"
+  ],
+  "limitations": [
+    "User aesthetic review pending.",
+    "Reference similarity is visually assessed, not established by path count.",
+    "No cross-model or cross-harness identity guarantee."
+  ]
+}

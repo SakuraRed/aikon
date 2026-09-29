@@ -1,0 +1,13 @@
+{
+  "deterministic_rebuild": "pass",
+  "profiles": {
+    "short": {
+      "sha256": "ecbeac765c903483f942f17d957f35a78d6da21824d7133bde3572c0503970c9",
+      "unique_ids": 32
+    },
+    "full": {
+      "sha256": "befe21919a4319d46d72f102ebac5d75b464b9d8641f56ec96b454687b213ba0",
+      "unique_ids": 48
+    }
+  }
+}

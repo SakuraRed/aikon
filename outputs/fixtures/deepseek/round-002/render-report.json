@@ -1,0 +1,126 @@
+{
+  "short": {
+    "repeated_generation_byte_equal": true,
+    "source_sha256": "d18985e9edd77bc7d2b4d5f541b22e3ec2f7eb563a955139a5a859cdda3cdd73",
+    "renders": {
+      "1024": {
+        "backend": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGBA",
+        "source_sha256": "d18985e9edd77bc7d2b4d5f541b22e3ec2f7eb563a955139a5a859cdda3cdd73",
+        "png_sha256": "79daef9dc927a85565e9956f971789ab1c2c1549650e5830cf5e5be12a17fc3b",
+        "background": "unpainted; source alpha preserved",
+        "visual_acceptance": "not_evaluated"
+      },
+      "128": {
+        "backend": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "width": 128,
+        "height": 128,
+        "mode": "RGBA",
+        "source_sha256": "d18985e9edd77bc7d2b4d5f541b22e3ec2f7eb563a955139a5a859cdda3cdd73",
+        "png_sha256": "cb0b510f53d90a5d958913eb5e378a34fac99f17b373661de87044a50e3fc99c",
+        "background": "unpainted; source alpha preserved",
+        "visual_acceptance": "not_evaluated"
+      },
+      "48": {
+        "backend": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "width": 48,
+        "height": 48,
+        "mode": "RGBA",
+        "source_sha256": "d18985e9edd77bc7d2b4d5f541b22e3ec2f7eb563a955139a5a859cdda3cdd73",
+        "png_sha256": "06040fc2a3e61feb7829a0ccca73cb7c402632d34d02d300ec41fbaf53594ded",
+        "background": "unpainted; source alpha preserved",
+        "visual_acceptance": "not_evaluated"
+      },
+      "24": {
+        "backend": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "width": 24,
+        "height": 24,
+        "mode": "RGBA",
+        "source_sha256": "d18985e9edd77bc7d2b4d5f541b22e3ec2f7eb563a955139a5a859cdda3cdd73",
+        "png_sha256": "93ed34ea4d319feb7086b139de1ca575862b139dea53675b401446bcebc84c8c",
+        "background": "unpainted; source alpha preserved",
+        "visual_acceptance": "not_evaluated"
+      }
+    }
+  },
+  "full": {
+    "repeated_generation_byte_equal": true,
+    "source_sha256": "ca145845664d586e384dc5d23173656b1a81d6c00c65fab26b501d5a45ca8232",
+    "renders": {
+      "1024": {
+        "backend": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGBA",
+        "source_sha256": "ca145845664d586e384dc5d23173656b1a81d6c00c65fab26b501d5a45ca8232",
+        "png_sha256": "a122429a95715e063d562983325a404e9f2e6d04060304187bf2a0a99c81fc9f",
+        "background": "unpainted; source alpha preserved",
+        "visual_acceptance": "not_evaluated"
+      },
+      "128": {
+        "backend": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "width": 128,
+        "height": 128,
+        "mode": "RGBA",
+        "source_sha256": "ca145845664d586e384dc5d23173656b1a81d6c00c65fab26b501d5a45ca8232",
+        "png_sha256": "0bcc0829cfe1b0798814e89d78d81253ebe05c4ba24dd90c6b023478f341648f",
+        "background": "unpainted; source alpha preserved",
+        "visual_acceptance": "not_evaluated"
+      },
+      "48": {
+        "backend": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "width": 48,
+        "height": 48,
+        "mode": "RGBA",
+        "source_sha256": "ca145845664d586e384dc5d23173656b1a81d6c00c65fab26b501d5a45ca8232",
+        "png_sha256": "864b559e083f4d4dcf384b81453a4d7113dcde304e164814e33a99350abffcb3",
+        "background": "unpainted; source alpha preserved",
+        "visual_acceptance": "not_evaluated"
+      },
+      "24": {
+        "backend": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "width": 24,
+        "height": 24,
+        "mode": "RGBA",
+        "source_sha256": "ca145845664d586e384dc5d23173656b1a81d6c00c65fab26b501d5a45ca8232",
+        "png_sha256": "fc2f90a2512cb986c5957f4c51bec5ed7f37a65943b8ab43dd9a2d9206273508",
+        "background": "unpainted; source alpha preserved",
+        "visual_acceptance": "not_evaluated"
+      }
+    }
+  }
+}

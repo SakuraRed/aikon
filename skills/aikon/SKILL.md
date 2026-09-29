@@ -45,13 +45,15 @@ Prefer code. When Python 3.9+ is available, use the versioned scene format and d
 
 Create flat vector geometry. Raster tracing or a generated concept image may inform a design, but final artwork must use actual vector shapes. Keep background, face, eyes, hair/covering, cheeks, and identity accessories separately addressable. Store exact parameters and preserve source SVG IDs for later editing.
 
-在固定geometry上按[上色合同与反模式](references/paint-antipatterns.md)单独编写paint。优先用[确定性上色器](references/paint-plan.md)直接产生底色、平滑色场和少量有归属阴影；它不调用绘图模型。不要描摹位图grain、杂色或随机高光。分别保存实际prompt、paint plan和渲染证据；full不是添加更多亮片的许可。
+当前按[自然光泽与双版差异](references/natural-gloss-v2.md)绘制：用真实主体几何、连续linear/radial色场和顺形光泽，同时保持[反模式约束](references/paint-antipatterns.md)。short/full必须有实际构图或形状分组差异。旧[平色上色器](references/paint-plan.md)只是受限子集，不能为了通过它而禁掉参考里的自然眼部/头发gloss。分别先保存实际prompt，再写SVG/源码和渲染证据。
 
 Run available structural checks, then render and inspect using [visual validation](references/validation.md). Show actual previews and link the matching SVGs. Ask the user to choose or describe the missing quality. Seeing a filename, XML, or an evaluator score is not visual verification.
 
 ## Revise and finish
 
 Turn feedback into a bounded edit: **base version**, **target parts**, **requested change**, **preserve list**. Modify that base without regenerating unrelated geometry. If the request conflicts with a locked feature, show the conflict and resolve it before changing that feature. Read [version handling](references/versions.md) before saving a revision.
+
+Before rewriting any candidate that has actually been shown or reviewed, preserve its real SVG, source, prompt and available preview with hashes in the chosen revision structure. Save the revision prompt before executing. This also applies to direct-SVG generators that overwrite their default output filenames; a later reconstruction is not the missing original run. If an earlier file was already lost, record that gap instead of inventing a snapshot.
 
 Repeat the affected checks and inspect before/after at the intended display sizes. A second failed attempt with no new evidence calls for diagnosis, not unlimited regeneration. Continue until the user accepts the result or the remaining work truly needs an unanswered choice or unavailable capability.
 
