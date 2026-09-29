@@ -1,0 +1,85 @@
+{
+  "schema": "aikon.direct-svg.metadata.v1",
+  "round_id": "deepseek-r1-independent-consumer-round2",
+  "profile": "short",
+  "subject": "DeepSeek, user-bound CETUS reference",
+  "sources": [
+    {
+      "role": "both",
+      "location": "ref/subjects/deepseek/cetus-desktop/r1-clean-source-1280.png",
+      "rights_status": "User-supplied local research reference; redistribution rights unknown",
+      "sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+      "acquired_at": "2026-09-29T05:09:38.344931+00:00",
+      "purpose": "Independent reference reconstruction",
+      "visual_selection_reason": "User explicitly bound the raw image as identity and visual target"
+    },
+    {
+      "role": "both",
+      "location": "ref/subjects/deepseek/cetus-desktop/CETUS-ico.original.png",
+      "rights_status": "User-supplied local research reference; redistribution rights unknown",
+      "sha256": "4da172c683d7981e170fc90d8e7d1bd8b4e7107799cdc12338859c82e6fb44fd",
+      "purpose": "High-resolution visual inspection"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "profile",
+      "value": "short only; overrides default paired output for this calibration",
+      "origin": "user"
+    },
+    {
+      "id": "background",
+      "value": "transparent",
+      "origin": "user"
+    },
+    {
+      "id": "watermark",
+      "value": "none",
+      "origin": "user"
+    },
+    {
+      "id": "target",
+      "value": "Reconstruct reference as closely as possible; 99 percent is requested target, not achieved claim",
+      "origin": "user"
+    },
+    {
+      "id": "method",
+      "value": "Editable semantic cubic Bezier paths and continuous local gradients",
+      "origin": "agent_default"
+    },
+    {
+      "id": "projection",
+      "value": "Preserve unequal projected capsule eyes and visible face/fringe relationship",
+      "origin": "reference_observation"
+    }
+  ],
+  "unresolved_questions": [
+    "No independently validated quantitative 99 percent similarity criterion",
+    "Precise whale-identity semantics are user-bound; external identity research excluded by brief"
+  ],
+  "changes": {
+    "summary": "Initial independent direct-SVG reconstruction",
+    "targets": [
+      "face",
+      "eyes",
+      "hair",
+      "identity crest",
+      "headband",
+      "accessory",
+      "paint"
+    ],
+    "preserved": [
+      "reference canvas framing",
+      "two visible capsule eyes",
+      "transparent background"
+    ]
+  },
+  "provenance": {
+    "method": "Direct SVG from manual semantic contour observation and limited raw-pixel sampling",
+    "tool": "draw.py",
+    "version": "r001",
+    "model": null,
+    "script_sha256": "4f186ad138ec2ee60233cf91822bec50b864ab1d8cb5ac767c7a8a3e597316b9"
+  },
+  "notes": "Source-aided independent-consumer calibration; no existing answer SVG or prior coordinates read. Not user accepted."
+}

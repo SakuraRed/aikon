@@ -43,9 +43,11 @@ The design contract includes subject/identity cues, source roles, colors, compos
 
 Prefer code. For the current natural-gloss contract, author self-contained SVG paths, local gradients and clips directly, or generate them with a repeatable script. The older [scene v1 helper](references/scene-format.md) supports a restricted flat style with fixed eye/pose rules; use it only when those restrictions match the actual request. Do not force a reference into that helper or flatten natural gradients merely because Python is available. 棋盘格或深浅展示底只放在预览页面，不写进 SVG；主体内部的材质支撑必须裁切在主体轮廓内。Keep subject-specific paths editable and follow [version handling](references/versions.md) for direct SVG too. No installation, paid drawing model or network service is required for basic vector authoring; research uses available retrieval tools.
 
-Create flat vector geometry. Raster tracing or a generated concept image may inform a design, but final artwork must use actual vector shapes. Keep background, face, eyes, hair/covering, cheeks, and identity accessories separately addressable. Store exact parameters and preserve source SVG IDs for later editing.
+Create editable vector geometry from semantic forms. Raster tracing or a generated concept image may inform a design, but final artwork must use actual vector shapes. Keep background, face, eyes, hair/covering, cheeks, and identity accessories separately addressable. Store exact parameters and preserve source SVG IDs for later editing.
 
 当前按[自然光泽与双版差异](references/natural-gloss-v2.md)绘制：用真实主体几何、连续linear/radial色场和顺形光泽，同时保持[反模式约束](references/paint-antipatterns.md)。short/full必须有实际构图或形状分组差异。旧[平色上色器](references/paint-plan.md)只是受限子集，不能为了通过它而禁掉参考里的自然眼部/头发gloss。分别先保存实际prompt，再写SVG/源码和渲染证据。
+
+需要在已确定的几何上精确控制材料时，可使用标准库[材料编译器](references/material-composer.md)：计划绑定实际SVG哈希，显式指定目标ID、色场、依据与可选owner。它不从图片推断轮廓、不替代主体研究；先检查轮廓与投影，再上色，不能用更复杂渐变掩盖几何误差。
 
 Run available structural checks, then render and inspect using [visual validation](references/validation.md). Show actual previews and link the matching SVGs. Ask the user to choose or describe the missing quality. Seeing a filename, XML, or an evaluator score is not visual verification.
 

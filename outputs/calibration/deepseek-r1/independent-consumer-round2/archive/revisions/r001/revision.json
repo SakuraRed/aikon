@@ -1,0 +1,31 @@
+{
+  "archive_version": "0.1.0",
+  "checks": {
+    "raster_alpha": "unverified",
+    "structural": "passed",
+    "visual": "unverified"
+  },
+  "created_at": "2026-09-29T05:09:38.430037+00:00",
+  "files": {
+    "icon.svg": {
+      "bytes": 11761,
+      "sha256": "1a2ab56875548836bd569d7ba619a313c9e08cc88865c6c2573d0da25bbaf97c"
+    },
+    "metadata.json": {
+      "bytes": 2947,
+      "sha256": "69b03b3ed61d07b887a412b5c5a177a6f2be56410c3b9618ea637d6095561032"
+    },
+    "prompt.md": {
+      "bytes": 1755,
+      "sha256": "f01491cd238c44d9dce174b86648ecf9d573d07e142abc3564b8cba6680d1847"
+    }
+  },
+  "parent": null,
+  "parent_manifest_sha256": null,
+  "profile": "short",
+  "revision": "r001",
+  "round_id": "deepseek-r1-independent-consumer-round2",
+  "schema": "aikon.direct-svg.revision.v1",
+  "user_acceptance": "unassessed",
+  "visual_review": "not_run"
+}

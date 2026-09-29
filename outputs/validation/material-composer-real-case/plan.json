@@ -1,0 +1,45 @@
+{
+  "schema": "aikon.material-plan.v1",
+  "geometry_sha256": "a886b644b2d9bd593ba2a8155edd429b5445d6e24992e14855feef9d305094dd",
+  "profile": "short",
+  "materials": [
+    {
+      "target": "face-parent",
+      "role": "face",
+      "reason": "Real-case compiler round trip of the existing source radial field; not a new artwork or fidelity claim",
+      "field": {
+        "kind": "radial",
+        "center": [
+          405.0,
+          885.0
+        ],
+        "radii": [
+          740.0,
+          500.0
+        ],
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#fffffe",
+            "opacity": 1.0
+          },
+          {
+            "offset": 0.2,
+            "color": "#fffdf9",
+            "opacity": 1.0
+          },
+          {
+            "offset": 0.6,
+            "color": "#fff0e5",
+            "opacity": 1.0
+          },
+          {
+            "offset": 1.0,
+            "color": "#f7e6e6",
+            "opacity": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

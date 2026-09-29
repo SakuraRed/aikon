@@ -1,0 +1,76 @@
+{
+  "svg_sha256": "a886b644b2d9bd593ba2a8155edd429b5445d6e24992e14855feef9d305094dd",
+  "renderer": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "canonical_png_matches": {
+    "1280": true,
+    "128": true,
+    "48": true,
+    "24": true
+  },
+  "revision_changed_leaf_ids": [
+    "face-field",
+    "left-sweep"
+  ],
+  "unchanged_leaf_ids": 54,
+  "static_archive_check": "r001 and r002 passed documented archive helper",
+  "structure": {
+    "paths": 41,
+    "ellipses": 2,
+    "gradients": 13,
+    "images": 0,
+    "filters": 0,
+    "patterns": 0
+  },
+  "raster_alpha": {
+    "upper_right": 0,
+    "fully_transparent_pixels": 473526,
+    "nonopaque_pixels_in_3px_eroded_foreground": 2,
+    "nonopaque_interior_coordinates": [
+      {
+        "x": 1243,
+        "y": 1123,
+        "rgba": [
+          50,
+          69,
+          130,
+          240
+        ]
+      },
+      {
+        "x": 1242,
+        "y": 1124,
+        "rgba": [
+          167,
+          171,
+          201,
+          244
+        ]
+      }
+    ]
+  },
+  "diagnostics_not_acceptance": {
+    "mask_rule": "Reference max RGB >24 and alpha >127; output alpha >127; fixed 15 gray comparison background; no registration/no exclusions",
+    "foreground_iou": 0.9911276115924544,
+    "rgb_mae_over_foreground_union_0_255": 7.125501973176308,
+    "note": "Source-aided diagnostic only. Does not establish 99 percent, naturalness, whale identity, or human acceptance."
+  },
+  "visual_review": {
+    "r001": "Actually viewed 1280, 640 pair, exact 128/48/24 inspection board",
+    "r002": "Actually viewed 1280, 640 pair, exact 128/48/24 on light/dark/neutral backgrounds",
+    "status": "reviewed_with_unresolved_differences"
+  },
+  "user_acceptance": "unassessed",
+  "resource_record": {
+    "audit_pid": 62936,
+    "audit_ppid": 4240,
+    "started_utc": "2026-09-29T05:11:12.407824+00:00",
+    "owned": true,
+    "hard_timeout_seconds": 45,
+    "children_started": 0,
+    "persistent_processes_started": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "aikon.material-compile.v1",
+  "compiler_version": "0.1.0",
+  "profile": "short",
+  "geometry_source_sha256": "a886b644b2d9bd593ba2a8155edd429b5445d6e24992e14855feef9d305094dd",
+  "material_plan_sha256": "cf3fa41f835e461a2203aba499101c2e51f2b000f29bd636bc06938021e914f4",
+  "svg_sha256": "734d8bc823f5ce369082ec340bd4d48680cb7b2a5ad760f2ca3672719d3178ed",
+  "original_geometry_sha256": "b04294dab70783c85d0613da87478fda4edd13b69f4e5022317c7958318a03cc",
+  "original_shape_count": 43,
+  "materials": [
+    {
+      "target": "face-parent",
+      "role": "face",
+      "reason": "Real-case compiler round trip of the existing source radial field; not a new artwork or fidelity claim",
+      "owner": null,
+      "field": "radial",
+      "support": null,
+      "glaze_reasons": []
+    }
+  ],
+  "checks": {
+    "static_svg": "passed",
+    "original_geometry_preserved": true,
+    "opaque_material_construction": "passed",
+    "support_coverage": "unverified",
+    "raster_alpha": "unverified",
+    "visual": "unverified"
+  },
+  "user_acceptance": "unassessed"
+}

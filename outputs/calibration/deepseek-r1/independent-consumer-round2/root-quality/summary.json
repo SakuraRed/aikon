@@ -1,0 +1,22 @@
+{
+  "svg_file_sha256": "a886b644b2d9bd593ba2a8155edd429b5445d6e24992e14855feef9d305094dd",
+  "capsules": [
+    "no_rule_failure",
+    "no_rule_failure"
+  ],
+  "capsule_issues": [
+    [],
+    []
+  ],
+  "edge_status": "fail",
+  "edge_issues": [
+    {
+      "code": "local_edge_color_contamination_or_material_mismatch",
+      "largest_bad_pixel_count": 7,
+      "reason": "connected visible-color residual above32/255 exceeds3 original bad pixels; one-pixel gaps joined"
+    }
+  ],
+  "paint_domain": "not assessed with old candidate masks; different actual geometry",
+  "user_acceptance": "not_assessed",
+  "99_percent": "not_assessed"
+}

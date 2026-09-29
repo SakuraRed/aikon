@@ -1,0 +1,30 @@
+{
+  "1280": {
+    "png_sha256": "6dfbc32644fbaf390a0c9545721268b8cee6427993f29f0f73ecdd13a1bd5c20",
+    "bytes": 183124
+  },
+  "128": {
+    "png_sha256": "3712a7aee74568fc344b0e623a6ea2d73dc4ef3fa423071dadf6468c99619e70",
+    "bytes": 12804
+  },
+  "48": {
+    "png_sha256": "b31cab199fe3c3c542395903a01ec900697c25bbd867f5125c5e14007c080f85",
+    "bytes": 3612
+  },
+  "24": {
+    "png_sha256": "3ebda088930fe5033ef823faa4c14f79067b4d338dbbd2e65706fb02e2cc61db",
+    "bytes": 1418
+  },
+  "backend": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "svg_sha256": "a886b644b2d9bd593ba2a8155edd429b5445d6e24992e14855feef9d305094dd",
+  "shape_count": 42,
+  "opaque_pixels": 1161109,
+  "transparent_pixels": 473526,
+  "upper_right_alpha": 0,
+  "user_acceptance": "unassessed",
+  "visual_review": "pending"
+}

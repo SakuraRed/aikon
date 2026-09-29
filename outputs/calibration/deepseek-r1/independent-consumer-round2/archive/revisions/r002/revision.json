@@ -1,0 +1,31 @@
+{
+  "archive_version": "0.1.0",
+  "checks": {
+    "raster_alpha": "unverified",
+    "structural": "passed",
+    "visual": "unverified"
+  },
+  "created_at": "2026-09-29T05:09:39.134506+00:00",
+  "files": {
+    "icon.svg": {
+      "bytes": 11749,
+      "sha256": "a886b644b2d9bd593ba2a8155edd429b5445d6e24992e14855feef9d305094dd"
+    },
+    "metadata.json": {
+      "bytes": 2958,
+      "sha256": "52fca63aa64c3531a0233e3d1fd863ce241170593e723c3d45ccaa962d9fd5ce"
+    },
+    "prompt.md": {
+      "bytes": 826,
+      "sha256": "ccaad24ccc849cb054c4e24043b2dafc782a0bf2dc5116eed4989b715b94bf1d"
+    }
+  },
+  "parent": "r001",
+  "parent_manifest_sha256": "618b404abe8b89b3183bce7adaadfe36b6861010d16193c794598b2e86ab6717",
+  "profile": "short",
+  "revision": "r002",
+  "round_id": "deepseek-r1-independent-consumer-round2",
+  "schema": "aikon.direct-svg.revision.v1",
+  "user_acceptance": "unassessed",
+  "visual_review": "not_run"
+}

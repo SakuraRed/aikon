@@ -1,0 +1,11 @@
+{
+  "compiler_sha256": "557cd7dfdc7c15a0e731d6da1df513c38905ab736fea7e166d8c744ecb0ed76c",
+  "stdlib_dependencies": [
+    "archive_svg.py"
+  ],
+  "compiler_tests": 18,
+  "tested_runtime": "Python3.13.3",
+  "syntax_target": "Python3.9",
+  "actual_other_harnesses": "not_run",
+  "art_acceptance": "unassessed"
+}

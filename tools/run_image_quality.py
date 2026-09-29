@@ -24,6 +24,7 @@ QUALITY_TESTS = (
     "test_render_svg.py",
     "test_paint_fields.py",
     "test_paint_field_support.py",
+    "test_material_composer.py",
     "test_source_foreground.py",
     "test_gloss_pairs.py",
     "test_capsule_geometry.py",
