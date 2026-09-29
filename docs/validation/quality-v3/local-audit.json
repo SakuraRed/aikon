@@ -1,0 +1,100 @@
+{
+  "schema": "aikon.image-quality-audit.v1",
+  "status": "pass",
+  "artwork_acceptance": "rejected_by_user",
+  "reference_similarity_99": "not_assessed",
+  "pitch_and_identity": "not_assessed",
+  "gates": {
+    "capsules": {
+      "controls_pass": true,
+      "r1_eye_status": [
+        "no_rule_failure",
+        "no_rule_failure"
+      ],
+      "rejected_deepseek_eye_status": [
+        [
+          "fail",
+          "fail"
+        ],
+        [
+          "fail",
+          "fail"
+        ]
+      ],
+      "evidence": "capsules/summary.json"
+    },
+    "edges": {
+      "controls_pass": true,
+      "evidence": "edges/summary.json"
+    },
+    "paint": {
+      "controls_pass": true,
+      "real_reference_count": 8,
+      "limitations": [
+        "Manual real-image ROIs provide bounded regression evidence, not whole-image acceptance.",
+        "The short fixture's subtle texture is still not separated at frozen thresholds.",
+        "Color islands alone do not distinguish legal highlights from implausible ones.",
+        "This suite does not prove generalization to arbitrary subjects, generators, scales or renderers."
+      ],
+      "evidence": "paint-references/report.json"
+    }
+  },
+  "backend": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "artworks": [
+    {
+      "subject": "deepseek",
+      "profile": "short",
+      "source": "outputs/fixtures/deepseek/round-002/short.svg",
+      "sha256": "d18985e9edd77bc7d2b4d5f541b22e3ec2f7eb563a955139a5a859cdda3cdd73",
+      "user_verdict": "rejected"
+    },
+    {
+      "subject": "deepseek",
+      "profile": "full",
+      "source": "outputs/fixtures/deepseek/round-002/full.svg",
+      "sha256": "ca145845664d586e384dc5d23173656b1a81d6c00c65fab26b501d5a45ca8232",
+      "user_verdict": "rejected"
+    },
+    {
+      "subject": "endministrator-female",
+      "profile": "short",
+      "source": "outputs/fixtures/endministrator-female/round-002/short.svg",
+      "sha256": "faf27bc6f8b43e0ee636fb84150eae68ccf1aba05b174451ea74a4e0012e848c",
+      "user_verdict": "rejected"
+    },
+    {
+      "subject": "endministrator-female",
+      "profile": "full",
+      "source": "outputs/fixtures/endministrator-female/round-002/full.svg",
+      "sha256": "f4697c22ca1a06824c3d4691a6ccabcb095f8aeedaadc2ae9972906f90608a76",
+      "user_verdict": "rejected"
+    },
+    {
+      "subject": "endministrator-male",
+      "profile": "short",
+      "source": "outputs/fixtures/endministrator-male/round-002/short.svg",
+      "sha256": "e0c7584f46060eb7139b2dd4fe8ce2cfb4c7c3e1c90f268fb52902c207f3d73d",
+      "user_verdict": "rejected"
+    },
+    {
+      "subject": "endministrator-male",
+      "profile": "full",
+      "source": "outputs/fixtures/endministrator-male/round-002/full.svg",
+      "sha256": "ef952ae6b814682224e2aa6b12f8b2b1ff47eecaa308579b4f2d65afc166bb1f",
+      "user_verdict": "rejected"
+    }
+  ],
+  "elapsed_seconds": 11.989,
+  "meaning": "Pass means positive/negative detector observations matched expectations. All six artwork verdicts remain rejected.",
+  "context": {
+    "input_sha256": "085f8d0ab63d099175c169f0ca04e7c335fc10123a467633f6f38741f9c6ef01",
+    "github_run_id": null,
+    "github_run_attempt": null,
+    "github_sha": null
+  },
+  "invocation": "ddd7aceaddf844dfbde3ecac8b3a01ed"
+}

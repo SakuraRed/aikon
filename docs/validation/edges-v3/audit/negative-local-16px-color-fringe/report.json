@@ -1,0 +1,151 @@
+{
+  "schema": "aikon.edge-quality.v1",
+  "status": "fail",
+  "mode": "same_svg_supersampled_reference",
+  "canvas": [
+    256,
+    256
+  ],
+  "supersample": 4,
+  "reference_method": "4x precise SVG render; premultiplied encoded-sRGB BOX area integration",
+  "source_sha256": "171e1609c34dee0d466878aeb1342e2fcccb9052d9e78f63847b7f75e1ff2195",
+  "candidate_rgba_sha256": "b81f72775d412132e0ccd2e40d258f22924bc80fbaa3c293ce52caa730adb920",
+  "candidate_source": "supplied_png",
+  "native_byte_identity_is_not_a_quality_rule": true,
+  "backend": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "rules": {
+    "coverage_edge_mae_max_0_255": 8.0,
+    "coverage_large_error_min_0_255": 32.0,
+    "coverage_large_error_fraction_max": 0.03,
+    "color_edge_mae_max_0_255": 8.0,
+    "color_large_error_min_0_255": 32.0,
+    "color_large_error_fraction_max": 0.03,
+    "color_local_bad_pixels_max": 3,
+    "interior_alpha_deficit_min_0_255": 3.0,
+    "interior_alpha_bad_pixels_max": 3,
+    "minimum_edge_samples": 16
+  },
+  "rule_provenance": "docs/validation/edges-v3/README.md",
+  "metrics": {
+    "coverage": {
+      "sample_pixels": 3803,
+      "mae_0_255": 1.699530005455017,
+      "rms_0_255": 4.767306327819824,
+      "p95_0_255": 11.9375,
+      "max_0_255": 34.625,
+      "large_error_pixels": 2,
+      "large_error_fraction": 0.0005259006047856955,
+      "large_error_threshold_0_255": 32.0
+    },
+    "color": {
+      "sample_pixels": 2161,
+      "mae_0_255": 0.9604098796844482,
+      "rms_0_255": 9.146772384643555,
+      "p95_0_255": 0.75,
+      "max_0_255": 133.03477478027344,
+      "large_error_pixels": 16,
+      "large_error_fraction": 0.007403979639055993,
+      "large_error_threshold_0_255": 32.0
+    },
+    "local_color": {
+      "large_error_threshold_0_255": 32.0,
+      "join_gap_pixels": 1,
+      "largest_bad_pixel_count": 9,
+      "top_clusters": [
+        {
+          "bad_pixels": 9,
+          "bbox_pixels": [
+            114,
+            15,
+            123,
+            16
+          ],
+          "peak_error_0_255": 132.27513122558594
+        },
+        {
+          "bad_pixels": 4,
+          "bbox_pixels": [
+            106,
+            16,
+            110,
+            17
+          ],
+          "peak_error_0_255": 133.03477478027344
+        },
+        {
+          "bad_pixels": 3,
+          "bbox_pixels": [
+            100,
+            17,
+            103,
+            18
+          ],
+          "peak_error_0_255": 123.55302429199219
+        }
+      ]
+    },
+    "interior_alpha": {
+      "sample_pixels": 36551,
+      "bad_pixels": 0,
+      "max_deficit_0_255": 0.0,
+      "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+    },
+    "composite_dark": {
+      "sample_pixels": 3803,
+      "mae_0_255": 1.4942768812179565,
+      "rms_0_255": 7.368660926818848,
+      "p95_0_255": 7.486708641052246,
+      "max_0_255": 127.8830795288086,
+      "large_error_pixels": 16,
+      "large_error_fraction": 0.004207204838285564,
+      "large_error_threshold_0_255": 32.0
+    },
+    "composite_light": {
+      "sample_pixels": 3803,
+      "mae_0_255": 1.490687608718872,
+      "rms_0_255": 7.935825347900391,
+      "p95_0_255": 7.325056552886963,
+      "max_0_255": 147.72622680664062,
+      "large_error_pixels": 16,
+      "large_error_fraction": 0.004207204838285564,
+      "large_error_threshold_0_255": 32.0
+    }
+  },
+  "validation_scope": {
+    "positive_calibration_long_edges": [
+      128,
+      256
+    ],
+    "prototype_supported_long_edge_range": [
+      32,
+      1024
+    ],
+    "limits_outside_calibration": "API budget is not validation at every size; inspect evidence at the actual export size",
+    "reference_edge_band_pixels": 3803,
+    "fractional_coverage_pixels": 791,
+    "contour_measure_note": "pixel sample counts, not arc-length estimate; aggregate fraction changes with contour complexity"
+  },
+  "assessed_edge_channels": [
+    "coverage",
+    "color"
+  ],
+  "issues": [
+    {
+      "code": "local_edge_color_contamination_or_material_mismatch",
+      "largest_bad_pixel_count": 9,
+      "reason": "connected visible-color residual above32/255 exceeds3 original bad pixels; one-pixel gaps joined"
+    }
+  ],
+  "limitations": [
+    "Same SVG geometry and paint are assumed, not verified against a character reference.",
+    "Supersampling is a numerical comparator, not an artist-approved ground truth.",
+    "Small/local errors under these aggregate bounds can remain undetected.",
+    "SVG-authored holes, intended jagged geometry, grain and incorrect shape can repeat in both renders.",
+    "No conclusion about character identity, tilt, capsule shape, highlight naturalness or user acceptance."
+  ],
+  "visual_acceptance": "not_assessed"
+}

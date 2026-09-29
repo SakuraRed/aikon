@@ -1,0 +1,36 @@
+{
+  "case": "negative-local-16px-color-fringe",
+  "expected_code": "local_edge_color_contamination_or_material_mismatch",
+  "observed_codes": [
+    "local_edge_color_contamination_or_material_mismatch"
+  ],
+  "status": "fail",
+  "expectation_met": true,
+  "injection": "16 existing partial-alpha pixels nearest(110,17) on one edge arc recolored; all alpha and other pixels untouched",
+  "coverage": {
+    "sample_pixels": 3803,
+    "mae_0_255": 1.699530005455017,
+    "rms_0_255": 4.767306327819824,
+    "p95_0_255": 11.9375,
+    "max_0_255": 34.625,
+    "large_error_pixels": 2,
+    "large_error_fraction": 0.0005259006047856955,
+    "large_error_threshold_0_255": 32.0
+  },
+  "color": {
+    "sample_pixels": 2161,
+    "mae_0_255": 0.9604098796844482,
+    "rms_0_255": 9.146772384643555,
+    "p95_0_255": 0.75,
+    "max_0_255": 133.03477478027344,
+    "large_error_pixels": 16,
+    "large_error_fraction": 0.007403979639055993,
+    "large_error_threshold_0_255": 32.0
+  },
+  "interior_alpha": {
+    "sample_pixels": 36551,
+    "bad_pixels": 0,
+    "max_deficit_0_255": 0.0,
+    "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+  }
+}

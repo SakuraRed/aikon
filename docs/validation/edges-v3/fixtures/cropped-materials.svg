@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="192" viewBox="0 0 256 192">
+<defs><linearGradient id="paint"><stop stop-color="#5574ab"/><stop offset="1" stop-color="#668bbc"/></linearGradient>
+<clipPath id="crop"><rect x="-20" y="-30" width="256" height="220" rx="40"/></clipPath></defs>
+<g clip-path="url(#crop)"><circle cx="97" cy="75" r="161" fill="url(#paint)"/>
+<path d="M-20 160 L235 -10 L310 220 L-20 220Z" fill="#e9ccb4"/>
+<path d="M-20 161 L234 -9" stroke="#22232d" stroke-width="5"/>
+</g></svg>

@@ -1,0 +1,25 @@
+{
+  "schema": "aikon.quality-tests.v1",
+  "status": "pass",
+  "selected_modules": {
+    "test_render_svg.py": 11,
+    "test_paint_fields.py": 14,
+    "test_gloss_pairs.py": 16,
+    "test_capsule_geometry.py": 17,
+    "test_edge_quality.py": 13,
+    "test_quality_runner.py": 5
+  },
+  "tests_run": 76,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "elapsed_seconds": 14.448,
+  "meaning": "quality-detector test results, not artwork acceptance",
+  "context": {
+    "input_sha256": "085f8d0ab63d099175c169f0ca04e7c335fc10123a467633f6f38741f9c6ef01",
+    "github_run_id": null,
+    "github_run_attempt": null,
+    "github_sha": null
+  },
+  "invocation": "d504849c3ace42beb3bfe51189d29b18"
+}

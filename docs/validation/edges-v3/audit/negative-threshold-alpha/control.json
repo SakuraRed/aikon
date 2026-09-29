@@ -1,0 +1,36 @@
+{
+  "case": "negative-threshold-alpha",
+  "expected_code": "edge_coverage_mismatch",
+  "observed_codes": [
+    "edge_coverage_mismatch"
+  ],
+  "status": "fail",
+  "expectation_met": true,
+  "injection": "alpha independently thresholded at128 to remove coverage antialiasing",
+  "coverage": {
+    "sample_pixels": 3803,
+    "mae_0_255": 11.066871643066406,
+    "rms_0_255": 30.09680938720703,
+    "p95_0_255": 87.48124694824219,
+    "max_0_255": 151.25,
+    "large_error_pixels": 477,
+    "large_error_fraction": 0.12542729424138838,
+    "large_error_threshold_0_255": 32.0
+  },
+  "color": {
+    "sample_pixels": 1885,
+    "mae_0_255": 0.14785970747470856,
+    "rms_0_255": 0.27372947335243225,
+    "p95_0_255": 0.687499463558197,
+    "max_0_255": 1.2661675214767456,
+    "large_error_pixels": 0,
+    "large_error_fraction": 0.0,
+    "large_error_threshold_0_255": 32.0
+  },
+  "interior_alpha": {
+    "sample_pixels": 36551,
+    "bad_pixels": 0,
+    "max_deficit_0_255": 0.0,
+    "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+  }
+}

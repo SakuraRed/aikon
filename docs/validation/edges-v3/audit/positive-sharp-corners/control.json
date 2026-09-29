@@ -1,0 +1,34 @@
+{
+  "case": "positive-sharp-corners",
+  "expected_code": null,
+  "observed_codes": [],
+  "status": "no_rule_failure",
+  "expectation_met": true,
+  "injection": "none; authored legal geometry/paint",
+  "coverage": {
+    "sample_pixels": 5522,
+    "mae_0_255": 1.1506247520446777,
+    "rms_0_255": 3.07013201713562,
+    "p95_0_255": 7.6875,
+    "max_0_255": 30.000001907348633,
+    "large_error_pixels": 0,
+    "large_error_fraction": 0.0,
+    "large_error_threshold_0_255": 32.0
+  },
+  "color": {
+    "sample_pixels": 3949,
+    "mae_0_255": 0.4461517632007599,
+    "rms_0_255": 1.9525965452194214,
+    "p95_0_255": 0.8869855999946594,
+    "max_0_255": 27.1875,
+    "large_error_pixels": 0,
+    "large_error_fraction": 0.0,
+    "large_error_threshold_0_255": 32.0
+  },
+  "interior_alpha": {
+    "sample_pixels": 20649,
+    "bad_pixels": 0,
+    "max_deficit_0_255": 0.0,
+    "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+  }
+}

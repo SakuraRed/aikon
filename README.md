@@ -4,6 +4,8 @@
 
 ## 当前状态
 
+最新反馈已将round-002六张图全部否决。[纠偏计划](docs/plans/2026-09-29-correction-plan.md)与[源规则差异表](docs/plans/2026-09-29-prompt-rule-reconciliation.md)保留完整要求。当前质量验证收敛为单一Ubuntu环境，检测器正负例验证与作品验收分开；[六图判定记录](docs/validation/quality-v3/artwork-verdicts.json)不会因机器测试通过而改变。管理员面具分支未答，r1的99%复刻未达成。
+
 2026-09-29：最初14份SVG仍为拒绝状态；用户认可后续单例的整体方向，但明确拒绝异常纹理和不自然高光。当前将geometry与paint分离，建立反模式、解析上色及真实像素CI；尚未把候选当作最终视觉验收通过，跨模型造型一致性未验证。
 
 同日的新反馈进一步否定完全扁平和short/full缺乏区分。当前生产配置更新为[natural-gloss-v2](skills/aikon/references/natural-gloss-v2.md)：恢复参考中的连续色场与暗色眼缘光泽，分别绘制有实际构图/结构差异的DeepSeek、女管理员、男管理员候选。旧v1平色编译器保留为受限实验与回归证据，不再作为当前风格的通用门槛。
@@ -26,7 +28,7 @@ python skills/aikon/scripts/aikon.py snapshot --scene design.json --root <已选
 
 精确格式见[scene合同](skills/aikon/references/scene-format.md)。没有Python也可直接写SVG，必须如实标明哪些检查未执行。
 
-修正已存在的可编辑 SVG 上色时，使用[独立上色计划](skills/aikon/references/paint-plan.md)：
+历史受限平色实验使用[独立上色计划](skills/aikon/references/paint-plan.md)；它不能作为当前参考复刻的通用上色器：
 
 ```text
 python skills/aikon/scripts/paint_svg.py --geometry geometry.svg --plan full.paint.json --output full.svg --report full.paint-report.json

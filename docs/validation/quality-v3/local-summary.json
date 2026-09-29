@@ -1,0 +1,53 @@
+{
+  "schema": "aikon.quality-ci-summary.v1",
+  "gate_validation": "pass",
+  "stage_status": {
+    "tests": "pass",
+    "audit": "pass"
+  },
+  "context": {
+    "input_sha256": "085f8d0ab63d099175c169f0ca04e7c335fc10123a467633f6f38741f9c6ef01",
+    "github_run_id": null,
+    "github_run_attempt": null,
+    "github_sha": null
+  },
+  "tests_run": 76,
+  "gates": {
+    "capsules": {
+      "controls_pass": true,
+      "r1_eye_status": [
+        "no_rule_failure",
+        "no_rule_failure"
+      ],
+      "rejected_deepseek_eye_status": [
+        [
+          "fail",
+          "fail"
+        ],
+        [
+          "fail",
+          "fail"
+        ]
+      ],
+      "evidence": "capsules/summary.json"
+    },
+    "edges": {
+      "controls_pass": true,
+      "evidence": "edges/summary.json"
+    },
+    "paint": {
+      "controls_pass": true,
+      "real_reference_count": 8,
+      "limitations": [
+        "Manual real-image ROIs provide bounded regression evidence, not whole-image acceptance.",
+        "The short fixture's subtle texture is still not separated at frozen thresholds.",
+        "Color islands alone do not distinguish legal highlights from implausible ones.",
+        "This suite does not prove generalization to arbitrary subjects, generators, scales or renderers."
+      ],
+      "evidence": "paint-references/report.json"
+    }
+  },
+  "artwork_acceptance": "rejected_by_user",
+  "reference_similarity_99": "not_assessed",
+  "artifact_upload": "not_attempted"
+}

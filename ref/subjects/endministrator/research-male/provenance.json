@@ -1,0 +1,74 @@
+{
+  "schema": "aikon.reference-evidence.v1",
+  "research_date": "2026-09-29",
+  "assets": [
+    {
+      "file": "official-male-full.png",
+      "source_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.1ec20a16.png",
+      "source_page": "https://endfield.gryphline.com/en-us/operator",
+      "retrieved_at_utc": "2026-09-29T01:58:25.486651+00:00",
+      "sha256": "23432dc54b2f7e6533499ca8ad8a60fc1b9c77462320717397963167fbb9fe09",
+      "bytes": 770802,
+      "purpose_and_visual_selection": "Current official male masked illustration; hair, mask, collar and torso reference.",
+      "visually_inspected": true,
+      "transformation": "none; source bytes preserved",
+      "rights_status": "Officially published third-party material; private repository research only. Redistribution license not verified. Excluded from distributed skill assets."
+    },
+    {
+      "file": "official-campaign-unmasked-duo.jpg",
+      "source_url": "https://web-static.hg-cdn.com/endfield/special/over-the-frontier/assets/imgs/0305.c08e09.jpg",
+      "source_page": "https://endfield.gryphline.com/special/over-the-frontier/",
+      "retrieved_at_utc": "2026-09-29T01:58:40.357594+00:00",
+      "sha256": "b018b3e1f657067bc511f66550424761f81332fc94ef87d492c741e763eda0d0",
+      "bytes": 491707,
+      "purpose_and_visual_selection": "Official campaign gallery artwork; unmasked male side view. Not a verified current game-model eye-color standard.",
+      "visually_inspected": true,
+      "transformation": "none; source bytes preserved",
+      "rights_status": "Officially published third-party material; private repository research only. Redistribution license not verified. Excluded from distributed skill assets."
+    },
+    {
+      "file": "official-suppressor-display.jpg",
+      "source_url": "https://store.gryphline.com/cdn/shop/files/26._6c3d041f-21e7-4198-9c9c-5e967cb9b358.jpg?v=1769505749&width=1090",
+      "source_page": "https://store.gryphline.com/products/arknights-endfield-light-up-table-display-powercore-series-originium-suppressor",
+      "retrieved_at_utc": "2026-09-29T01:58:42.037415+00:00",
+      "sha256": "46078043c685987cb42e8af74657c760295be9fa8075090afdf8d71abbf66357",
+      "bytes": 139247,
+      "purpose_and_visual_selection": "Official merchandise front view; mask panel and attachment structure only. Not game texture, wearable prop, or exact game-model specification.",
+      "visually_inspected": true,
+      "transformation": "none; source bytes preserved",
+      "rights_status": "Officially published third-party material; private repository research only. Redistribution license not verified. Excluded from distributed skill assets."
+    },
+    {
+      "file": "official-profile-a-male.jpg",
+      "source_url": "https://img2-tc.tapimg.com/moment/etag/Fpl-dLXO8Qr-fGwfnpyhdCsVUY4C_20251101175927.jpg/_tap_ugc.jpg",
+      "source_page": "https://www.taptap.cn/moment/733759398467338301",
+      "retrieved_at_utc": "2026-09-29T02:01:20.839393+00:00",
+      "sha256": "42b9ed24270f968225a40fe477ef64302e8b5b60790ff68a4795b11384f91403",
+      "bytes": 357369,
+      "purpose_and_visual_selection": "Official account profile card A, inspected and confirmed male. Development-version card; masked head and collar details.",
+      "visually_inspected": true,
+      "transformation": "none; source bytes preserved",
+      "rights_status": "Officially published third-party material; private repository research only. Redistribution license not verified. Excluded from distributed skill assets."
+    },
+    {
+      "file": "official-profile-b-female-comparison.jpg",
+      "source_url": "https://img2-tc.tapimg.com/moment/etag/FvTc_1DCbmXcA6USHV7zSv9vIItp_20251101191338.jpg/_tap_ugc.jpg",
+      "source_page": "https://www.taptap.cn/moment/733768935786154113",
+      "retrieved_at_utc": "2026-09-29T02:00:21.603653+00:00",
+      "sha256": "ac141c683d81a709f7621494cd4406ebe45ab44d06290cbd84556971461debcd",
+      "bytes": 326003,
+      "purpose_and_visual_selection": "Female comparison only; visually confirms B is female, and why her hair clip and bob cannot be transferred to male.",
+      "visually_inspected": true,
+      "transformation": "none; source bytes preserved",
+      "rights_status": "Officially published third-party material; private repository research only. Redistribution license not verified. Excluded from distributed skill assets."
+    }
+  ],
+  "cross_references": [
+    {
+      "path": "../research-female/official-gallery-0212.jpg",
+      "source_url": "https://web-static.hg-cdn.com/endfield/special/over-the-frontier/assets/imgs/0212.cb69d9.jpg",
+      "visually_inspected_by_this_research_task": true,
+      "purpose": "Second official campaign unmasked male view; see sibling provenance for source hash."
+    }
+  ]
+}

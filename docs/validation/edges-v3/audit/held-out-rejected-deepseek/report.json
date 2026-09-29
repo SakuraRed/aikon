@@ -1,0 +1,221 @@
+{
+  "schema": "aikon.edge-quality.v1",
+  "status": "fail",
+  "mode": "same_svg_supersampled_reference",
+  "canvas": [
+    256,
+    256
+  ],
+  "supersample": 4,
+  "reference_method": "4x precise SVG render; premultiplied encoded-sRGB BOX area integration",
+  "source_sha256": "d18985e9edd77bc7d2b4d5f541b22e3ec2f7eb563a955139a5a859cdda3cdd73",
+  "candidate_rgba_sha256": "b197c74c6b65660c2e395520a2d669b9fc4b689a934272487c9b3fc81727dc82",
+  "candidate_source": "native_svg_render",
+  "native_byte_identity_is_not_a_quality_rule": true,
+  "backend": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "rules": {
+    "coverage_edge_mae_max_0_255": 8.0,
+    "coverage_large_error_min_0_255": 32.0,
+    "coverage_large_error_fraction_max": 0.03,
+    "color_edge_mae_max_0_255": 8.0,
+    "color_large_error_min_0_255": 32.0,
+    "color_large_error_fraction_max": 0.03,
+    "color_local_bad_pixels_max": 3,
+    "interior_alpha_deficit_min_0_255": 3.0,
+    "interior_alpha_bad_pixels_max": 3,
+    "minimum_edge_samples": 16
+  },
+  "rule_provenance": "docs/validation/edges-v3/README.md",
+  "metrics": {
+    "coverage": {
+      "sample_pixels": 2513,
+      "mae_0_255": 2.3056604862213135,
+      "rms_0_255": 6.80388069152832,
+      "p95_0_255": 15.75,
+      "max_0_255": 65.5,
+      "large_error_pixels": 16,
+      "large_error_fraction": 0.006366892160764027,
+      "large_error_threshold_0_255": 32.0
+    },
+    "color": {
+      "sample_pixels": 9374,
+      "mae_0_255": 1.506489872932434,
+      "rms_0_255": 4.24851131439209,
+      "p95_0_255": 8.875,
+      "max_0_255": 51.0,
+      "large_error_pixels": 22,
+      "large_error_fraction": 0.002346917004480478,
+      "large_error_threshold_0_255": 32.0
+    },
+    "local_color": {
+      "large_error_threshold_0_255": 32.0,
+      "join_gap_pixels": 1,
+      "largest_bad_pixel_count": 4,
+      "top_clusters": [
+        {
+          "bad_pixels": 4,
+          "bbox_pixels": [
+            127,
+            0,
+            131,
+            1
+          ],
+          "peak_error_0_255": 51.0
+        },
+        {
+          "bad_pixels": 3,
+          "bbox_pixels": [
+            168,
+            195,
+            171,
+            200
+          ],
+          "peak_error_0_255": 39.0
+        },
+        {
+          "bad_pixels": 3,
+          "bbox_pixels": [
+            162,
+            161,
+            165,
+            162
+          ],
+          "peak_error_0_255": 35.5625
+        },
+        {
+          "bad_pixels": 2,
+          "bbox_pixels": [
+            163,
+            204,
+            165,
+            207
+          ],
+          "peak_error_0_255": 34.0
+        },
+        {
+          "bad_pixels": 1,
+          "bbox_pixels": [
+            149,
+            206,
+            150,
+            207
+          ],
+          "peak_error_0_255": 47.4375
+        },
+        {
+          "bad_pixels": 1,
+          "bbox_pixels": [
+            159,
+            208,
+            160,
+            209
+          ],
+          "peak_error_0_255": 34.25
+        },
+        {
+          "bad_pixels": 1,
+          "bbox_pixels": [
+            172,
+            189,
+            173,
+            190
+          ],
+          "peak_error_0_255": 32.875
+        },
+        {
+          "bad_pixels": 1,
+          "bbox_pixels": [
+            0,
+            190,
+            1,
+            191
+          ],
+          "peak_error_0_255": 38.0
+        },
+        {
+          "bad_pixels": 1,
+          "bbox_pixels": [
+            151,
+            171,
+            152,
+            172
+          ],
+          "peak_error_0_255": 32.5
+        },
+        {
+          "bad_pixels": 1,
+          "bbox_pixels": [
+            50,
+            175,
+            51,
+            176
+          ],
+          "peak_error_0_255": 32.875
+        }
+      ]
+    },
+    "interior_alpha": {
+      "sample_pixels": 57520,
+      "bad_pixels": 0,
+      "max_deficit_0_255": 0.0,
+      "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+    },
+    "composite_dark": {
+      "sample_pixels": 10373,
+      "mae_0_255": 1.7128362655639648,
+      "rms_0_255": 4.633354187011719,
+      "p95_0_255": 10.024999618530273,
+      "max_0_255": 51.0,
+      "large_error_pixels": 28,
+      "large_error_fraction": 0.002699315530704714,
+      "large_error_threshold_0_255": 32.0
+    },
+    "composite_light": {
+      "sample_pixels": 10373,
+      "mae_0_255": 1.5990930795669556,
+      "rms_0_255": 4.427761077880859,
+      "p95_0_255": 9.5625,
+      "max_0_255": 51.0,
+      "large_error_pixels": 25,
+      "large_error_fraction": 0.0024101031524149234,
+      "large_error_threshold_0_255": 32.0
+    }
+  },
+  "validation_scope": {
+    "positive_calibration_long_edges": [
+      128,
+      256
+    ],
+    "prototype_supported_long_edge_range": [
+      32,
+      1024
+    ],
+    "limits_outside_calibration": "API budget is not validation at every size; inspect evidence at the actual export size",
+    "reference_edge_band_pixels": 2513,
+    "fractional_coverage_pixels": 526,
+    "contour_measure_note": "pixel sample counts, not arc-length estimate; aggregate fraction changes with contour complexity"
+  },
+  "assessed_edge_channels": [
+    "coverage",
+    "color"
+  ],
+  "issues": [
+    {
+      "code": "local_edge_color_contamination_or_material_mismatch",
+      "largest_bad_pixel_count": 4,
+      "reason": "connected visible-color residual above32/255 exceeds3 original bad pixels; one-pixel gaps joined"
+    }
+  ],
+  "limitations": [
+    "Same SVG geometry and paint are assumed, not verified against a character reference.",
+    "Supersampling is a numerical comparator, not an artist-approved ground truth.",
+    "Small/local errors under these aggregate bounds can remain undetected.",
+    "SVG-authored holes, intended jagged geometry, grain and incorrect shape can repeat in both renders.",
+    "No conclusion about character identity, tilt, capsule shape, highlight naturalness or user acceptance."
+  ],
+  "visual_acceptance": "not_assessed"
+}

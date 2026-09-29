@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+<defs><linearGradient id="paint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4766a8"/><stop offset="1" stop-color="#7298c7"/></linearGradient></defs>
+<path d="M128 15 C220 15 249 108 216 181 C191 237 119 251 59 216 C-4 179 5 97 37 58 C59 31 85 15 128 15Z" fill="url(#paint)"/>
+</svg>

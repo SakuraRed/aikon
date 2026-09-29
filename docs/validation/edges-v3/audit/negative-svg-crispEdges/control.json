@@ -1,0 +1,36 @@
+{
+  "case": "negative-svg-crispEdges",
+  "expected_code": "edge_coverage_mismatch",
+  "observed_codes": [
+    "edge_coverage_mismatch"
+  ],
+  "status": "fail",
+  "expectation_met": true,
+  "injection": "same path explicitly requests crispEdges at native resolution; reference keeps same geometry and requests precise coverage",
+  "coverage": {
+    "sample_pixels": 3803,
+    "mae_0_255": 12.20248794555664,
+    "rms_0_255": 34.574562072753906,
+    "p95_0_255": 91.75,
+    "max_0_255": 206.3125,
+    "large_error_pixels": 477,
+    "large_error_fraction": 0.12542729424138838,
+    "large_error_threshold_0_255": 32.0
+  },
+  "color": {
+    "sample_pixels": 1805,
+    "mae_0_255": 0.0842766985297203,
+    "rms_0_255": 0.15300507843494415,
+    "p95_0_255": 0.375,
+    "max_0_255": 0.5710757970809937,
+    "large_error_pixels": 0,
+    "large_error_fraction": 0.0,
+    "large_error_threshold_0_255": 32.0
+  },
+  "interior_alpha": {
+    "sample_pixels": 36551,
+    "bad_pixels": 0,
+    "max_deficit_0_255": 0.0,
+    "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+  }
+}

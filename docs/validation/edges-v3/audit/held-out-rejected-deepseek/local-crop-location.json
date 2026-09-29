@@ -1,0 +1,19 @@
+{
+  "box_pixels": [
+    105,
+    0,
+    153,
+    48
+  ],
+  "cluster": {
+    "bad_pixels": 4,
+    "bbox_pixels": [
+      127,
+      0,
+      131,
+      1
+    ],
+    "peak_error_0_255": 51.0
+  },
+  "selection": "largest count of original bad color pixels, not diluted global mean"
+}

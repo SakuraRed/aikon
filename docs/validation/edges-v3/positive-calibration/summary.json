@@ -1,0 +1,618 @@
+{
+  "phase": "positive-only fixture replay; global limits fixed before first negative run; local limit fixed from positive component counts before first short-arc injection; this script never tunes limits",
+  "rules": {
+    "coverage_edge_mae_max_0_255": 8.0,
+    "coverage_large_error_min_0_255": 32.0,
+    "coverage_large_error_fraction_max": 0.03,
+    "color_edge_mae_max_0_255": 8.0,
+    "color_large_error_min_0_255": 32.0,
+    "color_large_error_fraction_max": 0.03,
+    "color_local_bad_pixels_max": 3,
+    "interior_alpha_deficit_min_0_255": 3.0,
+    "interior_alpha_bad_pixels_max": 3,
+    "minimum_edge_samples": 16
+  },
+  "records": [
+    {
+      "fixture": "cropped-materials.svg",
+      "size": 128,
+      "status": "no_rule_failure",
+      "metrics": {
+        "coverage": {
+          "sample_pixels": 781,
+          "mae_0_255": 0.42637643218040466,
+          "rms_0_255": 1.9886239767074585,
+          "p95_0_255": 2.875,
+          "max_0_255": 16.75,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "color": {
+          "sample_pixels": 1461,
+          "mae_0_255": 0.78912752866745,
+          "rms_0_255": 1.9557642936706543,
+          "p95_0_255": 4.875,
+          "max_0_255": 12.5,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "local_color": {
+          "large_error_threshold_0_255": 32.0,
+          "join_gap_pixels": 1,
+          "largest_bad_pixel_count": 0,
+          "top_clusters": []
+        },
+        "interior_alpha": {
+          "sample_pixels": 10688,
+          "bad_pixels": 0,
+          "max_deficit_0_255": 0.0,
+          "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+        },
+        "composite_dark": {
+          "sample_pixels": 1784,
+          "mae_0_255": 0.7934588193893433,
+          "rms_0_255": 2.0796234607696533,
+          "p95_0_255": 5.24838399887085,
+          "max_0_255": 13.822540283203125,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "composite_light": {
+          "sample_pixels": 1784,
+          "mae_0_255": 0.6855066418647766,
+          "rms_0_255": 1.8011356592178345,
+          "p95_0_255": 4.25,
+          "max_0_255": 12.5,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        }
+      }
+    },
+    {
+      "fixture": "cropped-materials.svg",
+      "size": 256,
+      "status": "no_rule_failure",
+      "metrics": {
+        "coverage": {
+          "sample_pixels": 1773,
+          "mae_0_255": 0.5023970603942871,
+          "rms_0_255": 2.4838833808898926,
+          "p95_0_255": 2.0,
+          "max_0_255": 24.75,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "color": {
+          "sample_pixels": 3595,
+          "mae_0_255": 0.605440080165863,
+          "rms_0_255": 1.6845875978469849,
+          "p95_0_255": 4.018750190734863,
+          "max_0_255": 12.5,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "local_color": {
+          "large_error_threshold_0_255": 32.0,
+          "join_gap_pixels": 1,
+          "largest_bad_pixel_count": 0,
+          "top_clusters": []
+        },
+        "interior_alpha": {
+          "sample_pixels": 43602,
+          "bad_pixels": 0,
+          "max_deficit_0_255": 0.0,
+          "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+        },
+        "composite_dark": {
+          "sample_pixels": 4447,
+          "mae_0_255": 0.6446459889411926,
+          "rms_0_255": 1.9887615442276,
+          "p95_0_255": 4.5,
+          "max_0_255": 19.86176300048828,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "composite_light": {
+          "sample_pixels": 4447,
+          "mae_0_255": 0.5330108404159546,
+          "rms_0_255": 1.565741777420044,
+          "p95_0_255": 3.8125,
+          "max_0_255": 12.5,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        }
+      }
+    },
+    {
+      "fixture": "curve-gradient.svg",
+      "size": 128,
+      "status": "no_rule_failure",
+      "metrics": {
+        "coverage": {
+          "sample_pixels": 1897,
+          "mae_0_255": 1.8693331480026245,
+          "rms_0_255": 5.490009307861328,
+          "p95_0_255": 12.387499809265137,
+          "max_0_255": 50.75,
+          "large_error_pixels": 8,
+          "large_error_fraction": 0.004217185028993147,
+          "large_error_threshold_0_255": 32.0
+        },
+        "color": {
+          "sample_pixels": 1085,
+          "mae_0_255": 0.2571925222873688,
+          "rms_0_255": 0.36366432905197144,
+          "p95_0_255": 0.7699525356292725,
+          "max_0_255": 1.299766182899475,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "local_color": {
+          "large_error_threshold_0_255": 32.0,
+          "join_gap_pixels": 1,
+          "largest_bad_pixel_count": 0,
+          "top_clusters": []
+        },
+        "interior_alpha": {
+          "sample_pixels": 8734,
+          "bad_pixels": 0,
+          "max_deficit_0_255": 0.0,
+          "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+        },
+        "composite_dark": {
+          "sample_pixels": 1897,
+          "mae_0_255": 1.2224758863449097,
+          "rms_0_255": 3.4011342525482178,
+          "p95_0_255": 7.794512748718262,
+          "max_0_255": 33.29876708984375,
+          "large_error_pixels": 1,
+          "large_error_fraction": 0.0005271481286241434,
+          "large_error_threshold_0_255": 32.0
+        },
+        "composite_light": {
+          "sample_pixels": 1897,
+          "mae_0_255": 1.2023948431015015,
+          "rms_0_255": 3.3737995624542236,
+          "p95_0_255": 7.539996147155762,
+          "max_0_255": 30.73431396484375,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        }
+      }
+    },
+    {
+      "fixture": "curve-gradient.svg",
+      "size": 256,
+      "status": "no_rule_failure",
+      "metrics": {
+        "coverage": {
+          "sample_pixels": 3803,
+          "mae_0_255": 1.699530005455017,
+          "rms_0_255": 4.767306327819824,
+          "p95_0_255": 11.9375,
+          "max_0_255": 34.625,
+          "large_error_pixels": 2,
+          "large_error_fraction": 0.0005259006047856955,
+          "large_error_threshold_0_255": 32.0
+        },
+        "color": {
+          "sample_pixels": 2161,
+          "mae_0_255": 0.19411779940128326,
+          "rms_0_255": 0.3221093714237213,
+          "p95_0_255": 0.7340632081031799,
+          "max_0_255": 1.2661675214767456,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "local_color": {
+          "large_error_threshold_0_255": 32.0,
+          "join_gap_pixels": 1,
+          "largest_bad_pixel_count": 0,
+          "top_clusters": []
+        },
+        "interior_alpha": {
+          "sample_pixels": 36551,
+          "bad_pixels": 0,
+          "max_deficit_0_255": 0.0,
+          "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+        },
+        "composite_dark": {
+          "sample_pixels": 3803,
+          "mae_0_255": 1.0984232425689697,
+          "rms_0_255": 3.0016098022460938,
+          "p95_0_255": 7.262057304382324,
+          "max_0_255": 22.430389404296875,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "composite_light": {
+          "sample_pixels": 3803,
+          "mae_0_255": 1.057076096534729,
+          "rms_0_255": 2.845564842224121,
+          "p95_0_255": 7.155683994293213,
+          "max_0_255": 21.07843017578125,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        }
+      }
+    },
+    {
+      "fixture": "legal-translucency.svg",
+      "size": 128,
+      "status": "no_rule_failure",
+      "metrics": {
+        "coverage": {
+          "sample_pixels": 9254,
+          "mae_0_255": 0.28833478689193726,
+          "rms_0_255": 1.6518964767456055,
+          "p95_0_255": 1.3750053644180298,
+          "max_0_255": 26.375,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "color": {
+          "sample_pixels": 8458,
+          "mae_0_255": 0.08042313158512115,
+          "rms_0_255": 0.4069514870643616,
+          "p95_0_255": 0.5399487018585205,
+          "max_0_255": 5.538396835327148,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "local_color": {
+          "large_error_threshold_0_255": 32.0,
+          "join_gap_pixels": 1,
+          "largest_bad_pixel_count": 0,
+          "top_clusters": []
+        },
+        "interior_alpha": {
+          "sample_pixels": 0,
+          "bad_pixels": 0,
+          "max_deficit_0_255": null,
+          "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+        },
+        "composite_dark": {
+          "sample_pixels": 9254,
+          "mae_0_255": 0.18529783189296722,
+          "rms_0_255": 0.8853887319564819,
+          "p95_0_255": 1.195831298828125,
+          "max_0_255": 11.940704345703125,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "composite_light": {
+          "sample_pixels": 9254,
+          "mae_0_255": 0.2313842922449112,
+          "rms_0_255": 1.25233793258667,
+          "p95_0_255": 1.292388916015625,
+          "max_0_255": 20.089218139648438,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        }
+      }
+    },
+    {
+      "fixture": "legal-translucency.svg",
+      "size": 256,
+      "status": "no_rule_failure",
+      "metrics": {
+        "coverage": {
+          "sample_pixels": 35226,
+          "mae_0_255": 0.11815491318702698,
+          "rms_0_255": 0.8228806257247925,
+          "p95_0_255": 0.0,
+          "max_0_255": 18.187484741210938,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "color": {
+          "sample_pixels": 33639,
+          "mae_0_255": 0.03905794396996498,
+          "rms_0_255": 0.27687811851501465,
+          "p95_0_255": 2.4832932012941455e-06,
+          "max_0_255": 5.538396835327148,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "local_color": {
+          "large_error_threshold_0_255": 32.0,
+          "join_gap_pixels": 1,
+          "largest_bad_pixel_count": 0,
+          "top_clusters": []
+        },
+        "interior_alpha": {
+          "sample_pixels": 0,
+          "bad_pixels": 0,
+          "max_deficit_0_255": null,
+          "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+        },
+        "composite_dark": {
+          "sample_pixels": 35226,
+          "mae_0_255": 0.08115224540233612,
+          "rms_0_255": 0.49740591645240784,
+          "p95_0_255": 0.0,
+          "max_0_255": 8.579170227050781,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "composite_light": {
+          "sample_pixels": 35226,
+          "mae_0_255": 0.09718486666679382,
+          "rms_0_255": 0.6336696147918701,
+          "p95_0_255": 0.0,
+          "max_0_255": 13.560302734375,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        }
+      }
+    },
+    {
+      "fixture": "opaque-materials.svg",
+      "size": 128,
+      "status": "no_rule_failure",
+      "metrics": {
+        "coverage": {
+          "sample_pixels": 0,
+          "mae_0_255": null,
+          "rms_0_255": null,
+          "p95_0_255": null,
+          "max_0_255": null,
+          "large_error_pixels": 0,
+          "large_error_fraction": null,
+          "large_error_threshold_0_255": 32.0
+        },
+        "color": {
+          "sample_pixels": 1432,
+          "mae_0_255": 1.1093313694000244,
+          "rms_0_255": 2.90161395072937,
+          "p95_0_255": 6.3125,
+          "max_0_255": 32.1875,
+          "large_error_pixels": 1,
+          "large_error_fraction": 0.0006983240223463687,
+          "large_error_threshold_0_255": 32.0
+        },
+        "local_color": {
+          "large_error_threshold_0_255": 32.0,
+          "join_gap_pixels": 1,
+          "largest_bad_pixel_count": 1,
+          "top_clusters": [
+            {
+              "bad_pixels": 1,
+              "bbox_pixels": [
+                43,
+                67,
+                44,
+                68
+              ],
+              "peak_error_0_255": 32.1875
+            }
+          ]
+        },
+        "interior_alpha": {
+          "sample_pixels": 16384,
+          "bad_pixels": 0,
+          "max_deficit_0_255": 0.0,
+          "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+        },
+        "composite_dark": {
+          "sample_pixels": 1432,
+          "mae_0_255": 1.1093313694000244,
+          "rms_0_255": 2.90161395072937,
+          "p95_0_255": 6.3125,
+          "max_0_255": 32.1875,
+          "large_error_pixels": 1,
+          "large_error_fraction": 0.0006983240223463687,
+          "large_error_threshold_0_255": 32.0
+        },
+        "composite_light": {
+          "sample_pixels": 1432,
+          "mae_0_255": 1.1093313694000244,
+          "rms_0_255": 2.90161395072937,
+          "p95_0_255": 6.3125,
+          "max_0_255": 32.1875,
+          "large_error_pixels": 1,
+          "large_error_fraction": 0.0006983240223463687,
+          "large_error_threshold_0_255": 32.0
+        }
+      }
+    },
+    {
+      "fixture": "opaque-materials.svg",
+      "size": 256,
+      "status": "no_rule_failure",
+      "metrics": {
+        "coverage": {
+          "sample_pixels": 0,
+          "mae_0_255": null,
+          "rms_0_255": null,
+          "p95_0_255": null,
+          "max_0_255": null,
+          "large_error_pixels": 0,
+          "large_error_fraction": null,
+          "large_error_threshold_0_255": 32.0
+        },
+        "color": {
+          "sample_pixels": 2956,
+          "mae_0_255": 0.98763108253479,
+          "rms_0_255": 2.531358003616333,
+          "p95_0_255": 6.125,
+          "max_0_255": 27.125,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "local_color": {
+          "large_error_threshold_0_255": 32.0,
+          "join_gap_pixels": 1,
+          "largest_bad_pixel_count": 0,
+          "top_clusters": []
+        },
+        "interior_alpha": {
+          "sample_pixels": 65536,
+          "bad_pixels": 0,
+          "max_deficit_0_255": 0.0,
+          "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+        },
+        "composite_dark": {
+          "sample_pixels": 2956,
+          "mae_0_255": 0.98763108253479,
+          "rms_0_255": 2.531358003616333,
+          "p95_0_255": 6.125,
+          "max_0_255": 27.125,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "composite_light": {
+          "sample_pixels": 2956,
+          "mae_0_255": 0.98763108253479,
+          "rms_0_255": 2.531358003616333,
+          "p95_0_255": 6.125,
+          "max_0_255": 27.125,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        }
+      }
+    },
+    {
+      "fixture": "sharp-corners.svg",
+      "size": 128,
+      "status": "no_rule_failure",
+      "metrics": {
+        "coverage": {
+          "sample_pixels": 2709,
+          "mae_0_255": 1.1363511085510254,
+          "rms_0_255": 2.9772026538848877,
+          "p95_0_255": 7.625,
+          "max_0_255": 21.375,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "color": {
+          "sample_pixels": 1913,
+          "mae_0_255": 0.3805912137031555,
+          "rms_0_255": 1.5230015516281128,
+          "p95_0_255": 0.8850720524787903,
+          "max_0_255": 18.125,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "local_color": {
+          "large_error_threshold_0_255": 32.0,
+          "join_gap_pixels": 1,
+          "largest_bad_pixel_count": 0,
+          "top_clusters": []
+        },
+        "interior_alpha": {
+          "sample_pixels": 4622,
+          "bad_pixels": 0,
+          "max_deficit_0_255": 0.0,
+          "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+        },
+        "composite_dark": {
+          "sample_pixels": 3089,
+          "mae_0_255": 0.43339189887046814,
+          "rms_0_255": 1.547444224357605,
+          "p95_0_255": 1.9923064708709717,
+          "max_0_255": 18.125,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "composite_light": {
+          "sample_pixels": 3089,
+          "mae_0_255": 0.9063808917999268,
+          "rms_0_255": 2.372401237487793,
+          "p95_0_255": 5.934165954589844,
+          "max_0_255": 20.032852172851562,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        }
+      }
+    },
+    {
+      "fixture": "sharp-corners.svg",
+      "size": 256,
+      "status": "no_rule_failure",
+      "metrics": {
+        "coverage": {
+          "sample_pixels": 5522,
+          "mae_0_255": 1.1506247520446777,
+          "rms_0_255": 3.07013201713562,
+          "p95_0_255": 7.6875,
+          "max_0_255": 30.000001907348633,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "color": {
+          "sample_pixels": 3949,
+          "mae_0_255": 0.4461517632007599,
+          "rms_0_255": 1.9525965452194214,
+          "p95_0_255": 0.8869855999946594,
+          "max_0_255": 27.1875,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "local_color": {
+          "large_error_threshold_0_255": 32.0,
+          "join_gap_pixels": 1,
+          "largest_bad_pixel_count": 0,
+          "top_clusters": []
+        },
+        "interior_alpha": {
+          "sample_pixels": 20649,
+          "bad_pixels": 0,
+          "max_deficit_0_255": 0.0,
+          "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+        },
+        "composite_dark": {
+          "sample_pixels": 6312,
+          "mae_0_255": 0.507344126701355,
+          "rms_0_255": 1.977102518081665,
+          "p95_0_255": 2.125,
+          "max_0_255": 27.1875,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        },
+        "composite_light": {
+          "sample_pixels": 6312,
+          "mae_0_255": 0.9455901980400085,
+          "rms_0_255": 2.5522360801696777,
+          "p95_0_255": 6.0318603515625,
+          "max_0_255": 27.1875,
+          "large_error_pixels": 0,
+          "large_error_fraction": 0.0,
+          "large_error_threshold_0_255": 32.0
+        }
+      }
+    }
+  ]
+}

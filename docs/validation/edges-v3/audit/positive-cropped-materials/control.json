@@ -1,0 +1,34 @@
+{
+  "case": "positive-cropped-materials",
+  "expected_code": null,
+  "observed_codes": [],
+  "status": "no_rule_failure",
+  "expectation_met": true,
+  "injection": "none; authored legal geometry/paint",
+  "coverage": {
+    "sample_pixels": 1773,
+    "mae_0_255": 0.5023970603942871,
+    "rms_0_255": 2.4838833808898926,
+    "p95_0_255": 2.0,
+    "max_0_255": 24.75,
+    "large_error_pixels": 0,
+    "large_error_fraction": 0.0,
+    "large_error_threshold_0_255": 32.0
+  },
+  "color": {
+    "sample_pixels": 3595,
+    "mae_0_255": 0.605440080165863,
+    "rms_0_255": 1.6845875978469849,
+    "p95_0_255": 4.018750190734863,
+    "max_0_255": 12.5,
+    "large_error_pixels": 0,
+    "large_error_fraction": 0.0,
+    "large_error_threshold_0_255": 32.0
+  },
+  "interior_alpha": {
+    "sample_pixels": 43602,
+    "bad_pixels": 0,
+    "max_deficit_0_255": 0.0,
+    "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+  }
+}

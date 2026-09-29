@@ -1,0 +1,41 @@
+[
+  {
+    "file": "suppressor-official-front.jpg",
+    "url": "https://store.gryphline.com/cdn/shop/files/26._6c3d041f-21e7-4198-9c9c-5e967cb9b358.jpg?v=1769505749&width=1090",
+    "retrieved_at": "2026-09-29T01:56:41.162122+00:00",
+    "sha256": "46078043c685987cb42e8af74657c760295be9fa8075090afdf8d71abbf66357",
+    "use": "private research; official product reference, not drawing gold",
+    "rights": "GRYPHLINE public display; redistribution not verified",
+    "visually_reviewed": true,
+    "parent_url": "https://store.gryphline.com/products/arknights-endfield-light-up-table-display-powercore-series-originium-suppressor",
+    "source_role": "official-merchandise-view-not-game-model",
+    "visual_selection_reason": "independent suppressor assembly silhouette and panel relations; exclude stand and texture from icon"
+  },
+  {
+    "file": "female-official-full.png",
+    "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator1.ec409283.png",
+    "retrieved_at": "2026-09-29T01:57:54.992951+00:00",
+    "sha256": "48909c0e98405917915492304e4bc83c91ed965ce6096ce37cb8bcfe0c4ccc02",
+    "use": "private visual research; full character or official gallery secondary illustration",
+    "rights": "Official CDN public display; redistribution not verified",
+    "visually_reviewed": true,
+    "parent_url": "https://endfield.gryphline.com/en-us/operator",
+    "source_role": "official-current-operator-art",
+    "visual_selection_reason": "masked wearing relation, hairclip and full collar/clothes",
+    "source_linkage": "operator HTML loads 4948-4c0b17ed78d1fd30.js; module refers to endministrator1.ec409283.png"
+  },
+  {
+    "file": "official-gallery-0212.jpg",
+    "url": "https://web-static.hg-cdn.com/endfield/special/over-the-frontier/assets/imgs/0212.cb69d9.jpg",
+    "retrieved_at": "2026-09-29T01:57:55.278332+00:00",
+    "sha256": "8395ebb12816a1801ff01a09b1229a970ad6edd06454b1f02bb5689512819c75",
+    "use": "private visual research; full character or official gallery secondary illustration",
+    "rights": "Official CDN public display; redistribution not verified",
+    "visually_reviewed": true,
+    "parent_url": "https://endfield.gryphline.com/special/over-the-frontier/",
+    "source_role": "official-published-credited-campaign-illustration",
+    "artist": "三宫",
+    "visual_selection_reason": "visible unmasked eyes and female hairclip, with source-version caution",
+    "source_linkage": "official HTML window.__resource plus index.b9329f.js id 0212 illustrator 三宫 theme SEEKING_THE_NORTH"
+  }
+]

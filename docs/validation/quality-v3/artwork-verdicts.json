@@ -1,0 +1,98 @@
+{
+  "schema": "aikon.artwork-verdicts.v1",
+  "date": "2026-09-29",
+  "user_quote": "六张图片全部存在致命问题，完全不合格",
+  "artworks": [
+    {
+      "subject": "deepseek",
+      "profile": "short",
+      "path": "outputs/fixtures/deepseek/round-002/short.svg",
+      "sha256": "d18985e9edd77bc7d2b4d5f541b22e3ec2f7eb563a955139a5a859cdda3cdd73",
+      "user_verdict": "rejected",
+      "feedback_scope": [
+        "overall unacceptable",
+        "head-up pose not represented",
+        "identity extraction incorrect",
+        "eye geometry incorrect",
+        "profile framing inadequate"
+      ],
+      "feedback_source": "Latest explicit user feedback, 2026-09-29; applies to the exact round-002 artifacts."
+    },
+    {
+      "subject": "deepseek",
+      "profile": "full",
+      "path": "outputs/fixtures/deepseek/round-002/full.svg",
+      "sha256": "ca145845664d586e384dc5d23173656b1a81d6c00c65fab26b501d5a45ca8232",
+      "user_verdict": "rejected",
+      "feedback_scope": [
+        "overall unacceptable",
+        "head-up pose not represented",
+        "identity extraction incorrect",
+        "eye geometry incorrect",
+        "profile framing inadequate"
+      ],
+      "feedback_source": "Latest explicit user feedback, 2026-09-29; applies to the exact round-002 artifacts."
+    },
+    {
+      "subject": "endministrator-female",
+      "profile": "short",
+      "path": "outputs/fixtures/endministrator-female/round-002/short.svg",
+      "sha256": "faf27bc6f8b43e0ee636fb84150eae68ccf1aba05b174451ea74a4e0012e848c",
+      "user_verdict": "rejected",
+      "feedback_scope": [
+        "overall unacceptable",
+        "head-up pose not represented",
+        "identity extraction incorrect",
+        "eye geometry incorrect",
+        "profile framing inadequate"
+      ],
+      "feedback_source": "Latest explicit user feedback, 2026-09-29; applies to the exact round-002 artifacts."
+    },
+    {
+      "subject": "endministrator-female",
+      "profile": "full",
+      "path": "outputs/fixtures/endministrator-female/round-002/full.svg",
+      "sha256": "f4697c22ca1a06824c3d4691a6ccabcb095f8aeedaadc2ae9972906f90608a76",
+      "user_verdict": "rejected",
+      "feedback_scope": [
+        "overall unacceptable",
+        "head-up pose not represented",
+        "identity extraction incorrect",
+        "eye geometry incorrect",
+        "profile framing inadequate"
+      ],
+      "feedback_source": "Latest explicit user feedback, 2026-09-29; applies to the exact round-002 artifacts."
+    },
+    {
+      "subject": "endministrator-male",
+      "profile": "short",
+      "path": "outputs/fixtures/endministrator-male/round-002/short.svg",
+      "sha256": "e0c7584f46060eb7139b2dd4fe8ce2cfb4c7c3e1c90f268fb52902c207f3d73d",
+      "user_verdict": "rejected",
+      "feedback_scope": [
+        "overall unacceptable",
+        "head-up pose not represented",
+        "identity extraction incorrect",
+        "eye geometry incorrect",
+        "profile framing inadequate"
+      ],
+      "feedback_source": "Latest explicit user feedback, 2026-09-29; applies to the exact round-002 artifacts."
+    },
+    {
+      "subject": "endministrator-male",
+      "profile": "full",
+      "path": "outputs/fixtures/endministrator-male/round-002/full.svg",
+      "sha256": "ef952ae6b814682224e2aa6b12f8b2b1ff47eecaa308579b4f2d65afc166bb1f",
+      "user_verdict": "rejected",
+      "feedback_scope": [
+        "overall unacceptable",
+        "head-up pose not represented",
+        "identity extraction incorrect",
+        "eye geometry incorrect",
+        "profile framing inadequate"
+      ],
+      "feedback_source": "Latest explicit user feedback, 2026-09-29; applies to the exact round-002 artifacts."
+    }
+  ],
+  "rule": "Detector controls can pass while artwork verdicts remain rejected. Mechanical tests never promote user acceptance."
+}

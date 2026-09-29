@@ -1,0 +1,488 @@
+{
+  "schema": "aikon.edge-controls.v1",
+  "status": "pass",
+  "control_suite_pass": true,
+  "calibration_precedes_negative_controls": true,
+  "rules": {
+    "coverage_edge_mae_max_0_255": 8.0,
+    "coverage_large_error_min_0_255": 32.0,
+    "coverage_large_error_fraction_max": 0.03,
+    "color_edge_mae_max_0_255": 8.0,
+    "color_large_error_min_0_255": 32.0,
+    "color_large_error_fraction_max": 0.03,
+    "color_local_bad_pixels_max": 3,
+    "interior_alpha_deficit_min_0_255": 3.0,
+    "interior_alpha_bad_pixels_max": 3,
+    "minimum_edge_samples": 16
+  },
+  "records": [
+    {
+      "case": "positive-cropped-materials",
+      "expected_code": null,
+      "observed_codes": [],
+      "status": "no_rule_failure",
+      "expectation_met": true,
+      "injection": "none; authored legal geometry/paint",
+      "coverage": {
+        "sample_pixels": 1773,
+        "mae_0_255": 0.5023970603942871,
+        "rms_0_255": 2.4838833808898926,
+        "p95_0_255": 2.0,
+        "max_0_255": 24.75,
+        "large_error_pixels": 0,
+        "large_error_fraction": 0.0,
+        "large_error_threshold_0_255": 32.0
+      },
+      "color": {
+        "sample_pixels": 3595,
+        "mae_0_255": 0.605440080165863,
+        "rms_0_255": 1.6845875978469849,
+        "p95_0_255": 4.018750190734863,
+        "max_0_255": 12.5,
+        "large_error_pixels": 0,
+        "large_error_fraction": 0.0,
+        "large_error_threshold_0_255": 32.0
+      },
+      "interior_alpha": {
+        "sample_pixels": 43602,
+        "bad_pixels": 0,
+        "max_deficit_0_255": 0.0,
+        "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+      }
+    },
+    {
+      "case": "positive-curve-gradient",
+      "expected_code": null,
+      "observed_codes": [],
+      "status": "no_rule_failure",
+      "expectation_met": true,
+      "injection": "none; authored legal geometry/paint",
+      "coverage": {
+        "sample_pixels": 3803,
+        "mae_0_255": 1.699530005455017,
+        "rms_0_255": 4.767306327819824,
+        "p95_0_255": 11.9375,
+        "max_0_255": 34.625,
+        "large_error_pixels": 2,
+        "large_error_fraction": 0.0005259006047856955,
+        "large_error_threshold_0_255": 32.0
+      },
+      "color": {
+        "sample_pixels": 2161,
+        "mae_0_255": 0.19411779940128326,
+        "rms_0_255": 0.3221093714237213,
+        "p95_0_255": 0.7340632081031799,
+        "max_0_255": 1.2661675214767456,
+        "large_error_pixels": 0,
+        "large_error_fraction": 0.0,
+        "large_error_threshold_0_255": 32.0
+      },
+      "interior_alpha": {
+        "sample_pixels": 36551,
+        "bad_pixels": 0,
+        "max_deficit_0_255": 0.0,
+        "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+      }
+    },
+    {
+      "case": "positive-legal-translucency",
+      "expected_code": null,
+      "observed_codes": [],
+      "status": "no_rule_failure",
+      "expectation_met": true,
+      "injection": "none; authored legal geometry/paint",
+      "coverage": {
+        "sample_pixels": 35226,
+        "mae_0_255": 0.11815491318702698,
+        "rms_0_255": 0.8228806257247925,
+        "p95_0_255": 0.0,
+        "max_0_255": 18.187484741210938,
+        "large_error_pixels": 0,
+        "large_error_fraction": 0.0,
+        "large_error_threshold_0_255": 32.0
+      },
+      "color": {
+        "sample_pixels": 33639,
+        "mae_0_255": 0.03905794396996498,
+        "rms_0_255": 0.27687811851501465,
+        "p95_0_255": 2.4832932012941455e-06,
+        "max_0_255": 5.538396835327148,
+        "large_error_pixels": 0,
+        "large_error_fraction": 0.0,
+        "large_error_threshold_0_255": 32.0
+      },
+      "interior_alpha": {
+        "sample_pixels": 0,
+        "bad_pixels": 0,
+        "max_deficit_0_255": null,
+        "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+      }
+    },
+    {
+      "case": "positive-opaque-materials",
+      "expected_code": null,
+      "observed_codes": [],
+      "status": "no_rule_failure",
+      "expectation_met": true,
+      "injection": "none; authored legal geometry/paint",
+      "coverage": {
+        "sample_pixels": 0,
+        "mae_0_255": null,
+        "rms_0_255": null,
+        "p95_0_255": null,
+        "max_0_255": null,
+        "large_error_pixels": 0,
+        "large_error_fraction": null,
+        "large_error_threshold_0_255": 32.0
+      },
+      "color": {
+        "sample_pixels": 2956,
+        "mae_0_255": 0.98763108253479,
+        "rms_0_255": 2.531358003616333,
+        "p95_0_255": 6.125,
+        "max_0_255": 27.125,
+        "large_error_pixels": 0,
+        "large_error_fraction": 0.0,
+        "large_error_threshold_0_255": 32.0
+      },
+      "interior_alpha": {
+        "sample_pixels": 65536,
+        "bad_pixels": 0,
+        "max_deficit_0_255": 0.0,
+        "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+      }
+    },
+    {
+      "case": "positive-sharp-corners",
+      "expected_code": null,
+      "observed_codes": [],
+      "status": "no_rule_failure",
+      "expectation_met": true,
+      "injection": "none; authored legal geometry/paint",
+      "coverage": {
+        "sample_pixels": 5522,
+        "mae_0_255": 1.1506247520446777,
+        "rms_0_255": 3.07013201713562,
+        "p95_0_255": 7.6875,
+        "max_0_255": 30.000001907348633,
+        "large_error_pixels": 0,
+        "large_error_fraction": 0.0,
+        "large_error_threshold_0_255": 32.0
+      },
+      "color": {
+        "sample_pixels": 3949,
+        "mae_0_255": 0.4461517632007599,
+        "rms_0_255": 1.9525965452194214,
+        "p95_0_255": 0.8869855999946594,
+        "max_0_255": 27.1875,
+        "large_error_pixels": 0,
+        "large_error_fraction": 0.0,
+        "large_error_threshold_0_255": 32.0
+      },
+      "interior_alpha": {
+        "sample_pixels": 20649,
+        "bad_pixels": 0,
+        "max_deficit_0_255": 0.0,
+        "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+      }
+    },
+    {
+      "case": "negative-nearest-staircase",
+      "expected_code": "edge_coverage_mismatch",
+      "observed_codes": [
+        "edge_coverage_mismatch",
+        "unexpected_interior_alpha_deficit"
+      ],
+      "status": "fail",
+      "expectation_met": true,
+      "injection": "64px native render upscaled to 256px with nearest neighbor",
+      "coverage": {
+        "sample_pixels": 3803,
+        "mae_0_255": 50.657127380371094,
+        "rms_0_255": 76.57463073730469,
+        "p95_0_255": 173.9250030517578,
+        "max_0_255": 239.0,
+        "large_error_pixels": 1822,
+        "large_error_fraction": 0.4790954509597686,
+        "large_error_threshold_0_255": 32.0
+      },
+      "color": {
+        "sample_pixels": 2124,
+        "mae_0_255": 0.42760008573532104,
+        "rms_0_255": 0.5590012073516846,
+        "p95_0_255": 1.0,
+        "max_0_255": 1.8823529481887817,
+        "large_error_pixels": 0,
+        "large_error_fraction": 0.0,
+        "large_error_threshold_0_255": 32.0
+      },
+      "interior_alpha": {
+        "sample_pixels": 36551,
+        "bad_pixels": 184,
+        "max_deficit_0_255": 111.0,
+        "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+      }
+    },
+    {
+      "case": "negative-threshold-alpha",
+      "expected_code": "edge_coverage_mismatch",
+      "observed_codes": [
+        "edge_coverage_mismatch"
+      ],
+      "status": "fail",
+      "expectation_met": true,
+      "injection": "alpha independently thresholded at128 to remove coverage antialiasing",
+      "coverage": {
+        "sample_pixels": 3803,
+        "mae_0_255": 11.066871643066406,
+        "rms_0_255": 30.09680938720703,
+        "p95_0_255": 87.48124694824219,
+        "max_0_255": 151.25,
+        "large_error_pixels": 477,
+        "large_error_fraction": 0.12542729424138838,
+        "large_error_threshold_0_255": 32.0
+      },
+      "color": {
+        "sample_pixels": 1885,
+        "mae_0_255": 0.14785970747470856,
+        "rms_0_255": 0.27372947335243225,
+        "p95_0_255": 0.687499463558197,
+        "max_0_255": 1.2661675214767456,
+        "large_error_pixels": 0,
+        "large_error_fraction": 0.0,
+        "large_error_threshold_0_255": 32.0
+      },
+      "interior_alpha": {
+        "sample_pixels": 36551,
+        "bad_pixels": 0,
+        "max_deficit_0_255": 0.0,
+        "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+      }
+    },
+    {
+      "case": "negative-colored-alpha-fringe",
+      "expected_code": "edge_color_contamination_or_material_mismatch",
+      "observed_codes": [
+        "edge_color_contamination_or_material_mismatch",
+        "local_edge_color_contamination_or_material_mismatch"
+      ],
+      "status": "fail",
+      "expectation_met": true,
+      "injection": "magenta RGB injected only into existing partial-alpha ring; alpha untouched",
+      "coverage": {
+        "sample_pixels": 3803,
+        "mae_0_255": 1.699530005455017,
+        "rms_0_255": 4.767306327819824,
+        "p95_0_255": 11.9375,
+        "max_0_255": 34.625,
+        "large_error_pixels": 2,
+        "large_error_fraction": 0.0005259006047856955,
+        "large_error_threshold_0_255": 32.0
+      },
+      "color": {
+        "sample_pixels": 2161,
+        "mae_0_255": 20.36267852783203,
+        "rms_0_255": 44.82981491088867,
+        "p95_0_255": 119.3186264038086,
+        "max_0_255": 156.52157592773438,
+        "large_error_pixels": 472,
+        "large_error_fraction": 0.2184173993521518,
+        "large_error_threshold_0_255": 32.0
+      },
+      "interior_alpha": {
+        "sample_pixels": 36551,
+        "bad_pixels": 0,
+        "max_deficit_0_255": 0.0,
+        "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+      }
+    },
+    {
+      "case": "negative-local-16px-color-fringe",
+      "expected_code": "local_edge_color_contamination_or_material_mismatch",
+      "observed_codes": [
+        "local_edge_color_contamination_or_material_mismatch"
+      ],
+      "status": "fail",
+      "expectation_met": true,
+      "injection": "16 existing partial-alpha pixels nearest(110,17) on one edge arc recolored; all alpha and other pixels untouched",
+      "coverage": {
+        "sample_pixels": 3803,
+        "mae_0_255": 1.699530005455017,
+        "rms_0_255": 4.767306327819824,
+        "p95_0_255": 11.9375,
+        "max_0_255": 34.625,
+        "large_error_pixels": 2,
+        "large_error_fraction": 0.0005259006047856955,
+        "large_error_threshold_0_255": 32.0
+      },
+      "color": {
+        "sample_pixels": 2161,
+        "mae_0_255": 0.9604098796844482,
+        "rms_0_255": 9.146772384643555,
+        "p95_0_255": 0.75,
+        "max_0_255": 133.03477478027344,
+        "large_error_pixels": 16,
+        "large_error_fraction": 0.007403979639055993,
+        "large_error_threshold_0_255": 32.0
+      },
+      "interior_alpha": {
+        "sample_pixels": 36551,
+        "bad_pixels": 0,
+        "max_deficit_0_255": 0.0,
+        "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+      }
+    },
+    {
+      "case": "negative-interior-alpha",
+      "expected_code": "unexpected_interior_alpha_deficit",
+      "observed_codes": [
+        "unexpected_interior_alpha_deficit"
+      ],
+      "status": "fail",
+      "expectation_met": true,
+      "injection": "interior alpha changed255->239 in30x30 patch; RGB untouched",
+      "coverage": {
+        "sample_pixels": 3803,
+        "mae_0_255": 1.699530005455017,
+        "rms_0_255": 4.767306327819824,
+        "p95_0_255": 11.9375,
+        "max_0_255": 34.625,
+        "large_error_pixels": 2,
+        "large_error_fraction": 0.0005259006047856955,
+        "large_error_threshold_0_255": 32.0
+      },
+      "color": {
+        "sample_pixels": 2161,
+        "mae_0_255": 0.19411779940128326,
+        "rms_0_255": 0.3221093714237213,
+        "p95_0_255": 0.7340632081031799,
+        "max_0_255": 1.2661675214767456,
+        "large_error_pixels": 0,
+        "large_error_fraction": 0.0,
+        "large_error_threshold_0_255": 32.0
+      },
+      "interior_alpha": {
+        "sample_pixels": 36551,
+        "bad_pixels": 900,
+        "max_deficit_0_255": 16.0,
+        "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+      }
+    },
+    {
+      "case": "positive-hidden-zero-alpha-rgb",
+      "expected_code": null,
+      "observed_codes": [],
+      "status": "no_rule_failure",
+      "expectation_met": true,
+      "injection": "hidden transparent RGB is not visible contamination",
+      "coverage": {
+        "sample_pixels": 3803,
+        "mae_0_255": 1.699530005455017,
+        "rms_0_255": 4.767306327819824,
+        "p95_0_255": 11.9375,
+        "max_0_255": 34.625,
+        "large_error_pixels": 2,
+        "large_error_fraction": 0.0005259006047856955,
+        "large_error_threshold_0_255": 32.0
+      },
+      "color": {
+        "sample_pixels": 2161,
+        "mae_0_255": 0.19411779940128326,
+        "rms_0_255": 0.3221093714237213,
+        "p95_0_255": 0.7340632081031799,
+        "max_0_255": 1.2661675214767456,
+        "large_error_pixels": 0,
+        "large_error_fraction": 0.0,
+        "large_error_threshold_0_255": 32.0
+      },
+      "interior_alpha": {
+        "sample_pixels": 36551,
+        "bad_pixels": 0,
+        "max_deficit_0_255": 0.0,
+        "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+      }
+    },
+    {
+      "case": "negative-opaque-material-staircase",
+      "expected_code": "edge_color_contamination_or_material_mismatch",
+      "observed_codes": [
+        "edge_color_contamination_or_material_mismatch",
+        "local_edge_color_contamination_or_material_mismatch"
+      ],
+      "status": "fail",
+      "expectation_met": true,
+      "injection": "64px opaque two-material render nearest-upscaled; every alpha remains255",
+      "coverage": {
+        "sample_pixels": 0,
+        "mae_0_255": null,
+        "rms_0_255": null,
+        "p95_0_255": null,
+        "max_0_255": null,
+        "large_error_pixels": 0,
+        "large_error_fraction": null,
+        "large_error_threshold_0_255": 32.0
+      },
+      "color": {
+        "sample_pixels": 2956,
+        "mae_0_255": 35.25188064575195,
+        "rms_0_255": 51.258323669433594,
+        "p95_0_255": 105.390625,
+        "max_0_255": 174.0625,
+        "large_error_pixels": 1258,
+        "large_error_fraction": 0.425575101488498,
+        "large_error_threshold_0_255": 32.0
+      },
+      "interior_alpha": {
+        "sample_pixels": 65536,
+        "bad_pixels": 0,
+        "max_deficit_0_255": 0.0,
+        "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+      }
+    },
+    {
+      "case": "negative-svg-crispEdges",
+      "expected_code": "edge_coverage_mismatch",
+      "observed_codes": [
+        "edge_coverage_mismatch"
+      ],
+      "status": "fail",
+      "expectation_met": true,
+      "injection": "same path explicitly requests crispEdges at native resolution; reference keeps same geometry and requests precise coverage",
+      "coverage": {
+        "sample_pixels": 3803,
+        "mae_0_255": 12.20248794555664,
+        "rms_0_255": 34.574562072753906,
+        "p95_0_255": 91.75,
+        "max_0_255": 206.3125,
+        "large_error_pixels": 477,
+        "large_error_fraction": 0.12542729424138838,
+        "large_error_threshold_0_255": 32.0
+      },
+      "color": {
+        "sample_pixels": 1805,
+        "mae_0_255": 0.0842766985297203,
+        "rms_0_255": 0.15300507843494415,
+        "p95_0_255": 0.375,
+        "max_0_255": 0.5710757970809937,
+        "large_error_pixels": 0,
+        "large_error_fraction": 0.0,
+        "large_error_threshold_0_255": 32.0
+      },
+      "interior_alpha": {
+        "sample_pixels": 36551,
+        "bad_pixels": 0,
+        "max_deficit_0_255": 0.0,
+        "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+      }
+    }
+  ],
+  "held_out": {
+    "source": "outputs/fixtures/deepseek/round-002/short.svg",
+    "source_sha256": "d18985e9edd77bc7d2b4d5f541b22e3ec2f7eb563a955139a5a859cdda3cdd73",
+    "edge_status": "fail",
+    "user_visual_status": "rejected",
+    "explanation": "edge result cannot reverse rejection of identity, eyes or pose"
+  },
+  "no_artwork_written": true,
+  "visual_acceptance": "not_assessed"
+}

@@ -1,0 +1,351 @@
+{
+  "eyes": [
+    {
+      "schema": "aikon.capsule-geometry.v1",
+      "status": "no_rule_failure",
+      "issues": [],
+      "rules": {
+        "contour_aa_neighborhood_pixels": 3,
+        "min_minor_diameter_pixels": 16.0,
+        "min_aspect_ratio": 1.45,
+        "max_aspect_ratio": 4.0,
+        "capsule_rms_fraction_width_max": 0.02,
+        "capsule_p95_fraction_width_max": 0.04,
+        "ellipse_advantage_ratio_max": 0.55,
+        "ellipse_advantage_min_capsule_error": 0.008
+      },
+      "components": 1,
+      "mask_shape_hw": [
+        1280,
+        1280
+      ],
+      "coverage_outside_contour_neighborhood": 0.0,
+      "observed": {
+        "center_xy": [
+          213.1809831181728,
+          776.6797914597815
+        ],
+        "major_axis_degrees_clockwise_from_x": 104.38855795132025,
+        "center_xy_canvas_fraction": [
+          0.1665476430610725,
+          0.6067810870779543
+        ],
+        "major_length_pixels": 215.4167780328279,
+        "minor_width_pixels": 110.0539119896132,
+        "major_length_canvas_diagonal_fraction": 0.11900208166278899,
+        "minor_width_canvas_diagonal_fraction": 0.060796771456221074,
+        "aspect_ratio": 1.9573750186468497,
+        "area_coverage_pixels": 20140.0,
+        "area_fraction_oriented_box": 0.8495216585192987,
+        "contour_points": 680
+      },
+      "fits": {
+        "capsule": {
+          "converged": true,
+          "center_xy": [
+            213.27329607826505,
+            776.4334105549125
+          ],
+          "major_axis_degrees_clockwise_from_x": 104.55365178456456,
+          "radius_or_half_width_pixels": 52.85400877031637,
+          "half_segment_or_half_length_pixels": 53.75239478447259,
+          "rms_distance_pixels": 1.2527247461373,
+          "rms_fraction_observed_width": 0.01138282795667937,
+          "p95_fraction_observed_width": 0.021047284806351395,
+          "distance_definition": "exact signed capsule distance"
+        },
+        "ellipse": {
+          "converged": true,
+          "center_xy": [
+            213.27785491304866,
+            776.4956502291345
+          ],
+          "major_axis_degrees_clockwise_from_x": 104.1545760423097,
+          "radius_or_half_width_pixels": 57.493183784023635,
+          "half_segment_or_half_length_pixels": 111.18290623523434,
+          "rms_distance_pixels": 2.5955258720658603,
+          "rms_fraction_observed_width": 0.023584130951299794,
+          "p95_fraction_observed_width": 0.038580855185886775,
+          "distance_definition": "first-order Euclidean ellipse contour distance"
+        }
+      },
+      "ellipse_to_capsule_rms_ratio": 2.0719043669162,
+      "width_profile": [
+        {
+          "major_fraction": -0.9,
+          "width_fraction": 0.6192801660981361
+        },
+        {
+          "major_fraction": -0.8,
+          "width_fraction": 0.7636053044816834
+        },
+        {
+          "major_fraction": -0.7,
+          "width_fraction": 0.8528638561492936
+        },
+        {
+          "major_fraction": -0.6,
+          "width_fraction": 0.9101883949023688
+        },
+        {
+          "major_fraction": -0.5,
+          "width_fraction": 0.9411086163160446
+        },
+        {
+          "major_fraction": -0.4,
+          "width_fraction": 0.9587114945423109
+        },
+        {
+          "major_fraction": -0.29999999999999993,
+          "width_fraction": 0.974056420731439
+        },
+        {
+          "major_fraction": -0.19999999999999996,
+          "width_fraction": 0.9873737639188483
+        },
+        {
+          "major_fraction": -0.09999999999999998,
+          "width_fraction": 0.9916592989577053
+        },
+        {
+          "major_fraction": 0.0,
+          "width_fraction": 0.9964055720674009
+        },
+        {
+          "major_fraction": 0.09999999999999998,
+          "width_fraction": 0.9982027860337004
+        },
+        {
+          "major_fraction": 0.20000000000000007,
+          "width_fraction": 0.9941476200302627
+        },
+        {
+          "major_fraction": 0.30000000000000016,
+          "width_fraction": 0.9851158118817104
+        },
+        {
+          "major_fraction": 0.4,
+          "width_fraction": 0.9763143727685771
+        },
+        {
+          "major_fraction": 0.5000000000000001,
+          "width_fraction": 0.9541955904680347
+        },
+        {
+          "major_fraction": 0.6,
+          "width_fraction": 0.9212477860526401
+        },
+        {
+          "major_fraction": 0.7000000000000001,
+          "width_fraction": 0.8749826384498361
+        },
+        {
+          "major_fraction": 0.8000000000000002,
+          "width_fraction": 0.7834661347450879
+        },
+        {
+          "major_fraction": 0.9,
+          "width_fraction": 0.6225519096361337
+        }
+      ],
+      "scope": "near-circular-ended elongated capsule contour only; not pose, naturalness, identity, or reference similarity"
+    },
+    {
+      "schema": "aikon.capsule-geometry.v1",
+      "status": "no_rule_failure",
+      "issues": [],
+      "rules": {
+        "contour_aa_neighborhood_pixels": 3,
+        "min_minor_diameter_pixels": 16.0,
+        "min_aspect_ratio": 1.45,
+        "max_aspect_ratio": 4.0,
+        "capsule_rms_fraction_width_max": 0.02,
+        "capsule_p95_fraction_width_max": 0.04,
+        "ellipse_advantage_ratio_max": 0.55,
+        "ellipse_advantage_min_capsule_error": 0.008
+      },
+      "components": 1,
+      "mask_shape_hw": [
+        1280,
+        1280
+      ],
+      "coverage_outside_contour_neighborhood": 0.0,
+      "observed": {
+        "center_xy": [
+          642.6217540163287,
+          928.148380300237
+        ],
+        "major_axis_degrees_clockwise_from_x": 101.75263525732453,
+        "center_xy_canvas_fraction": [
+          0.5020482453252568,
+          0.7251159221095602
+        ],
+        "major_length_pixels": 208.23881245853846,
+        "minor_width_pixels": 107.8121649688086,
+        "major_length_canvas_diagonal_fraction": 0.11503677843411426,
+        "minor_width_canvas_diagonal_fraction": 0.059558369487380705,
+        "aspect_ratio": 1.9314964365921465,
+        "area_coverage_pixels": 18985.0,
+        "area_fraction_oriented_box": 0.845631507212261,
+        "contour_points": 658
+      },
+      "fits": {
+        "capsule": {
+          "converged": true,
+          "center_xy": [
+            642.7040047569712,
+            927.839638502573
+          ],
+          "major_axis_degrees_clockwise_from_x": 102.00494447463555,
+          "radius_or_half_width_pixels": 51.59765547575367,
+          "half_segment_or_half_length_pixels": 51.41570661901069,
+          "rms_distance_pixels": 1.4001855414480275,
+          "rms_fraction_observed_width": 0.012987268568933001,
+          "p95_fraction_observed_width": 0.02402847402654735,
+          "distance_definition": "exact signed capsule distance"
+        },
+        "ellipse": {
+          "converged": true,
+          "center_xy": [
+            642.7188800115072,
+            927.930074829397
+          ],
+          "major_axis_degrees_clockwise_from_x": 101.43900270768793,
+          "radius_or_half_width_pixels": 56.126578089565456,
+          "half_segment_or_half_length_pixels": 107.35372965602087,
+          "rms_distance_pixels": 2.547533560881985,
+          "rms_fraction_observed_width": 0.023629370225697794,
+          "p95_fraction_observed_width": 0.03974420938671565,
+          "distance_definition": "first-order Euclidean ellipse contour distance"
+        }
+      },
+      "ellipse_to_capsule_rms_ratio": 1.8194257014305448,
+      "width_profile": [
+        {
+          "major_fraction": -0.9,
+          "width_fraction": 0.6167111270788377
+        },
+        {
+          "major_fraction": -0.8,
+          "width_fraction": 0.7567038184787093
+        },
+        {
+          "major_fraction": -0.7,
+          "width_fraction": 0.8441001275354277
+        },
+        {
+          "major_fraction": -0.6,
+          "width_fraction": 0.8932833907552337
+        },
+        {
+          "major_fraction": -0.5,
+          "width_fraction": 0.933020281150607
+        },
+        {
+          "major_fraction": -0.4,
+          "width_fraction": 0.951547596793046
+        },
+        {
+          "major_fraction": -0.29999999999999993,
+          "width_fraction": 0.9712333269875196
+        },
+        {
+          "major_fraction": -0.19999999999999996,
+          "width_fraction": 0.9840928189352993
+        },
+        {
+          "major_fraction": -0.09999999999999998,
+          "width_fraction": 0.9893952126235329
+        },
+        {
+          "major_fraction": 0.0,
+          "width_fraction": 0.9950630363181924
+        },
+        {
+          "major_fraction": 0.09999999999999998,
+          "width_fraction": 0.9984761554415394
+        },
+        {
+          "major_fraction": 0.20000000000000007,
+          "width_fraction": 0.9912844871884193
+        },
+        {
+          "major_fraction": 0.30000000000000016,
+          "width_fraction": 0.9893952126235329
+        },
+        {
+          "major_fraction": 0.4,
+          "width_fraction": 0.9769011506821793
+        },
+        {
+          "major_fraction": 0.5000000000000001,
+          "width_fraction": 0.951547596793046
+        },
+        {
+          "major_fraction": 0.6,
+          "width_fraction": 0.9186369446443668
+        },
+        {
+          "major_fraction": 0.7000000000000001,
+          "width_fraction": 0.8677471218628876
+        },
+        {
+          "major_fraction": 0.8000000000000002,
+          "width_fraction": 0.780350812806169
+        },
+        {
+          "major_fraction": 0.9,
+          "width_fraction": 0.6203069612053979
+        }
+      ],
+      "scope": "near-circular-ended elongated capsule contour only; not pose, naturalness, identity, or reference similarity"
+    }
+  ],
+  "relationship": {
+    "center_vector_xy_pixels": [
+      429.44077089815596,
+      151.46858884045548
+    ],
+    "center_distance_pixels": 455.3702988941214,
+    "center_distance_canvas_diagonal_fraction": 0.2515589267960767,
+    "eye_line_degrees_clockwise_from_x": 19.428319151438362,
+    "major_axis_difference_degrees": 2.635922693995724,
+    "major_length_ratio_right_over_left": 0.9666787070169829,
+    "minor_width_ratio_right_over_left": 0.9796304649214453,
+    "status": "measurement_only_not_pitch_estimation"
+  },
+  "source": "ref/user-mode/r1.png",
+  "source_sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+  "quality": "user_supplied_positive_reference_not_global_quality_certification",
+  "extraction": [
+    {
+      "name": "left",
+      "bbox": [
+        135,
+        650,
+        295,
+        900
+      ],
+      "seed_xy": [
+        211,
+        770
+      ],
+      "max_channel": 100
+    },
+    {
+      "name": "right",
+      "bbox": [
+        560,
+        810,
+        720,
+        1045
+      ],
+      "seed_xy": [
+        641,
+        930
+      ],
+      "max_channel": 100
+    }
+  ],
+  "extraction_method": "opaque RGB max <= threshold, seed-connected component; no smoothing, filling, or manual contour edits"
+}

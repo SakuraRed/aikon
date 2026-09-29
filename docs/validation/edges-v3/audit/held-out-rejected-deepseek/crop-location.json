@@ -1,0 +1,10 @@
+{
+  "box_pixels": [
+    0,
+    201,
+    48,
+    249
+  ],
+  "selection": "maximum alpha-error + visible-color-error",
+  "display": "nearest enlargement only; analysis uses original pixels"
+}

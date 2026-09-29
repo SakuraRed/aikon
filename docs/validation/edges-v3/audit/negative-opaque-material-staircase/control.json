@@ -1,0 +1,37 @@
+{
+  "case": "negative-opaque-material-staircase",
+  "expected_code": "edge_color_contamination_or_material_mismatch",
+  "observed_codes": [
+    "edge_color_contamination_or_material_mismatch",
+    "local_edge_color_contamination_or_material_mismatch"
+  ],
+  "status": "fail",
+  "expectation_met": true,
+  "injection": "64px opaque two-material render nearest-upscaled; every alpha remains255",
+  "coverage": {
+    "sample_pixels": 0,
+    "mae_0_255": null,
+    "rms_0_255": null,
+    "p95_0_255": null,
+    "max_0_255": null,
+    "large_error_pixels": 0,
+    "large_error_fraction": null,
+    "large_error_threshold_0_255": 32.0
+  },
+  "color": {
+    "sample_pixels": 2956,
+    "mae_0_255": 35.25188064575195,
+    "rms_0_255": 51.258323669433594,
+    "p95_0_255": 105.390625,
+    "max_0_255": 174.0625,
+    "large_error_pixels": 1258,
+    "large_error_fraction": 0.425575101488498,
+    "large_error_threshold_0_255": 32.0
+  },
+  "interior_alpha": {
+    "sample_pixels": 65536,
+    "bad_pixels": 0,
+    "max_deficit_0_255": 0.0,
+    "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+  }
+}

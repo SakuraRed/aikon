@@ -1,0 +1,119 @@
+{
+  "schema": "aikon.edge-quality.v1",
+  "status": "fail",
+  "mode": "same_svg_supersampled_reference",
+  "canvas": [
+    256,
+    256
+  ],
+  "supersample": 4,
+  "reference_method": "4x precise SVG render; premultiplied encoded-sRGB BOX area integration",
+  "source_sha256": "171e1609c34dee0d466878aeb1342e2fcccb9052d9e78f63847b7f75e1ff2195",
+  "candidate_rgba_sha256": "b63f75d04708a09292065a3d69a7e030ea4159e70aa00059575148b6d5ba9c65",
+  "candidate_source": "supplied_png",
+  "native_byte_identity_is_not_a_quality_rule": true,
+  "backend": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "rules": {
+    "coverage_edge_mae_max_0_255": 8.0,
+    "coverage_large_error_min_0_255": 32.0,
+    "coverage_large_error_fraction_max": 0.03,
+    "color_edge_mae_max_0_255": 8.0,
+    "color_large_error_min_0_255": 32.0,
+    "color_large_error_fraction_max": 0.03,
+    "color_local_bad_pixels_max": 3,
+    "interior_alpha_deficit_min_0_255": 3.0,
+    "interior_alpha_bad_pixels_max": 3,
+    "minimum_edge_samples": 16
+  },
+  "rule_provenance": "docs/validation/edges-v3/README.md",
+  "metrics": {
+    "coverage": {
+      "sample_pixels": 3803,
+      "mae_0_255": 1.699530005455017,
+      "rms_0_255": 4.767306327819824,
+      "p95_0_255": 11.9375,
+      "max_0_255": 34.625,
+      "large_error_pixels": 2,
+      "large_error_fraction": 0.0005259006047856955,
+      "large_error_threshold_0_255": 32.0
+    },
+    "color": {
+      "sample_pixels": 2161,
+      "mae_0_255": 0.19411779940128326,
+      "rms_0_255": 0.3221093714237213,
+      "p95_0_255": 0.7340632081031799,
+      "max_0_255": 1.2661675214767456,
+      "large_error_pixels": 0,
+      "large_error_fraction": 0.0,
+      "large_error_threshold_0_255": 32.0
+    },
+    "local_color": {
+      "large_error_threshold_0_255": 32.0,
+      "join_gap_pixels": 1,
+      "largest_bad_pixel_count": 0,
+      "top_clusters": []
+    },
+    "interior_alpha": {
+      "sample_pixels": 36551,
+      "bad_pixels": 900,
+      "max_deficit_0_255": 16.0,
+      "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+    },
+    "composite_dark": {
+      "sample_pixels": 3803,
+      "mae_0_255": 1.0984232425689697,
+      "rms_0_255": 3.0016098022460938,
+      "p95_0_255": 7.262057304382324,
+      "max_0_255": 22.430389404296875,
+      "large_error_pixels": 0,
+      "large_error_fraction": 0.0,
+      "large_error_threshold_0_255": 32.0
+    },
+    "composite_light": {
+      "sample_pixels": 3803,
+      "mae_0_255": 1.057076096534729,
+      "rms_0_255": 2.845564842224121,
+      "p95_0_255": 7.155683994293213,
+      "max_0_255": 21.07843017578125,
+      "large_error_pixels": 0,
+      "large_error_fraction": 0.0,
+      "large_error_threshold_0_255": 32.0
+    }
+  },
+  "validation_scope": {
+    "positive_calibration_long_edges": [
+      128,
+      256
+    ],
+    "prototype_supported_long_edge_range": [
+      32,
+      1024
+    ],
+    "limits_outside_calibration": "API budget is not validation at every size; inspect evidence at the actual export size",
+    "reference_edge_band_pixels": 3803,
+    "fractional_coverage_pixels": 791,
+    "contour_measure_note": "pixel sample counts, not arc-length estimate; aggregate fraction changes with contour complexity"
+  },
+  "assessed_edge_channels": [
+    "coverage",
+    "color"
+  ],
+  "issues": [
+    {
+      "code": "unexpected_interior_alpha_deficit",
+      "bad_pixels": 900
+    }
+  ],
+  "limitations": [
+    "Same SVG geometry and paint are assumed, not verified against a character reference.",
+    "Supersampling is a numerical comparator, not an artist-approved ground truth.",
+    "Small/local errors under these aggregate bounds can remain undetected.",
+    "SVG-authored holes, intended jagged geometry, grain and incorrect shape can repeat in both renders.",
+    "No conclusion about character identity, tilt, capsule shape, highlight naturalness or user acceptance."
+  ],
+  "visual_acceptance": "not_assessed"
+}
