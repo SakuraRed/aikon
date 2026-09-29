@@ -27,7 +27,9 @@ def paint(field, identifier):
     stops = field["stops"]
     if not 2 <= len(stops) <= 5:
         raise ValueError("Analytic fields require two to five stops")
-    tags = "".join(f'<stop offset="{s["offset"]:.5f}" stop-color="{rgb(s["rgb"])}"/>' for s in stops)
+    if any(not 0 <= s.get("opacity", 1) <= 1 for s in stops):
+        raise ValueError("Stop opacity must be bounded")
+    tags = "".join(f'<stop offset="{s["offset"]:.7f}" stop-color="{rgb(s["rgb"])}" stop-opacity="{s.get("opacity", 1):.7f}"/>' for s in stops)
     common = f'id="{identifier}" gradientUnits="userSpaceOnUse" color-interpolation="sRGB"'
     if field["kind"] == "linear":
         a, b = field["from"], field["to"]
@@ -63,13 +65,24 @@ def assemble(geometry_path, fields_path, prompt_path, output):
     palettes = {item["id"]: item["field"] for item in fields["palette"]}
     regions = sorted(geometry["regions"], key=lambda region: region["z"])
     parents = {item["id"]: item for item in geometry["underpaints"]}
-    definitions, fills = [], {}
+    definitions, fills, overlays = [], {}, {}
     for identifier, field in palettes.items():
-        definition, fill = paint(field, "paint-" + identifier)
+        primary = field["base"] if field["kind"] == "layered" else field
+        definition, fill = paint(primary, "paint-" + identifier)
         definitions.append(definition)
         fills[identifier] = fill
+        if field["kind"] == "layered":
+            glazes = field["glazes"]
+            if not 1 <= len(glazes) <= 2:
+                raise ValueError("This study allows at most two broad analytic glazes")
+            overlays[identifier] = []
+            for index, glaze in enumerate(glazes):
+                definition, fill = paint(glaze, f"paint-{identifier}-glaze-{index}")
+                definitions.append(definition)
+                overlays[identifier].append(fill)
     definitions.append('<clipPath id="clip-face">' + path(parents["face-underpaint"], "white", identifier="face-support-clip") + '</clipPath>')
     definitions.append('<clipPath id="subject-boundary">' + path(parents["subject-underpaint"], "white", 'clip-rule="evenodd"', identifier="subject-coverage-clip") + '</clipPath>')
+    definitions.append('<clipPath id="blue-material-owner">' + path(parents["blue-underpaint"], "white", 'clip-rule="evenodd"', identifier="blue-owner-clip-path") + '</clipPath>')
     body = ['<g id="artwork" clip-path="url(#subject-boundary)">',
             '<g id="material-foundations">',
             f'<rect id="opaque-material-support" width="1280" height="1280" fill="{fills["hair-front-main"]}"/>']
@@ -84,6 +97,8 @@ def assemble(geometry_path, fields_path, prompt_path, output):
     body.append('</g><g id="visible-material-surfaces">')
     for region in regions:
         identifier = region["id"]
+        if identifier == "hair-right-face-crease":
+            body.append('<g id="right-face-crease-ownership" clip-path="url(#blue-material-owner)">')
         if identifier.startswith("eye-"):
             # A narrow source-observed warm outer rim, not a white specular spot.
             # Three concentric low-amplitude strokes approximate its finite falloff.
@@ -97,8 +112,19 @@ def assemble(geometry_path, fields_path, prompt_path, output):
             # the eye silhouette or silently turn the capsule into an ellipse.
             body.append(path(region, "none", f'stroke="#1b203b" stroke-width="4.0" stroke-opacity="0.50" clip-path="url(#clip-{identifier})"', identifier=identifier + '-inner-transition'))
             body.append(path(region, "none", f'stroke="#0f122b" stroke-width="2.0" clip-path="url(#clip-{identifier})"', identifier=identifier + '-inner-rim'))
+        elif identifier in overlays:
+            clip_id = f"clip-material-{identifier}"
+            definitions.append(f'<clipPath id="{clip_id}">' + path(region, "white", 'clip-rule="evenodd"', identifier=identifier + '-material-clip') + '</clipPath>')
+            body.append(f'<g id="{identifier}" clip-path="url(#{clip_id})">')
+            # One material boundary sample covers base plus every broad glaze.
+            # The translucent glaze never makes the opaque material translucent.
+            for index, fill in enumerate([fills[identifier], *overlays[identifier]]):
+                body.append(f'<rect id="{identifier}-field-{index}" width="1280" height="1280" fill="{fill}"/>')
+            body.append('</g>')
         else:
             body.append(path(region, fills[identifier]))
+        if identifier == "hair-right-face-crease":
+            body.append('</g>')
     body.append('</g></g>')
     svg = '<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1280" viewBox="0 0 1280 1280">\n<title>DeepSeek r1 semantic short calibration</title>\n<desc>Source-assisted editable vector study. Transparent canvas. Not user accepted.</desc>\n<defs>' + ''.join(definitions) + '</defs>\n' + '\n'.join(body) + '\n</svg>\n'
     (output / "short.svg").write_text(svg, encoding="utf-8")
@@ -110,6 +136,7 @@ def assemble(geometry_path, fields_path, prompt_path, output):
                 "svg_sha256": digest(output / "short.svg"), "status": "draft",
                 "scope": "source-assisted single short calibration; not independent skill generalization",
                 "eye_rim": "finite warm outer band and clipped dark inner band; source-observed, manually calibrated",
+                "surface_owners": {"hair-right-face-crease": "blue-underpaint"},
                 "human_acceptance": None, "similarity_99_percent": "not_assessed"}
     (output / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"output": str(output), "svg_sha256": manifest["svg_sha256"]}))

@@ -1,0 +1,2996 @@
+{
+  "schema": "aikon.paint-fields.v1",
+  "decoded_rgba_sha256": "b59954957ae3e6a99fd10ed0e51d41395f2598c7f003c4a4d9bedeb996682637",
+  "source_size": [
+    1280,
+    1280
+  ],
+  "analysis_size": [
+    1024,
+    1024
+  ],
+  "scales": {
+    "grain_gaussian_sigma_px": 1.5,
+    "mottle_gaussian_sigma_px": [
+      1.5,
+      6
+    ],
+    "edge_gradient_cutoff_rgb_per_px": 2.0,
+    "edge_exclusion_radius_px": 12,
+    "region_erosion_px": 3,
+    "alpha_opaque_min": 254
+  },
+  "rules": {
+    "grain_rms_max": 0.8276688285339487,
+    "mottle_rms_max": 0.5,
+    "interior_translucent_fraction_max": 0.001,
+    "island_contrast_min": 12.0,
+    "island_area_min": 12
+  },
+  "threshold_provenance": "provisional conservative artifact bounds; not a universal style score",
+  "regions": [
+    {
+      "id": "face",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "face"
+      },
+      "texture": {
+        "sample_pixels": 186394,
+        "grain_rms_0_255": 0.12142314700758461,
+        "mottle_rms_0_255": 0.21317912148358747,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.8154217668623626,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.12142314700534847,
+          "mottle_rms_0_255": 0.23505228225432498
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.12142314700774587,
+          "mottle_rms_0_255": 0.20082822902615838
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 212681,
+            "sample_fraction_of_material": 0.8874317259105646,
+            "rms_0_255": 0.30225078717629517,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 2
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 142709,
+            "sample_fraction_of_material": 0.5954668925431551,
+            "rms_0_255": 0.2449964094443799,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 46560
+          }
+        },
+        "unassessed_material_pixels": 96950,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 228586,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 254
+      },
+      "color_islands": {
+        "count": 1,
+        "components": [
+          {
+            "area_pixels": 25,
+            "bbox_normalized": [
+              0.6015625,
+              0.681640625,
+              0.6083984375,
+              0.6904296875
+            ],
+            "median_contrast_0_255": 132.63295314282172,
+            "signed_luma_residual_0_255": -139.90867048892846
+          }
+        ],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "fail",
+      "failures": [
+        "unexpected_color_islands_in_declared_smooth_field"
+      ]
+    },
+    {
+      "id": "face-under-fringe-shadow",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "face-under-fringe-shadow"
+      },
+      "texture": {
+        "sample_pixels": 0,
+        "grain_rms_0_255": null,
+        "mottle_rms_0_255": null,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.0,
+        "measurement_status": "insufficient_interior",
+        "composite_black": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        },
+        "composite_white": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 103,
+            "sample_fraction_of_material": 0.04569653948535936,
+            "rms_0_255": 0.07319404154989143,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          }
+        },
+        "unassessed_material_pixels": 2254,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 1195,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "eye-left",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "eye-left"
+      },
+      "texture": {
+        "sample_pixels": 6970,
+        "grain_rms_0_255": 0.07807970665965293,
+        "mottle_rms_0_255": 0.32061329633870966,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.5960321532409782,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.07807970665965293,
+          "mottle_rms_0_255": 0.32061329633870966
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.07807970665965293,
+          "mottle_rms_0_255": 0.32061329633870966
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 9775,
+            "sample_fraction_of_material": 0.7580457541682822,
+            "rms_0_255": 0.0848109219470488,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 2495,
+            "sample_fraction_of_material": 0.1934858472276076,
+            "rms_0_255": 0.11573034943714029,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 4475
+          }
+        },
+        "unassessed_material_pixels": 10400,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 11694,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "eye-right",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "eye-right"
+      },
+      "texture": {
+        "sample_pixels": 6406,
+        "grain_rms_0_255": 8.204640795236539e-15,
+        "mottle_rms_0_255": 0.30813389399101365,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.5842225262197902,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 8.204640795236539e-15,
+          "mottle_rms_0_255": 0.30813389399101365
+        },
+        "composite_white": {
+          "grain_rms_0_255": 8.204640795236539e-15,
+          "mottle_rms_0_255": 0.30813389399101365
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 9142,
+            "sample_fraction_of_material": 0.7534822385230363,
+            "rms_0_255": 0.00028312712555568183,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 2232,
+            "sample_fraction_of_material": 0.18396109783235803,
+            "rms_0_255": 1.4382802003062313e-07,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 4174
+          }
+        },
+        "unassessed_material_pixels": 9901,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 10965,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "cheek-left",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "cheek-left"
+      },
+      "texture": {
+        "sample_pixels": 3775,
+        "grain_rms_0_255": 0.008450298885205706,
+        "mottle_rms_0_255": 0.07765549527871685,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.6087727785840993,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.008450298885205706,
+          "mottle_rms_0_255": 0.07765549527871685
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.008450298885205706,
+          "mottle_rms_0_255": 0.07765549527871685
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 5178,
+            "sample_fraction_of_material": 0.7339475549255847,
+            "rms_0_255": 0.1284748105178725,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 707,
+            "sample_fraction_of_material": 0.10021261516654854,
+            "rms_0_255": 0.12149357325961138,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 3089
+          }
+        },
+        "unassessed_material_pixels": 6348,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 6201,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "cheek-right",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "cheek-right"
+      },
+      "texture": {
+        "sample_pixels": 2675,
+        "grain_rms_0_255": 0.0,
+        "mottle_rms_0_255": 0.0856833503436815,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.51700811751063,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.0856833503436815
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.0,
+          "mottle_rms_0_255": 0.0856833503436815
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 3937,
+            "sample_fraction_of_material": 0.6636884693189481,
+            "rms_0_255": 2.8148663576970267e-05,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 139,
+            "sample_fraction_of_material": 0.023432231962238707,
+            "rms_0_255": 3.898434613094539e-09,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 2536
+          }
+        },
+        "unassessed_material_pixels": 5793,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 5174,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "whale-side-fin-rim",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "whale-side-fin-rim"
+      },
+      "texture": {
+        "sample_pixels": 440,
+        "grain_rms_0_255": 0.2632946114088876,
+        "mottle_rms_0_255": 0.6164573538990141,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.132291040288635,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.2632946114088876,
+          "mottle_rms_0_255": 0.6321507226443477
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.2632946114088876,
+          "mottle_rms_0_255": 0.5865701935858029
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 1826,
+            "sample_fraction_of_material": 0.42015646571560056,
+            "rms_0_255": 0.2546181331590047,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 440
+          }
+        },
+        "unassessed_material_pixels": 4346,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 3326,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "fail",
+      "failures": [
+        "mottle_above_reference_bound"
+      ]
+    },
+    {
+      "id": "bow-knot",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "bow-knot"
+      },
+      "texture": {
+        "sample_pixels": 0,
+        "grain_rms_0_255": null,
+        "mottle_rms_0_255": null,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.0,
+        "measurement_status": "insufficient_interior",
+        "composite_black": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        },
+        "composite_white": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 6,
+            "sample_fraction_of_material": 0.013729977116704805,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          }
+        },
+        "unassessed_material_pixels": 437,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 175,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "bow-left",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "bow-left"
+      },
+      "texture": {
+        "sample_pixels": 1206,
+        "grain_rms_0_255": 0.1921623682635953,
+        "mottle_rms_0_255": 0.38892747629031654,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.3053937705748291,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.1921623682635953,
+          "mottle_rms_0_255": 0.38892747629031654
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.1921623682635953,
+          "mottle_rms_0_255": 0.38892747629031654
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 2714,
+            "sample_fraction_of_material": 0.5692114093959731,
+            "rms_0_255": 0.18919542743472206,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 1206
+          }
+        },
+        "unassessed_material_pixels": 4768,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 3949,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "bow-right",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "bow-right"
+      },
+      "texture": {
+        "sample_pixels": 1726,
+        "grain_rms_0_255": 0.16238352000069672,
+        "mottle_rms_0_255": 0.28753695053106826,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.38873873873873876,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.16238352000069672,
+          "mottle_rms_0_255": 0.3334651996288295
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.16238352000069672,
+          "mottle_rms_0_255": 0.2789406716925183
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 3132,
+            "sample_fraction_of_material": 0.5956637504754659,
+            "rms_0_255": 0.1633889468500193,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 1726
+          }
+        },
+        "unassessed_material_pixels": 5258,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 4440,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 254
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "whale-side-fin",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "whale-side-fin"
+      },
+      "texture": {
+        "sample_pixels": 14595,
+        "grain_rms_0_255": 0.160333080363814,
+        "mottle_rms_0_255": 0.2857456164802195,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.6232651492505444,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.160333080363814,
+          "mottle_rms_0_255": 0.33157594394426415
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.160333080363814,
+          "mottle_rms_0_255": 0.4971857462407466
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 18933,
+            "sample_fraction_of_material": 0.7271295798448422,
+            "rms_0_255": 0.17066361602553373,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 5331,
+            "sample_fraction_of_material": 0.20473922728320149,
+            "rms_0_255": 0.17133323387236402,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 9264
+          }
+        },
+        "unassessed_material_pixels": 20707,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 23417,
+        "translucent_pixels": 3,
+        "translucent_fraction": 0.0001281120553444079,
+        "min_alpha": 253
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "ahoge",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "ahoge"
+      },
+      "texture": {
+        "sample_pixels": 12127,
+        "grain_rms_0_255": 0.07440586017931995,
+        "mottle_rms_0_255": 0.27912321630945763,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.5970656294618679,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.07440586017931995,
+          "mottle_rms_0_255": 0.38151876825082615
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.07440586017931995,
+          "mottle_rms_0_255": 0.4812395200788053
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 16416,
+            "sample_fraction_of_material": 0.7187705241035072,
+            "rms_0_255": 0.07691023599306315,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 109
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 3266,
+            "sample_fraction_of_material": 0.14300100704934543,
+            "rms_0_255": 0.06938748263255103,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 8861
+          }
+        },
+        "unassessed_material_pixels": 19573,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 20311,
+        "translucent_pixels": 1,
+        "translucent_fraction": 4.923440500221555e-05,
+        "min_alpha": 253
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "hair-left-fringe-fold",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "hair-left-fringe-fold"
+      },
+      "texture": {
+        "sample_pixels": 682,
+        "grain_rms_0_255": 0.2521320895017879,
+        "mottle_rms_0_255": 0.2677815336024706,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.1771888802286308,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.2521320895017879,
+          "mottle_rms_0_255": 0.2677815336024706
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.2521320895017879,
+          "mottle_rms_0_255": 0.2677815336024706
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 2049,
+            "sample_fraction_of_material": 0.4119420989143546,
+            "rms_0_255": 0.25148284884352934,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 682
+          }
+        },
+        "unassessed_material_pixels": 4974,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 3849,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "hair-left-inner-fold",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "hair-left-inner-fold"
+      },
+      "texture": {
+        "sample_pixels": 0,
+        "grain_rms_0_255": null,
+        "mottle_rms_0_255": null,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.0,
+        "measurement_status": "insufficient_interior",
+        "composite_black": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        },
+        "composite_white": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          }
+        },
+        "unassessed_material_pixels": 845,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 306,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "hair-center-fold",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "hair-center-fold"
+      },
+      "texture": {
+        "sample_pixels": 0,
+        "grain_rms_0_255": null,
+        "mottle_rms_0_255": null,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.0,
+        "measurement_status": "insufficient_interior",
+        "composite_black": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        },
+        "composite_white": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          }
+        },
+        "unassessed_material_pixels": 260,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 0,
+        "translucent_pixels": 0,
+        "translucent_fraction": null,
+        "min_alpha": null
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "fail",
+      "failures": [
+        "insufficient_opacity_evidence"
+      ]
+    },
+    {
+      "id": "hair-right-underfold",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "hair-right-underfold"
+      },
+      "texture": {
+        "sample_pixels": 0,
+        "grain_rms_0_255": null,
+        "mottle_rms_0_255": null,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.0,
+        "measurement_status": "insufficient_interior",
+        "composite_black": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        },
+        "composite_white": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 373,
+            "sample_fraction_of_material": 0.14766429136975456,
+            "rms_0_255": 0.16693422879163505,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          }
+        },
+        "unassessed_material_pixels": 2526,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 1390,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "hair-back-dark-fold",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "hair-back-dark-fold"
+      },
+      "texture": {
+        "sample_pixels": 4324,
+        "grain_rms_0_255": 0.198539393742241,
+        "mottle_rms_0_255": 0.3591154107225671,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.3511450381679389,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.198539393742241,
+          "mottle_rms_0_255": 0.37741284951388304
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.198539393742241,
+          "mottle_rms_0_255": 0.4586940320631334
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 8459,
+            "sample_fraction_of_material": 0.5676419272580862,
+            "rms_0_255": 0.43894424306763585,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 4324
+          }
+        },
+        "unassessed_material_pixels": 14902,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 12314,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 254
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "hair-back",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "hair-back"
+      },
+      "texture": {
+        "sample_pixels": 4502,
+        "grain_rms_0_255": 0.22413931357140787,
+        "mottle_rms_0_255": 0.304047997499526,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.40834467120181406,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.2241393136478792,
+          "mottle_rms_0_255": 0.32135188438177653
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.22413931342765012,
+          "mottle_rms_0_255": 0.3316340815491328
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 7747,
+            "sample_fraction_of_material": 0.5585436193222783,
+            "rms_0_255": 0.5328969453061313,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 6
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 61,
+            "sample_fraction_of_material": 0.0043979812545061284,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 4466
+          }
+        },
+        "unassessed_material_pixels": 13809,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 11025,
+        "translucent_pixels": 2,
+        "translucent_fraction": 0.00018140589569160998,
+        "min_alpha": 253
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "hair-left-under",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "hair-left-under"
+      },
+      "texture": {
+        "sample_pixels": 2278,
+        "grain_rms_0_255": 0.2252677837260038,
+        "mottle_rms_0_255": 0.2598913147082252,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.39873971643619815,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.2252677837260038,
+          "mottle_rms_0_255": 0.25988365645493405
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.2252677837260038,
+          "mottle_rms_0_255": 0.2598975398936852
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 3911,
+            "sample_fraction_of_material": 0.536047149122807,
+            "rms_0_255": 0.30103494906061856,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 34,
+            "sample_fraction_of_material": 0.004660087719298245,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 2263
+          }
+        },
+        "unassessed_material_pixels": 7262,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 5713,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "hair-right-fringe",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "hair-right-fringe"
+      },
+      "texture": {
+        "sample_pixels": 64607,
+        "grain_rms_0_255": 0.30204794113336286,
+        "mottle_rms_0_255": 0.358353416620017,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.7443631545595945,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.30204794113336286,
+          "mottle_rms_0_255": 0.358353416620017
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.30204794113336286,
+          "mottle_rms_0_255": 0.358353416620017
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 75145,
+            "sample_fraction_of_material": 0.795648260892583,
+            "rms_0_255": 0.3012656317042081,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 1552
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 34143,
+            "sample_fraction_of_material": 0.3615119911059347,
+            "rms_0_255": 0.2777572595786298,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 30464
+          }
+        },
+        "unassessed_material_pixels": 60302,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 86795,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 254
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "hair-front-main",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "hair-front-main"
+      },
+      "texture": {
+        "sample_pixels": 147379,
+        "grain_rms_0_255": 0.2391820179501465,
+        "mottle_rms_0_255": 0.2762828314375729,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.8368576457895633,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.2391820179501465,
+          "mottle_rms_0_255": 0.2762828314375729
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.2391820179501465,
+          "mottle_rms_0_255": 0.2762828314375729
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 162064,
+            "sample_fraction_of_material": 0.8700488538143555,
+            "rms_0_255": 0.24947776687210432,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 1781
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 99662,
+            "sample_fraction_of_material": 0.535040532560262,
+            "rms_0_255": 0.23380867938287045,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 48223
+          }
+        },
+        "unassessed_material_pixels": 86608,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 176110,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 1,
+        "components": [
+          {
+            "area_pixels": 423,
+            "bbox_normalized": [
+              0.0029296875,
+              0.6083984375,
+              0.0205078125,
+              0.6552734375
+            ],
+            "median_contrast_0_255": 15.879810694351164,
+            "signed_luma_residual_0_255": -17.167685097885983
+          }
+        ],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "fail",
+      "failures": [
+        "unexpected_color_islands_in_declared_smooth_field"
+      ]
+    },
+    {
+      "id": "hair-center-left-crease",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "hair-center-left-crease"
+      },
+      "texture": {
+        "sample_pixels": 0,
+        "grain_rms_0_255": null,
+        "mottle_rms_0_255": null,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.0,
+        "measurement_status": "insufficient_interior",
+        "composite_black": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        },
+        "composite_white": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          }
+        },
+        "unassessed_material_pixels": 108,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 0,
+        "translucent_pixels": 0,
+        "translucent_fraction": null,
+        "min_alpha": null
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "fail",
+      "failures": [
+        "insufficient_opacity_evidence"
+      ]
+    },
+    {
+      "id": "hair-center-right-crease",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "hair-center-right-crease"
+      },
+      "texture": {
+        "sample_pixels": 0,
+        "grain_rms_0_255": null,
+        "mottle_rms_0_255": null,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.0,
+        "measurement_status": "insufficient_interior",
+        "composite_black": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        },
+        "composite_white": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          }
+        },
+        "unassessed_material_pixels": 1026,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 326,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "hair-right-face-crease",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "hair-right-face-crease"
+      },
+      "texture": {
+        "sample_pixels": 0,
+        "grain_rms_0_255": null,
+        "mottle_rms_0_255": null,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.0,
+        "measurement_status": "insufficient_interior",
+        "composite_black": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        },
+        "composite_white": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 293,
+            "sample_fraction_of_material": 0.14753272910372608,
+            "rms_0_255": 0.24757675005434615,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          }
+        },
+        "unassessed_material_pixels": 1986,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 1031,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "bow-crease-left",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "bow-crease-left"
+      },
+      "texture": {
+        "sample_pixels": 0,
+        "grain_rms_0_255": null,
+        "mottle_rms_0_255": null,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.0,
+        "measurement_status": "insufficient_interior",
+        "composite_black": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        },
+        "composite_white": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          }
+        },
+        "unassessed_material_pixels": 179,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 53,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "bow-crease-right",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "bow-crease-right"
+      },
+      "texture": {
+        "sample_pixels": 0,
+        "grain_rms_0_255": null,
+        "mottle_rms_0_255": null,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.0,
+        "measurement_status": "insufficient_interior",
+        "composite_black": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        },
+        "composite_white": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          }
+        },
+        "unassessed_material_pixels": 160,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 55,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "bow-lower-rim",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "bow-lower-rim"
+      },
+      "texture": {
+        "sample_pixels": 0,
+        "grain_rms_0_255": null,
+        "mottle_rms_0_255": null,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.0,
+        "measurement_status": "insufficient_interior",
+        "composite_black": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        },
+        "composite_white": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          }
+        },
+        "unassessed_material_pixels": 1071,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 310,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "whale-fin-rim-left-fold",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "whale-fin-rim-left-fold"
+      },
+      "texture": {
+        "sample_pixels": 428,
+        "grain_rms_0_255": 0.24742088745446827,
+        "mottle_rms_0_255": 0.5720983903865658,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.19401631912964643,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.24742088745446827,
+          "mottle_rms_0_255": 0.5720983903865658
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.24742088745446827,
+          "mottle_rms_0_255": 0.5720983903865658
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 1133,
+            "sample_fraction_of_material": 0.3761620185922975,
+            "rms_0_255": 0.24543521712936642,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 428
+          }
+        },
+        "unassessed_material_pixels": 3012,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 2206,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "frill-white-01",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "frill-white-01"
+      },
+      "texture": {
+        "sample_pixels": 4160,
+        "grain_rms_0_255": 0.16411517556350763,
+        "mottle_rms_0_255": 0.29696675415350887,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.5142786500185437,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.16411517556350763,
+          "mottle_rms_0_255": 0.3278839635315601
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.16411517556350763,
+          "mottle_rms_0_255": 0.20282461803599441
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 6641,
+            "sample_fraction_of_material": 0.7253167321974662,
+            "rms_0_255": 0.1605554699131916,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 1360,
+            "sample_fraction_of_material": 0.14853647881170817,
+            "rms_0_255": 0.17272916902284702,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 2800
+          }
+        },
+        "unassessed_material_pixels": 7796,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 8089,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "frill-white-02",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "frill-white-02"
+      },
+      "texture": {
+        "sample_pixels": 531,
+        "grain_rms_0_255": 0.13727238166632708,
+        "mottle_rms_0_255": 0.314004274890978,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.21691176470588236,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.13727238166632708,
+          "mottle_rms_0_255": 0.32122098187907017
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.13727238166632708,
+          "mottle_rms_0_255": 0.30954176204065875
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 1639,
+            "sample_fraction_of_material": 0.5349216710182768,
+            "rms_0_255": 0.1743201588604813,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 531
+          }
+        },
+        "unassessed_material_pixels": 3064,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 2448,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 254
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "frill-white-03",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "frill-white-03"
+      },
+      "texture": {
+        "sample_pixels": 1757,
+        "grain_rms_0_255": 0.19176395978693042,
+        "mottle_rms_0_255": 0.36870429970807267,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.40605500346660506,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.19176395978693042,
+          "mottle_rms_0_255": 0.4228848914674228
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.19176395978693042,
+          "mottle_rms_0_255": 0.25253635496516946
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 3163,
+            "sample_fraction_of_material": 0.6243584682195026,
+            "rms_0_255": 0.21387810332554855,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 3,
+            "sample_fraction_of_material": 0.0005921831819976313,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 1754
+          }
+        },
+        "unassessed_material_pixels": 5063,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 4327,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "frill-white-04",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "frill-white-04"
+      },
+      "texture": {
+        "sample_pixels": 4953,
+        "grain_rms_0_255": 0.1332272806144513,
+        "mottle_rms_0_255": 0.33415003276360183,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.5754618333914255,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.1332272806144513,
+          "mottle_rms_0_255": 0.3661669241823777
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.1332272806144513,
+          "mottle_rms_0_255": 0.2276252182033073
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 6948,
+            "sample_fraction_of_material": 0.7220951985034296,
+            "rms_0_255": 0.13587359947393013,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 1322,
+            "sample_fraction_of_material": 0.1373934732903762,
+            "rms_0_255": 0.14046299081222613,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 3631
+          }
+        },
+        "unassessed_material_pixels": 8300,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 8607,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "frill-white-05",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "frill-white-05"
+      },
+      "texture": {
+        "sample_pixels": 5165,
+        "grain_rms_0_255": 0.14627179527525727,
+        "mottle_rms_0_255": 0.5150324124083564,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.5886039886039887,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.14627179527525727,
+          "mottle_rms_0_255": 0.5696277687135889
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.14627179527525727,
+          "mottle_rms_0_255": 0.40092577938121615
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 6917,
+            "sample_fraction_of_material": 0.7096542525905407,
+            "rms_0_255": 0.14695993638554433,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 924,
+            "sample_fraction_of_material": 0.09479839950754078,
+            "rms_0_255": 0.1883618117223894,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 4241
+          }
+        },
+        "unassessed_material_pixels": 8823,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 8775,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "fail",
+      "failures": [
+        "mottle_above_reference_bound"
+      ]
+    },
+    {
+      "id": "frill-white-06",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "frill-white-06"
+      },
+      "texture": {
+        "sample_pixels": 4170,
+        "grain_rms_0_255": 0.14259211793726762,
+        "mottle_rms_0_255": 0.3682093347205125,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.5457400863761288,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.14259211793726762,
+          "mottle_rms_0_255": 0.4244151716137113
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.14259211793726762,
+          "mottle_rms_0_255": 0.22758066511238703
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 6000,
+            "sample_fraction_of_material": 0.6977555529712758,
+            "rms_0_255": 0.14789565655312423,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 694,
+            "sample_fraction_of_material": 0.08070705896034423,
+            "rms_0_255": 0.1243052263651978,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 3476
+          }
+        },
+        "unassessed_material_pixels": 7905,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 7641,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "frill-white-07",
+      "expectation": "smooth_field",
+      "geometry": {
+        "mask_id": "frill-white-07"
+      },
+      "texture": {
+        "sample_pixels": 1603,
+        "grain_rms_0_255": 0.12533342542930845,
+        "mottle_rms_0_255": 0.359332817844276,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.4010507880910683,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.12533342542930845,
+          "mottle_rms_0_255": 0.408266994873988
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.12533342542930845,
+          "mottle_rms_0_255": 0.26056490087109224
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 2910,
+            "sample_fraction_of_material": 0.6179655977914632,
+            "rms_0_255": 0.13449156509401414,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 64,
+            "sample_fraction_of_material": 0.013590995965173073,
+            "rms_0_255": 0.18749505939851444,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 1539
+          }
+        },
+        "unassessed_material_pixels": 4645,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 3997,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "frill-fold-01",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "frill-fold-01"
+      },
+      "texture": {
+        "sample_pixels": 144,
+        "grain_rms_0_255": 0.2523683818511153,
+        "mottle_rms_0_255": 0.19293639848261496,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.10205527994330262,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.2523683818511153,
+          "mottle_rms_0_255": 0.1937380902897578
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.2523683818511153,
+          "mottle_rms_0_255": 0.20676178213436422
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 816,
+            "sample_fraction_of_material": 0.41824705279343927,
+            "rms_0_255": 0.2533328910798039,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 144
+          }
+        },
+        "unassessed_material_pixels": 1951,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 1411,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "frill-fold-02",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "frill-fold-02"
+      },
+      "texture": {
+        "sample_pixels": 9,
+        "grain_rms_0_255": 0.20478902329279797,
+        "mottle_rms_0_255": 0.22635119792905786,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.011111111111111112,
+        "measurement_status": "insufficient_interior",
+        "composite_black": {
+          "grain_rms_0_255": 0.20478902329279797,
+          "mottle_rms_0_255": 0.22839493079730153
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.20478902329279797,
+          "mottle_rms_0_255": 0.23122756567528047
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 331,
+            "sample_fraction_of_material": 0.26395534290271133,
+            "rms_0_255": 0.22647983401446412,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 9
+          }
+        },
+        "unassessed_material_pixels": 1254,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 810,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "frill-fold-03",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "frill-fold-03"
+      },
+      "texture": {
+        "sample_pixels": 93,
+        "grain_rms_0_255": 0.27277701110038743,
+        "mottle_rms_0_255": 0.9086339914028718,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.06818181818181818,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.27277701110038743,
+          "mottle_rms_0_255": 0.9086339914028718
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.27277701110038743,
+          "mottle_rms_0_255": 0.9086339914028718
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 657,
+            "sample_fraction_of_material": 0.34397905759162306,
+            "rms_0_255": 0.2624134313859343,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 93
+          }
+        },
+        "unassessed_material_pixels": 1910,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 1364,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "frill-fold-04",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "frill-fold-04"
+      },
+      "texture": {
+        "sample_pixels": 343,
+        "grain_rms_0_255": 0.10391517017985773,
+        "mottle_rms_0_255": 0.4252850733045475,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.17526826775677057,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.10391517017985773,
+          "mottle_rms_0_255": 0.5387111062180497
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.10391517017985773,
+          "mottle_rms_0_255": 0.2596244415507391
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 1136,
+            "sample_fraction_of_material": 0.44031007751937984,
+            "rms_0_255": 0.16771683687336877,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 343
+          }
+        },
+        "unassessed_material_pixels": 2580,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 1957,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 254
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "frill-fold-05",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "frill-fold-05"
+      },
+      "texture": {
+        "sample_pixels": 211,
+        "grain_rms_0_255": 0.26540690290090607,
+        "mottle_rms_0_255": 0.4903067809555096,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.1363930187459599,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.26540690290090607,
+          "mottle_rms_0_255": 0.48957421484798075
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.26540690290090607,
+          "mottle_rms_0_255": 0.4923258765487743
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 751,
+            "sample_fraction_of_material": 0.36262675036214387,
+            "rms_0_255": 0.2672079490284238,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 211
+          }
+        },
+        "unassessed_material_pixels": 2071,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 1547,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "frill-fold-06",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "frill-fold-06"
+      },
+      "texture": {
+        "sample_pixels": 215,
+        "grain_rms_0_255": 0.2677280082952465,
+        "mottle_rms_0_255": 0.511433125853613,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.15291607396870555,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.2677280082952465,
+          "mottle_rms_0_255": 0.5180203448346691
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.2677280082952465,
+          "mottle_rms_0_255": 0.5477134228987767
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 617,
+            "sample_fraction_of_material": 0.32645502645502644,
+            "rms_0_255": 0.26514013204932985,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 215
+          }
+        },
+        "unassessed_material_pixels": 1890,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 1406,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "frill-fold-07",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "frill-fold-07"
+      },
+      "texture": {
+        "sample_pixels": 65,
+        "grain_rms_0_255": 0.2146881261569559,
+        "mottle_rms_0_255": 0.561115625514764,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.05974264705882353,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.2146881261569559,
+          "mottle_rms_0_255": 0.5609325926862995
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.2146881261569559,
+          "mottle_rms_0_255": 0.5618064055190394
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 460,
+            "sample_fraction_of_material": 0.2926208651399491,
+            "rms_0_255": 0.23133231767854692,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 65
+          }
+        },
+        "unassessed_material_pixels": 1572,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 1088,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "frill-fold-08",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "frill-fold-08"
+      },
+      "texture": {
+        "sample_pixels": 0,
+        "grain_rms_0_255": null,
+        "mottle_rms_0_255": null,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.0,
+        "measurement_status": "insufficient_interior",
+        "composite_black": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        },
+        "composite_white": {
+          "grain_rms_0_255": null,
+          "mottle_rms_0_255": null
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 267,
+            "sample_fraction_of_material": 0.2266553480475382,
+            "rms_0_255": 0.18870707554373028,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 0
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 0,
+            "sample_fraction_of_material": 0.0,
+            "rms_0_255": null,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": null,
+            "measurement_status": "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": 0
+          }
+        },
+        "unassessed_material_pixels": 1178,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 741,
+        "translucent_pixels": 0,
+        "translucent_fraction": 0.0,
+        "min_alpha": 255
+      },
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    },
+    {
+      "id": "whole-subject",
+      "expectation": "opaque_surface",
+      "geometry": {
+        "mask_id": "whole-subject"
+      },
+      "texture": {
+        "sample_pixels": 485649,
+        "grain_rms_0_255": 0.20715937844623236,
+        "mottle_rms_0_255": 0.28370295925875194,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.6638784579779723,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.20715937844649632,
+          "mottle_rms_0_255": 0.29816061443377456
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.20715937844482676,
+          "mottle_rms_0_255": 0.29121143537307237
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 721404,
+            "sample_fraction_of_material": 0.9713053172410451,
+            "rms_0_255": 5.734955776193247,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": true,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 5
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 661976,
+            "sample_fraction_of_material": 0.8912908837294471,
+            "rms_0_255": 9.983553325007593,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": true,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 29610
+          }
+        },
+        "unassessed_material_pixels": 80740,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      },
+      "opacity": {
+        "sample_pixels": 731533,
+        "translucent_pixels": 14,
+        "translucent_fraction": 1.9137892617284523e-05,
+        "min_alpha": 251
+      },
+      "color_islands": {
+        "count": 2,
+        "components": [
+          {
+            "area_pixels": 3946,
+            "bbox_normalized": [
+              0.1748046875,
+              0.015625,
+              0.3349609375,
+              0.0615234375
+            ],
+            "median_contrast_0_255": 23.909876252269264,
+            "signed_luma_residual_0_255": 25.48886847099626
+          },
+          {
+            "area_pixels": 48253,
+            "bbox_normalized": [
+              0.0029296875,
+              0.7646484375,
+              0.3896484375,
+              0.9970703125
+            ],
+            "median_contrast_0_255": 32.95784457181548,
+            "signed_luma_residual_0_255": -34.67457821688688
+          }
+        ],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "status": "no_rule_failure",
+      "failures": []
+    }
+  ],
+  "issues": [
+    {
+      "region": "face",
+      "code": "unexpected_color_islands_in_declared_smooth_field"
+    },
+    {
+      "region": "whale-side-fin-rim",
+      "code": "mottle_above_reference_bound"
+    },
+    {
+      "region": "hair-center-fold",
+      "code": "insufficient_opacity_evidence"
+    },
+    {
+      "region": "hair-front-main",
+      "code": "unexpected_color_islands_in_declared_smooth_field"
+    },
+    {
+      "region": "hair-center-left-crease",
+      "code": "insufficient_opacity_evidence"
+    },
+    {
+      "region": "frill-white-05",
+      "code": "mottle_above_reference_bound"
+    }
+  ],
+  "global_alpha_evidence": {
+    "interior_pixels": 737407,
+    "translucent_pixels": 815,
+    "translucent_fraction": 0.0011052241163970508,
+    "suspected_fringe_pixels": 1140,
+    "fringe_is_advisory": true
+  },
+  "status": "fail",
+  "visual_acceptance": "not_assessed",
+  "limitations": [
+    "No-region mode is evidence only and cannot certify a clean painting.",
+    "Manual ROIs must avoid intended boundaries; masks and coverage are exported for audit.",
+    "Full-image Gaussian samples can cross material boundaries; texture_support_evidence reports exact finite-kernel coverage without silently changing the gate.",
+    "Thin shapes with no supported kernel remain unassessed; missing samples do not prove clean paint.",
+    "Broad nonquadratic shading and legal highlights may create island evidence.",
+    "No pixel statistic determines whether a highlight follows strand geometry or lighting.",
+    "Transparent interior inferred from the alpha support is advisory unless an opaque surface is explicitly declared."
+  ]
+}

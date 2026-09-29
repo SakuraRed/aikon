@@ -23,6 +23,7 @@ for key in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS"):
 QUALITY_TESTS = (
     "test_render_svg.py",
     "test_paint_fields.py",
+    "test_paint_field_support.py",
     "test_gloss_pairs.py",
     "test_capsule_geometry.py",
     "test_edge_quality.py",

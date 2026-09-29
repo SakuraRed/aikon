@@ -1,0 +1,38 @@
+{
+  "schema": "aikon.candidate-quality-evidence.v2",
+  "svg_file_sha256": "0e662b8789d71a5baf6e3f1ee4c27af3033a5e75c72ae63d99e7a40691a3c297",
+  "normalized_svg_text_sha256": "037500e37f0e6b015f3f6564aa620c1256336c6e83cbee1deca4b30613f0daf5",
+  "geometry_sha256": "8c251ff7add8cefd0737b4e2d0586b8e961b17de33e83051d4b0b364a5bbfebd",
+  "capsules": [
+    "no_rule_failure",
+    "no_rule_failure"
+  ],
+  "edge_status": "no_rule_failure",
+  "edge_issues": [],
+  "paint_status": "fail",
+  "paint_issues": [
+    {
+      "region": "whale-side-fin-rim",
+      "code": "mottle_above_reference_bound"
+    },
+    {
+      "region": "hair-center-fold",
+      "code": "insufficient_opacity_evidence"
+    },
+    {
+      "region": "hair-front-main",
+      "code": "unexpected_color_islands_in_declared_smooth_field"
+    },
+    {
+      "region": "hair-center-left-crease",
+      "code": "insufficient_opacity_evidence"
+    },
+    {
+      "region": "frill-white-05",
+      "code": "mottle_above_reference_bound"
+    }
+  ],
+  "scope": "Existing thresholds, source-derived visible masks. Narrow folds opacity-only; no claim of texture coverage there.",
+  "artistic_acceptance": "not_assessed",
+  "similarity_99_percent": "not_assessed"
+}

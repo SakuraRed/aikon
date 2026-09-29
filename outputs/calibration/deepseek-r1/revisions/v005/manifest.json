@@ -1,0 +1,14 @@
+{
+  "schema": "aikon.r1-calibration-revision.v1",
+  "reference_sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+  "geometry_sha256": "8c251ff7add8cefd0737b4e2d0586b8e961b17de33e83051d4b0b364a5bbfebd",
+  "paint_fields_sha256": "2576456f0b4a034898b40f10979fd254e1d9bc0a2fd403136dc566ce1de7ab0d",
+  "prompt_sha256": "ce6c80c47b2462538d23b5c2fb400675eb59046bec434a9544a698d2356029d1",
+  "exporter_sha256": "45a1570c69ba17a5ab9192624deaf00ed060bfc3f96a456b5defacbc376b25de",
+  "svg_sha256": "6afcc65d34c519ce40533ec9637ae7c96b569aeda134e7c63689e65637d0d26c",
+  "status": "draft",
+  "scope": "source-assisted single short calibration; not independent skill generalization",
+  "eye_rim": "finite warm outer band and clipped dark inner band; source-observed, manually calibrated",
+  "human_acceptance": null,
+  "similarity_99_percent": "not_assessed"
+}

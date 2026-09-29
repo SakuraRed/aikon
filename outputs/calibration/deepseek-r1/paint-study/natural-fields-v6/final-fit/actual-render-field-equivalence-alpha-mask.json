@@ -1,0 +1,393 @@
+{
+  "geometry_sha256": "8c251ff7add8cefd0737b4e2d0586b8e961b17de33e83051d4b0b364a5bbfebd",
+  "fields_sha256": "2576456f0b4a034898b40f10979fd254e1d9bc0a2fd403136dc566ce1de7ab0d",
+  "renderer": "actual resvg via tools.render_svg",
+  "tolerance_rgb_levels": 2.1,
+  "scope": "SVG interpolation/export equivalence, not artistic acceptance",
+  "results": [
+    {
+      "id": "face",
+      "pixels": 365241,
+      "layered": false,
+      "channel_mae_255": 0.26022752757489154,
+      "channel_max_255": 0.851946472940142,
+      "channel_p99_255": 0.6973492498223619,
+      "status": "pass"
+    },
+    {
+      "id": "face-under-fringe-shadow",
+      "pixels": 2584,
+      "layered": false,
+      "channel_mae_255": 0.19952282772021596,
+      "channel_max_255": 0.5773142870780532,
+      "channel_p99_255": 0.5054029555296293,
+      "status": "pass"
+    },
+    {
+      "id": "eye-left",
+      "pixels": 19125,
+      "layered": false,
+      "channel_mae_255": 0.3238588709536995,
+      "channel_max_255": 0.8276621374828039,
+      "channel_p99_255": 0.7832272024733655,
+      "status": "pass"
+    },
+    {
+      "id": "eye-right",
+      "pixels": 18003,
+      "layered": false,
+      "channel_mae_255": 0.23466666666666802,
+      "channel_max_255": 0.4106666666666676,
+      "channel_p99_255": 0.4106666666666676,
+      "status": "pass"
+    },
+    {
+      "id": "cheek-left",
+      "pixels": 10290,
+      "layered": false,
+      "channel_mae_255": 0.2853333333333315,
+      "channel_max_255": 0.4783333333333246,
+      "channel_p99_255": 0.4783333333333246,
+      "status": "pass"
+    },
+    {
+      "id": "cheek-right",
+      "pixels": 8657,
+      "layered": false,
+      "channel_mae_255": 0.3080000000000022,
+      "channel_max_255": 0.3476666666666688,
+      "channel_p99_255": 0.3476666666666688,
+      "status": "pass"
+    },
+    {
+      "id": "whale-side-fin-rim",
+      "pixels": 5929,
+      "layered": false,
+      "channel_mae_255": 0.2663656484765495,
+      "channel_max_255": 0.900313052530862,
+      "channel_p99_255": 0.6974780583065529,
+      "status": "pass"
+    },
+    {
+      "id": "bow-knot",
+      "pixels": 430,
+      "layered": false,
+      "channel_mae_255": 0.2864720659155918,
+      "channel_max_255": 0.8820206812179379,
+      "channel_p99_255": 0.7455914746128528,
+      "status": "pass"
+    },
+    {
+      "id": "bow-left",
+      "pixels": 6752,
+      "layered": false,
+      "channel_mae_255": 0.27453942442558704,
+      "channel_max_255": 0.8768256561832857,
+      "channel_p99_255": 0.7353977698692262,
+      "status": "pass"
+    },
+    {
+      "id": "bow-right",
+      "pixels": 7513,
+      "layered": false,
+      "channel_mae_255": 0.33003620228166064,
+      "channel_max_255": 0.9139391453373094,
+      "channel_p99_255": 0.8603697880007501,
+      "status": "pass"
+    },
+    {
+      "id": "whale-side-fin",
+      "pixels": 38510,
+      "layered": false,
+      "channel_mae_255": 0.32678003183664395,
+      "channel_max_255": 0.9694621930587672,
+      "channel_p99_255": 0.8937109077263861,
+      "status": "pass"
+    },
+    {
+      "id": "ahoge",
+      "pixels": 33588,
+      "layered": false,
+      "channel_mae_255": 0.3052959733485805,
+      "channel_max_255": 0.88058779372912,
+      "channel_p99_255": 0.8287878970280609,
+      "status": "pass"
+    },
+    {
+      "id": "hair-left-fringe-fold",
+      "pixels": 6824,
+      "layered": false,
+      "channel_mae_255": 0.26055114148868536,
+      "channel_max_255": 0.6983810873509952,
+      "channel_p99_255": 0.6167431852739119,
+      "status": "pass"
+    },
+    {
+      "id": "hair-left-inner-fold",
+      "pixels": 838,
+      "layered": false,
+      "channel_mae_255": 0.28227996969397834,
+      "channel_max_255": 0.6420847522030328,
+      "channel_p99_255": 0.6140958817951394,
+      "status": "pass"
+    },
+    {
+      "id": "hair-center-fold",
+      "pixels": 115,
+      "layered": false,
+      "channel_mae_255": 0.28020104193059747,
+      "channel_max_255": 0.8139659886982287,
+      "channel_p99_255": 0.7360453463594763,
+      "status": "pass"
+    },
+    {
+      "id": "hair-right-underfold",
+      "pixels": 2932,
+      "layered": false,
+      "channel_mae_255": 0.2750087606294802,
+      "channel_max_255": 0.7593439675265188,
+      "channel_p99_255": 0.6828061010896852,
+      "status": "pass"
+    },
+    {
+      "id": "hair-back-dark-fold",
+      "pixels": 21046,
+      "layered": false,
+      "channel_mae_255": 0.27764835371719204,
+      "channel_max_255": 0.9423686536861169,
+      "channel_p99_255": 0.7252721863074727,
+      "status": "pass"
+    },
+    {
+      "id": "hair-back",
+      "pixels": 19245,
+      "layered": false,
+      "channel_mae_255": 0.2679373154032636,
+      "channel_max_255": 0.8564779072203379,
+      "channel_p99_255": 0.6734666907543555,
+      "status": "pass"
+    },
+    {
+      "id": "hair-left-under",
+      "pixels": 10053,
+      "layered": false,
+      "channel_mae_255": 0.3144855751851065,
+      "channel_max_255": 0.9315988946559486,
+      "channel_p99_255": 0.899240608918686,
+      "status": "pass"
+    },
+    {
+      "id": "hair-right-fringe",
+      "pixels": 140996,
+      "layered": true,
+      "channel_mae_255": 0.724751331427009,
+      "channel_max_255": 3.298430738854435,
+      "channel_p99_255": 2.2122746068810746,
+      "status": "fail"
+    },
+    {
+      "id": "hair-front-main",
+      "pixels": 282467,
+      "layered": true,
+      "channel_mae_255": 0.5442500528291176,
+      "channel_max_255": 3.159271353138138,
+      "channel_p99_255": 1.936752304846209,
+      "status": "fail"
+    },
+    {
+      "id": "hair-center-left-crease",
+      "status": "not_assessed",
+      "reason": "no fully opaque 2px interior; all-visible ranges still in fields.json"
+    },
+    {
+      "id": "hair-center-right-crease",
+      "pixels": 921,
+      "layered": false,
+      "channel_mae_255": 0.27216793340573514,
+      "channel_max_255": 0.49619978284474087,
+      "channel_p99_255": 0.49619978284474087,
+      "status": "pass"
+    },
+    {
+      "id": "hair-right-face-crease",
+      "pixels": 2235,
+      "layered": false,
+      "channel_mae_255": 0.31207343546971905,
+      "channel_max_255": 0.8835523153273499,
+      "channel_p99_255": 0.8186114038854464,
+      "status": "pass"
+    },
+    {
+      "id": "bow-crease-left",
+      "pixels": 156,
+      "layered": false,
+      "channel_mae_255": 0.33761597585776576,
+      "channel_max_255": 0.9147506999092627,
+      "channel_p99_255": 0.8976539533655655,
+      "status": "pass"
+    },
+    {
+      "id": "bow-crease-right",
+      "pixels": 151,
+      "layered": false,
+      "channel_mae_255": 0.2626931567328891,
+      "channel_max_255": 0.41059602649006877,
+      "channel_p99_255": 0.41059602649006877,
+      "status": "pass"
+    },
+    {
+      "id": "bow-lower-rim",
+      "pixels": 963,
+      "layered": false,
+      "channel_mae_255": 0.27840102834384695,
+      "channel_max_255": 0.8662565272072129,
+      "channel_p99_255": 0.790013753187987,
+      "status": "pass"
+    },
+    {
+      "id": "whale-fin-rim-left-fold",
+      "pixels": 4009,
+      "layered": false,
+      "channel_mae_255": 0.3251483463750779,
+      "channel_max_255": 0.9775106929873232,
+      "channel_p99_255": 0.9050508595426743,
+      "status": "pass"
+    },
+    {
+      "id": "frill-white-01",
+      "pixels": 13433,
+      "layered": false,
+      "channel_mae_255": 0.2840263764573739,
+      "channel_max_255": 0.8827242115299896,
+      "channel_p99_255": 0.7791842860136963,
+      "status": "pass"
+    },
+    {
+      "id": "frill-white-02",
+      "pixels": 4232,
+      "layered": false,
+      "channel_mae_255": 0.29828136410370604,
+      "channel_max_255": 0.9159665967922024,
+      "channel_p99_255": 0.8027900442602642,
+      "status": "pass"
+    },
+    {
+      "id": "frill-white-03",
+      "pixels": 7291,
+      "layered": false,
+      "channel_mae_255": 0.26616580645375654,
+      "channel_max_255": 0.9116353234286407,
+      "channel_p99_255": 0.737864549709445,
+      "status": "pass"
+    },
+    {
+      "id": "frill-white-04",
+      "pixels": 14206,
+      "layered": false,
+      "channel_mae_255": 0.23294061657682544,
+      "channel_max_255": 0.8426218926088325,
+      "channel_p99_255": 0.7145331880553185,
+      "status": "pass"
+    },
+    {
+      "id": "frill-white-05",
+      "pixels": 14416,
+      "layered": false,
+      "channel_mae_255": 0.29188325033511997,
+      "channel_max_255": 0.8592597403732611,
+      "channel_p99_255": 0.7604888917081758,
+      "status": "pass"
+    },
+    {
+      "id": "frill-white-06",
+      "pixels": 12651,
+      "layered": false,
+      "channel_mae_255": 0.2914745856027897,
+      "channel_max_255": 0.9614456424187949,
+      "channel_p99_255": 0.8054999557914156,
+      "status": "pass"
+    },
+    {
+      "id": "frill-white-07",
+      "pixels": 6768,
+      "layered": false,
+      "channel_mae_255": 0.3101041579567248,
+      "channel_max_255": 0.7987428516440787,
+      "channel_p99_255": 0.6950808752430199,
+      "status": "pass"
+    },
+    {
+      "id": "frill-fold-01",
+      "pixels": 2569,
+      "layered": false,
+      "channel_mae_255": 0.28020289221448824,
+      "channel_max_255": 0.9097698073638867,
+      "channel_p99_255": 0.7047230378320097,
+      "status": "pass"
+    },
+    {
+      "id": "frill-fold-02",
+      "pixels": 1552,
+      "layered": false,
+      "channel_mae_255": 0.29768313834858423,
+      "channel_max_255": 0.7039959446863406,
+      "channel_p99_255": 0.6954212394483094,
+      "status": "pass"
+    },
+    {
+      "id": "frill-fold-03",
+      "pixels": 2500,
+      "layered": false,
+      "channel_mae_255": 0.3157197811939278,
+      "channel_max_255": 0.9419911968913652,
+      "channel_p99_255": 0.8394978957105973,
+      "status": "pass"
+    },
+    {
+      "id": "frill-fold-04",
+      "pixels": 3471,
+      "layered": false,
+      "channel_mae_255": 0.3702924011051105,
+      "channel_max_255": 0.979958111376078,
+      "channel_p99_255": 0.804051365997103,
+      "status": "pass"
+    },
+    {
+      "id": "frill-fold-05",
+      "pixels": 2797,
+      "layered": false,
+      "channel_mae_255": 0.27287438990076457,
+      "channel_max_255": 0.8256375952566941,
+      "channel_p99_255": 0.712121780650793,
+      "status": "pass"
+    },
+    {
+      "id": "frill-fold-06",
+      "pixels": 2536,
+      "layered": false,
+      "channel_mae_255": 0.2757900388361568,
+      "channel_max_255": 0.8495906376688538,
+      "channel_p99_255": 0.7101701888736202,
+      "status": "pass"
+    },
+    {
+      "id": "frill-fold-07",
+      "pixels": 2022,
+      "layered": false,
+      "channel_mae_255": 0.3190905818579592,
+      "channel_max_255": 0.9516007956670762,
+      "channel_p99_255": 0.896977807834297,
+      "status": "pass"
+    },
+    {
+      "id": "frill-fold-08",
+      "pixels": 1444,
+      "layered": false,
+      "channel_mae_255": 0.3027880720732122,
+      "channel_max_255": 0.9354539621297988,
+      "channel_p99_255": 0.8433536611268633,
+      "status": "pass"
+    }
+  ],
+  "pass": false
+}

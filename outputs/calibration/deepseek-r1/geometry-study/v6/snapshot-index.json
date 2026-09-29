@@ -1,0 +1,15 @@
+{
+  "attempt_01": {
+    "geometry": "attempt-01/geometry.json",
+    "sha256": "7772af7a8301b53d2bb024b0929e306ec43c38d5bcd81004bee4f4052b61f43b",
+    "status": "superseded; binary-mask retrace shortened tapered tips",
+    "preserved_from": "paint-study/natural-fields-v6/main-fit/geometry-input"
+  },
+  "final": {
+    "geometry": "final/geometry.json",
+    "sha256": "8c251ff7add8cefd0737b4e2d0586b8e961b17de33e83051d4b0b364a5bbfebd",
+    "status": "geometry frozen for paint refit and parent review",
+    "change_from_attempt_01": "Two thin fold paths retain their direct finite cubics; underfold left contour explicitly follows face occlusion below y980."
+  },
+  "not_claimed": "art acceptance, 99 percent similarity, independent skill generalization"
+}

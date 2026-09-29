@@ -4,15 +4,15 @@ Keep structural, visual, and human checks separate. Report only the checks actua
 
 ## Before rendering
 
-Use the helper's `check` when available, or inspect the SVG directly. Require static self-contained vector geometry, a square viewBox, explicit colors, and stable semantic groups. Final art must not be an embedded or remotely referenced bitmap. Active content, event handlers, and externally fetched resources are outside the portable output subset.
+Use a checker that supports the chosen SVG subset, or inspect the SVG directly. Require static self-contained vector geometry, a square viewBox, explicit colors, and stable semantic groups. Final art must not be an embedded or remotely referenced bitmap. Active content, event handlers, and externally fetched resources are outside the portable output subset.
 
-Check geometry relevant to the current contract: identical capsule dimensions, expected ratio, shared pose, fully visible eyes, and resolved deviations. Structural checks cannot prove that two marked objects are the only visible eyes or that a dark hair shape does not obscure them.
+Check geometry against the current contract: capsule sidewalls/end caps, expected source proportions, projected eye-pair relationship and actual occlusion. Source defaults for equal dimensions and fully visible eyes are subordinate to explicitly chosen reference projection or mask branches. Structural checks cannot prove that two marked objects are the only visible eyes or that a dark hair shape does not obscure them.
 
-`aikon.py check` applies to its scene/export subset. For the analytic paint path, use `paint_svg.py`'s compile report followed by an actual renderer; do not assume the older scene checker accepts every gradient/clip used by the paint compiler. A compile report alone has not run pixel or visual checks.
+`aikon.py check` and `paint_svg.py` each apply only to their historical restricted subsets. Current natural-gloss SVG may use local linear/radial fields, clip groups and narrow rims outside those subsets. Validate its actual static SVG and render it; rejecting a valid gradient with an old helper is not proof of a visual defect. A compile report alone has not run pixel or visual checks.
 
 ## Paint checks
 
-Apply [paint anti-patterns](paint-antipatterns.md) and the [paint plan](paint-plan.md) before drawing. When pixel tools are available, rasterize every selected layer with its real transform and clipping, then account for draw order to identify visible material. Inspect whole surfaces, not only small easy patches; disclose any excluded boundaries and insufficient samples.
+Apply [natural gloss](natural-gloss-v2.md) and [paint anti-patterns](paint-antipatterns.md) before drawing. The historical [paint plan](paint-plan.md) applies only to that selected subset. When pixel tools are available, rasterize every selected layer with its real transform and clipping, then account for draw order to identify visible material. Inspect whole surfaces, not only small easy patches; disclose any excluded boundaries and insufficient samples.
 
 Treat grain, mid-scale mottling, unexpected islands in declared smooth fields, opaque-interior alpha and shadow ownership as separate checks. Keep legal gradient/antialiasing controls and known bad cases. Freeze reference-derived limits before measuring candidates. Do not lower limits just to reject one image or raise them to pass another. A shadow's owner/reason text does not prove its geometry or lighting is correct. The old paint-v1 fixture's 2px boundary-anchor rule is not a universal lighting law.
 

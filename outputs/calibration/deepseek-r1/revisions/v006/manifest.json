@@ -1,0 +1,17 @@
+{
+  "schema": "aikon.r1-calibration-revision.v1",
+  "reference_sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+  "geometry_sha256": "8c251ff7add8cefd0737b4e2d0586b8e961b17de33e83051d4b0b364a5bbfebd",
+  "paint_fields_sha256": "2576456f0b4a034898b40f10979fd254e1d9bc0a2fd403136dc566ce1de7ab0d",
+  "prompt_sha256": "af452f46e2204fce0732bfe4bbd0450647e985d5efe04516ef9e49c5769fd97b",
+  "exporter_sha256": "86567353e610f9b35e0b4a4b8eb583f4ade963407584746ad5f98d9b1597ff87",
+  "svg_sha256": "0e662b8789d71a5baf6e3f1ee4c27af3033a5e75c72ae63d99e7a40691a3c297",
+  "status": "draft",
+  "scope": "source-assisted single short calibration; not independent skill generalization",
+  "eye_rim": "finite warm outer band and clipped dark inner band; source-observed, manually calibrated",
+  "surface_owners": {
+    "hair-right-face-crease": "blue-underpaint"
+  },
+  "human_acceptance": null,
+  "similarity_99_percent": "not_assessed"
+}

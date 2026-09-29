@@ -1,0 +1,233 @@
+{
+  "schema": "aikon.paint-fields.v1",
+  "long_edge": 1024,
+  "rules": {
+    "grain_rms_max": 0.8276688285339487,
+    "mottle_rms_max": 0.5,
+    "interior_translucent_fraction_max": 0.001,
+    "island_contrast_min": 12.0,
+    "island_area_min": 12
+  },
+  "regions": [
+    {
+      "id": "face",
+      "mask_id": "face",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "face-under-fringe-shadow",
+      "mask_id": "face-under-fringe-shadow",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "eye-left",
+      "mask_id": "eye-left",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "eye-right",
+      "mask_id": "eye-right",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "cheek-left",
+      "mask_id": "cheek-left",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "cheek-right",
+      "mask_id": "cheek-right",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "whale-side-fin-rim",
+      "mask_id": "whale-side-fin-rim",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "bow-knot",
+      "mask_id": "bow-knot",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "bow-left",
+      "mask_id": "bow-left",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "bow-right",
+      "mask_id": "bow-right",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "whale-side-fin",
+      "mask_id": "whale-side-fin",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "ahoge",
+      "mask_id": "ahoge",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "hair-left-fringe-fold",
+      "mask_id": "hair-left-fringe-fold",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "hair-left-inner-fold",
+      "mask_id": "hair-left-inner-fold",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "hair-center-fold",
+      "mask_id": "hair-center-fold",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "hair-right-underfold",
+      "mask_id": "hair-right-underfold",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "hair-back-dark-fold",
+      "mask_id": "hair-back-dark-fold",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "hair-back",
+      "mask_id": "hair-back",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "hair-left-under",
+      "mask_id": "hair-left-under",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "hair-right-fringe",
+      "mask_id": "hair-right-fringe",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "hair-front-main",
+      "mask_id": "hair-front-main",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "hair-center-left-crease",
+      "mask_id": "hair-center-left-crease",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "hair-center-right-crease",
+      "mask_id": "hair-center-right-crease",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "hair-right-face-crease",
+      "mask_id": "hair-right-face-crease",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "bow-crease-left",
+      "mask_id": "bow-crease-left",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "bow-crease-right",
+      "mask_id": "bow-crease-right",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "bow-lower-rim",
+      "mask_id": "bow-lower-rim",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "whale-fin-rim-left-fold",
+      "mask_id": "whale-fin-rim-left-fold",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "frill-white-01",
+      "mask_id": "frill-white-01",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "frill-white-02",
+      "mask_id": "frill-white-02",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "frill-white-03",
+      "mask_id": "frill-white-03",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "frill-white-04",
+      "mask_id": "frill-white-04",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "frill-white-05",
+      "mask_id": "frill-white-05",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "frill-white-06",
+      "mask_id": "frill-white-06",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "frill-white-07",
+      "mask_id": "frill-white-07",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "frill-fold-01",
+      "mask_id": "frill-fold-01",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "frill-fold-02",
+      "mask_id": "frill-fold-02",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "frill-fold-03",
+      "mask_id": "frill-fold-03",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "frill-fold-04",
+      "mask_id": "frill-fold-04",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "frill-fold-05",
+      "mask_id": "frill-fold-05",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "frill-fold-06",
+      "mask_id": "frill-fold-06",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "frill-fold-07",
+      "mask_id": "frill-fold-07",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "frill-fold-08",
+      "mask_id": "frill-fold-08",
+      "expectation": "opaque_surface"
+    },
+    {
+      "id": "whole-subject",
+      "mask_id": "whole-subject",
+      "expectation": "opaque_surface"
+    }
+  ]
+}

@@ -45,7 +45,8 @@ def main(svg_path,geometry_path,output):
             panel=Image.new('RGBA',(size,size),color);panel.alpha_composite(sample)
             board.paste(panel.convert('RGB'),(20+col*540+i*170,585));draw.text((20+col*540+i*170,560),str(size)+'px actual',fill='white')
     board.save(output/'review-sheet.png')
-    summary={'schema':'aikon.candidate-quality-evidence.v1','svg_sha256':hashlib.sha256(svg.encode()).hexdigest(),
+    summary={'schema':'aikon.candidate-quality-evidence.v2','svg_file_sha256':hashlib.sha256(svg_path.read_bytes()).hexdigest(),
+             'normalized_svg_text_sha256':hashlib.sha256(svg.encode()).hexdigest(),
              'geometry_sha256':hashlib.sha256(geometry_path.read_bytes()).hexdigest(),
              'capsules':[r['status'] for r in eye_report['eyes']],
              'edge_status':edge_report['status'],'edge_issues':edge_report['issues'],

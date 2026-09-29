@@ -14,9 +14,9 @@ For a faceless entity, choose a round head interpretation and translate recogniz
 
 Use a square `viewBox` with a **transparent background**. The helper uses a 512-unit square; other coordinate scales are valid when equivalent. 右上保留的 negative space 是透明空白，不能用黑色矩形或内嵌棋盘格冒充。背景只有用户明确要求才添加。
 
-The head enters from the lower left and is large enough for the left and bottom boundaries to cut through its silhouette. The chin reaches or exceeds the lower edge. Retain connected transparent space in the upper right. Keep both eyes fully within the visible canvas. Avoid treating the full head's bounding box as proof of facial crop; inspect the face itself. 避免把双眼放得过高而留下大块无内容的下半脸；必要时共同调整脸部尺度、眼位与裁切，并保持头部坐标一致。
+The default short head enters from the lower left and is large enough for the left and bottom boundaries to cut through its silhouette. The chin reaches or exceeds the lower edge. Retain connected transparent space in the upper right. Keep unmasked eyes fully within the visible canvas unless an explicit reference contract says otherwise. Avoid treating the full head's bounding box as proof of facial crop; inspect the face itself. 避免把双眼放得过高而留下大块无内容的下半脸；必要时共同调整脸部尺度、眼位与裁切，并保持头部坐标一致。
 
-Place exactly two dark vertical capsules in the head's local coordinates. They share width, height, material treatment, and orientation; their centers sit on one horizontal line. The source default length/width ratio is 2.5–3; a strong reference can explicitly set a shorter capsule. Rotate the head group and attachments together; the screen-left eye should be higher. Check the rendered result when transforms are composed. A subtle dark gradient and thin integrated rim may follow the current reference; no pupil, iris, separate white catchlight dot or eyelid.
+For an unmasked face, retain two dark capsules. The source default uses equal dimensions and a shared local eye line; the current contract may explicitly preserve a reference's projected differences. Its default length/width ratio is 2.5–3; a strong reference can set a shorter capsule. Preserve the observed face, eye, fringe and chin relationship: rotating a front-facing face only supplies roll, not upward pitch. A subtle dark gradient and thin integrated rim may follow the current reference; no pupil, iris, separate white catchlight dot or eyelid. A selected occluding mask retains its real position and records the exception to eye visibility.
 
 可见脸域应宽而柔和，颊与下颌可以具有来源支持的局部转折；它不必须是圆、椭圆或跨主体共用路径。先依据发际线、鬓发及下颌确定可见区域，再安排眼对；不画嘴或鼻。Expression comes from proportion and pose. The capsule itself is the whole eye; gentle material gloss must not create another eye structure. Use small subdued cheek ovals and clear facial space around them. Glasses and other identity features must leave the two eye silhouettes readable.
 
@@ -26,13 +26,13 @@ Place exactly two dark vertical capsules in the head's local coordinates. They s
 
 Keep identifying hardware at silhouette scale. Fine screws, wiring, dense panels, fine strands, and tiny decorative marks usually compete with the face at icon sizes. Check at the target size before preserving them.
 
-让自然发束具有不规则、顺着发流的弧线，避免把短发简化成等间距机械尖齿。为露出双眼而调整的眼罩等附件，应读作独立身份配件，而非新增眉毛。物件拟人化的腹纹、接缝或浅色弧带也可能被看成嘴，必须以实际观感检查无口脸，不能仅凭图层命名排除这一问题。
+让自然发束具有不规则、顺着发流的弧线，避免把短发简化成等间距机械尖齿。面具/眼罩是否保留由实际分支决定，不能为了露眼擅自搬成额饰。物件拟人化的腹纹、接缝或浅色弧带也可能被看成嘴，必须以实际观感检查无口脸，不能仅凭图层命名排除这一问题。
 
-The portrait contains no hands or body. A small collar fragment may remain only when it carries a chosen identity cue without weakening the close crop. Keep background texture, badges, words, logos, watermarks, flares, and particles outside the default artwork.
+The short portrait omits hands and body. The current full profile intentionally includes more evidenced neck, collar and clothing within the same canvas; its framing follows the user's full references, rather than the short close crop. Keep background texture, words, watermarks, flares and particles outside the default artwork; retain identity hardware when actually required.
 
 ## Conflict resolution
 
-Keep the eye pair readable and the simplified face intact. Adjust the position or contour of hair and attachments before letting them obscure the eyes. Preserve identity through a few selected cues rather than adding every source detail. If preserving a user-locked feature makes the default composition impossible, show that conflict and ask which constraint may change.
+Apply the settled reference and branch decisions first. Keep visible capsules readable and the simplified face intact, but do not move a selected identity mask to satisfy an older eye-visibility default. Preserve the actual shape and connections of the few key identity cues. Ask only about a consequential conflict that the user has not already resolved; an explicit user choice is itself the applicable override.
 
 ## Measured versus chosen
 

@@ -1,0 +1,150 @@
+{
+  "source_sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+  "parent_geometry_sha256": "8105b2e6d66b4ff7339302b59bd419df883cf033c0b0a663123989d404443769",
+  "geometry_sha256": "8c251ff7add8cefd0737b4e2d0586b8e961b17de33e83051d4b0b364a5bbfebd",
+  "script_sha256": "3060293a702973a1d4765104c6cd3992bd61cfd69a1f62e22d21663bbc7330d4",
+  "regions": 43,
+  "changed_regions": [
+    {
+      "id": "whale-side-fin-rim",
+      "old_pixels": 6843,
+      "new_pixels": 6788,
+      "changed_mask_pixels": 77,
+      "old_mask_sha256": "0c96c86f0fc2fb1fa53ac5d1744cb97eb9eeccfb591a79bbea4f4e6523de68cc",
+      "new_mask_sha256": "00ad01b9a14cf81f01d490e3fd9dcc1f510739eacc4aa469972a1594621d8c38"
+    },
+    {
+      "id": "hair-right-underfold",
+      "old_pixels": 5136,
+      "new_pixels": 3965,
+      "changed_mask_pixels": 1253,
+      "old_mask_sha256": "c65b69e9872b1fc538cfebb7d60c3fd04251165223f416efc4d766ee771cd3e5",
+      "new_mask_sha256": "9eb6ef15ae2a76c6733cb4426497ededd88b2262c872053974cfa6e64e146f24"
+    },
+    {
+      "id": "hair-right-fringe",
+      "old_pixels": 175448,
+      "new_pixels": 147583,
+      "changed_mask_pixels": 30817,
+      "old_mask_sha256": "4b9f18b638c299e49b590bd0d04f398a7caa06034adcd97b069523b33e8a2dde",
+      "new_mask_sha256": "0cb9f25620189bd8ee3da3e7b13788d9072dbae601101f81ccb3a04fd5d575c1"
+    },
+    {
+      "id": "hair-front-main",
+      "old_pixels": 264891,
+      "new_pixels": 291019,
+      "changed_mask_pixels": 26712,
+      "old_mask_sha256": "42f37b52de4bc02e92bac0062a8fc547bccf70acb977fde39f4e66296ae5678b",
+      "new_mask_sha256": "f22dd90a67113c7690b9d57d6ab887c700c683bc06e6db16838fc15cfbd72cdc"
+    },
+    {
+      "id": "hair-center-right-crease",
+      "old_pixels": 1013,
+      "new_pixels": 1621,
+      "changed_mask_pixels": 636,
+      "old_mask_sha256": "f2a1d2dcf87c3846989efa61fd44149c1d40fcbb1de78a070c748abecf294342",
+      "new_mask_sha256": "d38013e232d7092f5eefe6e103078b413412432b2c81073740f2babb158b214d"
+    },
+    {
+      "id": "hair-right-face-crease",
+      "old_pixels": 807,
+      "new_pixels": 3107,
+      "changed_mask_pixels": 2652,
+      "old_mask_sha256": "c1953f582fa5aadb65453792883f1b1f1ae3166f32f781b7ca2616cf3f59a98c",
+      "new_mask_sha256": "61db56edebdbfb807b729a7a0f5155437cf474ab8abf135dff49dfcae401c7b4"
+    },
+    {
+      "id": "whale-fin-rim-left-fold",
+      "old_pixels": 4661,
+      "new_pixels": 4716,
+      "changed_mask_pixels": 77,
+      "old_mask_sha256": "4c4cda049c5178664493a11cde83475e80abe097237c402fd20637839a3b3381",
+      "new_mask_sha256": "52585d75ea50bb34039494e59787bcc1cb4bf83a6f69a66c69fe59e6b18e7383"
+    }
+  ],
+  "preserved_regions": [
+    "face",
+    "face-under-fringe-shadow",
+    "eye-left",
+    "eye-right",
+    "cheek-left",
+    "cheek-right",
+    "bow-knot",
+    "bow-left",
+    "bow-right",
+    "whale-side-fin",
+    "ahoge",
+    "hair-left-fringe-fold",
+    "hair-left-inner-fold",
+    "hair-center-fold",
+    "hair-back-dark-fold",
+    "hair-back",
+    "hair-left-under",
+    "hair-center-left-crease",
+    "bow-crease-left",
+    "bow-crease-right",
+    "bow-lower-rim",
+    "frill-white-01",
+    "frill-white-02",
+    "frill-white-03",
+    "frill-white-04",
+    "frill-white-05",
+    "frill-white-06",
+    "frill-white-07",
+    "frill-fold-01",
+    "frill-fold-02",
+    "frill-fold-03",
+    "frill-fold-04",
+    "frill-fold-05",
+    "frill-fold-06",
+    "frill-fold-07",
+    "frill-fold-08"
+  ],
+  "underpaint_byte_identity": true,
+  "geometry_only_roi_metrics": {
+    "right-crease": {
+      "bbox": [
+        730,
+        660,
+        895,
+        1115
+      ],
+      "old_rgb_mae": 4.231333111333111,
+      "geometry_only_rgb_mae": 4.881047841047841,
+      "interpretation": "paint unchanged; diagnostic metric, not acceptance"
+    },
+    "center-crease": {
+      "bbox": [
+        620,
+        470,
+        725,
+        770
+      ],
+      "old_rgb_mae": 3.499174603174603,
+      "geometry_only_rgb_mae": 4.958666666666667,
+      "interpretation": "paint unchanged; diagnostic metric, not acceptance"
+    },
+    "fin-rim": {
+      "bbox": [
+        960,
+        960,
+        1270,
+        1160
+      ],
+      "old_rgb_mae": 5.3198602150537635,
+      "geometry_only_rgb_mae": 5.270876344086021,
+      "interpretation": "paint unchanged; diagnostic metric, not acceptance"
+    },
+    "main-boundary": {
+      "bbox": [
+        450,
+        230,
+        870,
+        760
+      ],
+      "old_rgb_mae": 3.271421084156933,
+      "geometry_only_rgb_mae": 3.8775067385444744,
+      "interpretation": "paint unchanged; diagnostic metric, not acceptance"
+    }
+  }
+}

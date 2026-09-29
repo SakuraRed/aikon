@@ -1,0 +1,212 @@
+{
+  "whole_valid_canvas_context_only": {
+    "pixels": 1638400,
+    "mae_srgb8": 1.642259933811571,
+    "rmse_srgb8": 4.811150608734583,
+    "p95_max_channel_error_srgb8": 7.0,
+    "fraction_pixels_max_channel_error_le_2": 0.7123248291015625,
+    "fraction_pixels_max_channel_error_gt_16": 0.014404296875
+  },
+  "subject": {
+    "pixels": 1162075,
+    "mae_srgb8": 2.284251276323667,
+    "rmse_srgb8": 5.619811478735532,
+    "p95_max_channel_error_srgb8": 8.0,
+    "fraction_pixels_max_channel_error_le_2": 0.5968754168190521,
+    "fraction_pixels_max_channel_error_gt_16": 0.019643310457586646
+  },
+  "background": {
+    "pixels": 476325,
+    "mae_srgb8": 0.07601401065040304,
+    "rmse_srgb8": 1.60259090861692,
+    "p95_max_channel_error_srgb8": 0.0,
+    "fraction_pixels_max_channel_error_le_2": 0.9939830997743138,
+    "fraction_pixels_max_channel_error_gt_16": 0.0016228415472628983
+  },
+  "local_regions": {
+    "face_and_pose_context": {
+      "context": {
+        "pixels": 717500,
+        "mae_srgb8": 1.9369400408209825,
+        "rmse_srgb8": 4.782767413846088,
+        "p95_max_channel_error_srgb8": 7.0,
+        "fraction_pixels_max_channel_error_le_2": 0.6390020905923345,
+        "fraction_pixels_max_channel_error_gt_16": 0.013640418118466899
+      },
+      "subject_only": {
+        "pixels": 698242,
+        "mae_srgb8": 1.9804777339148543,
+        "rmse_srgb8": 4.8122251493864,
+        "p95_max_channel_error_srgb8": 7.0,
+        "fraction_pixels_max_channel_error_le_2": 0.629754440437556,
+        "fraction_pixels_max_channel_error_gt_16": 0.01374451837615039
+      }
+    },
+    "eye_left": {
+      "context": {
+        "pixels": 35872,
+        "mae_srgb8": 1.8433039696699376,
+        "rmse_srgb8": 6.727042019744994,
+        "p95_max_channel_error_srgb8": 6.0,
+        "fraction_pixels_max_channel_error_le_2": 0.7850133809099019,
+        "fraction_pixels_max_channel_error_gt_16": 0.021827609277430864
+      },
+      "subject_only": {
+        "pixels": 35871,
+        "mae_srgb8": 1.8427606330090232,
+        "rmse_srgb8": 6.726113506411892,
+        "p95_max_channel_error_srgb8": 6.0,
+        "fraction_pixels_max_channel_error_le_2": 0.7850352652560564,
+        "fraction_pixels_max_channel_error_gt_16": 0.021800340107607816
+      }
+    },
+    "eye_right": {
+      "context": {
+        "pixels": 33350,
+        "mae_srgb8": 1.8825787106446776,
+        "rmse_srgb8": 7.749458880691493,
+        "p95_max_channel_error_srgb8": 6.0,
+        "fraction_pixels_max_channel_error_le_2": 0.7989805097451275,
+        "fraction_pixels_max_channel_error_gt_16": 0.022848575712143927
+      },
+      "subject_only": {
+        "pixels": 33346,
+        "mae_srgb8": 1.8798356624482697,
+        "rmse_srgb8": 7.743320061697076,
+        "p95_max_channel_error_srgb8": 6.0,
+        "fraction_pixels_max_channel_error_le_2": 0.7990763509866251,
+        "fraction_pixels_max_channel_error_gt_16": 0.022731362082408686
+      }
+    },
+    "main_hair_flow": {
+      "context": {
+        "pixels": 960000,
+        "mae_srgb8": 2.1411726949197343,
+        "rmse_srgb8": 5.123032298072222,
+        "p95_max_channel_error_srgb8": 8.0,
+        "fraction_pixels_max_channel_error_le_2": 0.58860625,
+        "fraction_pixels_max_channel_error_gt_16": 0.015055208333333334
+      },
+      "subject_only": {
+        "pixels": 920605,
+        "mae_srgb8": 2.2232228641738665,
+        "rmse_srgb8": 5.197743418537837,
+        "p95_max_channel_error_srgb8": 8.0,
+        "fraction_pixels_max_channel_error_le_2": 0.5717577028149966,
+        "fraction_pixels_max_channel_error_gt_16": 0.015493072490373178
+      }
+    },
+    "top_hook": {
+      "context": {
+        "pixels": 113400,
+        "mae_srgb8": 2.2858742553300537,
+        "rmse_srgb8": 6.755934079015832,
+        "p95_max_channel_error_srgb8": 9.0,
+        "fraction_pixels_max_channel_error_le_2": 0.6967548500881834,
+        "fraction_pixels_max_channel_error_gt_16": 0.03297178130511464
+      },
+      "subject_only": {
+        "pixels": 81234,
+        "mae_srgb8": 3.0795478513216925,
+        "rmse_srgb8": 7.741293257093751,
+        "p95_max_channel_error_srgb8": 14.0,
+        "fraction_pixels_max_channel_error_le_2": 0.58623236575818,
+        "fraction_pixels_max_channel_error_gt_16": 0.04370091341064086
+      }
+    },
+    "head_side_fin": {
+      "context": {
+        "pixels": 122836,
+        "mae_srgb8": 2.0792419916033786,
+        "rmse_srgb8": 6.298515681817108,
+        "p95_max_channel_error_srgb8": 12.0,
+        "fraction_pixels_max_channel_error_le_2": 0.7653456641375492,
+        "fraction_pixels_max_channel_error_gt_16": 0.03415936696082582
+      },
+      "subject_only": {
+        "pixels": 81065,
+        "mae_srgb8": 3.0761835087737537,
+        "rmse_srgb8": 7.570191183539366,
+        "p95_max_channel_error_srgb8": 17.0,
+        "fraction_pixels_max_channel_error_le_2": 0.6507370628507987,
+        "fraction_pixels_max_channel_error_gt_16": 0.0502436316536113
+      }
+    },
+    "side_bow": {
+      "context": {
+        "pixels": 40232,
+        "mae_srgb8": 3.4697329089822833,
+        "rmse_srgb8": 8.458655128478984,
+        "p95_max_channel_error_srgb8": 18.0,
+        "fraction_pixels_max_channel_error_le_2": 0.6277838536488367,
+        "fraction_pixels_max_channel_error_gt_16": 0.06062338437065023
+      },
+      "subject_only": {
+        "pixels": 35400,
+        "mae_srgb8": 3.880600094480928,
+        "rmse_srgb8": 8.886389956514904,
+        "p95_max_channel_error_srgb8": 19.0,
+        "fraction_pixels_max_channel_error_le_2": 0.5822598870056497,
+        "fraction_pixels_max_channel_error_gt_16": 0.06751412429378531
+      }
+    },
+    "white_frill": {
+      "context": {
+        "pixels": 651035,
+        "mae_srgb8": 2.3230577609218663,
+        "rmse_srgb8": 5.64441091200081,
+        "p95_max_channel_error_srgb8": 8.0,
+        "fraction_pixels_max_channel_error_le_2": 0.5509964902040597,
+        "fraction_pixels_max_channel_error_gt_16": 0.01840607647822314
+      },
+      "subject_only": {
+        "pixels": 542268,
+        "mae_srgb8": 2.7658204375146753,
+        "rmse_srgb8": 6.123866201160184,
+        "p95_max_channel_error_srgb8": 9.0,
+        "fraction_pixels_max_channel_error_le_2": 0.4630699211460016,
+        "fraction_pixels_max_channel_error_gt_16": 0.021692225984199693
+      }
+    }
+  },
+  "silhouette_alpha_proxy": {
+    "iou": 0.998449659088465,
+    "intersection_pixels": 1160523,
+    "union_pixels": 1162325,
+    "false_negative_pixels": 1552,
+    "false_positive_pixels": 250,
+    "boundary": {
+      "status": "measured",
+      "symmetric_mean_px": 2.0927397234374956,
+      "symmetric_p95_px": 1.0,
+      "symmetric_max_px": 459.5758914477564,
+      "reference_samples": 4932,
+      "candidate_samples": 4421
+    }
+  },
+  "alpha": {
+    "note": "Reference contains black backdrop; subject alpha is a thresholded source-only proxy, not original ground-truth alpha.",
+    "subject_mean_alpha": 0.9985752701759338,
+    "background_mean_alpha": 0.0007011360721662641,
+    "background_pixels_alpha_ge_128": 250
+  },
+  "acceptance": {
+    "user_99_percent_target": "not_assessed",
+    "visual_acceptance": "not_assessed",
+    "identity_and_pose": "not_semantically_certified"
+  },
+  "schema": "aikon.r1-upstream-comparison.v4",
+  "reference_sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+  "reference_contract": "ref/subjects/deepseek/cetus-desktop/reference-contract-v4.json",
+  "candidate_svg_sha256": "0e662b8789d71a5baf6e3f1ee4c27af3033a5e75c72ae63d99e7a40691a3c297",
+  "render_png_sha256": "a96cebf01f15d0e4a651c4782544828cddbcd97c967b551eccc96022d3c294ee",
+  "backend": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "watermark_exclusion": null,
+  "alignment": "none; unchanged1280 canvas",
+  "source_attribution": "AvroraCL/CETUS-Desktop at7f14ea7819dfb025bafce2f0d088e4901aefead6",
+  "normalization_note": "Uniform4096-to1280 upstream RGBA only; original user r1 untouched"
+}

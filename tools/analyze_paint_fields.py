@@ -111,6 +111,51 @@ def polynomial_residual(rgb, mask):
     return result
 
 
+def texture_support_evidence(mask, alpha, grain, mottle, legacy_samples, rules):
+    """Audit the actual finite Gaussian footprints, without changing the gate.
+
+    A full-image filter can borrow colors across an explicit material boundary.
+    scipy's default truncate=4 gives square supports of radius 6 and 24 for the
+    two scales used here. Only samples whose *entire* kernel belongs to this
+    material and has observable RGB are reported as material-local evidence.
+    This deliberately does not invent a clean result for thin shapes, nor drop
+    a strong image gradient inside the promised material. The original gate,
+    thresholds and island model remain unchanged; this is a coverage audit.
+    """
+    observable = mask & (alpha >= 16)
+    local_masks, scales = {}, {}
+    for name, radius, values, bound in (
+            ("grain", 6, grain, rules["grain_rms_max"]),
+            ("mottle", 24, mottle, rules["mottle_rms_max"])):
+        # Reflect is the same image-boundary convention as gaussian_filter;
+        # internal material boundaries always remain unavailable support.
+        samples = ndi.minimum_filter(observable, size=2*radius+1,
+                                     mode="reflect")
+        local_masks[name] = samples
+        count = int(samples.sum())
+        value = rms(values[samples]) if count >= 64 else None
+        scales[name] = {
+            "kernel_radius_px": radius,
+            "sample_pixels": count,
+            "sample_fraction_of_material": float(count / max(int(mask.sum()), 1)),
+            "rms_0_255": value,
+            "frozen_bound_0_255": bound,
+            "exceeds_bound": value > bound if value is not None else None,
+            "measurement_status": "measured_partial_interior" if value is not None
+                                  else "not_assessed_insufficient_full_kernel_support",
+            "legacy_samples_without_full_support": int((legacy_samples & ~samples).sum()),
+        }
+    evidence = {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": False,
+        "scales": scales,
+        "unassessed_material_pixels": int((mask & ~local_masks["mottle"]).sum()),
+        "unassessed_pixels_are_clean": False,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model",
+    }
+    return evidence, local_masks
+
+
 def analyze_image(image, contract=None, region_masks=None):
     """Analyze explicit fields; optional masks use original-image boolean pixels.
 
@@ -157,7 +202,7 @@ def analyze_image(image, contract=None, region_masks=None):
         if not isinstance(value, (int, float)) or not np.isfinite(value) or value < 0:
             raise ValueError("paint rules must be finite nonnegative numbers")
         rules[key] = value
-    results, masks, issues = [], {}, []
+    results, masks, issues, support_masks = [], {}, [], {}
     island_mask = np.zeros_like(alpha, dtype=bool)
     grain_mask = np.zeros_like(alpha, dtype=bool)
     for region in regions:
@@ -174,6 +219,8 @@ def analyze_image(image, contract=None, region_masks=None):
         # own rule; requiring opacity here would hide precisely this defect.
         paint = interior & (alpha >= 16) & ~near_edge
         count = int(paint.sum())
+        support_evidence, support_masks[name] = texture_support_evidence(
+            mask, alpha, grain, mottle, paint, rules)
         texture = {"sample_pixels": count, "grain_rms_0_255": rms(grain[paint]),
                    "mottle_rms_0_255": rms(mottle[paint]),
                    "basis": "straight RGB at alpha >=16; alpha checked separately",
@@ -229,7 +276,8 @@ def analyze_image(image, contract=None, region_masks=None):
                 failures.append("translucent_interior")
         issues.extend({"region": name, "code": reason} for reason in failures)
         results.append({"id": name, "expectation": expectation, "geometry": {k: region[k] for k in ("bbox", "polygon", "mask_id") if k in region},
-                        "texture": texture, "opacity": opacity,
+                        "texture": texture, "texture_support_evidence": support_evidence,
+                        "opacity": opacity,
                         "color_islands": {"count": len(islands), "components": islands,
                                           "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"},
                         "status": "fail" if failures else ("no_rule_failure" if expectation != "evidence_only" else "evidence_only"), "failures": failures})
@@ -258,11 +306,14 @@ def analyze_image(image, contract=None, region_masks=None):
               "visual_acceptance": "not_assessed", "limitations": [
                   "No-region mode is evidence only and cannot certify a clean painting.",
                   "Manual ROIs must avoid intended boundaries; masks and coverage are exported for audit.",
+                  "Full-image Gaussian samples can cross material boundaries; texture_support_evidence reports exact finite-kernel coverage without silently changing the gate.",
+                  "Thin shapes with no supported kernel remain unassessed; missing samples do not prove clean paint.",
                   "Broad nonquadratic shading and legal highlights may create island evidence.",
                   "No pixel statistic determines whether a highlight follows strand geometry or lighting.",
                   "Transparent interior inferred from the alpha support is advisory unless an opaque surface is explicitly declared."]}
     maps = {"normalized": normalized, "islands": island_mask, "texture_regions": grain_mask,
             "interior_alpha": global_translucent, "fringe": fringe, "regions": masks,
+            "texture_support": support_masks,
             "grain_energy": np.sqrt(np.mean(grain**2, axis=2)), "mottle_energy": np.sqrt(np.mean(mottle**2, axis=2))}
     return report, maps
 
@@ -289,6 +340,10 @@ def save_evidence(output, report, maps, contract):
         level = np.clip(maps[name] / 3, 0, 1)
         heat = np.stack([np.minimum(level*2, 1), np.maximum(level*2-1, 0), np.zeros_like(level)], axis=-1)
         Image.fromarray(np.uint8(np.rint(heat * 255))).save(output / f"{name}-heat.png")
+    for index, fields in enumerate(maps.get("texture_support", {}).values()):
+        for name, mask in fields.items():
+            Image.fromarray(mask.astype("uint8") * 255).save(
+                output / f"region-{index:02d}-{name}-support.png")
 
 
 def main():
