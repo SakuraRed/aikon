@@ -27,7 +27,7 @@ Alternative layouts and a single SVG workflow are valid user choices. Be clear w
 
 The minimum record identifies the round, profile (`short` or `full`), revision, parent, subject and style sources, settled decisions, changed parts, preserved parts, generating method/version, content hashes where possible, and actual validation status. 两版共用已确认主体，但分别存生产提示词与产物。Keep reference observations distinct from user choices and agent defaults. Record the source/permission status before copying third-party images into a shared deliverable.
 
-For the helper, `snapshot` receives the already chosen project root; it creates an immutable revision with scene, SVG, and a minimal manifest. It does not decide storage policy, collect the entire brief, copy reference images, or claim user approval. Add workflow decisions and visual evidence alongside its files without changing the archived scene/SVG. See [the CLI contract](scene-format.md).
+For current direct SVG, [archive_svg.py](direct-svg-archive.md) receives the already chosen profile root and preserves the SVG, actual prompt and metadata bytes with raw-file hashes. Local gradients and clips are supported; no renderer or drawing model is required for archiving. The older scene helper's `snapshot` recreates its restricted scene v1 SVG and remains available for those existing scenes. Neither helper decides storage policy, copies external references or claims user approval. Add actual visual evidence and human feedback alongside the immutable archive, tied to its hashes.
 
 For a precise revision:
 

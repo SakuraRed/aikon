@@ -1,0 +1,1029 @@
+{
+  "scope": "v006 hair-front-main only; diagnostic evidence, no gate override",
+  "source_sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+  "candidate_svg_sha256": "0e662b8789d71a5baf6e3f1ee4c27af3033a5e75c72ae63d99e7a40691a3c297",
+  "analyzer_sha256": "9b8161aa5244d1988110d34244a7a000512ad125a51f239ac9983e136a7b7a5b",
+  "mask_sha256": "f22dd90a67113c7690b9d57d6ab887c700c683bc06e6db16838fc15cfbd72cdc",
+  "rules": {
+    "grain_rms_max": 0.8276688285339487,
+    "mottle_rms_max": 0.5,
+    "interior_translucent_fraction_max": 0.001,
+    "island_contrast_min": 12.0,
+    "island_area_min": 12
+  },
+  "candidate_decoded_sha256": "c61f9693cd3418a81e607925022dbff771d1618b2b1e3dbfa1c141466860ef49",
+  "original_region_exactly_reproduced": true,
+  "definitions": {
+    "linear": "RGB=(64,86,156)+0.015*y",
+    "two_cones": "linear + clip(1-hypot((x-60)/570,(y-730)/510),0,1)*(25,31,42) + clip(1-hypot((x-480)/550,(y-770)/480),0,1)*(20,27,34)",
+    "gaussian": "linear + exp(-((x-400)^2/(2*210^2)+(y-650)^2/(2*225^2)))*(35,43,54)",
+    "injected_color_island": "disk center=(475,510), radius=13 native px; add RGB=(55,20,-10)",
+    "grain": "seed=20260929, independent per-channel normal noise, sigma=5 local / 3 actual full safe material",
+    "cloud": "same seeded random field, gaussian sigma=6 native px, normalized to RMS=5 over local ROI",
+    "local_roi_xyxy": [
+      420,
+      430,
+      560,
+      600
+    ],
+    "candidate_safe_material": "32-iteration erosion of same declared mainhair mask",
+    "outside_material": "candidate unchanged in every case",
+    "frozen_rules_unchanged": true
+  },
+  "cases": [
+    {
+      "id": "positive-linear",
+      "decoded_sha256": "200bb8906a069ab7d226a3383a072c93177483b584b509f9b54b1b626546f09c",
+      "issues": [],
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "texture": {
+        "sample_pixels": 149805,
+        "grain_rms_0_255": 0.07712743213167361,
+        "mottle_rms_0_255": 0.17399912663102418,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.8506331270228834,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.07712743213167361,
+          "mottle_rms_0_255": 0.17399912663102418
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.07712743213167361,
+          "mottle_rms_0_255": 0.17399912663102418
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 162064,
+            "sample_fraction_of_material": 0.8700488538143555,
+            "rms_0_255": 0.08385590130125899,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 2289
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 99662,
+            "sample_fraction_of_material": 0.535040532560262,
+            "rms_0_255": 0.11581993469299345,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 50649
+          }
+        },
+        "unassessed_material_pixels": 86608,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      }
+    },
+    {
+      "id": "positive-two-broad-cones",
+      "decoded_sha256": "7890df4dfd73f8daae8093906d5c9f0b6f9a38bb504127a174e6c82a41bceee4",
+      "issues": [
+        {
+          "region": "hair-front-main",
+          "code": "unexpected_color_islands_in_declared_smooth_field"
+        }
+      ],
+      "color_islands": {
+        "count": 1,
+        "components": [
+          {
+            "area_pixels": 398,
+            "bbox_normalized": [
+              0.0029296875,
+              0.611328125,
+              0.0205078125,
+              0.6552734375
+            ],
+            "median_contrast_0_255": 15.88358203951967,
+            "signed_luma_residual_0_255": -14.71357813711725
+          }
+        ],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "texture": {
+        "sample_pixels": 143909,
+        "grain_rms_0_255": 0.2004514041898126,
+        "mottle_rms_0_255": 0.15976986056714257,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.8171540514451195,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.2004514041898126,
+          "mottle_rms_0_255": 0.15976986056714257
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.2004514041898126,
+          "mottle_rms_0_255": 0.15976986056714257
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 162064,
+            "sample_fraction_of_material": 0.8700488538143555,
+            "rms_0_255": 0.2040223570466059,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 260
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 99662,
+            "sample_fraction_of_material": 0.535040532560262,
+            "rms_0_255": 0.12787923604295065,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 44753
+          }
+        },
+        "unassessed_material_pixels": 86608,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      }
+    },
+    {
+      "id": "positive-broad-gaussian",
+      "decoded_sha256": "5030cd747634a2d98806016a2a4ddcce876517b1623cc6a4fb98af7ef4b965f0",
+      "issues": [],
+      "color_islands": {
+        "count": 0,
+        "components": [],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "texture": {
+        "sample_pixels": 143649,
+        "grain_rms_0_255": 0.21353333977295436,
+        "mottle_rms_0_255": 0.15315844951073293,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.8156777014366021,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.21353333977295436,
+          "mottle_rms_0_255": 0.15315844951073293
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.21353333977295436,
+          "mottle_rms_0_255": 0.15315844951073293
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 162064,
+            "sample_fraction_of_material": 0.8700488538143555,
+            "rms_0_255": 0.2183157514431065,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 161
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 99662,
+            "sample_fraction_of_material": 0.535040532560262,
+            "rms_0_255": 0.1153583582398662,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 44493
+          }
+        },
+        "unassessed_material_pixels": 86608,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      }
+    },
+    {
+      "id": "negative-color-island",
+      "decoded_sha256": "ed20db160bb4dbe6d63d2e4089eb37f4efd45f23aa6fc34cbd6184beacaee523",
+      "issues": [
+        {
+          "region": "hair-front-main",
+          "code": "unexpected_color_islands_in_declared_smooth_field"
+        }
+      ],
+      "color_islands": {
+        "count": 2,
+        "components": [
+          {
+            "area_pixels": 353,
+            "bbox_normalized": [
+              0.361328125,
+              0.388671875,
+              0.3818359375,
+              0.4091796875
+            ],
+            "median_contrast_0_255": 34.07872041943395,
+            "signed_luma_residual_0_255": 24.966109792979363
+          },
+          {
+            "area_pixels": 396,
+            "bbox_normalized": [
+              0.0029296875,
+              0.611328125,
+              0.0205078125,
+              0.6552734375
+            ],
+            "median_contrast_0_255": 15.862722060730851,
+            "signed_luma_residual_0_255": -14.708299711504052
+          }
+        ],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "texture": {
+        "sample_pixels": 142174,
+        "grain_rms_0_255": 0.20015258042337838,
+        "mottle_rms_0_255": 0.16097304934711032,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.8073022542728976,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.20015258042337838,
+          "mottle_rms_0_255": 0.16097304934711032
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.20015258042337838,
+          "mottle_rms_0_255": 0.16097304934711032
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 162064,
+            "sample_fraction_of_material": 0.8700488538143555,
+            "rms_0_255": 0.4164094732027466,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 260
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 99662,
+            "sample_fraction_of_material": 0.535040532560262,
+            "rms_0_255": 0.7992833309785706,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": true,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 44753
+          }
+        },
+        "unassessed_material_pixels": 86608,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      }
+    },
+    {
+      "id": "negative-grain",
+      "decoded_sha256": "b988880232c3d30135328307fa0e90667ba8ae71d37bea11eb0397b58ae52cd2",
+      "issues": [
+        {
+          "region": "hair-front-main",
+          "code": "grain_above_reference_bound"
+        },
+        {
+          "region": "hair-front-main",
+          "code": "unexpected_color_islands_in_declared_smooth_field"
+        }
+      ],
+      "color_islands": {
+        "count": 1,
+        "components": [
+          {
+            "area_pixels": 379,
+            "bbox_normalized": [
+              0.0029296875,
+              0.615234375,
+              0.0205078125,
+              0.6552734375
+            ],
+            "median_contrast_0_255": 15.540201603613635,
+            "signed_luma_residual_0_255": -14.405704317768077
+          }
+        ],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "texture": {
+        "sample_pixels": 143909,
+        "grain_rms_0_255": 1.1143372916312861,
+        "mottle_rms_0_255": 0.27254713008189957,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.8171540514451195,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 1.1143372916312861,
+          "mottle_rms_0_255": 0.27254713008189957
+        },
+        "composite_white": {
+          "grain_rms_0_255": 1.1143372916312861,
+          "mottle_rms_0_255": 0.27254713008189957
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 162064,
+            "sample_fraction_of_material": 0.8700488538143555,
+            "rms_0_255": 1.0528950849030836,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": true,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 260
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 99662,
+            "sample_fraction_of_material": 0.535040532560262,
+            "rms_0_255": 0.2945412247023768,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 44753
+          }
+        },
+        "unassessed_material_pixels": 86608,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      }
+    },
+    {
+      "id": "negative-cloud",
+      "decoded_sha256": "9930c88862bdc93863410bae8ce13ce121c044f58f79e3b4b343ed4b35cffd14",
+      "issues": [
+        {
+          "region": "hair-front-main",
+          "code": "mottle_above_reference_bound"
+        },
+        {
+          "region": "hair-front-main",
+          "code": "unexpected_color_islands_in_declared_smooth_field"
+        }
+      ],
+      "color_islands": {
+        "count": 6,
+        "components": [
+          {
+            "area_pixels": 53,
+            "bbox_normalized": [
+              0.4140625,
+              0.357421875,
+              0.4228515625,
+              0.3662109375
+            ],
+            "median_contrast_0_255": 12.757717270925738,
+            "signed_luma_residual_0_255": -12.71552967969573
+          },
+          {
+            "area_pixels": 115,
+            "bbox_normalized": [
+              0.359375,
+              0.373046875,
+              0.373046875,
+              0.3837890625
+            ],
+            "median_contrast_0_255": 14.873828828088675,
+            "signed_luma_residual_0_255": -14.87023268759163
+          },
+          {
+            "area_pixels": 18,
+            "bbox_normalized": [
+              0.3447265625,
+              0.392578125,
+              0.349609375,
+              0.3984375
+            ],
+            "median_contrast_0_255": 12.55083097913697,
+            "signed_luma_residual_0_255": 12.429165770174535
+          },
+          {
+            "area_pixels": 44,
+            "bbox_normalized": [
+              0.34375,
+              0.4033203125,
+              0.3525390625,
+              0.412109375
+            ],
+            "median_contrast_0_255": 12.574937123185737,
+            "signed_luma_residual_0_255": 12.646015454126548
+          },
+          {
+            "area_pixels": 134,
+            "bbox_normalized": [
+              0.3388671875,
+              0.435546875,
+              0.3525390625,
+              0.44921875
+            ],
+            "median_contrast_0_255": 14.170909742769114,
+            "signed_luma_residual_0_255": 14.142166577279607
+          },
+          {
+            "area_pixels": 369,
+            "bbox_normalized": [
+              0.0029296875,
+              0.6171875,
+              0.0205078125,
+              0.6552734375
+            ],
+            "median_contrast_0_255": 15.287024734391698,
+            "signed_luma_residual_0_255": -14.136317920237172
+          }
+        ],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "texture": {
+        "sample_pixels": 140276,
+        "grain_rms_0_255": 0.2501828551273787,
+        "mottle_rms_0_255": 0.6384583655094755,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.7965248992107206,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.2501828551273787,
+          "mottle_rms_0_255": 0.6384583655094755
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.2501828551273787,
+          "mottle_rms_0_255": 0.6384583655094755
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 162064,
+            "sample_fraction_of_material": 0.8700488538143555,
+            "rms_0_255": 0.2745807807658949,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 260
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 99662,
+            "sample_fraction_of_material": 0.535040532560262,
+            "rms_0_255": 0.9247985926355984,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": true,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 44753
+          }
+        },
+        "unassessed_material_pixels": 86608,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      }
+    },
+    {
+      "id": "actual-candidate-plus-island",
+      "decoded_sha256": "caff42f04c39d159e815f58f3ce6618818e21c5cb1f0079c38b3d28061328b4a",
+      "issues": [
+        {
+          "region": "hair-front-main",
+          "code": "unexpected_color_islands_in_declared_smooth_field"
+        }
+      ],
+      "color_islands": {
+        "count": 2,
+        "components": [
+          {
+            "area_pixels": 351,
+            "bbox_normalized": [
+              0.361328125,
+              0.388671875,
+              0.3818359375,
+              0.4091796875
+            ],
+            "median_contrast_0_255": 33.26362976946091,
+            "signed_luma_residual_0_255": 23.772869939473992
+          },
+          {
+            "area_pixels": 423,
+            "bbox_normalized": [
+              0.0029296875,
+              0.6083984375,
+              0.0205078125,
+              0.6552734375
+            ],
+            "median_contrast_0_255": 15.792242103205028,
+            "signed_luma_residual_0_255": -17.072356779918476
+          }
+        ],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "texture": {
+        "sample_pixels": 145641,
+        "grain_rms_0_255": 0.2383681407668455,
+        "mottle_rms_0_255": 0.2763283161021039,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.8269888138095508,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.2383681407668455,
+          "mottle_rms_0_255": 0.2763283161021039
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.2383681407668455,
+          "mottle_rms_0_255": 0.2763283161021039
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 162064,
+            "sample_fraction_of_material": 0.8700488538143555,
+            "rms_0_255": 0.4391034086645803,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 1781
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 99662,
+            "sample_fraction_of_material": 0.535040532560262,
+            "rms_0_255": 0.8208326537315662,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": true,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 48222
+          }
+        },
+        "unassessed_material_pixels": 86608,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      }
+    },
+    {
+      "id": "actual-candidate-plus-grain",
+      "decoded_sha256": "5fe0a534e6893989abe1c489a83c45ea228e2f6c7cdbf8799b51681a8e102f42",
+      "issues": [
+        {
+          "region": "hair-front-main",
+          "code": "grain_above_reference_bound"
+        },
+        {
+          "region": "hair-front-main",
+          "code": "unexpected_color_islands_in_declared_smooth_field"
+        }
+      ],
+      "color_islands": {
+        "count": 1,
+        "components": [
+          {
+            "area_pixels": 366,
+            "bbox_normalized": [
+              0.0029296875,
+              0.6171875,
+              0.0205078125,
+              0.6552734375
+            ],
+            "median_contrast_0_255": 14.546249976170262,
+            "signed_luma_residual_0_255": -15.611204029281213
+          }
+        ],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "texture": {
+        "sample_pixels": 147378,
+        "grain_rms_0_255": 1.794531148948642,
+        "mottle_rms_0_255": 0.457617255217104,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.8368519675202998,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 1.794531148948642,
+          "mottle_rms_0_255": 0.457617255217104
+        },
+        "composite_white": {
+          "grain_rms_0_255": 1.794531148948642,
+          "mottle_rms_0_255": 0.457617255217104
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 162064,
+            "sample_fraction_of_material": 0.8700488538143555,
+            "rms_0_255": 1.7142739065168406,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": true,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 1781
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 99662,
+            "sample_fraction_of_material": 0.535040532560262,
+            "rms_0_255": 0.470701352535028,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 48222
+          }
+        },
+        "unassessed_material_pixels": 86608,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      }
+    },
+    {
+      "id": "actual-candidate-plus-cloud",
+      "decoded_sha256": "56a7838eaf153d9f96de08ae6849337b5434753641086ca29f120667dc565345",
+      "issues": [
+        {
+          "region": "hair-front-main",
+          "code": "mottle_above_reference_bound"
+        },
+        {
+          "region": "hair-front-main",
+          "code": "unexpected_color_islands_in_declared_smooth_field"
+        }
+      ],
+      "color_islands": {
+        "count": 27,
+        "components": [
+          {
+            "area_pixels": 53,
+            "bbox_normalized": [
+              0.283203125,
+              0.2158203125,
+              0.291015625,
+              0.224609375
+            ],
+            "median_contrast_0_255": 13.305212003273924,
+            "signed_luma_residual_0_255": 13.399263465798793
+          },
+          {
+            "area_pixels": 36,
+            "bbox_normalized": [
+              0.244140625,
+              0.2197265625,
+              0.2509765625,
+              0.2265625
+            ],
+            "median_contrast_0_255": 13.275897273794218,
+            "signed_luma_residual_0_255": -12.992367950005903
+          },
+          {
+            "area_pixels": 36,
+            "bbox_normalized": [
+              0.16796875,
+              0.22265625,
+              0.173828125,
+              0.2294921875
+            ],
+            "median_contrast_0_255": 13.361725776989118,
+            "signed_luma_residual_0_255": 13.412400056473944
+          },
+          {
+            "area_pixels": 106,
+            "bbox_normalized": [
+              0.11328125,
+              0.240234375,
+              0.123046875,
+              0.25390625
+            ],
+            "median_contrast_0_255": 13.234932985087184,
+            "signed_luma_residual_0_255": 13.400563085236637
+          },
+          {
+            "area_pixels": 55,
+            "bbox_normalized": [
+              0.3056640625,
+              0.248046875,
+              0.3125,
+              0.2587890625
+            ],
+            "median_contrast_0_255": 13.258537739798976,
+            "signed_luma_residual_0_255": -13.393723408155122
+          },
+          {
+            "area_pixels": 14,
+            "bbox_normalized": [
+              0.08984375,
+              0.2705078125,
+              0.0947265625,
+              0.2744140625
+            ],
+            "median_contrast_0_255": 12.235660647503359,
+            "signed_luma_residual_0_255": -12.190877714698118
+          },
+          {
+            "area_pixels": 23,
+            "bbox_normalized": [
+              0.2978515625,
+              0.2705078125,
+              0.302734375,
+              0.2763671875
+            ],
+            "median_contrast_0_255": 13.59029445627956,
+            "signed_luma_residual_0_255": -13.40747772585563
+          },
+          {
+            "area_pixels": 14,
+            "bbox_normalized": [
+              0.275390625,
+              0.2724609375,
+              0.2802734375,
+              0.2763671875
+            ],
+            "median_contrast_0_255": 12.680239267569384,
+            "signed_luma_residual_0_255": 12.471606216213887
+          },
+          {
+            "area_pixels": 107,
+            "bbox_normalized": [
+              0.111328125,
+              0.283203125,
+              0.123046875,
+              0.29296875
+            ],
+            "median_contrast_0_255": 13.661348471102956,
+            "signed_luma_residual_0_255": 13.778208606833783
+          },
+          {
+            "area_pixels": 22,
+            "bbox_normalized": [
+              0.201171875,
+              0.283203125,
+              0.205078125,
+              0.2900390625
+            ],
+            "median_contrast_0_255": 12.358413265929554,
+            "signed_luma_residual_0_255": 12.270667084700563
+          },
+          {
+            "area_pixels": 14,
+            "bbox_normalized": [
+              0.3857421875,
+              0.283203125,
+              0.388671875,
+              0.2890625
+            ],
+            "median_contrast_0_255": 12.474731176377745,
+            "signed_luma_residual_0_255": -12.668334939997347
+          },
+          {
+            "area_pixels": 28,
+            "bbox_normalized": [
+              0.287109375,
+              0.291015625,
+              0.29296875,
+              0.296875
+            ],
+            "median_contrast_0_255": 12.404392993732102,
+            "signed_luma_residual_0_255": -12.494125026863983
+          },
+          {
+            "area_pixels": 149,
+            "bbox_normalized": [
+              0.091796875,
+              0.3447265625,
+              0.109375,
+              0.357421875
+            ],
+            "median_contrast_0_255": 14.20447318292412,
+            "signed_luma_residual_0_255": -14.16678787098619
+          },
+          {
+            "area_pixels": 57,
+            "bbox_normalized": [
+              0.2978515625,
+              0.3486328125,
+              0.306640625,
+              0.3564453125
+            ],
+            "median_contrast_0_255": 13.158068546471025,
+            "signed_luma_residual_0_255": -13.119009703178708
+          },
+          {
+            "area_pixels": 26,
+            "bbox_normalized": [
+              0.4150390625,
+              0.3603515625,
+              0.421875,
+              0.365234375
+            ],
+            "median_contrast_0_255": 12.743487261753307,
+            "signed_luma_residual_0_255": -12.595824934727501
+          },
+          {
+            "area_pixels": 132,
+            "bbox_normalized": [
+              0.3583984375,
+              0.3720703125,
+              0.373046875,
+              0.3837890625
+            ],
+            "median_contrast_0_255": 15.285207578605242,
+            "signed_luma_residual_0_255": -15.43451988518521
+          },
+          {
+            "area_pixels": 43,
+            "bbox_normalized": [
+              0.1279296875,
+              0.41015625,
+              0.134765625,
+              0.421875
+            ],
+            "median_contrast_0_255": 14.007391071609318,
+            "signed_luma_residual_0_255": 13.993147392742927
+          },
+          {
+            "area_pixels": 136,
+            "bbox_normalized": [
+              0.3388671875,
+              0.435546875,
+              0.3525390625,
+              0.44921875
+            ],
+            "median_contrast_0_255": 14.121673124822603,
+            "signed_luma_residual_0_255": 14.22203125557521
+          },
+          {
+            "area_pixels": 80,
+            "bbox_normalized": [
+              0.1357421875,
+              0.4423828125,
+              0.146484375,
+              0.4541015625
+            ],
+            "median_contrast_0_255": 14.971519490791662,
+            "signed_luma_residual_0_255": 15.359039380657869
+          },
+          {
+            "area_pixels": 13,
+            "bbox_normalized": [
+              0.1162109375,
+              0.443359375,
+              0.1201171875,
+              0.4482421875
+            ],
+            "median_contrast_0_255": 14.019488279391698,
+            "signed_luma_residual_0_255": 13.895911688939448
+          },
+          {
+            "area_pixels": 15,
+            "bbox_normalized": [
+              0.4580078125,
+              0.470703125,
+              0.462890625,
+              0.4755859375
+            ],
+            "median_contrast_0_255": 12.173795013163138,
+            "signed_luma_residual_0_255": 12.161573971927373
+          },
+          {
+            "area_pixels": 20,
+            "bbox_normalized": [
+              0.482421875,
+              0.478515625,
+              0.486328125,
+              0.4853515625
+            ],
+            "median_contrast_0_255": 13.353846325428712,
+            "signed_luma_residual_0_255": 13.510118665605054
+          },
+          {
+            "area_pixels": 28,
+            "bbox_normalized": [
+              0.34765625,
+              0.4951171875,
+              0.353515625,
+              0.5009765625
+            ],
+            "median_contrast_0_255": 12.789982704329667,
+            "signed_luma_residual_0_255": 13.07923636826197
+          },
+          {
+            "area_pixels": 22,
+            "bbox_normalized": [
+              0.447265625,
+              0.5126953125,
+              0.453125,
+              0.5185546875
+            ],
+            "median_contrast_0_255": 12.955973220127468,
+            "signed_luma_residual_0_255": 13.238900980631119
+          },
+          {
+            "area_pixels": 90,
+            "bbox_normalized": [
+              0.345703125,
+              0.552734375,
+              0.359375,
+              0.564453125
+            ],
+            "median_contrast_0_255": 12.710796321147157,
+            "signed_luma_residual_0_255": 12.679074565234814
+          },
+          {
+            "area_pixels": 131,
+            "bbox_normalized": [
+              0.390625,
+              0.6142578125,
+              0.404296875,
+              0.626953125
+            ],
+            "median_contrast_0_255": 16.54732986963641,
+            "signed_luma_residual_0_255": -16.71098142172928
+          },
+          {
+            "area_pixels": 299,
+            "bbox_normalized": [
+              0.0029296875,
+              0.6259765625,
+              0.0205078125,
+              0.6552734375
+            ],
+            "median_contrast_0_255": 13.698443042669743,
+            "signed_luma_residual_0_255": -14.947558153962186
+          }
+        ],
+        "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+      },
+      "texture": {
+        "sample_pixels": 123498,
+        "grain_rms_0_255": 0.5204223879364845,
+        "mottle_rms_0_255": 1.80141190323869,
+        "basis": "straight RGB at alpha >=16; alpha checked separately",
+        "sample_fraction_of_region_interior": 0.7012548975072398,
+        "measurement_status": "measured",
+        "composite_black": {
+          "grain_rms_0_255": 0.5204223879364845,
+          "mottle_rms_0_255": 1.80141190323869
+        },
+        "composite_white": {
+          "grain_rms_0_255": 0.5204223879364845,
+          "mottle_rms_0_255": 1.80141190323869
+        }
+      },
+      "texture_support_evidence": {
+        "purpose": "support-domain diagnostic only; does not override original issues or certify material quality",
+        "image_dependent_edge_exclusion": false,
+        "scales": {
+          "grain": {
+            "kernel_radius_px": 6,
+            "sample_pixels": 162064,
+            "sample_fraction_of_material": 0.8700488538143555,
+            "rms_0_255": 0.5748211362583202,
+            "frozen_bound_0_255": 0.8276688285339487,
+            "exceeds_bound": false,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 1780
+          },
+          "mottle": {
+            "kernel_radius_px": 24,
+            "sample_pixels": 99662,
+            "sample_fraction_of_material": 0.535040532560262,
+            "rms_0_255": 2.1717719268067674,
+            "frozen_bound_0_255": 0.5,
+            "exceeds_bound": true,
+            "measurement_status": "measured_partial_interior",
+            "legacy_samples_without_full_support": 38221
+          }
+        },
+        "unassessed_material_pixels": 86608,
+        "unassessed_pixels_are_clean": false,
+        "island_model": "quadratic residual; arbitrary legal radial fields are outside this model"
+      }
+    }
+  ],
+  "elapsed_seconds": 9.773457899995265
+}

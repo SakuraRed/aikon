@@ -1,0 +1,31 @@
+{
+  "archive_version": "0.1.0",
+  "checks": {
+    "raster_alpha": "unverified",
+    "structural": "passed",
+    "visual": "unverified"
+  },
+  "created_at": "2026-09-29T04:44:00.002585+00:00",
+  "files": {
+    "icon.svg": {
+      "bytes": 146538,
+      "sha256": "0e662b8789d71a5baf6e3f1ee4c27af3033a5e75c72ae63d99e7a40691a3c297"
+    },
+    "metadata.json": {
+      "bytes": 1495,
+      "sha256": "125629c7b79e219bf8fd7b5fbfb194bfad628e49bdf7b7cf8300d5437a2629f5"
+    },
+    "prompt.md": {
+      "bytes": 625,
+      "sha256": "af452f46e2204fce0732bfe4bbd0450647e985d5efe04516ef9e49c5769fd97b"
+    }
+  },
+  "parent": null,
+  "parent_manifest_sha256": null,
+  "profile": "short",
+  "revision": "r001",
+  "round_id": "r1-calibration",
+  "schema": "aikon.direct-svg.revision.v1",
+  "user_acceptance": "unassessed",
+  "visual_review": "not_run"
+}

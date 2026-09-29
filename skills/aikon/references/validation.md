@@ -10,6 +10,8 @@ Check geometry against the current contract: capsule sidewalls/end caps, expecte
 
 `aikon.py check` and `paint_svg.py` each apply only to their historical restricted subsets. Current natural-gloss SVG may use local linear/radial fields, clip groups and narrow rims outside those subsets. Validate its actual static SVG and render it; rejecting a valid gradient with an old helper is not proof of a visual defect. A compile report alone has not run pixel or visual checks.
 
+The optional [direct SVG archive checker](direct-svg-archive.md) supports that static gradient/clip subset and preserves exact bytes. Its success proves only the stated structural subset; path validity, transparent appearance, pose, gloss, glyphs and user acceptance still require the relevant renderer and review.
+
 ## Paint checks
 
 Apply [natural gloss](natural-gloss-v2.md) and [paint anti-patterns](paint-antipatterns.md) before drawing. The historical [paint plan](paint-plan.md) applies only to that selected subset. When pixel tools are available, rasterize every selected layer with its real transform and clipping, then account for draw order to identify visible material. Inspect whole surfaces, not only small easy patches; disclose any excluded boundaries and insufficient samples.

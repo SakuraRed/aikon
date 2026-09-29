@@ -1,0 +1,8 @@
+{
+  "helper_sha256": "f222690d6b70cee7bcdbedf346485894e8aa9a8fe8b6165521a72289f1b67fb8",
+  "tested_runtime": "Python3.13.3",
+  "unit_tests": 17,
+  "isolation_check": "copied script only; python-I; realv007",
+  "other_harnesses": "not_run",
+  "user_acceptance": "unassessed"
+}

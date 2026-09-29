@@ -1,6 +1,6 @@
 # DeepSeek r1 单例校准记录
 
-当前候选：[revisions/v006/short.svg](revisions/v006/short.svg)，状态 **draft / 未获用户验收**。本目录不是正式short/full新round，也不是通用Skill效果已达标的声明。
+当前候选：[revisions/v007/short.svg](revisions/v007/short.svg)，状态 **draft / 未获用户验收**。本目录不是正式short/full新round，也不是通用Skill效果已达标的声明。
 
 ## 参考与实验边界
 
@@ -18,6 +18,7 @@ geometry-study 与 paint-study 是**源图辅助的语义重建**：有限部件
 | v004 | 所有几何和色场不变，主体单次裁切与内部不透明支撑 | 固定256px边缘门禁通过；画质整体仍未通过 |
 | v005 | 修正7个材料面的真实发束/鳍边界，重拟合两片宽受光场 | 缝线位置改善，但实际Bézier侵入冻结脸域，保留负例 |
 | v006 | 仅把该发缝裁切到声明的蓝色材料父域 | 脸域深处侵入由109px归零；其它alpha不变；材质和整体仍未通过 |
+| v007 | 只修眼内过渡、鳍下缘及单片白褶外弧 | 原有路径与整图alpha不变；局部光泽改善，整体仍未验收 |
 
 每次实际prompt、几何、色场、生成器、SVG及哈希保存在对应revision。v1材料研究没有完整输入快照，已单独记为不可完整回放的诊断，不伪造补档。基准v2错误继承旧水印alpha、v3交集试验均保留为过时材料；从source-v4和geometry/paint-v5起只用上游自身RGBA。
 
@@ -25,10 +26,10 @@ geometry-study 与 paint-study 是**源图辅助的语义重建**：有限部件
 
 主线程真实查看了原图、高清源、各次SVG渲染、差值图及深浅底多尺寸图。新参考比较器的11项测试通过，覆盖背景稀释、关键部位位移、水印区域与非法画布变化，不只是重放成功。
 
-| 当前结果 | 源辅助 v006 | 独立Skill消费 v2 |
+| 当前结果（同一v4比较口径） | 源辅助 v007 | 独立Skill消费 v2 |
 |---|---:|---:|
-| 主体RGB MAE，0–255 | 2.2843 | 7.0100 |
-| 主体RGB RMSE，0–255 | 5.6198 | 20.5643 |
+| 主体RGB MAE，0–255 | 2.2723 | 7.0100 |
+| 主体RGB RMSE，0–255 | 5.6100 | 20.5643 |
 | 主体轮廓alpha代理IoU | 0.998450 | 0.989514 |
 | 用户要求99% | 未评定 | 未达成／未验收 |
 
@@ -49,6 +50,16 @@ quality旧字段svg_sha256是规范化换行后的文本hash；validation-bindin
 v006两眼及256px边缘仍通过，paint仍fail：鳍浅边mottle、主前发island、第五白瓣mottle及两条薄折线证据不足。不能将全部归为误报；特别是source/candidate材料mask错配必须分别查证。支持域审计已证明旧Gaussian会跨材料借色、内容依赖梯度可能隐藏缺陷、二次趋势不支持任意合法radial。新增诊断报告完整核覆盖，缺样点保持未评估，原门禁与阈值未放宽。见[支持域审计](../../../docs/validation/paint-support-v4/README.md)。
 
 当前单Ubuntu CI追加7项支持域正负测试，本地83项图像检测相关测试通过（16.299s），没有新增平台矩阵。Skill通过skill-creator的quick_validate；隔离画质venv无PyYAML，使用已装PyYAML的现有Python完成检查，未安装依赖。技能入口/引用文档已纠正旧平色helper、full取景和面具上移冲突；本轮没有新的独立绘制消费成绩，上一轮独立v2仍未达标。
+
+## 后续 v007 与可移植归档
+
+v007固定既有几何；主线程实际查看完整图、差值和深浅底多尺寸图。眼内1–4px带的MAE左4.824→3.477、右4.602→3.830，鳍整体RMSE9.191→8.943；全部alpha逐像素相等。相同v4比较合同下主体MAE2.2843→2.2723，属于细节改进而非已证实99%。所有5条旧材质报警继续保留；眼形和256px边缘通过。
+
+[主发色岛独立复核](../../../docs/validation/v006-material-review/README.md)将423px报警定位为左贴脸发梢的连续暗残差。实际绘制栈没有混入其它材料；独立的双宽radial也在同一处重现假岛，而注入的真实色岛/噪点/云纹可被检出。原门禁未改，不为消警提亮/涂平。薄发梢低频污染仍未评估，模型改进需独立验证。
+
+另行修正source轮廓代理，把6个封闭深眼缘像素从误判背景还原到主体。[v5比较](revisions/v007/comparison-v5/report.json)与[原v4比较](revisions/v007/comparison/report.json)分开保留；这只修测量模型，不算改图收益。说明与7项独立控制见[来源轮廓代理](../../../docs/validation/source-foreground-v5/README.md)。
+
+Skill新增仅依赖Python标准库的直接SVG静态检查与归档helper。真实v006/v007已存入[便携归档](portable-archive/)，SVG、实际prompt和metadata raw bytes全部哈希一致；单独复制helper到临时目录、以Python `-I`执行也通过。17项归档测试通过，3.9语法检查通过，实际运行仍仅3.13；未测试其他harness。归档结构通过不提升视觉或用户验收状态。
 
 ## 后续仍需完成
 

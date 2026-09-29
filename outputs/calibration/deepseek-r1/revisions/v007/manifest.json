@@ -1,0 +1,13 @@
+{
+  "schema": "aikon.r1-gloss-revision.v1",
+  "parent": "v006",
+  "base_svg_sha256": "0e662b8789d71a5baf6e3f1ee4c27af3033a5e75c72ae63d99e7a40691a3c297",
+  "svg_sha256": "451df82f281678f55c2f222d277b611927684bd444b9b119e0b3c38ce28a546b",
+  "prompt_sha256": "1718d196b59f80fb23c1162949556fbd349f3ad45a3590f679c9915afdc3593b",
+  "patch_sha256": "5b29264806a52864ef0880ef362d27719902bcfd9a610685fc84c134ba26f553",
+  "plan_sha256": "8d89dd487fb0df9ab5eff4bb240d9ce99883673ac13b6f65ad5eeef94ae05992",
+  "scope": "source-assisted paint-only calibration; not independent Skill generation",
+  "status": "draft",
+  "user_acceptance": null,
+  "similarity_99_percent": "not_assessed"
+}

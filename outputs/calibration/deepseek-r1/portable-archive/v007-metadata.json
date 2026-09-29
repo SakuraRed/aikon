@@ -1,0 +1,50 @@
+{
+  "schema": "aikon.direct-svg.metadata.v1",
+  "round_id": "r1-calibration",
+  "profile": "short",
+  "subject": "DeepSeek as explicitly bound to r1",
+  "sources": [
+    {
+      "role": "both",
+      "location": "ref/subjects/deepseek/cetus-desktop/r1-clean-source-1280.png",
+      "rights_status": "Research reference from MIT repository; separate artwork author/rights not independently verified",
+      "sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+      "purpose": "Same-image subject/style calibration"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "transparent-svg",
+      "value": true,
+      "origin": "user",
+      "evidence": "Original Aikon product requirement"
+    },
+    {
+      "id": "scope",
+      "value": "single short calibration before batch expansion",
+      "origin": "agent_default"
+    }
+  ],
+  "changes": {
+    "summary": "Archive actual v007 calibration candidate",
+    "targets": [
+      "eye-rim",
+      "fin-rim"
+    ],
+    "preserved": [
+      "reference",
+      "eye-position",
+      "face-geometry",
+      "subject-alpha"
+    ]
+  },
+  "provenance": {
+    "method": "source-assisted SVG calibration; not independent Skill art acceptance",
+    "tool": "gloss_paint.py",
+    "version": null,
+    "script_sha256": "5b29264806a52864ef0880ef362d27719902bcfd9a610685fc84c134ba26f553"
+  },
+  "unresolved_questions": [
+    "Human visual acceptance and99percent criterion remain unresolved"
+  ]
+}

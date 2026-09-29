@@ -1,0 +1,31 @@
+{
+  "archive_version": "0.1.0",
+  "checks": {
+    "raster_alpha": "unverified",
+    "structural": "passed",
+    "visual": "unverified"
+  },
+  "created_at": "2026-09-29T04:44:00.129425+00:00",
+  "files": {
+    "icon.svg": {
+      "bytes": 159582,
+      "sha256": "451df82f281678f55c2f222d277b611927684bd444b9b119e0b3c38ce28a546b"
+    },
+    "metadata.json": {
+      "bytes": 1500,
+      "sha256": "e4da17f7a4ec26e656f6202337fe2da724f4675642ea3ceb43923f694a5f6fc8"
+    },
+    "prompt.md": {
+      "bytes": 855,
+      "sha256": "1718d196b59f80fb23c1162949556fbd349f3ad45a3590f679c9915afdc3593b"
+    }
+  },
+  "parent": "r001",
+  "parent_manifest_sha256": "4fb7adf1e8736157f86c1b618a1da2f4cf6b5a496dd72edfd44d5a11ae943250",
+  "profile": "short",
+  "revision": "r002",
+  "round_id": "r1-calibration",
+  "schema": "aikon.direct-svg.revision.v1",
+  "user_acceptance": "unassessed",
+  "visual_review": "not_run"
+}

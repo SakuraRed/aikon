@@ -13,13 +13,14 @@ import numpy as np
 from PIL import Image,ImageDraw
 from tools.compare_r1_reference import REGION_BOXES, compare_pixels, composite, validate_canvas
 from tools.render_svg import render_svg_text, backend_info
+from tools.source_foreground import exterior_foreground
 
 REFERENCE=ROOT/'ref/subjects/deepseek/cetus-desktop/r1-clean-source-1280.png'
 EXPECTED='60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2'
 
 def sha(data):return hashlib.sha256(data).hexdigest()
 
-def evaluate(candidate,output):
+def evaluate(candidate,output,foreground_method='pixelwise'):
     if sha(REFERENCE.read_bytes())!=EXPECTED:
         raise ValueError('Frozen upstream reference changed')
     if output.exists() and any(output.iterdir()):
@@ -32,16 +33,24 @@ def evaluate(candidate,output):
     pixels=np.asarray(Image.open(io.BytesIO(png)).convert('RGBA'))
     valid=np.ones((1280,1280),dtype=bool)
     subject=(reference[:,:,3]>=128)&(np.max(np.abs(reference[:,:,:3].astype(int)-15),axis=2)>8)
+    if foreground_method=='exterior-connected':
+        subject,_=exterior_foreground(reference)
+    elif foreground_method!='pixelwise':
+        raise ValueError('Unknown reference foreground method')
     regions={}
     for name,(x0,y0,x1,y1) in REGION_BOXES.items():
         mask=np.zeros_like(valid);mask[y0:y1,x0:x1]=True;regions[name]=mask
     report=compare_pixels(reference,pixels,{'valid':valid,'subject':subject,'regions':regions})
-    report.update({'schema':'aikon.r1-upstream-comparison.v4','reference_sha256':EXPECTED,
+    report.update({'schema':'aikon.r1-upstream-comparison.v5' if foreground_method=='exterior-connected' else 'aikon.r1-upstream-comparison.v4','reference_sha256':EXPECTED,
                    'reference_contract':'ref/subjects/deepseek/cetus-desktop/reference-contract-v4.json',
                    'candidate_svg_sha256':sha(raw),'render_png_sha256':sha(png),'backend':backend_info(),
                    'watermark_exclusion':None,'alignment':'none; unchanged1280 canvas',
                    'source_attribution':'AvroraCL/CETUS-Desktop at7f14ea7819dfb025bafce2f0d088e4901aefead6',
                    'normalization_note':'Uniform4096-to1280 upstream RGBA only; original user r1 untouched'})
+    report['source_foreground_method']=foreground_method
+    report['source_foreground_mask_sha256']=sha(subject.tobytes())
+    report['source_foreground_limit']='Known uniform charcoal backdrop; connectivity keeps enclosed dark eye pixels in the subject. Ambiguous foreground matching connected backdrop is not recovered.' if foreground_method=='exterior-connected' else 'Historical pixelwise proxy; can create false interior holes at dark eye rims.'
+    Image.fromarray(subject.astype('uint8')*255).save(output/'source-foreground-mask.png')
     (output/'candidate-render.png').write_bytes(png)
     ref_rgb,candidate_rgb=composite(reference),composite(pixels)
     diff=np.clip(np.abs(ref_rgb-candidate_rgb)*4,0,255)
@@ -58,4 +67,5 @@ def evaluate(candidate,output):
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--candidate',type=Path,required=True);parser.add_argument('--output',type=Path,required=True)
-    args=parser.parse_args();evaluate(args.candidate,args.output)
+    parser.add_argument('--foreground-method',choices=('pixelwise','exterior-connected'),default='pixelwise')
+    args=parser.parse_args();evaluate(args.candidate,args.output,args.foreground_method)

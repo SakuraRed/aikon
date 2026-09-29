@@ -1,0 +1,20 @@
+{
+  "schema": "aikon.source-foreground.v5",
+  "source_sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+  "canvas": [
+    1280,
+    1280
+  ],
+  "background": [
+    15,
+    15,
+    15
+  ],
+  "color_tolerance": 8,
+  "alpha_threshold": 128,
+  "connectivity": 8,
+  "seeds": "eligible canvas-border pixels",
+  "alignment": "none",
+  "watermark_exclusion": null,
+  "acceptance": "not_assessed"
+}

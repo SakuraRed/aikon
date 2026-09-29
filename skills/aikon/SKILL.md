@@ -5,7 +5,7 @@ description: 从概念、名称、图片、wiki 或其他资料研究主体并�
 
 # Aikon
 
-**当前验证状态：实验中。** 最新六张候选已全部被用户拒绝，眼形、仰头、身份特征及取景尚未校准。分别记录geometry、paint与最终验收，不能将其中一项通过扩写为整张合格；检测器正负例通过也不代表候选被接受。先按[单例校准](references/calibration.md)验证，再扩展批量。
+**当前验证状态：实验中。** round-002的六张候选被用户拒绝；后续单例校准尚未获用户接受，也未证明跨模型达到同等效果。分别记录geometry、paint与最终验收，不能将其中一项通过扩写为整张合格；检测器正负例通过也不代表候选被接受。先按[单例校准](references/calibration.md)验证，再扩展批量。
 
 通过资料研究、原生问答与视觉反馈，将主体转成 Grok bot style 图标。交付真实矢量 SVG，默认透明背景；除非用户特别要求，输出不含任何水印。PNG 预览仅是检查证据，不替代 SVG。
 
@@ -48,6 +48,8 @@ Create flat vector geometry. Raster tracing or a generated concept image may inf
 当前按[自然光泽与双版差异](references/natural-gloss-v2.md)绘制：用真实主体几何、连续linear/radial色场和顺形光泽，同时保持[反模式约束](references/paint-antipatterns.md)。short/full必须有实际构图或形状分组差异。旧[平色上色器](references/paint-plan.md)只是受限子集，不能为了通过它而禁掉参考里的自然眼部/头发gloss。分别先保存实际prompt，再写SVG/源码和渲染证据。
 
 Run available structural checks, then render and inspect using [visual validation](references/validation.md). Show actual previews and link the matching SVGs. Ask the user to choose or describe the missing quality. Seeing a filename, XML, or an evaluator score is not visual verification.
+
+For directly authored SVG, use the optional standard-library [SVG archive helper](references/direct-svg-archive.md) to check the supported static subset and save the actual SVG, prompt and provenance without changing their bytes. It supports local gradients and clips; it does not render, assess style or claim acceptance. Use the user's already chosen storage root.
 
 ## Revise and finish
 

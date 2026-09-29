@@ -1,0 +1,17 @@
+{
+  "isolated_python": true,
+  "copied_script_only": true,
+  "exit_code": 0,
+  "result": {
+    "checks": {
+      "raster_alpha": "unverified",
+      "structural": "passed",
+      "visual": "unverified"
+    },
+    "issues": [],
+    "ok": true,
+    "schema": "aikon.direct-svg.check.v1",
+    "user_acceptance": "unassessed"
+  },
+  "stderr": ""
+}

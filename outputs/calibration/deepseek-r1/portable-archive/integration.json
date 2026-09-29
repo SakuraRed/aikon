@@ -1,0 +1,42 @@
+[
+  {
+    "source_revision": "v006",
+    "archive_revision": "r001",
+    "parent": null,
+    "exact_byte_hash_matches": {
+      "icon.svg": true,
+      "prompt.md": true,
+      "metadata.json": true
+    },
+    "helper_result": {
+      "checks": {
+        "raster_alpha": "unverified",
+        "structural": "passed",
+        "visual": "unverified"
+      },
+      "ok": true,
+      "revision_path": "E:\\GH\\aikon\\outputs\\calibration\\deepseek-r1\\portable-archive\\short\\revisions\\r001",
+      "user_acceptance": "unassessed"
+    }
+  },
+  {
+    "source_revision": "v007",
+    "archive_revision": "r002",
+    "parent": "r001",
+    "exact_byte_hash_matches": {
+      "icon.svg": true,
+      "prompt.md": true,
+      "metadata.json": true
+    },
+    "helper_result": {
+      "checks": {
+        "raster_alpha": "unverified",
+        "structural": "passed",
+        "visual": "unverified"
+      },
+      "ok": true,
+      "revision_path": "E:\\GH\\aikon\\outputs\\calibration\\deepseek-r1\\portable-archive\\short\\revisions\\r002",
+      "user_acceptance": "unassessed"
+    }
+  }
+]
