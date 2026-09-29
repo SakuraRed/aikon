@@ -1,0 +1,32 @@
+{
+  "original_semantic_geometry_unchanged": true,
+  "original_ids_verified": 61,
+  "changes": [
+    "One nonzero exact polygon-union clip for mask; opaque support underneath unchanged original panel paths."
+  ],
+  "background_added": false,
+  "branch": "masked",
+  "profile": "short",
+  "revision": "r005",
+  "parent": "r004",
+  "before_sha256": "ad1aaaeaacb973060fcd310410051686994d8039a9d8a9935b786fcdc5039244",
+  "svg_sha256": "4c6790e08126f6335ea3ba22e3e3d9512e1efd7782d11dfc1f2f949de2bcc5ba",
+  "renderer": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "user_acceptance": "unassessed",
+  "reference_similarity_99": "not_assessed",
+  "alpha_identical_1280": true,
+  "changed_rgba_pixels_1280": 1588,
+  "edge_before": {
+    "status": "fail",
+    "largest_cluster": 11
+  },
+  "edge_after": {
+    "status": "no_rule_failure",
+    "largest_cluster": 2,
+    "issues": []
+  }
+}

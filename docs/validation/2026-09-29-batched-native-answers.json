@@ -1,0 +1,30 @@
+{
+  "schema": "aikon.user-decisions.v1",
+  "recorded_date": "2026-09-29",
+  "source": "Actual batched request_user_input result in this chat; event timestamp was not supplied by the tool.",
+  "jev": {
+    "model": "jev-1.13.0",
+    "answered_at_utc": "2026-09-29T07:12:51.251552+00:00",
+    "request_sha256": "af7b0432aca52d6e2f4da7b06d10ee35fc3881c5c19d8a1081d9674688f6af82",
+    "probabilities": {
+      "r1_acceptance": {"explicit_numeric_contract": 0.48, "visual_near_identity": 0.52},
+      "deepseek_full_clothing": {"documented_creative_extension": 0.66, "establish_outfit_reference_first": 0.34}
+    },
+    "scope": "Conditional option fit; neither user answers nor artistic acceptance are derived from these probabilities."
+  },
+  "tool_result": {
+    "answers": {
+      "deepseek_full_clothing": {"answers": ["先固定服饰参考"]},
+      "r1_acceptance": {"answers": ["明确数值门槛 (Recommended)"]}
+    }
+  },
+  "decisions": {
+    "r1_acceptance": {"status": "answered", "choice": "explicit_numeric_contract", "thresholds": "not_yet_agreed"},
+    "deepseek_full_clothing": {"status": "answered", "choice": "establish_outfit_reference_first", "outfit_reference": "not_yet_selected"}
+  },
+  "interaction_preference": {
+    "user_quote": "之后请优先使用合并发送提问，并尽可能延长提问超时时间，最好是完全阻塞，而不是逐题发送",
+    "behavior": "Batch all currently independent material questions, up to3 per exposed native schema; do not re-poll answered choices or manufacture extra questions. Call the blocking native tool directly without an agent deadline. Current schema has no wait-duration setting; do not claim the host timeout is disabled."
+  },
+  "visual_acceptance": "unassessed"
+}

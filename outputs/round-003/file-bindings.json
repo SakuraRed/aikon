@@ -1,0 +1,78 @@
+{
+  "schema": "aikon.round-file-bindings.v1",
+  "round": "round-003",
+  "background": "transparent",
+  "records": [
+    {
+      "file": "deepseek/short.svg",
+      "svg_file_sha256": "9eac3fb0d179f4a935ba8810bf6dd7559eafc954f7b7433ec8802d1adcbf0b1d",
+      "svg_lf_text_sha256": "9eac3fb0d179f4a935ba8810bf6dd7559eafc954f7b7433ec8802d1adcbf0b1d",
+      "crlf_pairs": 0,
+      "visual_acceptance": "unassessed"
+    },
+    {
+      "file": "deepseek/full.svg",
+      "svg_file_sha256": "ff3197cd7d083ff4e8a697bf5e3437bf4af7600259ce3276ba638928c1dc950d",
+      "svg_lf_text_sha256": "ff3197cd7d083ff4e8a697bf5e3437bf4af7600259ce3276ba638928c1dc950d",
+      "crlf_pairs": 0,
+      "visual_acceptance": "unassessed"
+    },
+    {
+      "file": "endministrator-female/unmasked/short.svg",
+      "svg_file_sha256": "cc349f32761b634f7c1a120f7e4b8653de591863ad2f8bf7fcfeb52dc2ed7c8b",
+      "svg_lf_text_sha256": "969d0cc7551c1ff55e980fd2690a3dc6b1ca05e7a7d63be0506880a97a735e85",
+      "crlf_pairs": 1,
+      "visual_acceptance": "unassessed"
+    },
+    {
+      "file": "endministrator-female/unmasked/full.svg",
+      "svg_file_sha256": "cf5749efb2512f70e4bb6aa11f53d6e7333e09cc17cc0262054f86bdcb07e084",
+      "svg_lf_text_sha256": "65677d780446e2e9d6a99173d0862b5271d4fdb00e58d5b85f73160462607e34",
+      "crlf_pairs": 1,
+      "visual_acceptance": "unassessed"
+    },
+    {
+      "file": "endministrator-female/masked/short.svg",
+      "svg_file_sha256": "f7eb75b7c1a391baf2a2c4c3234b7f0cdd06754c94f0b560f892a05231802af2",
+      "svg_lf_text_sha256": "4c6790e08126f6335ea3ba22e3e3d9512e1efd7782d11dfc1f2f949de2bcc5ba",
+      "crlf_pairs": 1,
+      "visual_acceptance": "unassessed"
+    },
+    {
+      "file": "endministrator-female/masked/full.svg",
+      "svg_file_sha256": "2f601ee518bb90635bfab72467c01436f4e743556ef138aded2b3a102adb36a2",
+      "svg_lf_text_sha256": "2460f7ac589b7a31fd2d24c89ec99faf666a63de7803b159d03869244173cb7b",
+      "crlf_pairs": 1,
+      "visual_acceptance": "unassessed"
+    },
+    {
+      "file": "endministrator-male/unmasked/short.svg",
+      "svg_file_sha256": "5625a79e03e5ceb85faef84496e7ad50da1649d1fa06eeebc7803a9a46d70a27",
+      "svg_lf_text_sha256": "08be2dcb78ba19d67d51d17d75c3f5dba058939db90fbc735e3707a7044f2d09",
+      "crlf_pairs": 1,
+      "visual_acceptance": "unassessed"
+    },
+    {
+      "file": "endministrator-male/unmasked/full.svg",
+      "svg_file_sha256": "3779b9c000938999d4b0e340d7fa4d5568d33bd089ce0ac3f920f25a877e6bf1",
+      "svg_lf_text_sha256": "ca1689c02e84a8724df500ec61f4bb790c091b4ddbf50465c3906af65d1bb318",
+      "crlf_pairs": 1,
+      "visual_acceptance": "unassessed"
+    },
+    {
+      "file": "endministrator-male/masked/short.svg",
+      "svg_file_sha256": "f7c00c1f3e410030f3d2087d18f6d0d47e9d37e49a3ec7394d12a93d3d8a310a",
+      "svg_lf_text_sha256": "e368e0079aa8303dc47c10a36ea04cda70e37ed2082553af5c167b81133693f3",
+      "crlf_pairs": 1,
+      "visual_acceptance": "unassessed"
+    },
+    {
+      "file": "endministrator-male/masked/full.svg",
+      "svg_file_sha256": "9dd03867061985079f9edb8633af3c7b2fe92581cec44a1178c12b613dae80a9",
+      "svg_lf_text_sha256": "7d722bd2b7d187f9a920edd52bf0d3dbd844e56266b24e0fbe9711e8f8554aee",
+      "crlf_pairs": 1,
+      "visual_acceptance": "unassessed"
+    }
+  ],
+  "note": "File hash is over raw bytes. Some older renderer/quality reports use LF-normalized SVG text; these are distinct identifiers, not different drawings. No source was rewritten to force equality."
+}

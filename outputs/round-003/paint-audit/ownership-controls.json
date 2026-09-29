@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "rendered_ids": [
+    "support",
+    "upper"
+  ],
+  "definitions_excluded": true,
+  "draw_order_clip_transform_hole_checks": {
+    "support": {
+      "outside": false,
+      "support_rim": true,
+      "upper_surface": false,
+      "hole_reveals_support": true
+    },
+    "upper": {
+      "outside": false,
+      "support_rim": false,
+      "upper_surface": true,
+      "hole_reveals_support": false
+    }
+  },
+  "alpha_equality": true,
+  "nonopaque_rejected": true,
+  "scope": "ownership extraction mechanics only, not actual candidate masks or artistic acceptance"
+}

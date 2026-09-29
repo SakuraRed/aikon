@@ -1,0 +1,34 @@
+{
+  "round": "round-003",
+  "entity": "endministrator-female",
+  "profile": "full",
+  "branch": "unmasked",
+  "revision": "r002",
+  "parent": "r001",
+  "reference_basis": "official illustration",
+  "user_decision": "both",
+  "user_acceptance": "unassessed",
+  "svg_sha256": "74de4e672f0268c18b5296d17221e21cc11ba3a0aad0bb6f25525584949078f7",
+  "structural_check": "passed",
+  "renderer": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "alpha": {
+    "transparent_pixels": 538204,
+    "opaque_pixels": 1096558,
+    "partial_pixels": 3638,
+    "top_right": 0
+  },
+  "eyes": {
+    "kind": "exact capsule via circular arcs and straight sides",
+    "pair_equal": true,
+    "dimensions": [
+      83,
+      225
+    ]
+  },
+  "visual_review": "pending actual image inspection",
+  "claim_limit": "No 99 percent or user acceptance claim."
+}

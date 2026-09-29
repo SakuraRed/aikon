@@ -1,0 +1,52 @@
+{
+  "round": "round-003",
+  "entity": "endministrator-female",
+  "reference_basis": "official illustration",
+  "user_mask_choice": "both",
+  "decision_evidence": "docs/validation/2026-09-29-live-native-answers.json#female_mask",
+  "sources": {
+    "F02": {
+      "path": "ref/subjects/endministrator/research-female/female-official-full.png",
+      "sha256": "48909c0e98405917915492304e4bc83c91ed965ce6096ce37cb8bcfe0c4ccc02",
+      "actually_viewed": true
+    },
+    "F09": {
+      "path": "ref/subjects/endministrator/research-male/official-profile-b-female-comparison.jpg",
+      "sha256": "ac141c683d81a709f7621494cd4406ebe45ab44d06290cbd84556971461debcd",
+      "actually_viewed": true
+    },
+    "F05": {
+      "path": "ref/subjects/endministrator/research-female/official-gallery-0212.jpg",
+      "sha256": "8395ebb12816a1801ff01a09b1229a970ad6edd06454b1f02bb5689512819c75",
+      "actually_viewed": true
+    },
+    "F06": {
+      "path": "ref/subjects/endministrator/research-male/official-campaign-unmasked-duo.jpg",
+      "sha256": "b018b3e1f657067bc511f66550424761f81332fc94ef87d492c741e763eda0d0",
+      "actually_viewed": true
+    },
+    "F04": {
+      "path": "ref/subjects/endministrator/research-female/suppressor-official-front.jpg",
+      "sha256": "46078043c685987cb42e8af74657c760295be9fa8075090afdf8d71abbf66357",
+      "actually_viewed": true
+    },
+    "style-r1": {
+      "path": "ref/user-mode/r1-working.png",
+      "sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+      "actually_viewed": true
+    },
+    "style-r2": {
+      "path": "ref/user-mode/r2.png",
+      "sha256": "df7c5fd4350997613a23dfdf454cf5aa350eb94f69f4557123ace241e8db25b2",
+      "actually_viewed": true
+    }
+  },
+  "unproven": [
+    "current game 3D exact colors",
+    "hidden clip mechanics",
+    "unique 3D pitch angle",
+    "user acceptance",
+    "99 percent similarity"
+  ],
+  "source_license": "APG / @multi_serio_ai prompt translations: CC BY-NC 4.0; third-party reference images private research only"
+}

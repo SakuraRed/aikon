@@ -1,0 +1,9 @@
+# Actual prompt — supervised independent revision
+
+Create a materially closer editable SVG reconstruction of the user-bound DeepSeek r1 reference, beginning only with the permitted independent-consumer-round2 short.svg and draw.py. This is a supervised revision experiment, not a new blind consumer test. The raw image is both the subject and style reference.
+
+Reference: ref/subjects/deepseek/cetus-desktop/r1-clean-source-1280.png. Baseline: outputs/calibration/deepseek-r1/independent-consumer-round2/short.svg. Preserve a transparent output, portrait projection, semantic editing, finite broad material regions, and integrated dark capsule eyes. Use raw reference semantic masks and measured boundaries to correct the largest shape errors; fit continuous analytic material gradients to observed interior samples. Do not use palette-quantized fragments, pixel tiles, embedded images, filters, noise, or local image warps. Do not consult master calibration v001-v007 geometry, paints or answer sources. Compare to the original canvas without moving, cropping, changing scoring masks or exclusions.
+
+Write only this new round3 folder. Save every actually generated candidate as r001, then at most one evidence-based r002 revision. Deliver short.svg, matching 1280/128/48/24 PNGs, source code, actual prompt, read log, measured evidence, and unresolved limitations. The parent will perform independent frozen-comparator acceptance; generation or structural validity is not user acceptance. This request repairs only the existing short calibration candidate and does not introduce a new subject/profile round.
+
+Execution: local installed Python/Pillow/numpy/scipy and the existing generic SVG renderer only; no installation, network or Git mutation. Each generation command has a 45 second hard stop. First inspect both the actual source image and existing candidate, then measure and edit.

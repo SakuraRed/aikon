@@ -1,0 +1,32 @@
+{
+  "original_semantic_geometry_unchanged": true,
+  "original_ids_verified": 85,
+  "changes": [
+    "Original right-collar face clips an opaque local support and unchanged face/fold paints once."
+  ],
+  "background_added": false,
+  "branch": "unmasked",
+  "profile": "full",
+  "revision": "r005",
+  "parent": "r004",
+  "before_sha256": "a70fdd6b9c12e70f97a46e5e3fdea2499416c56883720927950300bb55e54f00",
+  "svg_sha256": "65677d780446e2e9d6a99173d0862b5271d4fdb00e58d5b85f73160462607e34",
+  "renderer": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "user_acceptance": "unassessed",
+  "reference_similarity_99": "not_assessed",
+  "alpha_identical_1280": true,
+  "changed_rgba_pixels_1280": 334,
+  "edge_before": {
+    "status": "fail",
+    "largest_cluster": 6
+  },
+  "edge_after": {
+    "status": "no_rule_failure",
+    "largest_cluster": 1,
+    "issues": []
+  }
+}

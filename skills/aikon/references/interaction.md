@@ -23,6 +23,8 @@ Do not re-ask the default eye grammar, crop direction, or background on every jo
 
 Present two or three clear alternatives when they cover the decision, with the recommended choice first and a concrete cost for each. Respect the host's own option and batch limits. Shared facts can support a batch; dependent questions wait for the preceding answer.
 
+Prefer one batch containing all currently independent material questions, up to the actual tool's capacity, when the user wants efficient collection. Do not split a supported batch merely to ask one question at a time, re-poll settled choices, or invent questions to fill the limit. With a blocking native tool, call it directly without an Agent-side deadline for human answers. If no wait-duration parameter exists, do not invent one or claim the host's own timeout is disabled. A display failure is not a preference; preserve the exact result and resume unanswered items when the user requests it.
+
 ## Probability and answer provenance
 
 Recommendations normally use observed facts and tradeoffs. If an optional judgment service is available and authorized, attach its actual conditional probability to the matching option ID and disclose the question being judged. Mark unscored options as unscored. A score or confidence value is not a success probability.

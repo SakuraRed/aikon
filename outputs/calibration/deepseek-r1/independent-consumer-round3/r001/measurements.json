@@ -1,0 +1,743 @@
+{
+  "experiment": "supervised independent repair",
+  "baseline_sha256": "a886b644b2d9bd593ba2a8155edd429b5445d6e24992e14855feef9d305094dd",
+  "reference_sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+  "svg_sha256": "153fd392bc52cf34c78c37d6c2fc3fcdab91c30ed1fa67631bb74c984ec93ce8",
+  "backend": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "geometry": {
+    "rear-hair": {
+      "fitted_cubic_segments": 5,
+      "exposed_samples": 86,
+      "edge_distance_before": 3.342448662060528,
+      "fit_residual": 1.5474248016398682
+    },
+    "rear-frill-support": {
+      "fitted_cubic_segments": 4,
+      "exposed_samples": 62,
+      "edge_distance_before": 0.9291712061523573,
+      "fit_residual": 0.7449163478625609
+    },
+    "rear-frill-light": {
+      "fitted_cubic_segments": 3,
+      "exposed_samples": 88,
+      "edge_distance_before": 1.3721451392666768,
+      "fit_residual": 0.8756117254501334
+    },
+    "rear-frill-center": {
+      "fitted_cubic_segments": 3,
+      "exposed_samples": 102,
+      "edge_distance_before": 2.652340637365602,
+      "fit_residual": 2.259925213212687
+    },
+    "rear-frill-end": {
+      "fitted_cubic_segments": 2,
+      "exposed_samples": 68,
+      "edge_distance_before": 0.7228255547598321,
+      "fit_residual": 0.6886211840595297
+    },
+    "headband-fold-parent": {
+      "fitted_cubic_segments": 9,
+      "exposed_samples": 205,
+      "edge_distance_before": 0.4669303727351527,
+      "fit_residual": 0.39479842799826936
+    },
+    "frill-left": {
+      "fitted_cubic_segments": 4,
+      "exposed_samples": 132,
+      "edge_distance_before": 1.2894292995961336,
+      "fit_residual": 1.0000058607187579
+    },
+    "frill-center": {
+      "fitted_cubic_segments": 4,
+      "exposed_samples": 134,
+      "edge_distance_before": 0.5053892058880679,
+      "fit_residual": 0.4389137701699387
+    },
+    "frill-center-right": {
+      "fitted_cubic_segments": 2,
+      "exposed_samples": 49,
+      "edge_distance_before": 0.41332999349005106,
+      "fit_residual": 0.37465127231168416
+    },
+    "frill-upper-right": {
+      "fitted_cubic_segments": 4,
+      "exposed_samples": 128,
+      "edge_distance_before": 0.8276882239629971,
+      "fit_residual": 0.6008747308426183
+    },
+    "frill-mid-right": {
+      "fitted_cubic_segments": 4,
+      "exposed_samples": 127,
+      "edge_distance_before": 0.4756820227842379,
+      "fit_residual": 0.41345067683841824
+    },
+    "frill-side": {
+      "fitted_cubic_segments": 4,
+      "exposed_samples": 130,
+      "edge_distance_before": 0.49587546913014385,
+      "fit_residual": 0.3790183477248533
+    },
+    "frill-side-bottom": {
+      "fitted_cubic_segments": 2,
+      "exposed_samples": 68,
+      "edge_distance_before": 0.5009960943406171,
+      "fit_residual": 0.4739494048705621
+    },
+    "hair-crown-parent": {
+      "fitted_cubic_segments": 21,
+      "exposed_samples": 482,
+      "edge_distance_before": 1.341874402207548,
+      "fit_residual": 0.830464017629082
+    },
+    "left-sweep": {
+      "fitted_cubic_segments": 7,
+      "exposed_samples": 182,
+      "edge_distance_before": 3.6172433929248657,
+      "fit_residual": 1.8896606881769242
+    },
+    "center-fringe": {
+      "fitted_cubic_segments": 10,
+      "exposed_samples": 309,
+      "edge_distance_before": 1.722533207168972,
+      "fit_residual": 0.8865987934795555
+    },
+    "right-inner-fringe": {
+      "fitted_cubic_segments": 3,
+      "exposed_samples": 80,
+      "edge_distance_before": 1.985204901460968,
+      "fit_residual": 1.6534891816234663
+    },
+    "right-main-lock": {
+      "fitted_cubic_segments": 12,
+      "exposed_samples": 347,
+      "edge_distance_before": 3.7072488563079977,
+      "fit_residual": 2.2028987182272237
+    },
+    "identity-crescent": {
+      "fitted_cubic_segments": 6,
+      "exposed_samples": 204,
+      "edge_distance_before": 0.4234197466891702,
+      "fit_residual": 0.405103333057735
+    },
+    "bow-left": {
+      "fitted_cubic_segments": 3,
+      "exposed_samples": 92,
+      "edge_distance_before": 0.48754672241541525,
+      "fit_residual": 0.4711434729629995
+    },
+    "bow-right": {
+      "fitted_cubic_segments": 4,
+      "exposed_samples": 110,
+      "edge_distance_before": 0.6473832757117384,
+      "fit_residual": 0.5289519464108612
+    }
+  },
+  "paint": {
+    "rear-hair": {
+      "samples": 2583,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 2.6089478973180777,
+      "range": [
+        "#1c1f53",
+        "#141b49",
+        "#243065",
+        "#32417c",
+        "#30417e",
+        "#304890"
+      ],
+      "direction": [
+        0.06740441268988413,
+        0.9977257364375902
+      ]
+    },
+    "rear-frill-light": {
+      "samples": 2962,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 1.612996166363883,
+      "range": [
+        "#a7a8cd",
+        "#acabcf",
+        "#b0afd2",
+        "#b4b3d3",
+        "#b7b6d6",
+        "#bfbfdc"
+      ],
+      "direction": [
+        -0.31651322553702144,
+        0.9485880971528952
+      ]
+    },
+    "rear-frill-center": {
+      "samples": 3647,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 1.7089128657199102,
+      "range": [
+        "#acacd0",
+        "#bebdd9",
+        "#c0bfda",
+        "#c1c0db",
+        "#c3c2dd",
+        "#c7c6e0"
+      ],
+      "direction": [
+        -0.572236026663605,
+        0.8200889767508461
+      ]
+    },
+    "rear-frill-end": {
+      "samples": 1180,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.6332814191628293,
+      "range": [
+        "#babad8",
+        "#babad8",
+        "#babad9",
+        "#bbbad9",
+        "#bbbbd9",
+        "#bbbbd9"
+      ],
+      "direction": [
+        -0.13503206775044344,
+        -0.9908412287945226
+      ]
+    },
+    "rear-lower-flow": {
+      "samples": 2907,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 1.3971193262760317,
+      "range": [
+        "#2f4488",
+        "#364d94",
+        "#384e97",
+        "#425aa5",
+        "#435da9",
+        "#455fab"
+      ],
+      "direction": [
+        0.5744780842140339,
+        0.8185199635670307
+      ]
+    },
+    "rear-lower-cut": {
+      "samples": 4768,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.5794373259426508,
+      "range": [
+        "#4256a0",
+        "#4257a1",
+        "#4359a5",
+        "#445da9",
+        "#4660ad",
+        "#4862af"
+      ],
+      "direction": [
+        -0.2327428739653061,
+        0.9725383049620049
+      ]
+    },
+    "headband-fold-parent": {
+      "samples": 2962,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 1.9882039635839122,
+      "range": [
+        "#cecce5",
+        "#d4d1e5",
+        "#d0cde5",
+        "#d1cfe5",
+        "#d6d4e6",
+        "#cecbe4"
+      ],
+      "direction": [
+        0.22678001973604411,
+        -0.9739460060231878
+      ]
+    },
+    "frill-left": {
+      "samples": 3502,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 1.127711294487049,
+      "range": [
+        "#f8f5fa",
+        "#f7f3f8",
+        "#f8f4f8",
+        "#f8f4f8",
+        "#fbf8fb",
+        "#ffffff"
+      ],
+      "direction": [
+        -0.25985936174038665,
+        -0.9656464736723677
+      ]
+    },
+    "frill-center": {
+      "samples": 2539,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 1.2796461795620113,
+      "range": [
+        "#faf6f9",
+        "#fbf8fa",
+        "#fbf7f9",
+        "#fbf7fa",
+        "#fcfafc",
+        "#ffffff"
+      ],
+      "direction": [
+        -0.17743814196269228,
+        -0.9841319554698077
+      ]
+    },
+    "frill-center-right": {
+      "samples": 3648,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.658390421401187,
+      "range": [
+        "#f8f5f9",
+        "#f9f4f8",
+        "#faf5f9",
+        "#faf5f9",
+        "#fbf7fa",
+        "#fefdff"
+      ],
+      "direction": [
+        0.5570521107487156,
+        -0.8304775408825941
+      ]
+    },
+    "frill-upper-right": {
+      "samples": 2566,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 1.167051258523211,
+      "range": [
+        "#f7f4f7",
+        "#faf5f8",
+        "#fbf7fa",
+        "#fbf7fa",
+        "#fcf8fa",
+        "#fcfbfd"
+      ],
+      "direction": [
+        -0.3879577063848844,
+        -0.9216771767037415
+      ]
+    },
+    "frill-mid-right": {
+      "samples": 2646,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 1.041391320780072,
+      "range": [
+        "#faf5fa",
+        "#faf5f8",
+        "#fbf7f9",
+        "#fbf7fa",
+        "#fbf7f9",
+        "#fdf9fc"
+      ],
+      "direction": [
+        0.6257797102727757,
+        -0.7799998424428822
+      ]
+    },
+    "frill-side": {
+      "samples": 2951,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 1.0568821714365424,
+      "range": [
+        "#fbf6fb",
+        "#faf5f9",
+        "#fbf7f9",
+        "#fbf7f9",
+        "#fbf7f9",
+        "#fdfbfd"
+      ],
+      "direction": [
+        0.9523633444051811,
+        -0.30496567058175356
+      ]
+    },
+    "frill-side-bottom": {
+      "samples": 2986,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.6009955294024243,
+      "range": [
+        "#f6f1f7",
+        "#f7f3f8",
+        "#f9f5f8",
+        "#faf6f9",
+        "#f9f5f8",
+        "#f7f3f8"
+      ],
+      "direction": [
+        -0.6735863386265022,
+        -0.7391085471131715
+      ]
+    },
+    "face-parent": {
+      "samples": 2499,
+      "model": "linear base plus elliptical white illumination",
+      "fit_mae": 0.8587473331925043,
+      "parameters": [
+        254.99999999999997,
+        244.07541564473726,
+        227.6876961137702,
+        251.42411627600057,
+        236.22948611659092,
+        229.32951496572753,
+        0.3206349020988509,
+        0.7204695007270879,
+        0.29307134360587084,
+        0.3002896961618491,
+        1.4054007272356688
+      ]
+    },
+    "hair-crown-parent": {
+      "samples": 2669,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 2.7145409827359286,
+      "range": [
+        "#38498c",
+        "#3e5199",
+        "#2d3c81",
+        "#20327a",
+        "#3a4e9c",
+        "#5473bb"
+      ],
+      "direction": [
+        -0.021713109969223588,
+        0.9997642426369651
+      ]
+    },
+    "left-sweep": {
+      "samples": 2542,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 1.6871219229092493,
+      "range": [
+        "#3c4c92",
+        "#4258a2",
+        "#4761ae",
+        "#5979bd",
+        "#6b92d3",
+        "#6a92d3"
+      ],
+      "direction": [
+        0.000710880523415137,
+        0.9999997473244088
+      ]
+    },
+    "left-sweep-fold": {
+      "samples": 4234,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.4217672397374644,
+      "range": [
+        "#354c93",
+        "#3a4d94",
+        "#3d5198",
+        "#4159a2",
+        "#4861ac",
+        "#4e69b4"
+      ],
+      "direction": [
+        -0.42721794785952594,
+        0.9041486741828997
+      ]
+    },
+    "left-sweep-deep-fold": {
+      "samples": 440,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 2.4181729700504313,
+      "range": [
+        "#182671",
+        "#283a7f",
+        "#314081",
+        "#313f83",
+        "#324083",
+        "#2f4082"
+      ],
+      "direction": [
+        -0.2846311689639195,
+        -0.9586371042549068
+      ]
+    },
+    "center-fringe": {
+      "samples": 2510,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.8880146860147525,
+      "range": [
+        "#45559d",
+        "#465ba4",
+        "#4862af",
+        "#526cb6",
+        "#6986ca",
+        "#7794d8"
+      ],
+      "direction": [
+        -0.30854741955551784,
+        0.9512089622609909
+      ]
+    },
+    "right-inner-fringe": {
+      "samples": 2553,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.6076372960771468,
+      "range": [
+        "#465daa",
+        "#4760ad",
+        "#4c65af",
+        "#5670b8",
+        "#607dc1",
+        "#6b89cd"
+      ],
+      "direction": [
+        -0.5194117055626397,
+        0.8545241249517241
+      ]
+    },
+    "right-inner-fold": {
+      "samples": 1183,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.9040569719863216,
+      "range": [
+        "#3b5099",
+        "#3e529c",
+        "#4256a1",
+        "#445ca7",
+        "#4661ab",
+        "#4a65b0"
+      ],
+      "direction": [
+        -0.9155945137520725,
+        0.40210283061314805
+      ]
+    },
+    "right-main-lock": {
+      "samples": 2503,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 2.4625030420931915,
+      "range": [
+        "#3d4d93",
+        "#4156a1",
+        "#4a63af",
+        "#5c7ac0",
+        "#698fcd",
+        "#6389c7"
+      ],
+      "direction": [
+        -0.6547627348297903,
+        0.755834479947967
+      ]
+    },
+    "right-lock-fold": {
+      "samples": 880,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.46834200510229174,
+      "range": [
+        "#3c529b",
+        "#40569f",
+        "#4359a4",
+        "#435ba6",
+        "#435ba6",
+        "#425ca7"
+      ],
+      "direction": [
+        -0.9991475532636622,
+        0.04128155529091754
+      ]
+    },
+    "identity-crescent": {
+      "samples": 2514,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.65523594488173,
+      "range": [
+        "#4356a0",
+        "#4356a3",
+        "#4357a4",
+        "#4458a4",
+        "#4458a5",
+        "#4558a5"
+      ],
+      "direction": [
+        0.6849111012508204,
+        0.728626641966507
+      ]
+    },
+    "bow-left-shadow": {
+      "samples": 238,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 3.1833962743610713,
+      "range": [
+        "#3e63b0",
+        "#3d5fac",
+        "#3e5fac",
+        "#456abc",
+        "#4267b9",
+        "#4367b9"
+      ],
+      "direction": [
+        0.1572082798283042,
+        0.9875654696036237
+      ]
+    },
+    "bow-left": {
+      "samples": 3170,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.5185668359206944,
+      "range": [
+        "#608dd5",
+        "#6491d7",
+        "#6795d9",
+        "#6695d8",
+        "#6594d7",
+        "#6593d7"
+      ],
+      "direction": [
+        -0.19237354894678182,
+        -0.9813217707080693
+      ]
+    },
+    "bow-right-shadow": {
+      "samples": 341,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.46207597986234417,
+      "range": [
+        "#4369b4",
+        "#4167b5",
+        "#4469ba",
+        "#446abb",
+        "#456cbe",
+        "#456ebd"
+      ],
+      "direction": [
+        0.6226896274339984,
+        0.7824689309398223
+      ]
+    },
+    "bow-right": {
+      "samples": 3258,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.5848714935104727,
+      "range": [
+        "#5f8cd4",
+        "#608ed6",
+        "#6391d7",
+        "#6594d8",
+        "#6796d9",
+        "#6695d8"
+      ],
+      "direction": [
+        -0.228788585088465,
+        -0.9734761339309855
+      ]
+    },
+    "bow-knot": {
+      "samples": 339,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 2.4325151395296682,
+      "range": [
+        "#507cc6",
+        "#6696dc",
+        "#6190d6",
+        "#6392d8",
+        "#6392d7",
+        "#6192d9"
+      ],
+      "direction": [
+        -0.3358400109137923,
+        -0.9419190448597075
+      ]
+    },
+    "bow-right-crease": {
+      "samples": 82,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.2425139730532915,
+      "range": [
+        "#4973c1",
+        "#4a74c2",
+        "#4a73c2",
+        "#4b74c2",
+        "#4b74c2",
+        "#4b75c3"
+      ],
+      "direction": [
+        -0.494447992373976,
+        0.8692072151318951
+      ]
+    },
+    "eye-left": {
+      "samples": 2539,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.5473994046024444,
+      "range": [
+        "#202540",
+        "#1f253f",
+        "#1f243d",
+        "#1f253e",
+        "#202641",
+        "#222844"
+      ],
+      "direction": [
+        0.8324820765895684,
+        -0.5540519760429701
+      ]
+    },
+    "eye-right": {
+      "samples": 2770,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.4284314764898316,
+      "range": [
+        "#1f253f",
+        "#1f253e",
+        "#1f253e",
+        "#20253e",
+        "#202640",
+        "#212743"
+      ],
+      "direction": [
+        0.8059267617918296,
+        -0.5920152486446065
+      ]
+    },
+    "cheek-left": {
+      "samples": 3080,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.3907604587152435,
+      "range": [
+        "#fdd8d4",
+        "#fdd8d5",
+        "#fed7d4",
+        "#fed7d5",
+        "#fed8d6",
+        "#fed9d6"
+      ],
+      "direction": [
+        -0.44226090037565696,
+        0.8968864454315905
+      ]
+    },
+    "cheek-right": {
+      "samples": 2635,
+      "model": "continuous six-stop linear field",
+      "fit_mae": 0.550797679921268,
+      "range": [
+        "#fdd6d4",
+        "#fdd6d3",
+        "#fed6d3",
+        "#fdd6d4",
+        "#fdd7d5",
+        "#fdd7d6"
+      ],
+      "direction": [
+        -0.7226495654730307,
+        -0.6912145871736505
+      ]
+    }
+  },
+  "diagnostic_only": {
+    "mask": "source maxRGB>30 and alpha>200, no exclusions; not frozen comparator",
+    "MAE": 3.2340874534935264,
+    "RMSE": 14.521223263464933
+  },
+  "acceptance": "unassessed"
+}

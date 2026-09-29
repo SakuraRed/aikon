@@ -12,12 +12,14 @@ on:
       - 'tests/**'
       - 'docs/validation/paint-fields/**'
       - 'docs/validation/quality-v3/artwork-verdicts.json'
+      - 'docs/validation/r1-numeric-contract-b.json'
       - 'docs/validation/edges-v3/run_audit.py'
       - 'docs/validation/edges-v3/fixtures/**'
       - 'docs/validation/edges-v3/positive-calibration/summary.json'
       - 'ref/**'
       - 'outputs/calibration/illustration/*-imagegen-*.png'
       - 'outputs/fixtures/**/round-002/**'
+      - 'outputs/round-003/deepseek/short.svg'
   push:
     branches: [main]
     paths:
@@ -29,12 +31,14 @@ on:
       - 'tests/**'
       - 'docs/validation/paint-fields/**'
       - 'docs/validation/quality-v3/artwork-verdicts.json'
+      - 'docs/validation/r1-numeric-contract-b.json'
       - 'docs/validation/edges-v3/run_audit.py'
       - 'docs/validation/edges-v3/fixtures/**'
       - 'docs/validation/edges-v3/positive-calibration/summary.json'
       - 'ref/**'
       - 'outputs/calibration/illustration/*-imagegen-*.png'
       - 'outputs/fixtures/**/round-002/**'
+      - 'outputs/round-003/deepseek/short.svg'
 
 permissions:
   contents: read
@@ -80,6 +84,15 @@ jobs:
         # Each entrypoint supervises its own bounded worker/process tree.
         # Control success never accepts the user-rejected round-002 artwork.
         run: python -B tools/run_image_quality.py --mode audit --output .local/quality
+      - name: Gate current R1 short against the user-selected B contract
+        if: ${{ !cancelled() && steps.dependencies.outcome == 'success' }}
+        timeout-minutes: 1
+        # A numerical failure is a real artwork gate failure, not an evaluator
+        # failure or user rejection. Background RGB is excluded; alpha is tested.
+        run: >-
+          python -B tools/r1_numeric_contract.py
+          --candidate outputs/round-003/deepseek/short.svg
+          --output .local/quality/current-r1-contract-b
       - name: Keep visual evidence even after failure
         id: evidence_artifact
         timeout-minutes: 2

@@ -1,0 +1,7 @@
+{
+  "base_sha256": "741eb90c1b1c4823d75ea7ba9bffc0e2d7c36b182ef81159e148a12ae19e36e7",
+  "svg_sha256": "ff3197cd7d083ff4e8a697bf5e3437bf4af7600259ce3276ba638928c1dc950d",
+  "original_d_unchanged": true,
+  "material_gradients_unchanged": true,
+  "purpose": "shared opaque head support across hair/face joint, fixed edge gate"
+}

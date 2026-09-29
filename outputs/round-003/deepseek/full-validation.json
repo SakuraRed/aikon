@@ -1,0 +1,165 @@
+{
+  "revision": "r006",
+  "status": "current draft; not accepted",
+  "promotion_basis": "parent actual visual review; zero interior alpha deficit and lower worst local cluster than r004",
+  "svg_sha256": "ff3197cd7d083ff4e8a697bf5e3437bf4af7600259ce3276ba638928c1dc950d",
+  "short_sha256": "9eac3fb0d179f4a935ba8810bf6dd7559eafc954f7b7433ec8802d1adcbf0b1d",
+  "outfit": "user-selected candidate A; not official r1 clothing evidence",
+  "original_path_d_unchanged_by_edge_repairs": true,
+  "material_gradients_unchanged_by_edge_repairs": true,
+  "edge": {
+    "status": "fail",
+    "source_sha256": "ff3197cd7d083ff4e8a697bf5e3437bf4af7600259ce3276ba638928c1dc950d",
+    "interior_alpha": {
+      "sample_pixels": 34263,
+      "bad_pixels": 0,
+      "max_deficit_0_255": 0.0,
+      "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+    },
+    "local_color": {
+      "large_error_threshold_0_255": 32.0,
+      "join_gap_pixels": 1,
+      "largest_bad_pixel_count": 10,
+      "top_clusters": [
+        {
+          "bad_pixels": 10,
+          "bbox_pixels": [
+            128,
+            69,
+            138,
+            88
+          ],
+          "peak_error_0_255": 59.0
+        },
+        {
+          "bad_pixels": 8,
+          "bbox_pixels": [
+            82,
+            38,
+            98,
+            45
+          ],
+          "peak_error_0_255": 43.8125
+        },
+        {
+          "bad_pixels": 5,
+          "bbox_pixels": [
+            10,
+            36,
+            21,
+            40
+          ],
+          "peak_error_0_255": 39.375
+        },
+        {
+          "bad_pixels": 5,
+          "bbox_pixels": [
+            2,
+            107,
+            3,
+            118
+          ],
+          "peak_error_0_255": 38.5
+        },
+        {
+          "bad_pixels": 5,
+          "bbox_pixels": [
+            35,
+            33,
+            40,
+            34
+          ],
+          "peak_error_0_255": 49.5
+        },
+        {
+          "bad_pixels": 3,
+          "bbox_pixels": [
+            121,
+            148,
+            122,
+            151
+          ],
+          "peak_error_0_255": 41.8125
+        },
+        {
+          "bad_pixels": 3,
+          "bbox_pixels": [
+            3,
+            121,
+            5,
+            125
+          ],
+          "peak_error_0_255": 40.125
+        },
+        {
+          "bad_pixels": 3,
+          "bbox_pixels": [
+            86,
+            143,
+            87,
+            146
+          ],
+          "peak_error_0_255": 46.75
+        },
+        {
+          "bad_pixels": 3,
+          "bbox_pixels": [
+            119,
+            158,
+            121,
+            163
+          ],
+          "peak_error_0_255": 37.1875
+        },
+        {
+          "bad_pixels": 2,
+          "bbox_pixels": [
+            22,
+            122,
+            23,
+            124
+          ],
+          "peak_error_0_255": 43.625
+        }
+      ]
+    },
+    "report": "full-revisions/r006/edge/report.json"
+  },
+  "capsule": {
+    "isolated": [
+      "no_rule_failure",
+      "no_rule_failure"
+    ],
+    "visible": [
+      "no_rule_failure",
+      "no_rule_failure"
+    ],
+    "visibility": [
+      {
+        "id": "eye-left",
+        "visible_to_isolated_mass_ratio": 1.0,
+        "absolute_mask_difference_sum": 188.7019607843137
+      },
+      {
+        "id": "eye-right",
+        "visible_to_isolated_mass_ratio": 1.0,
+        "absolute_mask_difference_sum": 177.38823529411764
+      }
+    ],
+    "report": "full-revisions/r006/capsule/report.json"
+  },
+  "limits": [
+    "local color edge gate still fails:10px>3px",
+    "unseen jaw and lower hair are creative adaptation",
+    "full has no same-pose gold",
+    "short B99 contract is separate",
+    "not user artistic acceptance"
+  ],
+  "aliases_match_revision": {
+    "full.svg": true,
+    "full-1280.png": true,
+    "full-128.png": true,
+    "full-48.png": true,
+    "full-24.png": true
+  }
+}

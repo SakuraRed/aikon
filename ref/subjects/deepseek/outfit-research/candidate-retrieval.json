@@ -1,0 +1,26 @@
+[
+  {
+    "file": "candidate-a-maid.jpg",
+    "url": "https://raw.githubusercontent.com/fornarwhal/deepseek-whale-girl-icon/main/original-whale-girl.jpg",
+    "retrieved_at": "2026-09-29T07:20:44Z",
+    "bytes": 91444,
+    "sha256": "c1d8ced2d461348d14128178dc7950ab037583aee27516dfa69ec0f7d5def3b2",
+    "status": "ok"
+  },
+  {
+    "file": "candidate-b-gothic.png",
+    "url": "https://i0.hdslb.com/bfs/new_dyn/3c682551e90b44b1a02c01ed337b22884456176.png",
+    "retrieved_at": "2026-09-29T07:20:45Z",
+    "bytes": 1372289,
+    "sha256": "527b8911e690686424415991ffeb2f9e979b5f2b87b4c56640599ec9928d9940",
+    "status": "ok"
+  },
+  {
+    "file": "candidate-c-hoodie.png",
+    "url": "https://i0.hdslb.com/bfs/new_dyn/d46536f7163fd739bb6e105c3d964b834456176.png",
+    "retrieved_at": "2026-09-29T07:20:45Z",
+    "bytes": 173777,
+    "sha256": "0d9150f6c6a49289010709c8af456ea909f779012a792ecf37e34953f4579ce2",
+    "status": "ok"
+  }
+]

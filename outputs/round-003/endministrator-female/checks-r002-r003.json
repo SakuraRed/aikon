@@ -1,0 +1,130 @@
+{
+  "schema": "aikon.female-round3-review.v1",
+  "renderer": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "user_acceptance": "unassessed",
+  "reference_similarity_99": "not_assessed",
+  "records": [
+    {
+      "branch": "unmasked",
+      "profile": "short",
+      "revision": "r002",
+      "svg_sha256": "780032e7df6625be5d18ec5f9132b18a506921c554d6f05a1bdfeaeda63582a0",
+      "structural": "passed",
+      "cache_rgba_equal": {
+        "1280": true,
+        "128": true,
+        "48": true,
+        "24": true
+      },
+      "user_acceptance": "unassessed",
+      "edge_gate": {
+        "status": "no_rule_failure",
+        "issues": []
+      },
+      "capsules": {
+        "statuses": [
+          "no_rule_failure",
+          "no_rule_failure"
+        ],
+        "issues": [
+          [],
+          []
+        ],
+        "limitation": "isolated actual vector geometry; visible occlusion checked visually"
+      }
+    },
+    {
+      "branch": "unmasked",
+      "profile": "full",
+      "revision": "r003",
+      "svg_sha256": "7c4da7bb6cc3dbaef8f87af71c908205ce3809ab9adb37b312a65bd4351fdf71",
+      "structural": "passed",
+      "cache_rgba_equal": {
+        "1280": true,
+        "128": true,
+        "48": true,
+        "24": true
+      },
+      "user_acceptance": "unassessed",
+      "edge_gate": {
+        "status": "fail",
+        "issues": [
+          {
+            "code": "local_edge_color_contamination_or_material_mismatch",
+            "largest_bad_pixel_count": 6,
+            "reason": "connected visible-color residual above32/255 exceeds3 original bad pixels; one-pixel gaps joined"
+          }
+        ]
+      },
+      "capsules": {
+        "statuses": [
+          "no_rule_failure",
+          "no_rule_failure"
+        ],
+        "issues": [
+          [],
+          []
+        ],
+        "limitation": "isolated actual vector geometry; visible occlusion checked visually"
+      }
+    },
+    {
+      "branch": "masked",
+      "profile": "short",
+      "revision": "r002",
+      "svg_sha256": "2e957c9871a7bbd159e1fac20a5fb65c8a5f2e696a166f8384872434c596667a",
+      "structural": "passed",
+      "cache_rgba_equal": {
+        "1280": true,
+        "128": true,
+        "48": true,
+        "24": true
+      },
+      "user_acceptance": "unassessed",
+      "edge_gate": {
+        "status": "fail",
+        "issues": [
+          {
+            "code": "local_edge_color_contamination_or_material_mismatch",
+            "largest_bad_pixel_count": 11,
+            "reason": "connected visible-color residual above32/255 exceeds3 original bad pixels; one-pixel gaps joined"
+          }
+        ]
+      },
+      "capsules": {
+        "status": "not_applicable_user_selected_opaque_eye_occlusion"
+      }
+    },
+    {
+      "branch": "masked",
+      "profile": "full",
+      "revision": "r003",
+      "svg_sha256": "c04cc58315adaf4cb172715ae25b0b90ad932c3a99243a92127961d11a5c3c8f",
+      "structural": "passed",
+      "cache_rgba_equal": {
+        "1280": true,
+        "128": true,
+        "48": true,
+        "24": true
+      },
+      "user_acceptance": "unassessed",
+      "edge_gate": {
+        "status": "fail",
+        "issues": [
+          {
+            "code": "local_edge_color_contamination_or_material_mismatch",
+            "largest_bad_pixel_count": 17,
+            "reason": "connected visible-color residual above32/255 exceeds3 original bad pixels; one-pixel gaps joined"
+          }
+        ]
+      },
+      "capsules": {
+        "status": "not_applicable_user_selected_opaque_eye_occlusion"
+      }
+    }
+  ]
+}

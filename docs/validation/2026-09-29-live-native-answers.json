@@ -1,0 +1,44 @@
+{
+  "schema": "aikon.user-decisions.v1",
+  "recorded_date": "2026-09-29",
+  "source": "Actual single-question request_user_input results in this chat; event timestamps were not supplied by the tool.",
+  "jev": {
+    "model": "jev-1.13.0",
+    "answered_at_utc": "2026-09-29T06:50:52.560423+00:00",
+    "request_sha256": "2f4a56353bb9b5b7c676996de989f2d133071dad50eb8edbde69dcc731303650",
+    "probabilities": {
+      "female_mask": {"masked": 0.54, "unmasked": 0.0, "both": 0.46},
+      "male_mask": {"masked": 0.85, "unmasked": 0.01, "both": 0.14},
+      "r1_acceptance": {"explicit_numeric_contract": 0.79, "visual_near_identity": 0.21}
+    },
+    "scope": "Conditional option fit, not user preference, permission, artistic acceptance or project success probability."
+  },
+  "events": [
+    {
+      "question_id": "female_mask",
+      "tool_result": {"answers": {"female_mask": {"answers": ["两种都画"]}}},
+      "answer_status": "answered",
+      "chosen_branch": "both"
+    },
+    {
+      "question_id": "male_mask",
+      "tool_result": {"answers": {"male_mask": {"answers": ["两种都画"]}}},
+      "answer_status": "answered",
+      "chosen_branch": "both"
+    },
+    {
+      "question_id": "r1_acceptance",
+      "tool_result": {"answers": {}},
+      "answer_status": "unanswered",
+      "chosen_option": null
+    }
+  ],
+  "expanded_admin_deliverables": [
+    "female/masked/short", "female/masked/full",
+    "female/unmasked/short", "female/unmasked/full",
+    "male/masked/short", "male/masked/full",
+    "male/unmasked/short", "male/unmasked/full"
+  ],
+  "visual_acceptance": "unassessed",
+  "note": "Earlier empty-answer records remain historical. Both mask choices are actual user answers, not Jev selections. R1 acceptance has no answer and receives no inferred numeric threshold."
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "file": "cetus-README.md",
+    "url": "https://raw.githubusercontent.com/AvroraCL/CETUS-Desktop/7f14ea7819dfb025bafce2f0d088e4901aefead6/README.md",
+    "retrieved_at": "2026-09-29T07:17:25Z",
+    "bytes": 13705,
+    "sha256": "9c50950f7a5e5e7ed28bba303ae13493c27c5ae77ab161e74f48c3cc40e20c5e",
+    "status": "ok"
+  },
+  {
+    "file": "cetus-splash.png",
+    "url": "https://raw.githubusercontent.com/AvroraCL/CETUS-Desktop/7f14ea7819dfb025bafce2f0d088e4901aefead6/src/Cetus.Desktop/Assets/cetus-splash.png",
+    "retrieved_at": "2026-09-29T07:17:25Z",
+    "bytes": 340262,
+    "sha256": "70e10999455e61b9e3fcb6ea175b881ee5bf5560eb64c54b31f0afb3bed121fe",
+    "status": "ok"
+  },
+  {
+    "file": "cetus-titlebar.png",
+    "url": "https://raw.githubusercontent.com/AvroraCL/CETUS-Desktop/7f14ea7819dfb025bafce2f0d088e4901aefead6/src/Cetus.Desktop/Assets/cetus-titlebar.png",
+    "retrieved_at": "2026-09-29T07:17:25Z",
+    "bytes": 25020,
+    "sha256": "327e2d0ec61575aa02521e2b3ab1bf34dc2117a847d527169c0c02cda81278ae",
+    "status": "ok"
+  },
+  {
+    "file": "cetus-logo.png",
+    "url": "https://raw.githubusercontent.com/AvroraCL/CETUS-Desktop/7f14ea7819dfb025bafce2f0d088e4901aefead6/src/Cetus.Desktop/Assets/logo.png",
+    "retrieved_at": "2026-09-29T07:17:25Z",
+    "bytes": 55177,
+    "sha256": "6ec0d51f420e3741456861aaadb700bc3d67d23d9754cf1350b9189d577e19cb",
+    "status": "ok"
+  }
+]

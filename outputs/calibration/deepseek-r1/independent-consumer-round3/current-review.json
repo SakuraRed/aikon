@@ -1,0 +1,13 @@
+{
+  "schema": "aikon.artwork-review.v1",
+  "candidate": "r004/short.svg",
+  "candidate_sha256": "20927e18338f1d8fa131d11cf24fa5ff2eb0367ca85e984060dd4eaa1d338e7d",
+  "root_alias": "r003; not the r004 candidate",
+  "study_type": "supervised repair of independent round2",
+  "comparison": "r004/root-comparison-v5/report.json",
+  "quality": "r004/root-quality/summary.json",
+  "visual_inspected": ["clean source", "r004/reference-comparison.png", "r004/local-source-r003-r004.png"],
+  "remaining": ["Upper-right fringe boundary geometry", "Side-fin pale rim and bow gloss", "Frozen edge gate10px cluster exceeds3px limit", "Independent material masks and complete paint assessment"],
+  "user_acceptance": "unassessed",
+  "numeric_contract": "requested; specific thresholds pending"
+}

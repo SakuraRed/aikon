@@ -1,0 +1,19 @@
+{
+  "revision": "r001",
+  "svg_sha256": "89653e58cdf31859ffde7401b8e8814f35748f6b834fa3a3119599379c3fbfa6",
+  "head_base_sha256": "20927e18338f1d8fa131d11cf24fa5ff2eb0367ca85e984060dd4eaa1d338e7d",
+  "outfit_source": "candidate-a-maid.jpg, user-selected alternative attire, not official r1 evidence",
+  "new_inferences": [
+    "unseen jaw",
+    "neck pose",
+    "lower back hair continuation",
+    "selected clothing adapted to tilted upper-body projection"
+  ],
+  "short_unchanged": true,
+  "user_acceptance": "unassessed",
+  "backend": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  }
+}

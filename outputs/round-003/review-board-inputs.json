@@ -1,0 +1,65 @@
+{
+  "records": [
+    {
+      "svg": "deepseek/short.svg",
+      "svg_sha256": "9eac3fb0d179f4a935ba8810bf6dd7559eafc954f7b7433ec8802d1adcbf0b1d",
+      "preview": "deepseek/short-1280.png",
+      "preview_sha256": "596eecaaf0dca012eab6f4221f7e3a6c881bffeebb868731d6efeddcfa0fd4aa"
+    },
+    {
+      "svg": "deepseek/full.svg",
+      "svg_sha256": "ff3197cd7d083ff4e8a697bf5e3437bf4af7600259ce3276ba638928c1dc950d",
+      "preview": "deepseek/full-1280.png",
+      "preview_sha256": "84d41a13429c1b286e6dd56b9fcfc94c05a701d00efe1e2f3b895d09835fe606"
+    },
+    {
+      "svg": "endministrator-female/unmasked/short.svg",
+      "svg_sha256": "cc349f32761b634f7c1a120f7e4b8653de591863ad2f8bf7fcfeb52dc2ed7c8b",
+      "preview": "endministrator-female/unmasked/short-preview.png",
+      "preview_sha256": "0bf6e97dc2641721ebf04ff31e8b4b492e581fb456c86e3e034ebe0749bc034a"
+    },
+    {
+      "svg": "endministrator-female/unmasked/full.svg",
+      "svg_sha256": "cf5749efb2512f70e4bb6aa11f53d6e7333e09cc17cc0262054f86bdcb07e084",
+      "preview": "endministrator-female/unmasked/full-preview.png",
+      "preview_sha256": "b5f891c5dc475fb29f58b6ca7361a83b8f82b51c92c0e599832e23b5c9079d2a"
+    },
+    {
+      "svg": "endministrator-female/masked/short.svg",
+      "svg_sha256": "f7eb75b7c1a391baf2a2c4c3234b7f0cdd06754c94f0b560f892a05231802af2",
+      "preview": "endministrator-female/masked/short-preview.png",
+      "preview_sha256": "07abcb1c474eb65dc146c2614aac6dbda945e0497ae97a9bd297aafcc49ce6a1"
+    },
+    {
+      "svg": "endministrator-female/masked/full.svg",
+      "svg_sha256": "2f601ee518bb90635bfab72467c01436f4e743556ef138aded2b3a102adb36a2",
+      "preview": "endministrator-female/masked/full-preview.png",
+      "preview_sha256": "9e556316035526eaa28608fb893bf65b269b68aa3bd0d141a6d52f091a5ea14b"
+    },
+    {
+      "svg": "endministrator-male/unmasked/short.svg",
+      "svg_sha256": "5625a79e03e5ceb85faef84496e7ad50da1649d1fa06eeebc7803a9a46d70a27",
+      "preview": "endministrator-male/unmasked/short.png",
+      "preview_sha256": "c5e0720f88fd9fcd723289b43a684d1d8b825d0aadb4f967b047dd5f0020bbf3"
+    },
+    {
+      "svg": "endministrator-male/unmasked/full.svg",
+      "svg_sha256": "3779b9c000938999d4b0e340d7fa4d5568d33bd089ce0ac3f920f25a877e6bf1",
+      "preview": "endministrator-male/unmasked/full.png",
+      "preview_sha256": "f92cbf943b24484f1f7b5c84fb2bf3ff0e8bdc9617a9758ac125471356509abc"
+    },
+    {
+      "svg": "endministrator-male/masked/short.svg",
+      "svg_sha256": "f7c00c1f3e410030f3d2087d18f6d0d47e9d37e49a3ec7394d12a93d3d8a310a",
+      "preview": "endministrator-male/masked/short.png",
+      "preview_sha256": "dbffd5c1923019b004b4afd973a9df8ce9240942d0b0ee46fe8dfe0edf5ac76d"
+    },
+    {
+      "svg": "endministrator-male/masked/full.svg",
+      "svg_sha256": "9dd03867061985079f9edb8633af3c7b2fe92581cec44a1178c12b613dae80a9",
+      "preview": "endministrator-male/masked/full.png",
+      "preview_sha256": "a8cb1800aceb6edf1ba67c92a29bf154c889bd81f45e6efaf7d437ae2c6d8a07"
+    }
+  ],
+  "meaning": "Presentation of actual cached renders; no final SVG background added."
+}

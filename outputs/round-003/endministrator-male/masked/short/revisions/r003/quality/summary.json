@@ -1,0 +1,39 @@
+{
+  "branch": "masked",
+  "profile": "short",
+  "revision": "r003",
+  "svg_sha256": "6ef4686c7d039b069a967c7934a6d6944797a336ae7a8df6c73dae88f2417f3f",
+  "normalized_source_sha256": "72bec93233b05eb095e5c4a353b6bd418e47c4a75e3cdeedaec005c4ca0b7b03",
+  "hash_note": "svg_sha256 hashes raw file bytes; edge source_sha256 hashes decoded newline-normalized source text on Windows. Both are recorded, not interchanged.",
+  "static_svg_subset": "pass",
+  "rerender": {
+    "1280": {
+      "RGBA_equal": true,
+      "cached_sha256": "e207c4eaa23f970af16f940af7a13a0c679ff3ba6aa566a889a94bd6f6791f61"
+    },
+    "128": {
+      "RGBA_equal": true,
+      "cached_sha256": "545f5ec1370ad13ddc5cd43cc3d4b054850d29d258dc510e7682f89e7991776b"
+    },
+    "48": {
+      "RGBA_equal": true,
+      "cached_sha256": "f58f889f17f7be194282d63f5b96c9e83bfb14bcddf98772f0a0c7fb90586069"
+    },
+    "24": {
+      "RGBA_equal": true,
+      "cached_sha256": "0811400e43b7d578bb05a04f6cb1802e6bb2d4d34d12f17400ef568825413f43"
+    }
+  },
+  "transparent_pixels": 526493,
+  "opaque_pixels": 1108828,
+  "partially_covered_pixels": 3079,
+  "base_revision": "r002",
+  "changed_pixels_from_base": 66659,
+  "capsules": "not applicable: user-authorized real opaque eye occlusion; no eye geometry added",
+  "edge_status": "fail",
+  "edge_local_bad_pixels": 9,
+  "edge_interior_alpha_bad_pixels": 0,
+  "paint_status": "not assessed: no independent material masks/field model for this new geometry; visual review and no-noise construction are separate evidence",
+  "identity_and_pitch": "human visual review required; no numeric resemblance assertion",
+  "visual_acceptance": "not_user_accepted"
+}

@@ -1,0 +1,18 @@
+{
+  "bad_pixels": 1,
+  "signed_delta_values_counts": {
+    "-1": 1
+  },
+  "bbox": [
+    822,
+    425,
+    823,
+    426
+  ],
+  "source_fully_opaque_bad": 0,
+  "source_3px_opaque_interior_bad": 0,
+  "original_alpha_values_at_bad": {
+    "207": 1
+  },
+  "meaning": "Diagnostic only; raw equality failed and no unchanged-alpha claim is made."
+}

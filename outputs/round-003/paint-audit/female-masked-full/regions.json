@@ -1,0 +1,314 @@
+{
+  "schema": "aikon.paint-fields.v1",
+  "long_edge": 1024,
+  "rules": {
+    "grain_rms_max": 0.8276688285339487,
+    "mottle_rms_max": 0.5,
+    "interior_translucent_fraction_max": 0.001,
+    "island_contrast_min": 12.0,
+    "island_area_min": 12
+  },
+  "threshold_provenance": "Unchanged docs/validation/paint-fields/frozen-rules.json; source raw SHA d35cd3475013a7e96d956cb6b268297f0bb0c3a8780886b19899e6b57496c71d",
+  "regions": [
+    {
+      "id": "hood-outer-silhouette",
+      "mask_id": "hood-outer-silhouette",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "hood-left-inner-lining",
+      "mask_id": "hood-left-inner-lining",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "hood-right-inner-lining",
+      "mask_id": "hood-right-inner-lining",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "upper-chest-underlayer",
+      "mask_id": "upper-chest-underlayer",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "standing-collar-front",
+      "mask_id": "standing-collar-front",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "collar-orange-connector",
+      "mask_id": "collar-orange-connector",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "collar-orange-edge",
+      "mask_id": "collar-orange-edge",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "collar-zip-tab",
+      "mask_id": "collar-zip-tab",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "collar-zip-tab-open",
+      "mask_id": "collar-zip-tab-open",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "chest-right-fold",
+      "mask_id": "chest-right-fold",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "chest-panel-seam",
+      "mask_id": "chest-panel-seam",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "outer-collar-left-face",
+      "mask_id": "outer-collar-left-face",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "outer-collar-left-return",
+      "mask_id": "outer-collar-left-return",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "outer-collar-right-face",
+      "mask_id": "outer-collar-right-face",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "outer-collar-right-fold",
+      "mask_id": "outer-collar-right-fold",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "yellow-shoulder-piece",
+      "mask_id": "yellow-shoulder-piece",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "yellow-shoulder-return",
+      "mask_id": "yellow-shoulder-return",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "yellow-silver-connector",
+      "mask_id": "yellow-silver-connector",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "ring-second-layer",
+      "mask_id": "ring-second-layer",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "ring-anchor",
+      "mask_id": "ring-anchor",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "ring-back-depth",
+      "mask_id": "ring-back-depth",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "ring-front-body",
+      "mask_id": "ring-front-body",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "ring-overlap-strap",
+      "mask_id": "ring-overlap-strap",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "ring-overlap-light",
+      "mask_id": "ring-overlap-light",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "full-back-bob",
+      "mask_id": "full-back-bob",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "back-bob-right-separation",
+      "mask_id": "back-bob-right-separation",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "full-visible-face",
+      "mask_id": "full-visible-face",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "suppressor-under-body",
+      "mask_id": "suppressor-under-body",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "suppressor-center-crown",
+      "mask_id": "suppressor-center-crown",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "suppressor-center-left-plane",
+      "mask_id": "suppressor-center-left-plane",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "suppressor-center-crown-edge",
+      "mask_id": "suppressor-center-crown-edge",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "suppressor-nose-base",
+      "mask_id": "suppressor-nose-base",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "suppressor-nose-facet",
+      "mask_id": "suppressor-nose-facet",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "suppressor-nose-edge",
+      "mask_id": "suppressor-nose-edge",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "suppressor-left-arm-thickness",
+      "mask_id": "suppressor-left-arm-thickness",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "suppressor-left-arm",
+      "mask_id": "suppressor-left-arm",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "suppressor-left-rim",
+      "mask_id": "suppressor-left-rim",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "suppressor-left-yellow-tip",
+      "mask_id": "suppressor-left-yellow-tip",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "suppressor-right-arm",
+      "mask_id": "suppressor-right-arm",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "suppressor-right-arm-rim",
+      "mask_id": "suppressor-right-arm-rim",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "suppressor-left-connector",
+      "mask_id": "suppressor-left-connector",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "suppressor-right-connector",
+      "mask_id": "suppressor-right-connector",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "full-crown",
+      "mask_id": "full-crown",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "full-left-crown-stream",
+      "mask_id": "full-left-crown-stream",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "full-center-forelock",
+      "mask_id": "full-center-forelock",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "full-forelock-middle-side",
+      "mask_id": "full-forelock-middle-side",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "full-right-temple-lock",
+      "mask_id": "full-right-temple-lock",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "full-right-cheek-lock",
+      "mask_id": "full-right-cheek-lock",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "full-left-temple-lock",
+      "mask_id": "full-left-temple-lock",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "full-left-outturned-tip",
+      "mask_id": "full-left-outturned-tip",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "full-crown-little-curl",
+      "mask_id": "full-crown-little-curl",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "clip-long-side",
+      "mask_id": "clip-long-side",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "clip-long-plate",
+      "mask_id": "clip-long-plate",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "clip-long-narrow-rim",
+      "mask_id": "clip-long-narrow-rim",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "clip-short-side",
+      "mask_id": "clip-short-side",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "clip-short-plate",
+      "mask_id": "clip-short-plate",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "clip-transverse-thickness",
+      "mask_id": "clip-transverse-thickness",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "clip-transverse-clasp",
+      "mask_id": "clip-transverse-clasp",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "clip-joining-collar",
+      "mask_id": "clip-joining-collar",
+      "expectation": "smooth_field"
+    },
+    {
+      "id": "clip-secondary-tab",
+      "mask_id": "clip-secondary-tab",
+      "expectation": "smooth_field"
+    }
+  ]
+}

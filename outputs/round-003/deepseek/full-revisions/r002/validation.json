@@ -1,0 +1,36 @@
+{
+  "revision": "r002",
+  "svg_sha256": "f6ab32ca11954877f97bd08b866b67f35d8a74d9ec3c80a9d4d19984bee555a7",
+  "base_sha256": "89653e58cdf31859ffde7401b8e8814f35748f6b834fa3a3119599379c3fbfa6",
+  "short_sha256": "9eac3fb0d179f4a935ba8810bf6dd7559eafc954f7b7433ec8802d1adcbf0b1d",
+  "source_A_choice": "user",
+  "outfit_official_status": "not claimed; selected alternative clothing reference",
+  "r1_identity_path_d_preserved": {
+    "identity-crescent": true,
+    "left-sweep": true,
+    "center-fringe": true,
+    "right-main-lock": true,
+    "right-inner-fringe": true,
+    "bow-left": true,
+    "bow-right": true,
+    "eye-left": true,
+    "eye-right": true
+  },
+  "new_inferences": [
+    "unseen lower jaw",
+    "neck and garment pose adaptation",
+    "continuing lower hair"
+  ],
+  "alpha": {
+    "transparent_pixels": 733972,
+    "opaque_pixels": 900473,
+    "upper_right_alpha": 0
+  },
+  "limitations": [
+    "full has no same-pose gold reference",
+    "unseen jaw and lower hair remain creative adaptation",
+    "no full heavy detector suite run",
+    "short strict B99 contract is separate root work",
+    "not user accepted"
+  ]
+}

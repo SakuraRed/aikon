@@ -26,6 +26,7 @@ QUALITY_TESTS = (
     "test_paint_field_support.py",
     "test_material_composer.py",
     "test_source_foreground.py",
+    "test_r1_numeric_contract.py",
     "test_gloss_pairs.py",
     "test_capsule_geometry.py",
     "test_edge_quality.py",
@@ -39,6 +40,7 @@ def execution_context():
     """Bind results to the actual inputs, including uncommitted local changes."""
     patterns = ["tools/*.py", "tests/*.py", "tests/fixtures/paint/*", "skills/aikon/scripts/*.py", "requirements-ci.txt", "ref/user-mode/r1.png", "ref/user-mode/r2.png", "ref/site/*.png", "ref/feedback/2026-09-29/accepted-composition-defective-paint.png", "outputs/calibration/illustration/full-imagegen-v1.png", "outputs/fixtures/*/round-002/*.svg", "docs/validation/paint-fields/reference-audit.json", "docs/validation/paint-fields/frozen-rules.json", "docs/validation/paint-fields/annotation-registration.json", "docs/validation/edges-v3/run_audit.py", "docs/validation/quality-v3/artwork-verdicts.json"]
     patterns += ["docs/validation/edges-v3/fixtures/*.svg", "docs/validation/edges-v3/positive-calibration/summary.json"]
+    patterns += ["docs/validation/r1-numeric-contract-b.json", "ref/user-mode/r1-working.png"]
     files = sorted({path for pattern in patterns for path in ROOT.glob(pattern) if path.is_file()})
     records = [(path.relative_to(ROOT).as_posix(), hashlib.sha256(path.read_bytes()).hexdigest()) for path in files]
     fingerprint = hashlib.sha256(json.dumps(records, separators=(",", ":")).encode()).hexdigest()

@@ -43,6 +43,12 @@ Where a check fails, identify the responsible geometry or constraint and make on
 
 If no renderer is available, preserve the SVG and mark `visual_review: not_run`; offer it for user preview. If a renderer exists but images cannot be viewed, a generated PNG is not evidence that it looks correct. A user can supply feedback to continue. Do not install an unrequested drawing service just to hide this limitation.
 
+## Explicit numerical targets
+
+When a user requests a number such as “99%,” settle its mathematical meaning before claiming it. A normalized mean color error, the proportion of pixels inside a channel-error tolerance, and a human visual judgment are different quantities. Record the selected metric, tolerance, source-only scoring domain, critical regions, renderer, canvas and veto rules; retain raw user wording and actual choices.
+
+For transparent SVG, source background RGB does not become a fidelity requirement. Compare only the selected subject domain, and check transparency and silhouette independently so an opaque backdrop or stray alpha cannot pass through good colors. A fixed compositing matte may help compare source antialiasing; keep it confined to evaluation and preview, never exported artwork. Global averages must not hide critical local errors. Freeze a selected numerical contract before forward testing, bind reports to exact inputs, and keep numerical pass separate from complete quality checks and user acceptance.
+
 ## Independent forward tests
 
 For substantial skill changes, give an independent evaluator the skill folder, a realistic request, and only the necessary raw references. Keep expected answers and prior failure diagnoses out of that brief. Inspect its actual artifacts, then fix demonstrated problems. Include text-only subjects, role-separated images, darker skin, bald/mechanical subjects, faceless entities, explicit output paths, unanswered choices, and scoped edits as coverage expands.

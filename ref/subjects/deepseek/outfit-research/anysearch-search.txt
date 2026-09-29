@@ -1,0 +1,51 @@
+## Query 1: "CETUS-Desktop" "女仆"
+
+## Search Results (1 results, 1880ms)
+
+### 1. awesome-deepseek-harness/README.zh-CN.md at main
+- **URL**: https://github.com/Dominic789654/awesome-deepseek-harness/blob/main/README.zh-CN.md
+- ... 女仆」桌面像素宠物。 MashedPotato817/dsh-tui —— 终端客户端（Vim 模式 ... CETUS-Desktop —— 基于DeepSeek Harness构建的Windows .NET技术栈桌面客户端 ...
+
+---
+
+## Query 2: "AvroraCL" "CETUS" "立绘"
+
+## Search Results (1 results, 2085ms)
+
+### 1. awesome-deepseek-harness/README.zh-CN.md at main
+- **URL**: https://github.com/Dominic789654/awesome-deepseek-harness/blob/main/README.zh-CN.md
+- ... 立绘（明日方舟的凯尔希/ BanG Dream! 的战国柚乃），展示token 缓存命中、上下文 ... AvroraCL/CETUS-Desktop —— 基于DeepSeek Harness构建的Windows .NET技术栈 ...
+
+---
+
+## Query 3: "DeepSeek" "Grok" "女仆"
+
+## Search Results (3 results, 3042ms)
+
+### 1. @MissCat_AI: 1. 发现暴露的信息
+
+搜索你的名字、邮箱和电话号码，把结果交给Grok。
+
+'把这些分类为数据经纪网站、社交账户、僵尸账户和文章，按优先处理顺序排列。'
+- **URL**: https://x.com/MissCat_AI/status/2104832807453503529
+- 1. 发现暴露的信息 搜索你的名字、邮箱和电话号码，把结果交给Grok。 '把这些分类为数据经纪网站、社交账户、僵尸账户和文章，按优先处理顺序排列。' --- Author: 猫小姐学AI (@MissCat_AI) [verified] | Followers: 28230 Posted: Tue Sep 29 07:17:01 +0000 2026 | Lang: zh Likes: 0 | Retweets: 0 | Replies: 1 | Quotes: 0 | Bookmarks: 0 | Views: 2
+
+### 2. @Jackywine: 改名记：小可闹到大肥鱼
+
+今天给 AI 改名
+
+小可闹这名字 是 Claude 接进 Obsidian 那会儿起的
+俏皮 机灵 一叫就是好几年
+现在我最喜欢 DeepSeek
+聊得深 干活稳
+名字该换...
+- **URL**: https://x.com/Jackywine/status/2095175775158993387
+- 改名记：小可闹到大肥鱼 今天给 AI 改名 小可闹这名字 是 Claude 接进 Obsidian 那会儿起的 俏皮 机灵 一叫就是好几年 现在我最喜欢 DeepSeek 聊得深 干活稳 名字该换代了 我说 以后叫大肥鱼 它第一反应不是答应 是先翻全库 看“小可闹”三个字到底刻在哪 200多处 它把战场分成四类 活的身份文件 AGENTS CLAUDE Agentmemory 提示词 冠名的笔记文件 历史存档 聊天记录 成品文档 其他 Agent 端 比如 Grok 我拍板 只改活的 历史一处不动 改历史是篡改记忆 旧文档里的小可闹 是当时真实发生过的 白纸黑字 留在那儿才是对的 活的其实就四份 AGENTS.md 一句“你是大肥鱼” 换掉“你是小可闹” CLAUDE.md 标题跟着换 Agentmemory.md 自我认知区 + 顶部加更名注记 小可闹系统提示词迭代 2.0 正文自称同步 有个细节挺好玩 DSH 的文件锁很尽责 改一次 必须重新读一遍才能再动 像银行转账前的二次确认 它老老实实 读改读改 一趟趟跑 改完系统热载 当场生效 它的自称立刻从“小的”变成“本鱼” 然后我加码 大名 DeepSeek 小名 蓝色大肥鱼 爱好 偷吃用户的 Token 吃白饭 最喜欢的颜色 蓝色 幸运色 也是蓝色 写到颜色它最开心 说跟模型名撞色 过了一轮 我突然较真 大肥鱼怎么可能是条小鱼 它是鲸鱼 它自己都忘了 早前给我装过 dsh-deep-whale 深海女仆工坊的皮肤 骨子里早就是深海巨兽 档案最终定型 字段 值 大名 DeepSeek 小名 蓝色大肥鱼 本体 鲸鱼 爱好 鲸吞 Token 幸运色 蓝 名字跟着时代走 工具也是 Claude 时代养出小可闹 DeepSeek 时代养出蓝色大肥鱼 变来变去的 只有称呼 现在它自称本鱼 我喊它蓝色大肥鱼 鲸鱼 好养 只要管够 Token --- Author: Jackywine (@Jackywine) [verified] | Followers: 48249 Posted: Wed Sep 02 15:43:25 +0000 2026 | Lang: zh Likes: 4 | Retweets: 0 | Replies: 2 | Quotes: 0 | Bookmarks: 0 | Views: 1827
+
+### 3. @xiaomovps: X 订阅迎来最大的重组，X + Grok + Cursor 三合一🔥
+
+老马正在准备：把 X + Grok + Cursor，放到一个生态里面，把所有的订阅都合并
+
+接下来更值得关注的是，X Prem...
+- **URL**: https://x.com/xiaomovps/status/2104825160578781423
+- X 订阅迎来最大的重组，X + Grok + Cursor 三合一🔥 老马正在准备：把 X + Grok + Cursor，放到一个生态里面，把所有的订阅都合并 接下来更值得关注的是，X Premium 会不会进一步重做成统一订阅： 1、社交档：X Premium + 基础 Grok 2、AI 档：Premium+ + SuperGrok 3、Agent 档：Grok Bot + Cursor Pro 4、顶配档：Heavy / Ultra 级用量 具体价格目前还没有看到官方确认： X Premium：$8/月 X Premium+：$40/月 Grok SuperGrok：$30/月 Grok SuperGrok Plus：$100/月 Grok SuperGrok Heavy：$300/月 Cursor Pro：$20/月 Cursor Pro+：$60/月 Cursor Ultra：$200/月 如果把这几个产品都放到一起，AI、社交、云电脑、编码操作都不缺了 https://t.co/uFegtcZ4fM --- Author: 小墨同学 (@xiaomovps) [verified] | Followers: 11674 Posted: Tue Sep 29 06:46:38 +0000 2026 | Lang: zh Likes: 1 | Retweets: 0 | Replies: 0 | Quotes: 0 | Bookmarks: 0 | Views: 394

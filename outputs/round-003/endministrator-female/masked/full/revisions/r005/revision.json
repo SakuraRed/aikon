@@ -1,0 +1,33 @@
+{
+  "original_semantic_geometry_unchanged": true,
+  "original_ids_verified": 100,
+  "changes": [
+    "One nonzero exact polygon-union clip for mask; opaque support underneath unchanged original panel paths.",
+    "Original right-collar face clips an opaque local support and unchanged face/fold paints once."
+  ],
+  "background_added": false,
+  "branch": "masked",
+  "profile": "full",
+  "revision": "r005",
+  "parent": "r004",
+  "before_sha256": "8c4cc9b5d7cc1967767b2b7e98038f5b237a90b627e057463b9eed4a3495fdb4",
+  "svg_sha256": "2460f7ac589b7a31fd2d24c89ec99faf666a63de7803b159d03869244173cb7b",
+  "renderer": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "user_acceptance": "unassessed",
+  "reference_similarity_99": "not_assessed",
+  "alpha_identical_1280": true,
+  "changed_rgba_pixels_1280": 1760,
+  "edge_before": {
+    "status": "fail",
+    "largest_cluster": 17
+  },
+  "edge_after": {
+    "status": "no_rule_failure",
+    "largest_cluster": 2,
+    "issues": []
+  }
+}

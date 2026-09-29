@@ -1,6 +1,6 @@
 # 女性 Endministrator：条件式分支 prompt
 
-状态：`blocked-until-real-answer`。`entity_id=endministrator-female`；`question_id=female_mask`；`answer_status=unanswered`；`chosen_branch=null`；`answer_evidence=null`。先读 [index.md](index.md)；本文件任何分支均未被选中。
+状态：`both-branches-authorized`。`entity_id=endministrator-female`；`question_id=female_mask`；`answer_status=answered`；`chosen_branch=both`；[answer_evidence](../../validation/2026-09-29-live-native-answers.json)：原生回答“两种都画”。先读 [index.md](index.md)；分别实例化 masked/unmasked，各有 short/full；不将分支选择记为视觉接受。
 
 ## 1. 独立实体绑定与本次看图
 

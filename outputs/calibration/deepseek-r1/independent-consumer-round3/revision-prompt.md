@@ -1,0 +1,3 @@
+# r002 actual revision prompt
+
+The actual r001 render has materially closer broad colors, but exposes an artificial dark gap between the central and left fringe, and the lower right long-lock tip became a hooked end. Preserve r001 before correction. Fit the bottom right lock outer contour directly from raw semantic blue-versus-rear material rows, replacing the mistaken intermediate endpoint rather than moving only the free tip. Join the left/central fringe with a common boundary from the already fitted finite curves. Preserve the measured color fields and remaining semantic parts. Render and inspect again; report both improvements and unresolved source-boundary approximation.

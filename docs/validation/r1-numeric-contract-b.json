@@ -1,0 +1,39 @@
+{
+  "schema": "aikon.r1-numeric-contract.v1",
+  "selected_option": "pixel_hit_b",
+  "answer_evidence": "2026-09-29-contract-outfit-answers.json",
+  "reference": "ref/user-mode/r1-working.png",
+  "reference_sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+  "size": 1280,
+  "source_foreground": "exterior-connected-v5",
+  "source_mask_sha256": "6ac7fec41a8438eb51954626772fdc926f0a5f91d9bc665b2205e6738ed4a9a7",
+  "alignment": "none",
+  "watermark_exclusion": null,
+  "background_rgb_in_score": false,
+  "output_background": "transparent",
+  "color_space": "sRGB8; source-subject pixels only; #0f0f0f is only the fixed compositing matte used to compare antialiased subject edges with the source",
+  "thresholds": {
+    "subject_mae_srgb8_max": 2.55,
+    "subject_rmse_srgb8_max": 8.0,
+    "roi_mae_srgb8_max": 5.1,
+    "roi_rmse_srgb8_max": 10.0,
+    "pixel_max_channel_error_srgb8": 5.0,
+    "subject_and_each_roi_hit_fraction_min": 0.99,
+    "silhouette_iou_min": 0.995,
+    "boundary_p95_px_max": 2.0,
+    "boundary_max_px_max": 8.0
+  },
+  "regions_xyxy_half_open": {
+    "face_and_pose_context": [0,460,875,1280],
+    "eye_left": [137,658,289,894],
+    "eye_right": [571,813,716,1043],
+    "main_hair_flow": [0,220,1000,1180],
+    "top_hook": [199,8,604,288],
+    "head_side_fin": [978,721,1265,1149],
+    "side_bow": [960,718,1148,932],
+    "white_frill": [0,126,1045,749]
+  },
+  "quality_vetoes": "Existing frozen capsule, edge and supported per-material grain/mottle/island/alpha checks remain separate mandatory checks; unknown/failed is not passed.",
+  "visual_and_user_acceptance": "separate from numeric status",
+  "scope": "DeepSeek/r1 short reconstruction only; not administrator identity or full-frame costume content"
+}

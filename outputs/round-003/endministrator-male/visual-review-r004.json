@@ -1,0 +1,32 @@
+{
+  "schema": "aikon.agent-visual-review.v1",
+  "reviewer": "male_round3 authoring subagent",
+  "revision": "r004",
+  "status": "visually_reviewed_candidate",
+  "actually_viewed": [
+    "overview-r004.png: all four same-light-background large previews plus actual 128/48/24 renders",
+    "dark-review-r004.png: all four dark-background previews",
+    "masked/short/revisions/r004/preview-1280.png",
+    "masked/full/revisions/r004/preview-1280.png",
+    "unmasked/short/revisions/r002/preview-1280.png (unchanged through r004)",
+    "unmasked/full/revisions/r003/preview-1280.png (unchanged at r004)"
+  ],
+  "visible_findings": [
+    "Short/full are clearly differentiated by actual neck, standing collar, connected rings, outer collar and yellow chest shoulder plate at the same canvas size.",
+    "Unmasked capsules have straight central sides and round caps; no fringe occludes their ends after r002.",
+    "Masked devices remain over both eyes and show a descending central nose plate, bent central ridge, rising near-side plate and yellow connected fixtures.",
+    "Dark inner neck now reads separately behind the pale collar in full.",
+    "Analytic face and hair fields show broad smooth color changes; no random cloud/grain shapes were authored or visibly observed in these views.",
+    "Masked r004 top metal rim follows the unchanged main silhouette after removal of the narrow double sampling band."
+  ],
+  "limitations": [
+    "Hair crown and side tufts remain a substantial icon simplification, not a measured recreation of the official character.",
+    "Mask central fold and neckline preserve source relationships but are abstracted; exact source matching is not established.",
+    "Pitch has no scored pass and still requires user judgment; applying 15 degree roll is not claimed as pitch proof.",
+    "No independent new-art material masks exist for complete paint-field certification.",
+    "Tiny hair gaps and fine fixture lines lose detail at 24 px even though the major profile and mask distinction remains visible."
+  ],
+  "quality_evidence": "quality-summary-r004.json",
+  "user_accepted": false,
+  "similarity_99": "not assessed"
+}

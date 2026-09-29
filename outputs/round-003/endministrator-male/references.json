@@ -1,0 +1,59 @@
+{
+  "schema": "aikon.reference-observations.v1",
+  "entity": "endministrator-male",
+  "reference_basis": "official illustration",
+  "reference_inspection": "All seven original files actually viewed using host view_image in this task before authoring.",
+  "refs": {
+    "M01": {
+      "path": "ref/subjects/endministrator/research-male/official-male-full.png",
+      "sha256": "23432dc54b2f7e6533499ca8ad8a60fc1b9c77462320717397963167fbb9fe09",
+      "observation": "Male: asymmetric short black hair, swept frontal mass, short outward groups; mask over both eyes; dark inner high neck, grey pale standing collar, connected silver ring and yellow angled chest/shoulder plate."
+    },
+    "M02": {
+      "path": "ref/subjects/endministrator/research-male/official-profile-a-male.jpg",
+      "sha256": "42b9ed24270f968225a40fe477ef64302e8b5b60790ff68a4795b11384f91403",
+      "observation": "A card: actual male; large sweep toward picture left, narrow falling group on picture right; short nape; overlapping dark mask central plate and rising side plates. No female hairclip."
+    },
+    "M03": {
+      "path": "ref/subjects/endministrator/research-male/official-campaign-unmasked-duo.jpg",
+      "sha256": "b018b3e1f657067bc511f66550424761f81332fc94ef87d492c741e763eda0d0",
+      "observation": "Male on picture left only: cyan eye, swept short fringe, separate nape tufts; no glasses. Illustration, not gameplay frame."
+    },
+    "M04": {
+      "path": "ref/subjects/endministrator/research-female/official-gallery-0212.jpg",
+      "sha256": "8395ebb12816a1801ff01a09b1229a970ad6edd06454b1f02bb5689512819c75",
+      "observation": "Male at centre only: two cyan eyes under asymmetric swept fringe. Female at lower left and large grey-haired foreground character excluded."
+    },
+    "M05": {
+      "path": "ref/subjects/endministrator/research-male/official-suppressor-display.jpg",
+      "sha256": "46078043c685987cb42e8af74657c760295be9fa8075090afdf8d71abbf66357",
+      "observation": "Opaque angular central plate, lower nose-bridge drop, two tall side plates, pale edge/connectors and yellow fastening points. No woven pattern or typography copied."
+    },
+    "R1": {
+      "path": "ref/user-mode/r1-working.png",
+      "sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+      "observation": "Style only: continuous broad hair fields, cream face field, dark glossy capsules, lower-left cropped raised-head reading; DeepSeek identity elements excluded."
+    },
+    "R2": {
+      "path": "ref/user-mode/r2.png",
+      "sha256": "df7c5fd4350997613a23dfdf454cf5aa350eb94f69f4557123ace241e8db25b2",
+      "observation": "Full framing only: cheek-to-chin arc and visible neck/collar; no blue hair, crown or identity transfer."
+    }
+  },
+  "decision": {
+    "question_id": "male_mask",
+    "actual_answer": "两种都画",
+    "expanded_branches": [
+      "masked",
+      "unmasked"
+    ],
+    "evidence": "docs/validation/2026-09-29-live-native-answers.json"
+  },
+  "unknowns": [
+    "Exact current 3D eye sRGB",
+    "Hidden fastening engineering",
+    "Full back-of-head anatomy",
+    "User visual acceptance"
+  ],
+  "source_notice": "Official artworks are research references only; asset-specific redistribution permission unverified. APG source prompt translation retains CC BY-NC 4.0."
+}

@@ -1,0 +1,9 @@
+## social_media Domain Capabilities (1 available)
+
+### social_media.social_media
+Social media information search and retrieval
+
+**Parameters:**
+- `type`: type：weibo / weibo_hot / zhihu / zhihu_hot / x_top / x_latest / x_media / x_people / x_lists / reddit_post / reddit_community / reddit_comment / reddit_media / reddit_people / linkedin_people / linkedin_jobs / linkedin_company / linkedin_posts / wechatmp（Target platforms and search patterns）
+- `keyword`: AI large models / Python developer / Musk (Search keywords take precedence over query fields)
+- `region`: Beijing / Shanghai / Guangdong (Region filtering only works when type=weibo_hot)

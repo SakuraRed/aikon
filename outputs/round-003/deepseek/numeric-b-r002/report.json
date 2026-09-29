@@ -1,0 +1,334 @@
+{
+  "numeric_status": "fail",
+  "color_metrics": {
+    "subject": {
+      "pixels": 1162081,
+      "mae_srgb8": 3.274620487711607,
+      "rmse_srgb8": 14.90648380541637,
+      "hit_fraction": 0.9187285567873495,
+      "miss_pixels": 94444,
+      "max_channel_tolerance_srgb8": 5.0
+    },
+    "face_and_pose_context": {
+      "pixels": 698247,
+      "mae_srgb8": 2.546137709139408,
+      "rmse_srgb8": 12.648644729840749,
+      "hit_fraction": 0.9343613363179505,
+      "miss_pixels": 45832,
+      "max_channel_tolerance_srgb8": 5.0
+    },
+    "eye_left": {
+      "pixels": 35872,
+      "mae_srgb8": 2.8685325602140948,
+      "rmse_srgb8": 14.03197611536065,
+      "hit_fraction": 0.9177631578947368,
+      "miss_pixels": 2950,
+      "max_channel_tolerance_srgb8": 5.0
+    },
+    "eye_right": {
+      "pixels": 33350,
+      "mae_srgb8": 3.412743628185907,
+      "rmse_srgb8": 17.679284811447488,
+      "hit_fraction": 0.903928035982009,
+      "miss_pixels": 3204,
+      "max_channel_tolerance_srgb8": 5.0
+    },
+    "main_hair_flow": {
+      "pixels": 920610,
+      "mae_srgb8": 2.8345056322062105,
+      "rmse_srgb8": 13.449784161369315,
+      "hit_fraction": 0.929755270961645,
+      "miss_pixels": 64668,
+      "max_channel_tolerance_srgb8": 5.0
+    },
+    "top_hook": {
+      "pixels": 81234,
+      "mae_srgb8": 4.545058566384757,
+      "rmse_srgb8": 19.13481083884617,
+      "hit_fraction": 0.897050496097693,
+      "miss_pixels": 8363,
+      "max_channel_tolerance_srgb8": 5.0
+    },
+    "head_side_fin": {
+      "pixels": 81065,
+      "mae_srgb8": 6.630084306590088,
+      "rmse_srgb8": 20.309154632734437,
+      "hit_fraction": 0.8087090606303583,
+      "miss_pixels": 15507,
+      "max_channel_tolerance_srgb8": 5.0
+    },
+    "side_bow": {
+      "pixels": 35400,
+      "mae_srgb8": 6.212497396698793,
+      "rmse_srgb8": 17.655496467338523,
+      "hit_fraction": 0.7909322033898305,
+      "miss_pixels": 7401,
+      "max_channel_tolerance_srgb8": 5.0
+    },
+    "white_frill": {
+      "pixels": 542268,
+      "mae_srgb8": 3.5374212403764758,
+      "rmse_srgb8": 16.826317236169007,
+      "hit_fraction": 0.9268147853091091,
+      "miss_pixels": 39686,
+      "max_channel_tolerance_srgb8": 5.0
+    }
+  },
+  "checks": [
+    {
+      "id": "subject.mae_srgb8",
+      "observed": 3.274620487711607,
+      "limit": 2.55,
+      "relation": "max",
+      "passed": false
+    },
+    {
+      "id": "subject.rmse_srgb8",
+      "observed": 14.90648380541637,
+      "limit": 8.0,
+      "relation": "max",
+      "passed": false
+    },
+    {
+      "id": "subject.hit_fraction",
+      "observed": 0.9187285567873495,
+      "limit": 0.99,
+      "relation": "min",
+      "passed": false
+    },
+    {
+      "id": "face_and_pose_context.mae_srgb8",
+      "observed": 2.546137709139408,
+      "limit": 5.1,
+      "relation": "max",
+      "passed": true
+    },
+    {
+      "id": "face_and_pose_context.rmse_srgb8",
+      "observed": 12.648644729840749,
+      "limit": 10.0,
+      "relation": "max",
+      "passed": false
+    },
+    {
+      "id": "face_and_pose_context.hit_fraction",
+      "observed": 0.9343613363179505,
+      "limit": 0.99,
+      "relation": "min",
+      "passed": false
+    },
+    {
+      "id": "eye_left.mae_srgb8",
+      "observed": 2.8685325602140948,
+      "limit": 5.1,
+      "relation": "max",
+      "passed": true
+    },
+    {
+      "id": "eye_left.rmse_srgb8",
+      "observed": 14.03197611536065,
+      "limit": 10.0,
+      "relation": "max",
+      "passed": false
+    },
+    {
+      "id": "eye_left.hit_fraction",
+      "observed": 0.9177631578947368,
+      "limit": 0.99,
+      "relation": "min",
+      "passed": false
+    },
+    {
+      "id": "eye_right.mae_srgb8",
+      "observed": 3.412743628185907,
+      "limit": 5.1,
+      "relation": "max",
+      "passed": true
+    },
+    {
+      "id": "eye_right.rmse_srgb8",
+      "observed": 17.679284811447488,
+      "limit": 10.0,
+      "relation": "max",
+      "passed": false
+    },
+    {
+      "id": "eye_right.hit_fraction",
+      "observed": 0.903928035982009,
+      "limit": 0.99,
+      "relation": "min",
+      "passed": false
+    },
+    {
+      "id": "main_hair_flow.mae_srgb8",
+      "observed": 2.8345056322062105,
+      "limit": 5.1,
+      "relation": "max",
+      "passed": true
+    },
+    {
+      "id": "main_hair_flow.rmse_srgb8",
+      "observed": 13.449784161369315,
+      "limit": 10.0,
+      "relation": "max",
+      "passed": false
+    },
+    {
+      "id": "main_hair_flow.hit_fraction",
+      "observed": 0.929755270961645,
+      "limit": 0.99,
+      "relation": "min",
+      "passed": false
+    },
+    {
+      "id": "top_hook.mae_srgb8",
+      "observed": 4.545058566384757,
+      "limit": 5.1,
+      "relation": "max",
+      "passed": true
+    },
+    {
+      "id": "top_hook.rmse_srgb8",
+      "observed": 19.13481083884617,
+      "limit": 10.0,
+      "relation": "max",
+      "passed": false
+    },
+    {
+      "id": "top_hook.hit_fraction",
+      "observed": 0.897050496097693,
+      "limit": 0.99,
+      "relation": "min",
+      "passed": false
+    },
+    {
+      "id": "head_side_fin.mae_srgb8",
+      "observed": 6.630084306590088,
+      "limit": 5.1,
+      "relation": "max",
+      "passed": false
+    },
+    {
+      "id": "head_side_fin.rmse_srgb8",
+      "observed": 20.309154632734437,
+      "limit": 10.0,
+      "relation": "max",
+      "passed": false
+    },
+    {
+      "id": "head_side_fin.hit_fraction",
+      "observed": 0.8087090606303583,
+      "limit": 0.99,
+      "relation": "min",
+      "passed": false
+    },
+    {
+      "id": "side_bow.mae_srgb8",
+      "observed": 6.212497396698793,
+      "limit": 5.1,
+      "relation": "max",
+      "passed": false
+    },
+    {
+      "id": "side_bow.rmse_srgb8",
+      "observed": 17.655496467338523,
+      "limit": 10.0,
+      "relation": "max",
+      "passed": false
+    },
+    {
+      "id": "side_bow.hit_fraction",
+      "observed": 0.7909322033898305,
+      "limit": 0.99,
+      "relation": "min",
+      "passed": false
+    },
+    {
+      "id": "white_frill.mae_srgb8",
+      "observed": 3.5374212403764758,
+      "limit": 5.1,
+      "relation": "max",
+      "passed": true
+    },
+    {
+      "id": "white_frill.rmse_srgb8",
+      "observed": 16.826317236169007,
+      "limit": 10.0,
+      "relation": "max",
+      "passed": false
+    },
+    {
+      "id": "white_frill.hit_fraction",
+      "observed": 0.9268147853091091,
+      "limit": 0.99,
+      "relation": "min",
+      "passed": false
+    },
+    {
+      "id": "silhouette.iou",
+      "observed": 0.9961418545581491,
+      "limit": 0.995,
+      "relation": "min",
+      "passed": true
+    },
+    {
+      "id": "boundary.p95_px",
+      "observed": 3.605551275463989,
+      "limit": 2.0,
+      "relation": "max",
+      "passed": false
+    },
+    {
+      "id": "boundary.max_px",
+      "observed": 15.264337522473747,
+      "limit": 8.0,
+      "relation": "max",
+      "passed": false
+    },
+    {
+      "id": "transparent_canvas.nonzero_alpha_outside_subject_margin",
+      "observed": 0,
+      "limit": 0,
+      "relation": "max",
+      "passed": true
+    }
+  ],
+  "silhouette": {
+    "iou": 0.9961418545581491,
+    "intersection_pixels": 1158507,
+    "union_pixels": 1162994,
+    "false_negative_pixels": 3574,
+    "false_positive_pixels": 913,
+    "boundary": {
+      "status": "measured",
+      "symmetric_mean_px": 1.1017117244911878,
+      "symmetric_p95_px": 3.605551275463989,
+      "symmetric_max_px": 15.264337522473747,
+      "reference_samples": 4885,
+      "candidate_samples": 4445
+    }
+  },
+  "transparency": {
+    "source_boundary_margin_px": 8,
+    "examined_pixels": 441438,
+    "nonzero_alpha_pixels": 0
+  },
+  "background_rgb_in_score": false,
+  "quality_vetoes": "not_evaluated_here; existing capsule, edge and supported material checks required",
+  "visual_acceptance": "not_assessed",
+  "user_acceptance": "not_assessed",
+  "overall_artwork_acceptance": "not_assessed",
+  "schema": "aikon.r1-contract-result.v1",
+  "contract_sha256": "609a8cfc7f0febc8fbd5f4812cf31ee6a853be693b52740770fc95e2e90a5f59",
+  "reference_sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+  "source_mask_sha256": "6ac7fec41a8438eb51954626772fdc926f0a5f91d9bc665b2205e6738ed4a9a7",
+  "svg_sha256": "9eac3fb0d179f4a935ba8810bf6dd7559eafc954f7b7433ec8802d1adcbf0b1d",
+  "render_png_sha256": "596eecaaf0dca012eab6f4221f7e3a6c881bffeebb868731d6efeddcfa0fd4aa",
+  "renderer": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "alignment": "none",
+  "watermark_exclusion": null
+}

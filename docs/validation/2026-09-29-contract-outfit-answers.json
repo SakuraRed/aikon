@@ -1,0 +1,16 @@
+{
+  "schema": "aikon.user-decisions.v1",
+  "recorded_date": "2026-09-29",
+  "tool_result": {"answers": {
+    "deepseek_outfit_reference": {"answers": ["A 蓝白女仆衣装 (Recommended)"]},
+    "r1_numeric_contract": {"answers": ["B 加99%像素命中，但是不要求背景颜色相同，actually，skill需要产出的icon必须是透明背景的svg, 我再强调一次"]}
+  }},
+  "choices": {"r1_numeric_contract": "pixel_hit_b", "deepseek_outfit_reference": "outfit_a_maid"},
+  "user_override": "Background RGB is excluded from similarity. All final icons are transparent, editableSVG. Alpha and subject silhouette remain separate checks; preview mattes are not SVG backgrounds.",
+  "jev": {
+    "model": "jev-1.13.0", "answered_at_utc": "2026-09-29T07:25:07.604636+00:00",
+    "request_sha256": "9b08a8a11cc2f6ebb4d48836458f0899c8518b1574bf81094d5f4472bbea3979",
+    "probabilities": {"r1_numeric_contract": {"multi_metric_a": 0.84, "pixel_hit_b": 0.16}, "deepseek_outfit_reference": {"outfit_c_hoodie": 0.01, "outfit_b_gothic": 0.42, "outfit_a_maid": 0.57}}
+  },
+  "visual_acceptance": "unassessed"
+}

@@ -1,0 +1,828 @@
+{
+  "schema": "aikon.round003.paint-audit.summary.v1",
+  "status": "partial_evidence_legacy_failures_preserved",
+  "source_snapshot": "female aliases r005 repair where changed and r004 unchanged short; male aliases r004; bound individually by raw bytes",
+  "native_analysis_long_edge": 1024,
+  "frozen_rules_file": "docs/validation/paint-fields/frozen-rules.json",
+  "frozen_rules_sha256": "d35cd3475013a7e96d956cb6b268297f0bb0c3a8780886b19899e6b57496c71d",
+  "rows": [
+    {
+      "candidate": "female/masked/full",
+      "source_binding": {
+        "raw_svg_sha256": "2f601ee518bb90635bfab72467c01436f4e743556ef138aded2b3a102adb36a2",
+        "path": "outputs/round-003/endministrator-female/masked/full.svg",
+        "decoded_rgba_sha256": "a3b41445dcd2cd45cc3556a40a06cbd849e3db9c2ed5345ad05434c2784798da",
+        "renderer": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "analysis_input": "native exact final SVG render at1024; no 1280-to1024 image/mask resampling",
+        "analyzer_sha256": "9b8161aa5244d1988110d34244a7a000512ad125a51f239ac9983e136a7b7a5b",
+        "rules_file_sha256": "d35cd3475013a7e96d956cb6b268297f0bb0c3a8780886b19899e6b57496c71d"
+      },
+      "raw_leaf_domains": 60,
+      "single_field_domains": 60,
+      "combined_fill_stroke_unassessed": [],
+      "raw_leaf_coverage_fraction": 0.9527838202298444,
+      "single_field_coverage_fraction": 0.9527838202298444,
+      "measured_single_field_grain_fraction": 0.6089494496221052,
+      "measured_single_field_mottle_fraction": 0.19786805185326678,
+      "legacy_status": "fail",
+      "legacy_issue_count": 46,
+      "single_field_grain_exceeds": [],
+      "single_field_mottle_exceeds": [],
+      "opacity_translucent_pixels_in_measured_interiors": 0,
+      "recolor_alpha_exact": false,
+      "recolor_alpha_discrepant_pixels": 12,
+      "recolor_alpha_max_delta": 1,
+      "recolor_3px_opaque_interior_discrepancies": 0,
+      "face": [
+        {
+          "id": "full-visible-face",
+          "family": "face",
+          "visible_pixels": 122644,
+          "legacy_status": "no_rule_failure",
+          "legacy_failures": [],
+          "islands": {
+            "count": 0,
+            "components": [],
+            "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+          },
+          "opacity": {
+            "sample_pixels": 112122,
+            "translucent_pixels": 0,
+            "translucent_fraction": 0.0,
+            "min_alpha": 255
+          },
+          "full_kernel_support": {
+            "grain": {
+              "kernel_radius_px": 6,
+              "sample_pixels": 95232,
+              "sample_fraction_of_material": 0.7764913081765109,
+              "rms_0_255": 0.1424305844727287,
+              "frozen_bound_0_255": 0.8276688285339487,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 0
+            },
+            "mottle": {
+              "kernel_radius_px": 24,
+              "sample_pixels": 46485,
+              "sample_fraction_of_material": 0.3790238413619908,
+              "rms_0_255": 0.14348001709670077,
+              "frozen_bound_0_255": 0.5,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 31038
+            }
+          }
+        }
+      ],
+      "eyes": [],
+      "inspection_board": "female-masked-full/inspection-board.png",
+      "original_report": "female-masked-full/paint-report.json"
+    },
+    {
+      "candidate": "female/masked/short",
+      "source_binding": {
+        "raw_svg_sha256": "f7eb75b7c1a391baf2a2c4c3234b7f0cdd06754c94f0b560f892a05231802af2",
+        "path": "outputs/round-003/endministrator-female/masked/short.svg",
+        "decoded_rgba_sha256": "bb832764bb00afe9f1d5129762e8fab1c50b6ac378ee19ed5f1ec224218d446d",
+        "renderer": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "analysis_input": "native exact final SVG render at1024; no 1280-to1024 image/mask resampling",
+        "analyzer_sha256": "9b8161aa5244d1988110d34244a7a000512ad125a51f239ac9983e136a7b7a5b",
+        "rules_file_sha256": "d35cd3475013a7e96d956cb6b268297f0bb0c3a8780886b19899e6b57496c71d"
+      },
+      "raw_leaf_domains": 33,
+      "single_field_domains": 33,
+      "combined_fill_stroke_unassessed": [],
+      "raw_leaf_coverage_fraction": 0.9674666378388767,
+      "single_field_coverage_fraction": 0.9674666378388767,
+      "measured_single_field_grain_fraction": 0.7567487057523452,
+      "measured_single_field_mottle_fraction": 0.39027782782602427,
+      "legacy_status": "fail",
+      "legacy_issue_count": 25,
+      "single_field_grain_exceeds": [],
+      "single_field_mottle_exceeds": [],
+      "opacity_translucent_pixels_in_measured_interiors": 0,
+      "recolor_alpha_exact": false,
+      "recolor_alpha_discrepant_pixels": 3,
+      "recolor_alpha_max_delta": 1,
+      "recolor_3px_opaque_interior_discrepancies": 0,
+      "face": [
+        {
+          "id": "face-visible-domain",
+          "family": "face",
+          "visible_pixels": 250237,
+          "legacy_status": "no_rule_failure",
+          "legacy_failures": [],
+          "islands": {
+            "count": 0,
+            "components": [],
+            "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+          },
+          "opacity": {
+            "sample_pixels": 236706,
+            "translucent_pixels": 0,
+            "translucent_fraction": 0.0,
+            "min_alpha": 255
+          },
+          "full_kernel_support": {
+            "grain": {
+              "kernel_radius_px": 6,
+              "sample_pixels": 220314,
+              "sample_fraction_of_material": 0.8804213605501984,
+              "rms_0_255": 0.14119448983897875,
+              "frozen_bound_0_255": 0.8276688285339487,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 0
+            },
+            "mottle": {
+              "kernel_radius_px": 24,
+              "sample_pixels": 160274,
+              "sample_fraction_of_material": 0.6404888166018614,
+              "rms_0_255": 0.1447987081826779,
+              "frozen_bound_0_255": 0.5,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 39140
+            }
+          }
+        }
+      ],
+      "eyes": [],
+      "inspection_board": "female-masked-short/inspection-board.png",
+      "original_report": "female-masked-short/paint-report.json"
+    },
+    {
+      "candidate": "female/unmasked/full",
+      "source_binding": {
+        "raw_svg_sha256": "cf5749efb2512f70e4bb6aa11f53d6e7333e09cc17cc0262054f86bdcb07e084",
+        "path": "outputs/round-003/endministrator-female/unmasked/full.svg",
+        "decoded_rgba_sha256": "4b6ea61a19bef998156981c66b077bf55312d75d6b1e15ed461e823530035715",
+        "renderer": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "analysis_input": "native exact final SVG render at1024; no 1280-to1024 image/mask resampling",
+        "analyzer_sha256": "9b8161aa5244d1988110d34244a7a000512ad125a51f239ac9983e136a7b7a5b",
+        "rules_file_sha256": "d35cd3475013a7e96d956cb6b268297f0bb0c3a8780886b19899e6b57496c71d"
+      },
+      "raw_leaf_domains": 47,
+      "single_field_domains": 45,
+      "combined_fill_stroke_unassessed": [
+        "eye-left",
+        "eye-right"
+      ],
+      "raw_leaf_coverage_fraction": 0.9568036743176939,
+      "single_field_coverage_fraction": 0.9254630672341978,
+      "measured_single_field_grain_fraction": 0.6303886714239691,
+      "measured_single_field_mottle_fraction": 0.2531096849973914,
+      "legacy_status": "fail",
+      "legacy_issue_count": 33,
+      "single_field_grain_exceeds": [],
+      "single_field_mottle_exceeds": [],
+      "opacity_translucent_pixels_in_measured_interiors": 0,
+      "recolor_alpha_exact": false,
+      "recolor_alpha_discrepant_pixels": 12,
+      "recolor_alpha_max_delta": 1,
+      "recolor_3px_opaque_interior_discrepancies": 0,
+      "face": [
+        {
+          "id": "full-visible-face",
+          "family": "face",
+          "visible_pixels": 182373,
+          "legacy_status": "no_rule_failure",
+          "legacy_failures": [],
+          "islands": {
+            "count": 0,
+            "components": [],
+            "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+          },
+          "opacity": {
+            "sample_pixels": 171708,
+            "translucent_pixels": 0,
+            "translucent_fraction": 0.0,
+            "min_alpha": 255
+          },
+          "full_kernel_support": {
+            "grain": {
+              "kernel_radius_px": 6,
+              "sample_pixels": 154289,
+              "sample_fraction_of_material": 0.8460079068721795,
+              "rms_0_255": 0.14440692068674585,
+              "frozen_bound_0_255": 0.8276688285339487,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 0
+            },
+            "mottle": {
+              "kernel_radius_px": 24,
+              "sample_pixels": 91784,
+              "sample_fraction_of_material": 0.503276252515449,
+              "rms_0_255": 0.1440623969774007,
+              "frozen_bound_0_255": 0.5,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 40423
+            }
+          }
+        }
+      ],
+      "eyes": [],
+      "inspection_board": "female-unmasked-full/inspection-board.png",
+      "original_report": "female-unmasked-full/paint-report.json"
+    },
+    {
+      "candidate": "female/unmasked/short",
+      "source_binding": {
+        "raw_svg_sha256": "cc349f32761b634f7c1a120f7e4b8653de591863ad2f8bf7fcfeb52dc2ed7c8b",
+        "path": "outputs/round-003/endministrator-female/unmasked/short.svg",
+        "decoded_rgba_sha256": "ece194171c863a4fceb16cc438e47417810d512bbaeca0c6da414d58a4ac3669",
+        "renderer": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "analysis_input": "native exact final SVG render at1024; no 1280-to1024 image/mask resampling",
+        "analyzer_sha256": "9b8161aa5244d1988110d34244a7a000512ad125a51f239ac9983e136a7b7a5b",
+        "rules_file_sha256": "d35cd3475013a7e96d956cb6b268297f0bb0c3a8780886b19899e6b57496c71d"
+      },
+      "raw_leaf_domains": 21,
+      "single_field_domains": 19,
+      "combined_fill_stroke_unassessed": [
+        "eye-left",
+        "eye-right"
+      ],
+      "raw_leaf_coverage_fraction": 0.9711722100104501,
+      "single_field_coverage_fraction": 0.9311087888724731,
+      "measured_single_field_grain_fraction": 0.7654715145400166,
+      "measured_single_field_mottle_fraction": 0.4359686738015447,
+      "legacy_status": "fail",
+      "legacy_issue_count": 13,
+      "single_field_grain_exceeds": [],
+      "single_field_mottle_exceeds": [],
+      "opacity_translucent_pixels_in_measured_interiors": 0,
+      "recolor_alpha_exact": false,
+      "recolor_alpha_discrepant_pixels": 3,
+      "recolor_alpha_max_delta": 1,
+      "recolor_3px_opaque_interior_discrepancies": 0,
+      "face": [
+        {
+          "id": "face-visible-domain",
+          "family": "face",
+          "visible_pixels": 327683,
+          "legacy_status": "no_rule_failure",
+          "legacy_failures": [],
+          "islands": {
+            "count": 0,
+            "components": [],
+            "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+          },
+          "opacity": {
+            "sample_pixels": 312987,
+            "translucent_pixels": 0,
+            "translucent_fraction": 0.0,
+            "min_alpha": 255
+          },
+          "full_kernel_support": {
+            "grain": {
+              "kernel_radius_px": 6,
+              "sample_pixels": 294138,
+              "sample_fraction_of_material": 0.8976297214075799,
+              "rms_0_255": 0.143164401217023,
+              "frozen_bound_0_255": 0.8276688285339487,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 0
+            },
+            "mottle": {
+              "kernel_radius_px": 24,
+              "sample_pixels": 212545,
+              "sample_fraction_of_material": 0.6486299258734813,
+              "rms_0_255": 0.1431699048185176,
+              "frozen_bound_0_255": 0.5,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 54532
+            }
+          }
+        }
+      ],
+      "eyes": [],
+      "inspection_board": "female-unmasked-short/inspection-board.png",
+      "original_report": "female-unmasked-short/paint-report.json"
+    },
+    {
+      "candidate": "male/masked/full",
+      "source_binding": {
+        "raw_svg_sha256": "9dd03867061985079f9edb8633af3c7b2fe92581cec44a1178c12b613dae80a9",
+        "path": "outputs/round-003/endministrator-male/masked/full.svg",
+        "decoded_rgba_sha256": "5ecc4b3a47494d455bf204db6019721432122d18f2e54f1305f73af740429337",
+        "renderer": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "analysis_input": "native exact final SVG render at1024; no 1280-to1024 image/mask resampling",
+        "analyzer_sha256": "9b8161aa5244d1988110d34244a7a000512ad125a51f239ac9983e136a7b7a5b",
+        "rules_file_sha256": "d35cd3475013a7e96d956cb6b268297f0bb0c3a8780886b19899e6b57496c71d"
+      },
+      "raw_leaf_domains": 45,
+      "single_field_domains": 43,
+      "combined_fill_stroke_unassessed": [
+        "fastener-lower-long",
+        "fastener-upper"
+      ],
+      "raw_leaf_coverage_fraction": 0.9226973963683548,
+      "single_field_coverage_fraction": 0.910251558239942,
+      "measured_single_field_grain_fraction": 0.5583527067419461,
+      "measured_single_field_mottle_fraction": 0.13620137016984235,
+      "legacy_status": "fail",
+      "legacy_issue_count": 24,
+      "single_field_grain_exceeds": [],
+      "single_field_mottle_exceeds": [],
+      "opacity_translucent_pixels_in_measured_interiors": 0,
+      "recolor_alpha_exact": false,
+      "recolor_alpha_discrepant_pixels": 3,
+      "recolor_alpha_max_delta": 1,
+      "recolor_3px_opaque_interior_discrepancies": 0,
+      "face": [
+        {
+          "id": "face",
+          "family": "face",
+          "visible_pixels": 87014,
+          "legacy_status": "no_rule_failure",
+          "legacy_failures": [],
+          "islands": {
+            "count": 0,
+            "components": [],
+            "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+          },
+          "opacity": {
+            "sample_pixels": 79013,
+            "translucent_pixels": 0,
+            "translucent_fraction": 0.0,
+            "min_alpha": 255
+          },
+          "full_kernel_support": {
+            "grain": {
+              "kernel_radius_px": 6,
+              "sample_pixels": 66862,
+              "sample_fraction_of_material": 0.7684050842393179,
+              "rms_0_255": 0.11185142747682843,
+              "frozen_bound_0_255": 0.8276688285339487,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 0
+            },
+            "mottle": {
+              "kernel_radius_px": 24,
+              "sample_pixels": 22389,
+              "sample_fraction_of_material": 0.25730342243776866,
+              "rms_0_255": 0.14310013402509414,
+              "frozen_bound_0_255": 0.5,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 30464
+            }
+          }
+        }
+      ],
+      "eyes": [],
+      "inspection_board": "male-masked-full/inspection-board.png",
+      "original_report": "male-masked-full/paint-report.json"
+    },
+    {
+      "candidate": "male/masked/short",
+      "source_binding": {
+        "raw_svg_sha256": "f7c00c1f3e410030f3d2087d18f6d0d47e9d37e49a3ec7394d12a93d3d8a310a",
+        "path": "outputs/round-003/endministrator-male/masked/short.svg",
+        "decoded_rgba_sha256": "517acc8ad7c24773ce80eaffb7ef00c3584824cf79cfde816c0476d4e332303c",
+        "renderer": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "analysis_input": "native exact final SVG render at1024; no 1280-to1024 image/mask resampling",
+        "analyzer_sha256": "9b8161aa5244d1988110d34244a7a000512ad125a51f239ac9983e136a7b7a5b",
+        "rules_file_sha256": "d35cd3475013a7e96d956cb6b268297f0bb0c3a8780886b19899e6b57496c71d"
+      },
+      "raw_leaf_domains": 22,
+      "single_field_domains": 22,
+      "combined_fill_stroke_unassessed": [],
+      "raw_leaf_coverage_fraction": 0.9409649339207048,
+      "single_field_coverage_fraction": 0.9409649339207048,
+      "measured_single_field_grain_fraction": 0.682048281938326,
+      "measured_single_field_mottle_fraction": 0.27687189427312775,
+      "legacy_status": "fail",
+      "legacy_issue_count": 10,
+      "single_field_grain_exceeds": [],
+      "single_field_mottle_exceeds": [],
+      "opacity_translucent_pixels_in_measured_interiors": 0,
+      "recolor_alpha_exact": false,
+      "recolor_alpha_discrepant_pixels": 1,
+      "recolor_alpha_max_delta": 1,
+      "recolor_3px_opaque_interior_discrepancies": 0,
+      "face": [
+        {
+          "id": "face",
+          "family": "face",
+          "visible_pixels": 207842,
+          "legacy_status": "no_rule_failure",
+          "legacy_failures": [],
+          "islands": {
+            "count": 0,
+            "components": [],
+            "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+          },
+          "opacity": {
+            "sample_pixels": 196768,
+            "translucent_pixels": 0,
+            "translucent_fraction": 0.0,
+            "min_alpha": 255
+          },
+          "full_kernel_support": {
+            "grain": {
+              "kernel_radius_px": 6,
+              "sample_pixels": 185949,
+              "sample_fraction_of_material": 0.8946651783566363,
+              "rms_0_255": 0.14242304959530944,
+              "frozen_bound_0_255": 0.8276688285339487,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 0
+            },
+            "mottle": {
+              "kernel_radius_px": 24,
+              "sample_pixels": 127514,
+              "sample_fraction_of_material": 0.6135141116809885,
+              "rms_0_255": 0.15967091842179124,
+              "frozen_bound_0_255": 0.5,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 42620
+            }
+          }
+        }
+      ],
+      "eyes": [],
+      "inspection_board": "male-masked-short/inspection-board.png",
+      "original_report": "male-masked-short/paint-report.json"
+    },
+    {
+      "candidate": "male/unmasked/full",
+      "source_binding": {
+        "raw_svg_sha256": "3779b9c000938999d4b0e340d7fa4d5568d33bd089ce0ac3f920f25a877e6bf1",
+        "path": "outputs/round-003/endministrator-male/unmasked/full.svg",
+        "decoded_rgba_sha256": "29677f82697b72d288a1872bf5d2d016b08fa3c485ee70db10192806856d97ba",
+        "renderer": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "analysis_input": "native exact final SVG render at1024; no 1280-to1024 image/mask resampling",
+        "analyzer_sha256": "9b8161aa5244d1988110d34244a7a000512ad125a51f239ac9983e136a7b7a5b",
+        "rules_file_sha256": "d35cd3475013a7e96d956cb6b268297f0bb0c3a8780886b19899e6b57496c71d"
+      },
+      "raw_leaf_domains": 34,
+      "single_field_domains": 32,
+      "combined_fill_stroke_unassessed": [
+        "fastener-lower-long",
+        "fastener-upper"
+      ],
+      "raw_leaf_coverage_fraction": 0.9328215149104446,
+      "single_field_coverage_fraction": 0.9203756767820318,
+      "measured_single_field_grain_fraction": 0.6121708773257745,
+      "measured_single_field_mottle_fraction": 0.21740594564117616,
+      "legacy_status": "fail",
+      "legacy_issue_count": 16,
+      "single_field_grain_exceeds": [],
+      "single_field_mottle_exceeds": [],
+      "opacity_translucent_pixels_in_measured_interiors": 0,
+      "recolor_alpha_exact": false,
+      "recolor_alpha_discrepant_pixels": 3,
+      "recolor_alpha_max_delta": 1,
+      "recolor_3px_opaque_interior_discrepancies": 0,
+      "face": [
+        {
+          "id": "face",
+          "family": "face",
+          "visible_pixels": 158076,
+          "legacy_status": "no_rule_failure",
+          "legacy_failures": [],
+          "islands": {
+            "count": 0,
+            "components": [],
+            "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+          },
+          "opacity": {
+            "sample_pixels": 147919,
+            "translucent_pixels": 0,
+            "translucent_fraction": 0.0,
+            "min_alpha": 255
+          },
+          "full_kernel_support": {
+            "grain": {
+              "kernel_radius_px": 6,
+              "sample_pixels": 133259,
+              "sample_fraction_of_material": 0.8430058958981755,
+              "rms_0_255": 0.10618711051112506,
+              "frozen_bound_0_255": 0.8276688285339487,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 0
+            },
+            "mottle": {
+              "kernel_radius_px": 24,
+              "sample_pixels": 76885,
+              "sample_fraction_of_material": 0.4863799691287735,
+              "rms_0_255": 0.1410427236424179,
+              "frozen_bound_0_255": 0.5,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 35819
+            }
+          }
+        }
+      ],
+      "eyes": [
+        {
+          "id": "eye-left",
+          "family": "eyes",
+          "visible_pixels": 11085,
+          "legacy_status": "no_rule_failure",
+          "legacy_failures": [],
+          "islands": {
+            "count": 0,
+            "components": [],
+            "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+          },
+          "opacity": {
+            "sample_pixels": 9873,
+            "translucent_pixels": 0,
+            "translucent_fraction": 0.0,
+            "min_alpha": 255
+          },
+          "full_kernel_support": {
+            "grain": {
+              "kernel_radius_px": 6,
+              "sample_pixels": 7948,
+              "sample_fraction_of_material": 0.7170049616599008,
+              "rms_0_255": 0.18210807319436506,
+              "frozen_bound_0_255": 0.8276688285339487,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 0
+            },
+            "mottle": {
+              "kernel_radius_px": 24,
+              "sample_pixels": 795,
+              "sample_fraction_of_material": 0.07171853856562922,
+              "rms_0_255": 0.2747771525120263,
+              "frozen_bound_0_255": 0.5,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 4345
+            }
+          }
+        },
+        {
+          "id": "eye-right",
+          "family": "eyes",
+          "visible_pixels": 11073,
+          "legacy_status": "no_rule_failure",
+          "legacy_failures": [],
+          "islands": {
+            "count": 0,
+            "components": [],
+            "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+          },
+          "opacity": {
+            "sample_pixels": 9864,
+            "translucent_pixels": 0,
+            "translucent_fraction": 0.0,
+            "min_alpha": 255
+          },
+          "full_kernel_support": {
+            "grain": {
+              "kernel_radius_px": 6,
+              "sample_pixels": 7943,
+              "sample_fraction_of_material": 0.7173304434209338,
+              "rms_0_255": 0.12025648107960642,
+              "frozen_bound_0_255": 0.8276688285339487,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 0
+            },
+            "mottle": {
+              "kernel_radius_px": 24,
+              "sample_pixels": 793,
+              "sample_fraction_of_material": 0.07161564165086245,
+              "rms_0_255": 0.26568541985449745,
+              "frozen_bound_0_255": 0.5,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 4347
+            }
+          }
+        }
+      ],
+      "inspection_board": "male-unmasked-full/inspection-board.png",
+      "original_report": "male-unmasked-full/paint-report.json"
+    },
+    {
+      "candidate": "male/unmasked/short",
+      "source_binding": {
+        "raw_svg_sha256": "5625a79e03e5ceb85faef84496e7ad50da1649d1fa06eeebc7803a9a46d70a27",
+        "path": "outputs/round-003/endministrator-male/unmasked/short.svg",
+        "decoded_rgba_sha256": "a1485e171fa806877ed2ce55b80d90d26ce636c3245e6e643d56683ba7638e39",
+        "renderer": {
+          "binding": "resvg-py",
+          "version": "0.5.0",
+          "resvg": "0.48.1"
+        },
+        "analysis_input": "native exact final SVG render at1024; no 1280-to1024 image/mask resampling",
+        "analyzer_sha256": "9b8161aa5244d1988110d34244a7a000512ad125a51f239ac9983e136a7b7a5b",
+        "rules_file_sha256": "d35cd3475013a7e96d956cb6b268297f0bb0c3a8780886b19899e6b57496c71d"
+      },
+      "raw_leaf_domains": 11,
+      "single_field_domains": 11,
+      "combined_fill_stroke_unassessed": [],
+      "raw_leaf_coverage_fraction": 0.9521127753303965,
+      "single_field_coverage_fraction": 0.9521127753303965,
+      "measured_single_field_grain_fraction": 0.7487732158590308,
+      "measured_single_field_mottle_fraction": 0.3955284581497797,
+      "legacy_status": "fail",
+      "legacy_issue_count": 2,
+      "single_field_grain_exceeds": [],
+      "single_field_mottle_exceeds": [],
+      "opacity_translucent_pixels_in_measured_interiors": 0,
+      "recolor_alpha_exact": false,
+      "recolor_alpha_discrepant_pixels": 1,
+      "recolor_alpha_max_delta": 1,
+      "recolor_3px_opaque_interior_discrepancies": 0,
+      "face": [
+        {
+          "id": "face",
+          "family": "face",
+          "visible_pixels": 311112,
+          "legacy_status": "no_rule_failure",
+          "legacy_failures": [],
+          "islands": {
+            "count": 0,
+            "components": [],
+            "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+          },
+          "opacity": {
+            "sample_pixels": 298179,
+            "translucent_pixels": 0,
+            "translucent_fraction": 0.0,
+            "min_alpha": 255
+          },
+          "full_kernel_support": {
+            "grain": {
+              "kernel_radius_px": 6,
+              "sample_pixels": 285847,
+              "sample_fraction_of_material": 0.9187913034534188,
+              "rms_0_255": 0.13124232892939905,
+              "frozen_bound_0_255": 0.8276688285339487,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 1
+            },
+            "mottle": {
+              "kernel_radius_px": 24,
+              "sample_pixels": 218578,
+              "sample_fraction_of_material": 0.7025701355138986,
+              "rms_0_255": 0.1523551035601337,
+              "frozen_bound_0_255": 0.5,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 46674
+            }
+          }
+        }
+      ],
+      "eyes": [
+        {
+          "id": "eye-left",
+          "family": "eyes",
+          "visible_pixels": 15528,
+          "legacy_status": "no_rule_failure",
+          "legacy_failures": [],
+          "islands": {
+            "count": 0,
+            "components": [],
+            "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+          },
+          "opacity": {
+            "sample_pixels": 14098,
+            "translucent_pixels": 0,
+            "translucent_fraction": 0.0,
+            "min_alpha": 255
+          },
+          "full_kernel_support": {
+            "grain": {
+              "kernel_radius_px": 6,
+              "sample_pixels": 11806,
+              "sample_fraction_of_material": 0.7603039670273055,
+              "rms_0_255": 0.16497633907952655,
+              "frozen_bound_0_255": 0.8276688285339487,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 0
+            },
+            "mottle": {
+              "kernel_radius_px": 24,
+              "sample_pixels": 2804,
+              "sample_fraction_of_material": 0.1805770221535291,
+              "rms_0_255": 0.28011753953035484,
+              "frozen_bound_0_255": 0.5,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 5616
+            }
+          }
+        },
+        {
+          "id": "eye-right",
+          "family": "eyes",
+          "visible_pixels": 15531,
+          "legacy_status": "no_rule_failure",
+          "legacy_failures": [],
+          "islands": {
+            "count": 0,
+            "components": [],
+            "interpretation": "geometric evidence only; specular plausibility requires layer/light-direction review"
+          },
+          "opacity": {
+            "sample_pixels": 14100,
+            "translucent_pixels": 0,
+            "translucent_fraction": 0.0,
+            "min_alpha": 255
+          },
+          "full_kernel_support": {
+            "grain": {
+              "kernel_radius_px": 6,
+              "sample_pixels": 11809,
+              "sample_fraction_of_material": 0.7603502672075204,
+              "rms_0_255": 0.10806752287239224,
+              "frozen_bound_0_255": 0.8276688285339487,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 0
+            },
+            "mottle": {
+              "kernel_radius_px": 24,
+              "sample_pixels": 2808,
+              "sample_fraction_of_material": 0.18079969094069925,
+              "rms_0_255": 0.19115675136624002,
+              "frozen_bound_0_255": 0.5,
+              "exceeds_bound": false,
+              "measurement_status": "measured_partial_interior",
+              "legacy_samples_without_full_support": 5620
+            }
+          }
+        }
+      ],
+      "inspection_board": "male-unmasked-short/inspection-board.png",
+      "original_report": "male-unmasked-short/paint-report.json"
+    }
+  ],
+  "visual_review": {
+    "inspected_all_eight_boards": true,
+    "additional_island_overlays": [
+      "male-unmasked-short",
+      "male-masked-short",
+      "female-unmasked-short",
+      "female-masked-full"
+    ],
+    "observations": [
+      "Visible face masks exclude eyes, cheeks, hair, and real mask occlusion.",
+      "Individual hair boundaries follow the corresponding visible locks; hidden definitions/support paths do not appear as independent owners.",
+      "Full collar domains respect overlapping head, collar, ring and chest parts.",
+      "The complete-kernel support excludes thin rims, hair tips and hardware; it does not silently union neighboring fields.",
+      "Reviewed red island locations cluster at narrowed hair junctions/tips, thin metal and mask boundaries; no automatic false-positive dismissal is made."
+    ]
+  },
+  "limitations": [
+    "All eight original legacy reports remain fail; this is not a new passing paint gate.",
+    "All eight recolor alpha exact-equality checks fail at1-12 external AA pixels by1LSB; all affected49x49 neighborhoods excluded. The exact-alpha assumption was not achieved.",
+    "Female eye leaves and male long fasteners contain distinct fill/stroke paints; their existing leaf diagnostics are retained but excluded from strict single-field coverage and certification.",
+    "Grain/mottle statements apply only to fields with complete filtering support and at least64 samples; missing support is unassessed.",
+    "Quadratic color-island model does not characterize arbitrary legal radial light fields. Island failures remain unresolved geometric evidence.",
+    "Family colors are organizational labels, not material chemistry or source truth.",
+    "No claim about complete clean paint, identity, natural highlights,99percent similarity or user acceptance."
+  ],
+  "art_mutated": false,
+  "thresholds_changed": false,
+  "whole_art_pass": "not_claimed"
+}

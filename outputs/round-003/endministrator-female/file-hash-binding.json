@@ -1,0 +1,35 @@
+{
+  "schema": "aikon.hash-binding.v1",
+  "historical_report_svg_sha256_means": "UTF-8 text after universal newline normalization, not raw file bytes",
+  "actual_svg_files_preserved": true,
+  "records": [
+    {
+      "file": "endministrator-female/unmasked/short.svg",
+      "svg_file_sha256": "cc349f32761b634f7c1a120f7e4b8653de591863ad2f8bf7fcfeb52dc2ed7c8b",
+      "svg_lf_text_sha256": "969d0cc7551c1ff55e980fd2690a3dc6b1ca05e7a7d63be0506880a97a735e85",
+      "crlf_pairs": 1,
+      "visual_acceptance": "unassessed"
+    },
+    {
+      "file": "endministrator-female/unmasked/full.svg",
+      "svg_file_sha256": "cf5749efb2512f70e4bb6aa11f53d6e7333e09cc17cc0262054f86bdcb07e084",
+      "svg_lf_text_sha256": "65677d780446e2e9d6a99173d0862b5271d4fdb00e58d5b85f73160462607e34",
+      "crlf_pairs": 1,
+      "visual_acceptance": "unassessed"
+    },
+    {
+      "file": "endministrator-female/masked/short.svg",
+      "svg_file_sha256": "f7eb75b7c1a391baf2a2c4c3234b7f0cdd06754c94f0b560f892a05231802af2",
+      "svg_lf_text_sha256": "4c6790e08126f6335ea3ba22e3e3d9512e1efd7782d11dfc1f2f949de2bcc5ba",
+      "crlf_pairs": 1,
+      "visual_acceptance": "unassessed"
+    },
+    {
+      "file": "endministrator-female/masked/full.svg",
+      "svg_file_sha256": "2f601ee518bb90635bfab72467c01436f4e743556ef138aded2b3a102adb36a2",
+      "svg_lf_text_sha256": "2460f7ac589b7a31fd2d24c89ec99faf666a63de7803b159d03869244173cb7b",
+      "crlf_pairs": 1,
+      "visual_acceptance": "unassessed"
+    }
+  ]
+}

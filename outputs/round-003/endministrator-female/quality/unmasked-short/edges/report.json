@@ -1,0 +1,185 @@
+{
+  "schema": "aikon.edge-quality.v1",
+  "status": "no_rule_failure",
+  "mode": "same_svg_supersampled_reference",
+  "canvas": [
+    256,
+    256
+  ],
+  "supersample": 4,
+  "reference_method": "4x precise SVG render; premultiplied encoded-sRGB BOX area integration",
+  "source_sha256": "780032e7df6625be5d18ec5f9132b18a506921c554d6f05a1bdfeaeda63582a0",
+  "candidate_rgba_sha256": "b484120a3740a3501f8bad7a475334c0c13e24731d8942af6aadf8452cb64607",
+  "candidate_source": "native_svg_render",
+  "native_byte_identity_is_not_a_quality_rule": true,
+  "backend": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "rules": {
+    "coverage_edge_mae_max_0_255": 8.0,
+    "coverage_large_error_min_0_255": 32.0,
+    "coverage_large_error_fraction_max": 0.03,
+    "color_edge_mae_max_0_255": 8.0,
+    "color_large_error_min_0_255": 32.0,
+    "color_large_error_fraction_max": 0.03,
+    "color_local_bad_pixels_max": 3,
+    "interior_alpha_deficit_min_0_255": 3.0,
+    "interior_alpha_bad_pixels_max": 3,
+    "minimum_edge_samples": 16
+  },
+  "rule_provenance": "docs/validation/edges-v3/README.md",
+  "metrics": {
+    "coverage": {
+      "sample_pixels": 2805,
+      "mae_0_255": 2.263725519180298,
+      "rms_0_255": 6.271722793579102,
+      "p95_0_255": 15.75,
+      "max_0_255": 57.0625,
+      "large_error_pixels": 15,
+      "large_error_fraction": 0.0053475935828877,
+      "large_error_threshold_0_255": 32.0
+    },
+    "color": {
+      "sample_pixels": 8807,
+      "mae_0_255": 1.5224018096923828,
+      "rms_0_255": 3.912055730819702,
+      "p95_0_255": 9.106249809265137,
+      "max_0_255": 39.6875,
+      "large_error_pixels": 8,
+      "large_error_fraction": 0.0009083683433632338,
+      "large_error_threshold_0_255": 32.0
+    },
+    "local_color": {
+      "large_error_threshold_0_255": 32.0,
+      "join_gap_pixels": 1,
+      "largest_bad_pixel_count": 2,
+      "top_clusters": [
+        {
+          "bad_pixels": 2,
+          "bbox_pixels": [
+            15,
+            254,
+            18,
+            256
+          ],
+          "peak_error_0_255": 39.6875
+        },
+        {
+          "bad_pixels": 1,
+          "bbox_pixels": [
+            34,
+            168,
+            35,
+            169
+          ],
+          "peak_error_0_255": 38.75
+        },
+        {
+          "bad_pixels": 1,
+          "bbox_pixels": [
+            45,
+            84,
+            46,
+            85
+          ],
+          "peak_error_0_255": 32.4375
+        },
+        {
+          "bad_pixels": 1,
+          "bbox_pixels": [
+            44,
+            78,
+            45,
+            79
+          ],
+          "peak_error_0_255": 34.3125
+        },
+        {
+          "bad_pixels": 1,
+          "bbox_pixels": [
+            43,
+            70,
+            44,
+            71
+          ],
+          "peak_error_0_255": 38.4375
+        },
+        {
+          "bad_pixels": 1,
+          "bbox_pixels": [
+            41,
+            53,
+            42,
+            54
+          ],
+          "peak_error_0_255": 35.125
+        },
+        {
+          "bad_pixels": 1,
+          "bbox_pixels": [
+            40,
+            45,
+            41,
+            46
+          ],
+          "peak_error_0_255": 38.8125
+        }
+      ]
+    },
+    "interior_alpha": {
+      "sample_pixels": 50806,
+      "bad_pixels": 1,
+      "max_deficit_0_255": 4.0,
+      "meaning": "deficit against opaque interior of this SVG, not intended-shape validation"
+    },
+    "composite_dark": {
+      "sample_pixels": 9908,
+      "mae_0_255": 1.4178435802459717,
+      "rms_0_255": 3.7233645915985107,
+      "p95_0_255": 8.3125,
+      "max_0_255": 39.6875,
+      "large_error_pixels": 8,
+      "large_error_fraction": 0.0008074283407347598,
+      "large_error_threshold_0_255": 32.0
+    },
+    "composite_light": {
+      "sample_pixels": 9908,
+      "mae_0_255": 1.8311864137649536,
+      "rms_0_255": 4.520342826843262,
+      "p95_0_255": 11.0625,
+      "max_0_255": 40.2166748046875,
+      "large_error_pixels": 12,
+      "large_error_fraction": 0.0012111425111021397,
+      "large_error_threshold_0_255": 32.0
+    }
+  },
+  "validation_scope": {
+    "positive_calibration_long_edges": [
+      128,
+      256
+    ],
+    "prototype_supported_long_edge_range": [
+      32,
+      1024
+    ],
+    "limits_outside_calibration": "API budget is not validation at every size; inspect evidence at the actual export size",
+    "reference_edge_band_pixels": 2805,
+    "fractional_coverage_pixels": 617,
+    "contour_measure_note": "pixel sample counts, not arc-length estimate; aggregate fraction changes with contour complexity"
+  },
+  "assessed_edge_channels": [
+    "coverage",
+    "color"
+  ],
+  "issues": [],
+  "limitations": [
+    "Same SVG geometry and paint are assumed, not verified against a character reference.",
+    "Supersampling is a numerical comparator, not an artist-approved ground truth.",
+    "Small/local errors under these aggregate bounds can remain undetected.",
+    "SVG-authored holes, intended jagged geometry, grain and incorrect shape can repeat in both renders.",
+    "No conclusion about character identity, tilt, capsule shape, highlight naturalness or user acceptance."
+  ],
+  "visual_acceptance": "not_assessed"
+}

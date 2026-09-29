@@ -1,0 +1,26 @@
+{
+  "status": "visually_reviewed_not_accepted",
+  "actually_viewed": [
+    "overview-r001.png (including actual 128/48/24 previews)",
+    "unmasked/full/revisions/r001/preview-1280.png",
+    "masked/short/revisions/r001/preview-1280.png"
+  ],
+  "failures": [
+    "Full unmasked eyes are occluded at their upper ends; short right eye partly occluded.",
+    "Crown has three overly tall spikes with triangular separate paint; too crown-like.",
+    "Right outer hair groups are too regular.",
+    "Full face covers almost all dark inner collar; neck connection insufficient.",
+    "Pale metal rings lack separation from the pale chest field."
+  ],
+  "preserve": [
+    "Male-only asymmetrical swept-short hairstyle; no female clip or bob.",
+    "Opaque mask remains over both eyes; no forehead relocation or fake eyes.",
+    "Transparent vector authoring and smooth analytic paints.",
+    "Independent short/full geometry and actual garment topology."
+  ],
+  "not_claimed": [
+    "99% visual fidelity",
+    "User acceptance",
+    "Complete paint/edge CI pass"
+  ]
+}

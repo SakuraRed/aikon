@@ -1,0 +1,146 @@
+{
+  "existing_crop_path": "M 290 0 H 990 C 1167 0 1280 113 1280 290 V 990 C 1280 1167 1167 1280 990 1280 H 290 C 113 1280 0 1167 0 990 V 290 C 0 113 113 0 290 0 Z",
+  "source_alpha_values": 234,
+  "source_alpha_opaque": 1558446,
+  "source_alpha_transparent": 74345,
+  "crop_binary_xor_pixels": 13155,
+  "crop_binary_iou": 0.9916451948279597,
+  "crop_alpha_mae": 2.0408734130859374,
+  "crop_boundary_mean_distance_px": 2.5160569390922047,
+  "crop_boundary_max_distance_px": 12.806248474865697,
+  "rgb_absolute_error_sum_all": 4756135.005228758,
+  "rgb_absolute_error_sum_frame_affected": 834559.2666666666,
+  "active_pixels_frame_affected": 5706,
+  "regions": {
+    "upper-left": {
+      "binary_xor": 3280,
+      "active_frame_affected_pixels": 230,
+      "rgb_error_sum": 1058163.2993464053,
+      "rgb_error_sum_frame_affected": 20652.5568627451
+    },
+    "upper-right": {
+      "binary_xor": 3280,
+      "active_frame_affected_pixels": 1,
+      "rgb_error_sum": 664741.588235294,
+      "rgb_error_sum_frame_affected": 226.33333333333337
+    },
+    "lower-left": {
+      "binary_xor": 3298,
+      "active_frame_affected_pixels": 4116,
+      "rgb_error_sum": 1390076.7947712417,
+      "rgb_error_sum_frame_affected": 734876.2156862745
+    },
+    "lower-right": {
+      "binary_xor": 3297,
+      "active_frame_affected_pixels": 1359,
+      "rgb_error_sum": 1643153.3228758173,
+      "rgb_error_sum_frame_affected": 78804.16078431372
+    }
+  },
+  "source_boundary_rows": {
+    "0": [
+      282,
+      997
+    ],
+    "1": [
+      270,
+      1009
+    ],
+    "5": [
+      242,
+      1037
+    ],
+    "10": [
+      221,
+      1058
+    ],
+    "20": [
+      191,
+      1088
+    ],
+    "40": [
+      149,
+      1130
+    ],
+    "80": [
+      95,
+      1184
+    ],
+    "120": [
+      59,
+      1220
+    ],
+    "160": [
+      34,
+      1245
+    ],
+    "200": [
+      17,
+      1262
+    ],
+    "240": [
+      6,
+      1273
+    ],
+    "280": [
+      1,
+      1278
+    ],
+    "300": [
+      0,
+      1279
+    ],
+    "320": [
+      0,
+      1279
+    ],
+    "960": [
+      0,
+      1279
+    ],
+    "1000": [
+      1,
+      1278
+    ],
+    "1040": [
+      6,
+      1273
+    ],
+    "1080": [
+      17,
+      1262
+    ],
+    "1120": [
+      35,
+      1244
+    ],
+    "1160": [
+      60,
+      1219
+    ],
+    "1200": [
+      96,
+      1183
+    ],
+    "1240": [
+      151,
+      1128
+    ],
+    "1260": [
+      193,
+      1086
+    ],
+    "1270": [
+      225,
+      1054
+    ],
+    "1275": [
+      248,
+      1031
+    ],
+    "1279": [
+      282,
+      997
+    ]
+  }
+}

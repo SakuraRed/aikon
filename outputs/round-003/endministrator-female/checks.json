@@ -1,0 +1,112 @@
+{
+  "schema": "aikon.female-round3-review.v1",
+  "renderer": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "user_acceptance": "unassessed",
+  "reference_similarity_99": "not_assessed",
+  "records": [
+    {
+      "branch": "unmasked",
+      "profile": "short",
+      "revision": "r004",
+      "svg_sha256": "969d0cc7551c1ff55e980fd2690a3dc6b1ca05e7a7d63be0506880a97a735e85",
+      "structural": "passed",
+      "cache_rgba_equal": {
+        "1280": true,
+        "128": true,
+        "48": true,
+        "24": true
+      },
+      "user_acceptance": "unassessed",
+      "edge_gate": {
+        "status": "no_rule_failure",
+        "issues": []
+      },
+      "capsules": {
+        "statuses": [
+          "no_rule_failure",
+          "no_rule_failure"
+        ],
+        "issues": [
+          [],
+          []
+        ],
+        "limitation": "isolated actual vector geometry; visible occlusion checked visually"
+      }
+    },
+    {
+      "branch": "unmasked",
+      "profile": "full",
+      "revision": "r005",
+      "svg_sha256": "65677d780446e2e9d6a99173d0862b5271d4fdb00e58d5b85f73160462607e34",
+      "structural": "passed",
+      "cache_rgba_equal": {
+        "1280": true,
+        "128": true,
+        "48": true,
+        "24": true
+      },
+      "user_acceptance": "unassessed",
+      "edge_gate": {
+        "status": "no_rule_failure",
+        "issues": []
+      },
+      "capsules": {
+        "statuses": [
+          "no_rule_failure",
+          "no_rule_failure"
+        ],
+        "issues": [
+          [],
+          []
+        ],
+        "limitation": "isolated actual vector geometry; visible occlusion checked visually"
+      }
+    },
+    {
+      "branch": "masked",
+      "profile": "short",
+      "revision": "r005",
+      "svg_sha256": "4c6790e08126f6335ea3ba22e3e3d9512e1efd7782d11dfc1f2f949de2bcc5ba",
+      "structural": "passed",
+      "cache_rgba_equal": {
+        "1280": true,
+        "128": true,
+        "48": true,
+        "24": true
+      },
+      "user_acceptance": "unassessed",
+      "edge_gate": {
+        "status": "no_rule_failure",
+        "issues": []
+      },
+      "capsules": {
+        "status": "not_applicable_user_selected_opaque_eye_occlusion"
+      }
+    },
+    {
+      "branch": "masked",
+      "profile": "full",
+      "revision": "r005",
+      "svg_sha256": "2460f7ac589b7a31fd2d24c89ec99faf666a63de7803b159d03869244173cb7b",
+      "structural": "passed",
+      "cache_rgba_equal": {
+        "1280": true,
+        "128": true,
+        "48": true,
+        "24": true
+      },
+      "user_acceptance": "unassessed",
+      "edge_gate": {
+        "status": "no_rule_failure",
+        "issues": []
+      },
+      "capsules": {
+        "status": "not_applicable_user_selected_opaque_eye_occlusion"
+      }
+    }
+  ]
+}

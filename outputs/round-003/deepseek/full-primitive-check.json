@@ -1,0 +1,26 @@
+{
+  "revision": "r006",
+  "source_sha256": "ff3197cd7d083ff4e8a697bf5e3437bf4af7600259ce3276ba638928c1dc950d",
+  "tag_counts": {
+    "svg": 1,
+    "title": 1,
+    "desc": 1,
+    "defs": 1,
+    "linearGradient": 54,
+    "stop": 277,
+    "radialGradient": 2,
+    "clipPath": 4,
+    "rect": 2,
+    "mask": 1,
+    "path": 78,
+    "g": 7,
+    "ellipse": 2
+  },
+  "forbidden_tags_present": [],
+  "eye_ids": [
+    "eye-left",
+    "eye-right"
+  ],
+  "unique_ids": true,
+  "status": "static structure only; edge gate fail remains"
+}

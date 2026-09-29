@@ -1,0 +1,30 @@
+{
+  "round": "round-003",
+  "entity": "endministrator-female",
+  "profile": "short",
+  "branch": "masked",
+  "revision": "r002",
+  "parent": "r001",
+  "reference_basis": "official illustration",
+  "user_decision": "both",
+  "user_acceptance": "unassessed",
+  "svg_sha256": "2e957c9871a7bbd159e1fac20a5fb65c8a5f2e696a166f8384872434c596667a",
+  "structural_check": "passed",
+  "renderer": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "alpha": {
+    "transparent_pixels": 334644,
+    "opaque_pixels": 1301160,
+    "partial_pixels": 2596,
+    "top_right": 0
+  },
+  "eyes": {
+    "kind": "normally occluded by opaque suppressor",
+    "capsules_omitted": true
+  },
+  "visual_review": "pending actual image inspection",
+  "claim_limit": "No 99 percent or user acceptance claim."
+}

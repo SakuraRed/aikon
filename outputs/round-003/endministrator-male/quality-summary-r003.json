@@ -1,0 +1,168 @@
+{
+  "candidates": [
+    {
+      "branch": "masked",
+      "profile": "short",
+      "revision": "r003",
+      "svg_sha256": "6ef4686c7d039b069a967c7934a6d6944797a336ae7a8df6c73dae88f2417f3f",
+      "normalized_source_sha256": "72bec93233b05eb095e5c4a353b6bd418e47c4a75e3cdeedaec005c4ca0b7b03",
+      "hash_note": "svg_sha256 hashes raw file bytes; edge source_sha256 hashes decoded newline-normalized source text on Windows. Both are recorded, not interchanged.",
+      "static_svg_subset": "pass",
+      "rerender": {
+        "1280": {
+          "RGBA_equal": true,
+          "cached_sha256": "e207c4eaa23f970af16f940af7a13a0c679ff3ba6aa566a889a94bd6f6791f61"
+        },
+        "128": {
+          "RGBA_equal": true,
+          "cached_sha256": "545f5ec1370ad13ddc5cd43cc3d4b054850d29d258dc510e7682f89e7991776b"
+        },
+        "48": {
+          "RGBA_equal": true,
+          "cached_sha256": "f58f889f17f7be194282d63f5b96c9e83bfb14bcddf98772f0a0c7fb90586069"
+        },
+        "24": {
+          "RGBA_equal": true,
+          "cached_sha256": "0811400e43b7d578bb05a04f6cb1802e6bb2d4d34d12f17400ef568825413f43"
+        }
+      },
+      "transparent_pixels": 526493,
+      "opaque_pixels": 1108828,
+      "partially_covered_pixels": 3079,
+      "base_revision": "r002",
+      "changed_pixels_from_base": 66659,
+      "capsules": "not applicable: user-authorized real opaque eye occlusion; no eye geometry added",
+      "edge_status": "fail",
+      "edge_local_bad_pixels": 9,
+      "edge_interior_alpha_bad_pixels": 0,
+      "paint_status": "not assessed: no independent material masks/field model for this new geometry; visual review and no-noise construction are separate evidence",
+      "identity_and_pitch": "human visual review required; no numeric resemblance assertion",
+      "visual_acceptance": "not_user_accepted"
+    },
+    {
+      "branch": "masked",
+      "profile": "full",
+      "revision": "r003",
+      "svg_sha256": "2d8cc44396c78d22b7717bec07242e18270a378d5830c61f5b423f8d8d261f2e",
+      "normalized_source_sha256": "bbc39789dfacea7c2ada88001a2157bbfca8828aa7788f39a795b8895060dc6f",
+      "hash_note": "svg_sha256 hashes raw file bytes; edge source_sha256 hashes decoded newline-normalized source text on Windows. Both are recorded, not interchanged.",
+      "static_svg_subset": "pass",
+      "rerender": {
+        "1280": {
+          "RGBA_equal": true,
+          "cached_sha256": "232d1632cadc268e764d92ae5cb67cb0f2be855fffdb09657452702c46365660"
+        },
+        "128": {
+          "RGBA_equal": true,
+          "cached_sha256": "1acc5a217aeb768893201216807993a5b49e8f5ff735ae9f72c6ab431ee77d10"
+        },
+        "48": {
+          "RGBA_equal": true,
+          "cached_sha256": "eee64743aef01ad9ddd0acda5786f4d2fed672b56f10fe7ae064f33d5417c094"
+        },
+        "24": {
+          "RGBA_equal": true,
+          "cached_sha256": "5e2cf5fb82a114b6076a3afa94f48a25d266c7cca8dbafa80785a8ee15e3e06e"
+        }
+      },
+      "transparent_pixels": 623558,
+      "opaque_pixels": 1011882,
+      "partially_covered_pixels": 2960,
+      "base_revision": "r002",
+      "changed_pixels_from_base": 135100,
+      "capsules": "not applicable: user-authorized real opaque eye occlusion; no eye geometry added",
+      "edge_status": "fail",
+      "edge_local_bad_pixels": 8,
+      "edge_interior_alpha_bad_pixels": 0,
+      "paint_status": "not assessed: no independent material masks/field model for this new geometry; visual review and no-noise construction are separate evidence",
+      "identity_and_pitch": "human visual review required; no numeric resemblance assertion",
+      "visual_acceptance": "not_user_accepted"
+    },
+    {
+      "branch": "unmasked",
+      "profile": "short",
+      "revision": "r003",
+      "svg_sha256": "5625a79e03e5ceb85faef84496e7ad50da1649d1fa06eeebc7803a9a46d70a27",
+      "normalized_source_sha256": "08be2dcb78ba19d67d51d17d75c3f5dba058939db90fbc735e3707a7044f2d09",
+      "hash_note": "svg_sha256 hashes raw file bytes; edge source_sha256 hashes decoded newline-normalized source text on Windows. Both are recorded, not interchanged.",
+      "static_svg_subset": "pass",
+      "rerender": {
+        "1280": {
+          "RGBA_equal": true,
+          "cached_sha256": "c5e0720f88fd9fcd723289b43a684d1d8b825d0aadb4f967b047dd5f0020bbf3"
+        },
+        "128": {
+          "RGBA_equal": true,
+          "cached_sha256": "7f09c5ef176a5326d08434e2d815eac49e6c44f4671d222a38a66d7281717259"
+        },
+        "48": {
+          "RGBA_equal": true,
+          "cached_sha256": "6cdcf961bcee04c1c3b79b676a2732b8a039a0c0f4b84cc2a3a5c9e10145c944"
+        },
+        "24": {
+          "RGBA_equal": true,
+          "cached_sha256": "e800066130c745d295bdadada42458f5b610e93fa245c094eeab840695f5cc95"
+        }
+      },
+      "transparent_pixels": 526493,
+      "opaque_pixels": 1108828,
+      "partially_covered_pixels": 3079,
+      "base_revision": "r002",
+      "changed_pixels_from_base": 0,
+      "capsules": [
+        "no_rule_failure",
+        "no_rule_failure"
+      ],
+      "edge_status": "no_rule_failure",
+      "edge_local_bad_pixels": 2,
+      "edge_interior_alpha_bad_pixels": 0,
+      "paint_status": "not assessed: no independent material masks/field model for this new geometry; visual review and no-noise construction are separate evidence",
+      "identity_and_pitch": "human visual review required; no numeric resemblance assertion",
+      "visual_acceptance": "not_user_accepted"
+    },
+    {
+      "branch": "unmasked",
+      "profile": "full",
+      "revision": "r003",
+      "svg_sha256": "3779b9c000938999d4b0e340d7fa4d5568d33bd089ce0ac3f920f25a877e6bf1",
+      "normalized_source_sha256": "ca1689c02e84a8724df500ec61f4bb790c091b4ddbf50465c3906af65d1bb318",
+      "hash_note": "svg_sha256 hashes raw file bytes; edge source_sha256 hashes decoded newline-normalized source text on Windows. Both are recorded, not interchanged.",
+      "static_svg_subset": "pass",
+      "rerender": {
+        "1280": {
+          "RGBA_equal": true,
+          "cached_sha256": "f92cbf943b24484f1f7b5c84fb2bf3ff0e8bdc9617a9758ac125471356509abc"
+        },
+        "128": {
+          "RGBA_equal": true,
+          "cached_sha256": "354a439f190847353e3f6f23bcba1527cc93440d404a19972acd742fd6a27056"
+        },
+        "48": {
+          "RGBA_equal": true,
+          "cached_sha256": "a21ce5ccb87c5d72de370f50a72c0a00d12fa3ce8084832e07a4cf111ab49e0d"
+        },
+        "24": {
+          "RGBA_equal": true,
+          "cached_sha256": "8b0177b0fbb88666c4558404443f138a059a9e32d32d060ad036e0ab44880573"
+        }
+      },
+      "transparent_pixels": 623558,
+      "opaque_pixels": 1011882,
+      "partially_covered_pixels": 2960,
+      "base_revision": "r002",
+      "changed_pixels_from_base": 87501,
+      "capsules": [
+        "no_rule_failure",
+        "no_rule_failure"
+      ],
+      "edge_status": "no_rule_failure",
+      "edge_local_bad_pixels": 1,
+      "edge_interior_alpha_bad_pixels": 0,
+      "paint_status": "not assessed: no independent material masks/field model for this new geometry; visual review and no-noise construction are separate evidence",
+      "identity_and_pitch": "human visual review required; no numeric resemblance assertion",
+      "visual_acceptance": "not_user_accepted"
+    }
+  ],
+  "thresholds": "unchanged existing frozen capsule and edge rules",
+  "global_status": "candidate evidence, not complete art acceptance"
+}

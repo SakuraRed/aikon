@@ -1,0 +1,35 @@
+{
+  "revision": "r002",
+  "derivation": "supervised r004 derivation, not fresh blind test",
+  "base_sha256": "20927e18338f1d8fa131d11cf24fa5ff2eb0367ca85e984060dd4eaa1d338e7d",
+  "short_sha256": "9eac3fb0d179f4a935ba8810bf6dd7559eafc954f7b7433ec8802d1adcbf0b1d",
+  "background_fill": null,
+  "subject_crop": "preserved for source projection, not a background tile",
+  "primitive_validation": "passed generic safe-vector validation",
+  "artistic_acceptance": "not assessed",
+  "full_status": "not delivered; user selected fixing outfit reference first",
+  "renderings": {
+    "1280": {
+      "bytes": 230608,
+      "sha256": "596eecaaf0dca012eab6f4221f7e3a6c881bffeebb868731d6efeddcfa0fd4aa"
+    },
+    "128": {
+      "bytes": 13606,
+      "sha256": "22eda268cc5185dde83695e2bca459c77a954930704def3296301c58335d6e54"
+    },
+    "48": {
+      "bytes": 3760,
+      "sha256": "b6593200d767707ae76ac1499b3a4c7ad30cd7aa7d236af78498e46be50a5c16"
+    },
+    "24": {
+      "bytes": 1444,
+      "sha256": "f6a894030153f0154ed87ed6b88bad59724b80c8b5ea4beac38f7166d5ca3ee8"
+    }
+  },
+  "rendered_RGBA_identical_to_r004": true,
+  "alpha": {
+    "transparent_pixels": 477385,
+    "opaque_pixels": 1157223,
+    "upper_right_alpha": 0
+  }
+}

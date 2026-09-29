@@ -1,0 +1,24 @@
+{
+  "tag_counts": {
+    "svg": 1,
+    "title": 1,
+    "desc": 1,
+    "defs": 1,
+    "linearGradient": 48,
+    "stop": 259,
+    "radialGradient": 2,
+    "clipPath": 2,
+    "path": 44,
+    "rect": 2,
+    "mask": 1,
+    "g": 1,
+    "ellipse": 2
+  },
+  "forbidden_tags_present": [],
+  "eye_ids": [
+    "eye-left",
+    "eye-right"
+  ],
+  "unique_ids": true,
+  "status": "structural only; artistic and existing edge failure remain unaccepted"
+}

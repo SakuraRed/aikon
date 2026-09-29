@@ -1,0 +1,43 @@
+{
+  "revision": "r004",
+  "svg_sha256": "90bf5ec6692b883a45f5a9f46ae2463c2274205993b15cca5985a418540de8d9",
+  "base_sha256": "3ad2270bff2723357c5ddf85243861c1daab0e08d7e8fff4c4a47ee63155c15d",
+  "short_sha256": "9eac3fb0d179f4a935ba8810bf6dd7559eafc954f7b7433ec8802d1adcbf0b1d",
+  "source_A_choice": "user",
+  "outfit_official_status": "not claimed; selected alternative clothing reference",
+  "r1_identity_path_d_preserved": {
+    "identity-crescent": true,
+    "left-sweep": true,
+    "center-fringe": true,
+    "right-main-lock": true,
+    "right-inner-fringe": true,
+    "bow-left": true,
+    "bow-right": true,
+    "eye-left": true,
+    "eye-right": true
+  },
+  "new_inferences": [
+    "unseen lower jaw",
+    "neck and garment pose adaptation",
+    "continuing lower hair"
+  ],
+  "alpha": {
+    "transparent_pixels": 733783,
+    "opaque_pixels": 900684,
+    "upper_right_alpha": 0
+  },
+  "limitations": [
+    "full has no same-pose gold reference",
+    "unseen jaw and lower hair remain creative adaptation",
+    "no full heavy detector suite run",
+    "short strict B99 contract is separate root work",
+    "not user accepted"
+  ],
+  "change": "continuous opaque parent support at fin root; no new ornament",
+  "changed_from_r003_bbox": [
+    603,
+    701,
+    864,
+    991
+  ]
+}

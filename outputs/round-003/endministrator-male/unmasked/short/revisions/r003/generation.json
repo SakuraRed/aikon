@@ -1,0 +1,20 @@
+{
+  "branch": "unmasked",
+  "profile": "short",
+  "revision": "r003",
+  "svg_sha256": "5625a79e03e5ceb85faef84496e7ad50da1649d1fa06eeebc7803a9a46d70a27",
+  "sourcecode_sha256": "1059efeea199e3f015df45e0212e0452c1049efa8c92a8b78b4ee22c6c9dfa22",
+  "prompt_sha256": "cd62e487eb22f4d8a446cdb66ac0a644b0365e2adf7d2608c9c010bc1465059e",
+  "path_count": 17,
+  "renderer": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "structural_validation": "passed static supported SVG subset",
+  "reference_basis": "official illustration",
+  "visual_review": "pending actual host image inspection",
+  "user_acceptance": "unassessed",
+  "capsule_visibility": "two unoccluded actual capsule paths intended",
+  "profile_difference": "tight head-only crop"
+}

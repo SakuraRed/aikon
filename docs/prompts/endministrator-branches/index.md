@@ -1,28 +1,28 @@
 # 管理员条件式 prompt 包
 
-状态：`blocked-until-real-answer`。整理日期：2026-09-29；审阅基线：`05aed2d8e9b74e56190d85210d5382306cdf6866`。这是一套待实例化的分支合同，不是已经获答或可直接开画的生产 prompt。
+状态：`both-branches-authorized`。整理日期：2026-09-29；原始审阅基线：`05aed2d8e9b74e56190d85210d5382306cdf6866`。用户在两次独立原生问题中均选“两种都画”，详见[真实答复](../../validation/2026-09-29-live-native-answers.json)。本包供实例化八张管理员生产 prompt，作品仍需验证和用户审计。
 
-男女是两个独立 entity。女管理员用 [female.md](female.md)，男管理员用 [male.md](male.md)。任何一项获答都不改变另一项的状态；本包不重新提问、不代答、不绘图、不登记视觉验收通过。
+男女是两个独立 entity。女管理员用 [female.md](female.md)，男管理员用 [male.md](male.md)。每个实体均有独立真实答复，不重复询问面具选择，也不登记视觉验收通过。
 
 ## 1. 真实答复门槛
 
-当前快照来自[纠偏计划的面具问题记录](../../plans/2026-09-29-correction-plan.md#3-面具问题状态)，并于本次只读核对 `.local/planning-v3/mask-tool.json` 与 `mask-user-answer.json`：原生工具返回 `answers: {}`。历史推荐和 Jev 判断不构成选择。
+历史[纠偏计划](../../plans/2026-09-29-correction-plan.md#3-面具问题状态)及首轮空答案保留。当前状态来自后续单题表单的真实回答，历史推荐和 Jev 判断不构成选择。
 
 ```json
 {
-  "status": "blocked-until-real-answer",
+  "status": "both-branches-authorized",
   "entities": {
     "endministrator-female": {
       "question_id": "female_mask",
-      "answer_status": "unanswered",
-      "chosen_branch": null,
-      "answer_evidence": null
+      "answer_status": "answered",
+      "chosen_branch": "both",
+      "answer_evidence": "../../validation/2026-09-29-live-native-answers.json#female_mask"
     },
     "endministrator-male": {
       "question_id": "male_mask",
-      "answer_status": "unanswered",
-      "chosen_branch": null,
-      "answer_evidence": null
+      "answer_status": "answered",
+      "chosen_branch": "both",
+      "answer_evidence": "../../validation/2026-09-29-live-native-answers.json#male_mask"
     }
   }
 }
@@ -34,7 +34,7 @@
 | --- | --- | --- | --- |
 | `masked` | 保留面具 | 正常佩戴分支的 short / full，共 2 图 | 不展开、不绘制 |
 | `unmasked` | 不戴面具 | 完全移除面具分支的 short / full，共 2 图 | 不展开、不绘制 |
-| `both` | 两种都对照 | 两份独立分支合同，各有 short / full，共 4 图 | 不把“准备两套模板”解释为选择两套 |
+| `both` | 两种都画（历史草案称“两种都对照”） | 两份独立分支合同，各有 short / full，共 4 图 | 不把“准备两套模板”解释为选择两套 |
 
 执行前逐实体检查：真实答案能指向该 `question_id` → `chosen_branch` 对应答案 → `answer_evidence` 记录原话与可追溯位置 → 该分支证据前提满足 → 分别保存 short/full 生产 prompt。任一值仍为 `null`、答案仍为空、来源只有 Agent 建议或 Jev 输出时，保留阻塞状态。不要以 `masked`、`both` 或历史产物填空。
 

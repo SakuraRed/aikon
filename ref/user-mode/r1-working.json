@@ -1,0 +1,79 @@
+{
+  "schema": "aikon.r1-working-reference.v1",
+  "created_on": "2026-09-29",
+  "working_reference": {
+    "path": "ref/user-mode/r1-working.png",
+    "sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+    "bytes": 494829,
+    "format": "PNG",
+    "mode": "RGBA",
+    "size": [1280, 1280],
+    "purpose": "Explicit watermark-free reference entry for new work; not an SVG output or user-accepted artwork."
+  },
+  "original_user_reference": {
+    "path": "ref/user-mode/r1.png",
+    "sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+    "bytes": 454260,
+    "preserved_unchanged": true,
+    "relationship": "User-provided subject/style binding and immutable provenance; original retains its watermark and legacy detector binding."
+  },
+  "upstream": {
+    "repository": "https://github.com/AvroraCL/CETUS-Desktop",
+    "commit": "7f14ea7819dfb025bafce2f0d088e4901aefead6",
+    "source_url": "https://raw.githubusercontent.com/AvroraCL/CETUS-Desktop/7f14ea7819dfb025bafce2f0d088e4901aefead6/docs/CETUS-ico.png",
+    "retrieved_on": "2026-09-29",
+    "path": "ref/subjects/deepseek/cetus-desktop/CETUS-ico.original.png",
+    "sha256": "4da172c683d7981e170fc90d8e7d1bd8b4e7107799cdc12338859c82e6fb44fd",
+    "size": [4096, 4096],
+    "mode": "RGBA",
+    "rights_status": "Repository declares MIT; artist and independent asset rights chain are unverified. Private research reference, not a redistributable Skill asset."
+  },
+  "byte_copy": {
+    "source": "ref/subjects/deepseek/cetus-desktop/r1-clean-source-1280.png",
+    "source_sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+    "method": "Exact existing PNG byte copy with exclusive file creation; no decode/re-encode, resampling, inpainting, redraw, local correction or alpha replacement during alias creation.",
+    "bytes_identical": true,
+    "normalization_contract": "ref/subjects/deepseek/cetus-desktop/reference-contract-v4.json",
+    "prior_normalization": "Existing source is full-canvas uniform Pillow LANCZOS 4096 to 1280; RGB and alpha both come from upstream."
+  },
+  "visual_inspection": {
+    "method": "Agent viewed the existing clean 1280 PNG and original user r1 through view_image, then viewed the copied working entry.",
+    "result": "Same composition; original r1 has a lower-right watermark; clean source and working entry have no visible lower-right watermark or residual alpha glyph.",
+    "scope": "Reference-source inspection only; not user artistic acceptance or Skill certification."
+  },
+  "alpha_validation": {
+    "all_rgba_pixels_equal_upstream_uniform_lanczos": true,
+    "all_alpha_pixels_equal_upstream_uniform_lanczos": true,
+    "old_r1_alpha_different_pixels_full_canvas": 9071,
+    "old_r1_nonzero_alpha_where_working_zero_full_canvas": 3278,
+    "legacy_watermark_box_xyxy_half_open": [1086, 1198, 1246, 1252],
+    "old_r1_alpha_different_pixels_in_legacy_watermark_box": 3251,
+    "old_r1_nonzero_alpha_where_working_zero_in_legacy_watermark_box": 2965,
+    "legacy_watermark_box_used_as_working_comparison_exclusion": false,
+    "reproduction_performed_in_memory_only": true
+  },
+  "legacy_comparison": {
+    "detector": "tools/compare_r1_reference.py",
+    "bound_reference_sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+    "preserved_unchanged": true,
+    "working_reference_not_substituted_in_legacy_protocol": true,
+    "working_watermark_exclusion": null,
+    "metric_continuity": "Legacy watermark-excluded scores and working full-domain scores are distinct series; do not compare as one sequence."
+  },
+  "acceptance": {
+    "reference_integrity": "passed",
+    "source_visual_inspection": "passed",
+    "user_artistic_acceptance": "not_assessed",
+    "skill_quality_certification": "not_assessed",
+    "user_99_percent_target": "not_assessed",
+    "delivered_svg": false,
+    "final_svg_background_requirement": "transparent; no watermark"
+  },
+  "verification_runtime": {
+    "python": "3.13.3",
+    "Pillow": "12.1.1",
+    "network_or_model_calls": false,
+    "existing_repository_scripts_executed": false
+  },
+  "validation_record": "docs/validation/r1-working-reference.md"
+}
