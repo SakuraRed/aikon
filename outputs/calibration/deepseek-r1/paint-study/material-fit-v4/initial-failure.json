@@ -1,0 +1,9 @@
+{
+  "status": "failed_before_fields_and_preview_output",
+  "error": "ValueError: too few interior pixels; explicit different treatment needed",
+  "region": "hair-center-left-crease",
+  "visible_pixels": 173,
+  "pixels_after_fixed_two_pixel_erosion": 0,
+  "geometry_sha256": "459b11e8734a25f8bf285f256dadf9c70d2833c425257aa21154a32cce4963d1",
+  "repair": "Treat this actual narrow line as a solid; estimate from and report error on all 173 visible pixels. Do not change other surfaces or hide AA uncertainty."
+}

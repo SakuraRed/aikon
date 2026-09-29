@@ -1,0 +1,64 @@
+{
+  "1280": {
+    "backend": {
+      "binding": "resvg-py",
+      "version": "0.5.0",
+      "resvg": "0.48.1"
+    },
+    "width": 1280,
+    "height": 1280,
+    "mode": "RGBA",
+    "source_sha256": "003e73b4d32bfdc7769a08a22dc180684625f08ef0776a88d1444d0dc52b977d",
+    "png_sha256": "57bacfb85d14e2c363785afb6a1705440f38e4964c578a93b257c7393064e85b",
+    "background": "unpainted; source alpha preserved",
+    "visual_acceptance": "not_evaluated"
+  },
+  "128": {
+    "backend": {
+      "binding": "resvg-py",
+      "version": "0.5.0",
+      "resvg": "0.48.1"
+    },
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "source_sha256": "003e73b4d32bfdc7769a08a22dc180684625f08ef0776a88d1444d0dc52b977d",
+    "png_sha256": "b0cce4415ee6033283f1b2ab62e75403ad0f401ed68b8249bf10f4cafcf9ebd1",
+    "background": "unpainted; source alpha preserved",
+    "visual_acceptance": "not_evaluated"
+  },
+  "48": {
+    "backend": {
+      "binding": "resvg-py",
+      "version": "0.5.0",
+      "resvg": "0.48.1"
+    },
+    "width": 48,
+    "height": 48,
+    "mode": "RGBA",
+    "source_sha256": "003e73b4d32bfdc7769a08a22dc180684625f08ef0776a88d1444d0dc52b977d",
+    "png_sha256": "36ad9ad8190ff0ad6ba9ae4abe3ad7ff8ecec33b05d5a5e1a8028107a1693912",
+    "background": "unpainted; source alpha preserved",
+    "visual_acceptance": "not_evaluated"
+  },
+  "24": {
+    "backend": {
+      "binding": "resvg-py",
+      "version": "0.5.0",
+      "resvg": "0.48.1"
+    },
+    "width": 24,
+    "height": 24,
+    "mode": "RGBA",
+    "source_sha256": "003e73b4d32bfdc7769a08a22dc180684625f08ef0776a88d1444d0dc52b977d",
+    "png_sha256": "5ad30ae5ab4b7983d45a85376f5843ebb2f9633000df2ce8b1ca9367db5e564c",
+    "background": "unpainted; source alpha preserved",
+    "visual_acceptance": "not_evaluated"
+  },
+  "construction": {
+    "paths": 37,
+    "raster_inputs_read_by_generator": false,
+    "geometry_source": "independent manual visual estimates",
+    "status": "structurally_checked; visual_review_pending; user_acceptance_pending"
+  }
+}

@@ -1,0 +1,708 @@
+{
+  "schema": "aikon.r1-analytic-paint-study.v1",
+  "source_sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+  "source": "ref/user-mode/r1.png",
+  "geometry_manifest_sha256": "f44678c7e4e909446b46b9fd1f6a900c4cf06e909c3b123ddf4f542fec1fb32e",
+  "scope": "same-source semantic paint calibration, not independent Skill creation or acceptance",
+  "exclusions": {
+    "edge_pixels": 2,
+    "watermark_bbox_xyxy": [
+      1082,
+      1196,
+      1256,
+      1254
+    ]
+  },
+  "palette": [
+    {
+      "id": "face",
+      "semantic_role": "face",
+      "field": {
+        "kind": "radial",
+        "center": [
+          411.97668503131405,
+          910.5331324132903
+        ],
+        "radii": [
+          599.3992922639053,
+          599.6117299267175
+        ],
+        "cx": 0.0,
+        "cy": 0.0,
+        "r": 1.0,
+        "fx": 0.0,
+        "fy": 0.0,
+        "gradientTransform": "translate(411.97669 910.53313) scale(599.39929 599.61173)",
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#fffffe",
+            "rgb": [
+              254.61929,
+              255.0,
+              253.61353
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#fdf0e7",
+            "rgb": [
+              253.09632,
+              239.98917,
+              231.11623
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#f8e6e3",
+            "rgb": [
+              247.76158,
+              230.28714,
+              226.83786
+            ]
+          }
+        ],
+        "sample_rmse": 1.501651167297917,
+        "parameters": 12
+      },
+      "stats": {
+        "visible_pixels": 372879,
+        "edge_excluded_pixels": 9067,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 363812,
+        "parameter_fit_samples": 3000,
+        "rgb_rmse_255": 1.4883546051266137,
+        "rgb_mae_255": 1.0432557864697416,
+        "pixel_rgb_rmse_p95_255": 2.6033634627802025,
+        "pixel_rgb_rmse_max_255": 12.372975573323755,
+        "residual_gt_5_levels_pixels": 2557,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 4.873099504194202
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 4.67115973251303
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.788128645069933
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 3.6968304259764833
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.501651167297917
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 3.5865757046772635
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.4255880786750024
+          }
+        ]
+      }
+    },
+    {
+      "id": "face-under-fringe-shadow",
+      "semantic_role": "face",
+      "field": {
+        "kind": "linear",
+        "from": [
+          -39.10679534431272,
+          70.73889894664858
+        ],
+        "to": [
+          -254.65824013737347,
+          460.6422836850739
+        ],
+        "x1": -39.10679534431272,
+        "y1": 70.73889894664858,
+        "x2": -254.65824013737347,
+        "y2": 460.6422836850739,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#f8cac4",
+            "rgb": [
+              248.12461,
+              202.31706,
+              196.47907
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#ebccc2",
+            "rgb": [
+              235.41286,
+              203.96097,
+              193.83852
+            ]
+          }
+        ],
+        "sample_rmse": 2.1206850283786336,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 3632,
+        "edge_excluded_pixels": 937,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 2695,
+        "parameter_fit_samples": 2695,
+        "rgb_rmse_255": 2.120685028379116,
+        "rgb_mae_255": 1.539030626474382,
+        "pixel_rgb_rmse_p95_255": 4.280746907624537,
+        "pixel_rgb_rmse_max_255": 14.399859811837382,
+        "residual_gt_5_levels_pixels": 89,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 2.2086358334775125
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 2.1206850283786336
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 2.1155464434000617
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.8973406367751997
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.954268786962229
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.792851934679574
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.8387261618597277
+          }
+        ]
+      }
+    },
+    {
+      "id": "eye-left",
+      "semantic_role": "eye",
+      "field": {
+        "kind": "linear",
+        "from": [
+          -170.41998355678808,
+          145.3933883955716
+        ],
+        "to": [
+          -349.26202053892234,
+          297.9720308863683
+        ],
+        "x1": -170.41998355678808,
+        "y1": 145.3933883955716,
+        "x2": -349.26202053892234,
+        "y2": 297.9720308863683,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#212641",
+            "rgb": [
+              32.56295,
+              38.13554,
+              65.30777
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#1e233c",
+            "rgb": [
+              29.92778,
+              35.32741,
+              60.20147
+            ]
+          }
+        ],
+        "sample_rmse": 1.5537780630868987,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 20125,
+        "edge_excluded_pixels": 1002,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 19123,
+        "parameter_fit_samples": 3000,
+        "rgb_rmse_255": 1.5194903395433559,
+        "rgb_mae_255": 1.0085879335040764,
+        "pixel_rgb_rmse_p95_255": 2.815571972062655,
+        "pixel_rgb_rmse_max_255": 14.186833568733586,
+        "residual_gt_5_levels_pixels": 243,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 1.725724775275594
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.5537780630868987
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.476764501215413
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.281011220912103
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.2917913762067066
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.279031483885847
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.2687543535097248
+          }
+        ]
+      }
+    },
+    {
+      "id": "eye-right",
+      "semantic_role": "eye",
+      "field": {
+        "kind": "solid",
+        "rgb": [
+          31.371333333333332,
+          37.105666666666664,
+          62.812333333333335
+        ],
+        "color": "#1f253f",
+        "parameters": 3,
+        "sample_rmse": 1.5330138072872448
+      },
+      "stats": {
+        "visible_pixels": 18974,
+        "edge_excluded_pixels": 972,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 18002,
+        "parameter_fit_samples": 3000,
+        "rgb_rmse_255": 1.5208384840937543,
+        "rgb_mae_255": 0.9157039217864678,
+        "pixel_rgb_rmse_p95_255": 2.8152919327605557,
+        "pixel_rgb_rmse_max_255": 17.106564100757737,
+        "residual_gt_5_levels_pixels": 284,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 1.5330138072872448
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.3598801778465999
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.359903709953978
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.257785772989418
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.2642099253987056
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.2491002578177046
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.2549763371817984
+          }
+        ]
+      }
+    },
+    {
+      "id": "cheek-left",
+      "semantic_role": "cheek",
+      "field": {
+        "kind": "solid",
+        "rgb": [
+          253.67433333333332,
+          215.534,
+          213.05133333333333
+        ],
+        "color": "#fed8d5",
+        "parameters": 3,
+        "sample_rmse": 0.8043942049996612
+      },
+      "stats": {
+        "visible_pixels": 11010,
+        "edge_excluded_pixels": 717,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 10293,
+        "parameter_fit_samples": 3000,
+        "rgb_rmse_255": 0.8042805609028344,
+        "rgb_mae_255": 0.6512293468052724,
+        "pixel_rgb_rmse_p95_255": 1.4447433323245604,
+        "pixel_rgb_rmse_max_255": 2.419907015354721,
+        "residual_gt_5_levels_pixels": 0,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 0.8043942049996612
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 0.6868367546901242
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 0.6867884318844901
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 0.5622821362752543
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 0.5934095771972613
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 0.5429832446578661
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 0.585848291995018
+          }
+        ]
+      }
+    },
+    {
+      "id": "cheek-right",
+      "semantic_role": "cheek",
+      "field": {
+        "kind": "solid",
+        "rgb": [
+          253.36033333333333,
+          214.35166666666666,
+          211.77366666666666
+        ],
+        "color": "#fdd6d4",
+        "parameters": 3,
+        "sample_rmse": 0.9910034757198831
+      },
+      "stats": {
+        "visible_pixels": 9292,
+        "edge_excluded_pixels": 632,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 8660,
+        "parameter_fit_samples": 3000,
+        "rgb_rmse_255": 0.9907537762546988,
+        "rgb_mae_255": 0.8073330254041567,
+        "pixel_rgb_rmse_p95_255": 1.6128032531382603,
+        "pixel_rgb_rmse_max_255": 2.90314406195154,
+        "residual_gt_5_levels_pixels": 0,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 0.9910034757198831
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 0.7964797324577177
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 0.7032176382086772
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 0.6894165014945665
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 0.6788241052458301
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 0.6758803595495164
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 0.6661412680085583
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-white",
+      "semantic_role": "frill",
+      "field": {
+        "kind": "solid",
+        "rgb": [
+          250.70066666666668,
+          246.88466666666667,
+          249.706
+        ],
+        "color": "#fbf7fa",
+        "parameters": 3,
+        "sample_rmse": 2.1318219993791785
+      },
+      "stats": {
+        "visible_pixels": 78147,
+        "edge_excluded_pixels": 5132,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 73015,
+        "parameter_fit_samples": 3000,
+        "rgb_rmse_255": 2.1472503065761357,
+        "rgb_mae_255": 1.6858195256682411,
+        "pixel_rgb_rmse_p95_255": 4.715977743169919,
+        "pixel_rgb_rmse_max_255": 5.690303786722213,
+        "residual_gt_5_levels_pixels": 2693,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 2.1318219993791785
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 2.0240065363471906
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 2.04710140405993
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 2.023123402366603
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 2.013134791239297
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.929054506060639
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 2.0113318310905193
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-fold",
+      "semantic_role": "frill",
+      "field": {
+        "kind": "radial",
+        "center": [
+          385.046392002572,
+          723.3697418257296
+        ],
+        "radii": [
+          860.320822016941,
+          862.1454507113231
+        ],
+        "cx": 0.0,
+        "cy": 0.0,
+        "r": 1.0,
+        "fx": 0.0,
+        "fy": 0.0,
+        "gradientTransform": "translate(385.04639 723.36974) scale(860.32082 862.14545)",
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#fffff2",
+            "rgb": [
+              255.0,
+              254.86039,
+              242.4076
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#bbb7df",
+            "rgb": [
+              186.98035,
+              183.24936,
+              222.67383
+            ]
+          }
+        ],
+        "sample_rmse": 2.921014857799271,
+        "parameters": 9
+      },
+      "stats": {
+        "visible_pixels": 22929,
+        "edge_excluded_pixels": 3550,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 19379,
+        "parameter_fit_samples": 3000,
+        "rgb_rmse_255": 2.8895420975159203,
+        "rgb_mae_255": 1.995728594994496,
+        "pixel_rgb_rmse_p95_255": 5.6748317175488,
+        "pixel_rgb_rmse_max_255": 23.657102893016805,
+        "residual_gt_5_levels_pixels": 1604,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 3.76125155490287
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 3.724719922276837
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 2.921014857799271
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 3.5068974543068703
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 3.256413151781331
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 3.3083944837256354
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 3.1338249385751173
+          }
+        ]
+      }
+    }
+  ],
+  "elapsed_seconds": 0.45992730000580195
+}

@@ -1,0 +1,348 @@
+{
+  "method": "Fresh one-shot execution of v4 algorithm against upstream-only RGBA; output masks compared bytewise/elementwise afterwards",
+  "source_sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+  "manifest_sha256": "8105b2e6d66b4ff7339302b59bd419df883cf033c0b0a663123989d404443769",
+  "script_sha256": "fe4d0fbc233e3b6456d8c81e0f17bb8c0f34e06b78f33af56c869ffe7c056fcb",
+  "changed_masks": 6,
+  "changed_paths": 6,
+  "layers": [
+    {
+      "id": "face",
+      "kind": "regions",
+      "changed_mask_pixels": 5,
+      "path_changed": true,
+      "mask_sha256": "18f536a0ee7cc5a899ce2b9644aa42baa53375037ed088416b85db6167434be2"
+    },
+    {
+      "id": "face-under-fringe-shadow",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "cc93e16f671e4f0169b4febbefa8e22d8e479de8d799cc44ebd40d054c4b78bc"
+    },
+    {
+      "id": "eye-left",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "7400222e3264d19d58091c738699e5dd44dbdd5067469f008a6b550dfb9cbdbf"
+    },
+    {
+      "id": "eye-right",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "a70616acda9472a43a30581a5c0efb11cb28481481fa17a36dbdc6c862c6feed"
+    },
+    {
+      "id": "cheek-left",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "e9c78e3588994b0bfb779c6d32b79a228c25faa0239fcf405649ef09bc7e803f"
+    },
+    {
+      "id": "cheek-right",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "ddb4dfde858cf76460cb7f3bdb1a24b824605f6c5db68f4ef7248b0c9b392fbe"
+    },
+    {
+      "id": "whale-side-fin-rim",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "0c96c86f0fc2fb1fa53ac5d1744cb97eb9eeccfb591a79bbea4f4e6523de68cc"
+    },
+    {
+      "id": "bow-knot",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "e8f64fc3ad365c0c522cd131dd77bd8cdf5b0415867f8301ab93ee1a235d19c1"
+    },
+    {
+      "id": "bow-left",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "3e76157c30db229a6aa86b44003e47568a9a0e6adb16564a9f5c3ae94add22aa"
+    },
+    {
+      "id": "bow-right",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "3a7c1f3f4eb0e689f7acebc9c6537202fad44ba7d0c665d59e208797bbfec42c"
+    },
+    {
+      "id": "whale-side-fin",
+      "kind": "regions",
+      "changed_mask_pixels": 1,
+      "path_changed": true,
+      "mask_sha256": "2d8fa4742d1a4a13b4814adb24782dcc2e620f8f8902ac89ddee63e9cdc74147"
+    },
+    {
+      "id": "ahoge",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "488870d0edf0c6b970fde5ea20d7f5ed59079b4abb0be6c3926f00270278a2b0"
+    },
+    {
+      "id": "hair-left-fringe-fold",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "d335516035ee7a75d5715c0381b12a0339fb7ce07652b8b725854a1a8e161530"
+    },
+    {
+      "id": "hair-left-inner-fold",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "4c25bb2195e923c2da3874c62904b510fd9e9705eb8a3dc6b29b5853f38805cf"
+    },
+    {
+      "id": "hair-center-fold",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "5f389fee40d3a9f2b8b28d03b3e986cacdb6d139f109c1af0b1792df656aa919"
+    },
+    {
+      "id": "hair-right-underfold",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "c65b69e9872b1fc538cfebb7d60c3fd04251165223f416efc4d766ee771cd3e5"
+    },
+    {
+      "id": "hair-back-dark-fold",
+      "kind": "regions",
+      "changed_mask_pixels": 2,
+      "path_changed": true,
+      "mask_sha256": "c8919c43bbf871d32e149f519bd6cba174db7e169d25bdf3a8827e78ba85d770"
+    },
+    {
+      "id": "hair-back",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "2e0a7d2221f580cd35110a2c861e73d79c17177b3311a42f7dcf445dff2f1ece"
+    },
+    {
+      "id": "hair-left-under",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "cc98c8e50f789db2d56845cc56cf8a3840f7dff7ee21929ab766795963a862bd"
+    },
+    {
+      "id": "hair-right-fringe",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "4b9f18b638c299e49b590bd0d04f398a7caa06034adcd97b069523b33e8a2dde"
+    },
+    {
+      "id": "hair-front-main",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "42f37b52de4bc02e92bac0062a8fc547bccf70acb977fde39f4e66296ae5678b"
+    },
+    {
+      "id": "hair-center-left-crease",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "6f1b623f463d11d0acdcb48d03d2f2f4d902211f34e894d747b6dbaa2bea9a0b"
+    },
+    {
+      "id": "hair-center-right-crease",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "f2a1d2dcf87c3846989efa61fd44149c1d40fcbb1de78a070c748abecf294342"
+    },
+    {
+      "id": "hair-right-face-crease",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "c1953f582fa5aadb65453792883f1b1f1ae3166f32f781b7ca2616cf3f59a98c"
+    },
+    {
+      "id": "bow-crease-left",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "8e0933a4c92d90d05f7be4511a20e145f736d5b3aea1cf5675b6da1ff055124d"
+    },
+    {
+      "id": "bow-crease-right",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "defe6e552cefb69f46bbdb538f9786d29b5befd5ef43c12a6c4f4f2d4a3f18b3"
+    },
+    {
+      "id": "bow-lower-rim",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "c55b030e0de159ee841e4664181cc41eaa15cb031747712619ce5bf7a9c637be"
+    },
+    {
+      "id": "whale-fin-rim-left-fold",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "4c4cda049c5178664493a11cde83475e80abe097237c402fd20637839a3b3381"
+    },
+    {
+      "id": "frill-white-01",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "2264327087c59cb9737d44eefb2c9d5c2b0cde1694198529a58fe8f8e144ffd4"
+    },
+    {
+      "id": "frill-white-02",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "79eae69f73760be742773f97f00c6ce3e3f69c712c650d8ed682bd1fb8d31de0"
+    },
+    {
+      "id": "frill-white-03",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "c7f325b8cd2bce9c2afc3064fc77d6190e76b5fccd6074555cce32e7e7ee4b8a"
+    },
+    {
+      "id": "frill-white-04",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "bc34b01a9bf799cfe6a6118f6625586fd04571dbccb5cc91d9f8cd1c4154b596"
+    },
+    {
+      "id": "frill-white-05",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "1bcd6665fdb9a6250a50c76091b015a9b37b6e5d8909b9efa360e878dfc9a774"
+    },
+    {
+      "id": "frill-white-06",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "a7edd37a65d3d9c92e7fe796d132351171c4106f5af0ab240c99a94d4cc9b3f8"
+    },
+    {
+      "id": "frill-white-07",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "e84771c2f0d899a1ad5be07c8e9530dfc19a0ad7411ea7505f325d008f9152b6"
+    },
+    {
+      "id": "frill-fold-01",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "e3d72d15b4603e8b11fb09853ec6e3bf0ff9f45f72ed254bb0efacb015668090"
+    },
+    {
+      "id": "frill-fold-02",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "e331cb70d55abbd1d201bcc0b0ed7949a06d53c3b140de03d89e903ac79da4c9"
+    },
+    {
+      "id": "frill-fold-03",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "da9079f78ced9825056dfa23b07d0b53afec5b4836e53cebef1b173766c6e9e6"
+    },
+    {
+      "id": "frill-fold-04",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "322aa3d6a9f4522eb0511ff76ae23926a3e8491b28bd9a7459707cffcf5e9702"
+    },
+    {
+      "id": "frill-fold-05",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "7aa7c0fb93a982680d585f59452e8145587e881d8f609c27f673dc5a0e56c21c"
+    },
+    {
+      "id": "frill-fold-06",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "0e0791cf59f732b6aa3f232a3e9d693d397c962140348fa525945cc1c7ca87a6"
+    },
+    {
+      "id": "frill-fold-07",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "1d16a5761ad6209669e86b903409f9b744ee2461116c08e7d1fb7d7d053f1826"
+    },
+    {
+      "id": "frill-fold-08",
+      "kind": "regions",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "62f32279a70da759d2d7bcb81e1c0e14f48a4c195a9ba9f3761aa3373ae1f02e"
+    },
+    {
+      "id": "subject-underpaint",
+      "kind": "underpaints",
+      "changed_mask_pixels": 8,
+      "path_changed": true,
+      "mask_sha256": "634515e925a0bcad2fe1d4046c9c9fa4c1a5d0dfcbae0db0c7758ccd113ee1b7"
+    },
+    {
+      "id": "face-underpaint",
+      "kind": "underpaints",
+      "changed_mask_pixels": 5,
+      "path_changed": true,
+      "mask_sha256": "e4835b95943515f4465abb546887ada1c0b9fc0aafb7993fabdd0e1b0a36aaac"
+    },
+    {
+      "id": "frill-underpaint",
+      "kind": "underpaints",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "db9f192b42514b60d900d61a3519ab8328e7d5ac6705eac6804e0b2d0c563bb0"
+    },
+    {
+      "id": "blue-underpaint",
+      "kind": "underpaints",
+      "changed_mask_pixels": 3,
+      "path_changed": true,
+      "mask_sha256": "acd5568960bb160623df23796b577fa6252cd4fa1af9228508b1d3f48a27ecd2"
+    },
+    {
+      "id": "bow-underpaint",
+      "kind": "underpaints",
+      "changed_mask_pixels": 0,
+      "path_changed": false,
+      "mask_sha256": "f841e1f1f8644d7219fc440894746cbffe6c16d1e5255f2f894cbeefe7a7e67a"
+    }
+  ],
+  "watermark_exclusion": null,
+  "inpainting": false
+}

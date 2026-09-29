@@ -1,0 +1,5 @@
+{
+  "svg_file_sha256": "4a77f93e3550a74b686e2d336096f303b84e5cde04df73a4709db09451e5176c",
+  "normalized_svg_text_sha256": "bc19ed82eac0bb1bf293d1b13967a74d3ddd25abe358d25d5721c35ddd7cb785",
+  "note": "Existing summary.svg_sha256 and edge.source_sha256 hash normalized text; raw bytes differ only in newline encoding. No art or metrics modified."
+}

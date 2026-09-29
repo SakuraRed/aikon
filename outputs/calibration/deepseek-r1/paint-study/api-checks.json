@@ -1,0 +1,20 @@
+[
+  {
+    "control": "constant",
+    "chosen": "solid",
+    "rgb_rmse": 0.0,
+    "predicate": "known independent smooth field recovered <0.45 RGB levels; no raster/filter/pattern"
+  },
+  {
+    "control": "linear_y",
+    "chosen": "linear",
+    "rgb_rmse": 0.0001702544690752747,
+    "predicate": "known independent smooth field recovered <0.45 RGB levels; no raster/filter/pattern"
+  },
+  {
+    "control": "radial_center",
+    "chosen": "radial",
+    "rgb_rmse": 0.0026382189155706665,
+    "predicate": "known independent smooth field recovered <0.45 RGB levels; no raster/filter/pattern"
+  }
+]

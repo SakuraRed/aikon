@@ -1,0 +1,63 @@
+{
+  "schema": "aikon.geometry-study-validation.v1",
+  "coordinate_system": "1280 by 1280 source coordinates; legacy SVG rendered at same size; no alignment or warping",
+  "source_reference_sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+  "reference_extraction": "connected bright face; dark eyes enclosed by filled face; full masks retained",
+  "results": {
+    "face-underpaint": {
+      "current": {
+        "mask_iou": 0.9985160494954568,
+        "symmetric_contour_mean_pixels": 0.19808088961162607,
+        "symmetric_contour_p95_pixels": 1.0,
+        "reference_area": 437575,
+        "actual_area": 437815
+      },
+      "rejected_round_002": {
+        "mask_iou": 0.6685472023398247,
+        "symmetric_contour_mean_pixels": 64.00725275030936,
+        "symmetric_contour_p95_pixels": 189.7814532561072,
+        "reference_area": 437575,
+        "actual_area": 557353
+      }
+    },
+    "eye-left": {
+      "current": {
+        "mask_iou": 0.9963751924127315,
+        "symmetric_contour_mean_pixels": 0.14512922465208747,
+        "symmetric_contour_p95_pixels": 1.0,
+        "reference_area": 20125,
+        "actual_area": 20080
+      },
+      "rejected_round_002": {
+        "mask_iou": 0.38439381282944957,
+        "symmetric_contour_mean_pixels": 36.25789844612615,
+        "symmetric_contour_p95_pixels": 60.74124740964898,
+        "reference_area": 20125,
+        "actual_area": 27937
+      }
+    },
+    "eye-right": {
+      "current": {
+        "mask_iou": 0.9958951689295864,
+        "symmetric_contour_mean_pixels": 0.1598360655737705,
+        "symmetric_contour_p95_pixels": 1.0,
+        "reference_area": 18974,
+        "actual_area": 18952
+      },
+      "rejected_round_002": {
+        "mask_iou": 0.0,
+        "symmetric_contour_mean_pixels": 102.35343170335517,
+        "symmetric_contour_p95_pixels": 169.00783999715506,
+        "reference_area": 18974,
+        "actual_area": 26828
+      }
+    }
+  },
+  "limitations": [
+    "These are measured contour overlaps, not a universal similarity metric.",
+    "Current paths derive from the same source and are reconstruction/calibration, not independent model generalization.",
+    "Pose evidence preserves observed relative projection; cannot infer a unique true 3D pitch.",
+    "Whale-fin and internal hair interfaces remain partly hand-constrained; no gold segmentation or precision claim assigned."
+  ],
+  "duration_seconds": 1.553829600001336
+}

@@ -1,0 +1,79 @@
+{
+  "acceptance": "not_assessed; no scalar is equated to user's 99 percent target",
+  "alignment": "none; SVG canvas declared explicitly; render whole canvas to1280; preserveAspectRatio absent or xMidYMid meet",
+  "boundary_rule": "8-connected inner boundary; ignore canvas and watermark edges with fixed 2px valid-domain erosion",
+  "candidate_subject_mask": "rendered alpha >=128",
+  "comparison_size": [
+    1280,
+    1280
+  ],
+  "composite_background_srgb8": [
+    15,
+    15,
+    15
+  ],
+  "error_space": "8-bit sRGB composited over #0f0f0f; no gamma-linear or perceptual interpretation",
+  "reference_sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+  "reference_size": [
+    1280,
+    1280
+  ],
+  "regions_xyxy_half_open": {
+    "eye_left": [
+      137,
+      658,
+      289,
+      894
+    ],
+    "eye_right": [
+      571,
+      813,
+      716,
+      1043
+    ],
+    "face_and_pose_context": [
+      0,
+      460,
+      875,
+      1280
+    ],
+    "head_side_fin": [
+      978,
+      721,
+      1265,
+      1149
+    ],
+    "main_hair_flow": [
+      0,
+      220,
+      1000,
+      1180
+    ],
+    "side_bow": [
+      960,
+      718,
+      1148,
+      932
+    ],
+    "top_hook": [
+      199,
+      8,
+      604,
+      288
+    ],
+    "white_frill": [
+      0,
+      126,
+      1045,
+      749
+    ]
+  },
+  "schema": "aikon.r1-comparison.v1",
+  "subject_mask": "source alpha >=128 and max(abs(source RGB-[15,15,15])) >8",
+  "watermark_box_xyxy_half_open": [
+    1086,
+    1198,
+    1246,
+    1252
+  ]
+}

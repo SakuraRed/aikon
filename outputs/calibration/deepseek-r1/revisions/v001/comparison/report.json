@@ -1,0 +1,295 @@
+{
+  "acceptance": {
+    "identity_and_pose": "not_semantically_certified",
+    "user_99_percent_target": "not_assessed",
+    "visual_acceptance": "not_assessed"
+  },
+  "alpha": {
+    "background_mean_alpha": 0.0015896346885710955,
+    "background_pixels_alpha_ge_128": 645,
+    "note": "Reference contains black backdrop; subject alpha is a thresholded source-only proxy, not original ground-truth alpha.",
+    "subject_mean_alpha": 0.9997941255569458
+  },
+  "backend": {
+    "binding": "resvg-py",
+    "resvg": "0.48.1",
+    "version": "0.5.0"
+  },
+  "background": {
+    "fraction_pixels_max_channel_error_gt_16": 0.0033175375556281474,
+    "fraction_pixels_max_channel_error_le_2": 0.9960439849480521,
+    "mae_srgb8": 0.1606950884573878,
+    "p95_max_channel_error_srgb8": 0.0,
+    "pixels": 471434,
+    "rmse_srgb8": 3.392271093755141
+  },
+  "candidate_declared_canvas_size": 1280,
+  "candidate_svg_sha256": "ceea6a8edfd1c67671b25194529292e5274eb67de6342ffafc7bc99144f65474",
+  "excluded_pixels": 8640,
+  "local_regions": {
+    "eye_left": {
+      "context": {
+        "fraction_pixels_max_channel_error_gt_16": 0.016977029438001785,
+        "fraction_pixels_max_channel_error_le_2": 0.7877731935771632,
+        "mae_srgb8": 1.9331512042818912,
+        "p95_max_channel_error_srgb8": 5.0,
+        "pixels": 35872,
+        "rmse_srgb8": 8.080539796432207
+      },
+      "subject_only": {
+        "fraction_pixels_max_channel_error_gt_16": 0.016977029438001785,
+        "fraction_pixels_max_channel_error_le_2": 0.7877731935771632,
+        "mae_srgb8": 1.9331512042818912,
+        "p95_max_channel_error_srgb8": 5.0,
+        "pixels": 35872,
+        "rmse_srgb8": 8.080539796432207
+      }
+    },
+    "eye_right": {
+      "context": {
+        "fraction_pixels_max_channel_error_gt_16": 0.016941529235382308,
+        "fraction_pixels_max_channel_error_le_2": 0.7962518740629685,
+        "mae_srgb8": 1.826816591704148,
+        "p95_max_channel_error_srgb8": 6.0,
+        "pixels": 33350,
+        "rmse_srgb8": 7.863404697284972
+      },
+      "subject_only": {
+        "fraction_pixels_max_channel_error_gt_16": 0.016941529235382308,
+        "fraction_pixels_max_channel_error_le_2": 0.7962518740629685,
+        "mae_srgb8": 1.826816591704148,
+        "p95_max_channel_error_srgb8": 6.0,
+        "pixels": 33350,
+        "rmse_srgb8": 7.863404697284972
+      }
+    },
+    "face_and_pose_context": {
+      "context": {
+        "fraction_pixels_max_channel_error_gt_16": 0.017510801393728223,
+        "fraction_pixels_max_channel_error_le_2": 0.635977700348432,
+        "mae_srgb8": 2.137102856915393,
+        "p95_max_channel_error_srgb8": 7.0,
+        "pixels": 717500,
+        "rmse_srgb8": 5.754949009121408
+      },
+      "subject_only": {
+        "fraction_pixels_max_channel_error_gt_16": 0.01758978927197578,
+        "fraction_pixels_max_channel_error_le_2": 0.6264053070121418,
+        "mae_srgb8": 2.1638798954354206,
+        "p95_max_channel_error_srgb8": 7.0,
+        "pixels": 698246,
+        "rmse_srgb8": 5.568936807949974
+      }
+    },
+    "head_side_fin": {
+      "context": {
+        "fraction_pixels_max_channel_error_gt_16": 0.04077794783288287,
+        "fraction_pixels_max_channel_error_le_2": 0.6973769904588232,
+        "mae_srgb8": 2.5528770873610447,
+        "p95_max_channel_error_srgb8": 14.0,
+        "pixels": 122836,
+        "rmse_srgb8": 7.85385846031443
+      },
+      "subject_only": {
+        "fraction_pixels_max_channel_error_gt_16": 0.058699924601065476,
+        "fraction_pixels_max_channel_error_le_2": 0.5444173887247692,
+        "mae_srgb8": 3.6979987275225237,
+        "p95_max_channel_error_srgb8": 18.0,
+        "pixels": 80903,
+        "rmse_srgb8": 8.960106321100799
+      }
+    },
+    "main_hair_flow": {
+      "context": {
+        "fraction_pixels_max_channel_error_gt_16": 0.019115625,
+        "fraction_pixels_max_channel_error_le_2": 0.5621333333333334,
+        "mae_srgb8": 2.3829692674285834,
+        "p95_max_channel_error_srgb8": 8.0,
+        "pixels": 960000,
+        "rmse_srgb8": 5.8175674301228515
+      },
+      "subject_only": {
+        "fraction_pixels_max_channel_error_gt_16": 0.019549873745605,
+        "fraction_pixels_max_channel_error_le_2": 0.5437566006493083,
+        "mae_srgb8": 2.466510937992296,
+        "p95_max_channel_error_srgb8": 8.0,
+        "pixels": 920364,
+        "rmse_srgb8": 5.823215773585184
+      }
+    },
+    "side_bow": {
+      "context": {
+        "fraction_pixels_max_channel_error_gt_16": 0.056273613044342814,
+        "fraction_pixels_max_channel_error_le_2": 0.644163849671903,
+        "mae_srgb8": 3.450749677605742,
+        "p95_max_channel_error_srgb8": 17.0,
+        "pixels": 40232,
+        "rmse_srgb8": 9.628423549694807
+      },
+      "subject_only": {
+        "fraction_pixels_max_channel_error_gt_16": 0.06106675726176321,
+        "fraction_pixels_max_channel_error_le_2": 0.5979559481343072,
+        "mae_srgb8": 3.7450378654231873,
+        "p95_max_channel_error_srgb8": 18.0,
+        "pixels": 35322,
+        "rmse_srgb8": 9.484772494975966
+      }
+    },
+    "top_hook": {
+      "context": {
+        "fraction_pixels_max_channel_error_gt_16": 0.025052910052910052,
+        "fraction_pixels_max_channel_error_le_2": 0.7351410934744268,
+        "mae_srgb8": 2.002694680372594,
+        "p95_max_channel_error_srgb8": 9.0,
+        "pixels": 113400,
+        "rmse_srgb8": 6.955530070476148
+      },
+      "subject_only": {
+        "fraction_pixels_max_channel_error_gt_16": 0.029374961283528463,
+        "fraction_pixels_max_channel_error_le_2": 0.6345784550579199,
+        "mae_srgb8": 2.59899879904864,
+        "p95_max_channel_error_srgb8": 11.0,
+        "pixels": 80715,
+        "rmse_srgb8": 7.488502821953048
+      }
+    },
+    "white_frill": {
+      "context": {
+        "fraction_pixels_max_channel_error_gt_16": 0.016189605781563202,
+        "fraction_pixels_max_channel_error_le_2": 0.5431535938928015,
+        "mae_srgb8": 2.3504569786804383,
+        "p95_max_channel_error_srgb8": 8.0,
+        "pixels": 651035,
+        "rmse_srgb8": 5.6316743772628675
+      },
+      "subject_only": {
+        "fraction_pixels_max_channel_error_gt_16": 0.018426125620420706,
+        "fraction_pixels_max_channel_error_le_2": 0.45212604880642876,
+        "mae_srgb8": 2.793049669456869,
+        "p95_max_channel_error_srgb8": 8.0,
+        "pixels": 541568,
+        "rmse_srgb8": 6.054084662985297
+      }
+    }
+  },
+  "protocol": {
+    "acceptance": "not_assessed; no scalar is equated to user's 99 percent target",
+    "alignment": "none; SVG canvas declared explicitly; render whole canvas to1280; preserveAspectRatio absent or xMidYMid meet",
+    "boundary_rule": "8-connected inner boundary; ignore canvas and watermark edges with fixed 2px valid-domain erosion",
+    "candidate_subject_mask": "rendered alpha >=128",
+    "comparison_size": [
+      1280,
+      1280
+    ],
+    "composite_background_srgb8": [
+      15,
+      15,
+      15
+    ],
+    "error_space": "8-bit sRGB composited over #0f0f0f; no gamma-linear or perceptual interpretation",
+    "reference_sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+    "reference_size": [
+      1280,
+      1280
+    ],
+    "regions_xyxy_half_open": {
+      "eye_left": [
+        137,
+        658,
+        289,
+        894
+      ],
+      "eye_right": [
+        571,
+        813,
+        716,
+        1043
+      ],
+      "face_and_pose_context": [
+        0,
+        460,
+        875,
+        1280
+      ],
+      "head_side_fin": [
+        978,
+        721,
+        1265,
+        1149
+      ],
+      "main_hair_flow": [
+        0,
+        220,
+        1000,
+        1180
+      ],
+      "side_bow": [
+        960,
+        718,
+        1148,
+        932
+      ],
+      "top_hook": [
+        199,
+        8,
+        604,
+        288
+      ],
+      "white_frill": [
+        0,
+        126,
+        1045,
+        749
+      ]
+    },
+    "schema": "aikon.r1-comparison.v1",
+    "subject_mask": "source alpha >=128 and max(abs(source RGB-[15,15,15])) >8",
+    "watermark_box_xyxy_half_open": [
+      1086,
+      1198,
+      1246,
+      1252
+    ]
+  },
+  "protocol_sha256": "825f2d2415a6ca986468c7a206eb1687718c5be71792f2f4522d42dbd9923c34",
+  "reference_sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+  "render_png_sha256": "05fee89c6a546e658416225eeaf8ac2bf47d769177d52a82f0e56f3724d566bf",
+  "render_size": [
+    1280,
+    1280
+  ],
+  "schema": "aikon.r1-comparison-result.v1",
+  "silhouette_alpha_proxy": {
+    "boundary": {
+      "candidate_samples": 4295,
+      "reference_samples": 4338,
+      "status": "measured",
+      "symmetric_max_px": 5.0,
+      "symmetric_mean_px": 0.16806358418012188,
+      "symmetric_p95_px": 1.0
+    },
+    "false_negative_pixels": 106,
+    "false_positive_pixels": 645,
+    "intersection_pixels": 1158220,
+    "iou": 0.9993520113963162,
+    "union_pixels": 1158971
+  },
+  "subject": {
+    "fraction_pixels_max_channel_error_gt_16": 0.026269806600214447,
+    "fraction_pixels_max_channel_error_le_2": 0.5492236209840753,
+    "mae_srgb8": 2.6687109516148206,
+    "p95_max_channel_error_srgb8": 10.0,
+    "pixels": 1158326,
+    "rmse_srgb8": 6.464484828403769
+  },
+  "subject_mask_sha256": "d9f115088946b58e901a5a06ac4088d3bc9fcdb3472935603e5b8128a355626e",
+  "valid_mask_sha256": "8731a9d9d6ea72949cf1e5681ce69f7de1e24a57944454b851b01ffefef8906d",
+  "whole_valid_canvas_context_only": {
+    "fraction_pixels_max_channel_error_gt_16": 0.01963049774199882,
+    "fraction_pixels_max_channel_error_le_2": 0.6784735175731396,
+    "mae_srgb8": 1.9432274752552576,
+    "p95_max_channel_error_srgb8": 8.0,
+    "pixels": 1629760,
+    "rmse_srgb8": 5.747172901804055
+  }
+}

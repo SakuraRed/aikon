@@ -1,0 +1,21 @@
+{
+  "schema": "aikon.r1-upstream-reference.v3",
+  "upstream_sha256": "4da172c683d7981e170fc90d8e7d1bd8b4e7107799cdc12338859c82e6fb44fd",
+  "user_r1_sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+  "working_reference": "r1-clean-calibration-1280-v3.png",
+  "working_reference_sha256": "448fa94d513210e498fa66b5610a1918897bc1bf19b34d035ba4c51c11ca5dd5",
+  "upstream_size": [
+    4096,
+    4096
+  ],
+  "working_size": [
+    1280,
+    1280
+  ],
+  "sampling": "Pillow LANCZOS; exact full-canvas uniform 4096 to1280; no registration",
+  "alpha": "pixelwise minimum of uniformly sampled true upstream alpha and original user r1 presentation alpha; removes old watermark coverage outside upstream support",
+  "rgb": "upstream only; no inpainting, redraw, local correction or denoising",
+  "watermark_exclusion": null,
+  "original_files_changed": false,
+  "acceptance": "source selection and normalization only; not Skill quality certification"
+}

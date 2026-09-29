@@ -1,0 +1,90 @@
+{
+  "reference_sha256": "5a16fe96fab6c06548c87250539739cc4d6dac5e1fed6628f65890a76683817e",
+  "upstream_sha256": "4da172c683d7981e170fc90d8e7d1bd8b4e7107799cdc12338859c82e6fb44fd",
+  "normalization": "uniform 4096 to 1280 LANCZOS, no shift, crop, rotation or warp",
+  "mask": "old r1 fully opaque pixels, excluding pre-frozen watermark rectangle",
+  "subject": {
+    "pixels": 1157766,
+    "mae_srgb8": 0.15248479828252293,
+    "rmse_srgb8": 0.9220734108206005,
+    "p95_max_channel_error_srgb8": 1.0,
+    "fraction_pixels_max_channel_error_le_2": 0.9769184792090975,
+    "fraction_pixels_max_channel_error_gt_16": 0.0001744739437848408
+  },
+  "background": {
+    "pixels": 398661,
+    "mae_srgb8": 0.05931684417602121,
+    "rmse_srgb8": 0.7302662405498713,
+    "p95_max_channel_error_srgb8": 0.0,
+    "fraction_pixels_max_channel_error_le_2": 0.9919028949408144,
+    "fraction_pixels_max_channel_error_gt_16": 5.267633402815926e-05
+  },
+  "local_regions": {
+    "face_and_pose_context": {
+      "pixels": 697868,
+      "mae_srgb8": 0.12333720273823842,
+      "rmse_srgb8": 0.8298100338082145,
+      "p95_max_channel_error_srgb8": 1.0,
+      "fraction_pixels_max_channel_error_le_2": 0.980841649137086,
+      "fraction_pixels_max_channel_error_gt_16": 0.0002292697186287378
+    },
+    "eye_left": {
+      "pixels": 35872,
+      "mae_srgb8": 0.34873067201903063,
+      "rmse_srgb8": 1.6426976654217778,
+      "p95_max_channel_error_srgb8": 3.0,
+      "fraction_pixels_max_channel_error_le_2": 0.9435771632471008,
+      "fraction_pixels_max_channel_error_gt_16": 0.0015611061552185548
+    },
+    "eye_right": {
+      "pixels": 33350,
+      "mae_srgb8": 0.36649675162418793,
+      "rmse_srgb8": 1.700680405919484,
+      "p95_max_channel_error_srgb8": 3.0,
+      "fraction_pixels_max_channel_error_le_2": 0.9420989505247376,
+      "fraction_pixels_max_channel_error_gt_16": 0.001859070464767616
+    },
+    "main_hair_flow": {
+      "pixels": 920132,
+      "mae_srgb8": 0.13550985091338544,
+      "rmse_srgb8": 0.8733903277867744,
+      "p95_max_channel_error_srgb8": 1.0,
+      "fraction_pixels_max_channel_error_le_2": 0.979371438011068,
+      "fraction_pixels_max_channel_error_gt_16": 0.0001999713084644377
+    },
+    "top_hook": {
+      "pixels": 80715,
+      "mae_srgb8": 0.27832910033244546,
+      "rmse_srgb8": 1.280325228665016,
+      "p95_max_channel_error_srgb8": 2.0,
+      "fraction_pixels_max_channel_error_le_2": 0.9554977389580623,
+      "fraction_pixels_max_channel_error_gt_16": 7.433562534844825e-05
+    },
+    "head_side_fin": {
+      "pixels": 80874,
+      "mae_srgb8": 0.33095178640209805,
+      "rmse_srgb8": 1.3701882650150004,
+      "p95_max_channel_error_srgb8": 2.0,
+      "fraction_pixels_max_channel_error_le_2": 0.9502064940524767,
+      "fraction_pixels_max_channel_error_gt_16": 0.00013601404654153373
+    },
+    "side_bow": {
+      "pixels": 35322,
+      "mae_srgb8": 0.33914651869467566,
+      "rmse_srgb8": 1.2672530150004406,
+      "p95_max_channel_error_srgb8": 3.0,
+      "fraction_pixels_max_channel_error_le_2": 0.948389105939641,
+      "fraction_pixels_max_channel_error_gt_16": 0.00014155483834437461
+    },
+    "white_frill": {
+      "pixels": 541512,
+      "mae_srgb8": 0.16299252473040057,
+      "rmse_srgb8": 0.9688242696220113,
+      "p95_max_channel_error_srgb8": 1.0,
+      "fraction_pixels_max_channel_error_le_2": 0.9758491039903087,
+      "fraction_pixels_max_channel_error_gt_16": 0.00017912807103074354
+    }
+  },
+  "pixel_identical": false,
+  "interpretation": "same-composition source investigation, not icon skill performance"
+}

@@ -1,0 +1,138 @@
+{
+  "schema": "aikon.single-paint-field-patch.v1",
+  "id": "hair-right-face-crease",
+  "source_sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+  "geometry_manifest_sha256": "8105b2e6d66b4ff7339302b59bd419df883cf033c0b0a663123989d404443769",
+  "original_field_sha256": "6ac86800d5789d33bf62e728d8eb126220287a91a1bf1341d329be7499d8a720",
+  "source_mask_sha256": "c1953f582fa5aadb65453792883f1b1f1ae3166f32f781b7ca2616cf3f59a98c",
+  "field": {
+    "kind": "linear",
+    "from": [
+      775.5,
+      745.0
+    ],
+    "to": [
+      775.5,
+      914.0
+    ],
+    "x1": 775.5,
+    "y1": 745.0,
+    "x2": 775.5,
+    "y2": 914.0,
+    "gradientUnits": "userSpaceOnUse",
+    "stops": [
+      {
+        "offset": 0.0,
+        "color": "#5973b8",
+        "rgb": [
+          89.0,
+          115.0,
+          184.0
+        ]
+      },
+      {
+        "offset": 0.25,
+        "color": "#5d7abe",
+        "rgb": [
+          93.425,
+          121.77135,
+          189.70359
+        ]
+      },
+      {
+        "offset": 0.5,
+        "color": "#4054a1",
+        "rgb": [
+          63.75487,
+          84.31851,
+          160.75003
+        ]
+      },
+      {
+        "offset": 0.75,
+        "color": "#4964ae",
+        "rgb": [
+          73.1381,
+          99.71539,
+          173.7105
+        ]
+      },
+      {
+        "offset": 1.0,
+        "color": "#3b58a2",
+        "rgb": [
+          59.0,
+          88.5,
+          162.0
+        ]
+      }
+    ],
+    "parameters": 9,
+    "fit_constraints": "fixed source-aligned long axis; observed endpoint medians; internal stops bounded to observed full-mask RGB extrema"
+  },
+  "old_errors": {
+    "all_807_visible_pixels": {
+      "pixels": 807,
+      "rgb_rmse_255": 19.438039743932645,
+      "rgb_mae_255": 8.684671907738533,
+      "max_predicted_rgb": [
+        167.5007444969008,
+        222.86948945488732,
+        249.0241327932796
+      ]
+    },
+    "old_eroded_interior_216_pixels": {
+      "pixels": 216,
+      "rgb_rmse_255": 3.587440796685775,
+      "rgb_mae_255": 1.6221948545052718,
+      "max_predicted_rgb": [
+        105.707727717194,
+        138.9491435318143,
+        195.5281720555112
+      ]
+    },
+    "tip_y745_to774": {
+      "pixels": 63,
+      "rgb_rmse_255": 61.11609970328132,
+      "rgb_mae_255": 56.88669137149411,
+      "max_predicted_rgb": [
+        167.5007444969008,
+        222.86948945488732,
+        249.0241327932796
+      ]
+    }
+  },
+  "new_errors": {
+    "all_807_visible_pixels": {
+      "pixels": 807,
+      "rgb_rmse_255": 7.682564998934201,
+      "rgb_mae_255": 4.429615266198867,
+      "max_predicted_rgb": [
+        93.346449704142,
+        121.65114852071005,
+        189.60234284023667
+      ]
+    },
+    "old_eroded_interior_216_pixels": {
+      "pixels": 216,
+      "rgb_rmse_255": 6.087312438835264,
+      "rgb_mae_255": 3.77237335807948,
+      "max_predicted_rgb": [
+        93.2494371005917,
+        121.54973556213018,
+        189.53226715976328
+      ]
+    },
+    "tip_y745_to774": {
+      "pixels": 63,
+      "rgb_rmse_255": 0.6099015673972834,
+      "rgb_mae_255": 0.49404939482170274,
+      "max_predicted_rgb": [
+        92.0896449704142,
+        119.72792485207101,
+        187.98238828402367
+      ]
+    }
+  },
+  "scope": "only this field; no geometry edit, no source edit, no acceptance threshold edit"
+}

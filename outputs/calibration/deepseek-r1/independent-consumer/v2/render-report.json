@@ -1,0 +1,63 @@
+{
+  "1280": {
+    "backend": {
+      "binding": "resvg-py",
+      "version": "0.5.0",
+      "resvg": "0.48.1"
+    },
+    "width": 1280,
+    "height": 1280,
+    "mode": "RGBA",
+    "source_sha256": "0e182ecda410867351aa6b88e2449a3f2927c06704150263fcf95d91aa76ebc9",
+    "png_sha256": "3cad720da9e816f1590ebf10009c44bf6cdd9b39eacaa8ab83ea6af025cbecc3",
+    "background": "unpainted; source alpha preserved",
+    "visual_acceptance": "not_evaluated"
+  },
+  "128": {
+    "backend": {
+      "binding": "resvg-py",
+      "version": "0.5.0",
+      "resvg": "0.48.1"
+    },
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "source_sha256": "0e182ecda410867351aa6b88e2449a3f2927c06704150263fcf95d91aa76ebc9",
+    "png_sha256": "8b1ea2445fd5dc2aea524d171109336d16ecd465f8f6f6e1a81db2d710444fbe",
+    "background": "unpainted; source alpha preserved",
+    "visual_acceptance": "not_evaluated"
+  },
+  "48": {
+    "backend": {
+      "binding": "resvg-py",
+      "version": "0.5.0",
+      "resvg": "0.48.1"
+    },
+    "width": 48,
+    "height": 48,
+    "mode": "RGBA",
+    "source_sha256": "0e182ecda410867351aa6b88e2449a3f2927c06704150263fcf95d91aa76ebc9",
+    "png_sha256": "d08dd9e85bdc5f9fec3cb5681bf55c348b1cb17413493ec8c8595bb701135cea",
+    "background": "unpainted; source alpha preserved",
+    "visual_acceptance": "not_evaluated"
+  },
+  "24": {
+    "backend": {
+      "binding": "resvg-py",
+      "version": "0.5.0",
+      "resvg": "0.48.1"
+    },
+    "width": 24,
+    "height": 24,
+    "mode": "RGBA",
+    "source_sha256": "0e182ecda410867351aa6b88e2449a3f2927c06704150263fcf95d91aa76ebc9",
+    "png_sha256": "b8fdc8b2f6609f6a061a40055b5704abeec119cbc5a5b66d3ac2fceee727ab83",
+    "background": "unpainted; source alpha preserved",
+    "visual_acceptance": "not_evaluated"
+  },
+  "changes": [
+    "eye inner fill expanded; exterior fixed; rim contrast reduced",
+    "one center-fringe cast shadow narrowed and softened; all other shapes fixed"
+  ],
+  "status": "structurally_checked; visual_review_pending; user_acceptance_pending"
+}

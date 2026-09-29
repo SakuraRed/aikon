@@ -1,0 +1,7 @@
+Local revision after actual inspection of v1/preview-1280.png and v1/preview-128.png against the previously viewed clean reference.
+
+Base: v1, SHA-256 b228cb9be239d58b583e3a9c60fa6f51bd62abd1038b597d1536dff009fc362d.
+Observed issue 1: the eye rim is too conspicuous at 1280px; reference has an extremely narrow subtle integrated sheen. Preserve eye exterior, placement and pose. Enlarge each eye core by roughly 1.5 to 2 screen units and reduce rim contrast. This remains one dark eye surface, no independent catchlight.
+Observed issue 2: the central fringe's right cast shadow is too broad/dark and reads as an extended hard stripe. Preserve the outer head, eyes, face, fringes, bow, frill and whale-fin geometry; narrow this specific receiver-aligned shadow and soften its blue value. Do not change other paint or generate a new composition.
+
+Render the revised SVG at 1280, 128, 48 and 24. Inspect dark and light display backgrounds separately from the transparent SVG. Preserve all actual v1 artifacts. This is the only revision in the bounded experiment. Declare remaining approximation honestly and do not assign an aesthetic score or claim user acceptance.

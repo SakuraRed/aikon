@@ -1,0 +1,1505 @@
+{
+  "sha": "7f14ea7819dfb025bafce2f0d088e4901aefead6",
+  "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/7f14ea7819dfb025bafce2f0d088e4901aefead6",
+  "tree": [
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b56d2f7956f276878f202c7b6af3103883f09a4d",
+      "size": 238,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/b56d2f7956f276878f202c7b6af3103883f09a4d"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0125d7e674bf4f079cdb81fc85964ac89ad83214",
+      "size": 79,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/0125d7e674bf4f079cdb81fc85964ac89ad83214"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab56ca1437415cda0079006152fde23cd8423dc5",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/ab56ca1437415cda0079006152fde23cd8423dc5"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b8b8664f32cea292124d20fe6b133ffe25bd8e35",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/b8b8664f32cea292124d20fe6b133ffe25bd8e35"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3322852d6a0c434785536fee35b113d15036d353",
+      "size": 631,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/3322852d6a0c434785536fee35b113d15036d353"
+    },
+    {
+      "path": ".github/workflows/release-assets.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "771dac463ccf701b9f79e1617cf1673517d78688",
+      "size": 3959,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/771dac463ccf701b9f79e1617cf1673517d78688"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19f3e4fc326c47acefcf95e0c818796b2a078590",
+      "size": 570,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/19f3e4fc326c47acefcf95e0c818796b2a078590"
+    },
+    {
+      "path": "Cetus.slnx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "014078c46a551a8836a4c5401d4ef651bc0f950d",
+      "size": 297,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/014078c46a551a8836a4c5401d4ef651bc0f950d"
+    },
+    {
+      "path": "Directory.Build.props",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af63135357d853908d44b5feb83365813cea1530",
+      "size": 399,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/af63135357d853908d44b5feb83365813cea1530"
+    },
+    {
+      "path": "Directory.Packages.props",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca10e7e2d0238b757239ea8a7b23f829e0840fd0",
+      "size": 510,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/ca10e7e2d0238b757239ea8a7b23f829e0840fd0"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3837923cc070176da445eb333f5fd38ac19292e9",
+      "size": 1065,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/3837923cc070176da445eb333f5fd38ac19292e9"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68bc8e44056ea530eb44e7310427dff8db7486e1",
+      "size": 13705,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/68bc8e44056ea530eb44e7310427dff8db7486e1"
+    },
+    {
+      "path": "dev.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "954f4480c0e880e8c8426e9839f838a0f2971d1e",
+      "size": 228,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/954f4480c0e880e8c8426e9839f838a0f2971d1e"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51cbfef5e98dc07e85bfbf0998da4ad418b61a3e",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/51cbfef5e98dc07e85bfbf0998da4ad418b61a3e"
+    },
+    {
+      "path": "docs/CETUS-ico.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca939dd35547b0b9723088ff6e57f381859e989f",
+      "size": 2521716,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/ca939dd35547b0b9723088ff6e57f381859e989f"
+    },
+    {
+      "path": "docs/README 品牌横幅.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0937b92d08a2c8d418fb50fc51ff43edb3530fba",
+      "size": 99677,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/0937b92d08a2c8d418fb50fc51ff43edb3530fba"
+    },
+    {
+      "path": "docs/dev",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d498d7d3bcd94422195aa77d3e665d52a8f5324",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/9d498d7d3bcd94422195aa77d3e665d52a8f5324"
+    },
+    {
+      "path": "docs/dev/dsh-host-restart-playbook.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12cc660bc7df109b88662338c19b7903fbd536ed",
+      "size": 8679,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/12cc660bc7df109b88662338c19b7903fbd536ed"
+    },
+    {
+      "path": "docs/dev/dsh-mux-protocol.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28dce8df8d8104d5f8ff84be59be87b3a76a4677",
+      "size": 3760,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/28dce8df8d8104d5f8ff84be59be87b3a76a4677"
+    },
+    {
+      "path": "docs/dev/dsh-upstream-request-sidebar-browser-fallback.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "737a7b1ac61327425a80a030638d3d9e874f62c7",
+      "size": 2324,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/737a7b1ac61327425a80a030638d3d9e874f62c7"
+    },
+    {
+      "path": "docs/site",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "589babd4664ab5dc273e09a6b7e9729ea0e3799b",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/589babd4664ab5dc273e09a6b7e9729ea0e3799b"
+    },
+    {
+      "path": "docs/site/CETUS-ico.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2ef28155d80d715af164ecd643a8aefcf2d084d",
+      "size": 340262,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/e2ef28155d80d715af164ecd643a8aefcf2d084d"
+    },
+    {
+      "path": "docs/site/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfd7896c1e496084b8b3fd33852f42a85117f9ea",
+      "size": 9172,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/bfd7896c1e496084b8b3fd33852f42a85117f9ea"
+    },
+    {
+      "path": "eng",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "59051161558b790023425695ecec458670a30734",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/59051161558b790023425695ecec458670a30734"
+    },
+    {
+      "path": "eng/dsh-runtime",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e670c43a2a89d84b05145cfd15fb4176f8d6208",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/0e670c43a2a89d84b05145cfd15fb4176f8d6208"
+    },
+    {
+      "path": "eng/dsh-runtime/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f24c71a98169fb8bf8c297926cce38326d320463",
+      "size": 364127,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/f24c71a98169fb8bf8c297926cce38326d320463"
+    },
+    {
+      "path": "eng/dsh-runtime/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ac1a704e645fa1204114d672ba54fb7c33c127b",
+      "size": 184,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/5ac1a704e645fa1204114d672ba54fb7c33c127b"
+    },
+    {
+      "path": "eng/runtime.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f6b1cebdf853d1ddf24b37080600d756e01b012",
+      "size": 535,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/3f6b1cebdf853d1ddf24b37080600d756e01b012"
+    },
+    {
+      "path": "global.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dbe096286877ae684694ac9d90a36b94d6943cf",
+      "size": 109,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/3dbe096286877ae684694ac9d90a36b94d6943cf"
+    },
+    {
+      "path": "installer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef095ebdc4bc8dfba55bdfe60de55844147c3ac6",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/ef095ebdc4bc8dfba55bdfe60de55844147c3ac6"
+    },
+    {
+      "path": "installer/Cetus.iss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e33922f46d7fd1c2d095db6df1257639e445837b",
+      "size": 7939,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/e33922f46d7fd1c2d095db6df1257639e445837b"
+    },
+    {
+      "path": "installer/wizard-image.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64b8cca842e6ff92788bfe0844db88e90c57564f",
+      "size": 154542,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/64b8cca842e6ff92788bfe0844db88e90c57564f"
+    },
+    {
+      "path": "installer/wizard-small.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "812292dda1742bf37a8b1ca8e88d74c776440d95",
+      "size": 9798,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/812292dda1742bf37a8b1ca8e88d74c776440d95"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b67a9b397b7cae3fef96948bee353dcefc856a92",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/b67a9b397b7cae3fef96948bee353dcefc856a92"
+    },
+    {
+      "path": "scripts/app-smoke.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5514fa9b3da14c05e87d919929efb9848c85d208",
+      "size": 9684,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/5514fa9b3da14c05e87d919929efb9848c85d208"
+    },
+    {
+      "path": "scripts/common.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1b6c17807d3ece65bbaa332264a0f4b8a3d1c05",
+      "size": 10362,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/c1b6c17807d3ece65bbaa332264a0f4b8a3d1c05"
+    },
+    {
+      "path": "scripts/dev-check.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cec2f14fc8e85b80f7bf07e917f79de8e7abdd2",
+      "size": 635,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/8cec2f14fc8e85b80f7bf07e917f79de8e7abdd2"
+    },
+    {
+      "path": "scripts/dev.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1500617f6132487c9ccff000b43dd1fbcf34028b",
+      "size": 15515,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/1500617f6132487c9ccff000b43dd1fbcf34028b"
+    },
+    {
+      "path": "scripts/installer-smoke.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8be2fd7fe8c232585dd2f391771afc3babb97084",
+      "size": 14840,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/8be2fd7fe8c232585dd2f391771afc3babb97084"
+    },
+    {
+      "path": "scripts/package-smoke.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1368965bcb7f0c0ca0118e25ee87d11d55fb6517",
+      "size": 519,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/1368965bcb7f0c0ca0118e25ee87d11d55fb6517"
+    },
+    {
+      "path": "scripts/publish.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88a1af1c7b432dec8524998d7474923ddaba1989",
+      "size": 8949,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/88a1af1c7b432dec8524998d7474923ddaba1989"
+    },
+    {
+      "path": "scripts/smoke.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2db8235f95d0b1324fcd3c16735c9d07dccb9d1e",
+      "size": 759,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/2db8235f95d0b1324fcd3c16735c9d07dccb9d1e"
+    },
+    {
+      "path": "scripts/sync-dsh.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f496a2ccb566babba19a7aaa6f9aec8a48f5a50e",
+      "size": 4558,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/f496a2ccb566babba19a7aaa6f9aec8a48f5a50e"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "880c3055bba180eee8c0b36271d446559cc7a3af",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/880c3055bba180eee8c0b36271d446559cc7a3af"
+    },
+    {
+      "path": "src/Cetus.Desktop",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "533ed7054ddc1c562651c177dcfced14f42ebffb",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/533ed7054ddc1c562651c177dcfced14f42ebffb"
+    },
+    {
+      "path": "src/Cetus.Desktop/App.xaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84bfd135df04b93d9074a3a078b590ad0dea0cee",
+      "size": 253,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/84bfd135df04b93d9074a3a078b590ad0dea0cee"
+    },
+    {
+      "path": "src/Cetus.Desktop/App.xaml.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfe833bb13a58599733c28132725abe88e3924d1",
+      "size": 4899,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/bfe833bb13a58599733c28132725abe88e3924d1"
+    },
+    {
+      "path": "src/Cetus.Desktop/Assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d2998e9f19a33bb9dc582adfcda2cbdb15161457",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/d2998e9f19a33bb9dc582adfcda2cbdb15161457"
+    },
+    {
+      "path": "src/Cetus.Desktop/Assets/cetus-splash.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2ef28155d80d715af164ecd643a8aefcf2d084d",
+      "size": 340262,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/e2ef28155d80d715af164ecd643a8aefcf2d084d"
+    },
+    {
+      "path": "src/Cetus.Desktop/Assets/cetus-titlebar.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abf298a24937a62118ca4c4899e4a18e38fc99db",
+      "size": 25020,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/abf298a24937a62118ca4c4899e4a18e38fc99db"
+    },
+    {
+      "path": "src/Cetus.Desktop/Assets/cetus.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "945e1bad97546ce0b8460904c5cd5acbb8aaf76c",
+      "size": 94137,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/945e1bad97546ce0b8460904c5cd5acbb8aaf76c"
+    },
+    {
+      "path": "src/Cetus.Desktop/Assets/logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbe9f0e39d898a420c4294aa50e78463026b663e",
+      "size": 55177,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/bbe9f0e39d898a420c4294aa50e78463026b663e"
+    },
+    {
+      "path": "src/Cetus.Desktop/Browser",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3966b8f15d6bec8ddfceaa92457a8201beb9eac8",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/3966b8f15d6bec8ddfceaa92457a8201beb9eac8"
+    },
+    {
+      "path": "src/Cetus.Desktop/Browser/BridgeScript.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "893c1cf91a8fef9825480b6c8d7d11277a061256",
+      "size": 1150,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/893c1cf91a8fef9825480b6c8d7d11277a061256"
+    },
+    {
+      "path": "src/Cetus.Desktop/Browser/BridgeScript.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c572784e12b3e67446e2bd770858252d8163c856",
+      "size": 19494,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/c572784e12b3e67446e2bd770858252d8163c856"
+    },
+    {
+      "path": "src/Cetus.Desktop/Browser/BrowserSession.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c641f7917ec36fc6775703203ea15cb47ec81fb",
+      "size": 19653,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/8c641f7917ec36fc6775703203ea15cb47ec81fb"
+    },
+    {
+      "path": "src/Cetus.Desktop/Browser/IBrowserSession.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b91f8646a20c22ea3c29cc656d25174483a100f",
+      "size": 560,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/2b91f8646a20c22ea3c29cc656d25174483a100f"
+    },
+    {
+      "path": "src/Cetus.Desktop/Browser/LoopbackNavigationPolicy.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70e6eb9f087ecc7c1e018753607ce5296506ed13",
+      "size": 1256,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/70e6eb9f087ecc7c1e018753607ce5296506ed13"
+    },
+    {
+      "path": "src/Cetus.Desktop/Cetus.Desktop.csproj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd2f2cbb5bdd50eabcbdf04e62fd976ab4203e44",
+      "size": 1534,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/cd2f2cbb5bdd50eabcbdf04e62fd976ab4203e44"
+    },
+    {
+      "path": "src/Cetus.Desktop/Configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "00c207e163d8c9270cf96241228c8d4d102c06c7",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/00c207e163d8c9270cf96241228c8d4d102c06c7"
+    },
+    {
+      "path": "src/Cetus.Desktop/Configuration/CetusSettingsDialog.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "238b34215887abad79e36bdffd5693580fd3b471",
+      "size": 4079,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/238b34215887abad79e36bdffd5693580fd3b471"
+    },
+    {
+      "path": "src/Cetus.Desktop/Configuration/PortSettingsDialog.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3aeddca5d3e629b12620ef5b4b95fdda969cea3a",
+      "size": 4201,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/3aeddca5d3e629b12620ef5b4b95fdda969cea3a"
+    },
+    {
+      "path": "src/Cetus.Desktop/Controls",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e356257c55ac097b752c4c2856c623699adf6798",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/e356257c55ac097b752c4c2856c623699adf6798"
+    },
+    {
+      "path": "src/Cetus.Desktop/Controls/FluentIcon.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "451baaf60ac7512a7848e7fe1ee00feba09ab889",
+      "size": 3112,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/451baaf60ac7512a7848e7fe1ee00feba09ab889"
+    },
+    {
+      "path": "src/Cetus.Desktop/Controls/FluentIconPaths.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b05a7b48cd822066c6c829aef605feff5165856a",
+      "size": 8001,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/b05a7b48cd822066c6c829aef605feff5165856a"
+    },
+    {
+      "path": "src/Cetus.Desktop/LaunchArgs.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "098cebb0945ebd6f1d64efda322da58ede32f324",
+      "size": 4306,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/098cebb0945ebd6f1d64efda322da58ede32f324"
+    },
+    {
+      "path": "src/Cetus.Desktop/MainWindow.Diagnostics.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f68a71d1e3910ca09972a5a790d97c0a982c214a",
+      "size": 4032,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/f68a71d1e3910ca09972a5a790d97c0a982c214a"
+    },
+    {
+      "path": "src/Cetus.Desktop/MainWindow.Maintenance.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08f5b6e7e88c69be575262568bfc080578ef8d01",
+      "size": 6121,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/08f5b6e7e88c69be575262568bfc080578ef8d01"
+    },
+    {
+      "path": "src/Cetus.Desktop/MainWindow.Updates.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75f49e39bed9d7dc71acca5d767b8496951bcb81",
+      "size": 6906,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/75f49e39bed9d7dc71acca5d767b8496951bcb81"
+    },
+    {
+      "path": "src/Cetus.Desktop/MainWindow.Workspaces.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c320f90f8bf48764f4eb4cd863a4f3c6757d5e6a",
+      "size": 4995,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/c320f90f8bf48764f4eb4cd863a4f3c6757d5e6a"
+    },
+    {
+      "path": "src/Cetus.Desktop/MainWindow.xaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44adefd5e378dafde23dea9c4f9715c993cccc77",
+      "size": 13800,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/44adefd5e378dafde23dea9c4f9715c993cccc77"
+    },
+    {
+      "path": "src/Cetus.Desktop/MainWindow.xaml.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ae2fe306840b6573818b36e095f4f7ee4307abd",
+      "size": 24740,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/0ae2fe306840b6573818b36e095f4f7ee4307abd"
+    },
+    {
+      "path": "src/Cetus.Desktop/Platform",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4eb0de7005a284ea561baf6f5c0088a41f6a4dc6",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/4eb0de7005a284ea561baf6f5c0088a41f6a4dc6"
+    },
+    {
+      "path": "src/Cetus.Desktop/Platform/AutostartManager.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2a0d889238226c62b5c56895963b4ef420bd0d4",
+      "size": 2668,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/a2a0d889238226c62b5c56895963b4ef420bd0d4"
+    },
+    {
+      "path": "src/Cetus.Desktop/Platform/CetusProtocolManager.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "774f4ba98956e923aa37a0b3279a4906c0475959",
+      "size": 1927,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/774f4ba98956e923aa37a0b3279a4906c0475959"
+    },
+    {
+      "path": "src/Cetus.Desktop/Platform/CrashReporter.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "064daff66543390ffbe1c874f36f139b1796615e",
+      "size": 3071,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/064daff66543390ffbe1c874f36f139b1796615e"
+    },
+    {
+      "path": "src/Cetus.Desktop/Platform/DiagnosticsCollector.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1314c92f18c1fa628f661046a9f355a619a5adcf",
+      "size": 6274,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/1314c92f18c1fa628f661046a9f355a619a5adcf"
+    },
+    {
+      "path": "src/Cetus.Desktop/Platform/ForegroundWindow.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "768a0e7ba86ae70ef805e2f6d97045a8690c6231",
+      "size": 615,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/768a0e7ba86ae70ef805e2f6d97045a8690c6231"
+    },
+    {
+      "path": "src/Cetus.Desktop/Platform/GlobalHotkeyManager.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92ecc248b8fba0d02cd584ddd9a5bb7909e5ba63",
+      "size": 2316,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/92ecc248b8fba0d02cd584ddd9a5bb7909e5ba63"
+    },
+    {
+      "path": "src/Cetus.Desktop/Platform/InstalledEdition.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42d7866d42c8356906cfeba0d46bd5bd85b02405",
+      "size": 1423,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/42d7866d42c8356906cfeba0d46bd5bd85b02405"
+    },
+    {
+      "path": "src/Cetus.Desktop/Platform/JumpListController.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ce5ef7e0b4ff72ef4a82b29669611da9dcabeae",
+      "size": 1398,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/5ce5ef7e0b4ff72ef4a82b29669611da9dcabeae"
+    },
+    {
+      "path": "src/Cetus.Desktop/Platform/SystemBrowser.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1110080e81329e60669aa1fb664015fa31865fa",
+      "size": 901,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/c1110080e81329e60669aa1fb664015fa31865fa"
+    },
+    {
+      "path": "src/Cetus.Desktop/Platform/TrayIconController.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc99d3d6cc4dc3dc1a9ee607ffd2d3485d02ce21",
+      "size": 6069,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/bc99d3d6cc4dc3dc1a9ee607ffd2d3485d02ce21"
+    },
+    {
+      "path": "src/Cetus.Desktop/Platform/WindowComposition.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4c8b3d3b7226bcc90c3d0d2680843b794fa5cbd",
+      "size": 10929,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/c4c8b3d3b7226bcc90c3d0d2680843b794fa5cbd"
+    },
+    {
+      "path": "src/Cetus.Desktop/Platform/WindowWorkArea.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc06567bd787a5e0427195a24d9b52504acba4ee",
+      "size": 725,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/dc06567bd787a5e0427195a24d9b52504acba4ee"
+    },
+    {
+      "path": "src/Cetus.Desktop/Runtime",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cba551b7d33bc9dd547c4a723515357487629c7f",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/cba551b7d33bc9dd547c4a723515357487629c7f"
+    },
+    {
+      "path": "src/Cetus.Desktop/Runtime/DesktopRuntime.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a9deadab279776dff4acbf6068cdece95c7bcfd",
+      "size": 16510,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/9a9deadab279776dff4acbf6068cdece95c7bcfd"
+    },
+    {
+      "path": "src/Cetus.Desktop/SplashWindow.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02a28cc95f6039969126279bcc405dd470b6b6b5",
+      "size": 1334,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/02a28cc95f6039969126279bcc405dd470b6b6b5"
+    },
+    {
+      "path": "src/Cetus.Desktop/Updates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "355494736d8606aa965e99ce040009df832ecd31",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/355494736d8606aa965e99ce040009df832ecd31"
+    },
+    {
+      "path": "src/Cetus.Desktop/Updates/AnnouncementWindow.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e18d390da894ec611881a18807805fed3d3d339",
+      "size": 3311,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/3e18d390da894ec611881a18807805fed3d3d339"
+    },
+    {
+      "path": "src/Cetus.Desktop/Updates/PortableUpdateApplier.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b3ce0ff3862b318c88ad47938202d6fd2951006",
+      "size": 11831,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/4b3ce0ff3862b318c88ad47938202d6fd2951006"
+    },
+    {
+      "path": "src/Cetus.Desktop/Updates/UpdateCoordinator.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2204f93f221467e7fbbe9e41c04749156e632cf7",
+      "size": 18676,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/2204f93f221467e7fbbe9e41c04749156e632cf7"
+    },
+    {
+      "path": "src/Cetus.Desktop/Updates/UpdatePromptDialog.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2701ed9dc36b85b69eac746ecc1ab9f11dddce63",
+      "size": 5657,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/2701ed9dc36b85b69eac746ecc1ab9f11dddce63"
+    },
+    {
+      "path": "src/Cetus.Desktop/packages.lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "262c840a00cfa2c3d848443ce64f1249805b7c20",
+      "size": 694,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/262c840a00cfa2c3d848443ce64f1249805b7c20"
+    },
+    {
+      "path": "src/Cetus.Runtime",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9fc80390b04eb442b8c3a05658c0032a5abc0f9",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/b9fc80390b04eb442b8c3a05658c0032a5abc0f9"
+    },
+    {
+      "path": "src/Cetus.Runtime/Application",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "58f633a053191425b58c63589055b9c695d667ee",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/58f633a053191425b58c63589055b9c695d667ee"
+    },
+    {
+      "path": "src/Cetus.Runtime/Application/ActivationChannel.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b35c98a17a66aa272ba5d45cdc376a7630e063fa",
+      "size": 5496,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/b35c98a17a66aa272ba5d45cdc376a7630e063fa"
+    },
+    {
+      "path": "src/Cetus.Runtime/Application/SingleInstanceGuard.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e32a792ad0cc3b73bce060ad63e9bdd532041ada",
+      "size": 1426,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/e32a792ad0cc3b73bce060ad63e9bdd532041ada"
+    },
+    {
+      "path": "src/Cetus.Runtime/Cetus.Runtime.csproj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25e7365f1e3b30c6ba7ccc55c2751990c1df4f37",
+      "size": 357,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/25e7365f1e3b30c6ba7ccc55c2751990c1df4f37"
+    },
+    {
+      "path": "src/Cetus.Runtime/Configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b54f70db75297b0aeaa21a229412dc47b83a700e",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/b54f70db75297b0aeaa21a229412dc47b83a700e"
+    },
+    {
+      "path": "src/Cetus.Runtime/Configuration/CetusPaths.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79815a83dee2192e9f2d50d62ddac7e99acff183",
+      "size": 1865,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/79815a83dee2192e9f2d50d62ddac7e99acff183"
+    },
+    {
+      "path": "src/Cetus.Runtime/Configuration/CetusSettings.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e21950686a30f8ec37c329449d962f2fa4a35aab",
+      "size": 10491,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/e21950686a30f8ec37c329449d962f2fa4a35aab"
+    },
+    {
+      "path": "src/Cetus.Runtime/Configuration/DevMode.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f9c07f06155def93faedf5849966acdab80c623",
+      "size": 586,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/8f9c07f06155def93faedf5849966acdab80c623"
+    },
+    {
+      "path": "src/Cetus.Runtime/Configuration/RecentWorkspaces.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b45a322fca83431d85739dfa9fbc407b5ea6c6fe",
+      "size": 5465,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/b45a322fca83431d85739dfa9fbc407b5ea6c6fe"
+    },
+    {
+      "path": "src/Cetus.Runtime/Configuration/RuntimeLog.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1beb87367d1008b41419a858a1df18b718d3176e",
+      "size": 2764,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/1beb87367d1008b41419a858a1df18b718d3176e"
+    },
+    {
+      "path": "src/Cetus.Runtime/DshStatus",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "59299dbe1d5a7ace266386559a8add400b0424ac",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/59299dbe1d5a7ace266386559a8add400b0424ac"
+    },
+    {
+      "path": "src/Cetus.Runtime/DshStatus/DshCredentials.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbbd4f23ec5788c6792588526ad28a5f1366513a",
+      "size": 2440,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/fbbd4f23ec5788c6792588526ad28a5f1366513a"
+    },
+    {
+      "path": "src/Cetus.Runtime/DshStatus/DshFollowFrames.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b389e08983cf469d2077fc3201dad28d1904d624",
+      "size": 2647,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/b389e08983cf469d2077fc3201dad28d1904d624"
+    },
+    {
+      "path": "src/Cetus.Runtime/DshStatus/DshSessionClient.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d1d193f2a392c6f29f7a66500d78e50b3097a06",
+      "size": 8367,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/4d1d193f2a392c6f29f7a66500d78e50b3097a06"
+    },
+    {
+      "path": "src/Cetus.Runtime/DshStatus/DshSessionWatcher.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b91c620c9f433a109aeebcd0f3b4703aa2721f9f",
+      "size": 8169,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/b91c620c9f433a109aeebcd0f3b4703aa2721f9f"
+    },
+    {
+      "path": "src/Cetus.Runtime/DshStatus/DshTurnEndWatcher.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e7240f27bf261ba28cbdec8a2b10df37de47fa0",
+      "size": 6721,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/8e7240f27bf261ba28cbdec8a2b10df37de47fa0"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "36f5cc2298b78978ceaef06a76665d0a3c0ffa3b",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/36f5cc2298b78978ceaef06a76665d0a3c0ffa3b"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/CredentialGuard.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24102e817e3cf1c13381a3038064d9db57fc040c",
+      "size": 2897,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/24102e817e3cf1c13381a3038064d9db57fc040c"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/DshAuth.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e1a9a8d3ee5bb15f176e6544d09f0437d3770a2",
+      "size": 6421,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/9e1a9a8d3ee5bb15f176e6544d09f0437d3770a2"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/DshEndpointProbe.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff187504df2df782afbb4b657ec0852b70bcb921",
+      "size": 4319,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/ff187504df2df782afbb4b657ec0852b70bcb921"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/DshHost.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53d41d380280f57d0d10364c822e3f12ddf42eb8",
+      "size": 17890,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/53d41d380280f57d0d10364c822e3f12ddf42eb8"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/DshLocator.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "856a7c92508536ed7684b71743d267d6db2554f2",
+      "size": 3704,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/856a7c92508536ed7684b71743d267d6db2554f2"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/DshPortOccupiedException.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d42e648d0a3f97233743f94c114167b569ce8b20",
+      "size": 469,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/d42e648d0a3f97233743f94c114167b569ce8b20"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/DshRuntimeInfo.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e909f59df3b6791f38eb378d914b65080e335af",
+      "size": 1208,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/7e909f59df3b6791f38eb378d914b65080e335af"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/DshSidecarProcess.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09c0b3a90f9041599cb16753e2b3431856e60fb2",
+      "size": 9195,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/09c0b3a90f9041599cb16753e2b3431856e60fb2"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/DshStreamMuxClient.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac194593f30ace044e588df1471d7d3ba727ea2d",
+      "size": 8374,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/ac194593f30ace044e588df1471d7d3ba727ea2d"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/DshVersion.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7942a51cea82a8ab81bec1e654193a6344de27b",
+      "size": 4893,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/a7942a51cea82a8ab81bec1e654193a6344de27b"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/FreePortFinder.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "884927f1de984ced60be6f31bdacb624e8c0ff75",
+      "size": 644,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/884927f1de984ced60be6f31bdacb624e8c0ff75"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/HostOwnerState.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc991339fff66348886329ca4bdd6f1639ba60ce",
+      "size": 4651,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/cc991339fff66348886329ca4bdd6f1639ba60ce"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/IDshHost.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8e1b2e6925526d102f132aedddcff3b9d48da18",
+      "size": 760,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/f8e1b2e6925526d102f132aedddcff3b9d48da18"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/LoopbackBindingGuard.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58344dbefef2466267c14f895e0ca9c709c36770",
+      "size": 1081,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/58344dbefef2466267c14f895e0ca9c709c36770"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/NpmDistTagFeed.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc75fc265a632215f05da9b494f11672d9fa2fe1",
+      "size": 3396,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/dc75fc265a632215f05da9b494f11672d9fa2fe1"
+    },
+    {
+      "path": "src/Cetus.Runtime/Hosting/SidecarJob.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d44f7c58fb15339fae43fec45a298a755e94a304",
+      "size": 4897,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/d44f7c58fb15339fae43fec45a298a755e94a304"
+    },
+    {
+      "path": "src/Cetus.Runtime/Maintenance",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d27a689ec02dcd88637d7ab0edfbdcc5a9c8a637",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/d27a689ec02dcd88637d7ab0edfbdcc5a9c8a637"
+    },
+    {
+      "path": "src/Cetus.Runtime/Maintenance/RetentionCleaner.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f55f2bbbc13163a866835d16bddafa5e80d5a60c",
+      "size": 4413,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/f55f2bbbc13163a866835d16bddafa5e80d5a60c"
+    },
+    {
+      "path": "src/Cetus.Runtime/Updates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70e7e4082450b05a654b4839784b4496a817228d",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/70e7e4082450b05a654b4839784b4496a817228d"
+    },
+    {
+      "path": "src/Cetus.Runtime/Updates/PortableUpdateFailureNotice.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fc52856dafdcd517319e913f70c196499362413",
+      "size": 5348,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/5fc52856dafdcd517319e913f70c196499362413"
+    },
+    {
+      "path": "src/Cetus.Runtime/Updates/ReleaseDownloader.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8c91bb56962881cfe85b4e5b51199d9a3ec791a",
+      "size": 5239,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/c8c91bb56962881cfe85b4e5b51199d9a3ec791a"
+    },
+    {
+      "path": "src/Cetus.Runtime/Updates/UpdateAnnouncement.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9547b21eb83bced1349c317ef10b5ad3384174f5",
+      "size": 2141,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/9547b21eb83bced1349c317ef10b5ad3384174f5"
+    },
+    {
+      "path": "src/Cetus.Runtime/Updates/UpdateFeed.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c2afd6c2ba17a23fe2e6bdfb96ede598a2c70c9",
+      "size": 6215,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/5c2afd6c2ba17a23fe2e6bdfb96ede598a2c70c9"
+    },
+    {
+      "path": "src/Cetus.Runtime/Updates/UpdateNoticeState.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93469aff00e7837ef531f7a6baf740e9a4bff9da",
+      "size": 3036,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/93469aff00e7837ef531f7a6baf740e9a4bff9da"
+    },
+    {
+      "path": "src/Cetus.Runtime/Updates/UpdateService.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a0990efd5485d429bdb71bde8bd59e6863d5bcc",
+      "size": 24559,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/0a0990efd5485d429bdb71bde8bd59e6863d5bcc"
+    },
+    {
+      "path": "src/Cetus.Runtime/packages.lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe5cb8c96df6e40770f2c8e852b236b6b5653400",
+      "size": 110,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/fe5cb8c96df6e40770f2c8e852b236b6b5653400"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad85a03ecfee9ae8e0b3e30fff8d335734516fbf",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/ad85a03ecfee9ae8e0b3e30fff8d335734516fbf"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0088288ca7f09237c73934b7d9264c21f802637a",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/0088288ca7f09237c73934b7d9264c21f802637a"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/ActivationChannelTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "befcd25ea8f8a5af5c80a4eab38f5680d30c7c2a",
+      "size": 2628,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/befcd25ea8f8a5af5c80a4eab38f5680d30c7c2a"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/ArchitectureTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d76f46acde92eada77f028b2e9d8b754717db73",
+      "size": 1065,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/1d76f46acde92eada77f028b2e9d8b754717db73"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/AssemblyInfo.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "217120083bfa1b5b5a6400bb585b33f3651510f9",
+      "size": 80,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/217120083bfa1b5b5a6400bb585b33f3651510f9"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/AutostartManagerTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e8152841f1b440c734edb5972a2b32bcfc8d98d",
+      "size": 1132,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/4e8152841f1b440c734edb5972a2b32bcfc8d98d"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/BridgeScriptTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "044837fe36fb8791295215453e262019df81b786",
+      "size": 5074,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/044837fe36fb8791295215453e262019df81b786"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/BrowserFramePolicyTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5aec1e2d263f2377c56dccdf384b3f5e454cd987",
+      "size": 2950,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/5aec1e2d263f2377c56dccdf384b3f5e454cd987"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/Cetus.Desktop.Tests.csproj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5622287db1f65a605fe43008ad752e0849a00795",
+      "size": 719,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/5622287db1f65a605fe43008ad752e0849a00795"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/CetusPathsTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a714be27ed3c87c6a5c14f2247388153beed5c85",
+      "size": 1901,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/a714be27ed3c87c6a5c14f2247388153beed5c85"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/CetusProtocolManagerTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9912b7d1271cc9012c5e3def032525c41892d12",
+      "size": 367,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/f9912b7d1271cc9012c5e3def032525c41892d12"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/CetusSettingsTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f26d576b6d3d3d6b98e07de55ba62f24f4b8287a",
+      "size": 10579,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/f26d576b6d3d3d6b98e07de55ba62f24f4b8287a"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/DesktopRuntimeTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37ef53e7dde2e245ceb2f1e301e5e1b3fe82253d",
+      "size": 14483,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/37ef53e7dde2e245ceb2f1e301e5e1b3fe82253d"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/DiagnosticsCollectorTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2da65ea20538330e0847335e15e94f1afd48076c",
+      "size": 5581,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/2da65ea20538330e0847335e15e94f1afd48076c"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/DshAuthTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75325b190f15f9400bab28b0335a210541fd34a6",
+      "size": 5322,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/75325b190f15f9400bab28b0335a210541fd34a6"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/DshEndpointProbeTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99dc46dd2fa823d17a6936e2f90388383e33d22c",
+      "size": 6788,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/99dc46dd2fa823d17a6936e2f90388383e33d22c"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/DshFollowFramesTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92bfe2f9f77016d05bfbcfa3fb149f27788ec41a",
+      "size": 2018,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/92bfe2f9f77016d05bfbcfa3fb149f27788ec41a"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/DshHostFailureClassificationTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e082d4716f29f8f9238b2cbdd2c57e69bceaadb",
+      "size": 10676,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/4e082d4716f29f8f9238b2cbdd2c57e69bceaadb"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/DshHostTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e76b2fd637b4a1801320fa88e828b28bc97f6937",
+      "size": 20827,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/e76b2fd637b4a1801320fa88e828b28bc97f6937"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/DshPortSelfHealTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8020f2204a95e0a039af08e021a2a4c965f0def1",
+      "size": 1482,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/8020f2204a95e0a039af08e021a2a4c965f0def1"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/DshRuntimeInfoTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e11ee443a35386d225f04d0f3207b8bb0f3ba20a",
+      "size": 4370,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/e11ee443a35386d225f04d0f3207b8bb0f3ba20a"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/DshSessionClientTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f6a15c3fbe10fcb287942d78d810e396a1a3100",
+      "size": 9094,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/7f6a15c3fbe10fcb287942d78d810e396a1a3100"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/DshSessionWatcherTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaa16984e1dcea52611063a8c9db7cc78543a6a7",
+      "size": 10963,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/aaa16984e1dcea52611063a8c9db7cc78543a6a7"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/DshStreamMuxClientTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea195f6e4a08995bd1255cb9a580b8dcb0fab7a0",
+      "size": 12114,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/ea195f6e4a08995bd1255cb9a580b8dcb0fab7a0"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/DshTurnEndWatcherTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51f18c9d60419c72938095b85f2a6fae817ce3bf",
+      "size": 5657,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/51f18c9d60419c72938095b85f2a6fae817ce3bf"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/HostOwnerStateTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7250204813831e7442cfc14f5a8108d1ac1fd13f",
+      "size": 3538,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/7250204813831e7442cfc14f5a8108d1ac1fd13f"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/LaunchArgsTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d30b0158e9492c1e6a484e20559edaf4541f829",
+      "size": 3533,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/2d30b0158e9492c1e6a484e20559edaf4541f829"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/LoopbackNavigationPolicyTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b279b9de34872dce6186133d169f094d85df5b2",
+      "size": 1076,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/1b279b9de34872dce6186133d169f094d85df5b2"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/PortableInstallRecordTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a6344a5d117917d8b13d318574b81b34ba7e2f3",
+      "size": 656,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/8a6344a5d117917d8b13d318574b81b34ba7e2f3"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/PortableUpdateApplierTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "034b3f5d81ced8fb1810dc43681aec5a8ef8384b",
+      "size": 10556,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/034b3f5d81ced8fb1810dc43681aec5a8ef8384b"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/RecentWorkspacesTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff053598215cc1c4f2fe9efc170a2f965622a3d9",
+      "size": 3459,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/ff053598215cc1c4f2fe9efc170a2f965622a3d9"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/RetentionCleanerTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc5eb7d856270bb1a8ef98cdd523f8318e2e5d8f",
+      "size": 4322,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/fc5eb7d856270bb1a8ef98cdd523f8318e2e5d8f"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/RuntimeLogTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e63254eb2a94f79abb88877883c3713701c1bda8",
+      "size": 1460,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/e63254eb2a94f79abb88877883c3713701c1bda8"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/SecurityHardeningTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65e0a0b4d45c21ee898d5c53760bf152cdf3380a",
+      "size": 3278,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/65e0a0b4d45c21ee898d5c53760bf152cdf3380a"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/SingleInstanceGuardTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b0918faa58edebf2b66158e3f25d22fe5759dde",
+      "size": 937,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/9b0918faa58edebf2b66158e3f25d22fe5759dde"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/TestEnvironment.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1117cd32d4af2daa496a1f5896fddfe621b5a479",
+      "size": 1462,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/1117cd32d4af2daa496a1f5896fddfe621b5a479"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/TestWorkspace.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12a9f6a983d70eecd6a188739da1a9d55d10fe60",
+      "size": 656,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/12a9f6a983d70eecd6a188739da1a9d55d10fe60"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/UpdateAnnouncementTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aba19995cfaa3016d427adfba73ede032adb0e3d",
+      "size": 2142,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/aba19995cfaa3016d427adfba73ede032adb0e3d"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/UpdateCoordinatorTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41d13c5c2d09fbd5e12e91672dd1dc8cef9a02e4",
+      "size": 11917,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/41d13c5c2d09fbd5e12e91672dd1dc8cef9a02e4"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/UpdateFeedTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c48e7c3865ab89e7e8cc324e3f9d9bb102460490",
+      "size": 4359,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/c48e7c3865ab89e7e8cc324e3f9d9bb102460490"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/UpdateNoticeStateTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d11ef5b16085ac8bf1c75afe71a0020ed72360ea",
+      "size": 5542,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/d11ef5b16085ac8bf1c75afe71a0020ed72360ea"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/UpdateRejectionTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "257d4242c5a23fb9ce1da625873f1bb8c28f58a5",
+      "size": 3349,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/257d4242c5a23fb9ce1da625873f1bb8c28f58a5"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/UpdateServiceTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb94f6f2a08ea427afb3f91d20edff65af8b1267",
+      "size": 37354,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/eb94f6f2a08ea427afb3f91d20edff65af8b1267"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/UpdateSourceProbeTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7582588d2c5e50ae964129ef925fee98c57cea70",
+      "size": 3487,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/7582588d2c5e50ae964129ef925fee98c57cea70"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/WindowWorkAreaTests.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "895f6f8ea912e69cbe4edddbdc7bdf6203497cb4",
+      "size": 1091,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/895f6f8ea912e69cbe4edddbdc7bdf6203497cb4"
+    },
+    {
+      "path": "tests/Cetus.Desktop.Tests/packages.lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3807b08686e0e404d8155b271ac1682c6e48c83b",
+      "size": 4504,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/3807b08686e0e404d8155b271ac1682c6e48c83b"
+    },
+    {
+      "path": "tests/bridge",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a92f61d93cfae8a9878056daba9ecf2923c459ab",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/a92f61d93cfae8a9878056daba9ecf2923c459ab"
+    },
+    {
+      "path": "tests/bridge/extract-bridge.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdeb75c45e15e8070d3e4978f28b186677601a0e",
+      "size": 1607,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/bdeb75c45e15e8070d3e4978f28b186677601a0e"
+    },
+    {
+      "path": "tests/bridge/run-bridge-test.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "382d5e270c387336fa0d374c2f86b527422f1e81",
+      "size": 10923,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/382d5e270c387336fa0d374c2f86b527422f1e81"
+    },
+    {
+      "path": "tests/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82de68833bfaa0d1fc53319283f814a740f963b4",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/82de68833bfaa0d1fc53319283f814a740f963b4"
+    },
+    {
+      "path": "tests/fixtures/fake-dsh.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bcc820644959e8e0f427cd540ad56b958725eaa",
+      "size": 702,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/6bcc820644959e8e0f427cd540ad56b958725eaa"
+    },
+    {
+      "path": "tests/manual",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "849fc1f3448633ea0889cca214932d3bf00648fe",
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/trees/849fc1f3448633ea0889cca214932d3bf00648fe"
+    },
+    {
+      "path": "tests/manual/ui-checklist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41f1d3af1649a2d26f7612395c25d4546891abfb",
+      "size": 11522,
+      "url": "https://api.github.com/repos/AvroraCL/CETUS-Desktop/git/blobs/41f1d3af1649a2d26f7612395c25d4546891abfb"
+    }
+  ],
+  "truncated": false
+}

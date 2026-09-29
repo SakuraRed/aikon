@@ -1,0 +1,212 @@
+{
+  "whole_valid_canvas_context_only": {
+    "pixels": 1638400,
+    "mae_srgb8": 5.830610139380479,
+    "rmse_srgb8": 21.635617337181227,
+    "p95_max_channel_error_srgb8": 22.0,
+    "fraction_pixels_max_channel_error_le_2": 0.495614013671875,
+    "fraction_pixels_max_channel_error_gt_16": 0.0717578125
+  },
+  "subject": {
+    "pixels": 1162075,
+    "mae_srgb8": 7.010010856455063,
+    "rmse_srgb8": 20.56427269000811,
+    "p95_max_channel_error_srgb8": 26.0,
+    "fraction_pixels_max_channel_error_le_2": 0.2977587505109395,
+    "fraction_pixels_max_channel_error_gt_16": 0.09345524170126714
+  },
+  "background": {
+    "pixels": 476325,
+    "mae_srgb8": 2.9532636043582823,
+    "rmse_srgb8": 24.049924512646186,
+    "p95_max_channel_error_srgb8": 0.0,
+    "fraction_pixels_max_channel_error_le_2": 0.9783152259486695,
+    "fraction_pixels_max_channel_error_gt_16": 0.01882328242271558
+  },
+  "local_regions": {
+    "face_and_pose_context": {
+      "context": {
+        "pixels": 717500,
+        "mae_srgb8": 6.927445859151435,
+        "rmse_srgb8": 24.457677501148712,
+        "p95_max_channel_error_srgb8": 23.0,
+        "fraction_pixels_max_channel_error_le_2": 0.3909421602787456,
+        "fraction_pixels_max_channel_error_gt_16": 0.0679623693379791
+      },
+      "subject_only": {
+        "pixels": 698242,
+        "mae_srgb8": 5.60708651991286,
+        "rmse_srgb8": 16.827376371568928,
+        "p95_max_channel_error_srgb8": 19.0,
+        "fraction_pixels_max_channel_error_le_2": 0.3812317219531337,
+        "fraction_pixels_max_channel_error_gt_16": 0.06280630497735742
+      }
+    },
+    "eye_left": {
+      "context": {
+        "pixels": 35872,
+        "mae_srgb8": 7.389839800773119,
+        "rmse_srgb8": 29.931978371713456,
+        "p95_max_channel_error_srgb8": 21.0,
+        "fraction_pixels_max_channel_error_le_2": 0.5405330062444246,
+        "fraction_pixels_max_channel_error_gt_16": 0.05349576271186441
+      },
+      "subject_only": {
+        "pixels": 35871,
+        "mae_srgb8": 7.389153726780222,
+        "rmse_srgb8": 29.931892650073596,
+        "p95_max_channel_error_srgb8": 21.0,
+        "fraction_pixels_max_channel_error_le_2": 0.5405480750466951,
+        "fraction_pixels_max_channel_error_gt_16": 0.05346937637646009
+      }
+    },
+    "eye_right": {
+      "context": {
+        "pixels": 33350,
+        "mae_srgb8": 7.698500749625188,
+        "rmse_srgb8": 30.974502418924345,
+        "p95_max_channel_error_srgb8": 23.0,
+        "fraction_pixels_max_channel_error_le_2": 0.5432383808095952,
+        "fraction_pixels_max_channel_error_gt_16": 0.05724137931034483
+      },
+      "subject_only": {
+        "pixels": 33346,
+        "mae_srgb8": 7.694446110478018,
+        "rmse_srgb8": 30.972691731579,
+        "p95_max_channel_error_srgb8": 23.0,
+        "fraction_pixels_max_channel_error_le_2": 0.5433035446530319,
+        "fraction_pixels_max_channel_error_gt_16": 0.05712829124932526
+      }
+    },
+    "main_hair_flow": {
+      "context": {
+        "pixels": 960000,
+        "mae_srgb8": 7.028639336545165,
+        "rmse_srgb8": 22.643281646644745,
+        "p95_max_channel_error_srgb8": 22.0,
+        "fraction_pixels_max_channel_error_le_2": 0.326615625,
+        "fraction_pixels_max_channel_error_gt_16": 0.08409583333333333
+      },
+      "subject_only": {
+        "pixels": 920605,
+        "mae_srgb8": 6.779321941405162,
+        "rmse_srgb8": 20.39485381952826,
+        "p95_max_channel_error_srgb8": 22.0,
+        "fraction_pixels_max_channel_error_le_2": 0.30083369088805734,
+        "fraction_pixels_max_channel_error_gt_16": 0.08499084840946985
+      }
+    },
+    "top_hook": {
+      "context": {
+        "pixels": 113400,
+        "mae_srgb8": 5.851139465418372,
+        "rmse_srgb8": 21.73432800399928,
+        "p95_max_channel_error_srgb8": 20.0,
+        "fraction_pixels_max_channel_error_le_2": 0.3867460317460317,
+        "fraction_pixels_max_channel_error_gt_16": 0.05357142857142857
+      },
+      "subject_only": {
+        "pixels": 81234,
+        "mae_srgb8": 6.810387131980977,
+        "rmse_srgb8": 22.52449619563186,
+        "p95_max_channel_error_srgb8": 23.0,
+        "fraction_pixels_max_channel_error_le_2": 0.16477090873279662,
+        "fraction_pixels_max_channel_error_gt_16": 0.05838688233990694
+      }
+    },
+    "head_side_fin": {
+      "context": {
+        "pixels": 122836,
+        "mae_srgb8": 7.434020129683268,
+        "rmse_srgb8": 21.409408537161642,
+        "p95_max_channel_error_srgb8": 41.0,
+        "fraction_pixels_max_channel_error_le_2": 0.430476407567814,
+        "fraction_pixels_max_channel_error_gt_16": 0.12576931844084796
+      },
+      "subject_only": {
+        "pixels": 81065,
+        "mae_srgb8": 10.6753901047133,
+        "rmse_srgb8": 24.73578329187779,
+        "p95_max_channel_error_srgb8": 97.0,
+        "fraction_pixels_max_channel_error_le_2": 0.14752359217911554,
+        "fraction_pixels_max_channel_error_gt_16": 0.18448158884845495
+      }
+    },
+    "side_bow": {
+      "context": {
+        "pixels": 40232,
+        "mae_srgb8": 8.489299123848362,
+        "rmse_srgb8": 17.819049991205738,
+        "p95_max_channel_error_srgb8": 40.0,
+        "fraction_pixels_max_channel_error_le_2": 0.21003181547027241,
+        "fraction_pixels_max_channel_error_gt_16": 0.20130741698150725
+      },
+      "subject_only": {
+        "pixels": 35400,
+        "mae_srgb8": 9.502347843076775,
+        "rmse_srgb8": 18.75255043758713,
+        "p95_max_channel_error_srgb8": 44.0,
+        "fraction_pixels_max_channel_error_le_2": 0.10889830508474577,
+        "fraction_pixels_max_channel_error_gt_16": 0.22536723163841807
+      }
+    },
+    "white_frill": {
+      "context": {
+        "pixels": 651035,
+        "mae_srgb8": 6.72907701441449,
+        "rmse_srgb8": 22.188639960818932,
+        "p95_max_channel_error_srgb8": 17.0,
+        "fraction_pixels_max_channel_error_le_2": 0.3130538296712158,
+        "fraction_pixels_max_channel_error_gt_16": 0.05383581527874846
+      },
+      "subject_only": {
+        "pixels": 542268,
+        "mae_srgb8": 7.848623232180738,
+        "rmse_srgb8": 23.533970291950457,
+        "p95_max_channel_error_srgb8": 19.0,
+        "fraction_pixels_max_channel_error_le_2": 0.1787308120707842,
+        "fraction_pixels_max_channel_error_gt_16": 0.06254287547854566
+      }
+    }
+  },
+  "silhouette_alpha_proxy": {
+    "iou": 0.9895139522026938,
+    "intersection_pixels": 1158045,
+    "union_pixels": 1170317,
+    "false_negative_pixels": 4030,
+    "false_positive_pixels": 8242,
+    "boundary": {
+      "status": "measured",
+      "symmetric_mean_px": 7.301608353817752,
+      "symmetric_p95_px": 14.422205101855956,
+      "symmetric_max_px": 438.9282401486603,
+      "reference_samples": 4932,
+      "candidate_samples": 4389
+    }
+  },
+  "alpha": {
+    "note": "Reference contains black backdrop; subject alpha is a thresholded source-only proxy, not original ground-truth alpha.",
+    "subject_mean_alpha": 0.9964925646781921,
+    "background_mean_alpha": 0.017334243282675743,
+    "background_pixels_alpha_ge_128": 8242
+  },
+  "acceptance": {
+    "user_99_percent_target": "not_assessed",
+    "visual_acceptance": "not_assessed",
+    "identity_and_pose": "not_semantically_certified"
+  },
+  "schema": "aikon.r1-upstream-comparison.v4",
+  "reference_sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+  "reference_contract": "ref/subjects/deepseek/cetus-desktop/reference-contract-v4.json",
+  "candidate_svg_sha256": "0e182ecda410867351aa6b88e2449a3f2927c06704150263fcf95d91aa76ebc9",
+  "render_png_sha256": "3cad720da9e816f1590ebf10009c44bf6cdd9b39eacaa8ab83ea6af025cbecc3",
+  "backend": {
+    "binding": "resvg-py",
+    "version": "0.5.0",
+    "resvg": "0.48.1"
+  },
+  "watermark_exclusion": null,
+  "alignment": "none; unchanged1280 canvas",
+  "source_attribution": "AvroraCL/CETUS-Desktop at7f14ea7819dfb025bafce2f0d088e4901aefead6",
+  "normalization_note": "Uniform4096-to1280 upstream RGBA only; original user r1 untouched"
+}

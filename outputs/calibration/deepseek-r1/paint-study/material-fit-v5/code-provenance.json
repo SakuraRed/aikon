@@ -1,0 +1,7 @@
+{
+  "base_file": "../material-fit-v4/fit_fields_v4.py",
+  "base_sha256": "a61f9478c25454ab6651c52c0655f0ecb8c5adf19f695b979ec78044f8f3a2d3",
+  "v5_file": "fit_fields_v5.py",
+  "v5_sha256": "b1fc7e15773e134af23c5f9adfae04c619c24456dc2b92520b41166a4c3dee9f",
+  "fitting_policy": "unchanged from v4; source snapshot added; source and geometry actually rerun"
+}

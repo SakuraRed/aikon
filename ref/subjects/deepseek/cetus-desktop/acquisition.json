@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/AvroraCL/CETUS-Desktop",
+  "commit": "7f14ea7819dfb025bafce2f0d088e4901aefead6",
+  "retrieved_on": "2026-09-29",
+  "user_source_attribution": "r1 comes from cetus-desktop",
+  "files": [
+    {
+      "remote_path": "docs/CETUS-ico.png",
+      "path": "ref/subjects/deepseek/cetus-desktop/CETUS-ico.original.png",
+      "url": "https://raw.githubusercontent.com/AvroraCL/CETUS-Desktop/7f14ea7819dfb025bafce2f0d088e4901aefead6/docs/CETUS-ico.png",
+      "sha256": "4da172c683d7981e170fc90d8e7d1bd8b4e7107799cdc12338859c82e6fb44fd",
+      "bytes": 2521716,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "remote_path": "docs/site/CETUS-ico.png",
+      "path": "ref/subjects/deepseek/cetus-desktop/CETUS-ico.site.png",
+      "url": "https://raw.githubusercontent.com/AvroraCL/CETUS-Desktop/7f14ea7819dfb025bafce2f0d088e4901aefead6/docs/site/CETUS-ico.png",
+      "sha256": "70e10999455e61b9e3fcb6ea175b881ee5bf5560eb64c54b31f0afb3bed121fe",
+      "bytes": 340262,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "identity_match": "visually confirmed same composition; fixed uniform sampling gives subject MAE 0.1524848/255 outside prior watermark and crop alpha",
+  "original_r1_modified": false
+}

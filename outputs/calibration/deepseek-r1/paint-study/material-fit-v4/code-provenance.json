@@ -1,0 +1,14 @@
+{
+  "base_file": "../fit_fields.py",
+  "base_sha256": "e7880981afe61690827c98af3f1900b485b7982179d42f91065bd2e785fc505f",
+  "v4_file": "fit_fields_v4.py",
+  "v4_sha256": "a61f9478c25454ab6651c52c0655f0ecb8c5adf19f695b979ec78044f8f3a2d3",
+  "changes": [
+    "null exclusion is zero pixels",
+    "assert new source hash matches geometry",
+    "reject any watermark mask",
+    "record actual source path",
+    "rename zero exclusion evidence",
+    "one true thin crease uses all visible pixels and a solid-only model; all errors reported"
+  ]
+}

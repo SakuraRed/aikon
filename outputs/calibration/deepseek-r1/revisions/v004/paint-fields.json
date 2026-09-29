@@ -1,0 +1,4500 @@
+{
+  "schema": "aikon.r1-analytic-paint-study.v1",
+  "source_sha256": "60c234f594ad81319fa74bb4fa8392f10a125127d46bf1d3b47e618b25813da2",
+  "source": "ref/subjects/deepseek/cetus-desktop/r1-clean-source-1280.png",
+  "source_snapshot_file": "source-input.png",
+  "geometry_manifest_sha256": "8105b2e6d66b4ff7339302b59bd419df883cf033c0b0a663123989d404443769",
+  "geometry_manifest_file": "geometry-input/geometry.json",
+  "scope": "same-source semantic paint calibration, not independent Skill creation or acceptance",
+  "fitting_policy": {
+    "default_simplicity_tolerance": 0.35,
+    "fidelity_region_prefix": "frill-white",
+    "fidelity_simplicity_tolerance": 0.05
+  },
+  "exclusions": {
+    "edge_pixels": 2,
+    "watermark_mask": null,
+    "watermark_mask_sha256": null,
+    "watermark_pixels": 0
+  },
+  "palette": [
+    {
+      "id": "face",
+      "semantic_role": "face",
+      "source_mask_sha256": "18f536a0ee7cc5a899ce2b9644aa42baa53375037ed088416b85db6167434be2",
+      "field": {
+        "kind": "radial",
+        "center": [
+          411.6902131490836,
+          909.6203553355642
+        ],
+        "radii": [
+          598.5563211228882,
+          598.737044678603
+        ],
+        "cx": 0.0,
+        "cy": 0.0,
+        "r": 1.0,
+        "fx": 0.0,
+        "fy": 0.0,
+        "gradientTransform": "translate(411.69021 909.62036) scale(598.55632 598.73704)",
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#fffffe",
+            "rgb": [
+              254.60621,
+              255.0,
+              253.75816
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#fdf0e7",
+            "rgb": [
+              253.11734,
+              239.93161,
+              231.03004
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#f8e7e3",
+            "rgb": [
+              247.64294,
+              230.61489,
+              227.26992
+            ]
+          }
+        ],
+        "sample_rmse": 1.5126277810732447,
+        "parameters": 12
+      },
+      "stats": {
+        "visible_pixels": 374452,
+        "edge_excluded_pixels": 9211,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 365241,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.5057258114769538,
+        "rgb_mae_255": 1.0537322300205862,
+        "pixel_rgb_rmse_p95_255": 2.629880542442329,
+        "pixel_rgb_rmse_max_255": 16.688613998499836,
+        "residual_gt_5_levels_pixels": 3010,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 4.888529355466658
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 4.687618733675937
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.8192668188390884
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 3.6910138466576
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.5126277810732447
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 3.5758383821879502
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.4420584626737571
+          }
+        ]
+      }
+    },
+    {
+      "id": "face-under-fringe-shadow",
+      "semantic_role": "face",
+      "source_mask_sha256": "cc93e16f671e4f0169b4febbefa8e22d8e479de8d799cc44ebd40d054c4b78bc",
+      "field": {
+        "kind": "linear",
+        "from": [
+          -39.475599780770025,
+          71.47320929554417
+        ],
+        "to": [
+          -253.92619707385728,
+          459.7503351405033
+        ],
+        "x1": -39.475599780770025,
+        "y1": 71.47320929554417,
+        "x2": -253.92619707385728,
+        "y2": 459.7503351405033,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#f8cac4",
+            "rgb": [
+              247.83511,
+              201.86447,
+              196.14264
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#ebccc2",
+            "rgb": [
+              235.25145,
+              204.04476,
+              193.70815
+            ]
+          }
+        ],
+        "sample_rmse": 1.8096120177481325,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 3524,
+        "edge_excluded_pixels": 940,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 2584,
+        "parameter_fit_samples": 2584,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.8096120177487574,
+        "rgb_mae_255": 1.3301196092088903,
+        "pixel_rgb_rmse_p95_255": 3.266381485662483,
+        "pixel_rgb_rmse_max_255": 14.663681736582044,
+        "residual_gt_5_levels_pixels": 38,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 1.909481130939402
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.8096120177481325
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.8187466246783772
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.5927625454438779
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.6329806932199524
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.4851817939327645
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.5020170304918687
+          }
+        ]
+      }
+    },
+    {
+      "id": "eye-left",
+      "semantic_role": "eye",
+      "source_mask_sha256": "7400222e3264d19d58091c738699e5dd44dbdd5067469f008a6b550dfb9cbdbf",
+      "field": {
+        "kind": "linear",
+        "from": [
+          -150.67051890466425,
+          116.47433831283026
+        ],
+        "to": [
+          -333.5154828425022,
+          257.820809694988
+        ],
+        "x1": -150.67051890466425,
+        "y1": 116.47433831283026,
+        "x2": -333.5154828425022,
+        "y2": 257.820809694988,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#212641",
+            "rgb": [
+              32.67761,
+              38.2449,
+              65.33426
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#1e233c",
+            "rgb": [
+              29.91753,
+              35.33009,
+              60.26852
+            ]
+          }
+        ],
+        "sample_rmse": 1.434719357646637,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 20127,
+        "edge_excluded_pixels": 1002,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 19125,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.436043927613873,
+        "rgb_mae_255": 0.990875661846617,
+        "pixel_rgb_rmse_p95_255": 2.752145956557736,
+        "pixel_rgb_rmse_max_255": 10.280442002052101,
+        "residual_gt_5_levels_pixels": 183,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 1.6218715069897445
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.434719357646637
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.333765364960326
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.1258487282730392
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.1406188335180174
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.1234443762242996
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.12557309069861
+          }
+        ]
+      }
+    },
+    {
+      "id": "eye-right",
+      "semantic_role": "eye",
+      "source_mask_sha256": "a70616acda9472a43a30581a5c0efb11cb28481481fa17a36dbdc6c862c6feed",
+      "field": {
+        "kind": "solid",
+        "rgb": [
+          31.410666666666668,
+          37.14366666666667,
+          62.85033333333333
+        ],
+        "color": "#1f253f",
+        "parameters": 3,
+        "sample_rmse": 1.407556511594946
+      },
+      "stats": {
+        "visible_pixels": 18975,
+        "edge_excluded_pixels": 972,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 18003,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.4208182993029528,
+        "rgb_mae_255": 0.8995333617236635,
+        "pixel_rgb_rmse_p95_255": 2.7803889016546672,
+        "pixel_rgb_rmse_max_255": 12.13704641903366,
+        "residual_gt_5_levels_pixels": 232,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 1.407556511594946
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.213899824930031
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.2027642648273902
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.0937799974368276
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.1041591849792942
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.0822660665481982
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.0850283875365063
+          }
+        ]
+      }
+    },
+    {
+      "id": "cheek-left",
+      "semantic_role": "cheek",
+      "source_mask_sha256": "e9c78e3588994b0bfb779c6d32b79a228c25faa0239fcf405649ef09bc7e803f",
+      "field": {
+        "kind": "solid",
+        "rgb": [
+          253.67166666666665,
+          215.52166666666668,
+          213.04933333333332
+        ],
+        "color": "#fed8d5",
+        "parameters": 3,
+        "sample_rmse": 0.80780099309449
+      },
+      "stats": {
+        "visible_pixels": 11007,
+        "edge_excluded_pixels": 717,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 10290,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 0.8040222030863484,
+        "rgb_mae_255": 0.650460857358817,
+        "pixel_rgb_rmse_p95_255": 1.4388698497238832,
+        "pixel_rgb_rmse_max_255": 2.4268204621593994,
+        "residual_gt_5_levels_pixels": 0,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 0.80780099309449
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 0.6925061919697917
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 0.6929311503709401
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 0.5682732731913213
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 0.6030284780993356
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 0.5507588730571968
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 0.5953820673822956
+          }
+        ]
+      }
+    },
+    {
+      "id": "cheek-right",
+      "semantic_role": "cheek",
+      "source_mask_sha256": "ddb4dfde858cf76460cb7f3bdb1a24b824605f6c5db68f4ef7248b0c9b392fbe",
+      "field": {
+        "kind": "solid",
+        "rgb": [
+          253.34733333333332,
+          214.34766666666667,
+          211.771
+        ],
+        "color": "#fdd6d4",
+        "parameters": 3,
+        "sample_rmse": 0.9904061643438868
+      },
+      "stats": {
+        "visible_pixels": 9289,
+        "edge_excluded_pixels": 632,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 8657,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 0.9895808637888539,
+        "rgb_mae_255": 0.8056261984521196,
+        "pixel_rgb_rmse_p95_255": 1.6144438556242762,
+        "pixel_rgb_rmse_max_255": 2.9066181316029462,
+        "residual_gt_5_levels_pixels": 0,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 0.9904061643438868
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 0.794980168735283
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 0.7009011324723369
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 0.6886931168416276
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 0.6754181299126262
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 0.6741419473249388
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 0.6630073354066531
+          }
+        ]
+      }
+    },
+    {
+      "id": "whale-side-fin-rim",
+      "semantic_role": "whale",
+      "source_mask_sha256": "0c96c86f0fc2fb1fa53ac5d1744cb97eb9eeccfb591a79bbea4f4e6523de68cc",
+      "field": {
+        "kind": "linear",
+        "from": [
+          85.0973545929783,
+          -86.2625269380747
+        ],
+        "to": [
+          -61.48433323766478,
+          62.32619072063675
+        ],
+        "x1": 85.0973545929783,
+        "y1": -86.2625269380747,
+        "x2": -61.48433323766478,
+        "y2": 62.32619072063675,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#c5c5e3",
+            "rgb": [
+              196.59973,
+              197.46168,
+              227.27439
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#babad8",
+            "rgb": [
+              185.67904,
+              185.6913,
+              215.83035
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#cfcde3",
+            "rgb": [
+              207.39688,
+              204.61726,
+              227.38828
+            ]
+          }
+        ],
+        "sample_rmse": 2.1848862966866953,
+        "parameters": 10
+      },
+      "stats": {
+        "visible_pixels": 6843,
+        "edge_excluded_pixels": 876,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 5967,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 2.219733826043348,
+        "rgb_mae_255": 1.3760346378774007,
+        "pixel_rgb_rmse_p95_255": 4.779421630426416,
+        "pixel_rgb_rmse_max_255": 13.635607133898104,
+        "residual_gt_5_levels_pixels": 284,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 3.7104938575163637
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 2.699608316194728
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 2.4668016929922456
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 2.1848862966866953
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 2.2024076132576464
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 2.0439740491320926
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.9938927756091336
+          }
+        ]
+      }
+    },
+    {
+      "id": "bow-knot",
+      "semantic_role": "bow",
+      "source_mask_sha256": "e8f64fc3ad365c0c522cd131dd77bd8cdf5b0415867f8301ab93ee1a235d19c1",
+      "field": {
+        "kind": "linear",
+        "from": [
+          1178.7348414148278,
+          442.1165987626429
+        ],
+        "to": [
+          1216.4348068997137,
+          456.2569973731061
+        ],
+        "x1": 1178.7348414148278,
+        "y1": 442.1165987626429,
+        "x2": 1216.4348068997137,
+        "y2": 456.2569973731061,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#ffffff",
+            "rgb": [
+              255.0,
+              255.0,
+              255.0
+            ]
+          },
+          {
+            "offset": 0.25,
+            "color": "#4873bf",
+            "rgb": [
+              72.12347,
+              114.99916,
+              190.97438
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#6696dc",
+            "rgb": [
+              102.20423,
+              149.8053,
+              219.79356
+            ]
+          },
+          {
+            "offset": 0.75,
+            "color": "#618ed4",
+            "rgb": [
+              97.34289,
+              142.18909,
+              211.5932
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#000000",
+            "rgb": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "sample_rmse": 7.9191406031627265,
+        "parameters": 16
+      },
+      "stats": {
+        "visible_pixels": 694,
+        "edge_excluded_pixels": 264,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 430,
+        "parameter_fit_samples": 430,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 7.919140484795143,
+        "rgb_mae_255": 5.138069749372397,
+        "pixel_rgb_rmse_p95_255": 20.385219105624753,
+        "pixel_rgb_rmse_max_255": 28.03165372004632,
+        "residual_gt_5_levels_pixels": 124,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 10.98621027912253
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 9.879731569805466
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 9.99854807500387
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 9.289170892080433
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 9.543356973077154
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 7.9191406031627265
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 9.541254179650508
+          }
+        ]
+      }
+    },
+    {
+      "id": "bow-left",
+      "semantic_role": "bow",
+      "source_mask_sha256": "3e76157c30db229a6aa86b44003e47568a9a0e6adb16564a9f5c3ae94add22aa",
+      "field": {
+        "kind": "radial",
+        "center": [
+          1009.4101789771476,
+          786.3113728211392
+        ],
+        "radii": [
+          92.62383976769014,
+          92.54230597869876
+        ],
+        "cx": 0.0,
+        "cy": 0.0,
+        "r": 1.0,
+        "fx": 0.0,
+        "fy": 0.0,
+        "gradientTransform": "translate(1009.41018 786.31137) scale(92.62384 92.54231)",
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#6898d9",
+            "rgb": [
+              104.03655,
+              151.56061,
+              217.36458
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#608dd5",
+            "rgb": [
+              96.13721,
+              141.45002,
+              212.62095
+            ]
+          }
+        ],
+        "sample_rmse": 1.1972438359516673,
+        "parameters": 9
+      },
+      "stats": {
+        "visible_pixels": 7443,
+        "edge_excluded_pixels": 691,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 6752,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.208173304902465,
+        "rgb_mae_255": 0.872684977956883,
+        "pixel_rgb_rmse_p95_255": 1.8162331254564312,
+        "pixel_rgb_rmse_max_255": 8.542098474085131,
+        "residual_gt_5_levels_pixels": 55,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 1.9536477941798271
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.617967322542834
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.1972438359516673
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 0.9601077380462802
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 0.9797301186306089
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 0.9273787585509282
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 0.9413474796528493
+          }
+        ]
+      }
+    },
+    {
+      "id": "bow-right",
+      "semantic_role": "bow",
+      "source_mask_sha256": "3a7c1f3f4eb0e689f7acebc9c6537202fad44ba7d0c665d59e208797bbfec42c",
+      "field": {
+        "kind": "linear",
+        "from": [
+          -5.279976784154793,
+          773.1651778744102
+        ],
+        "to": [
+          -6.178549942834658,
+          904.7463390167885
+        ],
+        "x1": -5.279976784154793,
+        "y1": 773.1651778744102,
+        "x2": -6.178549942834658,
+        "y2": 904.7463390167885,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#6898da",
+            "rgb": [
+              104.28663,
+              152.40047,
+              217.91578
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#5f8cd5",
+            "rgb": [
+              95.10176,
+              140.36884,
+              213.38073
+            ]
+          }
+        ],
+        "sample_rmse": 1.7029688745803395,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 8205,
+        "edge_excluded_pixels": 692,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 7513,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.6710098515410696,
+        "rgb_mae_255": 1.0294661395104023,
+        "pixel_rgb_rmse_p95_255": 2.5161261048335173,
+        "pixel_rgb_rmse_max_255": 18.146388633054865,
+        "residual_gt_5_levels_pixels": 129,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 2.8516734658013627
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.7029688745803395
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.6997984946327998
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.6128822975081072
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.6210705794368678
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.5852821321995116
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.594443580068837
+          }
+        ]
+      }
+    },
+    {
+      "id": "whale-side-fin",
+      "semantic_role": "whale",
+      "source_mask_sha256": "2d8fa4742d1a4a13b4814adb24782dcc2e620f8f8902ac89ddee63e9cdc74147",
+      "field": {
+        "kind": "radial",
+        "center": [
+          1104.171261342893,
+          1061.638088981909
+        ],
+        "radii": [
+          504.9320323529477,
+          504.35353754131967
+        ],
+        "cx": 0.0,
+        "cy": 0.0,
+        "r": 1.0,
+        "fx": 0.0,
+        "fy": 0.0,
+        "gradientTransform": "translate(1104.17126 1061.63809) scale(504.93203 504.35354)",
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#32427f",
+            "rgb": [
+              50.0362,
+              65.75915,
+              126.93365
+            ]
+          },
+          {
+            "offset": 0.25,
+            "color": "#2f3e78",
+            "rgb": [
+              47.27433,
+              62.41255,
+              120.05135
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#1a2355",
+            "rgb": [
+              26.1266,
+              35.48372,
+              85.0963
+            ]
+          },
+          {
+            "offset": 0.75,
+            "color": "#151c4a",
+            "rgb": [
+              20.81125,
+              28.09697,
+              73.50069
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#2b3366",
+            "rgb": [
+              42.57847,
+              50.62221,
+              101.52435
+            ]
+          }
+        ],
+        "sample_rmse": 3.6527232303867296,
+        "parameters": 18
+      },
+      "stats": {
+        "visible_pixels": 40723,
+        "edge_excluded_pixels": 2213,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 38510,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 3.6098725235778755,
+        "rgb_mae_255": 2.2041336646081287,
+        "pixel_rgb_rmse_p95_255": 7.3087436680547535,
+        "pixel_rgb_rmse_max_255": 24.621098746515013,
+        "residual_gt_5_levels_pixels": 3278,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 11.278939687820017
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 5.601437115646317
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 4.635852669339514
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 4.608888198984135
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 4.521909439512958
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 4.056799015999582
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 3.6527232303867296
+          }
+        ]
+      }
+    },
+    {
+      "id": "ahoge",
+      "semantic_role": "hair",
+      "source_mask_sha256": "488870d0edf0c6b970fde5ea20d7f5ed59079b4abb0be6c3926f00270278a2b0",
+      "field": {
+        "kind": "linear",
+        "from": [
+          355.03541208207366,
+          -281.5510053655792
+        ],
+        "to": [
+          -12.031182342729885,
+          9.540996106464839
+        ],
+        "x1": 355.03541208207366,
+        "y1": -281.5510053655792,
+        "x2": -12.031182342729885,
+        "y2": 9.540996106464839,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#455aa6",
+            "rgb": [
+              68.80292,
+              89.54387,
+              166.49121
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#42539e",
+            "rgb": [
+              65.87117,
+              83.36129,
+              158.30392
+            ]
+          }
+        ],
+        "sample_rmse": 2.2273224878069002,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 35717,
+        "edge_excluded_pixels": 2129,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 33588,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 2.2364726733608977,
+        "rgb_mae_255": 1.1624163649595465,
+        "pixel_rgb_rmse_p95_255": 2.9029121159700124,
+        "pixel_rgb_rmse_max_255": 19.620758134622225,
+        "residual_gt_5_levels_pixels": 736,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 2.316952580278513
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 2.2273224878069002
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 2.2149601753230184
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 2.0766274265164704
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.957703220564432
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.9645574329648947
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.9043118624092872
+          }
+        ]
+      }
+    },
+    {
+      "id": "hair-left-fringe-fold",
+      "semantic_role": "hair",
+      "source_mask_sha256": "d335516035ee7a75d5715c0381b12a0339fb7ce07652b8b725854a1a8e161530",
+      "field": {
+        "kind": "linear",
+        "from": [
+          -42.22168801757727,
+          20.583671310179152
+        ],
+        "to": [
+          -246.84255138460247,
+          120.33924226220965
+        ],
+        "x1": -42.22168801757727,
+        "y1": 20.583671310179152,
+        "x2": -246.84255138460247,
+        "y2": 120.33924226220965,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#324388",
+            "rgb": [
+              49.66347,
+              66.91584,
+              136.25364
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#4d69b4",
+            "rgb": [
+              77.38603,
+              105.31536,
+              180.44459
+            ]
+          }
+        ],
+        "sample_rmse": 5.909518667405308,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 7771,
+        "edge_excluded_pixels": 947,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 6824,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 6.043371924996831,
+        "rgb_mae_255": 3.3956309958746305,
+        "pixel_rgb_rmse_p95_255": 14.108227777673244,
+        "pixel_rgb_rmse_max_255": 35.44000877288653,
+        "residual_gt_5_levels_pixels": 687,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 9.526770425529353
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 5.909518667405308
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 5.745569936376415
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 5.688664200258737
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 5.679585356493542
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 5.651608622754496
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 5.67216670919264
+          }
+        ]
+      }
+    },
+    {
+      "id": "hair-left-inner-fold",
+      "semantic_role": "hair",
+      "source_mask_sha256": "4c25bb2195e923c2da3874c62904b510fd9e9705eb8a3dc6b29b5853f38805cf",
+      "field": {
+        "kind": "linear",
+        "from": [
+          373.41762788130217,
+          266.48538316814984
+        ],
+        "to": [
+          486.283180797958,
+          347.03064367481414
+        ],
+        "x1": 373.41762788130217,
+        "y1": 266.48538316814984,
+        "x2": 486.283180797958,
+        "y2": 347.03064367481414,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#365a96",
+            "rgb": [
+              53.73685,
+              90.1379,
+              149.69025
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#2c2b74",
+            "rgb": [
+              44.03107,
+              43.09416,
+              115.99696
+            ]
+          }
+        ],
+        "sample_rmse": 2.2288010680354797,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 1321,
+        "edge_excluded_pixels": 483,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 838,
+        "parameter_fit_samples": 838,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 2.2288010680324226,
+        "rgb_mae_255": 1.5422982449650333,
+        "pixel_rgb_rmse_p95_255": 4.080985945996891,
+        "pixel_rgb_rmse_max_255": 15.950364849238857,
+        "residual_gt_5_levels_pixels": 28,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 2.3699472279758282
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 2.2288010680354797
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.9985698650386616
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 2.2212737334464805
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 2.1867999738350887
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 2.135602954635583
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 2.0912100110397427
+          }
+        ]
+      }
+    },
+    {
+      "id": "hair-center-fold",
+      "semantic_role": "hair",
+      "source_mask_sha256": "5f389fee40d3a9f2b8b28d03b3e986cacdb6d139f109c1af0b1792df656aa919",
+      "field": {
+        "kind": "linear",
+        "from": [
+          336.7150800253997,
+          -91.8192832482636
+        ],
+        "to": [
+          306.5941967124118,
+          -83.6055794949464
+        ],
+        "x1": 336.7150800253997,
+        "y1": -91.8192832482636,
+        "x2": 306.5941967124118,
+        "y2": -83.6055794949464,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#1c2260",
+            "rgb": [
+              27.5544,
+              34.49908,
+              95.52177
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#526db6",
+            "rgb": [
+              81.92559,
+              108.83938,
+              181.68556
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#5672c5",
+            "rgb": [
+              86.31617,
+              114.44195,
+              197.16309
+            ]
+          }
+        ],
+        "sample_rmse": 3.5879316169513915,
+        "parameters": 10
+      },
+      "stats": {
+        "visible_pixels": 406,
+        "edge_excluded_pixels": 291,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 115,
+        "parameter_fit_samples": 115,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 3.587931616925228,
+        "rgb_mae_255": 2.6212641825782836,
+        "pixel_rgb_rmse_p95_255": 6.721223497539003,
+        "pixel_rgb_rmse_max_255": 14.12388209672441,
+        "residual_gt_5_levels_pixels": 11,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 6.260998388368715
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 4.476955249117682
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 4.276639447261176
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 3.5879316169513915
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 3.629416740115039
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 3.5504340908162506
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 3.6177102969983417
+          }
+        ]
+      }
+    },
+    {
+      "id": "hair-right-underfold",
+      "semantic_role": "hair",
+      "source_mask_sha256": "c65b69e9872b1fc538cfebb7d60c3fd04251165223f416efc4d766ee771cd3e5",
+      "field": {
+        "kind": "linear",
+        "from": [
+          975.7148558396859,
+          349.9147673278741
+        ],
+        "to": [
+          1119.3038086518998,
+          401.40921236315006
+        ],
+        "x1": 975.7148558396859,
+        "y1": 349.9147673278741,
+        "x2": 1119.3038086518998,
+        "y2": 401.40921236315006,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#00055c",
+            "rgb": [
+              0.0,
+              4.59246,
+              92.16543
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#7aa0e0",
+            "rgb": [
+              121.8175,
+              160.39716,
+              224.06965
+            ]
+          }
+        ],
+        "sample_rmse": 10.191653519306755,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 5136,
+        "edge_excluded_pixels": 1063,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 4073,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 10.19450939716122,
+        "rgb_mae_255": 7.706374731848071,
+        "pixel_rgb_rmse_p95_255": 20.98772983205655,
+        "pixel_rgb_rmse_max_255": 39.3886558646256,
+        "residual_gt_5_levels_pixels": 2425,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 12.89581436975809
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 10.191653519306755
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 11.235935231326186
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 9.996248554029215
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 11.019973726442574
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 9.987057105617883
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 10.474398161672942
+          }
+        ]
+      }
+    },
+    {
+      "id": "hair-back-dark-fold",
+      "semantic_role": "hair",
+      "source_mask_sha256": "c8919c43bbf871d32e149f519bd6cba174db7e169d25bdf3a8827e78ba85d770",
+      "field": {
+        "kind": "linear",
+        "from": [
+          -196.80088977965752,
+          589.0084525004404
+        ],
+        "to": [
+          -296.35139268835053,
+          886.9547053326309
+        ],
+        "x1": -196.80088977965752,
+        "y1": 589.0084525004404,
+        "x2": -296.35139268835053,
+        "y2": 886.9547053326309,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#26376f",
+            "rgb": [
+              37.64505,
+              55.28749,
+              110.54435
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#38509a",
+            "rgb": [
+              55.90765,
+              79.78783,
+              154.47337
+            ]
+          }
+        ],
+        "sample_rmse": 1.3692375741713596,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 23287,
+        "edge_excluded_pixels": 2241,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 21046,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.3560176160519835,
+        "rgb_mae_255": 1.0927197907835604,
+        "pixel_rgb_rmse_p95_255": 2.19313132396268,
+        "pixel_rgb_rmse_max_255": 7.4781903067619755,
+        "residual_gt_5_levels_pixels": 14,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 5.554516330578808
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.3692375741713596
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.5610893422788068
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.1460390339646223
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.2873712212602815
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.0699420801318635
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.278457797795863
+          }
+        ]
+      }
+    },
+    {
+      "id": "hair-back",
+      "semantic_role": "hair",
+      "source_mask_sha256": "2e0a7d2221f580cd35110a2c861e73d79c17177b3311a42f7dcf445dff2f1ece",
+      "field": {
+        "kind": "linear",
+        "from": [
+          -162.23179410330866,
+          258.23863496757167
+        ],
+        "to": [
+          -367.16641389214743,
+          584.4511185585961
+        ],
+        "x1": -162.23179410330866,
+        "y1": 258.23863496757167,
+        "x2": -367.16641389214743,
+        "y2": 584.4511185585961,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#334292",
+            "rgb": [
+              50.75769,
+              66.45818,
+              145.89867
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#5576bd",
+            "rgb": [
+              85.23889,
+              117.61615,
+              189.25673
+            ]
+          }
+        ],
+        "sample_rmse": 1.4831824787962127,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 21691,
+        "edge_excluded_pixels": 2446,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 19245,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.465018773288888,
+        "rgb_mae_255": 1.0870058988650653,
+        "pixel_rgb_rmse_p95_255": 2.749343720498516,
+        "pixel_rgb_rmse_max_255": 8.908935059381479,
+        "residual_gt_5_levels_pixels": 101,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 6.786869659701575
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.4831824787962127
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.7211547947259798
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.3035774725463558
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.3223030554613946
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.1486744350976001
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.5385536882939
+          }
+        ]
+      }
+    },
+    {
+      "id": "hair-left-under",
+      "semantic_role": "hair",
+      "source_mask_sha256": "cc98c8e50f789db2d56845cc56cf8a3840f7dff7ee21929ab766795963a862bd",
+      "field": {
+        "kind": "linear",
+        "from": [
+          81.61444203297394,
+          188.70125717122463
+        ],
+        "to": [
+          187.27390459081673,
+          432.9971552997136
+        ],
+        "x1": 81.61444203297394,
+        "y1": 188.70125717122463,
+        "x2": 187.27390459081673,
+        "y2": 432.9971552997136,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#33407e",
+            "rgb": [
+              51.03532,
+              64.41719,
+              126.38419
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#435eaf",
+            "rgb": [
+              67.06396,
+              94.44966,
+              174.51919
+            ]
+          }
+        ],
+        "sample_rmse": 2.825700940593607,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 11392,
+        "edge_excluded_pixels": 1339,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 10053,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 2.821490281386357,
+        "rgb_mae_255": 2.0297663321458526,
+        "pixel_rgb_rmse_p95_255": 5.817668265705097,
+        "pixel_rgb_rmse_max_255": 12.579514731029626,
+        "residual_gt_5_levels_pixels": 644,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 3.56951225011257
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 2.825700940593607
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 2.9962162588699983
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 2.810938341986583
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 2.9239183144820884
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 2.801170837262687
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 2.984776356153589
+          }
+        ]
+      }
+    },
+    {
+      "id": "hair-right-fringe",
+      "semantic_role": "hair",
+      "source_mask_sha256": "4b9f18b638c299e49b590bd0d04f398a7caa06034adcd97b069523b33e8a2dde",
+      "field": {
+        "kind": "linear",
+        "from": [
+          463.73279844398564,
+          -443.4061711134536
+        ],
+        "to": [
+          -342.1184897357535,
+          327.12253718058156
+        ],
+        "x1": 463.73279844398564,
+        "y1": -443.4061711134536,
+        "x2": -342.1184897357535,
+        "y2": 327.12253718058156,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#0d0b5d",
+            "rgb": [
+              13.2449,
+              10.70172,
+              92.94566
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#8ec4ff",
+            "rgb": [
+              141.91677,
+              195.55448,
+              255.0
+            ]
+          }
+        ],
+        "sample_rmse": 6.624833567068057,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 175448,
+        "edge_excluded_pixels": 7287,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 168161,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 6.088658514451774,
+        "rgb_mae_255": 3.601030106024357,
+        "pixel_rgb_rmse_p95_255": 8.500249267190869,
+        "pixel_rgb_rmse_max_255": 60.44409864141915,
+        "residual_gt_5_levels_pixels": 28938,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 19.72998423813453
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 6.624833567068057
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 7.733664274223971
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 6.41187864830415
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 7.6011019759312415
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 6.355797701717707
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 7.530306744060101
+          }
+        ]
+      }
+    },
+    {
+      "id": "hair-front-main",
+      "semantic_role": "hair",
+      "source_mask_sha256": "42f37b52de4bc02e92bac0062a8fc547bccf70acb977fde39f4e66296ae5678b",
+      "field": {
+        "kind": "linear",
+        "from": [
+          -17.21084341804695,
+          137.78544644744156
+        ],
+        "to": [
+          -105.03471529880099,
+          840.8800654562864
+        ],
+        "x1": -17.21084341804695,
+        "y1": 137.78544644744156,
+        "x2": -105.03471529880099,
+        "y2": 840.8800654562864,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#3c4b91",
+            "rgb": [
+              59.69488,
+              74.65609,
+              144.66929
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#4c67b3",
+            "rgb": [
+              75.58849,
+              103.15563,
+              178.88929
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#87a8e4",
+            "rgb": [
+              135.10473,
+              168.38047,
+              227.7382
+            ]
+          }
+        ],
+        "sample_rmse": 3.2667519729807597,
+        "parameters": 10
+      },
+      "stats": {
+        "visible_pixels": 264891,
+        "edge_excluded_pixels": 7009,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 257882,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 3.331689217962135,
+        "rgb_mae_255": 2.5316268703287284,
+        "pixel_rgb_rmse_p95_255": 5.508455595772964,
+        "pixel_rgb_rmse_max_255": 67.56771705270505,
+        "residual_gt_5_levels_pixels": 19027,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 15.638117407061408
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 4.733496264029761
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 4.832856320478485
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 3.2667519729807597
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 4.258418672548529
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 3.048849120886368
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 2.9292673296711036
+          }
+        ]
+      }
+    },
+    {
+      "id": "hair-center-left-crease",
+      "semantic_role": "hair",
+      "source_mask_sha256": "6f1b623f463d11d0acdcb48d03d2f2f4d902211f34e894d747b6dbaa2bea9a0b",
+      "field": {
+        "kind": "solid",
+        "rgb": [
+          78.29479768786128,
+          102.61849710982659,
+          168.5549132947977
+        ],
+        "color": "#4e67a9",
+        "parameters": 3,
+        "sample_rmse": 26.081963384125093
+      },
+      "stats": {
+        "visible_pixels": 173,
+        "edge_excluded_pixels": 0,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 173,
+        "parameter_fit_samples": 173,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 26.081963384125093,
+        "rgb_mae_255": 21.301591544432934,
+        "pixel_rgb_rmse_p95_255": 46.85448484484688,
+        "pixel_rgb_rmse_max_255": 89.06828241127083,
+        "residual_gt_5_levels_pixels": 159,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 26.081963384125093
+          }
+        ],
+        "thin_line_exception": {
+          "reason": "fixed 2px erosion leaves zero pixels",
+          "model": "solid only",
+          "evaluation": "all visible line pixels",
+          "limitation": "source AA may affect inferred line color"
+        }
+      }
+    },
+    {
+      "id": "hair-center-right-crease",
+      "semantic_role": "hair",
+      "source_mask_sha256": "f2a1d2dcf87c3846989efa61fd44149c1d40fcbb1de78a070c748abecf294342",
+      "field": {
+        "kind": "linear",
+        "from": [
+          -63.06544419382844,
+          412.04620204933263
+        ],
+        "to": [
+          -86.78297750655739,
+          567.0077606082882
+        ],
+        "x1": -63.06544419382844,
+        "y1": 412.04620204933263,
+        "x2": -86.78297750655739,
+        "y2": 567.0077606082882,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#2e3e84",
+            "rgb": [
+              45.71044,
+              62.19298,
+              131.66333
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#39478b",
+            "rgb": [
+              56.65556,
+              71.26576,
+              139.21483
+            ]
+          }
+        ],
+        "sample_rmse": 0.7963798625187943,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 1013,
+        "edge_excluded_pixels": 518,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 495,
+        "parameter_fit_samples": 495,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 0.7963798625260408,
+        "rgb_mae_255": 0.6046506047297417,
+        "pixel_rgb_rmse_p95_255": 1.2166376233313367,
+        "pixel_rgb_rmse_max_255": 5.069784935380144,
+        "residual_gt_5_levels_pixels": 1,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 1.3631908487840145
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 0.7963798625187943
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 0.7525928414264299
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 0.7087455234171502
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 0.7113151315340843
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 0.6958280397018713
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 0.678003083757709
+          }
+        ]
+      }
+    },
+    {
+      "id": "hair-right-face-crease",
+      "semantic_role": "hair",
+      "source_mask_sha256": "c1953f582fa5aadb65453792883f1b1f1ae3166f32f781b7ca2616cf3f59a98c",
+      "field": {
+        "kind": "linear",
+        "from": [
+          775.5,
+          745.0
+        ],
+        "to": [
+          775.5,
+          914.0
+        ],
+        "x1": 775.5,
+        "y1": 745.0,
+        "x2": 775.5,
+        "y2": 914.0,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#5973b8",
+            "rgb": [
+              89.0,
+              115.0,
+              184.0
+            ]
+          },
+          {
+            "offset": 0.25,
+            "color": "#5d7abe",
+            "rgb": [
+              93.425,
+              121.77135,
+              189.70359
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#4054a1",
+            "rgb": [
+              63.75487,
+              84.31851,
+              160.75003
+            ]
+          },
+          {
+            "offset": 0.75,
+            "color": "#4964ae",
+            "rgb": [
+              73.1381,
+              99.71539,
+              173.7105
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#3b58a2",
+            "rgb": [
+              59.0,
+              88.5,
+              162.0
+            ]
+          }
+        ],
+        "parameters": 9,
+        "fit_constraints": "fixed source-aligned long axis; observed endpoint medians; internal stops bounded to observed full-mask RGB extrema"
+      },
+      "previous_stats": {
+        "visible_pixels": 807,
+        "edge_excluded_pixels": 591,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 216,
+        "parameter_fit_samples": 216,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 3.587440796685775,
+        "rgb_mae_255": 1.6221948545052718,
+        "pixel_rgb_rmse_p95_255": 10.036882001931517,
+        "pixel_rgb_rmse_max_255": 15.685981666473602,
+        "residual_gt_5_levels_pixels": 19,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 8.325298767348533
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 7.924211531477909
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 6.799274884193714
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 5.155141211533369
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 3.9827205836990167
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 3.5874407609092605
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 3.773210331577021
+          }
+        ]
+      },
+      "stats": {
+        "all_807_visible_pixels": {
+          "pixels": 807,
+          "rgb_rmse_255": 7.682564998934201,
+          "rgb_mae_255": 4.429615266198867,
+          "max_predicted_rgb": [
+            93.346449704142,
+            121.65114852071005,
+            189.60234284023667
+          ]
+        },
+        "old_eroded_interior_216_pixels": {
+          "pixels": 216,
+          "rgb_rmse_255": 6.087312438835264,
+          "rgb_mae_255": 3.77237335807948,
+          "max_predicted_rgb": [
+            93.2494371005917,
+            121.54973556213018,
+            189.53226715976328
+          ]
+        },
+        "tip_y745_to774": {
+          "pixels": 63,
+          "rgb_rmse_255": 0.6099015673972834,
+          "rgb_mae_255": 0.49404939482170274,
+          "max_predicted_rgb": [
+            92.0896449704142,
+            119.72792485207101,
+            187.98238828402367
+          ]
+        }
+      },
+      "stats_note": "Full visible mask and fixed old interior reported separately; see patch evidence"
+    },
+    {
+      "id": "bow-crease-left",
+      "semantic_role": "bow",
+      "source_mask_sha256": "8e0933a4c92d90d05f7be4511a20e145f736d5b3aea1cf5675b6da1ff055124d",
+      "field": {
+        "kind": "radial",
+        "center": [
+          1039.1419381610829,
+          825.654865156469
+        ],
+        "radii": [
+          18.791724577686136,
+          18.795407764775817
+        ],
+        "cx": 0.0,
+        "cy": 0.0,
+        "r": 1.0,
+        "fx": 0.0,
+        "fy": 0.0,
+        "gradientTransform": "translate(1039.14194 825.65487) scale(18.79172 18.79541)",
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#4b75c1",
+            "rgb": [
+              74.57925,
+              116.77753,
+              192.71833
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#4870be",
+            "rgb": [
+              71.56994,
+              112.31963,
+              189.69667
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#183c8b",
+            "rgb": [
+              23.50473,
+              60.22933,
+              138.97652
+            ]
+          }
+        ],
+        "sample_rmse": 1.061204757292782,
+        "parameters": 12
+      },
+      "stats": {
+        "visible_pixels": 271,
+        "edge_excluded_pixels": 115,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 156,
+        "parameter_fit_samples": 156,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.0612047573241812,
+        "rgb_mae_255": 0.7471270040717853,
+        "pixel_rgb_rmse_p95_255": 2.0582814325183634,
+        "pixel_rgb_rmse_max_255": 5.03957491822026,
+        "residual_gt_5_levels_pixels": 1,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 1.8321786753002154
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.615997270666334
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.2939762563177475
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.4828985833411288
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.061204757292782
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 0.8519142795765031
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 0.7149032386852949
+          }
+        ]
+      }
+    },
+    {
+      "id": "bow-crease-right",
+      "semantic_role": "bow",
+      "source_mask_sha256": "defe6e552cefb69f46bbdb538f9786d29b5befd5ef43c12a6c4f4f2d4a3f18b3",
+      "field": {
+        "kind": "solid",
+        "rgb": [
+          74.21854304635761,
+          115.58940397350993,
+          193.841059602649
+        ],
+        "color": "#4a74c2",
+        "parameters": 3,
+        "sample_rmse": 0.7583480307501196
+      },
+      "stats": {
+        "visible_pixels": 247,
+        "edge_excluded_pixels": 96,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 151,
+        "parameter_fit_samples": 151,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 0.7583480307501196,
+        "rgb_mae_255": 0.6324868792304424,
+        "pixel_rgb_rmse_p95_255": 1.2541176715183406,
+        "pixel_rgb_rmse_max_255": 1.5706211730121065,
+        "residual_gt_5_levels_pixels": 0,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 0.7583480307501196
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 0.4969395392302935
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 0.45535786856880905
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 0.49066349223023115
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 0.43839078704301127
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 0.48987555468600696
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 0.4339645973835034
+          }
+        ]
+      }
+    },
+    {
+      "id": "bow-lower-rim",
+      "semantic_role": "bow",
+      "source_mask_sha256": "c55b030e0de159ee841e4664181cc41eaa15cb031747712619ce5bf7a9c637be",
+      "field": {
+        "kind": "radial",
+        "center": [
+          1015.771466450038,
+          920.0325943975683
+        ],
+        "radii": [
+          127.08338846563106,
+          128.10070347500653
+        ],
+        "cx": 0.0,
+        "cy": 0.0,
+        "r": 1.0,
+        "fx": 0.0,
+        "fy": 0.0,
+        "gradientTransform": "translate(1015.77147 920.03259) scale(127.08339 128.10070)",
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#415fb4",
+            "rgb": [
+              64.8522,
+              94.86079,
+              179.70769
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#4776c1",
+            "rgb": [
+              71.24913,
+              117.50098,
+              193.33421
+            ]
+          }
+        ],
+        "sample_rmse": 1.6848485653221297,
+        "parameters": 9
+      },
+      "stats": {
+        "visible_pixels": 1662,
+        "edge_excluded_pixels": 699,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 963,
+        "parameter_fit_samples": 963,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.6848485653220018,
+        "rgb_mae_255": 1.1566986094675444,
+        "pixel_rgb_rmse_p95_255": 3.785008858590486,
+        "pixel_rgb_rmse_max_255": 9.506194810765516,
+        "residual_gt_5_levels_pixels": 2,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 2.2716001971774786
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.818373825473476
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.6848485653221297
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.4425222401061621
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.53536575433015
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.3424171245871783
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.3856915704151753
+          }
+        ]
+      }
+    },
+    {
+      "id": "whale-fin-rim-left-fold",
+      "semantic_role": "whale",
+      "source_mask_sha256": "4c4cda049c5178664493a11cde83475e80abe097237c402fd20637839a3b3381",
+      "field": {
+        "kind": "linear",
+        "from": [
+          -145.96732733951475,
+          727.953683985868
+        ],
+        "to": [
+          -173.2758592066579,
+          864.1440680893852
+        ],
+        "x1": -145.96732733951475,
+        "y1": 727.953683985868,
+        "x2": -173.2758592066579,
+        "y2": 864.1440680893852,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#a0a0ca",
+            "rgb": [
+              160.01041,
+              159.57425,
+              201.98959
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#bcbad7",
+            "rgb": [
+              187.57917,
+              186.4755,
+              215.41215
+            ]
+          }
+        ],
+        "sample_rmse": 2.028778884274164,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 4661,
+        "edge_excluded_pixels": 693,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 3968,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.9903322287647403,
+        "rgb_mae_255": 1.2994021130120486,
+        "pixel_rgb_rmse_p95_255": 4.564418247384855,
+        "pixel_rgb_rmse_max_255": 12.034868030043576,
+        "residual_gt_5_levels_pixels": 162,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 3.959988318351644
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 2.028778884274164
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 2.288182331841171
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.921714243180657
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 2.217348243979609
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.8634209220768587
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 2.1868801677177903
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-white-01",
+      "semantic_role": "frill",
+      "source_mask_sha256": "2264327087c59cb9737d44eefb2c9d5c2b0cde1694198529a58fe8f8e144ffd4",
+      "field": {
+        "kind": "radial",
+        "center": [
+          290.1411322687249,
+          131.03832149779078
+        ],
+        "radii": [
+          139.1983132903849,
+          139.17751674836427
+        ],
+        "cx": 0.0,
+        "cy": 0.0,
+        "r": 1.0,
+        "fx": 0.0,
+        "fy": 0.0,
+        "gradientTransform": "translate(290.14113 131.03832) scale(139.19831 139.17752)",
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#fffefe",
+            "rgb": [
+              254.94191,
+              253.82648,
+              253.79895
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#f8f3f7",
+            "rgb": [
+              248.07177,
+              242.56697,
+              247.09989
+            ]
+          }
+        ],
+        "sample_rmse": 1.7030395404041747,
+        "parameters": 9
+      },
+      "stats": {
+        "visible_pixels": 14323,
+        "edge_excluded_pixels": 890,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 13433,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.05,
+        "rgb_rmse_255": 1.6979097643762677,
+        "rgb_mae_255": 1.2972864045532198,
+        "pixel_rgb_rmse_p95_255": 3.3842905652078383,
+        "pixel_rgb_rmse_max_255": 6.111290358367963,
+        "residual_gt_5_levels_pixels": 182,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 2.282889956952712
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.9968650720666785
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.7030395404041747
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.7393904479978863
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.6936658454489568
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.7225398310034212
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.6826914341474606
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-white-02",
+      "semantic_role": "frill",
+      "source_mask_sha256": "79eae69f73760be742773f97f00c6ce3e3f69c712c650d8ed682bd1fb8d31de0",
+      "field": {
+        "kind": "linear",
+        "from": [
+          -0.09560012883889271,
+          147.68469039000453
+        ],
+        "to": [
+          -0.159712605570241,
+          246.7267250734717
+        ],
+        "x1": -0.09560012883889271,
+        "y1": 147.68469039000453,
+        "x2": -0.159712605570241,
+        "y2": 246.7267250734717,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#ffffff",
+            "rgb": [
+              254.99355,
+              255.0,
+              255.0
+            ]
+          },
+          {
+            "offset": 0.25,
+            "color": "#faf5f8",
+            "rgb": [
+              249.77331,
+              245.09495,
+              248.37618
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#faf6f9",
+            "rgb": [
+              250.19489,
+              245.56931,
+              249.30188
+            ]
+          },
+          {
+            "offset": 0.75,
+            "color": "#f9f4f8",
+            "rgb": [
+              248.52795,
+              244.40858,
+              248.29053
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#fbf9fc",
+            "rgb": [
+              250.6992,
+              248.56261,
+              252.09199
+            ]
+          }
+        ],
+        "sample_rmse": 1.1137730855875962,
+        "parameters": 16
+      },
+      "stats": {
+        "visible_pixels": 4755,
+        "edge_excluded_pixels": 523,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 4232,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.05,
+        "rgb_rmse_255": 1.1055084586215196,
+        "rgb_mae_255": 0.7169492453604017,
+        "pixel_rgb_rmse_p95_255": 2.147919824028416,
+        "pixel_rgb_rmse_max_255": 5.856587305958354,
+        "residual_gt_5_levels_pixels": 24,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 1.8908246290382877
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.594304847441106
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.4720419988690499
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.3807535632931105
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.245574863216367
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.1137730855875962
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.1894091758850411
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-white-03",
+      "semantic_role": "frill",
+      "source_mask_sha256": "c7f325b8cd2bce9c2afc3064fc77d6190e76b5fccd6074555cce32e7e7ee4b8a",
+      "field": {
+        "kind": "linear",
+        "from": [
+          58.96662834577922,
+          167.76910377997763
+        ],
+        "to": [
+          101.50794802534415,
+          288.8056845796496
+        ],
+        "x1": 58.96662834577922,
+        "y1": 167.76910377997763,
+        "x2": 101.50794802534415,
+        "y2": 288.8056845796496,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#ffffff",
+            "rgb": [
+              255.0,
+              255.0,
+              255.0
+            ]
+          },
+          {
+            "offset": 0.25,
+            "color": "#fdfcfd",
+            "rgb": [
+              252.97273,
+              251.95907,
+              253.17798
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#f7f2f7",
+            "rgb": [
+              247.22371,
+              242.12075,
+              247.45383
+            ]
+          },
+          {
+            "offset": 0.75,
+            "color": "#f9f6fa",
+            "rgb": [
+              249.12471,
+              245.90899,
+              250.04623
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#ffffff",
+            "rgb": [
+              255.0,
+              255.0,
+              255.0
+            ]
+          }
+        ],
+        "sample_rmse": 1.347477117982683,
+        "parameters": 16
+      },
+      "stats": {
+        "visible_pixels": 7915,
+        "edge_excluded_pixels": 624,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 7291,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.05,
+        "rgb_rmse_255": 1.3634755051921488,
+        "rgb_mae_255": 1.0567552933805158,
+        "pixel_rgb_rmse_p95_255": 2.450553269767711,
+        "pixel_rgb_rmse_max_255": 5.813803970813457,
+        "residual_gt_5_levels_pixels": 11,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 2.5536254547139374
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 2.084162364325242
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.8743594379520112
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.6704084696120067
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.607968882174152
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.347477117982683
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.5783647116743942
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-white-04",
+      "semantic_role": "frill",
+      "source_mask_sha256": "bc34b01a9bf799cfe6a6118f6625586fd04571dbccb5cc91d9f8cd1c4154b596",
+      "field": {
+        "kind": "linear",
+        "from": [
+          607.8929209235226,
+          36.372410311346485
+        ],
+        "to": [
+          769.8096183498112,
+          46.060466138843154
+        ],
+        "x1": 607.8929209235226,
+        "y1": 36.372410311346485,
+        "x2": 769.8096183498112,
+        "y2": 46.060466138843154,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#f9f5f8",
+            "rgb": [
+              249.03044,
+              244.70036,
+              248.16002
+            ]
+          },
+          {
+            "offset": 0.25,
+            "color": "#fcf9fb",
+            "rgb": [
+              252.29805,
+              249.11175,
+              250.7756
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#fcf9fb",
+            "rgb": [
+              252.12473,
+              248.88239,
+              251.07463
+            ]
+          },
+          {
+            "offset": 0.75,
+            "color": "#f9f5f8",
+            "rgb": [
+              248.99455,
+              244.514,
+              248.32675
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#faf5fa",
+            "rgb": [
+              249.65595,
+              245.21966,
+              250.03996
+            ]
+          }
+        ],
+        "sample_rmse": 1.6469514524948932,
+        "parameters": 16
+      },
+      "stats": {
+        "visible_pixels": 15044,
+        "edge_excluded_pixels": 838,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 14206,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.05,
+        "rgb_rmse_255": 1.6346393412992524,
+        "rgb_mae_255": 1.1487967780837556,
+        "pixel_rgb_rmse_p95_255": 3.545714547928636,
+        "pixel_rgb_rmse_max_255": 6.85455384558224,
+        "residual_gt_5_levels_pixels": 168,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 2.0784815593583197
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.885904117761706
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.8011363063024532
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.728199822556358
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.7189267701695317
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.6469514524948932
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.6284915297910016
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-white-05",
+      "semantic_role": "frill",
+      "source_mask_sha256": "1bcd6665fdb9a6250a50c76091b015a9b37b6e5d8909b9efa360e878dfc9a774",
+      "field": {
+        "kind": "radial",
+        "center": [
+          861.4534272041814,
+          479.2180892205797
+        ],
+        "radii": [
+          230.6154238877742,
+          230.80309016819916
+        ],
+        "cx": 0.0,
+        "cy": 0.0,
+        "r": 1.0,
+        "fx": 0.0,
+        "fy": 0.0,
+        "gradientTransform": "translate(861.45343 479.21809) scale(230.61542 230.80309)",
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#f8ffff",
+            "rgb": [
+              247.70982,
+              254.62857,
+              255.0
+            ]
+          },
+          {
+            "offset": 0.25,
+            "color": "#f9f3f7",
+            "rgb": [
+              248.7365,
+              243.42787,
+              247.044
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#fcf9fb",
+            "rgb": [
+              252.26748,
+              248.58676,
+              250.72836
+            ]
+          },
+          {
+            "offset": 0.75,
+            "color": "#fbf6f9",
+            "rgb": [
+              250.77236,
+              246.15363,
+              248.79805
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#faf9fc",
+            "rgb": [
+              250.18455,
+              248.88426,
+              251.55098
+            ]
+          }
+        ],
+        "sample_rmse": 1.428319418777051,
+        "parameters": 18
+      },
+      "stats": {
+        "visible_pixels": 15227,
+        "edge_excluded_pixels": 811,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 14416,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.05,
+        "rgb_rmse_255": 1.4505618262124693,
+        "rgb_mae_255": 1.0371231227542632,
+        "pixel_rgb_rmse_p95_255": 3.223831707087402,
+        "pixel_rgb_rmse_max_255": 7.053116959537528,
+        "residual_gt_5_levels_pixels": 113,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 1.714094966901063
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.6150798821683803
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.5869446677429648
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.5795613513962168
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.5692690375191458
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.4952915552292871
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.428319418777051
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-white-06",
+      "semantic_role": "frill",
+      "source_mask_sha256": "a7edd37a65d3d9c92e7fe796d132351171c4106f5af0ab240c99a94d4cc9b3f8",
+      "field": {
+        "kind": "radial",
+        "center": [
+          963.0098216900121,
+          571.3044158237552
+        ],
+        "radii": [
+          169.0900372361546,
+          169.08139085908888
+        ],
+        "cx": 0.0,
+        "cy": 0.0,
+        "r": 1.0,
+        "fx": 0.0,
+        "fy": 0.0,
+        "gradientTransform": "translate(963.00982 571.30442) scale(169.09004 169.08139)",
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#f8f2f6",
+            "rgb": [
+              247.99803,
+              242.43602,
+              246.29362
+            ]
+          },
+          {
+            "offset": 0.25,
+            "color": "#fcf8fa",
+            "rgb": [
+              251.53095,
+              248.213,
+              250.36093
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#fcf8fa",
+            "rgb": [
+              251.79703,
+              247.71474,
+              250.21806
+            ]
+          },
+          {
+            "offset": 0.75,
+            "color": "#faf5f8",
+            "rgb": [
+              249.72172,
+              244.86297,
+              248.01781
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#f9f9fd",
+            "rgb": [
+              249.06557,
+              249.48192,
+              252.82131
+            ]
+          }
+        ],
+        "sample_rmse": 1.253840898345166,
+        "parameters": 18
+      },
+      "stats": {
+        "visible_pixels": 13452,
+        "edge_excluded_pixels": 801,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 12651,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.05,
+        "rgb_rmse_255": 1.2415705573571925,
+        "rgb_mae_255": 0.8541097805109392,
+        "pixel_rgb_rmse_p95_255": 2.2739993500248867,
+        "pixel_rgb_rmse_max_255": 6.630401599745494,
+        "residual_gt_5_levels_pixels": 94,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 1.6182562059662084
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.5628500681128825
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.4346967754310798
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.4136627531048316
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.355890338068989
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.3702470633060353
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.253840898345166
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-white-07",
+      "semantic_role": "frill",
+      "source_mask_sha256": "e84771c2f0d899a1ad5be07c8e9530dfc19a0ad7411ea7505f325d008f9152b6",
+      "field": {
+        "kind": "linear",
+        "from": [
+          720.0474233678774,
+          801.5664740892458
+        ],
+        "to": [
+          818.9018443706727,
+          911.6125448337572
+        ],
+        "x1": 720.0474233678774,
+        "y1": 801.5664740892458,
+        "x2": 818.9018443706727,
+        "y2": 911.6125448337572,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#f6f1f8",
+            "rgb": [
+              245.80056,
+              241.20409,
+              248.15256
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#fbf6f9",
+            "rgb": [
+              250.52344,
+              246.47475,
+              248.70023
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#f6f1f7",
+            "rgb": [
+              245.5091,
+              240.94951,
+              247.41123
+            ]
+          }
+        ],
+        "sample_rmse": 1.3712237885615688,
+        "parameters": 10
+      },
+      "stats": {
+        "visible_pixels": 7375,
+        "edge_excluded_pixels": 607,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 6768,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.05,
+        "rgb_rmse_255": 1.358862519126634,
+        "rgb_mae_255": 0.8862142443879273,
+        "pixel_rgb_rmse_p95_255": 2.622275206479455,
+        "pixel_rgb_rmse_max_255": 7.078270839607429,
+        "residual_gt_5_levels_pixels": 130,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 1.6143726106218248
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.5607376705594511
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.5351511907280502
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.3712237885615688
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.349394798269448
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.359758942509339
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.3472500354204948
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-fold-01",
+      "semantic_role": "frill",
+      "source_mask_sha256": "e3d72d15b4603e8b11fb09853ec6e3bf0ff9f45f72ed254bb0efacb015668090",
+      "field": {
+        "kind": "linear",
+        "from": [
+          -14.050000404974421,
+          65.13030206789227
+        ],
+        "to": [
+          -31.987739571154947,
+          148.28263919485528
+        ],
+        "x1": -14.050000404974421,
+        "y1": 65.13030206789227,
+        "x2": -31.987739571154947,
+        "y2": 148.28263919485528,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#cbc8e1",
+            "rgb": [
+              203.49029,
+              200.28869,
+              225.12948
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#dcdae9",
+            "rgb": [
+              219.68411,
+              217.97777,
+              233.24524
+            ]
+          }
+        ],
+        "sample_rmse": 0.6944693321394572,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 3050,
+        "edge_excluded_pixels": 481,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 2569,
+        "parameter_fit_samples": 2569,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 0.6944693321422868,
+        "rgb_mae_255": 0.4833720009938258,
+        "pixel_rgb_rmse_p95_255": 1.0646643759870915,
+        "pixel_rgb_rmse_max_255": 6.615310928952566,
+        "residual_gt_5_levels_pixels": 4,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 3.0576069668725774
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 0.6944693321394572
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 0.7256658964364774
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 0.6708436554740552
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 0.6936391039572702
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 0.6071675046936085
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 0.6382180507908978
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-fold-02",
+      "semantic_role": "frill",
+      "source_mask_sha256": "e331cb70d55abbd1d201bcc0b0ed7949a06d53c3b140de03d89e903ac79da4c9",
+      "field": {
+        "kind": "linear",
+        "from": [
+          95.77334148888973,
+          207.1646147370686
+        ],
+        "to": [
+          131.27324292152187,
+          283.9534506403068
+        ],
+        "x1": 95.77334148888973,
+        "y1": 207.1646147370686,
+        "x2": 131.27324292152187,
+        "y2": 283.9534506403068,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#cdcae4",
+            "rgb": [
+              204.90613,
+              202.04379,
+              228.42807
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#dbd9e5",
+            "rgb": [
+              218.76003,
+              216.89901,
+              228.98004
+            ]
+          }
+        ],
+        "sample_rmse": 1.230733255910077,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 1961,
+        "edge_excluded_pixels": 409,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 1552,
+        "parameter_fit_samples": 1552,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.2307332559129454,
+        "rgb_mae_255": 0.7548635028854147,
+        "pixel_rgb_rmse_p95_255": 2.2014835875990664,
+        "pixel_rgb_rmse_max_255": 7.986804386872106,
+        "residual_gt_5_levels_pixels": 18,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 2.0874888255923087
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.230733255910077
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.2111328705174726
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.1269162271524327
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.1779353398731114
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.0583371212352584
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.1756812449781164
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-fold-03",
+      "semantic_role": "frill",
+      "source_mask_sha256": "da9079f78ced9825056dfa23b07d0b53afec5b4836e53cebef1b173766c6e9e6",
+      "field": {
+        "kind": "linear",
+        "from": [
+          23.808814317110016,
+          -55.67681231497027
+        ],
+        "to": [
+          -17.898694238602747,
+          41.85602132608374
+        ],
+        "x1": 23.808814317110016,
+        "y1": -55.67681231497027,
+        "x2": -17.898694238602747,
+        "y2": 41.85602132608374,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#c9c6e1",
+            "rgb": [
+              201.03349,
+              197.51767,
+              224.55872
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#dfdeec",
+            "rgb": [
+              223.12474,
+              221.77382,
+              235.9262
+            ]
+          }
+        ],
+        "sample_rmse": 1.6886103524102132,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 2979,
+        "edge_excluded_pixels": 479,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 2500,
+        "parameter_fit_samples": 2500,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.688610352412405,
+        "rgb_mae_255": 0.8521596676956591,
+        "pixel_rgb_rmse_p95_255": 1.9173180196821895,
+        "pixel_rgb_rmse_max_255": 18.66726729040801,
+        "residual_gt_5_levels_pixels": 23,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 4.097280489951028
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.6886103524102132
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.7039657655816274
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.6570114854311082
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.6764894919055546
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.6435643875762311
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.656986372392037
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-fold-04",
+      "semantic_role": "frill",
+      "source_mask_sha256": "322aa3d6a9f4522eb0511ff76ae23926a3e8491b28bd9a7459707cffcf5e9702",
+      "field": {
+        "kind": "linear",
+        "from": [
+          52.64021981385147,
+          13.770296821394986
+        ],
+        "to": [
+          158.29147144856302,
+          41.407892175414545
+        ],
+        "x1": 52.64021981385147,
+        "y1": 13.770296821394986,
+        "x2": 158.29147144856302,
+        "y2": 41.407892175414545,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#cfcde6",
+            "rgb": [
+              207.14218,
+              205.35577,
+              229.55016
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#d0cee5",
+            "rgb": [
+              207.78364,
+              205.50163,
+              229.02604
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#dfdde8",
+            "rgb": [
+              223.00139,
+              220.90991,
+              231.58929
+            ]
+          }
+        ],
+        "sample_rmse": 1.0293728296841946,
+        "parameters": 10
+      },
+      "stats": {
+        "visible_pixels": 4039,
+        "edge_excluded_pixels": 568,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 3471,
+        "parameter_fit_samples": 3000,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.0350489761456332,
+        "rgb_mae_255": 0.7265088111586662,
+        "pixel_rgb_rmse_p95_255": 1.9849853015728578,
+        "pixel_rgb_rmse_max_255": 7.588996448541827,
+        "residual_gt_5_levels_pixels": 12,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 2.3925429443879875
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.443786727557103
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.4711934587136208
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.0293728296841946
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.025508552250197
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 0.9797643790850513
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 0.9629640500712584
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-fold-05",
+      "semantic_role": "frill",
+      "source_mask_sha256": "7aa7c0fb93a982680d585f59452e8145587e881d8f609c27f673dc5a0e56c21c",
+      "field": {
+        "kind": "linear",
+        "from": [
+          26.353851526374186,
+          -60.547780792422266
+        ],
+        "to": [
+          -20.65667182188679,
+          47.45855216346372
+        ],
+        "x1": 26.353851526374186,
+        "y1": -60.547780792422266,
+        "x2": -20.65667182188679,
+        "y2": 47.45855216346372,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#c6c1df",
+            "rgb": [
+              198.12865,
+              193.40295,
+              223.37335
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#e1e0ec",
+            "rgb": [
+              225.02708,
+              224.00516,
+              235.78893
+            ]
+          }
+        ],
+        "sample_rmse": 1.1015638308192703,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 3242,
+        "edge_excluded_pixels": 445,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 2797,
+        "parameter_fit_samples": 2797,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.1015638308241933,
+        "rgb_mae_255": 0.6721320602117361,
+        "pixel_rgb_rmse_p95_255": 1.93442118561793,
+        "pixel_rgb_rmse_max_255": 9.637111301391855,
+        "residual_gt_5_levels_pixels": 17,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 4.386084639044557
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.1015638308192703
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.1330045494718752
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.024408859022284
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.0632705579170618
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 0.9782845131989244
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.0401165487119148
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-fold-06",
+      "semantic_role": "frill",
+      "source_mask_sha256": "0e0791cf59f732b6aa3f232a3e9d693d397c962140348fa525945cc1c7ca87a6",
+      "field": {
+        "kind": "linear",
+        "from": [
+          221.45602515960167,
+          -239.9250899269594
+        ],
+        "to": [
+          140.14221904828554,
+          -151.82984740871805
+        ],
+        "x1": 221.45602515960167,
+        "y1": -239.9250899269594,
+        "x2": 140.14221904828554,
+        "y2": -151.82984740871805,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#c4bfdf",
+            "rgb": [
+              196.01401,
+              191.3523,
+              222.50041
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#e2e0ec",
+            "rgb": [
+              225.62163,
+              223.68664,
+              236.25979
+            ]
+          }
+        ],
+        "sample_rmse": 1.2430430112923403,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 2951,
+        "edge_excluded_pixels": 415,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 2536,
+        "parameter_fit_samples": 2536,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.2430430112936754,
+        "rgb_mae_255": 0.7643938240772259,
+        "pixel_rgb_rmse_p95_255": 1.8307795073156257,
+        "pixel_rgb_rmse_max_255": 10.99610977931079,
+        "residual_gt_5_levels_pixels": 27,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 4.229636834611919
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.2430430112923403
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.2967988188184325
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 1.1986569142026977
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 1.2469045574326234
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 1.0213058617096198
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 1.1367830420502543
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-fold-07",
+      "semantic_role": "frill",
+      "source_mask_sha256": "1d16a5761ad6209669e86b903409f9b744ee2461116c08e7d1fb7d7d053f1826",
+      "field": {
+        "kind": "linear",
+        "from": [
+          239.76378434795038,
+          -226.49175738150038
+        ],
+        "to": [
+          164.95137507711655,
+          -155.8205586607414
+        ],
+        "x1": 239.76378434795038,
+        "y1": -226.49175738150038,
+        "x2": 164.95137507711655,
+        "y2": -155.8205586607414,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#cdc9e4",
+            "rgb": [
+              204.96075,
+              201.46247,
+              228.48602
+            ]
+          },
+          {
+            "offset": 0.5,
+            "color": "#d2cfe4",
+            "rgb": [
+              210.40102,
+              207.43799,
+              228.02808
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#dfdfee",
+            "rgb": [
+              223.00856,
+              223.03217,
+              237.64129
+            ]
+          }
+        ],
+        "sample_rmse": 0.9640405126017635,
+        "parameters": 10
+      },
+      "stats": {
+        "visible_pixels": 2448,
+        "edge_excluded_pixels": 426,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 2022,
+        "parameter_fit_samples": 2022,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 0.9640405126047774,
+        "rgb_mae_255": 0.690282473747462,
+        "pixel_rgb_rmse_p95_255": 1.6464002676655574,
+        "pixel_rgb_rmse_max_255": 6.908108834561301,
+        "residual_gt_5_levels_pixels": 5,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 2.6921962679558726
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.213072020464437
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.2100178710461684
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 0.9640405126017635
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 0.8471885056124685
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 0.8677354128830547
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 0.8035140538346733
+          }
+        ]
+      }
+    },
+    {
+      "id": "frill-fold-08",
+      "semantic_role": "frill",
+      "source_mask_sha256": "62f32279a70da759d2d7bcb81e1c0e14f48a4c195a9ba9f3761aa3373ae1f02e",
+      "field": {
+        "kind": "linear",
+        "from": [
+          903.3199944541363,
+          -142.9198536891572
+        ],
+        "to": [
+          825.2617611620939,
+          -130.56977691700044
+        ],
+        "x1": 903.3199944541363,
+        "y1": -142.9198536891572,
+        "x2": 825.2617611620939,
+        "y2": -130.56977691700044,
+        "gradientUnits": "userSpaceOnUse",
+        "stops": [
+          {
+            "offset": 0.0,
+            "color": "#cbc9e3",
+            "rgb": [
+              202.91192,
+              200.85141,
+              227.46521
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": "#d4d1e7",
+            "rgb": [
+              212.22411,
+              209.16562,
+              231.24575
+            ]
+          }
+        ],
+        "sample_rmse": 1.2017782244489554,
+        "parameters": 7
+      },
+      "stats": {
+        "visible_pixels": 1838,
+        "edge_excluded_pixels": 394,
+        "watermark_excluded_interior_pixels": 0,
+        "evaluated_pixels": 1444,
+        "parameter_fit_samples": 1444,
+        "simplicity_tolerance_rgb_levels": 0.35,
+        "rgb_rmse_255": 1.201778224450638,
+        "rgb_mae_255": 0.8794755150185373,
+        "pixel_rgb_rmse_p95_255": 2.0902315866506034,
+        "pixel_rgb_rmse_max_255": 6.8797439266183495,
+        "residual_gt_5_levels_pixels": 6,
+        "candidate_errors": [
+          {
+            "kind": "solid",
+            "stops": 0,
+            "parameters": 3,
+            "sample_rmse": 2.085264347575137
+          },
+          {
+            "kind": "linear",
+            "stops": 2,
+            "parameters": 7,
+            "sample_rmse": 1.2017782244489554
+          },
+          {
+            "kind": "radial",
+            "stops": 2,
+            "parameters": 9,
+            "sample_rmse": 1.047393279994683
+          },
+          {
+            "kind": "linear",
+            "stops": 3,
+            "parameters": 10,
+            "sample_rmse": 0.8992845710334886
+          },
+          {
+            "kind": "radial",
+            "stops": 3,
+            "parameters": 12,
+            "sample_rmse": 0.9102371205254408
+          },
+          {
+            "kind": "linear",
+            "stops": 5,
+            "parameters": 16,
+            "sample_rmse": 0.8674233545682435
+          },
+          {
+            "kind": "radial",
+            "stops": 5,
+            "parameters": 18,
+            "sample_rmse": 0.8726162998909539
+          }
+        ]
+      }
+    }
+  ],
+  "elapsed_seconds": 2.16795980000461,
+  "patch": {
+    "path": "paint-study/right-face-crease-patch-v1/patch.json",
+    "sha256": "c3335866c4ec1fe11b9062f8eea83f8fa97853ce347c6ebac45766e6c78f81b9",
+    "base_sha256": "07b494d15c05ff7a80f00c9de1d3ec00c94edcc3e87581ce7b5aa2e1bac7d8ed"
+  }
+}

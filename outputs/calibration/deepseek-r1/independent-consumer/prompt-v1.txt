@@ -1,0 +1,11 @@
+Independent Aikon short calibration / v1 actual authoring prompt
+
+Subject and style binding: DeepSeek = provided r1. Use the clean 1280 working reference derived from the confirmed 4096 Cetus source. Reconstruct its close cropped head using a small number of editable semantic Bezier paths. Preserve clockwise pose, fully visible capsule eyes, continuous large cream face, broad flowing blue bangs, swept upward top curl, scalloped white headdress, blue side bow, dark whale side fin with pale underside, and close crop.
+
+Preserve the right eye lower than the left, comparable capsule width, rounded endcaps with nearly parallel sides, weak dark-blue eye field and an extremely thin integrated rim. No white eye dots, pupil, iris, mouth, nose, eyebrows, eyelashes, body, signature or watermark. Transparent upper-right space; do not reconstruct the dark reference display background or rounded icon border. Hair uses broad continuous directional blue gradients, skin a broad warm radial field, bow continuous blue fields, fin darker blue and pale underside. No noise, blur, texture, mottling, fragmented highlights, raster image, per-pixel paths, quantization trace or foreign resources.
+
+Manually authored coordinates from visual observation only. This task explicitly overrides the dual-profile default: one short case, v1 plus at most one evidence-led local revision. Save real source, SVG, renders and limitations; do not claim user acceptance or cross-model proof.
+
+Reference observations: left eye center near (213,776), right near (644,927), each approximately 105 by 210 screen units tilted clockwise. Main blue curl rises from upper bangs near x490,y278 and sweeps left to x208,y87. White frill follows the sloping hair crown and right head edge. Bow is behind right side hair near (1051,833). Dark pointed whale fin extends from behind it toward (1255,1110), with a pale lower edge. Coordinates are visual estimates, not imported geometry.
+
+Source prompt influence: Aikon's translated short prompt (Grokbot Icon by @multi_serio_ai, CC BY-NC 4.0 as documented in skills/aikon/references/prompts/source-short.zh-CN.md) informs capsule eyes and close crop. Current reference and explicit user constraints override source flat/no-gloss/black-background and nominal eye aspect ratio. No source text is reproduced in the artwork.

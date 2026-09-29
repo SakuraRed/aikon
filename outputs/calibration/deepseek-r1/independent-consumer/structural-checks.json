@@ -1,0 +1,17 @@
+{
+  "svg_paths": 37,
+  "gradients": 11,
+  "no_image_filter_pattern_script": true,
+  "transparent_top_right_rgba": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "fully_transparent_pixels": 470474,
+  "fully_opaque_pixels": 1164515,
+  "fractional_alpha_pixels": 3411,
+  "alpha_note": "Fractional alpha count includes antialiased silhouette boundaries; no complete per-material interior audit performed.",
+  "renderer": "resvg-py 0.5.0 via tools/render_svg.py",
+  "visual_acceptance": "pending root/user comparison; numeric render checks are not style acceptance"
+}
